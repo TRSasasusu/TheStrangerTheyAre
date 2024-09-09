@@ -1,0 +1,415 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>ANGLERS_EYE</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>ANGLERS_EYE_MAIN</ID> <!-- The ID of this entry -->
+        <Name>Angler's Eye</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+        <IgnoreMoreToExplore/> <!-- Don't show a "more to explore" icon -->
+		
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>ANGLERS_EYE_MAIN_R</ID> <!-- The ID of this fact -->
+            <RumorName>UFO Destination</RumorName> <!-- The name of the rumor this fact relates to -->
+			<SourceID>HEARTH_SLATE</SourceID>
+            <Text>According to a vision I saw on Timber Hearth, the ship flew towards present-day Dark Bramble. Slate told me to investigate the area.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>ANGLERS_EYE_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>Angler's Eye is Dark Bramble's hidden moon. It has a natural cloak and several Stranger-styled homes.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+		<Entry>
+			<!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+			<ID>ANGLERS_EYE_HURRICANE</ID>
+			<!-- The ID of this child entry -->
+			<Name>Hurricane</Name>
+			<!-- The name of this child entry -->
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+			<!-- The curiosity of this child entry -->
+			<RumorFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>ANGLERS_EYE_MAIN_HURRICANE_R1</ID>
+				<SourceID>ANGLERS_EYE_MAIN</SourceID>
+				<!-- The ID of this fact -->
+				<Text>I found a hurricane on the south pole of Angler's Eye! If only there was some safe way to enter...</Text>
+				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+			</RumorFact>
+
+			<RumorFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>ANGLERS_EYE_MAIN_HURRICANE_R2</ID>
+				<SourceID>ANGLERS_EYE_DBMUSEUM</SourceID>
+				<!-- The ID of this fact -->
+				<Text>According to a message written in the basement of the Bramble Museum, there is a Bramble Seed located in the South Pole, likely within the hurricane.</Text>
+				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+			</RumorFact>
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>ANGLERS_EYE_MAIN_HURRICANE_E2</ID>
+				<!-- The ID of this fact -->
+				<Text>According to a message written in the Dark Bramble Simulation, you can only enter the Bramble Seed if you take a picture of it before entering.</Text>
+				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+			</ExploreFact>
+		</Entry>
+
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_ALIENTEXT</ID> <!-- The ID of this child entry -->
+            <Name>Alien Language</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <RumorFact>
+                <ID>ANGLERS_EYE_ALIENTEXT_R</ID>
+                <RumorName>Alien Language</RumorName>
+                <Text>An alien language is used throughout the planet that is identical the writings seen on The Stranger. If only there was some way to learn the language in less than 22 minutes...</Text>
+            </RumorFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_ALIENTEXT_E1</ID>
+                <Text>An alien language is used throughout the planet that is identical the writings seen on The Stranger.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_ALIENTEXT_E2</ID>
+                <Text>With the help of the Vision Torch, I can now read the language of The Strangers' Inhabitants!</Text>
+            </ExploreFact>
+        </Entry>
+		
+		<Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_SIMSECRET</ID> <!-- The ID of this child entry -->
+            <Name>Simulation Secret Path Reel</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <RumorFact>
+                <ID>ANGLERS_EYE_SIMSECRET_R</ID>
+				<SourceID>ANGLERS_EYE_SIGNALHOUSE</SourceID>
+                <RumorName>Signal House Slide Reel</RumorName>
+                <Text>I found a slide reel in the locked room in the Signal House!</Text>
+            </RumorFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_SIMSECRET_E</ID>
+                <Text>This slide reel shows how to get to a hidden area in the simulation on The Stranger. It seems to be by the balcony outside the prison entrance.</Text>
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+			<ID>ANGLERS_EYE_STORYREEL</ID>
+			<!-- The ID of this child entry -->
+			<Name>Angler's Eye Story Reel</Name>
+			<!-- The name of this child entry -->
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+			<!-- The curiosity of this child entry -->
+
+			<!-- Create some facts for this child entry -->
+			<RumorFact>
+				<ID>ANGLERS_EYE_STORYREEL_R</ID>
+				<SourceID>ANGLERS_EYE_THEATRE</SourceID>
+				<RumorName>Signal House Slide Reel</RumorName>
+				<Text>I found a slide reel in the Angler's Eye Theater!</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_STORYREEL_E</ID>
+				<Text>The slide reel shows an inhabitant using a vision torch to project some sort of terraform plan. He and two other inhabitants leave The Stranger and ended up crashing by Dark Bramble.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+			<ID>ANGLERS_EYE_CRASHSITE</ID>
+			<!-- The ID of this child entry -->
+			<Name>Crash Site</Name>
+			<!-- The name of this child entry -->
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+			<!-- The curiosity of this child entry -->
+
+			<!-- Create some facts for this child entry -->
+			<RumorFact>
+				<ID>ANGLERS_EYE_CRASHSITE_R</ID>
+				<SourceID>ANGLERS_EYE_STORYREEL</SourceID>
+				<RumorName>Crash Site?</RumorName>
+				<Text>The group of inhabitants on the slide reel crashed on Angler's Eye somewhere. Could there be a crash site somewhere?</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_CRASHSITE_E1</ID>
+				<Text>I found the crash site! Strangely, the ship is missing, but there is a plank of text lying there.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_CRASHSITE_E2</ID>
+				<Text>The text at the crash site says the temperatures here are bearable, allowing the three inhabitants seen in the reels to survive for quite a while, with the help of emergency trees.</Text>
+			</ExploreFact>
+		</Entry>
+        
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_SIGNALHOUSE</ID> <!-- The ID of this child entry -->
+            <Name>Signal House</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <ExploreFact>
+                <ID>ANGLERS_EYE_SIGNALHOUSE_SIGNAL</ID>
+                <Text>A signal is being emitted by some sort of signal tower on the north pole of Angler's Eye.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_SIGNALHOUSE_SIGNAL1F</ID>
+                <Text>On the first floor of the signal house, there are several wires and a big interface in the middle.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_SIGNALHOUSE_SIGNALREVEAL</ID>
+                <Text>One of the texts on the wall reveals that the purpose of this station was to locate and contact The Stranger.</Text>
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+			<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED</ID>
+			<Name>Signal House Second Floor</Name>
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+
+			<RumorFact>
+				<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED_R</ID>
+				<RumorName>Secret Code</RumorName>
+				<SourceID>ANGLERS_EYE_SIGNALHOUSE</SourceID>
+				<Text>I can't get into the second floor of the Signal House! The entrance requires some sort of code for entry.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED1</ID>
+				<Text>I unlocked the door to the second floor. There is a desk with a strange artifact and some writing on it.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED2</ID>
+				<Text>The text on the second floor's desk states that the Strangers that were living here, the text indicating that there was more than one person involved. It also mentions the importance of an object from the mines on their quest back to their home system.</Text>
+			</ExploreFact>
+		</Entry>
+
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_DBMUSEUM</ID> <!-- The ID of this child entry -->
+            <Name>Dark Bramble Museum</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM</ID>
+                <Text>A museum dedicated to Dark Bramble is seen near the north pole.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM_ROCK</ID>
+                <Text>A giant, heavy boulder is blocking the side entrance to the basement.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM_DBEXHIBIT</ID>
+                <Text>The exhibit to the left is a model of Dark Bramble, both before and after the invasive Bramble Plant outgrew it.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM_ANGLEREXHIBIT</ID>
+                <Text>The exhibit straight ahead is a model of an Anglerfish. Their habitat is normally in the deep sea, but when the Bramble Plant grew, they were sent to the pocket dimensions within Dark Bramble.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM_VINEEXHIBIT</ID>
+                <Text>The exhibit to the right contains the minerals abundant on Angler's Eye preventing a Bramble Vine from growing any further. It's the only way to halt its growth, but there are mentions of effects on the pocket dimensions within it.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM_SIMROOM1</ID>
+                <Text>An eerie, green fire and some beds lie in the basement of the Dark Bramble Museum.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_DBMUSEUM_SIMROOM2</ID>
+                <Text>According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.</Text>
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>ANGLERS_EYE_THEATRE</ID>
+			<Name>Angler's Eye Theater</Name>
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>ANGLERS_EYE_THEATRE_E</ID>
+				<!-- The ID of this fact -->
+				<Text>There is a Theater House on Angler's Eye for the purpose of watching slide reels.</Text>
+			</ExploreFact>
+		</Entry>
+		
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_POEM</ID> <!-- The ID of this child entry -->
+            <Name>Poem</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+			<RumorFact>
+				<ID>ANGLERS_EYE_POEM_R</ID>
+				<RumorName>Secret Code</RumorName>
+				<SourceID>ANGLERS_EYE_SIGNALHOUSE_LOCKED</SourceID>
+				<Text>I can't get into the second floor of the Signal House! The entrance requires some sort of code for entry.</Text>
+			</RumorFact>
+			
+            <ExploreFact>
+                <ID>ANGLERS_EYE_POEM_FIND</ID>
+                <Text>I found a poem in one of the houses in Angler's Eye. It seemed unfinished.</Text>
+            </ExploreFact>
+
+            <RumorFact>
+                <ID>ANGLERS_EYE_POEM_P1</ID>
+				<SourceID>ANGLERS_EYE_RD</SourceID>
+                <Text>The first stanza in the Research House is "For our old world to be revived, get these things and it shall thrive. There is an order it shall follow, or it will stay dead and hollow. First things first, go get a seed. Then search elsewhere for the rest you need".</Text>
+            </RumorFact>
+
+            <RumorFact>
+                <ID>ANGLERS_EYE_POEM_P2</ID>
+				<SourceID>ANGLERS_EYE_CONSERVATORY</SourceID>
+                <Text>The second stanza in the Conservatory is "Obtain some water above the sky, from the Ringed Giant way up high".</Text>
+            </RumorFact>
+
+			<RumorFact>
+                <ID>ANGLERS_EYE_POEM_P3A</ID>
+				<SourceID>ANGLERS_EYE_THEATRE</SourceID>
+                <Text>The third stanza in the Theater House is "With those two things, fresh air will flourish, so plants and animals can thrive and nourish".</Text>
+            </RumorFact>
+
+			<RumorFact>
+                <ID>ANGLERS_EYE_POEM_P3B</ID>
+				<SourceID>ANGLERS_EYE_THEATRE</SourceID>
+                <Text>The fourth stanza in the Theater House is "The seeds grow on a crescent moon. Air can spark fires, green or maroon".</Text>
+            </RumorFact>
+
+			<RumorFact>
+                <ID>ANGLERS_EYE_POEM_P4</ID>
+				<SourceID>ANGLERS_EYE_DBMUSEUM</SourceID>
+                <Text>The fifth stanza in the Bramble Museum's Basement is "Fourth, keep out a watchful eye. Make sure our offspring does not die".</Text>
+            </RumorFact>
+
+			<RumorFact>
+                <ID>ANGLERS_EYE_POEM_P5</ID>
+				<SourceID>ANGLERS_EYE_SIGNALHOUSE</SourceID>
+                <Text>The sixth and final stanza in the Signal House is "Input these poems as a secret code, but put a star in the fifth node".</Text>
+            </RumorFact>
+        </Entry>
+
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_CONSERVATORY</ID> <!-- The ID of this child entry -->
+            <Name>Conservatory</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <ExploreFact>
+                <ID>ANGLERS_EYE_CONSERVATORY_DISCOVER</ID>
+                <Text>The Conservatory building consists of a few empty fish tanks and a handful of trees.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_CONSERVATORY_PROTOHEARTHIAN_1</ID>
+                <Text>Just like I saw on the Timber Hearth slide reel, the inhabitants on this planet survived off of eating Hearthians when we were still just fish.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_CONSERVATORY_PROTOHEARTHIAN_2</ID>
+                <Text>According to a message written on the Conservatory's desk, they found out about the Hearthian future, and knew that I would come here.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_CONSERVATORY_INFO</ID>
+                <Text>According to a message on the second floor, the purpose of the Conservatory is meant to produce healthy seeds for the terraform plan.</Text>
+            </ExploreFact>
+        </Entry>
+
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_MINE</ID> <!-- The ID of this child entry -->
+            <Name>Mining Hole</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <ExploreFact>
+                <ID>ANGLERS_EYE_MINE_DISCOVER</ID>
+                <Text>There is a mining hole not far from the south pole. A pickaxe and several rocks are seen there.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_MINE_TEXT</ID>
+                <Text>The text at the bottom of the hole says that it was to get resources for The Stranger's cloaking device. It can also be used as fuel.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_MINE_MINERAL</ID>
+                <Text>There is a mineral at the bottom of the mines that can be picked up.</Text>
+            </ExploreFact>
+        </Entry>
+
+        <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>ANGLERS_EYE_RD</ID> <!-- The ID of this child entry -->
+            <Name>Research House</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_TEXT1</ID>
+                <Text>50 days after arriving, the author of the writing returned to The Stranger.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_TEXT2</ID>
+                <Text>Disturbed at what they found, this inhabitant returned to Angler's Eye after finding their kind dead, trapped in the simulation.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_TERRAPLAN</ID>
+                <Text>A picture on the first floor's table shows the home moon of the Stranger's Inhabitants. The Stranger is X'd out, and other icons are sketched out.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_TERRAPLAN_TEXT1</ID>
+                <Text>To the left of the picture, the text says that the picture was a plan to terraform their home moon, and that doing so isn't impossible.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_TERRAPLAN_TEXT2</ID>
+                <Text>To the right of the picture, the text says that for whatever reason, The Stranger cannot be used. Water can be extracted from the Teal-Ringed Giant, and trees and transport are necessary.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_ORBIT</ID>
+                <Text>A picture on the second floor shows the orbit of Angler's Eye.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_ORBIT_TEXT1</ID>
+                <Text>Angler's Eye has a slow, elongated orbit around Dark Bramble and into the far outskirts of the Solar System. That must be why neither we nor The Nomai noticed the oddity before.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_ORBIT_TEXT2</ID>
+                <Text>The minerals on Angler's Eye were used to gain resources for The Stranger.</Text>
+            </ExploreFact>
+            
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_ORBIT_TEXT3</ID>
+                <Text>Most of the base is located on the north pole. It's possible to enter the south pole hurricane in some way.</Text>
+            </ExploreFact>
+
+            <ExploreFact>
+                <ID>ANGLERS_EYE_RD_ORBIT_TEXT4</ID>
+                <Text>70 days after arriving, this inhabitant discovered that Angler's Eye may have originated from a collision with The Eye, and orbits both it and Dark Bramble. Due to its incredibly slow orbit, it's best I find some other way of reaching The Eye.</Text>
+            </ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

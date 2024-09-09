@@ -1,0 +1,33 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>The Scientist</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>Start</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>I may have lost my friends, my children, and sometimes even my sanity, but despite that, I pushed forward and I made my dreams come true.</Page> <!-- A single page of the dialogue -->
+	  <Page>From what my brother has learned about The Eye, it is a tool of sacrifice. He knew that our kind was doomed once we boarded The Stranger, so he thought it was time.</Page>
+	  <Page>Little did he know, the universe is bigger and contains more intelligent life than he thought, so it would be unfair to end their lives too.</Page>
+	  <Page>But you? You activated The Eye at the perfect time. The Universe was already dying, and it was calling for you to end its misery and fill its remains with new life.</Page>
+	  <Page>I hope you can forgive my ancestors and I for blocking the signal, eating your primitive ancestors to survive, and killing a whole clan of Nomai.</Page>
+	  <Page>What few members of my kind know is that everyone has their flaws, including myself. Instead of attacking them for offending you or impeding on your values, put those feelings aside and focus on unity and brotherhood.</Page>
+	  <Page>So thank you Hatchling, thank you for admiring my work. Now let's get ready to set this new universe in stone!</Page>
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Very well said! Let's continue to press forward!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Right on, Hatchling! Us explorers must always stick together!</Page>
+	  <ConditionToSet>SCI_TRIGGERPLAY</ConditionToSet>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

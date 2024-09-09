@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table3</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>OBSERVATION 3: The universe is about to die. Our neighbor star where our ancestors' old ship lies, it will die 11 minutes before our star dies. We have plenty of time to leave, but we don't want to leave home. We'd rather die with it, unlike our ancestors did.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_OBSERVE_TEXT3</FactID>
+			<FactID>SYSTEM_DEATH</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Day 100: The mineral's side effects not only turn the dimension's fog black, but also give the anglerfish an interesting property. Turns out, they change location each time you look away.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>DARKER_BASE_QUANTUM</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

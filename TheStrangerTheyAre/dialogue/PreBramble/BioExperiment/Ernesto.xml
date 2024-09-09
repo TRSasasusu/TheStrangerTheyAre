@@ -1,0 +1,11 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Ernesto</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Originating from this planet, Anglerfish are some of this star system's toughest organisms. In this tank is a male Anglerfish, which are ten times smaller than a female. Males are always very hungry, and are always looking for a female to latch onto.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_AnglerExhibit</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>These are Anglerfish, an omnivorous species of deep sea fish that can handle extreme environments. They naturally appear in deep parts of the fifth planet's subsurface ocean. They also end up in Bramble Seed pocket dimensions, because the invasive plant started growing at the bottom of the ocean.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_DBMUSEUM_ANGLEREXHIBIT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,56 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Cypress</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>Start</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>It's.....beautiful...No wonder our kind destroyed our homeworld to get to it...</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I know, right?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Eh.</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Yeah, there's no word that can perfectly describe it.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Right on! Let's head down there, shall we?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>2</Name>
+  <Dialogue>
+   <Page>...Eh? That's it? Were you here before or something?</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>No but I expected better. Let's just head on down.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+  <DialogueNode>
+  <Name>3</Name>
+  <Dialogue>
+   <Page>Alright Hatchling, lead the way!</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

@@ -1,0 +1,268 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Eye Of The Universe",
+	"starSystem": "EyeOfTheUniverse",
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_EyeSurface.prefab",
+				"position": {
+					"x": 8.7759,
+					"y": -220.6637,
+					"z": -2.0116
+				},
+				"rotation": {
+					"x": 24.7551,
+					"y": 278.5947,
+					"z": 358.1162
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/SystemModel.prefab",
+				"position": {
+					"x": -1403.276,
+					"y": 5.7536,
+					"z": 5990.243
+				},
+				"rotation": {
+					"x": 355.5758,
+					"y": 249.8728,
+					"z": 0.2675
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_EyeIdle.prefab",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"isRelativeToParent": true,
+				"deactivationCondition": "SCI_TRIGGERPLAY",
+				"position": {
+					"x": -1.3437,
+					"y": 0.0174,
+					"z": 3.7894
+				},
+				"rotation": {
+					"y": 173.6718
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_EyePlayInst.prefab",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"isRelativeToParent": true,
+				"activationCondition": "SCI_TRIGGERPLAY",
+				"position": {
+					"x": -1.3437,
+					"y": 0.0174,
+					"z": 3.7894
+				},
+				"rotation": {
+					"y": 173.6718
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_Vessel1.prefab",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 4.0357,
+					"y": 4.5635,
+					"z": 11.0596
+				},
+				"rotation": {
+					"y": 215.3546
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/Tube_Mineral.prefab",
+				"position": {
+					"x": -1401.992,
+					"y": -0.2370346,
+					"z": 6006.308
+				},
+				"rotation": {
+					"x": 2.708753,
+					"y": 347.7468,
+					"z": 0.4329478
+				}
+			},
+			{
+				"path": "Sector_TH/Sector_QuantumGroveEntrance/Lighting_QuantumGroveEntrance/Props_HEA_MuseumPlaque",
+				"rename": "Mineral_Sign",
+				"removeChildren": [
+					"InteractVolume"
+				],
+				"position": {
+					"x": -1403.865,
+					"y": -0.3357167,
+					"z": 6007.788
+				},
+				"rotation": {
+					"x": 2.739736,
+					"y": 335.8183,
+					"z": 359.864
+				}
+			},
+			{
+				"path": "Sector_TH/Sector_QuantumGroveEntrance/Lighting_QuantumGroveEntrance/Props_HEA_MuseumPlaque",
+				"rename": "System_Sign",
+				"removeChildren": [
+					"InteractVolume"
+				],
+				"position": {
+					"x": -1405.08,
+					"y": -0.3463258,
+					"z": 5992.669
+				},
+				"rotation": {
+					"x": 357.2773,
+					"y": 39.56635,
+					"z": 359.6745
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/RingedLaboratory_EYE.prefab",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/OriginalPlacement/Prefab_IP_VisiblePlanet/VisiblePlanet_Pivot/visibleplanet_surface",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 2.5483,
+					"y": 2514.263,
+					"z": -6.0413
+				},
+				"rotation": {
+					"y": 180
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/PlanetWithLab_EYE.prefab",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 37.5618,
+					"y": 2514.263,
+					"z": -55.3086
+				},
+				"rotation": {
+					"y": 270
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/BeforeVortex/DescendantSurface.xml",
+				"parentPath": "Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_EyeSurface",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantCampfire.xml",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/Scientist.xml",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyeIdle",
+				"isRelativeToParent": true,
+				"rename": "EYE_ScientistIntro",
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/Museum/SystemModel.xml",
+				"parentPath": "Sector_EyeOfTheUniverse/System_Sign",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 1
+				}
+			},
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/Museum/Mineral.xml",
+				"parentPath": "Sector_EyeOfTheUniverse/Mineral_Sign",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 1
+				}
+			}
+		],
+		"signals": [
+			{
+				"audio": "assets/Audio/NewTravelerSolo.ogg",
+				"onlyAudibleToScope": false,
+				"volume": 1,
+				"frequency": "Traveler",
+				"name": "SCIENTIST",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyePlayInst",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 1
+				}
+			},
+			{
+				"audio": "assets/Audio/NewTravelerSolo.ogg",
+				"onlyAudibleToScope": false,
+				"volume": 1,
+				"frequency": "Traveler",
+				"name": "SCIENTIST",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/RingedLaboratory_EYE",
+				"sourceRadius": 100,
+				"isRelativeToParent": true
+			},
+			{
+				"audio": "assets/Audio/NewTravelerSolo.ogg",
+				"onlyAudibleToScope": false,
+				"volume": 1,
+				"frequency": "Traveler",
+				"name": "SCIENTIST",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PlanetWithLab_EYE/RingedLaboratory_Eye",
+				"sourceRadius": 100,
+				"isRelativeToParent": true
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/OlderThanTheUniverse.ogg",
+				"rename": "EyeAudio_Intro1",
+				"radius": 20,
+				"priority": 0,
+				"track": "music",
+				"clipSelection": "sequential",
+				"pauseOnFadeOut": false,
+				"noFadeFromBeginning": true,
+				"randomizePlayhead": false,
+				"position": {
+					"x": 11.47593,
+					"y": -219.6855,
+					"z": -2.011611
+				}
+			},
+			{
+				"audio": "assets/Audio/OlderThanTheUniverse2.ogg",
+				"radius": 1800,
+				"rename": "EyeAudio_Intro2",
+				"priority": 1,
+				"clipSelection": "sequential",
+				"track": "music",
+				"randomizePlayhead": false,
+				"position": {
+					"x": -7.0422,
+					"y": -2035.43,
+					"z": -5.2855
+				}
+			}
+		]
+	}
+}

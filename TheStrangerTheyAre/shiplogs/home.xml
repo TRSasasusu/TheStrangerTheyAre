@@ -1,0 +1,80 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Homeworld</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>HOME</ID> <!-- The ID of this entry -->
+        <Name>Strangers' Homeworld</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>HOME_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>HOME_R</ID> <!-- The ID of this fact -->
+            <RumorName>Home Moon?</RumorName> <!-- The name of the rumor this fact relates to -->
+			<SourceID>LAB_TERRA</SourceID>
+			<Text>If the Scientist's terraform is complete and I made it to the Ringed Giant, The Strangers' Home Moon is not far off!</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+		<ExploreFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>HOME_REVEAL</ID> <!-- The ID of this fact -->
+            <Text>I found the Homeworld of the Strangers Inhabitants!</Text> <!-- The Text to display for this fact -->
+        </ExploreFact>
+
+		<Entry>
+			<ID>HOME_PARTYHOUSE</ID>
+			<Name>Leader's Corridor</Name>
+			<Curiosity>HOME_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>HOME_PARTYHOUSE_R</ID>
+				<RumorName>Party House?</RumorName>
+				<SourceID>HOME</SourceID>
+				<Text>I see a building similar to the "Party House" in the Simulation.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>HOME_PARTYHOUSE_E</ID>
+				<Text>Inside the house are a bunch of high-ranking inhabitants, and what appears to be a leader sitting in a chair.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_PARTYHOUSE_VISIONTORCH</ID>
+				<Text>A vision torch appears to be hung right next to the Leader.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_VESSEL</ID>
+				<Text>I used The Vessel to warp to The Stranger System! Now let's end this.</Text>
+			</ExploreFact>
+		</Entry>
+		
+		<Entry>
+			<ID>HOME_LEADER</ID>
+			<Name>Cypress</Name>
+			<Curiosity>HOME_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>HOME_LEADER_R</ID>
+				<RumorName>Stubborn Leader</RumorName>
+				<SourceID>HOME_PARTYHOUSE</SourceID>
+				<Text>I tried to speak to the leader, but they told me to go back home. What now?</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>HOME_VISION</ID>
+				<Text>I told the leader everything I know with a Vision Torch!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_LEADER_E</ID>
+				<Text>The leader's name is Cypress and he's a distant descendant of The Scientist.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_LEADER_VESSEL</ID>
+				<Text>I was able to convince Cypress to come with me aboard The Vessel! Let's get going!</Text>
+			</ExploreFact>
+		</Entry>
+    </Entry>
+</AstroObjectEntry>

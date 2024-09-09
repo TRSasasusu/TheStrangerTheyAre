@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table2</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>OBSERVATION 2: A ghostly moon with a similar atmosphere as this moon changes its orbit according to each planet. It leaves view sometimes to reach a sixth location, possibly the vortex. Could both the cloaked and ghostly moons be evil twins of one another?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_OBSERVE_TEXT2</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

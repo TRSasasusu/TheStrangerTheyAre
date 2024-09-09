@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>1F_MineralExhibit</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Our Scientist brought this mineral with him on his trip back from that cloaked moon. Please do not touch!</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_SCI_DBMUSEUM_MINERAL</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

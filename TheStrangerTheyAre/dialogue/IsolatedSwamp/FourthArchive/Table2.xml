@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table2</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>It doesn't matter what they do in this simulation, they will never forget what happened, they will always feel guilty for their past, and things will never be the same. Why suffer with these feelings for all eternity? So I built a place where they can stay in "sleep mode" forever, their code disabled for as long as they wish. Once it was finished, most of the clan, even our leader came over to achieve a coma-like state! I did what I could do to set things right in this simulation, but I must remember, I am still of my kind.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_ARCHIVE_TEXT2</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

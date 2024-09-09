@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>My children, may you forever be remembered. The oldest passed on that cloaked moon. My youngest, only an infant, passed away on my kind's ship. Both died due to lack of nutrients that our kin's ship lacked.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>LAB_MEM</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

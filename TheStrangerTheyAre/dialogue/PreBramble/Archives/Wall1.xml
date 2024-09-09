@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Day 99: Just started to map out these pocket dimension. Thankfully I scanned the lighted node with my vision torch, because there's no way out! That dimension is a trap!</Page>
+		</Dialogue>
+	</DialogueNode>
+		<RevealFacts>
+			<FactID>DARKER_BASE_MAP1</FactID>
+		</RevealFacts>
+</DialogueTree>

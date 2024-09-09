@@ -1,0 +1,195 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Strangers' Homeworld",
+	"starSystem": "StrangerSystemCinematic",
+	"isQuantumState": true,
+	"AmbientLights": [
+		{
+			"intensity": 1.4,
+			"innerRadius": 180,
+			"outerRadius": 450
+		}
+	],
+	"Atmosphere": {
+		"size": 500,
+		"atmosphereSunIntensity": 1,
+		"hasOxygen": true,
+		"hasTrees": true,
+		"hasShockLayer": true,
+		"atmosphereTint": {
+			"r": 25,
+			"g": 154,
+			"b": 252,
+			"a": 0
+		},
+		"fogSize": 500,
+		"fogTint": {
+			"r": 25,
+			"g": 154,
+			"b": 252,
+			"a": 0
+		}
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"alignRadial": true,
+			"position": {
+				"x": 198.7714,
+				"y": 26.80558,
+				"z": -142.4062
+			}
+		},
+		"shipSpawn": {
+			"alignRadial": true,
+			"position": {
+				"x": 198.7714,
+				"y": 26.80558,
+				"z": -142.4062
+			}
+		}
+	},
+	"Base": {
+		"surfaceGravity": 14,
+		"surfaceSize": 200
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Water": {
+		"size": 179,
+		"tint": {
+			"r": 13,
+			"g": 49,
+			"b": 74,
+			"a": 0
+		}
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"blueTile": {
+			"textureTile": "assets/Texture/cliffs.png",
+			"normalTile": "assets/Texture/cliffs_n.png",
+			"size": 5
+		},
+		"greenTile": {
+			"textureTile": "assets/Texture/grass.png",
+			"normalTile": "assets/Texture/grass_normal.png",
+			"size": 5
+		},
+		"resolution": 1024,
+		"heightMap": "assets/Texture/homemoon_h.png",
+		"tileBlendMap": "assets/Texture/homemoon_rt4.png",
+		"textureMap": "assets/Texture/homemoon_lod.png",
+		"minHeight": 170,
+		"maxHeight": 210
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"keepLoaded": true,
+				"path": "Assets/Generic_House_A.prefab",
+				"position": {
+					"x": 111.6774,
+					"y": 85.772,
+					"z": 116.0817
+				},
+				"rotation": {
+					"x": 293.9825,
+					"y": 210.1614,
+					"z": 11.6628
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"keepLoaded": true,
+				"path": "Assets/Generic_House_B.prefab",
+				"position": {
+					"x": 117.9812,
+					"y": 121.7148,
+					"z": 77.8748
+				},
+				"rotation": {
+					"x": 331.3208,
+					"y": 169.3365,
+					"z": 43.796
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"keepLoaded": true,
+				"path": "Assets/BrambleMuseum_HOME.prefab",
+				"position": {
+					"x": -178.6292,
+					"y": -54.9642,
+					"z": 18.0572
+				},
+				"rotation": {
+					"x": 286.7604,
+					"y": 273.2753,
+					"z": 184.1799
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"keepLoaded": true,
+				"path": "Assets/ObservationDeck_HOMEWORLD.prefab",
+				"position": {
+					"x": -44.8236,
+					"y": -94.6909,
+					"z": -207.2792
+				},
+				"rotation": {
+					"x": 8.8658,
+					"y": 101.3424,
+					"z": 246.4354
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"keepLoaded": true,
+				"path": "Assets/EntryAndPartyHouse.prefab",
+				"position": {
+					"x": 160.7575,
+					"y": 62.5612,
+					"z": -117.2438
+				},
+				"rotation": {
+					"x": 89.761,
+					"y": 338.7487,
+					"z": 213.7283
+				}
+			}
+		],
+		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveLarge.prefab",
+				"keepLoaded": true,
+				"count": 130,
+				"seed": 0
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveMed.prefab",
+				"keepLoaded": true,
+				"count": 150,
+				"seed": 32
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveMedStraight.prefab",
+				"keepLoaded": true,
+				"count": 150,
+				"seed": 64
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveSmall.prefab",
+				"keepLoaded": true,
+				"count": 50,
+				"seed": 128
+			}
+		]
+	}
+}

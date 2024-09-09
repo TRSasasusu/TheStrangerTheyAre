@@ -1,0 +1,232 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Burning Bombardier",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"AmbientLights": [
+		{
+			"intensity": 2,
+			"innerRadius": 100,
+			"outerRadius": 130,
+			"tint": {
+				"r": 255,
+				"g": 40,
+				"b": 12,
+				"a": 0
+			}
+		}
+	],
+	"Atmosphere": {
+		"size": 200,
+		"hasShockLayer": true,
+		"atmosphereTint": {
+			"r": 252,
+			"g": 40,
+			"b": 12,
+			"a": 0
+		},
+		"fogSize": 130,
+		"fogTint": {
+			"r": 252,
+			"g": 40,
+			"b": 12,
+			"a": 0
+		}
+	},
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 100
+	},
+	"MapMarker": {
+        "enabled": true
+    },
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/magma.png",
+			"normalTile": "assets/Texture/magma_n.png",
+			"smoothnessTile": "assets/Texture/magma_h.png",
+			"size": 20
+		},
+        "blueTile": {
+			"textureTile": "assets/Texture/volcanorock.png",
+			"normalTile": "assets/Texture/volcanorock_n.png",
+			"smoothnessTile": "assets/Texture/volcanorock_h.png",
+			"size": 20
+		},
+        "textureMap": "assets/Texture/crimsonmoon_lod.png",
+        "heightMap": "assets/Texture/crimsonmoon_hm.png",
+		"tileBlendMap": "assets/Texture/crimsonmoon_r.png",
+		"minHeight": 70,
+		"maxHeight": 120
+	},
+	"Volumes": {
+		"hazardVolumes": [
+			{
+				"damagePerSecond": 5,
+				"radius": 96,
+				"firstContactDamage": 10,
+				"type": "fire"
+			}
+		]
+	},
+	"Lava": {
+		"size": 80,
+		"curve": [
+			{
+				"time": 0,
+				"value": 0.9
+			},
+			{
+				"time": 2,
+				"value": 1
+			},
+			{
+				"time": 5,
+				"value": 1.05
+			},
+			{
+				"time": 20,
+				"value": 1.1
+			},
+			{
+				"time": 32,
+				"value": 1.15
+			},
+			{
+				"time": 33,
+				"value": 1
+			}
+		]
+	},
+	"Props": {
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/CrimsonMoon/1F_Wall1.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/1F_Wall2.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/1F_Wall3.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/1F_Wall4.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall4/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/1F_Wall5.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall5/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/2F_Wall1.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/2F_Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/2F_Wall2.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/2F_Wall2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/CrimsonMoon/2F_Table.xml",
+				"parentPath": "Sector/MilitaryBase/Interactables/Text/2F_Table/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"volcanoes": [
+			{
+				"minInterval": 0.1,
+				"minLaunchSpeed": 200,
+				"maxInterval": 1.5,
+				"maxLaunchSpeed": 500,
+				"alignRadial": true,
+				"position": {
+					"x": 47.11715,
+					"y": -1.289299,
+					"z": 76.6702
+				}
+			},
+			{
+				"minInterval": 0.1,
+				"minLaunchSpeed": 200,
+				"maxInterval": 1.5,
+				"maxLaunchSpeed": 500,
+				"alignRadial": true,
+				"position": {
+					"x": -89.9201,
+					"y": -0.9176328,
+					"z": 3.678655
+				}
+			},
+			{
+				"minInterval": 0.1,
+				"minLaunchSpeed": 200,
+				"maxInterval": 1.5,
+				"maxLaunchSpeed": 500,
+				"alignRadial": true,
+				"position": {
+					"x": 35.30185,
+					"y": 3.832131,
+					"z": -60.3249
+				}
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/MilitaryBase.prefab",
+				"position": {
+					"x": 95.3077,
+					"y": 26.7912,
+					"z": -0.0179
+				},
+				"rotation": {
+					"x": 73.7949,
+					"y": 68.6953,
+					"z": 339.4698
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Seals/Seal_CrimsonMoon.prefab",
+				"position": {
+					"x": 39.567,
+					"y": 29.9768,
+					"z": 68.3834
+				},
+				"rotation": {
+					"x": 22.3879,
+					"y": 308.5379,
+					"z": 293.046
+				}
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 1500,
+		"eccentricity": 0.05,
+		"primaryBody": "Velvet Vortex",
+		"isMoon": true,
+		"siderealPeriod": 1,
+		"tint": {
+			"r": 255,
+			"g": 40,
+			"b": 12
+		}
+	},
+    "ShipLog": {
+		"spriteFolder": "assets/Texture/Shiplog",
+			"mapMode": {
+				"revealedSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI.png",
+				"outlineSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI_O.png"
+			}
+	}
+}

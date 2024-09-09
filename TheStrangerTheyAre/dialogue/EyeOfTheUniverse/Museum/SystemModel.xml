@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>The Stranger's Inhabitants once lived on a lush, green moon, which they destroyed to reach The Eye.</Page>
+			<Page>Luckily, one individual stepped up and brought their dormant home back to life, and even repopulated the species!</Page>
+			<Page>Hundreds of thousands of years later, they still live in harmony in a stagnant paradise, while doing everything to make sure they don't lose their home again.</Page>
+			<Page>After destroying a Nomai Vessel and its clan, other Nomai clans reacted by putting a no-warp zone around our solar neighborhood.</Page>
+			<Page>I even convinced Cypress, the current leader of the Strangers' Homeworld, to come with me to The Eye!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

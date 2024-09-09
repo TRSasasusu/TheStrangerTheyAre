@@ -1,0 +1,684 @@
+<!-- Example Dialogue -->
+<!-- All files must have `DialogueTree` as the root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but provides improved error checking if your editor supports it -->
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>The Scientist</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>Start</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>What an incredible species you are, and what an incredible language you speak. Am I speaking your language right and do you understand me clearly?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I can hear you clearly!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>A1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>Could you speak up a little more?</Text>
+    <DialogueTarget>A2</DialogueTarget>
+   </DialogueOption>
+
+   <DialogueOption>
+    <Text>Aren't you going to snap my neck?</Text>
+    <DialogueTarget>A3</DialogueTarget>
+   </DialogueOption>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_CLONE</FactID></RevealFacts>
+  </DialogueOptionsList>
+</DialogueNode>
+
+ <DialogueNode> <!-- Another node -->
+  <Name>A1</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>Wonderful!</Page>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node -->
+  <Name>A2</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>OK HOW DOES THIS SOUND?</Page>
+  </Dialogue>
+
+  <DialogueOptionsList>
+  <DialogueOption>
+    <Text>PERFECT!</Text>
+    <DialogueTarget>AA1</DialogueTarget>
+   </DialogueOption>
+
+   <DialogueOption>
+    <Text>Too loud!</Text>
+    <DialogueTarget>AA2</DialogueTarget>
+    </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>AA1</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>*AHEM* I can't talk that loud for long without messing up my throat, so you're going to just have to listen closely...</Page>
+  </Dialogue>
+  <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>AA2</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>*AHEM* OK then.</Page>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>A3</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>I'm not violent like the others, nor do I wish to prevent people from accessing archives like my kind is doing in this simulation. I do not wish to hurt you, but I do wish to learn from you.</Page>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>StartQuestions</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>I can just see the look on your face. You want to ask me so many questions! Well, ask away!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>How are you in the simulation? I didn't see your corpse anywhere in the real world.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>B1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+
+   <DialogueOption>
+    <Text>Tell me more about you.</Text>
+    <DialogueTarget>B2</DialogueTarget>
+   </DialogueOption>
+
+   <DialogueOption>
+    <Text>Tell me about your family.</Text>
+    <DialogueTarget>B3</DialogueTarget>
+   </DialogueOption>
+   
+  <DialogueOption>
+    <Text>What was your kind like before they found The Eye?</Text>
+    <DialogueTarget>B4</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition>
+    <Text>Do you know The Prisoner? What were they like before The Eye?</Text>
+    <DialogueTarget>B5</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>Tell me more about life on The Stranger.</Text>
+    <DialogueTarget>B6</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>So you're a scientist, huh? Tell me more about the scientific achievements of your kind.</Text>
+    <DialogueTarget>B7</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>Your kind had a leader? We don't have one of those. What is a leader and what is your "leader" like?</Text>
+    <DialogueTarget>B8</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>What's up with Angler's Eye?</Text>
+    <DialogueTarget>B9</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>I'd rather tell you everything I know.</Text>
+    <DialogueTarget>StartPlayer</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>No thanks.</Text>
+    <DialogueTarget>End</DialogueTarget>
+  </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B1</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>My body is nowhere to be seen because I uploaded a clone of myself to the simulation in order to preserve myself, in case I die attempting to terraform our home moon.</Page>
+   <Page>I got uploaded before I left our ship to resume studying. I don't know whether I succeeded with the terraform, died on the way, stranded on that cloaked moon, or just plain failed.</Page>
+   <Page>Although I may be just blocks of code, I'm still me as much as the others are still them.</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_CLONEINFO</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B2</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>My name is extremely difficult to write or pronounce in your language, but you can just call me "The Scientist".</Page>
+   <Page>Before I left our ship, I was the head of the scientific committee. I was the first one to utilize green fire and invented the Vision Torch.</Page>
+   <Page>But I was only a mere puppet of our leader. I could not invent, research, or do anything at all without his command and approval.</Page>
+   <Page>I didn't want to tear down our home planet, but it was his orders. He made me build that ship regardless of how unhealthy conditions were.</Page>
+   <Page>When I left, I put my assistant in charge. The committee thought I died in the crash, and didn't bother checking.</Page>
+   <Page>And then, the simulation was built. I would have never approved of the idea, but I was better off out of there. I could have ended up imprisoned!</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_BIO</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B3</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>Ah yes, my family. There were four of us. Me, my wife, my son, and my infant daughter.</Page>
+   <Page>Our youngest was born on the ship, but due to lack of nutrients and poor atmosphere, she passed away only a week later.</Page>
+   <Page>Because of our ship's lack in nutrients, no child could grow. So when my infant daughter died, I knew I had to do something.</Page>
+   <Page>The three of us remaining left and crashed onto that cloaked moon.</Page>
+   <Page>A few days later, my son was ill. The environment of our ship also got to him.</Page>
+   <Page>Not long before I left to come back to the ship, he also ended up passing away.</Page>
+   <Page>For the plan to work, my wife and I have to survive in order to repopulate. I have no idea if either one, or both of us died, and I never will find out.</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_FAMILY</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B4</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>My kind had a deep connection with nature, something they couldn't live without on our ship.</Page>
+   <Page>Before we found that vortex in the sky, which you have called "The Eye", we lived very simple and pleasant lives.</Page>
+   <Page>We lived peacefully under the Ringed Giant rafting its rivers and counting the stars. Some of us had hobbies like building furniture, playing board games, and even fishing, which was our main source of food.</Page>
+   <Page>Most of my kind was very spiritual, some even worshipping idols and making sacrifices.</Page>
+   <Page>I was one of the few indivuals who didn't care for worship, in fact my whole family was that way.</Page>
+   <Page>It was only natural for my kind to sacrifice the planet to reach the "Eye", as you call it. After all that, we were never the same.</Page>
+   <Page>We also had animals on our home planet, but they died before we could even bring them on board.</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_EOTP</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B5</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>The one that's locked up in the catacombs of this place? I don't even want to talk about him. I will tell you this though.</Page>
+   <Page>Even I didn't agree with his actions when I heard of them. It was too early to destroy and reset the universe.</Page>
+   <Page>But despite what happened, some of us miss him deep down, back when he was a friend.</Page>
+   <Page>But please, I don't want to talk about him anymore! Just ask me something else!</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_PRISONER</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B6</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>"The Stranger"? You mean our ship? Life was terrible there.</Page>
+   <Page>We left The Stranger with 55 crew members. Many others were lost, including a popular singer. </Page>
+   <Page>By the time I got back, 20 died before the simulation was created (including my kids, excluding my wife and I). You can go to the Starlit Cove Memorial to count them.</Page>
+   <Page>You have to have seen the inside to get here, right? It may not look bad, but everywhere you look reminds you of what we did to our home moon.</Page>
+   <Page>It drove my kind insane! Especially because we found out that vortex was not what we hoped it to be. It was bad enough we didn't have enough food supply to last us.</Page>
+   <Page>But it gets worse! The poor environment caused my infant daughter to die a week after birth on that ship, and my son to die later on.</Page>
+   <Page>The atmosphere in our ship is not enough to support the healthy growth of a child or the planting of crops, and we cannot continue to live like this.</Page>
+   <Page>We don't have the technology to create a good enough ecosystem for a ship like this. There's barely any wind for trees to survive! And it wasn't even worth the sacrifice.</Page>
+   <Page>Plenty of my kind have even took their own lives due to this madness, or starved to death due to lack of food.</Page>
+   <Page>All the scientists and council members that burned the slide reels and hid the codes, all ended up ending their own lives.</Page>
+   <Page>And our eldest crew member who died in the simulation while testing, he later extinguished his artifact because it wasn't the same as our real home moon.</Page>
+   <Page>So I then built the coma hall to put their "undead" data into "sleep mode", and most of the simulation's populus came flocking over to get in it.</Page>
+   <Page>If only I could have turned them around while I still could...</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_STRANGERLIFE</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B7</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>My kind isn't really scientific, but two of our most important technologies are green fire, and light sensors. Everything's either made out of one or the other.</Page>
+   <Page>Before the green fire technology, our kind didn't have much at all. We were basically primitive.</Page>
+   <Page>And when we did discover green fire, our kind used them as drugs. So they were frowned upon for hundreds of years.</Page>
+   <Page>But then one day, my father discovered something with it, its ability to image.</Page>
+   <Page>And years later, I invented the Vision Torch, which then lead to the development of computers and telescopes, which use the fire's power.</Page>
+   <Page>And then there's light sensors, which activate our doors, rafts, and drive our ships.</Page>
+   <Page>Our ship's cloak is all natural resources we've mined from the cloaked moon. We didn't really have to configure it at all.</Page>
+    <RevealFacts>
+   		<FactID>NEWSIM_SCIENTIST_CLOAKSHIP</FactID>
+			<FactID>NEWSIM_SCIENTIST_TECH</FactID>
+		</RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B8</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>A leader is someone who rules over a group of people. We actually had up to 11 leaders, but almost always, one leader is more powerful than the rest.</Page>
+   <Page>Our most powerful leader usually wears yellow clothing, but his advisors who we deem "The Council" typically dress in red.</Page>
+   <Page>The council members at the time I left our ship was at 11, including our leader. Council members also typically wear necklaces and bracelets.</Page>
+   <Page>The color of clothing is apart of our social hierarchy. It goes from top to bottom: yellow, red, blue, gray, and brown. Necklaces and bracelets are signs of wealth and nobility.</Page>
+   <Page>However, our leader was a tyrant since we found that vortex. He doesn't listen to his advisors, and may even imprison those who defy him.</Page>
+   <Page>Those who refused to board the ship to reach the vortex were left home to starve, including one of our famous singers. Leaving home was truly a terrifying day.</Page>
+   <Page>If only he listened to my warnings about building the ship, destroying our homeworld, and even the plan to terraform it back after.</Page>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_LEADER</FactID></RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- Another node -->
+  <Name>B9</Name> <!-- Name of the node -->
+  <!-- (Note the lack of an EntryCondition) -->
+  <Dialogue>
+   <Page>Angler's Eye? If you're talking about the cloaked moon, then I like what you named it.</Page>
+   <Page>When we discovered what the vortex would do to our universe, we went there to mine out minerals for our ship's cloak.</Page>
+   <Page>We found it when we were scanning the other planets in your system, but we predicted the trajectory wrong.</Page>
+   <Page>For the terraforming plan, I was told by The Council to check to see if our homeworld was able to be terraformed, but we ended up crashing into the cloaked moon on our way there.</Page>
+   <Page>The crash happened due to our false assumptions about its orbit. Turns out, this was not only a moon of the fifth planet, but also the vortex. It orbits the two bodies every 400,000 years.</Page>
+   <Page>As my time on the cloaked moon went on, I found out that it was an "evil twin" of the mysterious moon that changes its orbits.</Page>
+   <Page>It has a dangerous hurricane blocking the south pole that will kill you upon touching it, but one time I fell into the hurricane while holding one of those rocks...</Page>
+   <RevealFacts>
+   		<FactID>NEWSIM_SCIENTIST_ANGLERSEYE</FactID>
+			<FactID>ANGLERS_EYE_MAIN_HURRICANE_E3</FactID>
+		</RevealFacts>
+  </Dialogue>
+   <DialogueTarget>StartQuestions</DialogueTarget>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>StartPlayer</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Is that so? I'm all ears!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>So first there were this species called The Nomai...</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+
+   <DialogueOption>
+    <Text>That icy planet Angler's Eye orbited? It's now Dark Bramble.</Text>
+    <DialogueTarget>C2</DialogueTarget>
+   </DialogueOption>
+
+  <DialogueOption>
+    <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition>
+    <Text>I've met The Prisoner.</Text>
+    <DialogueTarget>C3</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <RequiredLogCondition>DARKER_MAIN</RequiredLogCondition>
+    <Text>I've managed to make it into the hurricane on Angler's Eye.</Text>
+    <DialogueTarget>C4</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <RequiredLogCondition>HOME_ACTIVATE</RequiredLogCondition>
+    <Text>Your terraform plan succeeded!</Text>
+    <DialogueTarget>C5</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>Nevermind, I actually have some questions.</Text>
+    <DialogueTarget>StartQuestions</DialogueTarget>
+  </DialogueOption>
+
+  <DialogueOption>
+    <Text>Nevermind, I don't want to talk at all.</Text>
+    <DialogueTarget>End</DialogueTarget>
+  </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C1</Name> <!-- The name of this node, used to go to this node from another node -->
+  
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Nomai? What were they like?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>One Nomai clan came to our solar system to find the Eye.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+
+  </DialogueOptionsList>
+</DialogueNode>
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_1</Name> <!-- The name of this node, used to go to this node from another node -->
+  
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>You mean that one vortex? How could they have found it with us blocking its signal?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition>
+    <Text>The Nomai picked up the signal let out by The Prisoner.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_2A</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>DB_VESSEL_X1</RequiredLogCondition>
+    <Text>Uhhh I don't know, but they ended up crashing in a Bramble Dimension instead.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_2</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <CancelledLogCondition>DB_VESSEL_X1</CancelledLogCondition>
+    <Text>We don't really know much else about The Nomai, sadly.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_END</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_END</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Ok then, but let me know if you explore anything about The Nomai you don't already know.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_2A</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>*sigh* Of course...</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList>
+
+   <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>DB_VESSEL</RequiredLogCondition>
+    <Text>They didn't make it there, instead they crashed into a Bramble Dimension.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_2</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_2</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Interesting... Were there any survivors?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>They ended up surviving in our system for a few generations, hundreds of years after everyone on The Stranger died.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_3</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_3A</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Time travel? How is that even possible?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>The ATP uses singularities to send things back in time 22 minutes, and I just happen to be stuck in a time loop because of it.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_3B</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_3</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Wow, I wish we were that strong-willed when we lost everything.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>TT_TIME_LOOP_DEVICE_X1</RequiredLogCondition>
+    <Text>Some were so desparate to find The Eye to the point they all made a time machine called The Ash Twin Project.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_3A</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+      <DialogueOption> <!-- A single option the player can pick -->
+    <Text>They spent their days looking for The Eye, all attempts seemed to have failed.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_4</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_3B</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>A time loop, you say? Just by the look of you, I can tell you're using that well to your advantage.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>NOM_4</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_4</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>So they didn't find the vortex... Did they all go extinct?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+    <Text>A comet filled with lethal matter called "Ghost Matter" wiped out every Nomai. Ghost Matter is weak to water, so we Hearthians survived and evolved.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_4A</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+      <DialogueOption> <!-- A single option the player can pick -->
+    <Text>We don't know how they died, but they sure did.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_5</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_4A</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Ghost Matter? Weak to water? Maybe it's something "fire-like" perhaps?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>NOM_5</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_5</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Are you really sure they all died?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>QM_SIXTH_LOCATION_X1</RequiredLogCondition>
+    <Text>Well, there is one on the Quantum Moon, but she's basically dead and alive at the same time.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_6</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+      <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Yeah we're pretty sure they're all dead.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>NOM_6</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NOM_6</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Wow, this Nomai species sounds pretty interesting, but I'm still glad they didn't activate the vortex. It was way too soon for that to happen.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C2</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>It finally overgrew the icy planet? My predictions were right! Dark Bramble is honestly a good name for its late stage.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C3</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>You met The Prisoner? You mean the one locked up not far off? I don't like talking about him, but I'm still curious on how it all went.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+      <DialogueOption> <!-- A single option the player can pick -->
+    <Text>He told me why he got imprisoned, and I told him evrything I know. He let out a cry and jumped into the lake as soon as he got out.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>PRISONER</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>PRISONER</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>He must have been so desperate to get out of the simulation...but just don't mention him again, OK?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C4</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>I'm going to assume that you held the stone. What did you see there?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+    <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>DARKER_BASE</RequiredLogCondition>
+    <Text>It was a Bramble Seed you planted to get home, and I made it inside. You built a base inside one of the dimensions.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C41</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+    <RequiredLogCondition>DARKER_MAIN</RequiredLogCondition>
+    <CancelledLogCondition>DARKER_BASE</CancelledLogCondition>
+    <DialogueOption> <!-- A single option the player can pick -->
+    <Text>It was a Bramble Seed you planted to get home, and I made it inside. It's quite dark in there!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C42</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+    <CancelledLogCondition>DARKER_MAIN</CancelledLogCondition>
+    <DialogueOption> <!-- A single option the player can pick -->
+    <Text>It was a Bramble Seed you planted to get home, but it keeps spitting me out.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C43</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C41</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>A base, huh? Good to know I made it that far into my plan.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>C44</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C42</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>No lights at all?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+      <DialogueOption> <!-- A single option the player can pick -->
+    <Text>No, there's some Anglerfish in there with lights.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>LIGHTS</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>LIGHTS</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>If I were you, I would have tried to find some sort of guidance. Listen for sounds or use the Anglerfish lights, but don't get close to them!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>C44</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C43</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>I'd love to help you on that, but I know nothing about how Bramble Seeds work. My future self must have, so maybe look for more clues elsewhere.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>C44</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C44</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>But that's interesting I was able to utilize a Bramble Seed to try and travel back home to terraform it.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C5</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>It worked? I can just imagine the beauty of our terraformed home! Is our species still around after those hundreds of thousands of years?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+    <DialogueOption> <!-- A single option the player can pick -->
+    <Text>By some miracle, yes! I even met your descendant!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C51</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C51</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>That's wonderful! I wish I could meet him, but I can't leave this place.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+    <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+    <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>VESSEL_VISION</RequiredLogCondition>
+    <Text>Oh yeah, you killed some Nomai because you thought they were a threat to your home.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C52</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+    <DialogueOption> <!-- A single option the player can pick -->
+    <RequiredLogCondition>NOM_Coords</RequiredLogCondition>
+    <Text>I can bring him home to see you through a Nomai Vessel.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>C53</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>If only I can bring him over...</Text> <!-- The text to display for the option -->
+    <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+  </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C52</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>"By any means necessary"...that scarily enough sounds like me...I hope whatever I did wasn't in vain, I probably was just protecting my home after having gone through all this.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+<DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>C53</Name> <!-- The name of this node, used to go to this node from another node -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+   <Page>Really? That'd mean the world to me!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+  <DialogueTarget>StartPlayer</DialogueTarget> <!-- The name of the node to jump to -->
+</DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>End</Name>
+  <Dialogue>
+   <Page>It was nice meeting you. Good luck to you and your species on your space endeavors.</Page>
+  </Dialogue>
+  <!-- When a node doesn't have any options defined the dialogue box will close once the pages have been read -->
+ </DialogueNode>
+</DialogueTree>

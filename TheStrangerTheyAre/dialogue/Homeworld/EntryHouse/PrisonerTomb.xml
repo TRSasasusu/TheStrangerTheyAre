@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+	<!-- The name of this character -->
+	<DialogueNode>
+		<Name>ScientistTomb</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>The Scientist's brother was fascinated with the vortex, so he scanned it again with the vision torch, seeing it would bring a new universe after destroying ours. Driving himself insane, seeing others suffer, he felt it was time to activate the vortex.</Page>
+			<Page>He feared leaving in one of our smaller ships after what happened to our Scientist, so he stopped the Signal Blocker. It then lead to his eternal imprisonment. All of this put so much emotinal weight on our Scientist.</Page>
+			<Page>May he be remembered, not for what he did, but for the tragedy that drove him to madness.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_ENT_SCIENTIST</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,37 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Elm</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>StageSit1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>This music sucks! It's all the same thing every day! Don't you agree!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Absolutely! This is garbage!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>No, this is actually pretty soothing.</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Finally, someone gets it!</Page>
+  </Dialogue>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Trust me, you'll grow tired of it after you've heard it so many times like I have...</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

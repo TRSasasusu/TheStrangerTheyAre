@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Our conservatory should be just enough to produce healthy seeds for the next 5 years. That is more than enough time that we need to finish the terraforming.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_CONSERVATORY_INFO</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

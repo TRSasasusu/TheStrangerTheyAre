@@ -1,0 +1,61 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Cypress</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>Start</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Alright, this is it...the End of the Universe. I hope my distant uncle was right about this place giving birth to a new universe in our place.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>If it wasn't for your distant uncle, we wouldn't be here.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>How did you get here so fast?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Letting go that signal was a very risky move, someone would have ended the universe too early. Instead, it gave you the tools to reach The Vortex.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>So who's jumping in first?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>2</Name>
+  <Dialogue>
+   <Page>I don't know, maybe I'm just faster than you.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>So who's jumping in first?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+  <DialogueNode>
+  <Name>3</Name>
+  <Dialogue>
+   <Page>Since I went ahead of you before, I'll just let you plunge in first.</Page>
+  </Dialogue>
+    <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Alright, see you on the other side!</Text> <!-- The text to display for the option -->
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+ </DialogueTree>

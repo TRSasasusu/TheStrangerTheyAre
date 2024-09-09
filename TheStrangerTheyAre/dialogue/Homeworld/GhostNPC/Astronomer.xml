@@ -1,0 +1,56 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Juniper</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>Astronomer</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>....Only minutes away...</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>What are you observing?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Did you know the universe is dying?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>All of our planets. Symptoms of star death are all over the place. Should blow up in 33 minutes.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>And you're doing nothing about it?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Indeed I do, I'm witnessing it before my very eyes.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>And you're doing nothing about it?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+  <DialogueNode>
+  <Name>3</Name>
+  <Dialogue>
+   <Page>Yeah, what can we do about it? Besides, I'd rather die doing something I love.</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

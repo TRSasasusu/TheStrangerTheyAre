@@ -1,0 +1,1219 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DREAMWORLD",
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Sector_NewSim.prefab",
+				"alignRadial": false,
+				"position": {
+					"x": -180.4021,
+					"y": 5.9047,
+					"z": 715.0172
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/DeadTree.prefab",
+				"alignRadial": false,
+				"position": {
+					"x": -44.4586,
+					"y": 0.3047,
+					"z": 715.1559
+				}
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_1_Story_Complete",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_01",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_2_Story_Complete",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_03",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_3_Story_Complete",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_03",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/Interactables_SlideBurningRoom_Zone1/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_1_LibraryPath",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_01",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2/Interactables_SlideBurningHouse_Zone2/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_2_LibraryPath",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_02",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2/Interactables_SlideBurningHouse_Zone2/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_3_LibraryPath",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_03",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/Prefab_IP_SlideReelShelf (15)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_1_Seal",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_01",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_03/SlideSocket_02/Prefab_IP_Reel_2_Seal",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_02",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (5)/SlideReelShelf_Row_03/SlideSocket_03/Prefab_IP_Reel_3_Seal",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_03",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_EntranceClueBuilding_Zone3_Interior/Interactables_EntranceClueBuilding_Zone3_Interior/Prefab_IP_Reel_DamageReport",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_02",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone3/Sector_CanyonObvious/Structures_CanyonObvious/AbandonedTemple_Zone3/Interactables_AbandonedTemple_Zone3/Interactables_TempleBasement/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_01/Prefab_IP_Reel_Burning",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_04/SlideSocket_02",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Interactibles_DreamFireLighthouse_Zone2/Pivot_SlideReelRoom/Pivot_SlideReelCrates/Prefab_IP_Reel_LanternSecret",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_03",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_1_DreamRule",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_01",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_2_DreamRule_v1",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_02",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_03/Prefab_IP_Reel_2_DreamRule_v2",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_02",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_02/SlideSocket_01/Prefab_IP_Reel_3_DreamRule",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_03",
+				"isRelativeToParent": true
+			},
+			{
+				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_Reel_ExperimentWatch",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_02/SlideSocket_01",
+				"isRelativeToParent": true
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
+				"isRelativeToParent": true,
+				"lookAtRadius": 0,
+				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3/Ghostbird_IP_ANIM",
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
+				"isRelativeToParent": true,
+				"lookAtRadius": 0,
+				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4/Ghostbird_IP_ANIM",
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall1.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall2.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall3.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/2F_Memorial.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/2F_Memorial/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/SlideHouse/Desk1.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/Interacables/Text/Desk1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevBottomArchive.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevBottomArchive/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevTopArchive.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTopArchive/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevTheatre.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTheatre/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf1.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf2.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf3.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/BottomReelShelf1.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/BottomReelShelf2.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/BottomReelShelf3.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Table1.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Table1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Table2.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Table2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/DataWall.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/DataWall/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"slideShows": [
+			{
+				"type": "slideReel",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket",
+				"isRelativeToParent": true,
+				"reelCondition": "pristine",
+				"reelModel": "whole",
+				"reveals": [
+					"NEWSIM_SECRETPATH3"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0000.jpg",
+						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0001.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0021.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0022.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0026.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0029.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0030.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0031.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0032.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0033.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0034.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0035.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0036.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0037.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0038.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0042.jpg" }
+				],
+				"playWithShipLogFacts": [
+					"NEWSIM_SECRETPATH3"
+				]
+			},
+			{
+				"type": "slideReel",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (5)/SlideReelShelf_Row_04/SlideSocket_01",
+				"isRelativeToParent": true,
+				"reelCondition": "pristine",
+				"reelModel": "whole",
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0000.jpg",
+						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0001.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0021.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0022.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0026.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0029.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0030.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0031.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0032.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0033.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0034.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0035.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0036.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0037.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0038.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0042.jpg" }
+				]
+			},
+				{
+					"type": "slideReel",
+					"reelCondition": "pristine",
+					"reelModel": "whole",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_01",
+					"isRelativeToParent": true,
+					"slides": [
+						{
+							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0038.jpg",
+							"backdropAudio": "assets/Audio/hearthsshadow2.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0039.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0040.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0041.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0042.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0043.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0044.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0045.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0046.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0047.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0048.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0049.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0050.jpg",
+							"backdropAudio": "assets/Audio/hearthsshadow3.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0051.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0052.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0053.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0054.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0055.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0056.jpg",
+							"backdropAudio": "assets/Audio/hearthsshadow4.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0057.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0058.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0059.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0060.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0061.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0062.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0063.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0064.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0065.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0066.jpg",
+							"backdropAudio": "assets/Audio/hearthsshadow5.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0067.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0068.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0069.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0070.jpg",
+							"backdropAudio": "assets/Audio/hearthsshadow6.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0071.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0072.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0073.jpg" },
+						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0074.jpg" }
+					]
+				},
+				{
+					"type": "slideReel",
+					"rename": "STORYREEL_1",
+					"reelCondition": "pristine",
+					"reelModel": "whole",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_01",
+					"isRelativeToParent": true,
+					"slides": [
+						{
+							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0001.jpg",
+							"backdropAudio": "assets/Audio/terraformhome1.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0002.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0003.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0004.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0005.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0006.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0007.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0008.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0009.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0010.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0011.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0012.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0013.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0014.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0015.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0016.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0017.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0018.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0019.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0020.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0021.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0022.jpg",
+							"backdropAudio": "assets/Audio/terraformhome3.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0023.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0024.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0025.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0026.jpg" },
+
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_1.png" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_2.png" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_3.png" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_4.png" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_5.png" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_6.png" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_7.png" },
+
+
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0027.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0028.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0029.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0030.jpg",
+							"backdropAudio": "assets/Audio/terraformhome2.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0031.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0032.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0033.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0034.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0035.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0036.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0037.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0038.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0039.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0040.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0041.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0042.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0043.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0044.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0045.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0046.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0047.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0048.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0049.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0050.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0051.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0052.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0053.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0054.jpg" },
+						{
+							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0055.jpg",
+							"backdropAudio": "assets/Audio/error_reel.wav"
+						},
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0056.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0057.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0058.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0059.jpg" },
+						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0060.jpg" }
+
+					]
+				},
+				{
+					"type": "slideReel",
+					"reelModel": "whole",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_03/SlideSocket_01",
+					"reelCondition": "pristine",
+					"isRelativeToParent": true,
+					"slides": [
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_00_05.png" },
+						{
+							"imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_01.png",
+							"backdropAudio": "OW ReelBackdrop 04a_3 041321 AP LP"
+						},
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_06.png" },
+						{
+							"imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_07.png",
+							"beatAudio": "OW ReelBeat 04a_2 040921 AP"
+						},
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_01_09.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_02_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_03_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_02.png" },
+						{
+							"imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_03.png",
+							"beatAudio": "OW ReelBeat 04b_2 040921 AP"
+						},
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_04_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_05_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_03.png" },
+						{
+							"imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_04.png",
+							"beatAudio": "OW ReelBeat 04c_2 040921 AP"
+						},
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_09.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_06_10.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_07_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_07_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_07_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_07_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_07_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_09.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_10.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_08_11.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_03.png" },
+						{
+							"imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_04.png",
+							"beatAudio": "OW ReelBeat 04d_2 040921 AP"
+						},
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_08.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_09_09.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_01.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_02.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_03.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_04.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_05.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_06.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_07.png" },
+						{ "imagePath": "assets/Slideshows/PrisonerReel/Slide_4_Story_10_08.png" }
+					]
+				},
+				{
+					"type": "slideReel",
+					"reelCondition": "pristine",
+					"reelModel": "whole",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_02/SlideSocket_02",
+					"isRelativeToParent": true,
+					"slides": [
+						{
+							"imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_01.png",
+							"backdropAudio": "OW Finally Set Free 072021_2 AP"
+						},
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_02.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_03.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_04.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_05.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_06.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_07.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_08.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_09.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_10.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_11.png" },
+						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_12.png" }
+					]
+				},
+			{
+				"type": "slideReel",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_02",
+				"reelCondition": "pristine",
+				"reelModel": "whole",
+				"isRelativeToParent": true,
+				"reveals": [
+					"NEWSIM_PRISONER_REEL"
+				],
+				"playWithShipLogFacts": [
+					"NEWSIM_PRISONER_REEL"
+				],
+				"slides": [
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/title.png" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (1).jpg",
+						"backdropAudio": "assets/Audio/error_reel.wav"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (2).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (3).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (4).jpg",
+						"backdropAudio": "assets/Audio/prisoner elegy 1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (8).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (9).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (10).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (11).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (12).jpg",
+						"beatAudio": "assets/Audio/prisoner elegy beat 1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (13).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (14).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (15).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (16).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (17).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (18).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (19).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (20).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (21).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (22).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (23).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (24).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (25).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (26).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (27).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (28).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (29).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (30).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (31).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (32).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (33).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (34).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (35).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (36).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (37).jpg",
+						"backdropAudio": "assets/Audio/prisoner elegy 2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (38).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (39).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (40).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (41).jpg",
+						"beatAudio": "assets/Audio/prisoner elegy beat 2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (42).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (43).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (44).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (45).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (46).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (47).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (48).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (49).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (50).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (51).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (52).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (53).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (54).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (55).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (56).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (57).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (58).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (59).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (60).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (61).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (62).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (63).jpg",
+						"backdropAudio": "assets/Audio/prisoner elegy 3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (64).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (65).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (66).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (67).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (68).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (69).jpg" }
+				]
+			},
+				{
+					"type": "slideReel",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_03",
+					"reelCondition": "pristine",
+					"reelModel": "whole",
+					"isRelativeToParent": true,
+					"slides": [
+						{
+							"imagePath": "assets/Slideshows/MovePrisoner/SLIDE (1).png",
+							"backdropAudio": "OW Secret Loop 090121 AP muted"
+						},
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (2).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (3).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (4).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (5).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (6).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (7).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (8).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (9).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (10).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (11).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (12).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (13).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (14).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (15).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (16).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (17).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (18).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (19).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (20).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (21).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (22).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (23).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (24).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (25).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (26).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (27).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (28).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (29).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (30).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (31).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (32).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (33).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (34).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (35).png" },
+						{
+							"imagePath": "assets/Slideshows/MovePrisoner/SLIDE (36).png",
+							"beatAudio": "OW No-Eye Ruins 082121 AP stinger"
+						},
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (37).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (38).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (39).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (40).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (41).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (42).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (43).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (44).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (45).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (46).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (47).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (48).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (49).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (50).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (51).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (52).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (53).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (54).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (55).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (56).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (57).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (58).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (59).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (60).png" },
+						{ "imagePath": "assets/Slideshows/MovePrisoner/SLIDE (61).png" }
+					]
+				},
+				{
+					"type": "slideReel",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_03",
+					"reelCondition": "pristine",
+					"reelModel": "whole",
+					"isRelativeToParent": true,
+					"slides": [
+						{
+							"imagePath": "assets/Slideshows/TowerVision/SLIDE (1).png",
+							"backdropAudio": "OW Dreamworld Ruins 072021 AP 02loop"
+						},
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (2).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (3).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (4).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (5).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (6).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (7).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (8).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (9).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (10).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (11).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (12).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (13).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (14).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (15).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (16).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (17).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (18).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (19).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (20).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (21).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (22).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (23).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (24).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (25).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (26).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (27).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (28).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (29).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (30).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (31).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (32).png" },
+						{
+							"imagePath": "assets/Slideshows/TowerVision/SLIDE (33).png",
+							"backdropAudio": "OW Secret Loop 090121 AP muted"
+						},
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (34).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (35).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (36).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (37).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (38).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (39).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (40).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (41).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (42).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (43).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (44).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (45).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (46).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (47).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (48).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (49).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (50).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (51).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (52).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (53).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (54).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (55).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (56).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (57).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (58).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (59).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (60).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (61).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (62).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (63).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (64).png" },
+						{
+							"imagePath": "assets/Slideshows/TowerVision/SLIDE (65).png",
+							"beatAudio": "OW Dreamworld Ruins Story Beats 071621 AP 1d"
+						},
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (66).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (67).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (68).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (69).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (70).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (71).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (72).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (73).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (74).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (75).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (76).png" },
+						{ "imagePath": "assets/Slideshows/TowerVision/SLIDE (77).png" }
+					]
+				},
+				{
+					"type": "slideReel",
+					"reveals": [
+						"NEWSIM_MAIN_R",
+						"ANGLERS_EYE_SIMSECRET_E"
+					],
+					"reelModel": "whole",
+					"reelCondition": "pristine",
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (5)/SlideReelShelf_Row_03/SlideSocket_03",
+					"isRelativeToParent": true,
+					"slides": [
+						{
+							"imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0000.jpg",
+							"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0001.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0002.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0003.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0004.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0005.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0006.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0007.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0008.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0009.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0010.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0011.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0012.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0013.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0014.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0015.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0016.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0017.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0018.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0019.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0020.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0021.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0022.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0023.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0024.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0025.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0026.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0027.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0028.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0029.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0030.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0031.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0032.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0033.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0034.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0035.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0036.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0037.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0038.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0039.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0040.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0041.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0042.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0043.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0044.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0045.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0046.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0047.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0048.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0049.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0050.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0051.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0052.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0053.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0054.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0055.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0056.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0057.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0058.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0059.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0060.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0061.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0062.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0063.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0064.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0065.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0066.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0067.jpg" }
+					]
+				},
+				{
+					"type": "standingVisionTorch",
+					"reveals": [ "NEWSIM_SCIENTIST_VISION" ],
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
+					"isRelativeToParent": true,
+					"slides": [
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0001.jpg" },
+						{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0036.jpg" }
+					],
+					"position": {
+						"x": -0.842,
+						"y": -0.2299,
+						"z": -0.136
+					},
+					"rotation": {
+						"x": 356.695,
+						"y": 351.1454,
+						"z": 282.1251
+					}
+				}
+			],
+			"singularities":
+			[
+				{
+					"type": "blackHole",
+					"rename": "SIM_BH",
+					"uniqueID": "SIM_BH",
+					"pairedSingularity": "SIM_WH",
+					"hasWarpEffects": false,
+					"distortRadius": 0,
+					"horizonRadius": 0.1,
+					"position": {
+						"x": -46.32926,
+						"y": 1,
+						"z": 715.0172
+					}
+				},
+				{
+					"type": "whiteHole",
+					"rename": "SIM_WH",
+					"uniqueID": "SIM_WH",
+					"pairedSingularity": "SIM_BH",
+					"hasWarpEffects": false,
+					"distortRadius": 0,
+					"horizonRadius": 0.1,
+					"position": {
+						"x": -100.8006,
+						"y": 2.904684,
+						"z": 750.533
+					}
+				},
+				{
+					"uniqueID": "DEBUG_BH",
+					"type": "blackHole",
+					"horizonRadius": 1,
+					"position": {
+						"x": 62.53741,
+						"y": 1.233612,
+						"z": 698.1519
+					},
+					"pairedSingularity": "DEBUG_WH"
+				}
+			]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/fourtharchive.ogg",
+				"radius": 30,
+				"volume": 0.4,
+				"track": "music",
+				"priority": 1,
+				"position": {
+					"x": -217.5969,
+					"y": -45.80016,
+					"z": 715.6379
+				}
+			},
+			{
+				"audio": "assets/Audio/EternalHalls.mp3",
+				"radius": 45,
+				"volume": 0.25,
+				"track": "music",
+				"randomizePlayhead": true,
+				"priority": 0,
+				"position": {
+					"x": -133.5188,
+					"y": -0.3852148,
+					"z": 738.4763
+				}
+			},
+			{
+				"audio": "assets/Audio/donotwake1.ogg",
+				"radius": 4,
+				"track": "environmentUnfiltered",
+				"priority": 1,
+				"position": {
+					"x": -162.0044,
+					"y": 4.854785,
+					"z": 716.0414
+				}
+			},
+			{
+				"audio": "assets/Audio/donotwake2.ogg",
+				"radius": 4,
+				"track": "environmentUnfiltered",
+				"priority": 1,
+				"position": {
+					"x": -170.0044,
+					"y": 4.854785,
+					"z": 716.0414
+				}
+			},
+			{
+				"audio": "assets/Audio/donotwake3.ogg",
+				"radius": 4,
+				"track": "environmentUnfiltered",
+				"priority": 1,
+				"position": {
+					"x": -176.4035,
+					"y": 4.854785,
+					"z": 716.0414
+				}
+			},
+			{
+				"audio": "assets/Audio/donotwake4.ogg",
+				"radius": 4,
+				"track": "environmentUnfiltered",
+				"priority": 1,
+				"position": {
+					"x": -182.9802,
+					"y": 4.854785,
+					"z": 716.0414
+				}
+			},
+			{
+				"audio": "assets/Audio/donotwake5.ogg",
+				"radius": 4,
+				"track": "environmentUnfiltered",
+				"priority": 1,
+				"position": {
+					"x": -188.6331,
+					"y": 4.854785,
+					"z": 716.0414
+				}
+			},
+			{
+				"audio": "Tronworld Ambience 2 Alex Hack",
+				"radius": 30,
+				"volume": 0.5,
+				"track": "environment",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTiles",
+				"priority": 1,
+				"position": {
+					"x": -156.7837,
+					"y": 2.654786,
+					"z": 773.4879
+				}
+			},
+			{
+				"audio": "assets/Audio/OWxSE.ogg",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
+				"isRelativeToParent": true,
+				"radius": 30,
+				"volume": 0.7,
+				"position": {
+					"y": 3
+				},
+				"track": "music",
+				"priority": 0
+			},
+			{
+				"audio": "assets/Audio/OWxSE.ogg",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
+				"isRelativeToParent": true,
+				"radius": 30,
+				"volume": 0.7,
+				"position": {
+					"y": 3
+				},
+				"track": "music",
+				"priority": 0
+			},
+			{
+				"audio": "IllusoryWall_Alex",
+				"radius": 3,
+				"priority": 1,
+				"track": "environmentUnfiltered",
+				"loop": false,
+				"noFadeFromBeginning": true,
+				"pauseOnFadeOut": false,
+				"position": {
+					"x": -46.32926,
+					"y": 1,
+					"z": 715.0172
+				}
+			},
+			{
+				"audio": "IllusoryWall_Alex",
+				"radius": 3,
+				"priority": 1,
+				"track": "environmentUnfiltered",
+				"loop": false,
+				"noFadeFromBeginning": true,
+				"pauseOnFadeOut": false,
+				"position": {
+					"x": -100.8006,
+					"y": 2.904684,
+					"z": 750.533
+				}
+			}
+		]
+	},
+	"removeChildren": [
+		"Sector_DreamWorld/SIM_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/SIM_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/SIM_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/SIM_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/SIM_WH/WhiteHoleAmbience"
+	],
+	"ShipLog": {
+		"xmlFile": "shiplogs/newsim.xml",
+		"spriteFolder": "assets/Texture/Shiplog"
+	}
+}

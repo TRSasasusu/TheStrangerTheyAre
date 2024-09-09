@@ -1,0 +1,67 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>StrandedVessel</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>NOM_StrandedVessel</ID> <!-- The ID of this entry -->
+        <Name>Stranded Vessel</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>NOM_StrandedVessel</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+        <AltPhotoCondition>NOM_StrandedVessel_E</AltPhotoCondition>
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>NOM_StrandedVessel_R</ID> <!-- The ID of this fact -->
+            <RumorName>A Stranded Vessel?</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>According to a system model I saw on the Strangers' Homeworld, there is a beaten up Nomai Vessel on the outskirts of this star system.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>NOM_StrandedVessel_E</ID> <!-- The ID of this fact -->
+            <Text>There is a beaten up Nomai Vessel on the outskirts of this star system.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>NOM_VesselMsg</ID> <!-- The ID of this entry -->
+            <Name>Communication Boards</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NOM_StrandedVessel</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>VESSEL_NOMSEARCH</ID> <!-- The ID of this fact -->
+                <Text>On the Vessel's incoming message board, other Nomai clans try to check in with this Vessel's clan. Due to a threatening message, the Nomai placed a no-warp zone around our solar neighborhood!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>VESSEL_STRANGERMESSAGE</ID> <!-- The ID of this fact -->
+                <Text>On the Vessel's outgoing message board, there is some poorly written Nomai message. The message threatens Nomai and other travelers not to warp to this system.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+        <Entry>
+            <ID>NOM_VesselVision</ID> <!-- The ID of this entry -->
+            <Name>Vessel Vision</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NOM_StrandedVessel</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>VESSEL_VISION</ID> <!-- The ID of this fact -->
+                <Text>According to a vision I saw on the Stranded Vessel, the Strangers burnt all the Nomai in the Vessel alive. They also wrote that outgoing threat message with the vision torch and one of the Nomai staffs.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>NOM_VesselCoords</ID> <!-- The ID of this entry -->
+            <Name>Stranded Vessel Coordinates</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NOM_StrandedVessel</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NOM_Coords</ID> <!-- The ID of this fact -->
+                <Text>The Stranded Vessel's hologram shows a set of coordinates.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>VESSEL_NOMWARP</ID> <!-- The ID of this fact -->
+                <Text>According to a Nomai recording, the coordinates displayed are the coordinates used to warp here. Apparently, these coordinates were supposed to be a rough esitmate of Escall's location.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

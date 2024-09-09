@@ -1,0 +1,102 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Strangers' Homeworld",
+	"starSystem": "StrangerSystemCinematic",
+	"isQuantumState": true,
+	"AmbientLights": [
+		{
+			"intensity": 1.4,
+			"innerRadius": 180,
+			"outerRadius": 450
+		}
+	],
+	"Atmosphere": {
+		"size": 200,
+		"atmosphereSunIntensity": 1,
+		"hasOxygen": true,
+		"hasTrees": true,
+		"hasShockLayer": true,
+		"atmosphereTint": {
+			"r": 25,
+			"g": 154,
+			"b": 252,
+			"a": 0
+		},
+		"fogSize": 500,
+		"fogTint": {
+			"r": 25,
+			"g": 154,
+			"b": 252,
+			"a": 0
+		}
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"alignRadial": true,
+			"position": {
+				"x": 198.7714,
+				"y": 26.80558,
+				"z": -142.4062
+			}
+		},
+		"shipSpawn": {
+			"alignRadial": true,
+			"position": {
+				"x": 198.7714,
+				"y": 26.80558,
+				"z": -142.4062
+			}
+		}
+	},
+	"Base": {
+		"surfaceGravity": 14,
+		"surfaceSize": 200
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Water": {
+		"size": 177,
+		"tint": {
+			"r": 13,
+			"g": 49,
+			"b": 74,
+			"a": 0
+		}
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/dirt.png",
+			"normalTile": "assets/Texture/dirt_n.png",
+			"size": 5
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/cliffs.png",
+			"normalTile": "assets/Texture/cliffs_n.png",
+			"size": 5
+		},
+		"greenTile": {
+			"textureTile": "assets/Texture/grass.png",
+			"normalTile": "assets/Texture/grass_normal.png",
+			"size": 5
+		},
+		"resolution": 1024,
+		"heightMap": "assets/Texture/homemoon_h.png",
+		"tileBlendMap": "assets/Texture/homemoon_rt1.png",
+		"textureMap": "assets/Texture/homemoon_lod.png",
+		"minHeight": 170,
+		"maxHeight": 210
+	},
+	"Props": {
+		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveSmall.prefab",
+				"keepLoaded": true,
+				"count": 50,
+				"seed": 128
+			}
+		]
+	}
+}

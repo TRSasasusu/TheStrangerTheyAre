@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Desk1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Some idiot tried to steal some of my slide reels to try and burn them, but I managed to get them back from him. He ran off to the left when you walk out the door.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_THEATRE_THIEF</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

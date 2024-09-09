@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table2</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>OBSERVATION 2: That stranded alien ship is still there, and it still makes me feel uncomfortable looking at. What would other species want to do with us anyway? Were they here to kill us?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_OBSERVE_TEXT2</FactID>
+			<FactID>NOM_StrandedVessel_R2</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Vessel",
+	"starSystem": "EyeOfTheUniverse",
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_Vessel2.prefab",
+				"position": {
+					"x": 4.547616,
+					"y": -6.912492,
+					"z": -3.09202
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/BeforeVortex/DescendantVessel.xml",
+				"parentPath": "Sector_VesselBridge/Prefab_IP_GhostBird_ScientistDescendant_Vessel2",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			}
+		]
+	}
+}

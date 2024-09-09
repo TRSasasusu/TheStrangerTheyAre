@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>ScientistStatue</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>This statue is dedicated to our almighty Scientist, who never gave up on his dream of home. Without him, we would not regain our home and our species would cease to exist!</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_SCI_STATUE</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

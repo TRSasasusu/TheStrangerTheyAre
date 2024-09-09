@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>OBSERVATION 1: Yearly checkup on all the planets! Everything's OK, the desert's still deadly on its sun-facing side, the crimson stormy planet is still brewing, and the fourth continues to act mysteriously, changing its form each view.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_OBSERVE_TEXT1</FactID>
+			<FactID>DESERT_SUNSIDE_R</FactID>
+			<FactID>QUANTUM_MAIN_R2</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

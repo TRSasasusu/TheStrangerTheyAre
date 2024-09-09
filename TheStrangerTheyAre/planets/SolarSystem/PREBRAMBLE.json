@@ -1,0 +1,6909 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "Pre Bramble",
+  "AmbientLights": [
+    {
+      "intensity": 0.3,
+      "outerRadius": 1000,
+      "innerRadius": 500
+    },
+    {
+      "intensity": 0.6,
+      "outerRadius": 500,
+      "innerRadius": 200
+    },
+    {
+      "intensity": 1,
+      "outerRadius": 200,
+      "innerRadius": 0
+    }
+  ],
+  "Atmosphere": {
+    "atmosphereSunIntensity": 0.1,
+    "size": 1100,
+    "hasOxygen": true,
+    "fogSize": 1100,
+    "atmosphereTint": {
+      "r": 40,
+      "g": 40,
+      "b": 40,
+      "a": 250
+    },
+    "fogTint": {
+      "r": 40,
+      "g": 40,
+      "b": 40,
+      "a": 250
+    }
+  },
+  "Bramble": {
+    "nodes": [
+      {
+        "name": "CoreNode",
+        "position": {
+          "x": -8.6294,
+          "y": 287.6024,
+          "z": 96.2916
+        },
+        "rotation": {
+          "x": 310.3562,
+          "y": 92.2521,
+          "z": 357.2201
+        },
+        "scale": 0.5,
+        "linksTo": "PreBramble_Archives"
+      },
+      {
+        "name": "SurfaceNode1",
+        "possibleExits": [5],
+        "position": {
+          "x": 204.2256,
+          "y": 354.7752,
+          "z": 394.9461
+        },
+        "rotation": {
+          "x": 325.8347,
+          "y": 328.224,
+          "z": 279.5425
+        },
+        "scale": 0.08,
+        "linksTo": "PreBramble_Puzzle2"
+      },
+      {
+        "name": "SurfaceNode2",
+        "position": {
+          "x": 124.1085,
+          "y": 534.2208,
+          "z": 289.1217
+        },
+        "rotation": {
+          "x": 0.7838,
+          "y": 292.0222,
+          "z": 321.5698
+        },
+        "scale": 0.07386212,
+        "linksTo": "PreBramble_Puzzle"
+      }
+    ]
+  },
+  "Base": {
+    "surfaceSize": 600,
+    "surfaceGravity": 10
+  },
+  "canShowOnTitle": false,
+  "Orbit": {
+    "staticPosition": {
+      "x": 150000,
+      "y": -150000,
+      "z": 150000
+    },
+    "isStatic": true
+  },
+  "Props": {
+    "details": [
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/PreBramble_SIM.prefab",
+        "hasPhysics": false
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/PreBramble_Research.prefab",
+        "position": {
+          "x": 84.24437,
+          "y": -194.5617,
+          "z": 229.4219
+        },
+        "rotation": {
+          "x": 15.7184,
+          "y": 274.2878,
+          "z": 203.696
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/PreBramble_BrambleResearch.prefab",
+        "position": {
+          "x": 97.8044,
+          "y": 538.4187,
+          "z": 298.2097
+        },
+        "rotation": {
+          "x": 350.8827,
+          "y": 294.8828,
+          "z": 321.5125
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/BioExperiment.prefab",
+        "position": {
+          "x": -74.71103,
+          "y": -188.0437,
+          "z": 275.7967
+        },
+        "rotation": {
+          "x": 27.3169,
+          "y": 178.7366,
+          "z": 185.7743
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/WarpHouse_OUT.prefab",
+        "rename": "WarpHouse_Forest",
+        "position": {
+          "x": 220.854,
+          "y": 358.5982,
+          "z": 380.1444
+        },
+        "rotation": {
+          "x": 12.9701,
+          "y": 314.7734,
+          "z": 288.4971
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/WarpHouse_OUT.prefab",
+        "rename": "WarpHouse_NorthPole",
+        "position": {
+          "x": -40.3381,
+          "y": 626.3629,
+          "z": 26.377
+        },
+        "rotation": {
+          "x": 356.4931,
+          "y": 350.3153,
+          "z": 1.5831
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/WarpHouse_OUT.prefab",
+        "rename": "WarpHouse_Caves",
+        "position": {
+          "x": -206.5634,
+          "y": 234.0252,
+          "z": 61.5899
+        },
+        "rotation": {
+          "x": 350.9536,
+          "y": 355.7274,
+          "z": 87.5032
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/WarpHouse.prefab",
+        "position": {
+          "x": 42.7809,
+          "y": -228.5536,
+          "z": 128.5277
+        },
+        "rotation": {
+          "x": 11.6501,
+          "y": 263.2584,
+          "z": 186.3973
+        }
+      },
+      {
+        "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
+        "scale": 0.01,
+        "parentPath": "Sector/BioExperiment/Tube_Angler/Offset",
+        "isRelativeToParent": true
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/CodePortraits/CodePortrait_Forest.prefab",
+        "parentPath": "Sector/WarpHouse_Forest/Offsets/Code",
+        "isRelativeToParent": true
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/CodePortraits/CodePortrait_NorthPole.prefab",
+        "parentPath": "Sector/WarpHouse_NorthPole/Offsets/Code",
+        "isRelativeToParent": true
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/CodePortraits/CodePortrait_Caves.prefab",
+        "parentPath": "Sector/WarpHouse_Caves/Offsets/Code",
+        "isRelativeToParent": true
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/GrowStopper.prefab",
+        "parentPath": "Sector/SurfaceNode1",
+        "scale": 0.08,
+        "isRelativeToParent": true
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/GrowStopper.prefab",
+        "parentPath": "Sector/SurfaceNode2",
+        "scale": 0.07386212,
+        "isRelativeToParent": true
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Sign.prefab",
+        "rename": "ForestSign",
+        "position": {
+          "x": 163.7889,
+          "y": 343.8678,
+          "z": 424.5358
+        },
+        "rotation": {
+          "x": 328.6915,
+          "y": 287.6336,
+          "z": 291.6519
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Sign.prefab",
+        "rename": "ForestSign2",
+        "position": {
+          "x": 171.9764,
+          "y": 353.0843,
+          "z": 416.2417
+        },
+        "rotation": {
+          "x": 341.4699,
+          "y": 295.7168,
+          "z": 288.8103
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Sign_2W.prefab",
+        "rename": "DirSign_SouthPole",
+        "position": {
+          "x": -33.1628,
+          "y": -235.2885,
+          "z": 70.0152
+        },
+        "rotation": {
+          "x": 359.6973,
+          "y": 1.668,
+          "z": 174.4491
+        }
+      },
+      {
+        "path": "Sector/DirSign_SouthPole",
+        "rename": "DirSign_ResearchArea2",
+        "rotation": {
+          "x": 333.2149,
+          "y": 23.11644,
+          "z": 183.458313
+        },
+        "position": {
+          "x": 66.1561661,
+          "y": -188.791092,
+          "z": 254.18541
+        }
+      },
+      {
+        "path": "Sector/DirSign_SouthPole",
+        "rename": "DirSign_SplitArea",
+        "rotation": {
+          "x": 272.182037,
+          "y": 93.34022,
+          "z": 118.30545
+        },
+        "position": {
+          "x": 176.406448,
+          "y": 142.1517,
+          "z": 430.183319
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Sign_3W.prefab",
+        "rename": "DirSign_ResearchArea",
+        "position": {
+          "x": 24.3136,
+          "y": -218.8138,
+          "z": 200.0163
+        },
+        "rotation": {
+          "x": 8.1099,
+          "y": 225.8871,
+          "z": 184.5394
+        }
+      },
+      {
+        "path": "Sector/DirSign_ResearchArea",
+        "rename": "DirSign_Forest",
+        "rotation": {
+          "x": 303.0001,
+          "y": 276.3907,
+          "z": 303.171478
+        },
+        "position": {
+          "x": 189.420959,
+          "y": 357.3812,
+          "z": 404.582825
+        }
+      },
+      {
+        "path": "Sector/DirSign_SouthPole",
+        "rename": "DirSign_Junction",
+        "rotation": {
+          "x": 353.428253,
+          "y": 36.9382324,
+          "z": 174.05162
+        },
+        "position": {
+          "x": -45.327076,
+          "y": -223.908783,
+          "z": 198.871918
+        }
+      },
+      {
+        "path": "Sector/DirSign_SouthPole",
+        "rename": "DirSign_BioExperiment",
+        "rotation": {
+          "x": 334.341034,
+          "y": 357.624634,
+          "z": 179.274429
+        },
+        "position": {
+          "x": -47.7573738,
+          "y": -200.18985,
+          "z": 247.603516
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Treefabs_Bramble/BrambleTree_Large.prefab",
+        "position": {
+          "x": 174.7987,
+          "y": 333.4321,
+          "z": 420.7484
+        },
+        "rotation": {
+          "x": 331.2478,
+          "y": 133.0159,
+          "z": 67.8966
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 354.138367,
+          "y": 260.93457,
+          "z": 178.011765
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -17.4772873,
+          "y": -234.315491,
+          "z": 67.51697
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 353.862183,
+          "y": 239.018311,
+          "z": 180.589279
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -5.352669,
+          "y": -236.09613,
+          "z": 79.449585
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 354.128357,
+          "y": 248.524246,
+          "z": 180.175522
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 6.871216,
+          "y": -237.396545,
+          "z": 82.56012
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 4.58085728,
+          "y": 117.71151,
+          "z": 182.976654
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 3.36698914,
+          "y": -237.073059,
+          "z": 83.12326
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 7.256775,
+          "y": 309.023224,
+          "z": 192.512024
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 21.2280579,
+          "y": -234.904724,
+          "z": 94.2767
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 2.14109349,
+          "y": 167.023514,
+          "z": 165.721283
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 19.3419266,
+          "y": -235.074646,
+          "z": 97.2915955
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.716034,
+          "y": 156.807617,
+          "z": 186.326279
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -42.0234947,
+          "y": -232.199036,
+          "z": 72.5710449
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 358.427734,
+          "y": 173.535172,
+          "z": 186.014145
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -41.732235,
+          "y": -232.96991,
+          "z": 90.26517
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 0.45532304,
+          "y": 162.2325,
+          "z": 186.515
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -47.94682,
+          "y": -232.730286,
+          "z": 104.553833
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.556061,
+          "y": 173.259888,
+          "z": 186.4744
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -49.39404,
+          "y": -232.980652,
+          "z": 122.075043
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 1.00585508,
+          "y": 160.000443,
+          "z": 186.783478
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -56.05261,
+          "y": -232.42218,
+          "z": 136.623016
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.9336,
+          "y": 170.043442,
+          "z": 186.945435
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -58.1191368,
+          "y": -232.475525,
+          "z": 152.180481
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.47881126,
+          "y": 139.969833,
+          "z": 185.920135
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -66.4624,
+          "y": -231.6911,
+          "z": 159.583191
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 7.145747,
+          "y": 98.81021,
+          "z": 181.6167
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -61.244976,
+          "y": -232.265076,
+          "z": 164.699615
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 5.827895,
+          "y": 72.0381851,
+          "z": 187.51329
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -67.453,
+          "y": -232.177185,
+          "z": 164.912872
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 358.9742,
+          "y": 80.3510056,
+          "z": 169.34845
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -65.85028,
+          "y": -224.5877,
+          "z": 181.571381
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 357.068451,
+          "y": 78.75944,
+          "z": 170.338638
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -62.4638634,
+          "y": -224.547668,
+          "z": 181.729584
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.36980343,
+          "y": 249.675812,
+          "z": 188.842545
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -58.783123,
+          "y": -223.354431,
+          "z": 188.130524
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.92550349,
+          "y": 243.108063,
+          "z": 186.184052
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -43.9027519,
+          "y": -221.947815,
+          "z": 196.532349
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.693268,
+          "y": 275.0215,
+          "z": 185.634537
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -27.1130333,
+          "y": -222.216492,
+          "z": 194.011963
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.298126,
+          "y": 276.040039,
+          "z": 185.652344
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -12.1574783,
+          "y": -222.325378,
+          "z": 192.666534
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 0.884566665,
+          "y": 259.539673,
+          "z": 185.0575
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 5.52114868,
+          "y": -222.588928,
+          "z": 190.063263
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 1.54580665,
+          "y": 253.2862,
+          "z": 185.482483
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 4.73177338,
+          "y": -222.180847,
+          "z": 194.413513
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 349.1706,
+          "y": 22.6779137,
+          "z": 182.583466
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 25.49392,
+          "y": -219.0163,
+          "z": 188.062866
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.60448122,
+          "y": 136.985214,
+          "z": 162.976669
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 24.5295639,
+          "y": -218.459045,
+          "z": 191.956055
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 349.1044,
+          "y": 15.7273455,
+          "z": 189.175735
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 30.6261826,
+          "y": -230.81781,
+          "z": 112.46759
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 5.468447,
+          "y": 157.133469,
+          "z": 169.06424
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 25.9141159,
+          "y": -228.704163,
+          "z": 127.836609
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 4.026422,
+          "y": 167.960876,
+          "z": 170.584869
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 29.672493,
+          "y": -226.278381,
+          "z": 141.137573
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 358.535522,
+          "y": 136.868912,
+          "z": 169.871414
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 20.7014923,
+          "y": -226.638245,
+          "z": 150.478149
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 11.2563009,
+          "y": 192.331192,
+          "z": 172.206573
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 26.9844589,
+          "y": -223.299255,
+          "z": 168.659119
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 11.0044889,
+          "y": 207.472214,
+          "z": 178.325012
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 35.1038742,
+          "y": -218.560425,
+          "z": 183.904144
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 15.0576868,
+          "y": 166.761826,
+          "z": 165.47702
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 31.9965363,
+          "y": -215.164917,
+          "z": 199.675079
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 5.922451,
+          "y": 139.090363,
+          "z": 158.1761
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 21.4395828,
+          "y": -214.785339,
+          "z": 207.313217
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 18.4402142,
+          "y": 164.830276,
+          "z": 162.792526
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 19.36502,
+          "y": -209.271667,
+          "z": 224.312012
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.08616948,
+          "y": 136.929214,
+          "z": 154.597015
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 10.2829819,
+          "y": -209.169617,
+          "z": 231.046661
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 0.575212359,
+          "y": 131.663284,
+          "z": 154.428619
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 8.519539,
+          "y": -210.660217,
+          "z": 228.457489
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 7.99845648,
+          "y": 245.259445,
+          "z": 208.574356
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 1.059555,
+          "y": -208.012756,
+          "z": 235.508484
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 357.00238,
+          "y": 264.868073,
+          "z": 209.457016
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -1.00919342,
+          "y": -209.84613,
+          "z": 231.845184
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 5.875826,
+          "y": 95.767746,
+          "z": 153.517319
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -28.53941,
+          "y": -201.091492,
+          "z": 242.5839
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.349945,
+          "y": 83.495,
+          "z": 153.559326
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -48.7763939,
+          "y": -200.06781,
+          "z": 242.701019
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 334.4687,
+          "y": 334.1727,
+          "z": 189.237625
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -52.39523,
+          "y": -204.283386,
+          "z": 234.058472
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 335.013123,
+          "y": 9.432672,
+          "z": 170.0307
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -57.3029137,
+          "y": -203.6466,
+          "z": 234.534058
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 11.0303459,
+          "y": 172.682709,
+          "z": 180.804855
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -52.1452,
+          "y": -220.6607,
+          "z": 204.372864
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 352.38327,
+          "y": 328.612518,
+          "z": 184.8568
+        },
+        "alignRadial": false,
+        "position": {
+          "x": -52.60066,
+          "y": -222.186951,
+          "z": 195.168732
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 23.9638729,
+          "y": 220.889938,
+          "z": 186.293976
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 35.578598,
+          "y": -202.7669,
+          "z": 231.743042
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 25.187748,
+          "y": 217.6376,
+          "z": 185.067917
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 47.6802139,
+          "y": -196.0119,
+          "z": 241.525543
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 26.4375629,
+          "y": 216.012924,
+          "z": 182.742584
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 59.4779778,
+          "y": -186.288879,
+          "z": 257.893921
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 26.3318844,
+          "y": 233.186371,
+          "z": 189.195648
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 80.91332,
+          "y": -173.255554,
+          "z": 274.1978
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 27.782114,
+          "y": 202.0672,
+          "z": 174.3731
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 88.6117249,
+          "y": -164.031677,
+          "z": 289.494019
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 28.5544262,
+          "y": 209.775909,
+          "z": 176.711319
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 103.015472,
+          "y": -155.9544,
+          "z": 298.0012
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 11.1641064,
+          "y": 146.2517,
+          "z": 154.315643
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 97.2626,
+          "y": -157.265686,
+          "z": 298.94342
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 40.9142,
+          "y": 220.13208,
+          "z": 175.101013
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 106.74926,
+          "y": -156.3039,
+          "z": 319.7549
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 1.1956141,
+          "y": 121.307823,
+          "z": 135.981766
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 102.37117,
+          "y": -158.155945,
+          "z": 320.44574
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 44.2157631,
+          "y": 202.349472,
+          "z": 176.6012
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 108.21669,
+          "y": -140.072571,
+          "z": 337.692383
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 44.38659,
+          "y": 247.617676,
+          "z": 204.118729
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 127.62384,
+          "y": -115.664612,
+          "z": 352.044617
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 51.72683,
+          "y": 231.407059,
+          "z": 191.052032
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 142.110291,
+          "y": -94.515686,
+          "z": 362.897461
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 308.713623,
+          "y": 68.0014,
+          "z": 152.910767
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 159.551773,
+          "y": -61.895813,
+          "z": 379.419647
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 57.654583,
+          "y": 215.175079,
+          "z": 181.105743
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 170.1902,
+          "y": -34.05304,
+          "z": 393.783325
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 39.75083,
+          "y": 156.085876,
+          "z": 134.981964
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 166.859528,
+          "y": -35.15692,
+          "z": 395.152954
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 32.7943535,
+          "y": 300.4136,
+          "z": 232.701355
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 164.343628,
+          "y": -9.399109,
+          "z": 404.6494
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 38.4011536,
+          "y": 294.0006,
+          "z": 232.420868
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 161.698273,
+          "y": -12.4096069,
+          "z": 405.0938
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 66.71479,
+          "y": 177.036682,
+          "z": 149.73027
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 160.53717,
+          "y": 3.815979,
+          "z": 413.599
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 41.6392975,
+          "y": 130.267578,
+          "z": 110.911987
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 146.0938,
+          "y": 33.0910034,
+          "z": 432.583862
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 57.48625,
+          "y": 126.703918,
+          "z": 103.824974
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 123.463806,
+          "y": 75.20929,
+          "z": 451.574646
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 14.0991259,
+          "y": 300.393158,
+          "z": 268.390625
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 166.378067,
+          "y": 136.9368,
+          "z": 433.4705
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 66.6187,
+          "y": 288.859375,
+          "z": 260.125061
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 151.513184,
+          "y": 95.32855,
+          "z": 439.999146
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 327.3654,
+          "y": 300.956879,
+          "z": 270.0609
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 152.469269,
+          "y": 176.111267,
+          "z": 442.454529
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 66.97881,
+          "y": 92.58719,
+          "z": 64.3581
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 140.014633,
+          "y": 206.6915,
+          "z": 445.501221
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 75.0686951,
+          "y": 40.25756,
+          "z": 14.0953121
+        },
+        "alignRadial": false,
+        "position": {
+          "x": 125.059875,
+          "y": 243.0252,
+          "z": 444.6421
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 358.536377,
+          "y": 60.48347,
+          "z": 170.615479
+        },
+        "position": {
+          "x": -57.0866356,
+          "y": -218.460083,
+          "z": 215.623749
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 354.74527,
+          "y": 282.620178,
+          "z": 187.92189
+        },
+        "position": {
+          "x": -53.3108864,
+          "y": -218.611755,
+          "z": 216.0834
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 52.9879646,
+          "y": 224.173111,
+          "z": 185.727646
+        },
+        "position": {
+          "x": 148.133255,
+          "y": -81.03595,
+          "z": 371.11618
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 52.0297623,
+          "y": 144.246475,
+          "z": 121.547806
+        },
+        "position": {
+          "x": 154.476212,
+          "y": 20.1879272,
+          "z": 423.583344
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 63.4071121,
+          "y": 136.240631,
+          "z": 114.458153
+        },
+        "position": {
+          "x": 135.736908,
+          "y": 51.8865356,
+          "z": 441.9538
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 308.642456,
+          "y": 108.240921,
+          "z": 100.3296
+        },
+        "position": {
+          "x": 137.388763,
+          "y": 85.92096,
+          "z": 446.285828
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 24.7912045,
+          "y": 298.349976,
+          "z": 267.404236
+        },
+        "position": {
+          "x": 159.985565,
+          "y": 114.510864,
+          "z": 436.348846
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 63.22782,
+          "y": 123.103081,
+          "z": 92.13563
+        },
+        "position": {
+          "x": 160.805,
+          "y": 155.54071,
+          "z": 437.288025
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 70.5903244,
+          "y": 79.24837,
+          "z": 50.94469
+        },
+        "position": {
+          "x": 132.74968,
+          "y": 226.817047,
+          "z": 444.995972
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 279.248657,
+          "y": 322.225525,
+          "z": 246.471252
+        },
+        "position": {
+          "x": 229.236252,
+          "y": 161.618042,
+          "z": 401.687927
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 335.826447,
+          "y": 110.334389,
+          "z": 92.45287
+        },
+        "position": {
+          "x": 229.021652,
+          "y": 165.055664,
+          "z": 401.964478
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 288.832916,
+          "y": 144.11,
+          "z": 79.499855
+        },
+        "position": {
+          "x": 212.934,
+          "y": 159.256226,
+          "z": 402.255249
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 301.9643,
+          "y": 138.334015,
+          "z": 82.59364
+        },
+        "position": {
+          "x": 212.68634,
+          "y": 162.284973,
+          "z": 402.241516
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 86.2211,
+          "y": 251.139069,
+          "z": 223.077
+        },
+        "position": {
+          "x": 234.8092,
+          "y": 167.408722,
+          "z": 398.639679
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 88.2583,
+          "y": 177.70932,
+          "z": 148.143417
+        },
+        "position": {
+          "x": 235.422028,
+          "y": 178.138733,
+          "z": 398.858459
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 77.6008148,
+          "y": 63.8564148,
+          "z": 37.47368
+        },
+        "position": {
+          "x": 233.001678,
+          "y": 196.757721,
+          "z": 397.8905
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 83.4526749,
+          "y": 80.90165,
+          "z": 57.93542
+        },
+        "position": {
+          "x": 231.395889,
+          "y": 223.674011,
+          "z": 395.311279
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 66.18239,
+          "y": 113.165108,
+          "z": 92.6459351
+        },
+        "position": {
+          "x": 222.928513,
+          "y": 245.101318,
+          "z": 398.632965
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 56.49319,
+          "y": 110.189354,
+          "z": 79.7324142
+        },
+        "position": {
+          "x": 216.368439,
+          "y": 260.508575,
+          "z": 400.7839
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 70.56892,
+          "y": 100.011246,
+          "z": 73.49493
+        },
+        "position": {
+          "x": 210.70488,
+          "y": 271.920837,
+          "z": 402.251434
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 285.014252,
+          "y": 176.918182,
+          "z": 30.0113487
+        },
+        "position": {
+          "x": 201.520248,
+          "y": 293.5817,
+          "z": 403.063019
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 60.0348778,
+          "y": 76.72698,
+          "z": 47.454483
+        },
+        "position": {
+          "x": 198.569229,
+          "y": 303.660248,
+          "z": 401.8423
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 54.26619,
+          "y": 96.39606,
+          "z": 59.3447762
+        },
+        "position": {
+          "x": 196.0991,
+          "y": 302.409668,
+          "z": 403.471252
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 333.5889,
+          "y": 133.33905,
+          "z": 73.45616
+        },
+        "position": {
+          "x": 191.490265,
+          "y": 328.404449,
+          "z": 411.6369
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 324.957367,
+          "y": 295.1527,
+          "z": 288.149323
+        },
+        "position": {
+          "x": 195.466782,
+          "y": 327.642639,
+          "z": 409.0154
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 288.8264,
+          "y": 222.681656,
+          "z": 352.914459
+        },
+        "position": {
+          "x": 189.411316,
+          "y": 337.549866,
+          "z": 409.3927
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 70.5517654,
+          "y": 63.02424,
+          "z": 26.9187851
+        },
+        "position": {
+          "x": 185.6149,
+          "y": 349.2484,
+          "z": 407.42392
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 59.0385971,
+          "y": 91.40375,
+          "z": 54.43754
+        },
+        "position": {
+          "x": 178.454132,
+          "y": 361.014679,
+          "z": 407.749573
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 54.73697,
+          "y": 93.72856,
+          "z": 58.43895
+        },
+        "position": {
+          "x": 166.9703,
+          "y": 376.9808,
+          "z": 408.8793
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 29.0089474,
+          "y": 108.630081,
+          "z": 69.59114
+        },
+        "position": {
+          "x": 155.751038,
+          "y": 383.4109,
+          "z": 412.8694
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 64.75673,
+          "y": 72.58387,
+          "z": 42.0614967
+        },
+        "position": {
+          "x": 141.029129,
+          "y": 395.7204,
+          "z": 416.2875
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 51.2268257,
+          "y": 93.0983658,
+          "z": 59.62979
+        },
+        "position": {
+          "x": 137.652374,
+          "y": 395.5283,
+          "z": 418.129242
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 22.4725685,
+          "y": 110.574684,
+          "z": 70.71294
+        },
+        "position": {
+          "x": 148.398636,
+          "y": 385.88562,
+          "z": 415.973633
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 357.28772,
+          "y": 294.0661,
+          "z": 299.264038
+        },
+        "position": {
+          "x": 134.7701,
+          "y": 409.126617,
+          "z": 413.558563
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 311.844849,
+          "y": 154.5431,
+          "z": 42.9719963
+        },
+        "position": {
+          "x": 132.713272,
+          "y": 407.691376,
+          "z": 415.4464
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 55.3135147,
+          "y": 355.834656,
+          "z": 335.321564
+        },
+        "position": {
+          "x": 129.857208,
+          "y": 413.7285,
+          "z": 412.804657
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 53.51214,
+          "y": 72.87943,
+          "z": 38.67658
+        },
+        "position": {
+          "x": 107.731155,
+          "y": 442.8086,
+          "z": 404.2254
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 50.9015121,
+          "y": 67.27132,
+          "z": 34.6784973
+        },
+        "position": {
+          "x": 119.200531,
+          "y": 428.256744,
+          "z": 408.084381
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 53.5929146,
+          "y": 14.0838156,
+          "z": 348.541
+        },
+        "position": {
+          "x": 105.3394,
+          "y": 459.471039,
+          "z": 394.989746
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 51.3213768,
+          "y": 30.4654617,
+          "z": 4.34891
+        },
+        "position": {
+          "x": 98.98287,
+          "y": 475.762329,
+          "z": 384.6445
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 49.5506973,
+          "y": 26.8740673,
+          "z": 1.82359672
+        },
+        "position": {
+          "x": 93.50237,
+          "y": 488.9339,
+          "z": 375.085938
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 38.8970833,
+          "y": 7.972101,
+          "z": 347.8982
+        },
+        "position": {
+          "x": 90.93258,
+          "y": 499.481628,
+          "z": 365.441528
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 39.9020462,
+          "y": 15.5815754,
+          "z": 352.732544
+        },
+        "position": {
+          "x": 87.65065,
+          "y": 500.848755,
+          "z": 365.3042
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 344.65094,
+          "y": 287.91803,
+          "z": 318.732178
+        },
+        "position": {
+          "x": 90.13923,
+          "y": 505.062317,
+          "z": 350.687378
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 342.757324,
+          "y": 140.480881,
+          "z": 43.30102
+        },
+        "position": {
+          "x": 86.82763,
+          "y": 505.368835,
+          "z": 352.5304
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 33.0868263,
+          "y": 352.6846,
+          "z": 334.188141
+        },
+        "position": {
+          "x": 88.3508453,
+          "y": 512.7165,
+          "z": 341.256531
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 35.04551,
+          "y": 358.669342,
+          "z": 337.4749
+        },
+        "position": {
+          "x": 88.44178,
+          "y": 524.9502,
+          "z": 324.1272
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 35.7291946,
+          "y": 5.11438751,
+          "z": 340.9936
+        },
+        "position": {
+          "x": 86.44964,
+          "y": 538.6947,
+          "z": 305.991516
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 36.0410576,
+          "y": 12.4172087,
+          "z": 344.550232
+        },
+        "position": {
+          "x": 83.72935,
+          "y": 548.074341,
+          "z": 293.906769
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 33.2839966,
+          "y": 10.2945929,
+          "z": 342.7276
+        },
+        "position": {
+          "x": 81.03812,
+          "y": 557.20575,
+          "z": 281.08255
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 330.5972,
+          "y": 256.367462,
+          "z": 342.384277
+        },
+        "position": {
+          "x": 76.86379,
+          "y": 568.234863,
+          "z": 264.358582
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 24.5217533,
+          "y": 9.67170048,
+          "z": 342.8711
+        },
+        "position": {
+          "x": 73.548645,
+          "y": 578.5428,
+          "z": 244.030029
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 8.570703,
+          "y": 332.82782,
+          "z": 332.854553
+        },
+        "position": {
+          "x": 82.07693,
+          "y": 581.685059,
+          "z": 226.7713
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 5.511333,
+          "y": 329.7362,
+          "z": 332.336578
+        },
+        "position": {
+          "x": 91.8721,
+          "y": 584.085,
+          "z": 209.386871
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 4.41754627,
+          "y": 332.8458,
+          "z": 332.5133
+        },
+        "position": {
+          "x": 102.219032,
+          "y": 586.4052,
+          "z": 189.0951
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 358.087036,
+          "y": 323.989319,
+          "z": 332.1965
+        },
+        "position": {
+          "x": 108.977356,
+          "y": 586.96106,
+          "z": 176.8884
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 24.0773449,
+          "y": 28.8810387,
+          "z": 350.7076
+        },
+        "position": {
+          "x": 103.531311,
+          "y": 590.97644,
+          "z": 171.182037
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 14.8638525,
+          "y": 357.7656,
+          "z": 336.215851
+        },
+        "position": {
+          "x": 105.030365,
+          "y": 591.6471,
+          "z": 166.553177
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.96809673,
+          "y": 334.9486,
+          "z": 337.231
+        },
+        "position": {
+          "x": 96.2504654,
+          "y": 604.7721,
+          "z": 163.81601
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.4776,
+          "y": 138.407913,
+          "z": 31.2224369
+        },
+        "position": {
+          "x": 93.83892,
+          "y": 604.6699,
+          "z": 166.883118
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 16.8074131,
+          "y": 48.2999,
+          "z": 355.9537
+        },
+        "position": {
+          "x": 82.53356,
+          "y": 610.9974,
+          "z": 155.100372
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 11.35966,
+          "y": 28.6729221,
+          "z": 351.157837
+        },
+        "position": {
+          "x": 71.47574,
+          "y": 616.495361,
+          "z": 134.4912
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 7.81272459,
+          "y": 17.7094879,
+          "z": 349.499146
+        },
+        "position": {
+          "x": 66.43713,
+          "y": 618.9932,
+          "z": 117.896194
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 11.2621422,
+          "y": 66.05567,
+          "z": 358.352753
+        },
+        "position": {
+          "x": 52.05258,
+          "y": 622.30896,
+          "z": 111.707077
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 4.84309769,
+          "y": 75.20554,
+          "z": 359.073181
+        },
+        "position": {
+          "x": 20.0671844,
+          "y": 627.4927,
+          "z": 99.19537
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 0.5599731,
+          "y": 84.44391,
+          "z": 358.239655
+        },
+        "position": {
+          "x": -12.7570038,
+          "y": 629.562,
+          "z": 90.68326
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 354.332916,
+          "y": 84.84473,
+          "z": 353.092438
+        },
+        "position": {
+          "x": -29.5372772,
+          "y": 626.7384,
+          "z": 89.6317
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 37.18884,
+          "y": 320.126648,
+          "z": 44.1132469
+        },
+        "position": {
+          "x": -177.089447,
+          "y": 352.3777,
+          "z": 96.2921143
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 346.928467,
+          "y": 0.4532625,
+          "z": 58.52742
+        },
+        "position": {
+          "x": -178.1314,
+          "y": 350.1469,
+          "z": 93.55881
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 29.024889,
+          "y": 327.775055,
+          "z": 48.39135
+        },
+        "position": {
+          "x": -174.430283,
+          "y": 354.7446,
+          "z": 89.513916
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 30.3422375,
+          "y": 326.578064,
+          "z": 46.05738
+        },
+        "position": {
+          "x": -167.481064,
+          "y": 362.0824,
+          "z": 78.87955
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 44.4119949,
+          "y": 285.100037,
+          "z": 20.3685684
+        },
+        "position": {
+          "x": -158.128265,
+          "y": 372.782227,
+          "z": 75.87109
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 39.6664848,
+          "y": 281.505127,
+          "z": 18.0486622
+        },
+        "position": {
+          "x": -148.120743,
+          "y": 381.916748,
+          "z": 73.59875
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 30.3410053,
+          "y": 276.174164,
+          "z": 10.889946
+        },
+        "position": {
+          "x": -123.566284,
+          "y": 397.772644,
+          "z": 70.62873
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 32.18707,
+          "y": 276.509216,
+          "z": 11.0974016
+        },
+        "position": {
+          "x": -136.657532,
+          "y": 389.814941,
+          "z": 72.09983
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 29.8055019,
+          "y": 269.659729,
+          "z": 7.70112371
+        },
+        "position": {
+          "x": -109.620659,
+          "y": 405.885376,
+          "z": 70.76553
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 24.55388,
+          "y": 266.726532,
+          "z": 6.169036
+        },
+        "position": {
+          "x": -89.53626,
+          "y": 416.4093,
+          "z": 71.83032
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 355.4693,
+          "y": 352.755432,
+          "z": 23.604929
+        },
+        "position": {
+          "x": -73.6769,
+          "y": 423.909027,
+          "z": 76.1814
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 5.67475653,
+          "y": 331.1617,
+          "z": 22.4007339
+        },
+        "position": {
+          "x": -73.9921951,
+          "y": 424.2685,
+          "z": 80.36798
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 335.785278,
+          "y": 66.37223,
+          "z": 2.96766567
+        },
+        "position": {
+          "x": -80.06812,
+          "y": 421.217834,
+          "z": 76.40292
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 332.9129,
+          "y": 20.8299847,
+          "z": 55.72225
+        },
+        "position": {
+          "x": -172.275574,
+          "y": 332.075775,
+          "z": 106.490761
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 43.7929726,
+          "y": 216.65332,
+          "z": 312.753021
+        },
+        "position": {
+          "x": -171.188354,
+          "y": 333.7282,
+          "z": 108.329918
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 359.376221,
+          "y": 184.962143,
+          "z": 298.605652
+        },
+        "position": {
+          "x": -173.914734,
+          "y": 328.5433,
+          "z": 110.128212
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 301.5562,
+          "y": 120.311485,
+          "z": 339.2893
+        },
+        "position": {
+          "x": -177.165253,
+          "y": 322.491364,
+          "z": 111.349426
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 299.695923,
+          "y": 116.365646,
+          "z": 344.158936
+        },
+        "position": {
+          "x": -181.451126,
+          "y": 314.600342,
+          "z": 113.151169
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 312.613281,
+          "y": 24.7231712,
+          "z": 57.75279
+        },
+        "position": {
+          "x": -184.285431,
+          "y": 308.513,
+          "z": 108.8098
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 347.623962,
+          "y": 359.1437,
+          "z": 69.5612
+        },
+        "position": {
+          "x": -184.413269,
+          "y": 306.89212,
+          "z": 100.718262
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 323.680634,
+          "y": 5.42572975,
+          "z": 66.9897
+        },
+        "position": {
+          "x": -185.6581,
+          "y": 300.62262,
+          "z": 92.8070145
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 324.977661,
+          "y": 4.094292,
+          "z": 68.49256
+        },
+        "position": {
+          "x": -186.392792,
+          "y": 293.961731,
+          "z": 83.51129
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 296.6973,
+          "y": 33.5121574,
+          "z": 43.5727272
+        },
+        "position": {
+          "x": -187.251587,
+          "y": 293.289917,
+          "z": 87.4212952
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 35.28706,
+          "y": 344.736938,
+          "z": 63.9046974
+        },
+        "position": {
+          "x": -197.1871,
+          "y": 276.599731,
+          "z": 81.4096
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 357.2179,
+          "y": 179.464111,
+          "z": 291.067749
+        },
+        "position": {
+          "x": -197.082336,
+          "y": 276.772827,
+          "z": 85.4969254
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 284.628723,
+          "y": 90.0386047,
+          "z": -0.005158728
+        },
+        "position": {
+          "x": -199.15361,
+          "y": 269.739716,
+          "z": 81.8281555
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 278.004272,
+          "y": 92.36731,
+          "z": 359.242218
+        },
+        "position": {
+          "x": -202.179108,
+          "y": 252.721924,
+          "z": 81.85198
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 276.493164,
+          "y": 105.366539,
+          "z": 345.8491
+        },
+        "position": {
+          "x": -204.695267,
+          "y": 233.209045,
+          "z": 82.41982
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 287.026123,
+          "y": 349.69046,
+          "z": 99.21638
+        },
+        "position": {
+          "x": -205.38002,
+          "y": 222.616577,
+          "z": 78.90175
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 288.3764,
+          "y": 339.294342,
+          "z": 110.487808
+        },
+        "position": {
+          "x": -202.0989,
+          "y": 197.337738,
+          "z": 70.93941
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 295.415527,
+          "y": 340.012665,
+          "z": 110.001335
+        },
+        "position": {
+          "x": -200.3156,
+          "y": 182.78804,
+          "z": 64.6747742
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 296.933746,
+          "y": 331.87,
+          "z": 117.872963
+        },
+        "position": {
+          "x": -198.4812,
+          "y": 174.030487,
+          "z": 60.6296
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 284.818237,
+          "y": 253.438385,
+          "z": 190.577133
+        },
+        "position": {
+          "x": -195.733032,
+          "y": 164.369843,
+          "z": 55.8905678
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 300.1943,
+          "y": 200.6452,
+          "z": 240.679016
+        },
+        "position": {
+          "x": -196.201385,
+          "y": 165.095016,
+          "z": 58.9361229
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 314.4551,
+          "y": 332.8974,
+          "z": 114.968178
+        },
+        "position": {
+          "x": -198.621231,
+          "y": 149.520874,
+          "z": 56.4641
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 21.8190365,
+          "y": 165.890335,
+          "z": 251.876511
+        },
+        "position": {
+          "x": -199.462448,
+          "y": 151.124878,
+          "z": 59.0706253
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 319.764954,
+          "y": 187.838135,
+          "z": 248.240936
+        },
+        "position": {
+          "x": -197.343857,
+          "y": 142.587189,
+          "z": 62.9696655
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 318.3832,
+          "y": 195.377579,
+          "z": 244.308777
+        },
+        "position": {
+          "x": -194.9941,
+          "y": 133.704071,
+          "z": 72.6085358
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 322.653381,
+          "y": 196.352814,
+          "z": 242.973816
+        },
+        "position": {
+          "x": -192.434555,
+          "y": 126.152664,
+          "z": 81.99435
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 332.228149,
+          "y": 194.101028,
+          "z": 244.75087
+        },
+        "position": {
+          "x": -189.620789,
+          "y": 119.379181,
+          "z": 94.1180649
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 336.211,
+          "y": 195.601822,
+          "z": 245.346375
+        },
+        "position": {
+          "x": -185.610733,
+          "y": 111.927032,
+          "z": 109.293182
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 333.421753,
+          "y": 197.403625,
+          "z": 246.393341
+        },
+        "position": {
+          "x": -180.348938,
+          "y": 104.055809,
+          "z": 126.1833
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 24.4134884,
+          "y": 176.457138,
+          "z": 249.062454
+        },
+        "position": {
+          "x": -177.854416,
+          "y": 98.81354,
+          "z": 132.0126
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 347.322876,
+          "y": 191.045334,
+          "z": 251.96402
+        },
+        "position": {
+          "x": -178.33696,
+          "y": 101.109833,
+          "z": 134.562134
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 3.60504,
+          "y": 203.760269,
+          "z": 225.071075
+        },
+        "position": {
+          "x": -171.870132,
+          "y": 86.6201248,
+          "z": 135.6806
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 357.041168,
+          "y": 23.7833786,
+          "z": 134.871658
+        },
+        "position": {
+          "x": -173.361374,
+          "y": 86.4046249,
+          "z": 132.2819
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 317.579437,
+          "y": 302.5831,
+          "z": 176.094162
+        },
+        "position": {
+          "x": -165.677338,
+          "y": 78.66975,
+          "z": 129.715057
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 320.5453,
+          "y": 302.037842,
+          "z": 176.005173
+        },
+        "position": {
+          "x": -153.071732,
+          "y": 65.68456,
+          "z": 121.168335
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 321.9986,
+          "y": 270.101074,
+          "z": 197.044144
+        },
+        "position": {
+          "x": -141.708557,
+          "y": 55.27488,
+          "z": 115.923721
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 320.367218,
+          "y": 285.003052,
+          "z": 186.7224
+        },
+        "position": {
+          "x": -143.033783,
+          "y": 55.3512573,
+          "z": 113.401489
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 21.3251362,
+          "y": 27.8623848,
+          "z": 140.60321
+        },
+        "position": {
+          "x": -128.216949,
+          "y": 52.6654549,
+          "z": 106.455276
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 353.816742,
+          "y": 190.430847,
+          "z": 223.608353
+        },
+        "position": {
+          "x": -127.290077,
+          "y": 51.9602547,
+          "z": 109.239807
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 323.710144,
+          "y": 296.4465,
+          "z": 164.6394
+        },
+        "position": {
+          "x": -123.798195,
+          "y": 48.2815475,
+          "z": 102.114388
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 347.34906,
+          "y": 346.631,
+          "z": 141.005325
+        },
+        "position": {
+          "x": -122.366577,
+          "y": 46.759922,
+          "z": 92.82234
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 325.726379,
+          "y": 298.1856,
+          "z": 165.759888
+        },
+        "position": {
+          "x": -118.364555,
+          "y": 43.64584,
+          "z": 90.61996
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 325.87912,
+          "y": 298.902832,
+          "z": 165.3568
+        },
+        "position": {
+          "x": -118.578857,
+          "y": 43.6035423,
+          "z": 86.67264
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 8.864156,
+          "y": 153.463074,
+          "z": 198.3746
+        },
+        "position": {
+          "x": -96.0496,
+          "y": 33.1111679,
+          "z": 94.07391
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 21.0335789,
+          "y": 104.841331,
+          "z": 185.521561
+        },
+        "position": {
+          "x": -98.1253357,
+          "y": 33.92598,
+          "z": 89.71153
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 354.2564,
+          "y": 344.332245,
+          "z": 159.6619
+        },
+        "position": {
+          "x": -95.0257339,
+          "y": 32.74964,
+          "z": 84.12209
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 356.885254,
+          "y": 349.651672,
+          "z": 159.464767
+        },
+        "position": {
+          "x": -93.00407,
+          "y": 32.05265,
+          "z": 73.25175
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 14.9371166,
+          "y": 31.5374012,
+          "z": 160.302475
+        },
+        "position": {
+          "x": -99.47169,
+          "y": 34.53517,
+          "z": 74.23484
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 355.795868,
+          "y": 191.119354,
+          "z": 200.6301
+        },
+        "position": {
+          "x": -98.4405746,
+          "y": 34.0703659,
+          "z": 77.17923
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 357.240479,
+          "y": 301.593048,
+          "z": 268.814026
+        },
+        "position": {
+          "x": 173.794067,
+          "y": 135.579987,
+          "z": 428.939728
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 356.293121,
+          "y": 302.363617,
+          "z": 269.3813
+        },
+        "position": {
+          "x": 183.840515,
+          "y": 134.414032,
+          "z": 422.67865
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 326.205872,
+          "y": 126.143173,
+          "z": 87.3658142
+        },
+        "position": {
+          "x": 203.805588,
+          "y": 152.86908,
+          "z": 409.254761
+        }
+      },
+      {
+        "path": "PreBramble_Body/Sector/PreBramble_SIM/Interactibles/Candles/Prefab_IP_DreamCandle_Ground",
+        "rotation": {
+          "x": 324.865,
+          "y": 125.244347,
+          "z": 88.54936
+        },
+        "position": {
+          "x": 196.245178,
+          "y": 145.95871,
+          "z": 414.6291
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 310.373352,
+          "y": 283.936462,
+          "z": 298.834961
+        },
+        "position": {
+          "x": 199.049149,
+          "y": 333.4248,
+          "z": 404.075073
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 12.1039591,
+          "y": 123.002434,
+          "z": 71.99282
+        },
+        "position": {
+          "x": 197.856827,
+          "y": 346.637329,
+          "z": 399.645355
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 3.98762965,
+          "y": 308.528931,
+          "z": 287.271545
+        },
+        "position": {
+          "x": 195.3751,
+          "y": 357.491821,
+          "z": 397.268738
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 22.1365738,
+          "y": 119.70472,
+          "z": 71.7403
+        },
+        "position": {
+          "x": 191.593018,
+          "y": 365.13208,
+          "z": 397.200836
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 305.002869,
+          "y": 151.51712,
+          "z": 57.08234
+        },
+        "position": {
+          "x": 183.759537,
+          "y": 345.051758,
+          "z": 410.3359
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 67.1036148,
+          "y": 356.944946,
+          "z": 325.722656
+        },
+        "position": {
+          "x": 180.980377,
+          "y": 333.127777,
+          "z": 416.953827
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 51.92235,
+          "y": 96.33307,
+          "z": 59.93191
+        },
+        "position": {
+          "x": 170.149719,
+          "y": 352.9465,
+          "z": 415.948425
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 355.165649,
+          "y": 297.71936,
+          "z": 288.090881
+        },
+        "position": {
+          "x": 159.6605,
+          "y": 356.772,
+          "z": 420.550659
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 289.818268,
+          "y": 233.9713,
+          "z": 335.768738
+        },
+        "position": {
+          "x": 151.891541,
+          "y": 372.0199,
+          "z": 419.1639
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 72.78857,
+          "y": 19.343174,
+          "z": 355.2382
+        },
+        "position": {
+          "x": 128.572632,
+          "y": 378.41156,
+          "z": 428.335571
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 287.877258,
+          "y": 202.1315,
+          "z": 3.98566651
+        },
+        "position": {
+          "x": 139.858261,
+          "y": 378.4867,
+          "z": 423.073517
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 290.162354,
+          "y": 227.974991,
+          "z": 342.3397
+        },
+        "position": {
+          "x": 167.182617,
+          "y": 325.42276,
+          "z": 428.487122
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 65.342926,
+          "y": 346.458252,
+          "z": 319.603
+        },
+        "position": {
+          "x": 161.899567,
+          "y": 343.6406,
+          "z": 424.279144
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 289.659851,
+          "y": 226.549561,
+          "z": 342.139923
+        },
+        "position": {
+          "x": 157.4618,
+          "y": 334.558655,
+          "z": 430.2007
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 67.5334549,
+          "y": 63.4214134,
+          "z": 34.870594
+        },
+        "position": {
+          "x": 149.561813,
+          "y": 349.154266,
+          "z": 428.811584
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 71.49545,
+          "y": 12.6001387,
+          "z": 346.992554
+        },
+        "position": {
+          "x": 144.225357,
+          "y": 361.684143,
+          "z": 426.9437
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 294.7262,
+          "y": 160.526871,
+          "z": 41.3035622
+        },
+        "position": {
+          "x": 129.556564,
+          "y": 364.7469,
+          "z": 432.831024
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 62.64984,
+          "y": 75.7145,
+          "z": 47.65459
+        },
+        "position": {
+          "x": 119.646927,
+          "y": 360.239319,
+          "z": 439.00473
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 10.8948021,
+          "y": 297.401154,
+          "z": 287.195648
+        },
+        "position": {
+          "x": 132.882416,
+          "y": 343.949554,
+          "z": 438.690979
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 292.008484,
+          "y": 243.209381,
+          "z": 324.0622
+        },
+        "position": {
+          "x": 141.256134,
+          "y": 340.5106,
+          "z": 435.993
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 42.39964,
+          "y": 312.9282,
+          "z": 294.9108
+        },
+        "position": {
+          "x": 151.971237,
+          "y": 329.958038,
+          "z": 434.697632
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 32.79023,
+          "y": 306.047363,
+          "z": 289.663177
+        },
+        "position": {
+          "x": 159.18721,
+          "y": 314.611145,
+          "z": 436.632141
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 351.2195,
+          "y": 114.216621,
+          "z": 76.55166
+        },
+        "position": {
+          "x": 147.943436,
+          "y": 306.852264,
+          "z": 443.547363
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 34.2643929,
+          "y": 101.8483,
+          "z": 71.8743439
+        },
+        "position": {
+          "x": 144.935043,
+          "y": 317.706268,
+          "z": 441.825623
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 12.3414392,
+          "y": 108.953613,
+          "z": 74.7404556
+        },
+        "position": {
+          "x": 132.756714,
+          "y": 326.452728,
+          "z": 444.30307
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 337.3864,
+          "y": 286.042145,
+          "z": 286.589539
+        },
+        "position": {
+          "x": 123.666229,
+          "y": 335.437531,
+          "z": 445.419739
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 28.2831764,
+          "y": 302.726471,
+          "z": 288.6076
+        },
+        "position": {
+          "x": 117.611725,
+          "y": 346.557465,
+          "z": 444.635284
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 72.9181061,
+          "y": 52.3032455,
+          "z": 26.6192169
+        },
+        "position": {
+          "x": 103.609894,
+          "y": 352.3391,
+          "z": 448.995422
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 304.548248,
+          "y": 143.307831,
+          "z": 56.35202
+        },
+        "position": {
+          "x": 128.5954,
+          "y": 356.857239,
+          "z": 436.142029
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 8.85019,
+          "y": 292.225037,
+          "z": 282.0896
+        },
+        "position": {
+          "x": 133.597809,
+          "y": 305.765,
+          "z": 449.240265
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 35.549408,
+          "y": 103.240585,
+          "z": 75.21774
+        },
+        "position": {
+          "x": 122.344574,
+          "y": 300.8489,
+          "z": 454.5744
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 346.289246,
+          "y": 113.646667,
+          "z": 78.58042
+        },
+        "position": {
+          "x": 124.297745,
+          "y": 308.7833,
+          "z": 452.1192
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 40.2822,
+          "y": 302.278656,
+          "z": 287.24353
+        },
+        "position": {
+          "x": 120.63549,
+          "y": 318.340881,
+          "z": 451.314972
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 38.2759552,
+          "y": 303.27832,
+          "z": 288.415039
+        },
+        "position": {
+          "x": 114.307579,
+          "y": 333.8068,
+          "z": 449.6748
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 321.462555,
+          "y": 118.344055,
+          "z": 74.3763657
+        },
+        "position": {
+          "x": 94.24107,
+          "y": 332.831665,
+          "z": 457.2762
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 64.69525,
+          "y": 81.15828,
+          "z": 57.80679
+        },
+        "position": {
+          "x": 101.14035,
+          "y": 340.775452,
+          "z": 452.985779
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 287.2837,
+          "y": 157.747284,
+          "z": 40.5883636
+        },
+        "position": {
+          "x": 104.610985,
+          "y": 325.7191,
+          "z": 455.369965
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 32.20817,
+          "y": 298.593079,
+          "z": 284.070984
+        },
+        "position": {
+          "x": 113.630058,
+          "y": 307.3419,
+          "z": 456.5388
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 71.08145,
+          "y": 66.86185,
+          "z": 46.43439
+        },
+        "position": {
+          "x": 103.7269,
+          "y": 312.165283,
+          "z": 458.9717
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 57.80797,
+          "y": 314.721039,
+          "z": 296.9918
+        },
+        "position": {
+          "x": 106.801559,
+          "y": 298.817078,
+          "z": 461.3606
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 19.5778618,
+          "y": 104.067345,
+          "z": 75.41228
+        },
+        "position": {
+          "x": 101.034874,
+          "y": 304.689178,
+          "z": 461.825134
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 17.4367237,
+          "y": 101.7483,
+          "z": 74.19595
+        },
+        "position": {
+          "x": 89.58503,
+          "y": 302.4592,
+          "z": 466.140228
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 56.6328964,
+          "y": 306.811035,
+          "z": 294.770721
+        },
+        "position": {
+          "x": 89.99336,
+          "y": 309.999176,
+          "z": 463.977417
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 44.7946548,
+          "y": 300.9526,
+          "z": 290.204224
+        },
+        "position": {
+          "x": 89.98566,
+          "y": 309.321777,
+          "z": 464.154968
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 13.72274,
+          "y": 291.391,
+          "z": 283.504761
+        },
+        "position": {
+          "x": 94.24223,
+          "y": 313.5714,
+          "z": 461.784241
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 20.9596062,
+          "y": 101.31797,
+          "z": 77.38283
+        },
+        "position": {
+          "x": 84.4082,
+          "y": 333.1176,
+          "z": 460.2227
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 287.74292,
+          "y": 151.774216,
+          "z": 42.7568741
+        },
+        "position": {
+          "x": 85.3923645,
+          "y": 317.501678,
+          "z": 463.4522
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 13.8976374,
+          "y": 288.8511,
+          "z": 282.1302
+        },
+        "position": {
+          "x": 84.07933,
+          "y": 326.468384,
+          "z": 461.756866
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 66.77253,
+          "y": 76.656,
+          "z": 41.3954277
+        },
+        "position": {
+          "x": 180.333176,
+          "y": 365.893555,
+          "z": 404.731384
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 339.6183,
+          "y": 297.573578,
+          "z": 288.638916
+        },
+        "position": {
+          "x": 185.315933,
+          "y": 357.7428,
+          "z": 404.417145
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 22.0703888,
+          "y": 314.302734,
+          "z": 289.7776
+        },
+        "position": {
+          "x": 194.412689,
+          "y": 338.410645,
+          "z": 405.472778
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 338.596283,
+          "y": 135.011627,
+          "z": 70.65193
+        },
+        "position": {
+          "x": 203.879974,
+          "y": 341.7782,
+          "z": 396.971344
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 326.717773,
+          "y": 296.6272,
+          "z": 291.462158
+        },
+        "position": {
+          "x": 209.9222,
+          "y": 335.749084,
+          "z": 394.712769
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 290.725372,
+          "y": 186.7473,
+          "z": 30.4899654
+        },
+        "position": {
+          "x": 215.102341,
+          "y": 329.69223,
+          "z": 393.0217
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 338.2455,
+          "y": 302.0762,
+          "z": 289.189331
+        },
+        "position": {
+          "x": 221.884079,
+          "y": 334.938965,
+          "z": 385.302368
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 304.877,
+          "y": 282.042755,
+          "z": 302.268
+        },
+        "position": {
+          "x": 220.330521,
+          "y": 329.833221,
+          "z": 388.698639
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 340.418518,
+          "y": 136.479233,
+          "z": 70.8837662
+        },
+        "position": {
+          "x": 220.826859,
+          "y": 344.05835,
+          "z": 382.341461
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 316.7649,
+          "y": 292.681824,
+          "z": 295.109833
+        },
+        "position": {
+          "x": 221.237518,
+          "y": 353.9386,
+          "z": 377.760529
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 32.64754,
+          "y": 322.5808,
+          "z": 291.549957
+        },
+        "position": {
+          "x": 210.9701,
+          "y": 368.558838,
+          "z": 380.277161
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 49.3419075,
+          "y": 330.362976,
+          "z": 297.299622
+        },
+        "position": {
+          "x": 201.968536,
+          "y": 367.3044,
+          "z": 388.305969
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 301.662537,
+          "y": 162.291565,
+          "z": 53.91548
+        },
+        "position": {
+          "x": 216.248047,
+          "y": 364.3417,
+          "z": 377.572662
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 357.468536,
+          "y": 308.985229,
+          "z": 287.9796
+        },
+        "position": {
+          "x": 214.679916,
+          "y": 347.795,
+          "z": 385.887878
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Large",
+        "rotation": {
+          "x": 287.781067,
+          "y": 222.125916,
+          "z": 356.965729
+        },
+        "position": {
+          "x": 212.020264,
+          "y": 341.522644,
+          "z": 390.641846
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Treefabs_Bramble/BrambleTree_Med.prefab",
+        "rotation": {
+          "x": 332.6501,
+          "y": 298.5402,
+          "z": 289.818848
+        },
+        "position": {
+          "x": 206.703308,
+          "y": 344.842773,
+          "z": 393.53598
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 340.728882,
+          "y": 135.367645,
+          "z": 71.1522446
+        },
+        "position": {
+          "x": 213.806168,
+          "y": 333.996368,
+          "z": 392.2971
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 24.8371353,
+          "y": 120.892914,
+          "z": 70.34254
+        },
+        "position": {
+          "x": 217.5805,
+          "y": 340.637451,
+          "z": 386.475677
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 325.9078,
+          "y": 295.828827,
+          "z": 291.2111
+        },
+        "position": {
+          "x": 202.0811,
+          "y": 346.272919,
+          "z": 396.57016
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 17.7281055,
+          "y": 122.285263,
+          "z": 72.0664444
+        },
+        "position": {
+          "x": 197.109,
+          "y": 363.339722,
+          "z": 393.725739
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 58.08065,
+          "y": 340.3597,
+          "z": 305.009247
+        },
+        "position": {
+          "x": 205.857239,
+          "y": 365.821045,
+          "z": 385.726349
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 288.5655,
+          "y": 201.9305,
+          "z": 17.1040554
+        },
+        "position": {
+          "x": 209.766144,
+          "y": 363.959351,
+          "z": 383.24054
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 358.5382,
+          "y": 130.9547,
+          "z": 71.9851151
+        },
+        "position": {
+          "x": 214.620956,
+          "y": 360.3318,
+          "z": 380.6751
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 71.82526,
+          "y": 30.3986855,
+          "z": 350.74054
+        },
+        "position": {
+          "x": 217.45134,
+          "y": 353.276184,
+          "z": 381.2793
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 300.2196,
+          "y": 276.240417,
+          "z": 306.7257
+        },
+        "position": {
+          "x": 208.9425,
+          "y": 347.054749,
+          "z": 390.840973
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 293.664978,
+          "y": 252.581192,
+          "z": 323.603882
+        },
+        "position": {
+          "x": 185.342484,
+          "y": 332.0948,
+          "z": 414.476624
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 325.647766,
+          "y": 293.701172,
+          "z": 292.235229
+        },
+        "position": {
+          "x": 196.429688,
+          "y": 329.6781,
+          "z": 407.563568
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 340.057434,
+          "y": 300.860168,
+          "z": 289.1124
+        },
+        "position": {
+          "x": 207.311584,
+          "y": 327.465027,
+          "z": 400.183
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 56.52784,
+          "y": 336.5718,
+          "z": 304.649445
+        },
+        "position": {
+          "x": 197.94899,
+          "y": 338.775238,
+          "z": 402.695679
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 13.793376,
+          "y": 118.944839,
+          "z": 70.5681458
+        },
+        "position": {
+          "x": 185.249466,
+          "y": 336.42865,
+          "z": 412.759247
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 42.44593,
+          "y": 323.1471,
+          "z": 294.666473
+        },
+        "position": {
+          "x": 192.3459,
+          "y": 342.794769,
+          "z": 405.235229
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 62.2594147,
+          "y": 342.0623,
+          "z": 309.10907
+        },
+        "position": {
+          "x": 190.657532,
+          "y": 360.5136,
+          "z": 399.5973
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 321.778442,
+          "y": 292.328674,
+          "z": 291.94632
+        },
+        "position": {
+          "x": 190.173431,
+          "y": 349.8332,
+          "z": 404.025146
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 34.94367,
+          "y": 316.489716,
+          "z": 290.8525
+        },
+        "position": {
+          "x": 184.049728,
+          "y": 363.928223,
+          "z": 402.964966
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 34.0871544,
+          "y": 110.749741,
+          "z": 69.0699
+        },
+        "position": {
+          "x": 177.599869,
+          "y": 372.3189,
+          "z": 404.12735
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 55.77518,
+          "y": 90.12457,
+          "z": 57.1571655
+        },
+        "position": {
+          "x": 150.531219,
+          "y": 389.199036,
+          "z": 413.625458
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 16.13262,
+          "y": 305.0134,
+          "z": 288.582062
+        },
+        "position": {
+          "x": 163.442612,
+          "y": 383.2464,
+          "z": 408.58548
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 10.88346,
+          "y": 113.108559,
+          "z": 72.2546158
+        },
+        "position": {
+          "x": 135.845917,
+          "y": 386.786255,
+          "z": 422.129761
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 37.5917549,
+          "y": 309.645264,
+          "z": 293.337128
+        },
+        "position": {
+          "x": 136.89888,
+          "y": 370.4361,
+          "z": 427.364716
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 27.2429523,
+          "y": 103.957741,
+          "z": 68.78949
+        },
+        "position": {
+          "x": 125.546715,
+          "y": 370.375183,
+          "z": 432.569672
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 47.864872,
+          "y": 315.577362,
+          "z": 296.9346
+        },
+        "position": {
+          "x": 133.768967,
+          "y": 378.325165,
+          "z": 426.010529
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 292.1944,
+          "y": 169.012192,
+          "z": 35.8360825
+        },
+        "position": {
+          "x": 144.87326,
+          "y": 371.021545,
+          "z": 423.247833
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 299.426483,
+          "y": 152.342148,
+          "z": 50.9547424
+        },
+        "position": {
+          "x": 147.854568,
+          "y": 359.1274,
+          "z": 426.026062
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 64.21054,
+          "y": 340.4456,
+          "z": 315.1751
+        },
+        "position": {
+          "x": 153.87999,
+          "y": 356.1957,
+          "z": 423.928925
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 40.59699,
+          "y": 314.581726,
+          "z": 294.027283
+        },
+        "position": {
+          "x": 154.440231,
+          "y": 363.226746,
+          "z": 421.035431
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 326.4629,
+          "y": 132.407791,
+          "z": 67.59372
+        },
+        "position": {
+          "x": 159.061966,
+          "y": 350.1548,
+          "z": 423.3797
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 339.596558,
+          "y": 128.872772,
+          "z": 69.4426956
+        },
+        "position": {
+          "x": 173.567291,
+          "y": 335.2929,
+          "z": 420.7461
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 310.945465,
+          "y": 143.717072,
+          "z": 59.4101
+        },
+        "position": {
+          "x": 167.361084,
+          "y": 331.918152,
+          "z": 425.784119
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 325.619751,
+          "y": 287.627838,
+          "z": 293.5017
+        },
+        "position": {
+          "x": 172.350433,
+          "y": 329.600739,
+          "z": 423.8144
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 67.1283,
+          "y": 353.656036,
+          "z": 323.981537
+        },
+        "position": {
+          "x": 169.628082,
+          "y": 317.4959,
+          "z": 430.271637
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 294.5179,
+          "y": 157.2322,
+          "z": 48.35753
+        },
+        "position": {
+          "x": 168.546249,
+          "y": 311.150146,
+          "z": 433.1291
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 322.4899,
+          "y": 128.179245,
+          "z": 69.10833
+        },
+        "position": {
+          "x": 164.002563,
+          "y": 311.220947,
+          "z": 435.481018
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 342.309052,
+          "y": 117.210854,
+          "z": 75.07279
+        },
+        "position": {
+          "x": 157.526382,
+          "y": 310.1374,
+          "z": 438.694977
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 70.6878,
+          "y": 60.8337975,
+          "z": 35.8410645
+        },
+        "position": {
+          "x": 152.097412,
+          "y": 317.02948,
+          "z": 438.97876
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 318.467346,
+          "y": 123.921227,
+          "z": 71.63116
+        },
+        "position": {
+          "x": 137.954666,
+          "y": 314.869873,
+          "z": 445.4473
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 34.8545151,
+          "y": 101.857216,
+          "z": 72.33726
+        },
+        "position": {
+          "x": 144.801071,
+          "y": 311.899719,
+          "z": 443.495483
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 288.3103,
+          "y": 151.084473,
+          "z": 48.5549622
+        },
+        "position": {
+          "x": 128.162125,
+          "y": 312.305939,
+          "z": 449.853119
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 53.32932,
+          "y": 92.47703,
+          "z": 66.73387
+        },
+        "position": {
+          "x": 131.860046,
+          "y": 318.320862,
+          "z": 446.9482
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 57.52018,
+          "y": 84.06595,
+          "z": 55.1319923
+        },
+        "position": {
+          "x": 123.334518,
+          "y": 352.502228,
+          "z": 440.101868
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 329.2264,
+          "y": 283.845917,
+          "z": 289.765533
+        },
+        "position": {
+          "x": 126.910454,
+          "y": 346.894257,
+          "z": 440.392883
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 69.43672,
+          "y": 344.965637,
+          "z": 323.129456
+        },
+        "position": {
+          "x": 121.516144,
+          "y": 344.17337,
+          "z": 443.686523
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 9.828869,
+          "y": 299.154846,
+          "z": 288.1452
+        },
+        "position": {
+          "x": 145.372849,
+          "y": 344.188141,
+          "z": 432.712952
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 290.0674,
+          "y": 181.737625,
+          "z": 23.323576
+        },
+        "position": {
+          "x": 151.819153,
+          "y": 339.3886,
+          "z": 431.2989
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 347.5012,
+          "y": 290.197662,
+          "z": 287.298737
+        },
+        "position": {
+          "x": 142.342346,
+          "y": 331.806152,
+          "z": 438.502838
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 22.3952541,
+          "y": 106.872246,
+          "z": 71.70024
+        },
+        "position": {
+          "x": 138.674789,
+          "y": 333.957825,
+          "z": 439.425018
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 304.2927,
+          "y": 267.767731,
+          "z": 301.344421
+        },
+        "position": {
+          "x": 153.0186,
+          "y": 324.284,
+          "z": 436.208252
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 13.694931,
+          "y": 109.814186,
+          "z": 72.6143646
+        },
+        "position": {
+          "x": 147.557266,
+          "y": 327.322052,
+          "z": 437.664825
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 291.155853,
+          "y": 159.38353,
+          "z": 42.02673
+        },
+        "position": {
+          "x": 148.47316,
+          "y": 319.3427,
+          "z": 439.845978
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 1.62292314,
+          "y": 118.847137,
+          "z": 72.23979
+        },
+        "position": {
+          "x": 159.178146,
+          "y": 376.5603,
+          "z": 413.475677
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 300.165771,
+          "y": 154.819626,
+          "z": 52.05397
+        },
+        "position": {
+          "x": 169.624985,
+          "y": 358.743774,
+          "z": 414.068085
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 11.6315737,
+          "y": 302.834137,
+          "z": 288.322571
+        },
+        "position": {
+          "x": 159.203079,
+          "y": 365.494537,
+          "z": 417.558
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 9.287057,
+          "y": 115.212669,
+          "z": 71.9959641
+        },
+        "position": {
+          "x": 148.350815,
+          "y": 380.949158,
+          "z": 417.7941
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 350.865173,
+          "y": 119.02684,
+          "z": 68.56618
+        },
+        "position": {
+          "x": 116.426338,
+          "y": 369.282135,
+          "z": 437.095367
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 32.4605637,
+          "y": 306.652344,
+          "z": 291.516785
+        },
+        "position": {
+          "x": 111.142723,
+          "y": 361.222778,
+          "z": 442.5648
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 299.7822,
+          "y": 145.715729,
+          "z": 54.3733826
+        },
+        "position": {
+          "x": 109.435104,
+          "y": 351.995972,
+          "z": 446.4749
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 63.4978867,
+          "y": 321.927124,
+          "z": 302.8816
+        },
+        "position": {
+          "x": 108.153038,
+          "y": 341.906738,
+          "z": 449.9647
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 333.24826,
+          "y": 283.5302,
+          "z": 284.1095
+        },
+        "position": {
+          "x": 103.157394,
+          "y": 331.744873,
+          "z": 454.434753
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 36.82771,
+          "y": 301.211334,
+          "z": 287.10968
+        },
+        "position": {
+          "x": 115.67556,
+          "y": 325.0112,
+          "z": 451.4794
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 11.842494,
+          "y": 107.6518,
+          "z": 76.08888
+        },
+        "position": {
+          "x": 110.022331,
+          "y": 329.9171,
+          "z": 452.338654
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 45.0697556,
+          "y": 303.072021,
+          "z": 288.630676
+        },
+        "position": {
+          "x": 112.693718,
+          "y": 318.8848,
+          "z": 454.1649
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 349.901337,
+          "y": 109.578178,
+          "z": 76.83887
+        },
+        "position": {
+          "x": 95.5535049,
+          "y": 322.828644,
+          "z": 459.1393
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 30.9539986,
+          "y": 294.9468,
+          "z": 283.88678
+        },
+        "position": {
+          "x": 89.9343948,
+          "y": 339.182373,
+          "z": 457.2525
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 72.36241,
+          "y": 346.322571,
+          "z": 327.1596
+        },
+        "position": {
+          "x": 99.28377,
+          "y": 347.8887,
+          "z": 451.890472
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 328.707764,
+          "y": 278.819,
+          "z": 287.552765
+        },
+        "position": {
+          "x": 93.87439,
+          "y": 306.023621,
+          "z": 463.847382
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Med",
+        "rotation": {
+          "x": 348.871,
+          "y": 113.277847,
+          "z": 74.34498
+        },
+        "position": {
+          "x": 101.759048,
+          "y": 297.978668,
+          "z": 463.4589
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Treefabs_Bramble/BrambleTree_Small.prefab",
+        "rotation": {
+          "x": 288.5971,
+          "y": 221.1922,
+          "z": 346.451935
+        },
+        "position": {
+          "x": 162.996353,
+          "y": 320.233582,
+          "z": 432.750854
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 52.3456421,
+          "y": 92.72072,
+          "z": 58.82243
+        },
+        "position": {
+          "x": 157.2652,
+          "y": 342.196045,
+          "z": 427.3743
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 358.883057,
+          "y": 115.54467,
+          "z": 72.33379
+        },
+        "position": {
+          "x": 145.3263,
+          "y": 336.2441,
+          "z": 435.579956
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 296.727844,
+          "y": 259.717163,
+          "z": 305.8748
+        },
+        "position": {
+          "x": 140.043579,
+          "y": 325.493835,
+          "z": 441.552521
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 330.8911,
+          "y": 117.169632,
+          "z": 75.9923248
+        },
+        "position": {
+          "x": 139.5402,
+          "y": 307.127869,
+          "z": 446.746368
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 345.046448,
+          "y": 114.187286,
+          "z": 77.83185
+        },
+        "position": {
+          "x": 118.140182,
+          "y": 312.452637,
+          "z": 453.665771
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 309.506653,
+          "y": 126.877319,
+          "z": 70.95477
+        },
+        "position": {
+          "x": 113.883896,
+          "y": 301.350037,
+          "z": 457.871735
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 4.731236,
+          "y": 289.73822,
+          "z": 285.792633
+        },
+        "position": {
+          "x": 96.50288,
+          "y": 299.4011,
+          "z": 464.8854
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 286.9551,
+          "y": 238.82843,
+          "z": 319.305023
+        },
+        "position": {
+          "x": 89.81854,
+          "y": 322.634735,
+          "z": 460.963837
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 22.8206825,
+          "y": 291.4317,
+          "z": 286.4466
+        },
+        "position": {
+          "x": 85.35094,
+          "y": 304.7557,
+          "z": 466.666626
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 41.638916,
+          "y": 93.3107452,
+          "z": 74.01034
+        },
+        "position": {
+          "x": 75.5372,
+          "y": 334.789368,
+          "z": 462.211731
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 1.25465238,
+          "y": 283.475,
+          "z": 282.5131
+        },
+        "position": {
+          "x": 75.08551,
+          "y": 322.0407,
+          "z": 465.104553
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 354.2165,
+          "y": 282.765381,
+          "z": 283.988037
+        },
+        "position": {
+          "x": 78.23708,
+          "y": 312.044128,
+          "z": 466.620636
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 15.4601126,
+          "y": 107.564888,
+          "z": 75.08999
+        },
+        "position": {
+          "x": 122.07518,
+          "y": 327.52774,
+          "z": 448.324554
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 25.5746574,
+          "y": 105.385757,
+          "z": 73.45488
+        },
+        "position": {
+          "x": 114.4822,
+          "y": 342.400269,
+          "z": 447.2303
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 17.0988216,
+          "y": 299.408447,
+          "z": 287.6819
+        },
+        "position": {
+          "x": 133.475876,
+          "y": 338.993683,
+          "z": 440.07254
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 44.87832,
+          "y": 96.52523,
+          "z": 64.0626144
+        },
+        "position": {
+          "x": 135.985474,
+          "y": 360.337158,
+          "z": 431.448669
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 322.220154,
+          "y": 129.9804,
+          "z": 67.23219
+        },
+        "position": {
+          "x": 140.156021,
+          "y": 349.477661,
+          "z": 433.343384
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 70.81233,
+          "y": 49.48819,
+          "z": 20.135067
+        },
+        "position": {
+          "x": 149.469376,
+          "y": 369.4439,
+          "z": 421.421082
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 332.095123,
+          "y": 127.296829,
+          "z": 69.84802
+        },
+        "position": {
+          "x": 141.295151,
+          "y": 384.927673,
+          "z": 420.057617
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 311.472717,
+          "y": 135.22345,
+          "z": 63.2729263
+        },
+        "position": {
+          "x": 128.693344,
+          "y": 386.380859,
+          "z": 425.568054
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 288.996857,
+          "y": 178.697876,
+          "z": 22.3320122
+        },
+        "position": {
+          "x": 120.59082,
+          "y": 376.883667,
+          "z": 432.313873
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 292.645264,
+          "y": 225.164078,
+          "z": 338.696625
+        },
+        "position": {
+          "x": 105.794479,
+          "y": 358.355835,
+          "z": 445.97818
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 52.72871,
+          "y": 328.202454,
+          "z": 298.845276
+        },
+        "position": {
+          "x": 184.434479,
+          "y": 368.5635,
+          "z": 400.989746
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 72.89998,
+          "y": 34.0694733,
+          "z": 356.1569
+        },
+        "position": {
+          "x": 197.100266,
+          "y": 368.695,
+          "z": 391.649933
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 332.665649,
+          "y": 139.419083,
+          "z": 69.96732
+        },
+        "position": {
+          "x": 204.095551,
+          "y": 374.300354,
+          "z": 383.677277
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 298.545532,
+          "y": 273.294678,
+          "z": 312.172668
+        },
+        "position": {
+          "x": 219.028442,
+          "y": 370.887024,
+          "z": 372.24588
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 295.7454,
+          "y": 266.04126,
+          "z": 317.8535
+        },
+        "position": {
+          "x": 230.7819,
+          "y": 348.660858,
+          "z": 371.805084
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 297.525726,
+          "y": 169.233536,
+          "z": 46.6898041
+        },
+        "position": {
+          "x": 231.045883,
+          "y": 329.68988,
+          "z": 379.9413
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 63.7937622,
+          "y": 91.48993,
+          "z": 49.71202
+        },
+        "position": {
+          "x": 226.4481,
+          "y": 318.064575,
+          "z": 388.628662
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 290.135437,
+          "y": 248.1908,
+          "z": 333.417542
+        },
+        "position": {
+          "x": 219.998062,
+          "y": 348.821167,
+          "z": 381.017548
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 288.824829,
+          "y": 229.882416,
+          "z": 344.585022
+        },
+        "position": {
+          "x": 180.697357,
+          "y": 342.237823,
+          "z": 413.4783
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 27.6562366,
+          "y": 110.697815,
+          "z": 69.0968
+        },
+        "position": {
+          "x": 165.336731,
+          "y": 351.170776,
+          "z": 419.446472
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 313.0569,
+          "y": 279.999939,
+          "z": 298.894165
+        },
+        "position": {
+          "x": 178.362579,
+          "y": 337.322,
+          "z": 416.9225
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Treefabs_Bramble/BrambleTree_Dead.prefab",
+        "rotation": {
+          "x": 53.37631,
+          "y": 102.64534,
+          "z": 58.3244133
+        },
+        "position": {
+          "x": 227.908691,
+          "y": 326.235046,
+          "z": 384.002167
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 9.428665,
+          "y": 125.850113,
+          "z": 71.48534
+        },
+        "position": {
+          "x": 223.316971,
+          "y": 323.1095,
+          "z": 389.045532
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 354.88504,
+          "y": 130.582169,
+          "z": 72.1712952
+        },
+        "position": {
+          "x": 216.004791,
+          "y": 323.102844,
+          "z": 395.005127
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 350.128448,
+          "y": 305.7455,
+          "z": 288.03125
+        },
+        "position": {
+          "x": 218.663574,
+          "y": 320.835,
+          "z": 393.790344
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 71.09353,
+          "y": 59.728344,
+          "z": 19.7559929
+        },
+        "position": {
+          "x": 211.389923,
+          "y": 328.342957,
+          "z": 396.576935
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 36.98767,
+          "y": 115.688492,
+          "z": 70.4045
+        },
+        "position": {
+          "x": 211.088455,
+          "y": 323.767944,
+          "z": 398.657166
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 310.951324,
+          "y": 149.487579,
+          "z": 61.99125
+        },
+        "position": {
+          "x": 201.797089,
+          "y": 328.415619,
+          "z": 404.04184
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 46.1279945,
+          "y": 328.324341,
+          "z": 296.1896
+        },
+        "position": {
+          "x": 208.6242,
+          "y": 341.4536,
+          "z": 393.404755
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 37.5161171,
+          "y": 112.748512,
+          "z": 67.6791153
+        },
+        "position": {
+          "x": 197.464645,
+          "y": 342.35,
+          "z": 401.63208
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 305.287781,
+          "y": 277.9729,
+          "z": 302.8904
+        },
+        "position": {
+          "x": 194.000351,
+          "y": 335.188782,
+          "z": 407.1032
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 67.26238,
+          "y": 355.379181,
+          "z": 322.3193
+        },
+        "position": {
+          "x": 189.645508,
+          "y": 344.660828,
+          "z": 406.4222
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 52.3254051,
+          "y": 99.1141739,
+          "z": 60.4308662
+        },
+        "position": {
+          "x": 179.6295,
+          "y": 353.405182,
+          "z": 409.8441
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 43.4429169,
+          "y": 102.912132,
+          "z": 64.81241
+        },
+        "position": {
+          "x": 170.19986,
+          "y": 360.42395,
+          "z": 413.089172
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 316.224243,
+          "y": 141.917984,
+          "z": 64.48103
+        },
+        "position": {
+          "x": 182.891617,
+          "y": 346.792816,
+          "z": 410.227356
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 20.1699066,
+          "y": 115.1215,
+          "z": 70.99242
+        },
+        "position": {
+          "x": 173.578842,
+          "y": 353.978668,
+          "z": 413.463562
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 66.4201355,
+          "y": 72.2252045,
+          "z": 40.07223
+        },
+        "position": {
+          "x": 162.68396,
+          "y": 374.7146,
+          "z": 412.175385
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 6.43969727,
+          "y": 302.995331,
+          "z": 287.59552
+        },
+        "position": {
+          "x": 173.375748,
+          "y": 375.733643,
+          "z": 405.496735
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 23.3932743,
+          "y": 113.12796,
+          "z": 70.8955841
+        },
+        "position": {
+          "x": 170.910309,
+          "y": 380.029053,
+          "z": 405.3982
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 69.9100647,
+          "y": 1.21740508,
+          "z": 333.021423
+        },
+        "position": {
+          "x": 158.60202,
+          "y": 386.640381,
+          "z": 410.0878
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 28.9579,
+          "y": 107.232933,
+          "z": 66.55483
+        },
+        "position": {
+          "x": 143.800217,
+          "y": 394.851379,
+          "z": 415.1468
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 37.6120834,
+          "y": 313.141235,
+          "z": 292.64267
+        },
+        "position": {
+          "x": 153.273315,
+          "y": 387.8213,
+          "z": 412.622253
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 346.175659,
+          "y": 122.73555,
+          "z": 71.69158
+        },
+        "position": {
+          "x": 152.500626,
+          "y": 381.745544,
+          "z": 415.278137
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 26.5738335,
+          "y": 309.6317,
+          "z": 290.102081
+        },
+        "position": {
+          "x": 166.016068,
+          "y": 356.5728,
+          "z": 417.014862
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 319.3819,
+          "y": 284.947144,
+          "z": 294.5946
+        },
+        "position": {
+          "x": 174.320557,
+          "y": 342.5752,
+          "z": 417.3982
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 337.863,
+          "y": 128.98671,
+          "z": 69.32605
+        },
+        "position": {
+          "x": 167.454758,
+          "y": 337.554077,
+          "z": 423.483459
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 70.2318,
+          "y": 51.73241,
+          "z": 21.2413635
+        },
+        "position": {
+          "x": 164.256439,
+          "y": 345.9109,
+          "z": 422.07785
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 21.0015163,
+          "y": 109.071457,
+          "z": 70.2749252
+        },
+        "position": {
+          "x": 153.179855,
+          "y": 332.395752,
+          "z": 433.215332
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 22.8016453,
+          "y": 107.631912,
+          "z": 70.28072
+        },
+        "position": {
+          "x": 146.4878,
+          "y": 338.4432,
+          "z": 434.240082
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 55.8133621,
+          "y": 324.289276,
+          "z": 303.100647
+        },
+        "position": {
+          "x": 141.127121,
+          "y": 353.3435,
+          "z": 431.496552
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 303.825562,
+          "y": 144.576981,
+          "z": 56.1671143
+        },
+        "position": {
+          "x": 136.115051,
+          "y": 364.421326,
+          "z": 429.9123
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 19.7419987,
+          "y": 300.44928,
+          "z": 289.014832
+        },
+        "position": {
+          "x": 129.9812,
+          "y": 373.8011,
+          "z": 429.335236
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 37.2894,
+          "y": 98.32782,
+          "z": 63.03204
+        },
+        "position": {
+          "x": 116.113861,
+          "y": 374.334778,
+          "z": 435.0793
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 59.111496,
+          "y": 328.1684,
+          "z": 307.740173
+        },
+        "position": {
+          "x": 124.799629,
+          "y": 361.491272,
+          "z": 436.1913
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 18.1879387,
+          "y": 108.338089,
+          "z": 70.03893
+        },
+        "position": {
+          "x": 111.770332,
+          "y": 366.110931,
+          "z": 440.4692
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 308.2339,
+          "y": 270.964783,
+          "z": 298.605469
+        },
+        "position": {
+          "x": 115.705238,
+          "y": 353.130066,
+          "z": 443.3149
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 72.93078,
+          "y": 15.7338991,
+          "z": 351.8407
+        },
+        "position": {
+          "x": 123.200333,
+          "y": 346.792816,
+          "z": 442.09906
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 305.642334,
+          "y": 136.239609,
+          "z": 62.423027
+        },
+        "position": {
+          "x": 126.868645,
+          "y": 339.783325,
+          "z": 442.731445
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 61.12847,
+          "y": 81.48965,
+          "z": 54.712738
+        },
+        "position": {
+          "x": 132.085617,
+          "y": 333.511719,
+          "z": 442.449463
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 341.13797,
+          "y": 292.046936,
+          "z": 289.437653
+        },
+        "position": {
+          "x": 152.44751,
+          "y": 353.521362,
+          "z": 425.712341
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 339.3631,
+          "y": 121.879524,
+          "z": 71.24926
+        },
+        "position": {
+          "x": 132.520447,
+          "y": 350.041321,
+          "z": 436.758423
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 286.805328,
+          "y": 174.043747,
+          "z": 27.2170753
+        },
+        "position": {
+          "x": 138.435577,
+          "y": 319.595947,
+          "z": 443.946716
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 285.584381,
+          "y": 227.397827,
+          "z": 335.9892
+        },
+        "position": {
+          "x": 149.075317,
+          "y": 312.0025,
+          "z": 441.697876
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 65.360466,
+          "y": 81.13602,
+          "z": 56.5435829
+        },
+        "position": {
+          "x": 153.796219,
+          "y": 301.215149,
+          "z": 442.604858
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 76.1685257,
+          "y": 5.3440547,
+          "z": 345.293365
+        },
+        "position": {
+          "x": 108.254341,
+          "y": 309.337952,
+          "z": 458.08963
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 283.847626,
+          "y": 191.493164,
+          "z": 9.72623348
+        },
+        "position": {
+          "x": 125.957787,
+          "y": 319.0326,
+          "z": 449.088
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 345.709869,
+          "y": 286.574951,
+          "z": 282.80014
+        },
+        "position": {
+          "x": 142.218552,
+          "y": 302.146179,
+          "z": 446.9249
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 26.62913,
+          "y": 104.249428,
+          "z": 76.61438
+        },
+        "position": {
+          "x": 128.96701,
+          "y": 300.818573,
+          "z": 452.07254
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 0.360650033,
+          "y": 112.573059,
+          "z": 79.3955154
+        },
+        "position": {
+          "x": 110.732635,
+          "y": 295.94873,
+          "z": 460.519379
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 21.5861988,
+          "y": 298.291534,
+          "z": 285.235229
+        },
+        "position": {
+          "x": 161.12146,
+          "y": 304.540283,
+          "z": 438.7308
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 37.52511,
+          "y": 115.401566,
+          "z": 76.33293
+        },
+        "position": {
+          "x": 167.737885,
+          "y": 304.9688,
+          "z": 435.358154
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 318.821167,
+          "y": 127.453316,
+          "z": 69.1848755
+        },
+        "position": {
+          "x": 156.683167,
+          "y": 311.6816,
+          "z": 438.612335
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 291.487274,
+          "y": 241.683258,
+          "z": 327.038757
+        },
+        "position": {
+          "x": 160.4191,
+          "y": 318.6893,
+          "z": 434.6171
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 318.6018,
+          "y": 281.389038,
+          "z": 295.966064
+        },
+        "position": {
+          "x": 168.618439,
+          "y": 322.108154,
+          "z": 429.0042
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 310.7414,
+          "y": 274.555542,
+          "z": 299.383484
+        },
+        "position": {
+          "x": 161.140289,
+          "y": 326.129639,
+          "z": 431.489532
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 288.425629,
+          "y": 201.622528,
+          "z": 4.527764
+        },
+        "position": {
+          "x": 155.18158,
+          "y": 326.1261,
+          "z": 434.545746
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 305.472839,
+          "y": 139.9586,
+          "z": 59.66626
+        },
+        "position": {
+          "x": 155.420166,
+          "y": 320.700623,
+          "z": 436.3218
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 286.061279,
+          "y": 185.747742,
+          "z": 16.27157
+        },
+        "position": {
+          "x": 146.626114,
+          "y": 319.159851,
+          "z": 440.695374
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 316.891541,
+          "y": 277.7195,
+          "z": 293.0781
+        },
+        "position": {
+          "x": 149.363678,
+          "y": 323.6435,
+          "z": 438.070282
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 301.591156,
+          "y": 137.924271,
+          "z": 60.6065979
+        },
+        "position": {
+          "x": 134.864456,
+          "y": 322.8673,
+          "z": 444.47
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 309.191742,
+          "y": 134.147324,
+          "z": 63.80666
+        },
+        "position": {
+          "x": 138.2492,
+          "y": 329.893555,
+          "z": 440.941864
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 67.924675,
+          "y": 346.1152,
+          "z": 323.172
+        },
+        "position": {
+          "x": 140.238617,
+          "y": 343.542419,
+          "z": 435.412964
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 347.519257,
+          "y": 116.066216,
+          "z": 74.7467041
+        },
+        "position": {
+          "x": 119.861382,
+          "y": 339.0915,
+          "z": 445.934021
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 287.639954,
+          "y": 238.011963,
+          "z": 324.9209
+        },
+        "position": {
+          "x": 121.623444,
+          "y": 331.124084,
+          "z": 447.513336
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 289.7245,
+          "y": 248.088913,
+          "z": 314.2017
+        },
+        "position": {
+          "x": 112.50013,
+          "y": 328.7423,
+          "z": 451.712982
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 294.5466,
+          "y": 262.148651,
+          "z": 300.8641
+        },
+        "position": {
+          "x": 114.678886,
+          "y": 312.227966,
+          "z": 455.0277
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 315.834747,
+          "y": 121.649536,
+          "z": 71.88005
+        },
+        "position": {
+          "x": 103.428307,
+          "y": 320.199524,
+          "z": 457.1292
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 292.5669,
+          "y": 255.4545,
+          "z": 306.4862
+        },
+        "position": {
+          "x": 108.118904,
+          "y": 326.588867,
+          "z": 453.8938
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 347.111877,
+          "y": 111.794518,
+          "z": 77.5000153
+        },
+        "position": {
+          "x": 97.8593,
+          "y": 327.564575,
+          "z": 457.251923
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 294.5456,
+          "y": 254.111267,
+          "z": 306.088257
+        },
+        "position": {
+          "x": 96.6158142,
+          "y": 310.082,
+          "z": 461.880066
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 288.9164,
+          "y": 161.367111,
+          "z": 29.51721
+        },
+        "position": {
+          "x": 82.79066,
+          "y": 298.8696,
+          "z": 469.0514
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 72.12872,
+          "y": 50.0122566,
+          "z": 35.8979073
+        },
+        "position": {
+          "x": 74.38338,
+          "y": 303.003174,
+          "z": 469.7831
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 282.831879,
+          "y": 206.097931,
+          "z": 346.438934
+        },
+        "position": {
+          "x": 67.40971,
+          "y": 319.401855,
+          "z": 467.490265
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 325.870728,
+          "y": 274.5035,
+          "z": 285.075134
+        },
+        "position": {
+          "x": 69.57335,
+          "y": 312.431458,
+          "z": 468.574249
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 56.2845535,
+          "y": 85.1645355,
+          "z": 68.46257
+        },
+        "position": {
+          "x": 69.47938,
+          "y": 329.267151,
+          "z": 464.861847
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 344.698853,
+          "y": 279.4893,
+          "z": 282.3341
+        },
+        "position": {
+          "x": 68.5074158,
+          "y": 337.8013,
+          "z": 463.241577
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 282.727478,
+          "y": 215.433746,
+          "z": 339.135529
+        },
+        "position": {
+          "x": 76.96571,
+          "y": 340.558228,
+          "z": 460.602
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 298.7642,
+          "y": 128.203156,
+          "z": 64.919014
+        },
+        "position": {
+          "x": 85.23666,
+          "y": 336.661438,
+          "z": 459.219025
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 305.347351,
+          "y": 124.949348,
+          "z": 69.15956
+        },
+        "position": {
+          "x": 89.67317,
+          "y": 329.7724,
+          "z": 459.413361
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 359.965424,
+          "y": 108.468117,
+          "z": 77.83894
+        },
+        "position": {
+          "x": 93.02659,
+          "y": 336.932861,
+          "z": 456.749878
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 314.595734,
+          "y": 275.8363,
+          "z": 287.460175
+        },
+        "position": {
+          "x": 89.7251358,
+          "y": 343.6564,
+          "z": 456.324524
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 26.4919529,
+          "y": 297.0566,
+          "z": 288.0948
+        },
+        "position": {
+          "x": 94.7172852,
+          "y": 348.0068,
+          "z": 453.515717
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 325.154938,
+          "y": 124.219231,
+          "z": 70.999794
+        },
+        "position": {
+          "x": 111.280281,
+          "y": 347.548035,
+          "z": 447.054962
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 6.280063,
+          "y": 110.508728,
+          "z": 75.50632
+        },
+        "position": {
+          "x": 105.886635,
+          "y": 347.240021,
+          "z": 449.4119
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 329.577637,
+          "y": 124.037056,
+          "z": 69.6033
+        },
+        "position": {
+          "x": 123.53566,
+          "y": 381.538727,
+          "z": 429.515778
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Dead",
+        "rotation": {
+          "x": 305.707367,
+          "y": 146.534424,
+          "z": 58.8190346
+        },
+        "position": {
+          "x": 167.017456,
+          "y": 369.664337,
+          "z": 411.5397
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 19.0645447,
+          "y": 117.021385,
+          "z": 71.3913956
+        },
+        "position": {
+          "x": 177.723083,
+          "y": 356.2965,
+          "z": 410.001953
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 348.5881,
+          "y": 124.5932,
+          "z": 71.6252441
+        },
+        "position": {
+          "x": 165.726837,
+          "y": 365.260834,
+          "z": 413.929
+        }
+      },
+      {
+        "path": "Sector/BrambleTree_Small",
+        "rotation": {
+          "x": 316.9984,
+          "y": 290.107422,
+          "z": 294.9465
+        },
+        "position": {
+          "x": 205.678375,
+          "y": 333.360046,
+          "z": 399.031433
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "parentPath": "Sector/DirSign_SouthPole/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/SpawnSign/Left.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_SouthPole/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/SpawnSign/Right.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_Junction/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/SpawnSign/Left.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_Junction/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/SpawnSign/Right.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_BioExperiment/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ExperimentAreaSign/Left.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_BioExperiment/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ExperimentAreaSign/Right.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_SplitArea/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/SplitAreaSign/Left.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_SplitArea/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/SplitAreaSign/Right.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_ResearchArea/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ResearchAreaSign/Right.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_ResearchArea/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ResearchAreaSign/Left.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_ResearchArea/Interactibles/Text/Up/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ResearchAreaSign/Up.xml",
+        "position": {
+          "y": -0.5
+        }
+      },
+      {
+        "parentPath": "Sector/DirSign_ResearchArea2/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ResearchAreaSign/Right2.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_ResearchArea2/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ResearchAreaSign/Left2.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_Forest/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ForestSign/Right.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_Forest/Interactibles/Text/Left/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ForestSign/Left.xml"
+      },
+      {
+        "parentPath": "Sector/DirSign_Forest/Interactibles/Text/Up/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ForestSign/Up.xml",
+        "position": {
+          "y": -0.5
+        }
+      },
+      {
+        "parentPath": "Sector/BioExperiment/Interactibles/Text/Angler/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/BioExperiment/Ernesto.xml"
+      },
+      {
+        "parentPath": "Sector/BioExperiment/Interactibles/Text/Jellyfish/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/BioExperiment/Geswaldo.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_SIM/GlitchedTiles/ErnestoDialogue",
+        "isRelativeToParent": true,
+        "radius": 3,
+        "xmlFile": "dialogue/PreBramble/Hidden/Ernesto.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_SIM/GlitchedTiles/GeswaldoDialogue",
+        "isRelativeToParent": true,
+        "radius": 3,
+        "xmlFile": "dialogue/PreBramble/Hidden/Geswaldo.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_Research/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Research/Wall1.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_Research/Interactibles/Text/Wall2/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Research/Wall2.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_Research/Interactibles/Text/Wall3/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Research/Wall3.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_BrambleResearch/Interactibles/Text/Wall/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/BrambleResearch/Wall.xml"
+      },
+      {
+        "parentPath": "Sector/PreBramble_BrambleResearch/Interactibles/Text/Table/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/BrambleResearch/Table.xml"
+      },
+      {
+        "parentPath": "Sector/ForestSign/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ForestSign/Sign.xml"
+      },
+      {
+        "parentPath": "Sector/ForestSign2/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/ForestSign/Sign2.xml"
+      }
+    ],
+    "singularities": [
+      {
+        "uniqueID": "DEBUG_WH",
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "position": {
+          "x": -41.15749,
+          "y": -233.26,
+          "z": 60.56798
+        },
+        "pairedSingularity": "DEBUG_BH"
+      },
+      {
+        "uniqueID": "GLITCH_BH",
+        "rename": "GLITCH_BH",
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "parentPath": "Sector/PreBramble_SIM/GlitchedTiles/WarpPoint",
+        "pairedSingularity": "GLITCH_WH"
+      },
+      {
+        "type": "whiteHole",
+        "rename": "PREBRAMBLE_WH",
+        "parentPath": "Sector/PreBramble_BrambleResearch",
+        "isRelativeToParent": true,
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "position": {
+          "x": 2,
+          "y": 4.25,
+          "z": -25
+        },
+        "uniqueID": "PREBRAMBLE_WH",
+        "pairedSingularity": "PREBRAMBLE_BH"
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "rename": "PREBRAMBLE_WH2",
+        "uniqueID": "PREBRAMBLE_WH2",
+        "position": {
+          "x": 199.4294,
+          "y": 353.498,
+          "z": 399.4937
+        },
+        "rotation": {
+          "x": 22.2103,
+          "y": 341.2487,
+          "z": 295.1431
+        },
+        "pairedSingularity": "PREBRAMBLE_BH2"
+      },
+      {
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_AtoB_BH",
+        "rename": "PREBRAMBLE_WARP_AtoB_BH",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/Forest",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_AtoB_WH"
+      },
+      {
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "rename": "PREBRAMBLE_WARP_AtoC_BH",
+        "uniqueID": "PREBRAMBLE_WARP_AtoC_BH",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/NorthPole",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_AtoC_WH"
+      },
+      {
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_AtoD_BH",
+        "rename": "PREBRAMBLE_WARP_AtoD_BH",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/Caves",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_AtoD_WH"
+      },
+      {
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_BtoA_BH",
+        "rename": "PREBRAMBLE_WARP_BtoA_BH",
+        "parentPath": "Sector/WarpHouse_Forest/Offsets/Warp",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_BtoA_WH"
+      },
+      {
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_CtoA_BH",
+        "rename": "PREBRAMBLE_WARP_CtoA_BH",
+        "parentPath": "Sector/WarpHouse_NorthPole/Offsets/Warp",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_CtoA_WH"
+      },
+      {
+        "type": "blackHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_DtoA_BH",
+        "rename": "PREBRAMBLE_WARP_DtoA_BH",
+        "parentPath": "Sector/WarpHouse_Caves/Offsets/Warp",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_DtoA_WH"
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_AtoB_WH",
+        "rename": "PREBRAMBLE_WARP_AtoB_WH",
+        "parentPath": "Sector/WarpHouse_Forest/Offsets/Warp",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_AtoB_BH",
+        "position": {
+          "z": 2
+        }
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_AtoC_WH",
+        "rename": "PREBRAMBLE_WARP_AtoC_WH",
+        "parentPath": "Sector/WarpHouse_NorthPole/Offsets/Warp",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_AtoC_BH",
+        "position": {
+          "z": 2
+        }
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "rename": "PREBRAMBLE_WARP_AtoD_WH",
+        "uniqueID": "PREBRAMBLE_WARP_AtoD_WH",
+        "parentPath": "Sector/WarpHouse_Caves/Offsets/Warp",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_AtoD_BH",
+        "position": {
+          "z": 2
+        }
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_BtoA_WH",
+        "rename": "PREBRAMBLE_WARP_BtoA_WH",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/Forest",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_BtoA_BH",
+        "position": {
+          "z": 6
+        }
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "uniqueID": "PREBRAMBLE_WARP_CtoA_WH",
+        "rename": "PREBRAMBLE_WARP_CtoA_WH",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/NorthPole",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_CtoA_BH",
+        "position": {
+          "z": 6
+        }
+      },
+      {
+        "type": "whiteHole",
+        "horizonRadius": 0,
+        "hasWarpEffects": false,
+        "rename": "PREBRAMBLE_WARP_DtoA_WH",
+        "uniqueID": "PREBRAMBLE_WARP_DtoA_WH",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/Caves",
+        "isRelativeToParent": true,
+        "pairedSingularity": "PREBRAMBLE_WARP_DtoA_BH",
+        "position": {
+          "z": 6
+        }
+      }
+    ],
+    "slideShows": [
+      {
+        "type": "autoProjector",
+        "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable (2)/Projector_Lens (1)",
+        "isRelativeToParent": true,
+        "slides": [
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0000.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0001.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0002.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0003.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0004.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0005.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0006.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0007.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0009.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0010.jpg" },
+          { "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0011.jpg" }
+        ]
+      },
+      {
+        "type": "autoProjector",
+        "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable (1)/Projector_Lens (1)",
+        "isRelativeToParent": true,
+        "slides": [
+          {
+            "imagePath": "assets/Slideshows/SneakTutorial/slide (1).png"
+          },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (2).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (3).png" },
+          {
+            "imagePath": "assets/Slideshows/SneakTutorial/slide (4).png"
+          },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (5).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (6).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (7).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (8).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (9).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (10).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (11).png" },
+          {
+            "imagePath": "assets/Slideshows/SneakTutorial/slide (12).png"
+          },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (13).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (14).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (15).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (16).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (17).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (18).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (19).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (20).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (21).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (22).png" },
+          { "imagePath": "assets/Slideshows/SneakTutorial/slide (23).png" }
+        ]
+      },
+      {
+        "type": "autoProjector",
+        "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable/Projector_Lens (1)",
+        "isRelativeToParent": true,
+        "slides": [
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (1).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (2).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (3).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (4).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (5).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (6).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (7).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (8).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (9).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (10).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (11).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (12).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (13).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (14).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (15).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (16).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (17).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (18).png" },
+          { "imagePath": "assets/Slideshows/LanternExploit/REEL (19).png" }
+        ]
+      }
+    ]
+  },
+  "removeChildren": [
+    "Sector/WarpHouse/WarpOffsets/Forest/PREBRAMBLE_WARP_AtoB_BH/BlackHoleRenderer",
+    "Sector/WarpHouse/WarpOffsets/Forest/PREBRAMBLE_WARP_AtoB_BH/BlackHoleAmbience",
+    "Sector/WarpHouse/WarpOffsets/Forest/PREBRAMBLE_WARP_AtoB_BH/BlackHoleEmissionOneShot",
+
+    "Sector/WarpHouse/WarpOffsets/NorthPole/PREBRAMBLE_WARP_AtoC_BH/BlackHoleRenderer",
+    "Sector/WarpHouse/WarpOffsets/NorthPole/PREBRAMBLE_WARP_AtoC_BH/BlackHoleAmbience",
+    "Sector/WarpHouse/WarpOffsets/NorthPole/PREBRAMBLE_WARP_AtoC_BH/BlackHoleEmissionOneShot",
+
+    "Sector/WarpHouse/WarpOffsets/Caves/PREBRAMBLE_WARP_AtoD_BH/BlackHoleRenderer",
+    "Sector/WarpHouse/WarpOffsets/Caves/PREBRAMBLE_WARP_AtoD_BH/BlackHoleAmbience",
+    "Sector/WarpHouse/WarpOffsets/Caves/PREBRAMBLE_WARP_AtoD_BH/BlackHoleEmissionOneShot",
+
+    "Sector/WarpHouse_Forest/Offsets/Warp/PREBRAMBLE_WARP_BtoA_BH/BlackHoleRenderer",
+    "Sector/WarpHouse_Forest/Offsets/Warp/PREBRAMBLE_WARP_BtoA_BH/BlackHoleAmbience",
+    "Sector/WarpHouse_Forest/Offsets/Warp/PREBRAMBLE_WARP_BtoA_BH/BlackHoleEmissionOneShot",
+
+    "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_CtoA_BH/BlackHoleRenderer",
+    "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_CtoA_BH/BlackHoleAmbience",
+    "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_CtoA_BH/BlackHoleEmissionOneShot",
+
+    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_DtoA_BH/BlackHoleRenderer",
+    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_DtoA_BH/BlackHoleAmbience",
+    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_DtoA_BH/BlackHoleEmissionOneShot",
+
+    "Sector/WarpHouse/WarpOffsets/Forest/PREBRAMBLE_WARP_BtoA_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse/WarpOffsets/Forest/PREBRAMBLE_WARP_BtoA_WH/WhiteHoleAmbience",
+
+    "Sector/WarpHouse/WarpOffsets/NorthPole/PREBRAMBLE_WARP_CtoA_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse/WarpOffsets/NorthPole/PREBRAMBLE_WARP_CtoA_WH/WhiteHoleAmbience",
+
+    "Sector/WarpHouse/WarpOffsets/Caves/PREBRAMBLE_WARP_DtoA_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse/WarpOffsets/Caves/PREBRAMBLE_WARP_DtoA_WH/WhiteHoleAmbience",
+
+    "Sector/WarpHouse_Forest/Offsets/Warp/PREBRAMBLE_WARP_AtoB_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse_Forest/Offsets/Warp/PREBRAMBLE_WARP_AtoB_WH/WhiteHoleAmbience",
+
+    "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_AtoC_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_AtoC_WH/WhiteHoleAmbience",
+
+    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_AtoD_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_AtoD_WH/WhiteHoleAmbience"
+  ],
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "audio": "assets/Audio/a planet perserved.ogg",
+        "volume": 0.5,
+        "track": "music",
+        "radius": 1000
+      },
+      {
+        "audio": "Tronworld Ambience 2 Alex Hack",
+        "radius": 50,
+        "volume": 0.5,
+        "track": "environment",
+        "parentPath": "Sector/PreBramble_SIM/GlitchedTiles",
+        "isRelativeToParent": true,
+        "priority": 1
+      }
+    ],
+    "speedTrapVolumes": [
+      {
+        "acceleration": 1,
+        "speedLimit": 1,
+        "radius": 10,
+        "parentPath": "Sector/SurfaceNode2",
+        "isRelativeToParent": true
+      },
+      {
+        "acceleration": 1,
+        "speedLimit": 1,
+        "radius": 10,
+        "parentPath": "Sector/SurfaceNode1",
+        "isRelativeToParent": true
+      }
+    ]
+  },
+  "Water": {
+    "size": 180
+  }
+}

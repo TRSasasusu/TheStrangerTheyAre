@@ -1,0 +1,462 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Velvet Vortex",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"AmbientLights": [
+		{
+			"intensity": 1,
+			"innerRadius": 300,
+			"outerRadius": 650,
+			"tint": {
+				"r": 221,
+				"g": 72,
+				"b": 64
+			}
+		}
+	],
+	"Atmosphere": {
+		"clouds": {
+			"texturePath": "assets/Texture/Texturecrimsongiant.png",
+			"capPath": "assets/Texture/crimsongiant_cap.png",
+			"rampPath": "assets/Texture/crimsongiant_ramp.png",
+			"outerCloudRadius": 700,
+			"innerCloudRadius": 650,
+			"fluidType": "cloud",
+			"tint": {
+				"r": 188,
+				"g": 29,
+				"b": 15
+			},
+			"hasLightning": true
+		},
+		"hasRain": true,
+		"size": 700,
+		"atmosphereTint": {
+			"r": 221,
+			"g": 15,
+			"b": 4,
+			"a": 140
+		},
+		"fogSize": 660,
+		"fogTint": {
+			"r": 221,
+			"g": 15,
+			"b": 4,
+			"a": 20
+		}
+	},
+	"Base": {
+		"surfaceGravity": 25,
+		"surfaceSize": 315
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/crimsoncore.png",
+			"normalTile": "assets/Texture/crimsoncore_n.png",
+			"smoothnessTile": "assets/Texture/crimsoncore_h.png",
+			"size": 20
+		},
+		"tileBlendMap": "assets/Texture/dbm_r.png",
+		"minHeight": 197,
+		"maxHeight": 200
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Water": {
+		"size": 310,
+		"density": 40,
+		"tint": {
+			"r": 90,
+			"g": 32,
+			"b": 27
+		},
+		"curve": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 10,
+				"value": 1
+			},
+			{
+				"time": 11,
+				"value": 1.1
+			}
+		]
+	},
+	"Props": {
+		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/CG_ISLAND_TEST.prefab",
+				"count": 1,
+				"seed": 1,
+				"offset": {
+					"y": 120
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/CG_ISLAND2.prefab",
+				"count": 1,
+				"seed": 25,
+				"offset": {
+					"y": 120
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/CG_ISLAND3.prefab",
+				"count": 2,
+				"seed": 56,
+				"offset": {
+					"y": 120
+				}
+			}
+		],
+		"rafts": [
+			{
+				"alignRadial": true,
+				"position": {
+					"x": 310,
+					"y": 0,
+					"z": 0
+				},
+				"rename": "CG_RAFT"
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerTravelers/Crimson/CRIMSON_T1.prefab",
+				"parentPath": "Sector/CG_RAFT",
+				"rename": "CRIMSON_TRAVELER",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 0.5
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/CG_ISLAND_LAB.prefab",
+				"position": {
+					"x": 171.5112,
+					"y": -300.8952,
+					"z": 54.5883
+				},
+				"rotation": {
+					"x": 349.9595,
+					"y": 359.7018,
+					"z": 223.9017
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/CG_ISLAND_TEST.prefab",
+				"position": {
+					"x": 157.62,
+					"y": -248.5063,
+					"z": 46.6128
+				},
+				"rotation": {
+					"x": 338.8818,
+					"y": 63.5871,
+					"z": 180.2373
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/CG_ISLAND2.prefab",
+				"position": {
+					"x": -28.7405,
+					"y": -3.0718,
+					"z": 308.6496
+				},
+				"rotation": {
+					"x": 291.6872,
+					"y": 83.2523,
+					"z": 91.5366
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Tent.prefab",
+				"rename": "CRIMSON_TENT",
+				"position": {
+					"x": -60.0725,
+					"y": 0.174,
+					"z": 337.5542
+				},
+				"rotation": {
+					"x": 16.3411,
+					"y": 77.1093,
+					"z": 88.2495
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/NormalFire_Stranger.prefab",
+				"position": {
+					"x": -57.2807,
+					"y": 9.7334,
+					"z": 335.5831
+				},
+				"rotation": {
+					"x": 60.8631,
+					"y": 263.2679,
+					"z": 275.4244
+				}
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"parentPath": "Sector/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"Effects",
+					"Props_HEA_Campfire"
+				]
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Seals/Seal_Crimson.prefab",
+				"position": {
+					"x": 181.2442,
+					"y": -67.5687,
+					"z": 50.7572
+				},
+				"rotation": {
+					"x": 344.3236,
+					"y": 349.9773,
+					"z": 248.5534
+				}
+			},
+			{
+				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"removeChildren": [ "OxygenVolume" ],
+				"scale": 0.2712,
+				"position": {
+					"x": -64.9941,
+					"y": 10.7013,
+					"z": 333.9299
+				},
+				"rotation": {
+					"x": 349.5825,
+					"y": 78.4979,
+					"z": 87.9583
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/Phys/TableBody.prefab",
+				"position": {
+					"x": 284.4885,
+					"y": -221.5906,
+					"z": 24.6814
+				},
+				"rotation": {
+					"x": 348.1725,
+					"y": 1.604756,
+					"z": 223.5407
+				},
+				"hasPhysics": true
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/NewTravelers/Crimson.xml",
+				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Crimson/1F_Wall.xml",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Text/1F_Wall/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/2F_Wall1.xml",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Text/2F_Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/2F_Wall2.xml",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Text/2F_Wall2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Strange Frequency",
+				"name": "Pine's Signal",
+				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+				"detectionRadius": 10000,
+				"identificationRadius": 20,
+				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
+			}
+		],
+		"tornados": [
+			{
+				"wanderRate": 0.1,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				}
+			},
+			{
+				"wanderRate": 0.1,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				}
+			},
+			{
+				"wanderRate": 0.1,
+				"fluidType": "cloud",
+				"type": "downwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				}
+			},
+			{
+				"wanderRate": 0.1,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				}
+			},
+			{
+				"wanderRate": 0.1,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				}
+			},
+			{
+				"wanderRate": 0.1,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				}
+			},
+			{
+				"wanderRate": 0.15,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				},
+				"position": {
+					"x": 179.7732,
+					"y": -204.2413,
+					"z": -126.361
+				}
+			}
+		]
+	},
+	"Volumes": {
+		"visorEffects": {
+			"rainEffectVolumes": [
+				{
+					"radius": 675
+				}
+			]
+		},
+		"hazardVolumes": [
+			{
+				"type": "electricity",
+				"radius": 310,
+				"parentPath": "Sector/Water/OceanFog",
+				"isRelativeToParent": true,
+				"firstContactDamageType": "electrical"
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 21000,
+		"primaryBody": "Nearest Neighbor",
+		"trueAnomaly": 140,
+		"tint": {
+			"r": 142,
+			"g": 1,
+			"b": 1
+		}
+	},
+	"canShowOnTitle": false,
+	"ShipLog": {
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/CRIMSONGIANT_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/CRIMSONGIANT_UI_O.png"
+		}
+	},
+	"ParticleFields": [
+		{
+			"type": "clouds",
+			"densityByHeightCurve": [
+				{
+					"density": 20,
+					"height": 650
+				},
+				{
+					"density": 5,
+					"height": 0
+				}
+			]
+		}
+	]
+}

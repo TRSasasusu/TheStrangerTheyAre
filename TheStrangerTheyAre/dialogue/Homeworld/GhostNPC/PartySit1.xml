@@ -1,0 +1,71 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Oak</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>PartySit1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>I got my eye on you, alien. You'll be sorry if you do anything wrong here.</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>OK, I won't do anything.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>GOOD</DialogueTarget>
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>How dystopian.</Text>
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>What are some good places to explore on this planet?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Unfortunately, my job is to guard and conserve the planet and our species, and my gut thinks you'll pose a threat to it.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>I'll try not to get into any trouble.</Text>
+    <DialogueTarget>GOOD</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Well, you can start at our Observation Deck somewhere on this side of the plateau, and from there you should explore the other planets. I'd feel much more comfortable with you exploring those places instead.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+    <DialogueOption>
+    <Text>Alright, thank you!</Text>
+        <DialogueTarget>2A</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList>
+     <RevealFacts>
+      <FactID>HOME_OBSERVATION_R</FactID>
+  </RevealFacts> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2A</Name>
+  <Dialogue>
+   <Page>You're welcome, but I still have my eye on you!</Page>
+  </Dialogue>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>GOOD</Name>
+  <Dialogue>
+   <Page>Good.</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

@@ -1,0 +1,266 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sizzling Sands",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"AmbientLights": [
+		{
+			"intensity": 3,
+			"innerRadius": 0,
+			"outerRadius": 200,
+			"position": {
+				"x": 0,
+				"y": -150,
+				"z": 0
+			}
+		},
+		{
+			"intensity": 1,
+			"innerRadius": 0,
+			"outerRadius": 200,
+			"position": {
+				"x": 0,
+				"y": 150,
+				"z": 0
+			}
+		}
+	],
+	"Atmosphere": {
+		"clouds": {
+			"texturePath": "assets/Texture/desert_clouds.png",
+			"outerCloudRadius": 300,
+			"innerCloudRadius": 250,
+			"fluidType": "cloud",
+			"tint": {
+				"r": 252,
+				"g": 179,
+				"b": 70
+			}
+		},
+		"atmosphereSunIntensity": 3,
+		"size": 300,
+		"atmosphereTint": {
+			"r": 252,
+			"g": 208,
+			"b": 141,
+			"a": 140
+		},
+		"fogSize": 250,
+		"fogTint": {
+			"r": 252,
+			"g": 208,
+			"b": 141,
+			"a": 20
+		}
+	},
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 175
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/sand.png",
+			"normalTile": "assets/Texture/sand_n.png",
+			"smoothnessTile": "assets/Texture/sand_h.png",
+			"size": 20
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/sandrock.png",
+			"normalTile": "assets/Texture/sandrock_n.png",
+			"smoothnessTile": "assets/Texture/sandrock_h.png",
+			"size": 20
+		},
+		"tileBlendMap": "assets/Texture/desert_r.png",
+		"heightMap": "assets/Texture/desert_h.png",
+		"minHeight": 150,
+		"maxHeight": 175
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Volumes": {
+		"hazardVolumes": [
+			{
+				"radius": 200,
+				"type": "heat",
+				"firstContactDamage": 1000000,
+				"damagePerSecond": 1000000,
+				"position": {
+					"x": 0,
+					"y": -150,
+					"z": 0
+				}
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 5000,
+		"primaryBody": "Nearest Neighbor",
+		"trueAnomaly": 256,
+		"isTidallyLocked": true,
+		"axialTilt": 90,
+		"tint": {
+			"r": 239,
+			"g": 159,
+			"b": 112
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Tent.prefab",
+				"rename": "DESERT_TENT",
+				"position": {
+					"x": -73.7865,
+					"y": 146.4399,
+					"z": 1.3707
+				},
+				"rotation": {
+					"x": 333.5887,
+					"y": 85.7454,
+					"z": 3.2485
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/NormalFire_Stranger.prefab",
+				"position": {
+					"x": -71.8984,
+					"y": 145.1721,
+					"z": -10.4853
+				},
+				"rotation": {
+					"x": 10.4937,
+					"y": 217.461,
+					"z": 342.2421
+				}
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"parentPath": "Sector/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"Effects",
+					"Props_HEA_Campfire"
+				]
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerTravelers/Desert/Prefab_IP_GhostBird_Desert.prefab",
+				"position": {
+					"x": -70.2984,
+					"y": 145.6721,
+					"z": -8.5853
+				},
+				"rotation": {
+					"x": 10.4937,
+					"y": 217.461,
+					"z": 342.2421
+				}
+			},
+			{
+				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"removeChildren": [ "OxygenVolume" ],
+				"scale": 0.2712,
+				"position": {
+					"x": -50.36,
+					"y": 32.32,
+					"z": 7.63
+				},
+				"rotation": {
+					"x": 0.8242,
+					"y": 327.108,
+					"z": 4.8486
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Seals/Seal_Desert.prefab",
+				"position": {
+					"x": 23.8397,
+					"y": -160.0884,
+					"z": 14.4772
+				},
+				"rotation": {
+					"x": 12.4602,
+					"y": 274.6441,
+					"z": 171.5768
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/NewTravelers/Desert.xml",
+				"parentPath": "Sector/DESERT_TRAVELER",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			}
+		]
+	},
+	"Sand": {
+		"size": 150,
+		"curve": [
+			{
+				"value": 0.5,
+				"time": 0
+			},
+			{
+				"value": 1,
+				"time": 22
+			},
+			{
+				"value": 1.8,
+				"time": 23
+			},
+			{
+				"value": 2,
+				"time": 31
+			}
+		]
+	},
+	"canShowOnTitle": false,
+	"ShipLog": {
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/DESERT_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/DESERT_UI_O.png"
+		}
+	},
+	"ParticleFields": [
+		{
+			"type": "sandMotes",
+			"densityByHeightCurve": [
+				{
+					"density": 20,
+					"height": 150
+				},
+				{
+					"density": 10,
+					"height": 250
+				}
+			]
+		},
+		{
+			"type": "embers",
+			"densityByHeightCurve": [
+				{
+					"density": 30,
+					"height": 150
+				},
+				{
+					"density": 10,
+					"height": 250
+				}
+			]
+		}
+	]
+}

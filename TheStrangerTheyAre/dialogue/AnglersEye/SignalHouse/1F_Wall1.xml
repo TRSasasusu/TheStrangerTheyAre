@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>1F_Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Day 45: An anomaly has occured with the signal blocker, as I was able to detect The Eye's signal. However, this anomaly allowed me to track the connection wavelengths between our ship and the blocker, now that I have it located.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_SIGNALHOUSE_SIGNALREVEAL</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

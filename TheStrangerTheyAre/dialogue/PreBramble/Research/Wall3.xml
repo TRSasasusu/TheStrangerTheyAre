@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall3</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Interesting, seems like the invasive Bramble's growth starts at the North Pole...</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>PREBRAMBLE_RESEARCH_TEXT3</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

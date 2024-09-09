@@ -1,0 +1,46 @@
+﻿<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>TIMBER_HEARTH</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>HEARTH_SIGNAL</ID> <!-- The ID of this entry -->
+		<Curiosity>HEARTH_SIGNAL</Curiosity>
+		<Name>Timber Hearth Vision Torch</Name> <!-- The name to show for this entry both on the card and in map mode -->
+		<AltPhotoCondition>HEARTH_VISION</AltPhotoCondition>
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>HEARTH_SIGNAL_R</ID> <!-- The ID of this fact -->
+            <RumorName>Strange Signal</RumorName> <!-- The name of the rumor this fact relates to -->
+			<SourceID>HEARTH_SLATE</SourceID>
+            <Text>Slate said the strange signal came from one of the waterfalls in the village.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>HEARTH_SIGNAL_E</ID> <!-- The ID of this fact -->
+            <Text>The strange signal appears to be coming from a Vision Torch.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>HEARTH_VISION</ID> <!-- The ID of this fact -->
+            <Text>The vision torch contained a vision of three inhabitants of the Stranger landing on Timber Hearth. They appear to be eating us at food! They flew back to what looks to be Dark Bramble before it overgrew.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>HEARTH_SLATE</ID> <!-- The ID of this entry -->
+            <Name>Slate's Request</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>HEARTH_SIGNAL</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>HEARTH_SLATE_E1</ID> <!-- The ID of this fact -->
+                <Text>Slate wants me to investigate a strange signal.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>HEARTH_SLATE_E2</ID> <!-- The ID of this fact -->
+                <Text>Slate sounded horrified when I told them about our kind being eaten by the three inhabitants that visited. I think they've gone vegan!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

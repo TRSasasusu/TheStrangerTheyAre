@@ -1,0 +1,62 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Sap</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>ConversationGhirds2</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Hahaha! You're a comedic genius! Tell me another!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Hi.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>Your laugh creeps me out.</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Don't interrupt conversation.</Text>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Can't you see we're in the middle of a conversation?</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Sorry.</Text>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>You've got some guts little one. You're an alien AND you fear my laugh? What have we done to you?</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Simulated versions of your ancestors on The Stranger kept trying to kill me.</Text>
+    <DialogueTarget>2A</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Sorry.</Text>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2A</Name>
+  <Dialogue>
+   <Page>That's no surprise, they drove themselves insane. We're not like that anymore, so you're the creep now!</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

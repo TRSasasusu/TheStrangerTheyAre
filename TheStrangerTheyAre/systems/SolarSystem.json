@@ -1,0 +1,243 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+  "entryPositions": [
+    {
+      "id": "ANGLERS_EYE_MAIN",
+      "position": {
+        "x": 4800,
+        "y": 150
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_ALIENTEXT",
+      "position": {
+        "x": 4700,
+        "y": 50
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_SIGNALHOUSE",
+      "position": {
+        "x": 5100,
+        "y": 600
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_SIGNALHOUSE_LOCKED",
+      "position": {
+        "x": 5100,
+        "y": 450
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_SIMSECRET",
+      "position": {
+        "x": 5100,
+        "y": 150
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_HURRICANE",
+      "position": {
+        "x": 4600,
+        "y": 300
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_DBMUSEUM",
+      "position": {
+        "x": 4500,
+        "y": 450
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_CONSERVATORY",
+      "position": {
+        "x": 4900,
+        "y": 450
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_RD",
+      "position": {
+        "x": 4700,
+        "y": 450
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_POEM",
+      "position": {
+        "x": 4800,
+        "y": 600
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_THEATRE",
+      "position": {
+        "x": 4500,
+        "y": 600
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_MINE",
+      "position": {
+        "x": 4500,
+        "y": 150
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_STORYREEL",
+      "position": {
+        "x": 4500,
+        "y": 750
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_CRASHSITE",
+      "position": {
+        "x": 4500,
+        "y": 900
+      }
+    },
+    {
+      "id": "NEWSIM_MAIN",
+      "position": {
+        "x": 4800,
+        "y": -175
+      }
+    },
+    {
+      "id": "NEWSIM_RD_MAIN",
+      "position": {
+        "x": 4500,
+        "y": -450
+      }
+    },
+    {
+      "id": "NEWSIM_THEATRE_MAIN",
+      "position": {
+        "x": 4700,
+        "y": -450
+      }
+    },
+    {
+      "id": "NEWSIM_ARCHIVE_MAIN",
+      "position": {
+        "x": 4900,
+        "y": -450
+      }
+    },
+    {
+      "id": "NEWSIM_SCIENTIST_MAIN",
+      "position": {
+        "x": 5100,
+        "y": -450
+      }
+    },
+    {
+      "id": "DARKER_MAIN",
+      "position": {
+        "x": 4150,
+        "y": 100
+      }
+    },
+    {
+      "id": "DARKER_BASE",
+      "position": {
+        "x": 3950,
+        "y": -100
+      }
+    },
+    {
+      "id": "HEARTH_SIGNAL",
+      "position": {
+        "x": 4250,
+        "y": -250
+      }
+    },
+    {
+      "id": "HEARTH_SLATE",
+      "position": {
+        "x": 4500,
+        "y": -250
+      }
+    },
+    {
+      "id": "NEWSIM_PUZZLEREEL",
+      "position": {
+        "x": 4700,
+        "y": -600
+      }
+    },
+    {
+      "id": "NEWSIM_PRISONER",
+      "position": {
+        "x": 4900,
+        "y": -600
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "ANGLERS_EYE_MAINLOG",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "NEWSIM_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "DARKER_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "HEARTH_SIGNAL",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    }
+  ],
+    "returnToSolarSystemWhenTooFar": true
+}

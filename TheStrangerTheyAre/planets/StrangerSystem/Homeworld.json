@@ -1,0 +1,1029 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Strangers' Homeworld",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"AmbientLights": [
+		{
+			"intensity": 1.4,
+			"innerRadius": 180,
+			"outerRadius": 450
+		}
+	],
+	"Atmosphere": {
+		"size": 500,
+		"atmosphereSunIntensity": 1,
+		"hasOxygen": true,
+		"hasTrees": true,
+		"hasShockLayer": true,
+		"atmosphereTint": {
+			"r": 25,
+			"g": 154,
+			"b": 252,
+			"a": 0
+		},
+		"fogSize": 500,
+		"fogTint": {
+			"r": 25,
+			"g": 154,
+			"b": 252,
+			"a": 0
+		}
+	},
+	"Spawn": {
+		"playerSpawn": {
+			"alignRadial": true,
+			"startWithSuit": true,
+			"isDefault": true,
+			"rename": "SpawnPlayer_Home",
+			"position": {
+				"x": 133.2987,
+				"y": 49.4234,
+				"z": -146.0497
+			}
+		},
+		"shipSpawn": {
+			"alignRadial": true,
+			"rename": "SpawnShip_Home",
+			"position": {
+				"x": 133.2987,
+				"y": 49.4234,
+				"z": -146.0497
+			}
+		}
+	},
+	"ShipLog": {
+		"xmlFile": "shiplogs/home.xml",
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/HOME_UI.png"
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/SpiritOfWater.ogg",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_Music",
+				"isRelativeToParent": false,
+				"track": "music",
+				"loop": true,
+				"priority": 0,
+				"radius": 500,
+				"volume": 0.2
+			},
+			{
+				"audio": "OW Finally Set Free 072021_2 AP",
+				"track": "music",
+				"loop": true,
+				"priority": 1,
+				"radius": 5,
+				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock/RaftSocket/HOME_RAFT",
+				"isRelativeToParent": true,
+				"volume": 0.2
+			},
+			{
+				"audio": "assets/Audio/terraformhome3.ogg",
+				"pauseOnFadeOut": false,
+				"loop": false,
+				"priority": 1,
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_IntroMusic",
+				"isRelativeToParent": true,
+				"track": "environmentUnfiltered",
+				"radius": 400
+			}
+		],
+		"insulatingVolumes": [
+			{
+				"parentPath": "Sector/BrambleMuseum_HOME/Interactables/Item_CloakMineral",
+				"isRelativeToParent": true,
+				"radius": 20
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [ "HOME_REVEAL" ],
+				"radius": 400
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"parentPath": "Sector/HOME_NODE",
+				"isRelativeToParent": true,
+				"radius": 60,
+				"acceleration": 1,
+				"speedLimit": 5
+			}
+		]
+	},
+	"Base": {
+		"surfaceGravity": 14,
+		"surfaceSize": 200
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"position": {
+					"x": 246.6703,
+					"y": 25.6214,
+					"z": -171.1146
+				},
+				"scale": 0.5,
+				"fogTint": {
+					"r": 0,
+					"g": 0,
+					"b": 0
+				},
+				"hasFogLight": false,
+				"name": "HOME_NODE",
+				"linksTo": "DarkerBramble_BigWall2"
+			}
+		]
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/grass.png",
+			"normalTile": "assets/Texture/grass_normal.png",
+			"size": 5
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/cliffs.png",
+			"normalTile": "assets/Texture/cliffs_n.png",
+			"size": 5
+		},
+		"resolution": 1024,
+		"heightMap": "assets/Texture/homemoon_h.png",
+		"tileBlendMap": "assets/Texture/homemoon_r.png",
+		"textureMap": "assets/Texture/homemoon_lod.png",
+		"minHeight": 170,
+		"maxHeight": 210
+	},
+	"Water": {
+		"size": 180,
+		"tint": {
+			"r": 13,
+			"g": 49,
+			"b": 74,
+			"a": 0
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EntryAndPartyHouse.prefab",
+				"position": {
+					"x": 160.7575,
+					"y": 62.5612,
+					"z": -117.2438
+				},
+				"rotation": {
+					"x": 89.761,
+					"y": 338.7487,
+					"z": 213.7283
+				}
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone2/Structures_Zone2/RaftHouse_Eye_Zone2/Interactables_RaftHouse_Eye_Zone2/Prefab_IP_RaftDock",
+				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"RaftSocket/Raft_Body (7)"
+				],
+				"rename": "Prefab_IP_RaftDock_Main",
+				"position": {
+					"x": 41.25,
+					"z": 47.51
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Interactibles_PrisonCell/PrisonerSequence/VisionTorchWallSocket/Prefab_IP_VisionTorchItem",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Props_PartyHouse/Props_IP_StaffArmature/Arm_A/Arm_B/staff_attach_point",
+				"isRelativeToParent": true,
+				"keepLoaded": true,
+				"rename": "VisionTorch"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GrowStopper.prefab",
+				"parentPath": "Sector/HOME_NODE",
+				"isRelativeToParent": true,
+				"scale": 0.5,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/SpaceCenter.prefab",
+				"position": {
+					"x": 57.4064,
+					"y": 84.1231,
+					"z": -176.3186
+				},
+				"rotation": {
+					"x": 334.7597,
+					"y": 255.7926,
+					"z": 60.8236
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/ObservationDeck_HOMEWORLD.prefab",
+				"position": {
+					"x": -44.8236,
+					"y": -94.6909,
+					"z": -207.2792
+				},
+				"rotation": {
+					"x": 8.8658,
+					"y": 101.3424,
+					"z": 246.4354
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Generic_House_A.prefab",
+				"position": {
+					"x": 111.6774,
+					"y": 85.772,
+					"z": 116.0817
+				},
+				"rotation": {
+					"x": 293.9825,
+					"y": 210.1614,
+					"z": 11.6628
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Generic_House_B.prefab",
+				"position": {
+					"x": 117.9812,
+					"y": 121.7148,
+					"z": 77.8748
+				},
+				"rotation": {
+					"x": 331.3208,
+					"y": 169.3365,
+					"z": 43.796
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/BrambleMuseum_HOME.prefab",
+				"position": {
+					"x": -184.2696,
+					"y": -54.9642,
+					"z": 18.0572
+				},
+				"rotation": {
+					"x": 286.7604,
+					"y": 273.2753,
+					"z": 184.1799
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/ScientistStatue.prefab",
+				"position": {
+					"x": -183.6073,
+					"y": -17.5954,
+					"z": 15.7705
+				},
+				"rotation": {
+					"x": 89.972,
+					"y": 275.0479,
+					"z": 0
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Stage.prefab",
+				"position": {
+					"x": -39.4856,
+					"y": 136.4247,
+					"z": -115.34
+				},
+				"rotation": {
+					"x": 41.9116,
+					"y": 201.5809,
+					"z": 358.9005
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CoveredBridge.prefab",
+				"position": {
+					"x": 32.0299,
+					"y": -8.5643,
+					"z": -203.1401
+				},
+				"rotation": {
+					"x": 79.4308,
+					"y": 221.5287,
+					"z": 51.2687
+				}
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"Effects",
+					"Props_HEA_Campfire"
+				]
+			}
+		],
+		"rafts": [
+			{
+				"parentPath": "StrangersHomeworld_Body/Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock_Main/RaftSocket",
+				"isRelativeToParent": true,
+				"rename": "HOME_RAFT"
+			}
+		],
+		"signals": [
+			{
+				"audio": "assets/Audio/instrument.wav",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Musician",
+				"isRelativeToParent": true,
+				"name": "Musician",
+				"frequency": "Traveler",
+				"onlyAudibleToScope": false,
+				"volume": 1,
+				"maxDistance": 20,
+				"minDistance": 5,
+				"sourceRadius": 15,
+				"position": {
+					"y": 2
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/Homeworld/DBMuseum/2F_AnglerExhibit.xml",
+				"radius": 1,
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/AnglerExhibit/Props_IP_DoNotEnterSign",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/DBMuseum/2F_DBExhibit.xml",
+				"radius": 1,
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/DBModelExhibit/Props_IP_DoNotEnterSign",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/DBMuseum/2F_VineExhibit.xml",
+				"radius": 1,
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/CloakMineralExhibit/Props_IP_DoNotEnterSign",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/DBMuseum/1F_MineralExhibit.xml",
+				"radius": 1,
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/CloakMineralExhibit2/Props_IP_DoNotEnterSign",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/DBMuseum/1F_Wall1.xml",
+				"parentPath": "Sector/BrambleMuseum_HOME/Interactables/Text/SolarLeft/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/DBMuseum/1F_Wall2.xml",
+				"parentPath": "Sector/BrambleMuseum_HOME/Interactables/Text/SolarRight/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/Outside/ScientistStatue.xml",
+				"radius": 1,
+				"parentPath": "Sector/ScientistStatue/Post/Props_IP_DoNotEnterSign/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/ObservationDeck/Elevator.xml",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD/Interactibles/Text/ElevatorSign/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/ObservationDeck/Table1.xml",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD/Interactibles/Text/Table2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/ObservationDeck/Table2.xml",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD/Interactibles/Text/Table1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/ObservationDeck/Table3.xml",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD/Interactibles/Text/Table3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/EntryHouse/ScientistTomb.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/Text/ScientistTomb/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/EntryHouse/PrisonerTomb.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/Text/PrisonerTomb/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/EntryHouse/StrangerTomb.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/Text/StrangerTomb/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/ScientistDescendantIntro.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ScientistDescendant",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 0.3088,
+					"y": 2.5287,
+					"z": -0.3706
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/ScientistDescendantVision.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ScientistDescendant",
+				"isRelativeToParent": true,
+				"remoteTrigger": {
+					"position": {
+						"x": 157.591,
+						"y": -15.67899,
+						"z": -136.8922
+					},
+					"parentPath": "Sector",
+					"isRelativeToParent": true
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/PartySit1.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Sitting1",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/PartySit2.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Sitting2",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/LookingDown.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ByStair",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/ConversationGhirds1.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Conversation1",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/ConversationGhirds2.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Conversation2",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/Leaning.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Leaning",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/Astronomer.xml",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD/GhostBirdNPCs/Prefab_IP_GhostBird_Astronomer",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/Musician.xml",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Musician",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/StageSit1.xml",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Sitting3",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 0.3088,
+					"y": 2.5287,
+					"z": -0.3706
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/StageSit2.xml",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Sitting1",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/StageSit3.xml",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Sitting2",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/SpaceStation.xml",
+				"parentPath": "Sector/SpaceCenter/GhostBirdNPCs/Prefab_IP_GhostBird_AstroFounder",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			}
+		],
+		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveLarge.prefab",
+				"keepLoaded": true,
+				"count": 130,
+				"seed": 0
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveMed.prefab",
+				"keepLoaded": true,
+				"count": 150,
+				"seed": 32
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveMedStraight.prefab",
+				"keepLoaded": true,
+				"count": 150,
+				"seed": 64
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Treefabs/MangroveSmall.prefab",
+				"keepLoaded": true,
+				"count": 50,
+				"seed": 128
+			},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (1).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 3456789
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (2).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 9876543
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (3).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 1234567
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (4).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 7654321
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (5).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 2345678
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (6).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 8765432
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (7).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 3456780
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (8).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 4567890
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (9).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 5678901
+				},
+				{
+					"assetBundle": "assets/AssetBundle/strangerbundle",
+					"path": "Assets/GRASK/grask (10).prefab",
+					"keepLoaded": true,
+					"count": 550,
+					"seed": 6789012
+				}
+		],
+		"slideShows": [
+			{
+				"type": "visionTorchTarget",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ScientistDescendant/Prisoner_FocalPoint",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 0.5727,
+					"y": 0.3,
+					"z": -1.5
+				},
+				"reveals": [ "HOME_VISION" ],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_1.png",
+						"backdropAudio": "assets/Audio/riverendtimes1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_2.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_3.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_4.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_5.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_6.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_7.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_8.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_9.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_10.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_11.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_12.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_13.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_14.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_15.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_16.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_17.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_18.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_19.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_20.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_21.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_22.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_23.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_24.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_25.png" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_26.png",
+						"backdropAudio": "assets/Audio/riverendtimes2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_27.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_28.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_29.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_30.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_31.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_32.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_33.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_34.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_35.png" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_36.png",
+						"backdropAudio": "assets/Audio/riverendtimes3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_37.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_38.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_39.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_40.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_41.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_42.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_43.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_44.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_45.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_46.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_47.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_48.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_49.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_50.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_51.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_52.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_53.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_54.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_55.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_56.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_57.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_58.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_59.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_60.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_61.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_62.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_63.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_64.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_65.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_66.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_67.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_68.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_69.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_70.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_71.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_72.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_73.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_74.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_75.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_76.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_77.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_78.png" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_79.png"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_80.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_81.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_82.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_83.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_84.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_85.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_86.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_87.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_88.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_89.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0021.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0022.jpg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0026.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0029.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0042.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0043.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0044.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0045.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0046.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0047.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0048.jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (1).jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (2).jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (3).jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (4).jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/ShipCrash/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (8).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (9).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (10).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (11).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PrisonerSorrow/slide (12).jpg",
+						"beatAudio": "assets/Audio/prisoner elegy beat 1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (13).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (14).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (15).jpg" },
+					{ "imagePath": "assets/Slideshows/PrisonerSorrow/slide (16).jpg" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_1.png",
+						"backdropAudio": "assets/Audio/riverendtimes5.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_2.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_3.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_4.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_5.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_6.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_7.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_8.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_9.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_10.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_11.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_12.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_13.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_14.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_15.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_16.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_17.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_18.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_19.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_20.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_21.png" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_22.png",
+						"backdropAudio": "assets/Audio/riverendtimes6.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_23.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_24.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_25.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_26.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_27.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_28.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_29.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_30.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_31.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_32.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_33.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_34.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_35.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_36.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_37.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_38.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_39.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Terraform/SLIDE_1.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Terraform/SLIDE_2.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Terraform/SLIDE_3.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Terraform/SLIDE_4.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Terraform/SLIDE_5.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_40.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_41.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_42.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_43.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_44.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_45.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_47.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_48.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_49.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_50.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_51.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_52.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_53.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_54.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_55.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_56.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_57.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_58.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_59.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_60.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_61.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_62.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_63.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_64.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_65.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_66.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_67.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_68.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_69.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_70.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_71.png" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_72.png",
+						"backdropAudio": "assets/Audio/riverendtimes4.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_73.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_74.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_75.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_76.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_77.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_78.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_79.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_80.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_81.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_82.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_83.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_84.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_85.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_86.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_87.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_88.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_89.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_90.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_91.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_92.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_93.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_94.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_95.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_96.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_97.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_98.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_99.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/AfterScientist/SLIDE_100.png" },
+					{
+						"imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_1.png",
+						"backdropAudio": "assets/Audio/RiversEndTimes.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_2.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_3.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_4.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_5.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_6.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_7.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_8.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_9.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_10.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_11.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_12.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_13.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_14.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_15.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_16.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_17.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_18.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_19.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_20.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_21.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_22.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_23.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_24.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_25.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_26.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_27.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_28.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_29.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_30.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_31.png" },
+					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_32.png" }
+				]
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 3000,
+		"inclination": 45,
+		"primaryBody": "Ringed Giant",
+		"isTidallyLocked": true,
+		"trueAnomaly": 0,
+		"isMoon": true,
+		"siderealPeriod": 1.75,
+		"tint": {
+			"r": 39,
+			"g": 165,
+			"b": 81
+		}
+	},
+	"ParticleFields": [
+		{
+			"type": "fireflies",
+			"densityByHeightCurve": [
+				{
+					"density": 20,
+					"height": 180
+				},
+				{
+					"density": 15,
+					"height": 210
+				},
+				{
+					"density": 0,
+					"height": 240
+				}
+			]
+		},
+		{
+			"type": "leaves",
+			"densityByHeightCurve": [
+				{
+					"density": 20,
+					"height": 180
+				},
+				{
+					"density": 10,
+					"height": 210
+				},
+				{
+					"density": 0,
+					"height": 240
+				}
+			]
+		}
+	]
+}

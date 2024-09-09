@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "PreBramble_Puzzle2",
+	"Bramble": {
+		"dimension": {
+			"allowedEntrances": [ 1 ],
+			"radius": 50,
+			"linksTo": "SurfaceNode2"
+		}
+	},
+	"Props": {
+		"singularities": [
+			{
+				"horizonRadius": 100,
+				"type": "blackHole",
+				"hasWarpEffects": false,
+				"uniqueID": "PREBRAMBLE_BH2",
+				"pairedSingularity": "PREBRAMBLE_WH2"
+			}
+		]
+	},
+	"Orbit": {
+		"staticPosition": {
+			"x": -20000,
+			"y": -55500,
+			"z": 1000
+		},
+		"isStatic": true
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"radius": 1000
+			}
+		]
+	}
+}

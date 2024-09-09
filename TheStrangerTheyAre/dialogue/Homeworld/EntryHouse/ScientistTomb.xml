@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+	<!-- The name of this character -->
+	<DialogueNode>
+		<Name>ScientistTomb</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Here lies the Scientist, in all his former glory. May he forever be remembered for his successful terraforming of our home planet. His final words, "Keep this planet safe, by any means necessary".</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_ENT_SCIENTIST</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

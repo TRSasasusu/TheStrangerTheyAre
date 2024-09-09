@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_AnglerExhibit</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>These are Anglerfish, an omnivorous species of deep sea fish that can handle extreme environments. They posed a threat to our Scientist on the way here, but his determination pushed him forward.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_SCI_DBMUSEUM_ANGLEREXHIBIT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

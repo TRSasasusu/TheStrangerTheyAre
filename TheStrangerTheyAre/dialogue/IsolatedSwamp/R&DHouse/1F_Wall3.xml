@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>1F_Wall3</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Day 54: There's nothing I can do to help my kin. So many of them know that life in the simulation is not the same as life in our moon, but it's too late for them to terraform it with me now.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_RD_TEXT3</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,70 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Slate</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>TSTA_SLATE_1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Hey Hatch! I was walking past the waterfall just now and I heard some odd frequency I've never heard before. Think you can check it out?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I'm on it, Slate!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>Absolutely not! I've been done with exploring ever since I got my neck snapped by an owl creature!</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+   <DialogueOption>
+    <Text>By the waterfall? How hasn't anyone found it yet?</Text>
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Thank you, Hatchling! Let me know what you find!</Page>
+  </Dialogue>
+  <RevealFacts>
+      <FactID>HEARTH_SLATE_E1</FactID>
+	  <FactID>HEARTH_SIGNAL_R</FactID>
+  </RevealFacts>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Uh....what? I have no idea what you just said but you have no need to take it out on me!</Page>
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Nevermind I'll find it.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>3</Name>
+  <Dialogue>
+   <Page>I think it might have something to do with the rush of the falls being louder than it, plus we just upgraded our signal scopes for your adventure yesterday. So will you find it for me Hatchling?</Page>
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I'm on it, Slate!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>Absolutely not! I've been done with exploring ever since I got my neck snapped by an owl creature!</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList>
+ </DialogueNode>
+</DialogueTree>

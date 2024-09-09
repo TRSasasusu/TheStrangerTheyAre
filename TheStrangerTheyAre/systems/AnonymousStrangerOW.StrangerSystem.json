@@ -1,0 +1,166 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+    "canEnterViaWarpDrive": true,
+    "loopDuration": 33,
+    "respawnHere": true,
+    "Vessel": {
+        "alwaysPresent": false,
+        "coords": {
+            "x": [4, 5, 0],
+            "y": [4, 1, 0, 3],
+            "z": [4, 5, 1, 2, 3]
+        },
+      "vesselSpawn": {
+        "parentBody": "Ringed Giant",
+        "position": {
+          "x": -900,
+          "y": 400,
+          "z": 900
+        },
+        "rotation": {
+          "x": 6.2185,
+          "y": 221.6308,
+          "z": 24.7273
+        }
+      },
+      "warpExit": {
+        "parentBody": "Strangers' Homeworld",
+        "parentPath": "Sector",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 157.6306,
+          "y": -14.7971,
+          "z": -136.8411
+        },
+        "rotation": {
+          "x": 274.937,
+          "y": 212.7182,
+          "z": 92.3105
+        }
+      }
+    },
+    "returnToSolarSystemWhenTooFar": true,
+    "GlobalMusic": {
+        "endTimesAudio": "assets/Audio/RiversEndTimes.ogg",
+        "travelAudio": "assets/Audio/LostSignal.ogg"
+    },
+    "entryPositions": [
+        {
+            "id": "NOM_StrandedVessel",
+            "position": {
+                "x": 1000,
+                "y": 500
+            }
+        },
+        {
+            "id": "NOM_VesselCoords",
+            "position": {
+                "x": 1200,
+                "y": 800
+            }
+        },
+        {
+            "id": "NOM_VesselVision",
+            "position": {
+                "x": 1000,
+                "y": 800
+            }
+        },
+      {
+        "id": "NOM_VesselMsg",
+        "position": {
+          "x": 800,
+          "y": 800
+        }
+      },
+      {
+        "id": "LAB",
+        "position": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "id": "LAB_TREE",
+        "position": {
+          "x": 100,
+          "y": -100
+        }
+      },
+      {
+        "id": "LAB_TERRA",
+        "position": {
+          "x": 250,
+          "y": -100
+        }
+      },
+      {
+        "id": "HOME",
+        "position": {
+          "x": 500,
+          "y": 0
+        }
+      },
+      {
+        "id": "HOME_PARTYHOUSE",
+        "position": {
+          "x": 250,
+          "y": 100
+        }
+      },
+      {
+        "id": "HOME_LEADER",
+        "position": {
+          "x": 250,
+          "y": 250
+        }
+      }
+    ],
+    "curiosities": [
+      {
+        "id": "NOM_StrandedVessel",
+        "color": {
+          "r": 29,
+          "g": 201,
+          "b": 158,
+          "a": 255
+        },
+        "highlightColor": {
+          "r": 46,
+          "g": 242,
+          "b": 193,
+          "a": 255
+        }
+      },
+      {
+        "id": "LAB_MAIN",
+        "color": {
+          "r": 29,
+          "g": 201,
+          "b": 158,
+          "a": 255
+        },
+        "highlightColor": {
+          "r": 46,
+          "g": 242,
+          "b": 193,
+          "a": 255
+        }
+      },
+      {
+        "id": "HOME_MAIN",
+        "color": {
+          "r": 29,
+          "g": 201,
+          "b": 158,
+          "a": 255
+        },
+        "highlightColor": {
+          "r": 46,
+          "g": 242,
+          "b": 193,
+          "a": 255
+        }
+      }
+    ]
+}

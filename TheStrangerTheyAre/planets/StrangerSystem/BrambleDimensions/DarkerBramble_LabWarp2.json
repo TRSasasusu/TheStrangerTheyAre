@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DarkerBramble_LabWarp2",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"Bramble": {
+		"dimension": {
+			"allowedEntrances": [ 1 ],
+			"radius": 50,
+			"linksTo": "SIDE_B_NODE"
+		}
+	},
+	"Props": {
+		"singularities": [
+			{
+				"type": "blackHole",
+				"horizonRadius": 100,
+				"hasWarpEffects": false,
+				"uniqueID": "RingedLabWarp2_BH",
+				"pairedSingularity": "RingedLabWarp2_WH"
+			}
+		]
+	},
+	"Orbit": {
+		"staticPosition": {
+			"x": 0,
+			"y": -50000,
+			"z": -55000
+		},
+		"isStatic": true
+	}
+}

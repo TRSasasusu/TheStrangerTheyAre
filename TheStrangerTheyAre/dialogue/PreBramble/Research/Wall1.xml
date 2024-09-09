@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>During my time on my kind's ship, I have discovered a bug where the renderer changes to low-poly once you walk too far away from your lantern. Also watch out for glitching tiles when the electricity fails or flickers on my kin's ship.</Page>
+		</Dialogue>
+	</DialogueNode>
+		<RevealFacts>
+			<FactID>PREBRAMBLE_RESEARCH_TEXT1</FactID>
+		</RevealFacts>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>They may think these archives are forbidden, but our history must be preserved. Although I wanted the archives to be freely accessible, our leader in his yellow clothing wanted me to attach it to the back of the coma house so that it could be guarded. No big loss, as long as they're preserved.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_ARCHIVE_TEXT1</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

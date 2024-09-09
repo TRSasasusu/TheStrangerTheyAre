@@ -1,0 +1,224 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "PreBramble_Archives",
+	"Bramble": {
+		"dimension": {
+			"allowedEntrances": [ 1 ],
+			"vinePrefab": "none",
+			"linksTo": "CoreNode",
+			"radius": 200,
+			"fogTint": {
+				"r": 83,
+				"g": 99,
+				"b": 87,
+				"a": 255
+			}
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"priority": 0,
+				"audio": "assets/Audio/BrambleArchiveDiscovery.ogg",
+				"track": "music",
+				"loop": false,
+				"pauseOnFadeOut": false,
+				"radius": 20,
+				"position": {
+					"x": -325.2753,
+					"y": -61.4801,
+					"z": -62.5894
+				}
+			},
+			{
+				"priority": 0,
+				"audio": "assets/Audio/fourtharchive.ogg",
+				"parentPath": "Sector/PreBrambleBase",
+				"isRelativeToParent": true,
+				"track": "music",
+				"volume": 0.4,
+				"radius": 30
+			},
+			{
+				"priority": 1,
+				"audio": "assets/Audio/silence.ogg",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface",
+				"isRelativeToParent": true,
+				"track": "music",
+				"radius": 3
+			},
+			{
+				"audio": "Tronworld Ambience 2 Alex Hack",
+				"radius": 5,
+				"volume": 0.5,
+				"track": "environment",
+				"parentPath": "Sector/PreBrambleBase/GlitchedTiles",
+				"priority": 1,
+				"isRelativeToParent": true
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"acceleration": 1,
+				"speedLimit": 5,
+				"radius": 60
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"radius": 1000
+			}
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/PreBrambleBase.prefab",
+				"rotation": {
+					"x": 58.148,
+					"y": 257.6554,
+					"z": 10.5444
+				}
+			}
+		],
+		"slideShows": [
+			{
+				"type": "slideReel",
+				"reveals": [
+					"PRE_BRAMBLE_STORYREEL"
+				],
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_01",
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/title.png" },
+					{
+						"imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (1).jpg",
+						"backdropAudio": "assets/Audio/of ice and bramble 1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (1a).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (2).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (3).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (4).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (5).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (6).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (7).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (8).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (9).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (10).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (11).jpg" },
+
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0000.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0001.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0002.jpg" },
+					{
+						"imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0003.jpg",
+						"backdropAudio": "assets/Audio/of ice and bramble 2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble1/image_032_0011.jpg" },
+
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (12).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (13).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (14).jpg" },
+
+					{
+						"imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0000.jpg",
+						"backdropAudio": "assets/Audio/of ice and bramble 3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0001.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0004.jpg" },
+
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (15).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (16).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (17).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (18).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (19).jpg" },
+
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0021.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0022.jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Bramble2/image_033_0023.jpg" },
+
+					{
+						"imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (21).jpg",
+						"backdropAudio": "assets/Audio/silence.ogg",
+						"beatAudio": "assets/Audio/of ice and bramble end.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (22).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (23).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (24).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (25).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (26).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (27).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (28).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (29).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (30).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (31).jpg" }
+				]
+			}
+		],
+		"dialogue": [
+			{
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Table/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true,
+				"xmlFile": "dialogue/PreBramble/Archives/Table.xml"
+			},
+			{
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true,
+				"xmlFile": "dialogue/PreBramble/Archives/Wall1.xml"
+			},
+			{
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true,
+				"xmlFile": "dialogue/PreBramble/Archives/Wall2.xml"
+			}
+		],
+		"singularities": [
+			{
+				"rename": "GLITCH_WH",
+				"uniqueID": "GLITCH_WH",
+				"type": "whiteHole",
+				"horizonRadius": 0,
+				"hasWarpEffects": false,
+				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
+				"pairedSingularity": "GLITCH_BH"
+			}
+		]
+	},
+	"removeChildren": [
+		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleRenderer",
+		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleAmbience"
+	],
+	"Orbit": {
+		"staticPosition": {
+			"x": 2000,
+			"y": -53000,
+			"z": 10000
+		},
+		"isStatic": true
+	}
+}

@@ -1,0 +1,63 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Spruce</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>Leaning</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>....Hey...</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I come in peace.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+   <!-- A few more options... -->
+    <DialogueOption>
+    <Text>....Is something wrong?</Text>
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>OK, I won't bother you.</Text>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>...Nothing's wrong....I'm just a bit shy.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Why are you shy?</Text>
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>...Cool...I just am not a talker, sorry...</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+    <DialogueOption>
+    <Text>Why are you shy?</Text>
+        <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>OK, I won't bother you.</Text>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>3</Name>
+  <Dialogue>
+   <Page>I...I.....Don't ask me difficult questions! Just leave me alone!</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

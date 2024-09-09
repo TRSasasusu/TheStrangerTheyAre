@@ -1,0 +1,51 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Cedar</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>LookingDown</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Is it just me or is there a bug on the stairs?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>No, it's just you.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+   <!-- A few more options... -->
+    <DialogueOption>
+    <Text>Yes</Text>
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Aww, I wanted to kill it!</Page>
+  </Dialogue>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>1</Name>
+  <Dialogue>
+   <Page>WHERE? WHERE IS IT?!</Page>
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+    <DialogueOption>
+    <Text>Just kidding!</Text>
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+  <DialogueNode> <!-- Another node why not -->
+  <Name>3</Name>
+  <Dialogue>
+   <Page>For that, I hope you trip and fall on your way out.</Page>
+  </Dialogue>
+ </DialogueNode>
+ </DialogueTree>

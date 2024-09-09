@@ -1,0 +1,251 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ringed Giant",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"AmbientLights": [
+		{
+			"innerRadius": 800,
+			"outerRadius": 850,
+			"intensity": 2,
+			"position": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"tint": {
+				"r": 9,
+				"g": 99,
+				"b": 96,
+				"a": 128
+			}
+		}
+	],
+	"Atmosphere": {
+		"clouds": {
+			"texturePath": "assets/Texture/ringedgiant.png",
+			"capPath": "assets/Texture/ringedgiant_cap.png",
+			"rampPath": "assets/Texture/ringedgiant_ramp.png",
+			"outerCloudRadius": 800,
+			"innerCloudRadius": 750,
+			"fluidType": "water",
+			"tint": {
+				"r": 25,
+				"g": 226,
+				"b": 252
+			}
+		},
+		"hasRain": true,
+		"size": 800,
+		"atmosphereTint": {
+			"r": 25,
+			"g": 226,
+			"b": 252,
+			"a": 140
+		},
+		"fogSize": 800,
+		"fogTint": {
+			"r": 25,
+			"g": 226,
+			"b": 252,
+			"a": 20
+		}
+	},
+	"Base": {
+		"surfaceGravity": 20,
+		"surfaceSize": 300
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/peacock-ore.png",
+			"normalTile": "assets/Texture/peacock-ore_n.png",
+			"smoothnessTile": "assets/Texture/peacock-ore_h.png",
+			"size": 20
+		},
+		"tileBlendMap": "assets/Texture/dbm_r.png",
+		"minHeight": 200,
+		"maxHeight": 205
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Water": {
+		"size": 297,
+		"density": 35,
+		"tint": {
+			"r": 9,
+			"g": 99,
+			"b": 96,
+			"a": 128
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RINGEDGIANT_ISLAND.prefab",
+				"position": {
+					"x": -46.6806,
+					"y": -556.4532,
+					"z": 53.9709
+				},
+				"rotation": {
+					"x": 11.4527,
+					"y": 150.9479,
+					"z": 177.7284
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RINGEDGIANT_ISLAND2.prefab",
+				"position": {
+					"x": 46.6806,
+					"y": 306.4532,
+					"z": -53.9709
+				}
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger/",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"Effects",
+					"Props_HEA_Campfire"
+				]
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Seals/Seal_Ringed.prefab",
+				"alignRadial": true,
+				"position": {
+					"x": -2.2376,
+					"y": 338.9471,
+					"z": -58.4961
+				},
+				"rotation": {
+					"x": 355.0302,
+					"y": 106.9223,
+					"z": 359.9155
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Seals/Seal_Enigma.prefab",
+				"alignRadial": true,
+				"position": {
+					"x": -53.58734,
+					"y": -321.5817,
+					"z": 54.38909
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/NewTravelers/Ringed.xml",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/GhostBirdNPCs/Prefab_IP_GhostBird_Ringed",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Strange Frequency",
+				"name": "Bush's Signal",
+				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+				"detectionRadius": 10000,
+				"identificationRadius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/GhostBirdNPCs/Prefab_IP_GhostBird_Ringed",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 13000,
+		"primaryBody": "Nearest Neighbor",
+		"tint": {
+			"r": 4,
+			"g": 249,
+			"b": 249
+		}
+	},
+	"Volumes": {
+		"visorEffects": {
+			"rainEffectVolumes": [
+				{
+					"radius": 750
+				}
+			]
+		},
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		],
+		"audioVolumes": [
+			{
+				"volume": 0.5,
+				"priority": 1,
+				"audio": "assets/Audio/terraformhome2.ogg",
+				"track": "music",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Building/Base",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		]
+	},
+	"Rings": [
+		{
+			"fluidType": "water",
+			"unlit": true,
+			"texture": "assets/Texture/ringedgiant_rings.png",
+			"innerRadius": 1200,
+			"outerRadius": 2000
+		}
+	],
+	"canShowOnTitle": false,
+	"ShipLog": {
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/RINGEDGIANT_UI.png",
+			"scale": 2
+		}
+	},
+	"ParticleFields": [
+		{
+			"type": "clouds",
+			"densityByHeightCurve": [
+				{
+					"density": 0,
+					"height": 750
+				},
+				{
+					"density": 50,
+					"height": 749
+				},
+				{
+					"density": 5,
+					"height": 0
+				}
+			]
+		},
+		{
+			"type": "bubbles",
+			"densityByHeightCurve": [
+				{
+					"density": 20,
+					"height": 297
+				},
+				{
+					"density": 0,
+					"height": 750
+				}
+			]
+		}
+	]
+}

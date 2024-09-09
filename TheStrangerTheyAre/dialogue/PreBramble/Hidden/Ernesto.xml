@@ -1,0 +1,91 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Ernesto</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey it's me Ernesto the simulated talking anglerfish.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Do you know the owl-like being that made this place?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Can I try getting you out of here?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Oh no...ANOTHER ERNESTO REFERENCE IN AN OUTER WILDS MOD!?</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Bye bye!</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>An owl guy? Nope, never seen anything like him.</Page>
+			<Page>I honestly think he had nothing to do with my existence here.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh ok then.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Trust me, it's all hardcoded and I'm stuck in here forever. You'll never bail me out.</Page>
+			<Page>It's even worse because Geswaldo is also stuck in one next to me. I miss him very much.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Truly a fate worse than death.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Hey! It's not my fault they love me so much!</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>OK then, sorry.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>SILENCE YOU PATHEITC LOPHIIFORM</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Bye bye.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>*sad anglerfish noises*</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

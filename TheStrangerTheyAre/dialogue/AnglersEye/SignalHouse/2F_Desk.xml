@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_Desk</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Note to Self: To open the hidden door inside the museum, you must shine your light at it for exactly 3 seconds.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_SIGNALHOUSE_LOCKED2</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

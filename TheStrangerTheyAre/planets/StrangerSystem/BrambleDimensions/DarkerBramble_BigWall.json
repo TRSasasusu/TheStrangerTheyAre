@@ -1,0 +1,169 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DarkerBramble_BigWall",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"Bramble": {
+		"dimension": {
+			"allowedEntrances": [ 1 ],
+			"vinePrefab": "none",
+			"radius": 750,
+			"fogDensity": 10,
+			"linksTo": "LoopNode3",
+			"fogTint": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			}
+		},
+		"nodes": [
+			{
+				"name": "WALL1_NODE1",
+				"linksTo": "DarkerBramble_LabWarp1",
+				"possibleExits": [ 1 ],
+				"hasFogLight": false,
+				"fogTint": {
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 0
+				},
+				"position": {
+					"x": -125
+				}
+			}
+		]
+	},
+	"Spawn": {
+		"shipSpawn": {
+			"position": {
+				"x": -1100.112,
+				"y": -206.8077,
+				"z": -205.2453
+			},
+			"rename": "SpawnShip_BrambleWarp"
+		},
+		"playerSpawn": {
+			"position": {
+				"x": -1100.112,
+				"y": -206.8077,
+				"z": -205.2453
+			},
+			"rename": "SpawnPlayer_BrambleWarp",
+			"startWithSuit": true
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"volume": 1,
+				"priority": 0,
+				"audio": "assets/Audio/darkerbramble.ogg",
+				"track": "music",
+				"randomizePlayhead": true,
+				"radius": 1400
+			},
+			{
+				"volume": 1,
+				"priority": 1,
+				"audio": "assets/Audio/finally headed home 2 (dark bramble).ogg",
+				"track": "endTimesMusic",
+				"parentPath": "Sector/GreatWallofBramble/HeadedHomeAudio",
+				"radius": 1400
+			}
+		],
+		"interferenceVolumes": [
+			{
+				"radius": 1400
+			}
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GreatWallofBramble.prefab"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GreatWallofBramble.prefab",
+				"rename": "Blockade1",
+				"removeComponents": true,
+				"removeChildren": [ "HeadedHomeAudio" ],
+				"scale": 0.3,
+				"position": {
+					"x": -404.3605,
+					"y": 168.5047,
+					"z": 908.0662
+				},
+				"rotation": {
+					"y": 67.7495
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GreatWallofBramble.prefab",
+				"rename": "Blockade2",
+				"removeChildren": [ "HeadedHomeAudio" ],
+				"removeComponents": true,
+				"scale": 0.3,
+				"position": {
+					"x": -4.3255,
+					"y": 181.6855,
+					"z": -800
+				},
+				"rotation": {
+					"y": 90
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GreatWallofBramble.prefab",
+				"rename": "Blockade3",
+				"removeComponents": true,
+				"removeChildren": [ "HeadedHomeAudio" ],
+				"scale": 0.3,
+				"position": {
+					"x": 100,
+					"y": -700
+				},
+				"rotation": {
+					"z": 128
+				}
+			}
+		],
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"horizonRadius": 1,
+				"rename": "RingedLabWarp4_WH",
+				"uniqueID": "RingedLabWarp4_WH",
+				"pairedSingularity": "RingedLabWarp4_BH",
+				"parentPath": "Sector/WALL1_NODE1",
+				"isRelativeToParent": true,
+				"hasWarpEffects": false,
+				"position": {
+					"x": -20.4001,
+					"y": -14.7055,
+					"z": -70.5052
+				}
+			},
+			{
+				"type": "blackHole",
+				"horizonRadius": 10,
+				"hasWarpEffects": false,
+				"parentPath": "Sector/WALL1_NODE1",
+				"uniqueID": "RingedLabWarp1_BH",
+				"pairedSingularity": "RingedLabWarp1_WH"
+			}
+		]
+	},
+	"Orbit": {
+		"staticPosition": {
+			"x": 0,
+			"y": -70000,
+			"z": 2000
+		},
+		"isStatic": true
+	}
+}

@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Day 271: Everything that I've thought of, everything that I've dreamed of, it's all come to reality. Despite all the losses and sorrow, I pushed on and even pulled it off. The terraforming process is now complete, and our home is now good as new!</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>LAB_TEXT_TERRA1</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

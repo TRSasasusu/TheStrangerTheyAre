@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>1F_Wall</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>How did you hide it there? How did you even get down there without holding two things at a time?</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>CRIMSON_LAB_TEXT3</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

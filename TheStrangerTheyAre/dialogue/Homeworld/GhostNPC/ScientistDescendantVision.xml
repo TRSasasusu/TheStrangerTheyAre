@@ -1,0 +1,101 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Cypress</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>ScientistDescendantVision</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "ScientistDescendantVision" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>...So you came all this way after discovering my ancestor's terraforming studies? Just like he predicted...</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>There's a data clone of the Scientist back on The Stranger.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>....And you are?.</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Yeah I'm going to go exploring now.</Text>
+    <DialogueTarget>END</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>There is? What's a Stranger?</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Your kind's ship.</Text>
+    <DialogueTarget>1A</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+  <DialogueNode>
+  <Name>1A</Name>
+  <Dialogue>
+   <Page>So you call it "The Stranger"...interesting.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Would you like to pass on any words to him?</Text>
+    <DialogueTarget>1B</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+  <DialogueNode>
+  <Name>1B</Name>
+  <Dialogue>
+    <Page>There's so much I want to say to him, I can't decide....</Page>
+   <Page>So just tell him I said "Thank You". I've been dying to thank him for all he's done.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Will do!</Text>
+    <DialogueTarget>ScientistDescendantVision</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>END</Name>
+  <Dialogue>
+   <Page>Enjoy your stay, just don't do anything to our utopia or else we'll exile you from the system!</Page>
+  </Dialogue>
+	 <ConditionToSet>CYPRESS_MET</ConditionToSet>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Sorry, now that I know you're the fabled alien to find his work, I'll introduce myself.</Page>
+   <Page>My name is Cypress, I'm The Scientist's very distant grandson and the current leader of this place.</Page>
+  </Dialogue>
+	 <RevealFacts>
+		 <FactID>HOME_LEADER_E</FactID>
+	 </RevealFacts>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Nice to meet you! They call me "Hatchling".</Text>
+    <DialogueTarget>2A</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2A</Name>
+  <Dialogue>
+   <Page>Greetings Hatchling. I hope you enjoy your time here at our utopia.</Page>
+  </Dialogue>
+  <DialogueTarget>ScientistDescendantVision</DialogueTarget>
+ </DialogueNode>
+ </DialogueTree>

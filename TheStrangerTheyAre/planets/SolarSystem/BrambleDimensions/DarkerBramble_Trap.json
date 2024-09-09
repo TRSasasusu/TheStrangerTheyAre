@@ -1,0 +1,75 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "DarkerBramble_Trap",
+	"Bramble": {
+		"dimension": {
+			"allowedEntrances": [ 1 ],
+			"vinePrefab": "none",
+			"radius": 200,
+			"fogDensity": 10,
+			"linksTo": "LoopNode",
+			"fogTint": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0
+			}
+		},
+		"nodes": [
+			{
+				"name": "LoopNode",
+				"linksTo": "DarkerBramble_Trap",
+				"hasFogLight": false,
+				"possibleExits": [ 1 ],
+				"fogTint": {
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 0
+				},
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": -180
+				}
+			}
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"volume": 1,
+				"priority": 1,
+				"audio": "assets/Audio/normalsong_nothingtoseehere.ogg",
+				"track": "music",
+				"pauseOnFadeOut": true,
+				"radius": 400
+			}
+		],
+		"interferenceVolumes": [
+			{
+				"radius": 400
+			}
+		]
+	},
+	"Orbit": {
+		"staticPosition": {
+			"x": 20000,
+			"y": -40000,
+			"z": 0
+		},
+		"isStatic": true
+	}
+}

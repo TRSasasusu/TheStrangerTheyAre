@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Anglerfish 101: Anglerfish are easier to not wake up if you go shipless. We think this is due to noise. If an emergency arises, ejecting yourself out of the ship will be handy.</Page>
+		</Dialogue>
+	</DialogueNode>
+		<RevealFacts>
+			<FactID>PREBRAMBLE_ARCHIVES_TEXT_ANGLER1</FactID>
+		</RevealFacts>
+</DialogueTree>

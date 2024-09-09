@@ -1,0 +1,11 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_Poster1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>This memorial is in place in honor of my family. My two children have passed due to lack of nutrients on my kin's ship. And in case my wife and I die, I put a memorial in place for her and myself as well.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

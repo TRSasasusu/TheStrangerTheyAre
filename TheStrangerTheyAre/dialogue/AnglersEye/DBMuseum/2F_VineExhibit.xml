@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_VineExhibit</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Apparently, it has been discovered that the only way to stop the growth of the plant is through use of the minerals found all over this moon. However, it can have side effects to the pocket dimensions it connects to, eliminating all light within. The anglerfish also seem to act different.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_DBMUSEUM_VINEEXHIBIT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

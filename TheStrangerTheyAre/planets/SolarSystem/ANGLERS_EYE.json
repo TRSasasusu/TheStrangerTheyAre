@@ -1,0 +1,1824 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Angler's Eye",
+	"AmbientLights": [
+		{
+			"outerRadius": 140.0,
+			"innerRadius": 0.0,
+			"tint": {
+				"r": 50,
+				"b": 50,
+				"a": 50
+			}
+		},
+		{
+			"outerRadius": 5.0,
+			"innerRadius": 0.0,
+			"intensity": 1,
+			"position": {
+				"x": 112.1435,
+				"y": -5.104311,
+				"z": 3.317189
+			}
+		}
+	],
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 21,
+			"g": 21,
+			"b": 21,
+			"a": 100
+		},
+		"hasShockLayer": true,
+		"clouds": {
+			"fluidType": "cloud",
+			"hasLightning": true,
+			"lightningGradient": [
+				{
+					"time": 0,
+					"tint": {
+						"r": 235,
+						"g": 235,
+						"b": 235
+					}
+				},
+				{
+					"time": 0.5,
+					"tint": {
+						"r": 225,
+						"g": 225,
+						"b": 225
+					}
+				},
+				{
+					"time": 1,
+					"tint": {
+						"r": 205,
+						"g": 205,
+						"b": 205
+					}
+				}
+			],
+			"innerCloudRadius": 145.0,
+			"outerCloudRadius": 150.0,
+			"texturePath": "assets/Texture/dbm_c.png",
+			"tint": {
+				"r": 21,
+				"g": 21,
+				"b": 21,
+				"a": 0
+			},
+			"cloudsPrefab": "quantumMoon"
+		},
+		"fogSize": 150,
+		"fogTint": {
+			"r": 21,
+			"g": 21,
+			"b": 21,
+			"a": 0
+		},
+		"size": 150.0,
+		"useAtmosphereShader": true,
+		"minShockSpeed": 140.0,
+		"maxShockSpeed": 150.0
+	},
+	"canShowOnTitle": false,
+	"Base": {
+		"gravityFallOff": "linear",
+		"surfaceGravity": 10.0,
+		"surfaceSize": 100.0
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"alignRadial": true,
+				"possibleExits": [ 1 ],
+				"name": "AnglersEyeNode",
+				"linksTo": "DarkerBramble_Main",
+				"hasFogLight": false,
+				"position": {
+					"x": 1.7185,
+					"y": -95.8852,
+					"z": -0.4437
+				},
+				"rotation": {
+					"x": 7.45,
+					"y": 336.8618,
+					"z": 298.1479
+				},
+				"scale": 0.40,
+				"fogTint": {
+					"r": 1,
+					"g": 1,
+					"b": 1,
+					"a": 1
+				}
+			}
+		]
+	},
+	"Cloak": {
+		"radius": 150,
+		"farCloakRadius": 149,
+		"nearCloakRadius": 148,
+		"innerCloakRadius": 145
+	},
+	"HeightMap": {
+		"heightMap": "assets/Texture/dbm_h.png",
+		"maxHeight": 105.0,
+		"minHeight": 70.0,
+		"smoothness": 1.0,
+		"metallic": 1.0,
+		"tileBlendMap": "assets/Texture/dbm_r.png",
+		"redTile": {
+			"size": 10.0,
+			"textureTile": "assets/Texture/stacked-rock-cliff_albedo.png",
+			"normalTile": "assets/Texture/stacked-rock-cliff_normal-ogl.png"
+		}
+	},
+	"Orbit": {
+		"primaryBody": "DARK_BRAMBLE",
+		"isMoon": true,
+		"semiMajorAxis": 1500.0,
+		"showOrbitLine": false
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/R&DHouse_DBM.prefab",
+				"rotation": {
+					"x": 356.73996,
+					"y": 269.456329,
+					"z": 45.9849625
+				},
+				"alignRadial": false,
+				"position": {
+					"x": 13.3397675,
+					"y": 82.70164,
+					"z": -65.8615952
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Conservatory.prefab",
+				"rotation": {
+					"x": 55.2520142,
+					"y": 9.466789,
+					"z": 275.960571
+				},
+				"alignRadial": false,
+				"position": {
+					"x": 106.7174,
+					"y": -7.899,
+					"z": 2.0696
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/BrambleMuseum.prefab",
+				"rotation": {
+					"x": 352.151062,
+					"y": 224.009964,
+					"z": 28.2703133
+				},
+				"alignRadial": false,
+				"position": {
+					"x": 47.1643,
+					"y": 97.6731,
+					"z": -23.6859
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Interactibles_PrisonCell/PrisonerSequence/VisionTorchWallSocket/Prefab_IP_VisionTorchItem",
+				"keepLoaded": true,
+				"rotation": {
+					"x": 47.85748,
+					"y": 2.26767373,
+					"z": 228.687927
+				},
+				"alignRadial": false,
+				"position": {
+					"x": 16.5789337,
+					"y": 73.2493,
+					"z": -76.95511
+				},
+				"rename": "VisionTorch"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/TheatreHouse_DBM.prefab",
+				"rotation": {
+					"x": 344.4064,
+					"y": 22.0089,
+					"z": 54.7814
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -85.45877,
+					"y": 58.58168,
+					"z": 16.89744
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/SignalHouse.prefab",
+				"rotation": {
+					"x": 347.6009,
+					"y": 161.6197,
+					"z": 353.6606
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -20.8188,
+					"y": 103.8124,
+					"z": 28.7061
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/ObservationDeck_DBM.prefab",
+				"position": {
+					"x": 16.1191,
+					"y": 82.3652,
+					"z": 99.2662
+				},
+				"rotation": {
+					"x": 44.8287,
+					"y": 24.7627,
+					"z": 9.5664
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/Interactables_SlideBurningRoom_Zone1/TorchRoot/Prefab_IP_FuelTorch",
+				"rotation": {
+					"x": 90,
+					"y": 273.9083,
+					"z": 0
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -67.6343,
+					"y": -20.7254,
+					"z": 4.3988
+				}
+			},
+			{
+				"path": "Sector/BrambleMuseum/Props/Rocks_IP_Boulder_A_0",
+				"rotation": {
+					"x": 306.9988,
+					"y": 333.2834,
+					"z": 126.0792
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -64.2913,
+					"y": -29.6429,
+					"z": 11.2166
+				},
+				"scale": 0.5
+			},
+			{
+				"path": "Sector/BrambleMuseum/Props/Rocks_IP_Boulder_A_0",
+				"rotation": {
+					"x": 355.6992,
+					"y": 2.3354,
+					"z": 114.1169
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -66.2677,
+					"y": -24.2982,
+					"z": 0.0034
+				},
+				"scale": 0.5
+			},
+			{
+				"path": "DarkBramble_Body/Sector_DB/Interactables_DB/JellyfishNote/Props_HEA_Pickaxe",
+				"rotation": {
+					"x": 353.1001,
+					"y": 213.2667,
+					"z": 273.1913
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -63.2306,
+					"y": -32.6808,
+					"z": 8.3685
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/TextPlank.prefab",
+				"rename": "CRASHSITE_TEXT",
+				"alignRadial": true,
+				"position": {
+					"x": -71.1127,
+					"y": 27.7362,
+					"z": -71.9473
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/TextPlank.prefab",
+				"rename": "MINES_TEXT",
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"alignRadial": true,
+				"position": {
+					"x": -62.5085,
+					"y": -32.6422,
+					"z": 1.7951
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Item_CloakMineral.prefab",
+				"alignRadial": true,
+				"keepLoaded": true,
+				"position": {
+					"x": -62.81258,
+					"y": -31.45563,
+					"z": 6.327398
+				}
+			},
+			{
+				"rename": "Tree1",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/PlantedTree.prefab",
+
+				"rotation": {
+					"x": 345.526,
+					"y": 38.1864,
+					"z": 337.5918
+				},
+				"alignRadial": false,
+				"position": {
+					"x": 9.9197,
+					"y": 97.1709,
+					"z": -38.7844
+				}
+			},
+			{
+				"rename": "Tree2",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/PlantedTree.prefab",
+				"rotation": {
+					"x": 10.0677,
+					"y": 8.9025,
+					"z": 28.6515
+				},
+				"alignRadial": false,
+				"position": {
+					"x": -48.2475,
+					"y": 90.1535,
+					"z": 25.446
+				}
+			},
+			{
+				"rename": "Tree3",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/PlantedTree.prefab",
+				"rotation": {
+					"x": 305.0159,
+					"y": 277.6798,
+					"z": 15.3677
+				},
+				"alignRadial": false,
+				"position": {
+					"x": 78.5468,
+					"y": 58.1946,
+					"z": -38.2804
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GrowStopper.prefab",
+				"scale": 0.40,
+				"parentPath": "Sector/AnglersEyeNode",
+				"isRelativeToParent": true
+			}
+		],
+		"tornados": [
+			{
+				"alignRadial": true,
+				"type": "hurricane",
+				"firstContactDamageType": "electrical",
+				"firstContactDamage": 10000000,
+				"damagePerSecond": 10000000,
+				"fluidType": "air",
+				"hazardType": "electricity",
+				"audioDistance": 50,
+				"height": 45,
+				"tint": {
+					"r": 11,
+					"g": 11,
+					"b": 11,
+					"a": 0
+				},
+				"position": {
+					"x": 1.104206,
+					"y": -100.9798,
+					"z": -0.5480309
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Wall1.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 8.67849,
+					"y": 74.16833,
+					"z": -76.98389
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Wall2.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (4)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 5.444064,
+					"y": 74.39112,
+					"z": -77.0544
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Wall3.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (5)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 2.360895,
+					"y": 74.57087,
+					"z": -77.08792
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Table1.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (6)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 7.803178,
+					"y": 83.70744,
+					"z": -67.84773
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Table2.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (8)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 4.341173,
+					"y": 83.77769,
+					"z": -68.00986
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Desk.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (7)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 22.18497,
+					"y": 90.91348,
+					"z": -68.61836
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster1.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (3)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 8.926434,
+					"y": 78.03162,
+					"z": -80.98606
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster2.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 8.983171,
+					"y": 79.26414,
+					"z": -82.2618
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster3.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 2.981236,
+					"y": 79.22552,
+					"z": -81.92577
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster4.xml",
+				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (9)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -0.1905027,
+					"y": 80.9018,
+					"z": -79.96028
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_DBExhibit.xml",
+				"parentPath": "Sector/BrambleMuseum/Exhibits/DBModelExhibit/Props_IP_DoNotEnterSign/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 43.64791,
+					"y": 102.6393,
+					"z": -19.44307
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_AnglerExhibit.xml",
+				"parentPath": "Sector/BrambleMuseum/Exhibits/AnglerExhibit/Props_IP_DoNotEnterSign (2)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 51.68202,
+					"y": 98.71558,
+					"z": -20.34314
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_VineExhibit.xml",
+				"parentPath": "Sector/BrambleMuseum/Exhibits/CloakMineralExhibit/Props_IP_DoNotEnterSign (1)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 52.36865,
+					"y": 95.4248,
+					"z": -29.03762
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_SimEntryWall.xml",
+				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 39.32717,
+					"y": 95.97898,
+					"z": -27.52637
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_Archive.xml",
+				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 54.69778,
+					"y": 89.63745,
+					"z": -21.43676
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_Table.xml",
+				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 43.86486,
+					"y": 93.52976,
+					"z": -32.37933
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/SignalHouse/1F_Wall1.xml",
+				"parentPath": "Sector/SignalHouse/Interacables/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -13.05721,
+					"y": 103.4361,
+					"z": 26.03562
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/SignalHouse/1F_Wall2.xml",
+				"parentPath": "Sector/SignalHouse/Interacables/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -23.77043,
+					"y": 100.121,
+					"z": 33.72027
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/SignalHouse/2F_Desk.xml",
+				"parentPath": "Sector/SignalHouse/Interacables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -22.0151,
+					"y": 106.6162,
+					"z": 34.13231
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/SlideHouse/Desk1.xml",
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -93.56413,
+					"y": 53.30138,
+					"z": 5.57249
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/SlideHouse/Desk2.xml",
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -94.27225,
+					"y": 51.98843,
+					"z": 6.507222
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/Outside/Mines.xml",
+				"parentPath": "Sector/MINES_TEXT/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": -62.01225,
+					"y": -33.44255,
+					"z": 3.357034
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/Outside/CrashSite.xml",
+				"parentPath": "Sector/CRASHSITE_TEXT/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/Conservatory/Desk1.xml",
+				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 108.5277,
+					"y": -3.707063,
+					"z": 4.738517
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/Conservatory/Desk2.xml",
+				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 108.6922,
+					"y": -5.127588,
+					"z": 5.741089
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/Conservatory/Wall1.xml",
+				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 119.4025,
+					"y": -0.9423634,
+					"z": 3.947194
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/Conservatory/Wall2.xml",
+				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant (3)/Arc_TestAlienWriting/Dialogue",
+				"position": {
+					"x": 120.5078,
+					"y": -12.52781,
+					"z": 10.1323
+				}
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/ObservationDeck/Elevator.xml",
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/ElevatorSign/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/ObservationDeck/Table1.xml",
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/Table2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/ObservationDeck/Table2.xml",
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/Table1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/AnglersEye/ObservationDeck/Table3.xml",
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/Table3/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"slideShows": [
+			{
+				"type": "slideReel",
+				"reveals": [
+					"NEWSIM_MAIN_R",
+					"ANGLERS_EYE_SIMSECRET_E"
+				],
+				"reelModel": "whole",
+				"position": {
+					"x": -26.2005,
+					"y": 104.399,
+					"z": 31.9482
+				},
+				"rotation": {
+					"x": 347.9148,
+					"y": 104.1433,
+					"z": 6.9252
+				},
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0000.jpg",
+						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0001.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0021.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0022.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0026.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0029.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0030.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0031.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0032.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0033.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0034.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0035.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0036.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0037.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0038.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0042.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0043.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0044.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0045.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0046.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0047.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0048.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0049.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0050.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0051.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0052.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0053.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0054.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0055.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0056.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0057.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0058.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0059.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0060.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0061.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0062.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0063.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0064.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0065.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0066.jpg" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0067.jpg" }
+				],
+				"playWithShipLogFacts": [
+					"ANGLERS_EYE_SIMSECRET_E"
+				]
+			},
+			{
+				"type": "slideReel",
+				"reelModel": "whole",
+				"rename": "STORYREEL_1",
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03",
+				"reveals": [
+					"ANGLERS_EYE_STORYREEL_E"
+				],
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/title.png" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0001.jpg",
+						"backdropAudio": "assets/Audio/terraformhome1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0021.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0022.jpg",
+						"backdropAudio": "assets/Audio/terraformhome3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0026.jpg" },
+
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_1.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_2.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_3.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_4.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_5.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_6.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_7.png" },
+
+
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0029.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0030.jpg",
+						"backdropAudio": "assets/Audio/terraformhome2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0031.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0032.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0033.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0034.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0035.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0036.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0037.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0038.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0042.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0043.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0044.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0045.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0046.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0047.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0048.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0049.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0050.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0051.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0052.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0053.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0054.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0055.jpg",
+						"backdropAudio": "assets/Audio/error_reel.wav"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0056.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0057.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0058.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0059.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0060.jpg" }
+				],
+				"playWithShipLogFacts": [
+					"ANGLERS_EYE_STORYREEL_E"
+				]
+			},
+			{
+				"type": "autoProjector",
+				"parentPath": "Sector/SignalHouse/Props/Props_IP_ProjectionTable/Projector_Lens (1)",
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (1).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (2).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (3).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (4).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (5).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (6).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (7).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (8).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (9).png" },
+					{ "imagePath": "assets/Slideshows/SignalJammer/REEL (10).png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 8.67849,
+					"y": 74.16833,
+					"z": -76.98389
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 5.444064,
+					"y": 74.39112,
+					"z": -77.0544
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 2.360895,
+					"y": 74.57087,
+					"z": -77.08792
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 7.803178,
+					"y": 83.70744,
+					"z": -67.84773
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 4.341173,
+					"y": 83.77769,
+					"z": -68.00986
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 22.18497,
+					"y": 90.91348,
+					"z": -68.61836
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 8.926434,
+					"y": 78.03162,
+					"z": -80.98606
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 8.983171,
+					"y": 79.26414,
+					"z": -82.2618
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 2.981236,
+					"y": 79.22552,
+					"z": -81.92577
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": -0.1905027,
+					"y": 80.9018,
+					"z": -79.96028
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 43.23923,
+					"y": 101.1985,
+					"z": -19.44487
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 50.64502,
+					"y": 97.63619,
+					"z": -20.42508
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 51.38589,
+					"y": 94.87664,
+					"z": -28.31372
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": -13.05721,
+					"y": 103.4361,
+					"z": 26.03562
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": -23.77043,
+					"y": 100.121,
+					"z": 33.72027
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": -93.56413,
+					"y": 53.30138,
+					"z": 5.57249
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": -94.27225,
+					"y": 51.98843,
+					"z": 6.507222
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 108.5277,
+					"y": -3.707063,
+					"z": 4.738517
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 108.6922,
+					"y": -5.127588,
+					"z": 5.741089
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 119.4025,
+					"y": -0.9423634,
+					"z": 3.947194
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 120.5078,
+					"y": -12.52781,
+					"z": 10.1323
+				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Strange Frequency",
+				"name": "Signal House",
+				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+				"onlyAudibleToScope": false,
+				"maxDistance": 30,
+				"minDistance": 10,
+				"detectionRadius": 10000,
+				"identificationRadius": 20,
+				"position": {
+					"x": -22.36887,
+					"y": 115.6436,
+					"z": 28.60617
+				}
+			}
+		],
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"uniqueID": "DEBUG_WH_2",
+				"horizonRadius": 0.5,
+				"alignRadial": true,
+				"pairedSingularity": "DEBUG_BH_2",
+				"position": {
+					"x": -16.94967,
+					"y": 108.5297,
+					"z": 17.29736
+				}
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"ShockEffect": {},
+	"ShipLog": {
+		"xmlFile": "shiplogs/anglerseye.xml",
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/ANGLERSEYE_UI.png",
+			"invisibleWhenHidden": true,
+			"manualPosition": {
+				"x": 1300,
+				"y": -160
+			},
+			"manualNavigationPosition": {
+				"x": 5,
+				"y": 0
+			}
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/sorcerer.ogg",
+				"clipSelection": "random",
+				"track": "music",
+				"priority": 0,
+				"radius": 150.0,
+				"volume": 0.3,
+				"position": {}
+			},
+			{
+				"audio": "assets/Audio/bramblemuseum.ogg",
+				"priority": 1,
+				"clipSelection": "random",
+				"track": "music",
+				"radius": 8,
+				"position": {
+					"x": 49.89732,
+					"y": 102.42,
+					"z": -25.17762
+				}
+			},
+			{
+				"audio": "DreamFireRoom",
+				"priority": 1,
+				"clipSelection": "random",
+				"track": "music",
+				"radius": 8,
+				"position": {
+					"x": 44.84358,
+					"y": 90.05164,
+					"z": -21.27512
+				}
+			},
+			{
+				"audio": "assets/Audio/silence.ogg",
+				"priority": 1,
+				"track": "music",
+				"radius": 12,
+				"position": {
+					"x": -91.2749,
+					"y": 53.9143,
+					"z": 11.3108
+				}
+			}
+		],
+		"insulatingVolumes": [
+			{
+				"parentPath": "Sector/Item_CloakMineral",
+				"isRelativeToParent": true,
+				"radius": 20
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"acceleration": 1,
+				"speedLimit": 3,
+				"radius": 200
+			},
+			{
+				"acceleration": 1,
+				"speedLimit": 2,
+				"radius": 7
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"radius": 145,
+				"position": {
+					"x": 0,
+					"y": 70,
+					"z": 0
+				},
+				"treeVolume": true
+			}
+		],
+		"revealVolumes": [
+			{
+				"position": {
+					"x": 47.1643,
+					"y": 97.6731,
+					"z": -23.6859
+				},
+				"radius": 15,
+				"reveals": [
+					"ANGLERS_EYE_THEATRE_E"
+				]
+			},
+			{
+				"position": {
+					"x": -19.79901,
+					"y": 101.755,
+					"z": 17.80933
+				},
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_SIGNALHOUSE_SIGNAL1F"
+				]
+			},
+			{
+				"position": {
+					"x": -16.94967,
+					"y": 108.5297,
+					"z": 17.29736
+				},
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_POEM_R"
+				]
+			},
+			{
+				"position": {
+					"x": -21.1051,
+					"y": 108.3589,
+					"z": 29.07147
+				},
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_SIGNALHOUSE_LOCKED1",
+					"ANGLERS_EYE_SIMSECRET_R"
+				]
+			},
+			{
+				"radius": 130,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"reveals": [
+					"ANGLERS_EYE_MAIN_E",
+					"ANGLERS_EYE_ALIENTEXT_R"
+				]
+			},
+			{
+				"radius": 75,
+				"position": {
+					"x": 1.104206,
+					"y": -100.9798,
+					"z": -0.5480309
+				},
+				"reveals": [
+					"ANGLERS_EYE_MAIN_HURRICANE_R1"
+				]
+			},
+			{
+				"position": {
+					"x": 49.89732,
+					"y": 102.42,
+					"z": -25.17762
+				},
+				"radius": 8,
+				"reveals": [
+					"ANGLERS_EYE_DBMUSEUM"
+				]
+			},
+			{
+				"position": {
+					"x": 44.84358,
+					"y": 90.05164,
+					"z": -21.27512
+				},
+				"radius": 5,
+				"reveals": [
+					"ANGLERS_EYE_DBMUSEUM_SIMROOM1"
+				]
+			},
+			{
+				"position": {
+					"x": 50.89534,
+					"y": 87.96917,
+					"z": -33.24103
+				},
+				"radius": 10,
+				"reveals": [
+					"ANGLERS_EYE_DBMUSEUM_ROCK"
+				]
+			},
+			{
+				"position": {
+					"x": -62.01225,
+					"y": -33.44255,
+					"z": 3.357034
+				},
+				"radius": 20,
+				"reveals": [
+					"ANGLERS_EYE_MINE_DISCOVER"
+				]
+			},
+			{
+				"position": {
+					"x": 6.225539,
+					"y": 83.85609,
+					"z": -67.8143
+				},
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_RD_TERRAPLAN"
+				]
+			},
+			{
+				"position": {
+					"x": 5.836877,
+					"y": 80.64743,
+					"z": -79.98937
+				},
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_RD_ORBIT"
+				]
+			},
+			{
+				"position": {
+					"x": 117.8554,
+					"y": -8.868609,
+					"z": 2.394431
+				},
+				"radius": 5,
+				"reveals": [
+					"ANGLERS_EYE_CONSERVATORY_DISCOVER"
+				]
+			},
+			{
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03/STORYREEL_1",
+				"isRelativeToParent": true,
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_STORYREEL_R"
+				]
+			},
+			{
+				"parentPath": "Sector/CRASHSITE_TEXT",
+				"isRelativeToParent": true,
+				"radius": 3,
+				"reveals": [
+					"ANGLERS_EYE_CRASHSITE_E1"
+				]
+			}
+		]
+	},
+	"MapMarker": {
+		"enabled": false
+	}
+}

@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Wall1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>This mineral is found on Angler's Eye, and it's known for its resistance to electricity, its natural cloaking, and ability to stop the Bramble from growing.</Page>
+			<Page>The Stranger's Inhabitants used this to cloak The Stranger, and one individual used it to reach their home moon.</Page>
+			<Page>Turns out, Angler's Eye originated from the Eye of the Universe, and the minerals are weakened quantum shards. Who knew the Quantum Moon had an evil twin?</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>1F_Archive</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Day 66: I have finished setting up this simulation for myself and anyone who stumbles across it, with the purpose of preserving the fifth planet before its destruction. All slide reels have also been uploaded and preserved within it, but I will make sure it is never used the way my kind has done.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_DBMUSEUM_SIMROOM2</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

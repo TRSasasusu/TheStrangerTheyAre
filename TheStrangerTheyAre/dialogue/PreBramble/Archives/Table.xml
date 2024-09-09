@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Table</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>Day 85: We tried to enter the Bramble Seed today, but it didn't let us in. At first, I thought it was my ship being too big, but upon further scanning, the seed's insides need to be imaged first before entering.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

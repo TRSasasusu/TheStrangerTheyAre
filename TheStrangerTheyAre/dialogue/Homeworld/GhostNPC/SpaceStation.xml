@@ -1,0 +1,190 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Twig</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>SpaceStation</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>What brings you here, alien?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Who are you?</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>What are you working on?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+	  <DialogueOption>
+		  <Text>Did you know your star is going to die?</Text>
+		  <DialogueTarget>3</DialogueTarget>
+	  </DialogueOption>
+	  <DialogueOption>
+		  <Text>Where can I explore in this star system?</Text>
+		  <DialogueTarget>4</DialogueTarget>
+	  </DialogueOption>
+	  <DialogueOption>
+		  <Text>You remind me of my friend Hornfels, one of the heads of our space program.</Text>
+		  <DialogueTarget>5</DialogueTarget>
+	  </DialogueOption>
+	  <DialogueOption>
+		  <Text>Just saying hi!</Text>
+		  <DialogueTarget>6</DialogueTarget>
+	  </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>I am Twig, head of our space program. One we just re-founded a year or so ago.</Page>
+	  <Page>Hundreds and thousands of years ago, we used to have an active presence in space a few generations after our Scientist re-terraformed everything.</Page>
+	  <Page>But that was all so long ago, and everything of the old program was lost, forgotten, or abandoned.</Page>
+	  <Page>None of us know the reason why they stopped the program, not even our historians. All we know is that the program didn't even last a year.</Page>
+	  <Page>Now, we're just carefree explorers, most of us use these other planets as vacation resorts, as treacherous as they may be.</Page>
+	  <Page>I doubt we can solve the mystery of our ancestors in a matter of minutes, though.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Well I sure can! I'm in a time loop!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1A</DialogueTarget>
+   </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+	<DialogueNode>
+		<Name>1A</Name>
+		<Dialogue>
+			<Page>A time loop? Did you accidentally inhale the fumes of a Vision Torch or something?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Whatever...</Text>
+				<DialogueTarget>SpaceStation</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+ <DialogueNode>
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Archiving our data since our star is dying. Hopefully we can send it out past the supernova and hope someone can see it.</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+     <DialogueOption> <!-- A single option the player can pick -->
+    <Text>There's no hope. Everyone will die, and it will be a vast void outside our Solar Neighborhood.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>2A</DialogueTarget>
+   </DialogueOption>
+	  <DialogueOption>
+		  <Text>How are you doing that?</Text>
+		  <DialogueTarget>2B</DialogueTarget>
+	  </DialogueOption>
+    </DialogueOptionsList>
+ </DialogueNode>
+
+	<DialogueNode>
+		<Name>2A</Name>
+		<Dialogue>
+			<Page>Still, worth a shot, right?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Alright, do whatever you want.</Text>
+				<DialogueTarget>SpaceStation</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No, just give up and die.</Text>
+				<DialogueTarget>2C</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2B</Name>
+		<Dialogue>
+			<Page>Well, I sent out a probe out to interstellar space with all of our information on it. When we're all dead, there's no alien invasion to worry about, right?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Can I find it?</Text>
+				<DialogueTarget>2D</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Yeah, true.</Text>
+				<DialogueTarget>SpaceStation</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2C</Name>
+		<Dialogue>
+			<Page>No I will not! What else is there to do? Go bother someone else with that attitude!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2D</Name>
+		<Dialogue>
+			<Page>If you want to find it, it has a signal on it. That is, if your kind has that technology yet.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Okay, thanks!</Text>
+				<DialogueTarget>SpaceStation</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+  <DialogueNode>
+  <Name>3</Name>
+  <Dialogue>
+   <Page>Oh yeah, I'm quite aware. We're all choosing to die in peace, just ask everyone, they'll all say the same thing.</Page>
+   <Page>Also, I'm working on something to make sure we're not forgotten.</Page>
+  </Dialogue>
+	  <DialogueOption>
+		  <Text>What are you working on?</Text>
+		  <DialogueTarget>2</DialogueTarget>
+	  </DialogueOption>
+	  <DialogueOption>
+		  <Text>Well...your loss.</Text>
+		  <DialogueTarget>SpaceStation</DialogueTarget>
+	  </DialogueOption>
+ </DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Oh there's plenty of places to explore in this star system!</Page>
+			<Page>The motto for the space program is, "From the crimson gale, to the burning dune, we watch the skies from our home moon".</Page>
+			<Page>For starters, if you can use signal detection technology, I'd follow the radio signals of our friends out in space right now.</Page>
+			<Page>They've been dwelling on those planets for quite a while, so they might know a thing or two.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<!-- A single option the player can pick -->
+				<Text>Alright, thanks for the info!</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>SpaceStation</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Your friend "Hornfels" does the same job I do, huh? We may do the same job, but somehow I doubt we're alike at all.</Page>
+		</Dialogue>
+		<DialogueTarget>SpaceStation</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>6</Name>
+		<Dialogue>
+			<Page>Okay then, feel free to explore space.</Page>
+		</Dialogue>
+	</DialogueNode>
+ </DialogueTree>

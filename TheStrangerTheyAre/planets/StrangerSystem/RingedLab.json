@@ -1,0 +1,257 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Ringed Laboratory",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"MapMarker": {
+		"enabled": true
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"scale": 0.2472948,
+				"position": {
+					"x": 0.5422,
+					"y": 28.6172,
+					"z": 1.3732
+				},
+				"rotation": {
+					"x": 355.2696,
+					"y": 18.8334,
+					"z": 89.8627
+				},
+				"fogTint": {
+					"r": 0,
+					"g": 0,
+					"b": 0
+				},
+				"hasFogLight": false,
+				"isRelativeToParent": true,
+				"name": "SIDE_A_NODE",
+				"linksTo": "DarkerBramble_LabWarp4",
+				"possibleExits": [ 1 ]
+			},
+			{
+				"scale": 0.2472948,
+				"position": {
+					"x": -30.2541,
+					"y": 28.6172,
+					"z": -30.2996
+				},
+				"rotation": {
+					"x": 355.2696,
+					"y": 18.8334,
+					"z": 89.8627
+				},
+				"fogTint": {
+					"r": 0,
+					"g": 0,
+					"b": 0
+				},
+				"hasFogLight": false,
+				"isRelativeToParent": true,
+				"name": "SIDE_B_NODE",
+				"linksTo": "DarkerBramble_LabWarp3",
+				"possibleExits": [ 1 ]
+			}
+		]
+	},
+	"canShowOnTitle": false,
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RingedLaboratory.prefab",
+				"keepLoaded": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GrowStopper.prefab",
+				"parentPath": "Sector/SIDE_A_NODE",
+				"scale": 0.2472948,
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GrowStopper.prefab",
+				"parentPath": "Sector/SIDE_B_NODE",
+				"scale": 0.2472948,
+				"isRelativeToParent": true
+			}
+		],
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"horizonRadius": 1,
+				"rename": "RingedLabWarp2_WH",
+				"uniqueID": "RingedLabWarp2_WH",
+				"pairedSingularity": "RingedLabWarp2_BH",
+				"hasWarpEffects": false,
+				"position": {
+					"x": -30.7176,
+					"y": 7.2764,
+					"z": -29.8128
+				}
+			},
+			{
+				"type": "whiteHole",
+				"horizonRadius": 1,
+				"rename": "RingedLabWarp1_WH",
+				"uniqueID": "RingedLabWarp1_WH",
+				"pairedSingularity": "RingedLabWarp1_BH",
+				"hasWarpEffects": false,
+				"position": {
+					"x": 0.4192,
+					"y": 7.3237,
+					"z": 2.0688
+				}
+			},
+			{
+				"type": "whiteHole",
+				"horizonRadius": 1,
+				"rename": "RingedLabWarp5_WH",
+				"uniqueID": "RingedLabWarp5_WH",
+				"pairedSingularity": "RingedLabWarp5_BH",
+				"hasWarpEffects": false,
+				"position": {
+					"x": 0.4192,
+					"y": 7.3237,
+					"z": 2.0688
+				}
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/RingedLaboratory/Table1.xml",
+				"position": {
+					"x": -30.44638,
+					"y": -23.45716,
+					"z": -28.90432
+				}
+			},
+			{
+				"xmlFile": "dialogue/RingedLaboratory/Table2.xml",
+				"position": {
+					"x": -29.35578,
+					"y": -23.45716,
+					"z": -31.98609
+				}
+			},
+			{
+				"xmlFile": "dialogue/RingedLaboratory/Wall1.xml",
+				"position": {
+					"x": 0.8457975,
+					"y": -22.37224,
+					"z": 8.599468
+				}
+			},
+			{
+				"xmlFile": "dialogue/RingedLaboratory/Memorial.xml",
+				"position": {
+					"x": -4.708945,
+					"y": -34.03239,
+					"z": 1.160978
+				}
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/ringedlaboratory.ogg",
+				"priority": 0,
+				"volume": 0.5,
+				"radius": 100
+			},
+			{
+				"volume": 1,
+				"priority": 1,
+				"audio": "assets/Audio/finally headed home 2.ogg",
+				"track": "endTimesMusic",
+				"parentPath": "Sector/RingedLaboratory/Interactibles/HeadedHomeAudio/Main",
+				"radius": 100
+			},
+			{
+				"volume": 1,
+				"priority": 1,
+				"audio": "assets/Audio/finally headed home 1.ogg",
+				"track": "endTimesMusic",
+				"parentPath": "Sector/RingedLaboratory/Interactibles/HeadedHomeAudio/Intro",
+				"radius": 6
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"acceleration": 5,
+				"speedLimit": 5,
+				"radius": 85,
+				"position": {
+					"x": -29.3,
+					"y": 13.3,
+					"z": 0
+				}
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [ "LAB_MAIN_R" ],
+				"radius": 80,
+				"position": {
+					"x": -29.3,
+					"y": 13.3,
+					"z": 0
+				}
+			},
+			{
+				"reveals": [ "LAB_MAIN_E" ],
+				"radius": 12,
+				"position": {
+					"x": -11.08,
+					"y": -25.7,
+					"z": -10.9
+				}
+			},
+			{
+				"reveals": [ "LAB_TERRA_E" ],
+				"radius": 6,
+				"position": {
+					"x": -30.16755,
+					"y": -23.67727,
+					"z": -30.53636
+				}
+			},
+			{
+				"reveals": [ "LAB_TREE_E" ],
+				"radius": 6,
+				"position": {
+					"x": -0.138567,
+					"y": -22.31,
+					"z": 1.747829
+				}
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 1000,
+		"inclination": 45,
+		"trackingOrbitLine": true,
+		"dottedOrbitLine": true,
+		"trueAnomaly": 180,
+		"primaryBody": "Ringed Giant",
+		"isTidallyLocked": true,
+		"isMoon": true
+	},
+	"ShipLog": {
+		"xmlFile": "shiplogs/ringedlab.xml",
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/RINGEDLAB_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/RINGEDLAB_UI_O.png",
+			"scale": 0.25
+		}
+	}
+}

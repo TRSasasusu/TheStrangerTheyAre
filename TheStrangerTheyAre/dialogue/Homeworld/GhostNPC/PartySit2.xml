@@ -1,0 +1,105 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Blossom</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>PartySit2</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Oh heya! You must be that alien our Scientist foresaw during his terraform studies. Welcome!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Yep, that's me.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>So far, you're the only one who's ever welcomed me.</Text>
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>What are some good places to explore on this planet?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Yeah, I'm the only one here that's not afraid of aliens.</Page>
+  </Dialogue>
+    <DialogueOptionsList> 
+    <DialogueOption>
+    <Text>You can call me "Hatchling". Nice meeting you!</Text>
+        <DialogueTarget>3A</DialogueTarget>
+   </DialogueOption>
+       <DialogueOption>
+    <Text>Why is your kind so xenophobic?</Text>
+        <DialogueTarget>3B</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>If ya want a li'l history lesson, there's a museum and memorial dedicated to the Scientist on the South Pole. I'm sure you've seen plenty of his studies though!</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+    <DialogueOption>
+    <Text>Alright, thank you!</Text>
+        <DialogueTarget>2A</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList>
+     <RevealFacts>
+      <FactID>HOME_MUSEUM_R</FactID>
+  </RevealFacts> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2A</Name>
+  <Dialogue>
+   <Page>Anytime, new pal!</Page>
+  </Dialogue>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>3</Name>
+  <Dialogue>
+   <Page>Nice to meet ya, my name is Blossom. I'm one of the few of my kind that's not afraid of aliens.</Page>
+  </Dialogue>
+    <DialogueOptionsList> 
+    <DialogueOption>
+    <Text>You can call me "Hatchling". Nice meeting you!</Text>
+        <DialogueTarget>3A</DialogueTarget>
+   </DialogueOption>
+       <DialogueOption>
+    <Text>Why is your kind so xenophobic?</Text>
+        <DialogueTarget>3B</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+  <DialogueNode> <!-- Another node why not -->
+  <Name>3A</Name>
+  <Dialogue>
+   <Page>It's a pleasure meeting you too!</Page>
+  </Dialogue>
+ </DialogueNode>
+
+  <DialogueNode> <!-- Another node why not -->
+  <Name>3B</Name>
+  <Dialogue>
+   <Page>I think it started about 250,000 years ago when another alien species warped to our system.</Page>
+   <Page>They never tell us what happened, but our ancestors were scared they would declare war on them.</Page>
+   <Page>This was a few hundred years after our Scientist finished the terraform.</Page>
+   <Page>All in all, I think we're all just scared of losing our home again, but we were the ones that took it away in the first place.</Page>
+  </Dialogue>
+  <RevealFacts>
+      <FactID>STRANDED_VESSEL_R2</FactID>
+  </RevealFacts>
+ </DialogueNode>
+</DialogueTree>

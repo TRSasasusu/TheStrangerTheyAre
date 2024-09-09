@@ -1,0 +1,226 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>INVISIBLE_PLANET</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>NEWSIM_MAIN</ID> <!-- The ID of this entry -->
+        <Name>Isolated Swamp</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>NEWSIM_MAIN_R</ID> <!-- The ID of this fact -->
+            <RumorName>Hidden Path in Simulation</RumorName> <!-- The name of the rumor this fact relates to -->
+			<SourceID>ANGLERS_EYE_SIMSECRET</SourceID>
+            <Text>According to a slide reel I found inside the Signal House on Angler's Eye, there is a secret path near the peephole in the fourth sector of the simulation.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>NEWSIM_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>There is a fourth sector in the simulation I have never noticed before. It has a few houses built on top of the lake.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>NEWSIM_MAIN_SECRETPATH1</ID> <!-- The ID of this fact -->
+            <Text>When the solar sails deploy about 6 minutes into the loop, some tiles glitch out and become solid and walkable.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>NEWSIM_MAIN_SECRETPATH2</ID> <!-- The ID of this fact -->
+            <Text>When the flood happens 13 minutes into the loop, the glitched walkways disappear.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>NEWSIM_RD_MAIN</ID> <!-- The ID of this entry -->
+            <Name>Simulated Research House</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_RD_E</ID> <!-- The ID of this fact -->
+                <Text>In the new simulation area, there is a fixed-up version of the Research and Development House on Angler's Eye.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_RD_TEXT1</ID> <!-- The ID of this fact -->
+                <Text>This new area was coded in by the Scientist on Angler's Eye when he visited The Stranger.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+            
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_RD_TEXT2</ID> <!-- The ID of this fact -->
+                <Text>The Scientist did not feel comfortable about the simulation's life preserving abilities.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_RD_TEXT3</ID> <!-- The ID of this fact -->
+                <Text>According to the Scientist, his kind were still homesick in the simulation of their homeland and realized the only thing he could do to help was to put them in a permanant coma.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_RD_MEM</ID> <!-- The ID of this fact -->
+                <Text>A memorial dedicated to The Scientist and his family are on the second floor. Both his children died by lack of nutrients from The Stranger.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+        <Entry>
+            <ID>NEWSIM_THEATRE_MAIN</ID> <!-- The ID of this entry -->
+            <Name>Simulated Theater</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<ExploreFact>
+				<ID>NEWSIM_MAIN_SECRETPATH3</ID>
+				<Text>There are invisible walkways between some of the houses.</Text>
+			</ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_THEATRE_THIEF</ID> <!-- The ID of this fact -->
+                <Text>A thief stole some of the slides to burn them! According to the text I found in the Theater House, he ran to the left after running out the front door.</Text>
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_THEATRE_THIEF2</ID> <!-- The ID of this fact -->
+                <Text>I went to the left of the entrance and I see nothing there... Something's not right.</Text>
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>NEWSIM_PUZZLEREEL</ID>
+			<!-- The ID of this entry -->
+			<Name>Secret Path Slide Reel</Name>
+			<!-- The name to show for this entry both on the card and in map mode -->
+			<Curiosity>NEWSIM_MAIN</Curiosity>
+			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+			
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>NEWSIM_SECRETPATH3</ID>
+				<!-- The ID of this fact -->
+				<Text>The slide reel shows that there is an underwater bridge to get to the house on the far left.</Text>
+			</ExploreFact>
+		</Entry>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>NEWSIM_ARCHIVE_MAIN</ID> <!-- The ID of this entry -->
+            <Name>Isolated Swamp Archives</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_COMA</ID> <!-- The ID of this fact -->
+                <Text>I found a long hallway with several Strangers sleeping, with an elevator at the end. I was wondering where the rest went!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_E</ID> <!-- The ID of this fact -->
+                <Text>The elevator at the end of the hall takes me down to another forbidden archive!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_TOPREELS</ID> <!-- The ID of this fact -->
+                <Text>In the archive, the elevator to the left takes me to a library filled with slide reels involving the history of the inhabitants.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_BOTTOMREELS</ID> <!-- The ID of this fact -->
+                <Text>In the archive, the elevator in the middle takes me to a library filled with slide reels filled with information.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_THEATRE</ID> <!-- The ID of this fact -->
+                <Text>In the archive, the elevator to the right takes me down to the theater. It also contains a table and some data transferring totems.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_TEXT1</ID> <!-- The ID of this fact -->
+                <Text>Accroding to a message on the table, The Scientist made this archive to preserve all the slide reels, but this "leader" ordered him to have it guarded.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_ARCHIVE_TEXT2</ID> <!-- The ID of this fact -->
+                <Text>Accroding to a message on the table, The Scientist explains how the coma hall works, but also brings up how popular it was. This explains where all the others went that I haven't seen in the other areas.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>NEWSIM_PRISONER</ID>
+			<!-- The ID of this entry -->
+			<Name>Prisoner's Breakdown Reel</Name>
+			<!-- The name to show for this entry both on the card and in map mode -->
+			<Curiosity>NEWSIM_MAIN</Curiosity>
+			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>NEWSIM_PRISONER_REEL</ID>
+				<!-- The ID of this fact -->
+				<Text>This slide reel shows The Prisoner among others breaking down in tears after watching The Scientist break down. The Prisoner almost jumped off the Eye Shrine, but seeing The Eye Symbol sparked something in him to stop.</Text>
+			</ExploreFact>
+		</Entry>
+
+		
+		<Entry> <!-- An Entry For This Planet -->
+            <ID>NEWSIM_SCIENTIST_MAIN</ID> <!-- The ID of this entry -->
+            <Name>Scientist Data Clone</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_CLONE</ID> <!-- The ID of this fact -->
+                <Text>I met a data clone of The Scientist in the Isolated Swamp Archives!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_VISION</ID> <!-- The ID of this fact -->
+                <Text>An inhabitant in the Archives used the Vision Torch to learn my language.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_CLONEINFO</ID> <!-- The ID of this fact -->
+                <Text>This is a data clone of The Scientist before he left The Stranger, so he has no idea about what happened to him afterwards.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_BIO</ID> <!-- The ID of this fact -->
+                <Text>The Scientist was the head of the scientific committee, and even invented the Vision Torch and discovered green fire technology. Against his will, he was forced to help destroy the planet. He also would have never approved of the simulation if he was still on the ship at that time.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_FAMILY</ID> <!-- The ID of this fact -->
+                <Text>The Scientist explains more about his family and how they died due to poor enviromnmental factors on The Stranger.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_EOTP</ID> <!-- The ID of this fact -->
+                <Text>The Scientist describes life before his kind found The Eye. They were connected with nature, were very spiritual, and lived in happiness under the Ringed Giant. It was their superstition which caused them to destroy their home planet, just to reach The Eye. He also mentions that all animals from their old planet went extinct faster than they could preserve them.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_PRISONER</ID> <!-- The ID of this fact -->
+                <Text>The Scientist got very uncomfortable when I brought up The Prisoner, but he did tell me that some of them miss him deep down. The Scientist also thinks it was too early for The Eye's signal to be let out.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_STRANGERLIFE</ID> <!-- The ID of this fact -->
+                <Text>The Scientist explained how terrifying life was on The Stranger. Many Strangers got so insane, they took their own lives. And if not, they starved to death due to lack of food. There were 55 crew members. 20 died, and 33 more got trapped in the simulation.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_TECH</ID> <!-- The ID of this fact -->
+                <Text>The Scientist shared with me his kind's innovations! The green fire was basically taboo for centuries until his father figured out how to utilize it. He invented the Vision Torch, and explained more about light-based propulsion techonlogy (including the solar sails).</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_CLOAKSHIP</ID> <!-- The ID of this fact -->
+                <Text>The Scientist also explains cloaked techonolgy. It can work on your ship without any customizations.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_LEADER</ID> <!-- The ID of this fact -->
+                <Text>The Scientist describes leadership of his kind. It's made up of a council, but one leader ends up being more powerful than others. The leader they had was a tyrant, leaving people who refused to board The Stranger at home to die.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>NEWSIM_SCIENTIST_ANGLERSEYE</ID> <!-- The ID of this fact -->
+                <Text>The Scientist tells me more about Angler's Eye. When travelling to check on their home moon, The Scientist and his family crashed into it because they miscalculated its orbit, which actually orbited both Dark Bramble and The Eye. It's also an "evil twin" of the Quantum Moon.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

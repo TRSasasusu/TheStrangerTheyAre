@@ -1,0 +1,90 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Geswaldo</NameField>
+
+	<DialogueNode>
+		<Name>START</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey it's me Geswaldo the simulated talking jellyfish.</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Do you know the owl-like being that made this place?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Can I try getting you out of here?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>GESWALDO I DESPISE YOU!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Bye bye!</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>An owl-like creature? Never seen anything like that.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh ok then.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>It almost seems like the purpose of our simulated selves is just to sit here and swim in place.</Page>
+			<Page>It's very cruel if you ask me, especially because Ernesto is right there and I can't reach him!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Truly a fate worse than death.</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Thank you for the kind compliment!</Page>
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No problem!</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>JUST KIDDING I LOVE YOU VERY MUCH</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>See ya later. Say hi to Ernesto for me!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Whoa buddy, that's crossing the line! Not nice!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

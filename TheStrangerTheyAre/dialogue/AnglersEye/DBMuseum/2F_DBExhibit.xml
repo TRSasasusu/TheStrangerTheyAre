@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_DBExhibit</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
+		<Dialogue>
+			<Page>The fifth planet currently has an invasive plant that started rapidly growing from the bottom of its subsurface ocean, and today has grown almost to the surface. To the left is what the fifth planet of this system looks like, to the right is what the planet and its fate will look like in the future.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>ANGLERS_EYE_DBMUSEUM_DBEXHIBIT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

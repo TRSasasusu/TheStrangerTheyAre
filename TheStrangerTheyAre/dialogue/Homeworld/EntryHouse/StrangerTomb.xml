@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+	<!-- The name of this character -->
+	<DialogueNode>
+		<Name>StrangerTomb</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>In memory to all those who suffered and died aboard our ship, meant to reach the vortex. The horrors of famine, self-harm, insanity, and simulated isolation almost wiped out our entire species.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_ENT_STRANGER</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField>
+	<!-- The name of this character -->
+	<DialogueNode>
+		<Name>1F_Wall2</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Beyond our homeworld lies a stormy, crimson giant with a violent, volcanic moon. Even further out, is a planet like no other, one with a strange orbit and a transforming surface.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>CRIMSON_R</FactID>
+			<FactID>VOLCANO_R</FactID>
+			<FactID>ENIGMA_R</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

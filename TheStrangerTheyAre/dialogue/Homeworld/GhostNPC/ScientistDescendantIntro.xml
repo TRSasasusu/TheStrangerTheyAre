@@ -1,0 +1,135 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>???</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>ScientistDescendantIntro</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>...Who are you? Where did you come from?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I am a Hearthian. I come in peace from the next system over.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>No, who are you?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+   <DialogueOption>
+    <Text>Where are we?</Text>
+    <DialogueTarget>3</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Doesn't matter. Come with me. Your life depends on it!</Text>
+    <DialogueTarget>4</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Yeah right! How am I supposed to trust you? Stop wasting my time!</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>B-but...</Text>
+    <DialogueTarget>END</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>END</Name>
+  <Dialogue>
+   <Page>No buts! Go back to your homeland, and don't mess with us!</Page>
+  </Dialogue>
+  <RevealFacts>
+      <FactID>HOME_LEADER_R</FactID>
+  </RevealFacts>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Like I'd tell an alien my personal information! That's just asking for death!</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>B-but...</Text>
+    <DialogueTarget>END</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>3</Name>
+  <Dialogue>
+   <Page>You're on our home turf, and we're not going to risk you ruining our utopia!</Page>
+  </Dialogue>
+   <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>B-but...</Text>
+    <DialogueTarget>END</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>4</Name>
+  <Dialogue>
+   <Page>Why should I trust you? Are you going to kidnap me?</Page>
+  </Dialogue>
+   <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>The universe is dying, we have no choice but to activate The Eye!</Text>
+    <DialogueTarget>5</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>5</Name>
+  <Dialogue>
+   <Page>The Eye? That vortex thing? I'd rather die here on my homeworld!</Page>
+  </Dialogue>
+   <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>If The Scientist was here, he'd say it's time.</Text>
+    <DialogueTarget>6</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>6</Name>
+  <Dialogue>
+   <Page>No he woul.....wait....</Page>
+   <Page>I remember...he passed down a note through many generations.</Page>
+   <Page>It said..."Wait for all the stars to die, then activate the Universe's Eye".</Page>
+   <Page>Heh, you know a lot, stranger! Do you have something to take us there?</Page>
+  </Dialogue>
+   <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>Yes, come aboard the Vessel!</Text>
+    <DialogueTarget>7</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>7</Name>
+  <Dialogue>
+   <Page>Alright, I alone shall come with you on this journey.</Page>
+   <Page>The others can keep guard of our homeland. I'll start my way on over.</Page>
+  </Dialogue>
+	 <ConditionToSet>CYPRESS_BOARDVESSEL</ConditionToSet>
+    <RevealFacts>
+      <FactID>HOME_LEADER_VESSEL</FactID>
+  </RevealFacts>
+ </DialogueNode>
+</DialogueTree>

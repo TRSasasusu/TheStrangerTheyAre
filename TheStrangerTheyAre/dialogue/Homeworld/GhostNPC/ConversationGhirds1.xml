@@ -1,0 +1,97 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Birch</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>ConversationGhirds1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>What do you want, four-eyes?</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption>
+    <Text>What's that joke you were telling the other one? Can I hear it?</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+    <DialogueOption>
+    <Text>Don't interrupt conversation.</Text>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>A joke? What's that supposed to mean?</Page>
+  </Dialogue>
+  <DialogueOptionsList> 
+  <DialogueOption>
+    <Text>I just meant like, you know, you could tell me the joke you two were laughing about!</Text>
+    <DialogueTarget>2A</DialogueTarget>
+   </DialogueOption>
+   </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2A</Name>
+  <Dialogue>
+   <Page>Listen, blue-skin. The only joke here is whatever backwater planet you puttered over here from. Is it customary there to interrupt important conversations to demand amusement?</Page>
+  </Dialogue>
+	 <DialogueOptionsList>
+		 <DialogueOption>
+			 <Text>No, it's just—</Text>
+			 <DialogueTarget>2B</DialogueTarget>
+		 </DialogueOption>
+	 </DialogueOptionsList>
+ </DialogueNode>
+
+  <DialogueNode> <!-- Another node why not -->
+  <Name>2B</Name>
+  <Dialogue>
+   <Page>Is all of your kind petulant, sleeve-tugging children? Because it's seeming like it, pal. Not a good look.</Page>
+  </Dialogue>
+	  <DialogueOptionsList>
+		  <DialogueOption>
+			  <Text>Okay, I'm sorry. I—</Text>
+			  <DialogueTarget>3</DialogueTarget>
+		  </DialogueOption>
+	  </DialogueOptionsList>
+ </DialogueNode>
+
+	<DialogueNode>
+		<!-- Another node why not -->
+		<Name>3</Name>
+		<Dialogue>
+			<Page>You know, you're not on your grimy, gauche, gurkin-green grassworld dumpster fire anymore. You're in the galaxy at large now.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I think there's been a mis—</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- Another node why not -->
+		<Name>4</Name>
+		<Dialogue>
+			<Page>You might've been a big fish in your little muck pit—a real hot shot—but now you've gotta come to terms with being the small fry you are. Hike up those rags you call pants and learn some manners.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Listen, I'm sorry. It's just—</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- Another node why not -->
+		<Name>5</Name>
+		<Dialogue>
+			<Page>Yeah, I bet you are. Now I've got a conversation to finish. Buzz off.</Page>
+		</Dialogue>
+	</DialogueNode>
+ </DialogueTree>

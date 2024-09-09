@@ -1,0 +1,69 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>RingedLab</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>LAB</ID> <!-- The ID of this entry -->
+        <Name>Ringed Laboratory</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>LAB_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>LAB_MAIN_R</ID> <!-- The ID of this fact -->
+            <RumorName>Unknown Structure</RumorName> <!-- The name of the rumor this fact relates to -->
+            <Text>I have entered a mysterious structure left by The Scientist.</Text> <!-- The Text to display for this fact -->
+        </RumorFact>
+
+		<ExploreFact> <!-- A rumor fact that belongs to this entry -->
+            <ID>LAB_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>This laboratory is orbiting around the Ringed Giant! It must be a station used for terraforming!</Text> <!-- The Text to display for this fact -->
+        </ExploreFact>
+		
+		<Entry>
+			<!-- An Entry For This Planet -->
+			<ID>LAB_TREE</ID>
+			<Name>Tree Room</Name>
+			<Curiosity>LAB_MAIN</Curiosity>
+			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<ExploreFact>
+				<ID>LAB_TREE_E</ID>
+				<Text>There is a room with a single tree in it.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>LAB_TEXT_TREE</ID>
+				<Text>A piece of text on the wall says the trees are healthy and are ready to be planted.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+            <ID>LAB_TERRA</ID> <!-- The ID of this entry -->
+            <Name>Terraform Plan</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>LAB_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<RumorFact>
+				<ID>LAB_TERRA_R</ID>
+				<RumorName>Terraform Plan?</RumorName>
+				<SourceID>LAB_TREE</SourceID>
+				<Text>The text near the tree says that The Scientist's terraforming plan is going smoothly.</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>LAB_TERRA_E</ID>
+				<Text>There is a room with the same terraform plan I saw way back on Angler's Eye, but it seems more completed.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>LAB_TEXT_TERRA1</ID>
+				<Text>A piece of text on the table says The Scientist completed his terraform plan!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>LAB_TEXT_TERRA2</ID>
+				<Text>A piece of text on the table reveals The Scientist and The Prisoner are brothers!</Text>
+			</ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>

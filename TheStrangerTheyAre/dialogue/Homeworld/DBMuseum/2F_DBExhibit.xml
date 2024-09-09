@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>2F_DBExhibit</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Our glorious Scientist crash landed on a moon orbiting this planet in our nearest neighbor system, plotting to terraform our home. On the left was what it looked like when he was there studying, on the right is what it looks like now. Truly a terrible fate for a planet.</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_SCI_DBMUSEUM_DBEXHIBIT</FactID>
+		</RevealFacts>
+	</DialogueNode>
+</DialogueTree>

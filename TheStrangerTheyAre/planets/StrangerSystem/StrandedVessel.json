@@ -1,0 +1,508 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Stranded Vessel",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"AmbientLights": [
+		{
+			"intensity": 0.5,
+			"innerRadius": 200,
+			"outerRadius": 500
+		}
+	],
+	"canShowOnTitle": false,
+	"Orbit": {
+		"primaryBody": "Nearest Neighbor",
+		"semiMajorAxis": 35000,
+		"isStatic": true
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/abandoned_vessel.ogg",
+				"priority": 0,
+				"volume": 0.2,
+				"radius": 200,
+				"position": {
+					"x": 0.1478,
+					"y": -6.8902,
+					"z": -52.3234
+				}
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [
+					"NOM_StrandedVessel_E"
+				],
+				"radius": 200,
+				"position": {
+					"x": 0.1478,
+					"y": -6.8902,
+					"z": -52.3234
+				}
+			},
+			{
+				"reveals": [
+					"NOM_Coords"
+				],
+				"radius": 10,
+				"position": {    
+					"x": -0.0263,
+					"y": -19.7422,
+					"z": -35.0823
+				}
+			}
+		]
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrandedVessel_Body.prefab",
+				"keepLoaded": true,
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {
+					"x": -3.3113,
+					"y": -5.4811,
+					"z": -107.5825
+				},
+				"rotation": {
+					"x": 16.7406,
+					"y": 171.1009,
+					"z": 357.9622
+				}  
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {   
+					"x": 2.4796,
+					"y": -5.0629,
+					"z": -101.1243
+				},
+				"rotation": {
+					"x": 6.6237,
+					"y": 200.1683,
+					"z": 325.0777
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {   
+					"x": -0.2513,  
+					"y": -5.3756,
+					"z": -93.1444
+				},
+				"rotation": {
+					"x": 0,
+					"y": 31.5455,
+					"z": 29.6201
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {   
+					"x": 1.156,    
+					"y": -4.9592,
+					"z": -82.4482
+				},
+				"rotation": {   
+					"x": 31.432,
+					"y": 211.8401,
+					"z": 350.6774
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": -2.3822, 
+					"y": -5.6719,
+					"z": -76.0521
+				},
+				"rotation": {
+					"x": 16.7406,
+					"y": 171.1009,
+					"z": 357.9622
+				}  
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": 0, 
+					"y": -48,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 31.5455,
+					"z": 29.6201
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {   
+					"x": 2.3374,  
+					"y": -5.2392,
+					"z": -65.0301
+				},
+				"rotation": {
+					"x": 6.6237,
+					"y": 200.1683,
+					"z": 325.0777
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": 0, 
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 180,
+					"z": 0
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": 10, 
+					"y": 10,
+					"z": 0
+				},
+				"rotation": {   
+					"x": 31.432,
+					"y": 211.8401,
+					"z": 350.6774
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": -10, 
+					"y": 10,
+					"z": 0
+				},
+				"rotation": {
+					"x": 6.6237,
+					"y": 200.1683,
+					"z": 325.0777
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": 10, 
+					"y": -10,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 31.5455,
+					"z": 29.6201
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": -10, 
+					"y": -10,
+					"z": 0
+				},
+				"rotation": {
+					"x": 16.7406,
+					"y": 171.1009,
+					"z": 357.9622
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": -3.9905,   
+					"y": -5.9964,
+					"z": -43.3362
+				},
+				"rotation": {
+					"x": 8.571,   
+					"y": 154.9882,
+					"z": 359.8961
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": -6.4887,     
+					"y": 1,
+					"z": -35.8418
+				},
+				"rotation": {
+					"x": 20.853,    
+					"y": 186.1152,
+					"z": 334.8302
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {  
+					"x": 4.7495,     
+					"y": 2.3465,
+					"z": -34.7273
+				},
+				"rotation": {
+					"x": 21.7681,     
+					"y": 188.666,
+					"z": 337.4726
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": { 
+					"x": 0, 
+					"y": -30,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 180,
+					"z": 0
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {  
+					"x": 3.7477,   
+					"y": -5.9528,
+					"z": -43.3362
+				},
+				"rotation": {
+					"x": 16.648,     
+					"y": 217.892,
+					"z": 1.3285
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {    
+					"x": 6.1586,   
+					"y": 11.6381,
+					"z": -26.0832
+				},
+				"rotation": {  
+					"x": 31.396,     
+					"y": 230.8452,
+					"z": 351.7369
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {    
+					"x": -5.0614,     
+					"y": 14.3959,
+					"z": -19.8726
+				},
+				"rotation": {   
+					"x": 36.4031,     
+					"y": 304.8096,
+					"z": 3.4337
+				}
+			},
+			{
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"hasPhysics": true,
+				"keepLoaded": true,
+				"position": {      
+					"x": -6.245,     
+					"y": 18.3432,
+					"z": -32.6854
+				},
+				"rotation": {     
+					"x": 63.391,       
+					"y": 112.9521,
+					"z": 170.1133
+				}
+			}
+		],
+		"translatorText": [
+			{
+				"type": "preCrashRecorder",
+				"xmlFile": "dialogue/StrandedVessel/NOM_Recorder.xml",
+				"position": {
+					"x": -7.0441,
+					"y": -18.2608,
+					"z": -39.9837
+				}
+			},
+			{
+				"type": "wall",
+				"xmlFile": "dialogue/StrandedVessel/NOM_IncomingMsg.xml",
+				"position": {
+					"x": -12.664,
+					"y": 14.6232,
+					"z": -21.5312
+				},
+				"rotation": {
+					"x": 0,
+					"y": 99.5275,
+					"z": 300.1455
+				}
+			},
+			{
+				"type": "wall",
+				"xmlFile": "dialogue/StrandedVessel/NOM_OutgoingMsg.xml",
+				"arcInfo": [
+					{
+						"type": "child"
+					},
+					{
+						"type": "child"
+					}
+				],
+				"position": {
+					"x": 13.6622,
+					"y": 14.2689,
+					"z": -20.4283
+				},
+				"rotation": {
+					"x": 2.6137,
+					"y": 261.9108,
+					"z": 306.4647
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "EscapePod",
+				"identificationRadius": 500,
+				"sourceRadius": 300,
+				"name": "Stranded Vessel",
+				"audio": "OW_NM_EscapePodDistressSignal"
+			}
+		],
+		"slideShows": [
+			{
+				"type": "standingVisionTorch",
+				"position": {
+					"x": 14.9258,
+					"y": 14.2689,
+					"z": -28.1774
+				},
+				"rotation": {
+					"x": 2.6137,
+					"y": 261.9108,
+					"z": 306.4647
+				},
+				"reveals": [ "VESSEL_VISION" ],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/VesselVision/image_042_0094.jpg",
+						"backdropAudio": "assets/Audio/thethreat.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0095.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0096.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0097.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0098.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0099.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0100.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0101.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0102.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0103.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0104.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0105.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0106.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0107.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0108.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0109.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0110.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0111.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0112.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0113.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0114.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0115.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0116.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0117.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0118.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0119.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0120.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0121.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0122.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0123.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0124.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0125.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0126.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0127.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0128.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0129.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0130.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0131.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0132.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0134.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0135.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0136.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0137.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0138.jpg" },
+					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0139.jpg" }
+				],
+				"playWithShipLogFacts": [
+					"VESSEL_VISION"
+				]
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "assets/Texture/Shiplog",
+		"xmlFile": "shiplogs/strandedvessel.xml",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/STRANDEDVESSEL_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/STRANDEDVESSEL_UI_O.png",
+			"invisibleWhenHidden": true
+		}
+	}
+}

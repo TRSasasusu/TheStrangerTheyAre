@@ -1,0 +1,142 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "TIMBER_HEARTH",
+  "Props": {
+    "dialogue": [
+      {
+        "pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
+        "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+        "lookAtRadius": 0,
+        "xmlFile": "dialogue/TimberHearth/SlateNEW.xml"
+      },
+      {
+        "xmlFile": "dialogue/TimberHearth/SlateRemote.xml",
+        "parentPath": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
+        "rename": "TSTA_SlateRemote",
+        "blockAfterPersistentCondition": "SLATE_REACT",
+        "isRelativeToParent": true,
+        "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+        "lookAtRadius": 0,
+        "remoteTrigger": {
+          "isRelativeToParent": false,
+          "position": {
+            "x": 8.283506,
+            "y": -42.27942,
+            "z": 186.5923
+          }
+        }
+      }
+    ],
+    "slideShows": [
+      {
+        "type": "standingVisionTorch",
+        "position": {
+          "x": -52.1514,
+          "y": 84.5067,
+          "z": 206.2573
+        },
+        "reveals": [
+          "HEARTH_VISION"
+        ],
+        "playWithShipLogFacts": [
+          "HEARTH_VISION"
+        ],
+        "rotation": {
+          "x": 88.4071,
+          "y": 8.7898,
+          "z": 0.0001
+        },
+        "slides": [
+          { "imagePath": "assets/Slideshows/TimberHearthVision/title.png" },
+          {
+            "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0038.jpg",
+            "backdropAudio": "assets/Audio/hearthsshadow2.ogg"
+          },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0039.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0040.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0041.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0042.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0043.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0044.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0045.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0046.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0047.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0048.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0049.jpg" },
+          {
+            "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0050.jpg",
+            "backdropAudio": "assets/Audio/hearthsshadow3.ogg"
+          },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0051.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0052.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0053.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0054.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0055.jpg" },
+          {
+            "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0056.jpg",
+            "backdropAudio": "assets/Audio/hearthsshadow4.ogg"
+          },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0057.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0058.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0059.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0060.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0061.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0062.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0063.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0064.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0065.jpg" },
+          {
+            "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0066.jpg",
+            "backdropAudio": "assets/Audio/hearthsshadow5.ogg"
+          },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0067.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0068.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0069.jpg" },
+          {
+            "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0070.jpg",
+            "backdropAudio": "assets/Audio/hearthsshadow6.ogg"
+          },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0071.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0072.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0073.jpg" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0074.jpg" }
+        ]
+      }
+    ],
+    "signals": [
+      {
+        "frequency": "Strange Frequency",
+        "name": "Timber Hearth Vision Torch",
+        "audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+        "reveals": "HEARTH_SIGNAL_E",
+        "maxDistance": 30,
+        "minDistance": 5,
+        "detectionRadius": 200,
+        "identificationRadius": 5,
+        "position": {
+          "x": -52.1514,
+          "y": 84.5067,
+          "z": 206.2573
+        }
+      }
+    ],
+    "singularities": [
+      {
+        "type": "blackHole",
+        "uniqueID": "DEBUG_BH_2",
+        "horizonRadius": 0.5,
+        "alignRadial": true,
+        "pairedSingularity": "DEBUG_WH_2",
+        "position": {
+          "x": 12.91092,
+          "y": -46.06311,
+          "z": 184.7773
+        }
+      }
+    ]
+  },
+  "ShipLog": {
+    "xmlFile": "shiplogs/TIMBER_HEARTH.xml",
+    "spriteFolder": "assets/Texture/Shiplog"
+  }
+}
