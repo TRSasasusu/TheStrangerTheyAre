@@ -96,7 +96,7 @@ namespace TheStrangerTheyAre
                 }
             }
         }
-        public virtual void OnTriggerEnter(Collider hitCollider)
+        private void OnTriggerEnter(Collider hitCollider)
         {
             //checks if player collides with the trigger volume
             if (hitCollider.CompareTag("PlayerDetector") && enabled /*&& flashlight.IsFlashlightOn() == false && !door._frontDoor.IsOpen()*/) // commented out because it won't check things properly
@@ -108,7 +108,7 @@ namespace TheStrangerTheyAre
             }
         }
 
-        public virtual void OnTriggerExit(Collider hitCollider)
+       private void OnTriggerExit(Collider hitCollider)
         {
             if (hitCollider.CompareTag("PlayerDetector") && enabled)
             {

@@ -87,7 +87,7 @@ namespace TheStrangerTheyAre
             TheStrangerTheyAre.WriteLine("NoSneak Module Active", MessageType.Success); // debug message
             foreach (var bird in ghostBirds)
             {
-                bird.GetComponentInChildren<CapsuleShape>().radius = 10;
+                bird.GetComponentInChildren<CapsuleShape>().radius = 50;
             }
         }
     }

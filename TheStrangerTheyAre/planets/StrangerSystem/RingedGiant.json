@@ -114,6 +114,22 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_Vessel1.prefab",
+				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"isRelativeToParent": true,
+				"position": {
+					"x": -901.0897,
+					"y": 396.4904,
+					"z": 909.8854
+				},
+				"rotation": {
+					"x": 354.624,
+					"y": 43.46161,
+					"z": 335.0878
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Seals/Seal_Ringed.prefab",
 				"alignRadial": true,
 				"position": {
