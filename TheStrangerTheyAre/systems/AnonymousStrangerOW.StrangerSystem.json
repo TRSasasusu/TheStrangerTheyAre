@@ -3,42 +3,42 @@
     "canEnterViaWarpDrive": true,
     "loopDuration": 33,
     "respawnHere": true,
-    "Vessel": {
-        "alwaysPresent": false,
-        "coords": {
-            "x": [4, 5, 0],
-            "y": [4, 1, 0, 3],
-            "z": [4, 5, 1, 2, 3]
-        },
-      "vesselSpawn": {
-        "parentBody": "Ringed Giant",
-        "position": {
-          "x": -900,
-          "y": 400,
-          "z": 900
-        },
-        "rotation": {
-          "x": 6.2185,
-          "y": 221.6308,
-          "z": 24.7273
-        }
+  "Vessel": {
+    "alwaysPresent": false,
+    "coords": {
+      "x": [ 4, 5, 0 ],
+      "y": [ 4, 1, 0, 3 ],
+      "z": [ 4, 5, 1, 2, 3 ]
+    },
+    "vesselSpawn": {
+      "parentBody": "Ringed Giant",
+      "position": {
+        "x": -900,
+        "y": 400,
+        "z": 900
       },
-      "warpExit": {
-        "parentBody": "Strangers' Homeworld",
-        "parentPath": "Sector",
-        "isRelativeToParent": true,
-        "position": {
-          "x": 157.6306,
-          "y": -14.7971,
-          "z": -136.8411
-        },
-        "rotation": {
-          "x": 274.937,
-          "y": 212.7182,
-          "z": 92.3105
-        }
+      "rotation": {
+        "x": 6.2185,
+        "y": 221.6308,
+        "z": 24.7273
       }
     },
+    "warpExit": {
+      "parentBody": "Strangers' Homeworld",
+      "parentPath": "Sector",
+      "isRelativeToParent": true,
+      "position": {
+        "x": 158.9002,
+        "y": -9.04232,
+        "z": -137.4802
+      },
+      "rotation": {
+        "x": 274.937,
+        "y": 212.7182,
+        "z": 92.3105
+      }
+    }
+  },
     "returnToSolarSystemWhenTooFar": true,
     "GlobalMusic": {
         "endTimesAudio": "assets/Audio/RiversEndTimes.ogg",

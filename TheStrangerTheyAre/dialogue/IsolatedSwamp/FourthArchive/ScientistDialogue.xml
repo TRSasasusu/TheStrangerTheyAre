@@ -161,8 +161,8 @@
    <Page>My body is nowhere to be seen because I uploaded a clone of myself to the simulation in order to preserve myself, in case I die attempting to terraform our home moon.</Page>
    <Page>I got uploaded before I left our ship to resume studying. I don't know whether I succeeded with the terraform, died on the way, stranded on that cloaked moon, or just plain failed.</Page>
    <Page>Although I may be just blocks of code, I'm still me as much as the others are still them.</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_CLONEINFO</FactID></RevealFacts>
   </Dialogue>
+  <RevealFacts><FactID>NEWSIM_SCIENTIST_CLONEINFO</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -176,8 +176,8 @@
    <Page>I didn't want to tear down our home planet, but it was his orders. He made me build that ship regardless of how unhealthy conditions were.</Page>
    <Page>When I left, I put my assistant in charge. The committee thought I died in the crash, and didn't bother checking.</Page>
    <Page>And then, the simulation was built. I would have never approved of the idea, but I was better off out of there. I could have ended up imprisoned!</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_BIO</FactID></RevealFacts>
   </Dialogue>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_BIO</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -192,8 +192,8 @@
    <Page>A few days later, my son was ill. The environment of our ship also got to him.</Page>
    <Page>Not long before I left to come back to the ship, he also ended up passing away.</Page>
    <Page>For the plan to work, my wife and I have to survive in order to repopulate. I have no idea if either one, or both of us died, and I never will find out.</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_FAMILY</FactID></RevealFacts>
   </Dialogue>
+  <RevealFacts><FactID>NEWSIM_SCIENTIST_FAMILY</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -208,8 +208,8 @@
    <Page>I was one of the few indivuals who didn't care for worship, in fact my whole family was that way.</Page>
    <Page>It was only natural for my kind to sacrifice the planet to reach the "Eye", as you call it. After all that, we were never the same.</Page>
    <Page>We also had animals on our home planet, but they died before we could even bring them on board.</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_EOTP</FactID></RevealFacts>
   </Dialogue>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_EOTP</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -221,8 +221,8 @@
    <Page>Even I didn't agree with his actions when I heard of them. It was too early to destroy and reset the universe.</Page>
    <Page>But despite what happened, some of us miss him deep down, back when he was a friend.</Page>
    <Page>But please, I don't want to talk about him anymore! Just ask me something else!</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_PRISONER</FactID></RevealFacts>
   </Dialogue>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_PRISONER</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -243,8 +243,8 @@
    <Page>And our eldest crew member who died in the simulation while testing, he later extinguished his artifact because it wasn't the same as our real home moon.</Page>
    <Page>So I then built the coma hall to put their "undead" data into "sleep mode", and most of the simulation's populus came flocking over to get in it.</Page>
    <Page>If only I could have turned them around while I still could...</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_STRANGERLIFE</FactID></RevealFacts>
   </Dialogue>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_STRANGERLIFE</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -259,11 +259,11 @@
    <Page>And years later, I invented the Vision Torch, which then lead to the development of computers and telescopes, which use the fire's power.</Page>
    <Page>And then there's light sensors, which activate our doors, rafts, and drive our ships.</Page>
    <Page>Our ship's cloak is all natural resources we've mined from the cloaked moon. We didn't really have to configure it at all.</Page>
+  </Dialogue>
     <RevealFacts>
    		<FactID>NEWSIM_SCIENTIST_CLOAKSHIP</FactID>
 			<FactID>NEWSIM_SCIENTIST_TECH</FactID>
 		</RevealFacts>
-  </Dialogue>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -278,8 +278,8 @@
    <Page>However, our leader was a tyrant since we found that vortex. He doesn't listen to his advisors, and may even imprison those who defy him.</Page>
    <Page>Those who refused to board the ship to reach the vortex were left home to starve, including one of our famous singers. Leaving home was truly a terrifying day.</Page>
    <Page>If only he listened to my warnings about building the ship, destroying our homeworld, and even the plan to terraform it back after.</Page>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_LEADER</FactID></RevealFacts>
   </Dialogue>
+   <RevealFacts><FactID>NEWSIM_SCIENTIST_LEADER</FactID></RevealFacts>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 
@@ -294,11 +294,11 @@
    <Page>The crash happened due to our false assumptions about its orbit. Turns out, this was not only a moon of the fifth planet, but also the vortex. It orbits the two bodies every 400,000 years.</Page>
    <Page>As my time on the cloaked moon went on, I found out that it was an "evil twin" of the mysterious moon that changes its orbits.</Page>
    <Page>It has a dangerous hurricane blocking the south pole that will kill you upon touching it, but one time I fell into the hurricane while holding one of those rocks...</Page>
-   <RevealFacts>
+  </Dialogue>
+  <RevealFacts>
    		<FactID>NEWSIM_SCIENTIST_ANGLERSEYE</FactID>
 			<FactID>ANGLERS_EYE_MAIN_HURRICANE_E3</FactID>
 		</RevealFacts>
-  </Dialogue>
    <DialogueTarget>StartQuestions</DialogueTarget>
 </DialogueNode>
 

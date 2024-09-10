@@ -1,11 +1,11 @@
 ﻿<Project>
-  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
-    <OuterWildsModsDirectory>$(AppData)/OuterWildsModManager/OWML/Mods</OuterWildsModsDirectory>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(OS)' == 'Unix'">
-    <OuterWildsModsDirectory>$(HOME)/.local/share/OuterWildsModManager/OWML/Mods</OuterWildsModsDirectory>
-  </PropertyGroup>
-  <PropertyGroup>
-    <OutputPath>$(OuterWildsModsDirectory)/AnonymousStrangerOW.TheStrangerTheyAre</OutputPath>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+		<OuterWildsModsDirectory>$(AppData)/OuterWildsModManager/OWML/Mods</OuterWildsModsDirectory>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(OS)' == 'Unix'">
+		<OuterWildsModsDirectory>$(HOME)/.local/share/OuterWildsModManager/OWML/Mods</OuterWildsModsDirectory>
+	</PropertyGroup>
+	<PropertyGroup>
+		<OutputPath>$(OuterWildsModsDirectory)/AnonymousStrangerOW.TheStrangerTheyAre</OutputPath>
+	</PropertyGroup>
 </Project>

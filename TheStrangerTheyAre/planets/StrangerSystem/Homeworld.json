@@ -443,6 +443,7 @@
 				"xmlFile": "dialogue/Homeworld/GhostNPC/ScientistDescendantIntro.xml",
 				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ScientistDescendant",
 				"isRelativeToParent": true,
+				"rename": "CYPRESS_INTRO",
 				"position": {
 					"x": 0.3088,
 					"y": 2.5287,
@@ -453,6 +454,18 @@
 				"xmlFile": "dialogue/Homeworld/GhostNPC/ScientistDescendantVision.xml",
 				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ScientistDescendant",
 				"isRelativeToParent": true,
+				"rename": "CYPRESS_AFTERVISION",
+				"position": {
+					"x": 0.3088,
+					"y": 2.5287,
+					"z": -0.3706
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/ScientistDescendantVision.xml",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ScientistDescendant",
+				"isRelativeToParent": true,
+				"rename": "CYPRESS_VISION",
 				"remoteTrigger": {
 					"position": {
 						"x": 157.591,
