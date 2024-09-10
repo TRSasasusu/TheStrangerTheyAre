@@ -8,24 +8,20 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <NoWarn>MSB3270</NoWarn>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugType>none</DebugType>
+    <DebugType>portable</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="OWML" Version="2.11.1" />
-    <PackageReference Include="OuterWildsGameLibs" Version="1.1.14.768" />
+    <PackageReference Include="OWML" Version="2.13.0" />
+    <PackageReference Include="OuterWildsGameLibs" Version="1.1.15.1018" />
   </ItemGroup>
 	<ItemGroup>
-		<Reference Include="NewHorizons">
-			<HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
-			<Private>False</Private>
-		</Reference>
+      <!-- TODO: change this to local copy so CI works -->
+      <Reference Include="NewHorizons">
+          <HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
+          <Private>False</Private>
+      </Reference>
 	</ItemGroup>
   <ItemGroup>
-    <None Include="QuantumInstrumentTSTA.cs" />
-    <None Include="TimeDilation.cs" />
-    <None Include="Clock.cs" />
     <None Include="default-config.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -37,12 +33,6 @@
     <Content Include="TheStrangerTheyAre.csproj.user" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="default-config.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Include="manifest.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="planets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -61,9 +51,6 @@
     <None Include="shiplogs\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <Compile Remove="AnglerScaler.cs" />
-    <Compile Remove="planets\EyeOfTheUniverse\QuantumInstrumentTSTA.cs" />
-    <Compile Remove="planets\StrangerSystem\Clock.cs" />
     <None Include="addon-manifest.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -71,5 +58,4 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ProjectExtensions><VisualStudio><UserProperties planets_4solarsystem_4anglers_3eye_1json__JsonSchema="`" /></VisualStudio></ProjectExtensions>
 </Project>
