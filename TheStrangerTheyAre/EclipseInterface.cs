@@ -34,9 +34,11 @@ namespace TheStrangerTheyAre
         private float _timeSinceClosure;
         private GameObject qDoorClosed;
         private GameObject qDoorOpen;
+        public bool isOpen;
 
         private void Awake()
         {
+            isOpen = false;
             if (_rotatingElements.Length < 1 || _lightSensors.Length < 1)
             {
                 Debug.LogError("No Light sensor or rotating dial.");
@@ -51,10 +53,10 @@ namespace TheStrangerTheyAre
         private void Start()
         {
             base.enabled = false;
-            qDoorClosed = GameObject.Find("StaticDoor_Closed");
-            qDoorOpen = GameObject.Find("StaticDoor_Open");
-            qDoorClosed.SetActive(true);
-            qDoorOpen.SetActive(false);
+            var distantEnigma = TheStrangerTheyAre.NewHorizonsAPI.GetPlanet("Distant Enigma"); // gets the quantum planet with nh
+
+            qDoorClosed = distantEnigma.transform.Find("Sector-3/QuantumResearchLab/Interactables/StaticDoor_Closed").gameObject;
+            qDoorOpen = distantEnigma.transform.Find("Sector-3/QuantumResearchLab/Interactables/StaticDoor_Open").gameObject;
         }
 
         private void OnDestroy()
@@ -86,6 +88,19 @@ namespace TheStrangerTheyAre
             }
         }
 
+        private void Update()
+        {
+            if (isOpen)
+            {
+                qDoorClosed.SetActive(false);
+                qDoorOpen.SetActive(true);
+            }
+            else
+            {
+                qDoorClosed.SetActive(true);
+                qDoorOpen.SetActive(false);
+            }
+        }
         private void FixedUpdate()
         {
             _timeSinceClosure += Time.deltaTime;
@@ -149,8 +164,7 @@ namespace TheStrangerTheyAre
 
         private void OnDoorOpen()
         {
-            qDoorClosed.SetActive(false);
-            qDoorOpen.SetActive(true);
+            isOpen = true;
             for (int i = 0; i < _lightSensors.Length; i++)
             {
                 _lightSensors[i].SetDetectorActive(active: false);
@@ -160,8 +174,7 @@ namespace TheStrangerTheyAre
 
         private void OnDoorClose()
         {
-            qDoorClosed.SetActive(true);
-            qDoorOpen.SetActive(false);
+            isOpen = false;
             for (int i = 0; i < _lightSensors.Length; i++)
             {
                 _lightSensors[i].SetDetectorActive(active: true);

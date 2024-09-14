@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using OWML.Common;
 
 namespace TheStrangerTheyAre
 {
@@ -42,15 +43,16 @@ namespace TheStrangerTheyAre
         {
             // handle breaking
             if (planetState.activeSelf && shard.activeSelf  
-                && shard.transform.localPosition == shardPos 
-                && shard.transform.rotation == shardRot 
-                && _shardVisibilityObject.CheckVisibilityFromProbe(probeCam))
+                && shard.transform.localPosition == activateSocket.transform.localPosition 
+                && shard.transform.rotation == activateSocket.transform.rotation
+                /*&& _shardVisibilityObject.CheckVisibilityFromProbe(probeCam)*/)
             {
                 hasBroken = true; // sets break-checking boolean to true when weakened shard is active, player is in state 1, and in the right spot.
             }
 
             if (planetState3.activeSelf)
             {
+                TheStrangerTheyAre.WriteLine("Has Broken? : " + hasBroken, MessageType.Success); // debug message
                 // run when broken
                 if (hasBroken)
                 {

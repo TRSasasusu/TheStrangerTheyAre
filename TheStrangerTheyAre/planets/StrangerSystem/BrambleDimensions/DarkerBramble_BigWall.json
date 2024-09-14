@@ -130,6 +130,18 @@
 				"rotation": {
 					"z": 128
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/BrambleDock_Green_Pivot.prefab",
+				"parentPath": "Sector/WALL1_NODE1",
+				"isRelativeToParent": true,
+				"position": {
+					"y": -18.9182
+				},
+				"rotation": {
+					"y": 140.3515
+				}
 			}
 		],
 		"singularities": [

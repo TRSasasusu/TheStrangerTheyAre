@@ -130,6 +130,10 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/AtmosphereBurn.prefab"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/NormalFire_Stranger.prefab",
 				"position": {
 					"x": -71.8984,

@@ -79,10 +79,10 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
-				"count": 10,
-				"minHeight": 200,
 				"seed": 128,
-				"keepLoaded": true
+				"count": 10,
+				"keepLoaded": true,
+				"minHeight": 200
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
@@ -203,13 +203,22 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/Enigma/Ice/EnigmaCrack.prefab"
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Ice/EnigmaThinIceBroken.prefab",
 				"keepLoaded": true,
 				"scale": 52.80805
+			},
+			{
+				"path": "Sector/BrambleMuseum_HOME/Interactables/Item_CloakMineral",
+				"position": {
+					"x": -197.8369,
+					"y": -20.85594,
+					"z": 25.3168
+				},
+				"rotation": {
+					"x": 311.588,
+					"y": 6.19249,
+					"z": 94.90948
+				}
 			}
 		],
 		"dialogue": [

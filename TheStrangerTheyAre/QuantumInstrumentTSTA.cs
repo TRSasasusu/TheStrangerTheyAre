@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
 
+namespace TheStrangerTheyAre;
 public class QuantumInstrumentTSTA : MonoBehaviour
 {
     public delegate void GatherEvent(float flickerOutDuration);
 
     public delegate void FinishGatherEvent();
 
-    private GameObject[] _activateObjects;
+    //private GameObject[] _activateObjects;
 
-    private GameObject[] _deactivateObjects;
+    //private GameObject[] _deactivateObjects;
 
     private bool _gatherWithScope = true;
 
@@ -24,13 +25,18 @@ public class QuantumInstrumentTSTA : MonoBehaviour
 
     public event FinishGatherEvent OnFinishGather;
 
+    GameObject scientist;
+
     private void Awake()
     {
-        _activateObjects[0] = GameObject.Find("Prefab_IP_GhostBird_Scientist_EyeIdle");
+        /*_activateObjects[0] = GameObject.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyeIdle");
         _deactivateObjects[0] = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/OriginalPlacement/Prefab_IP_VisiblePlanet");
         _deactivateObjects[1] = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PlanetWithLab_EYE");
 
-        _activateObjects[0].SetActive(false);
+        _activateObjects[0].SetActive(false);*/
+        var eye = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse"); // gets the quantum planet with nh
+
+        scientist = eye.transform.Find("Sector_Campfire/Campfire/Prefab_IP_GhostBird_Scientist_EyeIdle").gameObject; // gets the quantum planet's first state
         _interactReceiver = GetComponent<InteractReceiver>();
         if (_interactReceiver != null)
         {
@@ -89,6 +95,9 @@ public class QuantumInstrumentTSTA : MonoBehaviour
         if (_waitToFlickerOut && Time.time > _flickerOutTime)
         {
             FinishGather();
+        } else if (scientist.activeSelf)
+        {
+            scientist.SetActive(false);
         }
     }
 
@@ -98,14 +107,7 @@ public class QuantumInstrumentTSTA : MonoBehaviour
         {
             this.OnFinishGather();
         }
-        for (int i = 0; i < _activateObjects.Length; i++)
-        {
-            _activateObjects[i].SetActive(value: true);
-        }
-        for (int j = 0; j < _deactivateObjects.Length; j++)
-        {
-            _deactivateObjects[j].SetActive(value: false);
-        }
+        scientist.SetActive(true);
         base.enabled = false;
     }
 }

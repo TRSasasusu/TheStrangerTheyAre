@@ -35,12 +35,11 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_EyeIdle.prefab",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
 				"isRelativeToParent": true,
 				"deactivationCondition": "SCI_TRIGGERPLAY",
 				"position": {
 					"x": -1.3437,
-					"y": 0.0174,
 					"z": 3.7894
 				},
 				"rotation": {
@@ -50,12 +49,11 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_EyePlayInst.prefab",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
 				"isRelativeToParent": true,
 				"activationCondition": "SCI_TRIGGERPLAY",
 				"position": {
 					"x": -1.3437,
-					"y": 0.0174,
 					"z": 3.7894
 				},
 				"rotation": {
@@ -65,12 +63,11 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_Vessel1.prefab",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
 				"isRelativeToParent": true,
 				"position": {
-					"x": 4.0357,
-					"y": 4.5635,
-					"z": 11.0596
+					"x": 3.3551,
+					"z": 7.1673
 				},
 				"rotation": {
 					"y": 215.3546
@@ -164,7 +161,17 @@
 			},
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantCampfire.xml",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
+				"rename": "EYE_CypressSong",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantCampfire.xml",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
+				"rename": "EYE_CypressFire",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -172,7 +179,7 @@
 			},
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/Scientist.xml",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyeIdle",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyeIdle",
 				"isRelativeToParent": true,
 				"rename": "EYE_ScientistIntro",
 				"position": {
@@ -203,7 +210,7 @@
 				"volume": 1,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyePlayInst",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyePlayInst",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 1
@@ -215,7 +222,7 @@
 				"volume": 1,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/RingedLaboratory_EYE",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/RingedLaboratory_EYE",
 				"sourceRadius": 100,
 				"isRelativeToParent": true
 			},
@@ -225,7 +232,7 @@
 				"volume": 1,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PlanetWithLab_EYE/RingedLaboratory_Eye",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PlanetWithLab_EYE/RingedLaboratory_Eye",
 				"sourceRadius": 100,
 				"isRelativeToParent": true
 			}

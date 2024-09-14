@@ -135,6 +135,46 @@
 				"rotation": {
 					"z": 128
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/BrambleDock_Green_Pivot.prefab",
+				"parentPath": "Sector/WALL2_NODE1",
+				"isRelativeToParent": true,
+				"position": {
+					"y": -26.9855
+				},
+				"rotation": {
+					"y": 133.7991,
+					"z": 14.6549
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/BrambleDock_Red_Pivot.prefab",
+				"parentPath": "Sector/WALL2_NODE2",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 133.7557
+				},
+				"rotation": {
+					"y": 133.7557
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/BrambleDock_Red_Pivot.prefab",
+				"position": {
+					"x": -961.5326,
+					"y": -133.6106,
+					"z": -269.3235
+				},
+				"rotation": {
+					"x": 328.5097,
+					"y": 337.9075,
+					"z": 4.1194
+				},
+				"scale": 20
 			}
 		],
 		"singularities": [
@@ -160,14 +200,6 @@
 				"hasWarpEffects": false,
 				"uniqueID": "RingedLabWarp2_BH",
 				"pairedSingularity": "RingedLabWarp2_WH"
-			},
-			{
-				"type": "blackHole",
-				"horizonRadius": 10,
-				"parentPath": "Sector/WALL2_NODE1",
-				"hasWarpEffects": false,
-				"uniqueID": "RingedLabWarp5_BH",
-				"pairedSingularity": "RingedLabWarp5_WH"
 			}
 		]
 	},

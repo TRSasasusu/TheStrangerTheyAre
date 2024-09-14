@@ -29,12 +29,19 @@
 			"a": 0
 		}
 	},
+	"ShipLog": {
+		"xmlFile": "shiplogs/home.xml",
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/HOME_UI.png"
+		}
+	},
 	"Spawn": {
 		"playerSpawn": {
 			"alignRadial": true,
 			"startWithSuit": true,
 			"isDefault": true,
-			"rename": "SpawnPlayer_Home",
+			"rename": "SpawnPlayer_Enigma",
 			"position": {
 				"x": 133.2987,
 				"y": 49.4234,
@@ -43,19 +50,12 @@
 		},
 		"shipSpawn": {
 			"alignRadial": true,
-			"rename": "SpawnShip_Home",
+			"rename": "SpawnShip_Enigma",
 			"position": {
 				"x": 133.2987,
 				"y": 49.4234,
 				"z": -146.0497
 			}
-		}
-	},
-	"ShipLog": {
-		"xmlFile": "shiplogs/home.xml",
-		"spriteFolder": "assets/Texture/Shiplog",
-		"mapMode": {
-			"revealedSprite": "assets/Texture/Shiplog/HOME_UI.png"
 		}
 	},
 	"Volumes": {
@@ -604,76 +604,76 @@
 				"count": 50,
 				"seed": 128
 			},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (1).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 3456789
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (2).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 9876543
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (3).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 1234567
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (4).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 7654321
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (5).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 2345678
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (6).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 8765432
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (7).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 3456780
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (8).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 4567890
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (9).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 5678901
-				},
-				{
-					"assetBundle": "assets/AssetBundle/strangerbundle",
-					"path": "Assets/GRASK/grask (10).prefab",
-					"keepLoaded": true,
-					"count": 550,
-					"seed": 6789012
-				}
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (1).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 3456789
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (2).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 9876543
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (3).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 1234567
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (4).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 7654321
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (5).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 2345678
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (6).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 8765432
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (7).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 3456780
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (8).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 4567890
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (9).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 5678901
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GRASK/grask (10).prefab",
+				"keepLoaded": true,
+				"count": 550,
+				"seed": 6789012
+			}
 		],
 		"slideShows": [
 			{
