@@ -130,7 +130,9 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/AtmosphereBurn.prefab"
+				"path": "Assets/AtmosphereBurn.prefab",
+				"keepLoaded": true,
+				"scale": 2
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
