@@ -92,6 +92,9 @@ namespace TheStrangerTheyAre
 
             // Makes sure that artifacts get blown out when going under water
             Locator.GetPlayerBody().gameObject.AddComponent<HeldArtifactWaterHandler>();
+
+            // runs the funny time dilator
+            TimeDilation.TimeDilator();
         }
     }
 }

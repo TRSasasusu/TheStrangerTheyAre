@@ -11,7 +11,7 @@ public class QuantumInstrumentTSTA : MonoBehaviour
 
     //private GameObject[] _deactivateObjects;
 
-    private bool _gatherWithScope = true;
+    private bool _gatherWithScope = false;
 
     private InteractReceiver _interactReceiver;
 
@@ -34,9 +34,9 @@ public class QuantumInstrumentTSTA : MonoBehaviour
         _deactivateObjects[1] = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PlanetWithLab_EYE");
 
         _activateObjects[0].SetActive(false);*/
-        var eye = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse"); // gets the quantum planet with nh
+        var fire = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite"); // gets the quantum planet with nh
 
-        scientist = eye.transform.Find("Sector_Campfire/Campfire/Prefab_IP_GhostBird_Scientist_EyeIdle").gameObject; // gets the quantum planet's first state
+        scientist = fire.transform.Find("Prefab_IP_GhostBird_Scientist_Eye").gameObject; // gets the quantum planet's first state
         _interactReceiver = GetComponent<InteractReceiver>();
         if (_interactReceiver != null)
         {

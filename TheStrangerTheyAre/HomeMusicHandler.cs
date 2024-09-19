@@ -29,6 +29,11 @@ public class HomeMusicHandler : MonoBehaviour
                 }
             }
         }
+        else if (Check2())
+        {
+            homeMusic.SetActive(false);  // sets main music volume to  when the player saw the vision
+            homeIntroMusic.SetActive(false); // sets home intro music volume to false when the player saw the vision
+        }
         else
         {
             homeMusic.SetActive(true);  // sets main music volume to  when the player saw the vision
@@ -41,6 +46,6 @@ public class HomeMusicHandler : MonoBehaviour
     }
     private bool Check2()
     {
-        return Locator.GetShipLogManager().IsFactRevealed("HOME_VISION");  // shiplog entry for homeworld vision
+        return Locator.GetShipLogManager().IsFactRevealed("HOME_REVEAL");  // shiplog entry for homeworld vision
     }
 }

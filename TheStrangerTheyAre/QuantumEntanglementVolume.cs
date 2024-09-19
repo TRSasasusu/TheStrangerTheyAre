@@ -57,7 +57,7 @@ namespace TheStrangerTheyAre
                         else
                         {
                             states[i + 1].SetActive(true); // activates the next state in order
-                            
+                            break; // breaks for loop
                         }
                     }
                     else // randomizer stuff

@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using OWML.Common;
-using NewHorizons.Components.Stars;
 
 namespace TheStrangerTheyAre;
 public class AtmosphereBurnoutEffect : MonoBehaviour

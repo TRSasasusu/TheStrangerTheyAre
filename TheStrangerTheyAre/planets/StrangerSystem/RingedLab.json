@@ -5,6 +5,17 @@
 	"MapMarker": {
 		"enabled": true
 	},
+	"Spawn": {
+		"playerSpawn": {
+			"rename": "PlayerSpawn_RingedLab",
+			"startWithSuit": true,
+			"position": {
+				"x": 0.4192,
+				"y": 7.3237,
+				"z": 2.0688
+			}
+		}
+	},
 	"Bramble": {
 		"nodes": [
 			{

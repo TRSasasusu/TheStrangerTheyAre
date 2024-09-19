@@ -30,7 +30,9 @@ namespace TheStrangerTheyAre
             {
                 ghostBirds[i].transform.position = initialPos[i].transform.position; // on dw exit, sets to starting pos of each ghostbird
                 ghostBirds[i].transform.rotation = initialPos[i].transform.rotation; // on dw exit, sets to starting rotation of each ghostbird
-                ghostBirds[i].GetComponentInChildren<Animator>().Play("Ghostbird_Idle_Unaware", 0); // on dw exit, sets each ghostbird animation to idle
+                ghostBirds[i].GetComponent<GhostBrain>().EscalateThreatAwareness(GhostData.ThreatAwareness.EverythingIsNormal); // set threat to normal when exiting sim
+                ghostBirds[i].GetComponent<GhostBrain>().ChangeAction(GhostAction.Name.Wait); // change ghost action to wait
+                //ghostBirds[i].GetComponentInChildren<Animator>().Play("Ghostbird_Idle_Unaware", 0); // on dw exit, sets each ghostbird animation to idle
             }
         }
 
@@ -77,7 +79,8 @@ namespace TheStrangerTheyAre
             TheStrangerTheyAre.WriteLine("Sneak Module Active", MessageType.Success); // debug message
             foreach (var bird in ghostBirds)
             {
-                bird.GetComponentInChildren<CapsuleShape>().radius = 1.4f;
+                Vector3 smallTrigger = new Vector3(1, 1, 1);
+                bird.transform.Find("ContactTrigger/ContactTrigger_Core").gameObject.transform.localScale = smallTrigger;
             }
         }
 
@@ -87,7 +90,8 @@ namespace TheStrangerTheyAre
             TheStrangerTheyAre.WriteLine("NoSneak Module Active", MessageType.Success); // debug message
             foreach (var bird in ghostBirds)
             {
-                bird.GetComponentInChildren<CapsuleShape>().radius = 50;
+                Vector3 bigTrigger = new Vector3(2, 2, 2);
+                bird.transform.Find("ContactTrigger/ContactTrigger_Core").gameObject.transform.localScale = bigTrigger;
             }
         }
     }

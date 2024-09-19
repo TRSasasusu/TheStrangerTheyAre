@@ -41,20 +41,20 @@
 			"alignRadial": true,
 			"startWithSuit": true,
 			"isDefault": true,
-			"rename": "SpawnPlayer_Enigma",
+			"rename": "SpawnPlayer_Home",
 			"position": {
-				"x": 133.2987,
-				"y": 49.4234,
-				"z": -146.0497
+				"x": 198.9236,
+				"y": 27.044,
+				"z": -142.1909
 			}
 		},
 		"shipSpawn": {
 			"alignRadial": true,
-			"rename": "SpawnShip_Enigma",
+			"rename": "SpawnShip_Home",
 			"position": {
-				"x": 133.2987,
-				"y": 49.4234,
-				"z": -146.0497
+				"x": 140.4604,
+				"y": 56.3027,
+				"z": -149.5118
 			}
 		}
 	},

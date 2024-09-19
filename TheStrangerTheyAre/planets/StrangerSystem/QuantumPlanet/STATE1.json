@@ -485,6 +485,34 @@
 						"assetBundle": "assets/AssetBundle/strangerbundle",
 						"path": "Assets/Enigma/Rocks/ENIGMA_SHARD_WEAK.prefab",
 						"quantumGroupID": "WeakenedQuantum"
+					},
+					{
+						"assetBundle": "assets/AssetBundle/strangerbundle",
+						"path": "Assets/StrangerQuantumStall.prefab",
+						"position": {
+							"x": -193.8395,
+							"y": 12.20701,
+							"z": 47.55747
+						},
+						"rotation": {
+							"x": 3.851452,
+							"y": 193.5702,
+							"z": 273.2877
+						}
+					},
+					{
+						"assetBundle": "assets/AssetBundle/strangerbundle",
+						"path": "Assets/StrangerQuantumStall.prefab",
+						"position": {
+							"x": -38.29794,
+							"y": 196.0997,
+							"z": 0.08504486
+						},
+						"rotation": {
+							"x": 353.926,
+							"y": 26.1132,
+							"z": 14.82502
+						}
 					}
 				]
 			},
