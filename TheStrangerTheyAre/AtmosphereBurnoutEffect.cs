@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using OWML.Common;
+using System.CodeDom;
 
 namespace TheStrangerTheyAre;
 public class AtmosphereBurnoutEffect : MonoBehaviour
@@ -13,28 +14,16 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
     private bool runOnce;
     void Start()
     {
-        var desert = TheStrangerTheyAre.NewHorizonsAPI.GetPlanet("Planet"); // gets the desert planet with nh
         runOnce = false; // something for the time loop checking if statement to make sure it doesn't run again
 
         // gets nh generated objects
+        var desert = TheStrangerTheyAre.NewHorizonsAPI.GetPlanet("Sizzling Sands"); // gets the desert planet with nh
         atmosphere = desert.transform.Find("Sector/Atmosphere").gameObject;
         clouds = desert.transform.Find("Sector/Clouds").gameObject;
         hazard = desert.transform.Find("Sector/HazardVolume").gameObject;
         flames = desert.transform.Find("Sector/AtmosphereBurn").gameObject;
         flamesAnim = flames.transform.Find("Scale/Animation").gameObject.GetComponent<Animator>();
-        //flames.SetActive(false);
-
-        // should disable here
-        atmosphere.SetActive(false);
-        clouds.SetActive(false);
-        hazard.SetActive(false);
-        //flames.SetActive(false);
-
-        // this is for something else, cool burning effect
-        runOnce = true;
-        TheStrangerTheyAre.WriteLine("Atmosphere should be burning...", MessageType.Success); // debug message
-        flames.SetActive(true);
-        flamesAnim.Play("AtmosphereBurn", 0);
+        flames.SetActive(false);
     }
 
     void Update()

@@ -70,21 +70,7 @@
 			"r": 90,
 			"g": 32,
 			"b": 27
-		},
-		"curve": [
-			{
-				"time": 0,
-				"value": 1
-			},
-			{
-				"time": 10,
-				"value": 1
-			},
-			{
-				"time": 11,
-				"value": 1.1
-			}
-		]
+		}
 	},
 	"Props": {
 		"scatter": [
