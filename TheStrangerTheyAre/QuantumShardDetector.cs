@@ -42,17 +42,19 @@ namespace TheStrangerTheyAre
         void Update()
         {
             // handle breaking
-            if (planetState.activeSelf && shard.activeSelf  
-                && shard.transform.localPosition == activateSocket.transform.localPosition 
-                && shard.transform.rotation == activateSocket.transform.rotation
-                /*&& _shardVisibilityObject.CheckVisibilityFromProbe(probeCam)*/)
+            if (planetState.activeSelf && shard.activeSelf
+                && activateSocket.GetComponent<QuantumSocket>().IsOccupied()
+                && _shardVisibilityObject.CheckVisibilityFromProbe(probeCam))
             {
+                if (!hasBroken) {
+                    TheStrangerTheyAre.WriteLine("I'M GONNA BREAK IT", MessageType.Success); // debug message
+                }
                 hasBroken = true; // sets break-checking boolean to true when weakened shard is active, player is in state 1, and in the right spot.
             }
 
             if (planetState3.activeSelf)
             {
-                TheStrangerTheyAre.WriteLine("Has Broken? : " + hasBroken, MessageType.Success); // debug message
+                
                 // run when broken
                 if (hasBroken)
                 {

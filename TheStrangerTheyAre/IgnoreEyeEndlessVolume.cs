@@ -23,13 +23,5 @@ namespace TheStrangerTheyAre
                 ring.SetActive(true); // activates object when inside the trigger
             }
         }
-
-        public virtual void OnTriggerExit(Collider hitCollider)
-        {
-            if (hitCollider.CompareTag("PlayerDetector") && enabled)
-            {
-                endlessVolume.SetActive(true); // activates object when inside the trigger
-            }
-        }
     }
 }

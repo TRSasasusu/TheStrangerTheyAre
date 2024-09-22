@@ -2,7 +2,8 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
     "canEnterViaWarpDrive": true,
     "loopDuration": 22,
-    "respawnHere": true,
+  "respawnHere": true,
+    "startHere": true,
   "Vessel": {
     "alwaysPresent": false,
     "coords": {

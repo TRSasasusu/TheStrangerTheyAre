@@ -35,6 +35,11 @@ namespace TheStrangerTheyAre
             states[2] = distantEnigma.transform.Find("Sector-3").gameObject; // gets the quantum planet's third state
 
             flashlight = Locator.GetFlashlight(); // gets the player flashlight
+
+            if (!flashlight.IsFlashlightOn())
+            {
+                TheStrangerTheyAre.WriteLine("Flashlight should be OFF!"); // debug message
+            }
         }
 
         // change state method
@@ -84,11 +89,12 @@ namespace TheStrangerTheyAre
         public void OnTriggerVolumeEntry(GameObject hitObj)
         {
             //checks if player collides with the trigger volume
-            if (hitObj.CompareTag("PlayerDetector") && enabled /*&& flashlight.IsFlashlightOn() == false && !door._frontDoor.IsOpen()*/) // commented out because it won't check things properly
+            if (hitObj.CompareTag("PlayerDetector") && enabled /*&& flashlight.IsFlashlightOn() == false*/ && !door.GetRequiredComponent<RotatingDoor>().IsOpen()) // commented out because it won't check things properly
             {
-                TheStrangerTheyAre.WriteLine("Door is: " + door._frontDoor.IsOpen(), MessageType.Success); // debug message
+                
                 if (stateChanged == false)
                 {
+                    
                     ChangeState(); // calls change state method
                     stateChanged = true;
                 }

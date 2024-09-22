@@ -7,13 +7,11 @@ namespace TheStrangerTheyAre
     {
         GameObject scientist1; // creates variable to store the pre-vision scientist
         GameObject scientist2; // creates variable to store the pre-vision scientist
-        //OWRigidbody player; // creates variable to store player
 
         void Awake()
         {
             scientist1 = GameObject.Find("Prefab_IP_GhostBird_SCIENTIST"); // gets the ghostbird ai scientist
             scientist2 = GameObject.Find("Prefab_IP_GhostBird_Scientist2"); // gets the pre-vision scientist
-            //player = Locator.GetPlayerBody(); // gets the player
         }
 
         public virtual void OnTriggerEnter(Collider hitCollider)

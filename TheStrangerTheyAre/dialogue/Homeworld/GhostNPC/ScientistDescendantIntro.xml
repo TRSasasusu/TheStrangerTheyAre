@@ -127,7 +127,7 @@
    <Page>Alright, I alone shall come with you on this journey.</Page>
    <Page>The others can keep guard of our homeland. I'll start my way on over.</Page>
   </Dialogue>
-	 <ConditionToSet>CYPRESS_BOARDVESSEL</ConditionToSet>
+	 <SetCondition>CYPRESS_BOARDVESSEL</SetCondition>
     <RevealFacts>
       <FactID>HOME_LEADER_VESSEL</FactID>
   </RevealFacts>

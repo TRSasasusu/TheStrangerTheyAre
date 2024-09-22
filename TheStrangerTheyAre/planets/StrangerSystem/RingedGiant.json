@@ -142,16 +142,6 @@
 					"y": 106.9223,
 					"z": 359.9155
 				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/Seals/Seal_Enigma.prefab",
-				"alignRadial": true,
-				"position": {
-					"x": -53.58734,
-					"y": -321.5817,
-					"z": 54.38909
-				}
 			}
 		],
 		"dialogue": [

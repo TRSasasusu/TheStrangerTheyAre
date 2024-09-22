@@ -175,6 +175,41 @@
         "x": 4900,
         "y": -600
       }
+    },
+    {
+      "id": "PREBRAMBLE_MAIN",
+      "position": {
+        "x": 4900,
+        "y": -600
+      }
+    },
+    {
+      "id": "PREBRAMBLE_WARP_MAIN",
+      "position": {
+        "x": 4900,
+        "y": -600
+      }
+    },
+    {
+      "id": "PREBRAMBLE_WARP_FOREST",
+      "position": {
+        "x": 4900,
+        "y": -600
+      }
+    },
+    {
+      "id": "PREBRAMBLE_WARP_POLE",
+      "position": {
+        "x": 4900,
+        "y": -600
+      }
+    },
+    {
+      "id": "PREBRAMBLE_WARP_CAVES",
+      "position": {
+        "x": 4900,
+        "y": -600
+      }
     }
   ],
   "curiosities": [
@@ -225,6 +260,21 @@
     },
     {
       "id": "HEARTH_SIGNAL",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "PREBRAMBLE_MAIN",
       "color": {
         "r": 29,
         "g": 201,

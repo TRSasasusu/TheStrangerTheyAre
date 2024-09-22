@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using OWML.Common;
 
 namespace TheStrangerTheyAre
 {
@@ -9,41 +10,56 @@ namespace TheStrangerTheyAre
         [SerializeField]
         public GameObject Main; // to store the child gameobject, the main music volume.
 
-        public bool hasActivated; // creates boolean to check if the trigger has been activated at least once
-
+        GameObject defaultAudio; // to store the default audio for the station.
         void Awake()
         {
-            Intro.SetActive(false); // sets headed home intro volume inactive at the start of each loop
-            Main.SetActive(false); // sets headed home volume inactive at the start of each loop
+            //Intro.SetActive(false); // sets headed home intro volume inactive at the start of each loop
+            //Main.SetActive(false); // sets headed home volume inactive at the start of each loop
+            defaultAudio = GameObject.Find("RingedLaboratory_Body/Sector/AudioVolume");
         }
         private void Update()
         {
-            if (Check() && !Check2() && Intro.GetComponent<RingedLabIntroMusicTrigger>().playerLeft == false)
+            if (Check() && !Check2())
             {
-                Intro.SetActive(true);  // sets headed home intro volume active when the player has read the text, didn't leave the volume, and didn't yet find the planet
-            }
-            else if (Intro.activeSelf && !Check() || Intro.activeSelf && Check2() || Intro.GetComponent<RingedLabIntroMusicTrigger>().playerLeft == true)
+                if (Check3())
+                {
+                    Intro.SetActive(false); // sets headed home intro volume to true
+                    Main.SetActive(true); // sets headed home volume to true
+                    defaultAudio.SetActive(false); // sets default to false
+                } else
+                {
+                    Intro.SetActive(true); // sets headed home intro volume to true
+                    Main.SetActive(false); // sets headed home volume to true
+                    defaultAudio.SetActive(false); // sets default to false
+                }
+            } else
             {
-                Intro.SetActive(false); // sets headed home intro volume inactive when intro is active, and either when player never read the text, player left the volume, or player has already found planet
-            }
-
-            if (Check() && !Check2() && Intro.GetComponent<RingedLabIntroMusicTrigger>().playerLeft == true && Intro.GetComponent<RingedLabIntroMusicTrigger>().hasActivated == true)
-            {
-                Main.SetActive(true);  // sets headed home volume active when the player has both read the text and didn't yet find the planet
-            }
-            else if (Check() || !Check2() || Intro.GetComponent<RingedLabIntroMusicTrigger>().playerLeft == false && Intro.GetComponent<RingedLabIntroMusicTrigger>().hasActivated == false)
-            {
-                Main.SetActive(false); // sets headed home volume inactive when intro is active, and either when player never read the text, player left the volume, or player has already found planet
+                Intro.SetActive(false); // sets headed home intro volume to true
+                Main.SetActive(false); // sets headed home volume to true
+                defaultAudio.SetActive(true); // sets default to false
             }
         }
 
         private bool Check()
         {
-            return Locator.GetShipLogManager().IsFactRevealed("LAB_TEXT_TERRA1");
+            return Locator.GetShipLogManager().IsFactRevealed("LAB_TERRA_E");
         }
+
+        private bool Check3()
+        {
+            if (Locator.GetShipLogManager().IsFactRevealed("LAB_TEXT_TERRA2") && Locator.GetShipLogManager().IsFactRevealed("LAB_TEXT_TERRA1"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         private bool Check2()
         {
-            return Locator.GetShipLogManager().IsFactRevealed("HOME_REVEAL");
+            return Locator.GetShipLogManager().IsFactRevealed("HOME_VISION");
         }
     }
-}
+    }

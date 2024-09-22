@@ -9,6 +9,6 @@
 		</Dialogue>
 	</DialogueNode>
 		<RevealFacts>
-			<FactID>PREBRAMBLE_RESEARCH_TEXT1</FactID>
+			<FactID>PREBRAMBLE_PROJ1_TEXT</FactID>
 		</RevealFacts>
 </DialogueTree>

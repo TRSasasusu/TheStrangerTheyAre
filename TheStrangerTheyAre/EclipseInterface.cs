@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using OWML.Common;
 
 namespace TheStrangerTheyAre
 {
@@ -52,7 +53,6 @@ namespace TheStrangerTheyAre
 
         private void Start()
         {
-            base.enabled = false;
             var distantEnigma = TheStrangerTheyAre.NewHorizonsAPI.GetPlanet("Distant Enigma"); // gets the quantum planet with nh
 
             qDoorClosed = distantEnigma.transform.Find("Sector-3/QuantumResearchLab/Interactables/StaticDoor_Closed").gameObject;
@@ -92,6 +92,7 @@ namespace TheStrangerTheyAre
         {
             if (isOpen)
             {
+                TheStrangerTheyAre.WriteLine("Closed to Open Door", MessageType.Success); // debug message
                 qDoorClosed.SetActive(false);
                 qDoorOpen.SetActive(true);
             }
@@ -164,6 +165,7 @@ namespace TheStrangerTheyAre
 
         private void OnDoorOpen()
         {
+            TheStrangerTheyAre.WriteLine("Door should be open!", MessageType.Success); // debug message
             isOpen = true;
             for (int i = 0; i < _lightSensors.Length; i++)
             {
@@ -174,6 +176,7 @@ namespace TheStrangerTheyAre
 
         private void OnDoorClose()
         {
+            TheStrangerTheyAre.WriteLine("Door should be closed!", MessageType.Success); // debug message
             isOpen = false;
             for (int i = 0; i < _lightSensors.Length; i++)
             {

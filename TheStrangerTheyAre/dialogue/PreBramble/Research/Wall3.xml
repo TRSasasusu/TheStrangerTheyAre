@@ -8,7 +8,7 @@
 			<Page>Interesting, seems like the invasive Bramble's growth starts at the North Pole...</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>PREBRAMBLE_RESEARCH_TEXT3</FactID>
+			<FactID>PREBRAMBLE_PROJ3_TEXT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

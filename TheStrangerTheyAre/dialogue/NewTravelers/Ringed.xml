@@ -116,7 +116,7 @@
  <DialogueNode> <!-- Another node why not -->
   <Name>2</Name>
   <Dialogue>
-   <Page>I do not, and you can probably tell by my curiosity. I've never seen like this before, but it looks like something our ancestors built.</Page>
+   <Page>I do not, and you can probably tell by my curiosity. I've never seen anything like this before, but it looks like something our ancestors built.</Page>
   </Dialogue>
 	 <DialogueOptionsList>
 		 <DialogueOption>

@@ -170,6 +170,16 @@
 			}
 		]
 	},
+	"removeChildren": [
+		"Sector/RingedLabWarp2_WH/WhiteHoleRenderer",
+		"Sector/RingedLabWarp2_WH/WhiteHoleAmbience",
+
+		"Sector/RingedLabWarp1_WH/WhiteHoleRenderer",
+		"Sector/RingedLabWarp1_WH/WhiteHoleAmbience",
+
+		"Sector/RingedLabWarp5_WH/WhiteHoleRenderer",
+		"Sector/RingedLabWarp5_WH/WhiteHoleAmbience"
+	],
 	"Volumes": {
 		"audioVolumes": [
 			{
@@ -192,7 +202,14 @@
 				"audio": "assets/Audio/finally headed home 1.ogg",
 				"track": "endTimesMusic",
 				"parentPath": "Sector/RingedLaboratory/Interactibles/HeadedHomeAudio/Intro",
+				"rename": "IntroAudioVolume",
+				"isRelativeToParent": true,
 				"radius": 6
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 100
 			}
 		],
 		"speedTrapVolumes": [
@@ -210,30 +227,31 @@
 		"revealVolumes": [
 			{
 				"reveals": [ "LAB_MAIN_R" ],
-				"radius": 80,
+				"radius": 10,
 				"position": {
 					"x": -29.3,
 					"y": 13.3,
 					"z": 0
-				}
+				},
+				"revealOn": "enter",
+				"revealFor": "player"
 			},
 			{
 				"reveals": [ "LAB_MAIN_E" ],
+				"parentPath": "Sector/RingedLaboratory/Interactibles/GraVolumes/ZeroG",
+				"isRelativeToParent": true,
 				"radius": 12,
-				"position": {
-					"x": -11.08,
-					"y": -25.7,
-					"z": -10.9
-				}
+				"revealOn": "enter",
+				"revealFor": "player"
 			},
 			{
 				"reveals": [ "LAB_TERRA_E" ],
+				"parentPath": "Sector/RingedLaboratory/Props/NookTableFull_IP",
+				"rename": "TerraformShiplogReveal",
+				"isRelativeToParent": true,
 				"radius": 6,
-				"position": {
-					"x": -30.16755,
-					"y": -23.67727,
-					"z": -30.53636
-				}
+				"revealOn": "enter",
+				"revealFor": "player"
 			},
 			{
 				"reveals": [ "LAB_TREE_E" ],
@@ -242,7 +260,9 @@
 					"x": -0.138567,
 					"y": -22.31,
 					"z": 1.747829
-				}
+				},
+				"revealOn": "enter",
+				"revealFor": "player"
 			}
 		]
 	},

@@ -142,6 +142,26 @@
 				"rotation": {
 					"y": 140.3515
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FogLantern_Blue.prefab",
+				"position": {
+					"x": -963.1741,
+					"y": -229.4492,
+					"z": -260.2756
+				},
+				"scale": 5
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FogLantern_Blue.prefab",
+				"position": {
+					"x": -963.1741,
+					"y": -229.4492,
+					"z": -138.947
+				},
+				"scale": 5
 			}
 		],
 		"singularities": [
@@ -166,10 +186,19 @@
 				"hasWarpEffects": false,
 				"parentPath": "Sector/WALL1_NODE1",
 				"uniqueID": "RingedLabWarp1_BH",
+				"rename": "RingedLabWarp1_BH",
 				"pairedSingularity": "RingedLabWarp1_WH"
 			}
 		]
 	},
+	"removeChildren": [
+		"Sector/WALL1_NODE1/RingedLabWarp1_BH/BlackHoleRenderer",
+		"Sector/WALL1_NODE1/RingedLabWarp1_BH/BlackHoleAmbience",
+		"Sector/WALL1_NODE1/RingedLabWarp1_BH/BlackHoleEmissionOneShot",
+
+		"Sector/WALL1_NODE1/RingedLabWarp4_WH/WhiteHoleRenderer",
+		"Sector/WALL1_NODE1/RingedLabWarp4_WH/WhiteHoleAmbience"
+	],
 	"Orbit": {
 		"staticPosition": {
 			"x": 0,

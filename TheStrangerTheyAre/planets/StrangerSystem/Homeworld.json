@@ -36,28 +36,6 @@
 			"revealedSprite": "assets/Texture/Shiplog/HOME_UI.png"
 		}
 	},
-	"Spawn": {
-		"playerSpawn": {
-			"alignRadial": true,
-			"startWithSuit": true,
-			"isDefault": true,
-			"rename": "SpawnPlayer_Home",
-			"position": {
-				"x": 198.9236,
-				"y": 27.044,
-				"z": -142.1909
-			}
-		},
-		"shipSpawn": {
-			"alignRadial": true,
-			"rename": "SpawnShip_Home",
-			"position": {
-				"x": 140.4604,
-				"y": 56.3027,
-				"z": -149.5118
-			}
-		}
-	},
 	"Volumes": {
 		"audioVolumes": [
 			{
@@ -69,6 +47,15 @@
 				"priority": 0,
 				"radius": 500,
 				"volume": 0.2
+			},
+			{
+				"audio": "assets/Audio/HomeAmbience.ogg",
+				"track": "environment",
+				"rename": "HomeAmbience",
+				"loop": true,
+				"priority": 0,
+				"radius": 500,
+				"volume": 0.5
 			},
 			{
 				"audio": "OW Finally Set Free 072021_2 AP",
@@ -101,7 +88,9 @@
 		"revealVolumes": [
 			{
 				"reveals": [ "HOME_REVEAL" ],
-				"radius": 400
+				"radius": 400,
+				"revealFor": "player",
+				"revealOn": "enter"
 			}
 		],
 		"speedTrapVolumes": [
@@ -169,6 +158,28 @@
 			"a": 0
 		}
 	},
+	"Spawn": {
+		"playerSpawn": {
+			"alignRadial": true,
+			"startWithSuit": true,
+			"isDefault": true,
+			"rename": "SpawnPlayer_Home",
+			"position": {
+				"x": 198.9236,
+				"y": 27.044,
+				"z": -142.1909
+			}
+		},
+		"shipSpawn": {
+			"alignRadial": true,
+			"rename": "SpawnShip_Home",
+			"position": {
+				"x": 140.4604,
+				"y": 56.3027,
+				"z": -149.5118
+			}
+		}
+	},
 	"Props": {
 		"details": [
 			{
@@ -190,7 +201,8 @@
 				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles",
 				"isRelativeToParent": true,
 				"removeChildren": [
-					"RaftSocket/Raft_Body (7)"
+					"RaftSocket/Raft_Body (7)",
+					"RaftSocket/RaftProxyCollision"
 				],
 				"rename": "Prefab_IP_RaftDock_Main",
 				"position": {
@@ -341,7 +353,7 @@
 		],
 		"rafts": [
 			{
-				"parentPath": "StrangersHomeworld_Body/Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock_Main/RaftSocket",
+				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock_Main/RaftSocket",
 				"isRelativeToParent": true,
 				"rename": "HOME_RAFT"
 			}

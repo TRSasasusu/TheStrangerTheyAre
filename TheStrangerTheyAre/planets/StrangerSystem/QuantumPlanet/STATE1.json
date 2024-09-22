@@ -87,6 +87,18 @@
 				"isRelativeToParent": true,
 				"radius": 30
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/EnigmaAmbience.ogg",
+				"volume": 0.3,
+				"radius": 300
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 300
+			}
 		]
 	},
 	"Props": {
@@ -363,158 +375,158 @@
 						]
 					}
 				],
-				"details": [
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Tent.prefab",
-						"rename": "STATE1_TENT",
-						"position": {
-							"x": -27.7373,
-							"y": 199.4603,
-							"z": 16.1474
-						},
-						"rotation": {
-							"x": 350.6881,
-							"y": 112.6797,
-							"z": 0.5056
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/StrangerTravelers/Enigma/Enigma_T1.prefab",
-						"parentPath": "Sector/STATE1_Tent",
-						"isRelativeToParent": true,
-						"rename": "ENIGMA_TRAVELER",
-						"position": {
-							"x": -29.2939,
-							"y": 197.2334,
-							"z": 16.8324
-						},
-						"rotation": {
-							"x": 353.8944,
-							"y": 172.3454,
-							"z": 350.7578
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/NormalFire_Stranger.prefab",
-						"position": {
-							"x": -28.8592,
-							"y": 197.3669,
-							"z": 14.2807
-						},
-						"rotation": {
-							"x": 7.7339,
-							"y": 265.4199,
-							"z": 354.4846
-						}
-					},
-					{
-						"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
-						"parentPath": "Sector/NormalFire_Stranger",
-						"isRelativeToParent": true,
-						"removeChildren": [
-							"Effects",
-							"Props_HEA_Campfire"
-						]
-					},
-					{
-						"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
-						"removeChildren": [ "OxygenVolume" ],
-						"scale": 0.2712,
-						"position": {
-							"x": -28.6809,
-							"y": 197.7707,
-							"z": 7.0547
-						},
-						"rotation": {
-							"x": 4.4354,
-							"y": 338.99,
-							"z": 7.0087
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Ice/EnigmaCrack.prefab",
-						"position": {
-							"x": -179.9395,
-							"y": 60.5591,
-							"z": -57.7551
-						},
-						"rotation": {
-							"x": 13.2207,
-							"y": 337.5838,
-							"z": 72.2047
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Ice/EnigmaScratch.prefab",
-						"position": {
-							"x": -145.6181,
-							"y": -133.3766,
-							"z": -19.6035
-						},
-						"rotation": {
-							"x": 330.8011,
-							"y": 321.4586,
-							"z": 140.5371
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/QuantumResearchLab2.prefab",
-						"position": {
-							"x": -197.3105,
-							"y": -12.3961,
-							"z": 31.1509
-						},
-						"rotation": {
-							"x": 338.1253,
-							"y": 191.1774,
-							"z": 266.4905
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMA_SHARD.prefab",
-						"quantumGroupID": "QuantumStuff"
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMA_SHARD_WEAK.prefab",
-						"quantumGroupID": "WeakenedQuantum"
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/StrangerQuantumStall.prefab",
-						"position": {
-							"x": -193.8395,
-							"y": 12.20701,
-							"z": 47.55747
-						},
-						"rotation": {
-							"x": 3.851452,
-							"y": 193.5702,
-							"z": 273.2877
-						}
-					},
-					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/StrangerQuantumStall.prefab",
-						"position": {
-							"x": -38.29794,
-							"y": 196.0997,
-							"z": 0.08504486
-						},
-						"rotation": {
-							"x": 353.926,
-							"y": 26.1132,
-							"z": 14.82502
-						}
-					}
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Tent.prefab",
+				"rename": "STATE1_TENT",
+				"position": {
+					"x": -27.7373,
+					"y": 199.4603,
+					"z": 16.1474
+				},
+				"rotation": {
+					"x": 350.6881,
+					"y": 112.6797,
+					"z": 0.5056
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerTravelers/Enigma/Enigma_T1.prefab",
+				"parentPath": "Sector/STATE1_Tent",
+				"isRelativeToParent": true,
+				"rename": "ENIGMA_TRAVELER",
+				"position": {
+					"x": -29.2939,
+					"y": 197.2334,
+					"z": 16.8324
+				},
+				"rotation": {
+					"x": 353.8944,
+					"y": 172.3454,
+					"z": 350.7578
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/NormalFire_Stranger.prefab",
+				"position": {
+					"x": -28.8592,
+					"y": 197.3669,
+					"z": 14.2807
+				},
+				"rotation": {
+					"x": 7.7339,
+					"y": 265.4199,
+					"z": 354.4846
+				}
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"parentPath": "Sector/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"Effects",
+					"Props_HEA_Campfire"
 				]
+			},
+			{
+				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"removeChildren": [ "OxygenVolume" ],
+				"scale": 0.2712,
+				"position": {
+					"x": -28.6809,
+					"y": 197.7707,
+					"z": 7.0547
+				},
+				"rotation": {
+					"x": 4.4354,
+					"y": 338.99,
+					"z": 7.0087
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Ice/EnigmaCrack.prefab",
+				"position": {
+					"x": -179.9395,
+					"y": 60.5591,
+					"z": -57.7551
+				},
+				"rotation": {
+					"x": 13.2207,
+					"y": 337.5838,
+					"z": 72.2047
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Ice/EnigmaScratch.prefab",
+				"position": {
+					"x": -145.6181,
+					"y": -133.3766,
+					"z": -19.6035
+				},
+				"rotation": {
+					"x": 330.8011,
+					"y": 321.4586,
+					"z": 140.5371
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/QuantumResearchLab2.prefab",
+				"position": {
+					"x": -197.3105,
+					"y": -12.3961,
+					"z": 31.1509
+				},
+				"rotation": {
+					"x": 338.1253,
+					"y": 191.1774,
+					"z": 266.4905
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMA_SHARD.prefab",
+				"quantumGroupID": "QuantumStuff"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMA_SHARD_WEAK.prefab",
+				"quantumGroupID": "WeakenedQuantum"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerQuantumStall.prefab",
+				"position": {
+					"x": -195.3059,
+					"y": 10.04503,
+					"z": 41.73138
+				},
+				"rotation": {
+					"x": 33.45113,
+					"y": 193.7336,
+					"z": 273.9198
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerQuantumStall.prefab",
+				"position": {
+					"x": -38.29794,
+					"y": 154.2975,
+					"z": 0.08504486
+				},
+				"rotation": {
+					"x": 353.926,
+					"y": 26.1132,
+					"z": 14.82502
+				}
+			}
+		]
 			},
 			"canShowOnTitle":false,
 			"ShipLog":{

@@ -91,6 +91,29 @@
 				}
 			}
 		],
+		"audioVolumes": [
+			{
+				"audio": "HGT_Ambience_Surface",
+				"rename": "Atmosphere Ambience",
+				"parentPath": "Sector/Atmosphere",
+				"volume": 0.6,
+				"isRelativeToParent": true,
+				"radius": 300
+			},
+			{
+				"audio": "HGT_Ambience_Cave_Big",
+				"rename": "Base Ambience",
+				"volume": 0.6,
+				"radius": 300
+			},
+			{
+				"audio": "assets/Audio/ultravioletdeath.ogg",
+				"parentPath": "Sector/HazardVolume",
+				"rename": "Hazard Ambience",
+				"isRelativeToParent": true,
+				"radius": 200
+			}
+		],
 		"oxygenVolumes": [
 			{
 				"parentPath": "Sector/PlantedTreeHOME",
@@ -161,14 +184,14 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerTravelers/Desert/Prefab_IP_GhostBird_Desert.prefab",
 				"position": {
-					"x": -70.2984,
-					"y": 145.6721,
-					"z": -8.5853
+					"x": -69.8984,
+					"y": 145.3721,
+					"z": -8.1089
 				},
 				"rotation": {
-					"x": 10.4937,
-					"y": 217.461,
-					"z": 342.2421
+					"x": 22.4705,
+					"y": 223.4936,
+					"z": 342.4341
 				}
 			},
 			{
@@ -201,10 +224,24 @@
 				}
 			}
 		],
+		"signals": [
+			{
+				"frequency": "Strange Frequency",
+				"name": "Arcadia's Signal",
+				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+				"detectionRadius": 10000,
+				"identificationRadius": 20,
+				"parentPath": "Sector/Prefab_IP_GhostBird_Desert",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
+			}
+		],
 		"dialogue": [
 			{
 				"xmlFile": "dialogue/NewTravelers/Desert.xml",
-				"parentPath": "Sector/DESERT_TRAVELER",
+				"parentPath": "Sector/Prefab_IP_GhostBird_Desert",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3

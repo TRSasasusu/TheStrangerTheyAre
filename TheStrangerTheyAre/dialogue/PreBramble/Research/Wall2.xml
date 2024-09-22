@@ -8,7 +8,7 @@
 			<Page>Apparently, the artifact's focus ability makes you slower in the simulation, and can even keep you from falling off edges! Very helpful for both the cautious and the stealthy.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>PREBRAMBLE_RESEARCH_TEXT2</FactID>
+			<FactID>PREBRAMBLE_PROJ2_TEXT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

@@ -30,20 +30,22 @@ namespace TheStrangerTheyAre
             TheStrangerTheyAre.WriteLine("SCIENTIST V2 NO LONGER ACTIVE!", MessageType.Success); // debug message
             scientist3.SetActive(false);
             TheStrangerTheyAre.WriteLine("SCIENTIST V3 NO LONGER ACTIVE!", MessageType.Success); // debug message
+            scientist4.SetActive(false); // enables next loop scientist if already met
+            TheStrangerTheyAre.WriteLine("SCIENTIST V4 ACTIVE!", MessageType.Success); // debug message
 
+
+            scientist1.GetComponent<GhostBrain>().enabled = false;
+            scientist1.SetActive(true);
+            TheStrangerTheyAre.WriteLine("SCIENTIST V1 ACTIVE!", MessageType.Success); // debug message
             // checks if the player has met the scientist data clone
-            if (Check2()) {
+            /*if (Check2()) {
                 scientist1.SetActive(false); // enables ghostbird ai scientist if not already met
                 TheStrangerTheyAre.WriteLine("SCIENTIST V1 NO LONGER ACTIVE!", MessageType.Success); // debug message
                 scientist4.SetActive(true); // enables next loop scientist if already met
                 TheStrangerTheyAre.WriteLine("SCIENTIST V4 ACTIVE!", MessageType.Success); // debug message
             } else {
-                scientist1.GetComponent<GhostBrain>().enabled = false;
-                scientist1.SetActive(true); // enables ghostbird ai scientist if not already met
-                TheStrangerTheyAre.WriteLine("SCIENTIST V1 ACTIVE!", MessageType.Success); // debug message
-                scientist4.SetActive(false); // disables next loop scientist if not already met
-                TheStrangerTheyAre.WriteLine("SCIENTIST V4 NO LONGER ACTIVE!", MessageType.Success); // debug message
-            }
+
+            }*/
         }
 
         private void Update()

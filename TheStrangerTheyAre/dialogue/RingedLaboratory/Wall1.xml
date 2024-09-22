@@ -7,7 +7,8 @@
 			<Page>Day 230: Good news! Our trees are healthy and ready to be planted! The terraforming process is going smoothly now!</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>LAB_TREE</FactID>
+			<FactID>LAB_TEXT_TREE</FactID>
+			<FactID>LAB_TERRA_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

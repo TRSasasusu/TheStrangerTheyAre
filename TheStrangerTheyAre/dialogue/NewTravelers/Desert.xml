@@ -70,7 +70,7 @@
 		<!-- Another node why not -->
 		<Name>1</Name>
 		<Dialogue>
-			<Page>I don't know, this place is pretty boring, apart from one small lab near the equator.</Page>
+			<Page>I don't know, this place is pretty boring, there's not even an old lab like the other planets have.</Page>
 			<Page>Oh yeah, anything past that equator is fatal! You will burn to death on the sun-facing side!</Page>
 		</Dialogue>
 		<DialogueOptionsList>

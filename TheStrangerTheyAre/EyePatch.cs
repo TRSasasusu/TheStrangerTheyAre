@@ -5,6 +5,7 @@ using TheStrangerTheyAre;
 using UnityEngine;
 using OWML.Common;
 using OWML.ModHelper.Events;
+using NewHorizons.Components.Stars;
 
 namespace TheStrangerTheyAre;
 
@@ -19,8 +20,10 @@ public class QuantumCampsiteControllerPatch
     private bool _hasMetPrisoner;
     private bool _hasErasedPrisoner;
 
-    private GameObject scientistZone;
+    protected GameObject scientistZone;
     private GameObject scientist;
+    private GameObject scientistSignal;
+    private Animator scientistAnim;
     private TravelerEyeController scientistController;
     private Transform scientistRoot;
 
@@ -74,10 +77,15 @@ public class QuantumCampsiteControllerPatch
         scientist = GameObject.Find("Prefab_IP_GhostBird_Scientist_Eye");
         scientistZone = GameObject.Find("ScientistSector");
         scientistController = GameObject.Find("Prefab_IP_GhostBird_Scientist_Eye").GetComponent<TravelerEyeController>();
+        scientistSignal = scientist.transform.Find("ScientistSolo").gameObject;
+        scientistAnim = scientist.transform.Find("Ghostbird_IP_ANIM").GetComponent<Animator>();
         AddInstrumentZone(scientistZone, scientistController);
         scientistZone.SetActive(false);
         scientist.SetActive(false);
-        
+
+        scientistController._dialogueTree = scientistController.gameObject.GetComponentInChildren<CharacterDialogueTree>();
+        scientistController._dialogueTree.OnStartConversation += scientistController.OnStartConversation;
+        scientistController._dialogueTree.OnEndConversation += scientistController.OnEndConversation;
 
         // existing shit
         __instance._trigger.OnEntry += __instance.OnEntry;
@@ -96,6 +104,22 @@ public class QuantumCampsiteControllerPatch
         return Locator.GetShipLogManager().IsFactRevealed("NEWSIM_SCIENTIST_CLONE");
     }
 
+    public void Update()
+    {
+        if (scientist.activeSelf)
+        {
+            if (DialogueConditionManager.SharedInstance.GetConditionState("SCI_TRIGGERPLAY"))
+            {
+                scientistSignal.SetActive(true);
+                scientistAnim.Play("TSTA_PlayInstrument", 0);
+            }
+            else
+            {
+                scientistSignal.SetActive(false);
+                scientistAnim.Play("Prisoner_LeanOnTree_HoldInstrument", 0);
+            }
+        }
+    }
     public void AddInstrumentZone(GameObject newZone, TravelerEyeController newController)
     {
         GameObject[] newInstrumentZones = new GameObject[_instrumentZones.Length + 1];

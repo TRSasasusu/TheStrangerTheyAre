@@ -82,6 +82,18 @@
 				"isRelativeToParent": true,
 				"radius": 30
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/EnigmaAmbience.ogg",
+				"volume": 0.3,
+				"radius": 300
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 300
+			}
 		]
 	},
 	"Props": {
@@ -224,28 +236,28 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/EnigmaInterface.prefab",
 				"position": {
-					"x": -143.5328,
-					"y": -130.5293,
-					"z": -17.8143
+					"x": -143.2332,
+					"y": -130.5292,
+					"z": -20.0874
 				},
 				"rotation": {
-					"x": 318.6758,
-					"y": 295.2219,
-					"z": 140.5372
+					"x": 302.7197,
+					"y": 269.5198,
+					"z": 154.2975
 				}
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"position": {
-					"x": -193.8395,
-					"y": 12.20701,
-					"z": 47.55747
+					"x": -195.3059,
+					"y": 10.04503,
+					"z": 41.73138
 				},
 				"rotation": {
-					"x": 3.851452,
-					"y": 193.5702,
-					"z": 273.2877
+					"x": 33.45113,
+					"y": 193.7336,
+					"z": 273.9198
 				}
 			},
 			{
@@ -253,7 +265,7 @@
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"position": {
 					"x": -38.29794,
-					"y": 196.0997,
+					"y": 154.2975,
 					"z": 0.08504486
 				},
 				"rotation": {

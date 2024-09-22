@@ -41,6 +41,18 @@
 				"isRelativeToParent": true,
 				"radius": 30
 			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/EnigmaAmbience.ogg",
+				"volume": 0.3,
+				"radius": 300
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 300
+			}
 		]
 	},
 	"HeightMap": {
@@ -197,6 +209,21 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Seals/Seal_Enigma.prefab",
+				"alignRadial": true,
+				"position": {
+					"x": -53.4889,
+					"y": -93.5551,
+					"z": -86.8644
+				},
+				"rotation": {
+					"x": 342.507,
+					"y": 138.5659,
+					"z": 225.0788
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Ice/EnigmaThinIce.prefab",
 				"keepLoaded": true,
 				"scale": 198
@@ -224,14 +251,14 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"position": {
-					"x": -193.8395,
-					"y": 12.20701,
-					"z": 47.55747
+					"x": -195.3059,
+					"y": 10.04503,
+					"z": 41.73138
 				},
 				"rotation": {
-					"x": 3.851452,
-					"y": 193.5702,
-					"z": 273.2877
+					"x": 33.45113,
+					"y": 193.7336,
+					"z": 273.9198
 				}
 			},
 			{
@@ -239,7 +266,7 @@
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"position": {
 					"x": -38.29794,
-					"y": 196.0997,
+					"y": 154.2975,
 					"z": 0.08504486
 				},
 				"rotation": {

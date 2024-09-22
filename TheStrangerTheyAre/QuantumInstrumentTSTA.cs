@@ -7,9 +7,9 @@ public class QuantumInstrumentTSTA : MonoBehaviour
 
     public delegate void FinishGatherEvent();
 
-    //private GameObject[] _activateObjects;
+    private GameObject[] _activateObjects;
 
-    //private GameObject[] _deactivateObjects;
+    private GameObject[] _deactivateObjects;
 
     private bool _gatherWithScope = false;
 
@@ -26,17 +26,18 @@ public class QuantumInstrumentTSTA : MonoBehaviour
     public event FinishGatherEvent OnFinishGather;
 
     GameObject scientist;
+    private GameObject endlessVolume;
 
     private void Awake()
     {
-        /*_activateObjects[0] = GameObject.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_EyeIdle");
-        _deactivateObjects[0] = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/OriginalPlacement/Prefab_IP_VisiblePlanet");
-        _deactivateObjects[1] = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PlanetWithLab_EYE");
+        var fire = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire"); // gets the quantum planet with nh
+        
+        _activateObjects[0] = fire.transform.Find("Volumes_Campfire/EndlessCylinder_Forest").gameObject; // gets the endless eye volume
+        _activateObjects[1] = fire.transform.Find("Campsite/Prefab_IP_GhostBird_Scientist_Eye").gameObject; // gets the quantum planet's first state
+        _deactivateObjects[0] = fire.transform.Find("InstrumentZones/ScientistSector").gameObject; // gets the scientist sector
 
-        _activateObjects[0].SetActive(false);*/
-        var fire = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite"); // gets the quantum planet with nh
+        _activateObjects[1].SetActive(false);
 
-        scientist = fire.transform.Find("Prefab_IP_GhostBird_Scientist_Eye").gameObject; // gets the quantum planet's first state
         _interactReceiver = GetComponent<InteractReceiver>();
         if (_interactReceiver != null)
         {
@@ -107,7 +108,14 @@ public class QuantumInstrumentTSTA : MonoBehaviour
         {
             this.OnFinishGather();
         }
-        scientist.SetActive(true);
+        for (int i = 0; i < _activateObjects.Length; i++)
+        {
+            _activateObjects[i].SetActive(value: true);
+        }
+        for (int j = 0; j < _deactivateObjects.Length; j++)
+        {
+            _deactivateObjects[j].SetActive(value: false);
+        }
         base.enabled = false;
     }
 }

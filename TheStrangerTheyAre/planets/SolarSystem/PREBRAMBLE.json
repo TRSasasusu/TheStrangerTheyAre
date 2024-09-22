@@ -6905,5 +6905,12 @@
   },
   "Water": {
     "size": 180
+  },
+  "ShipLog": {
+    "xmlFile": "shiplogs/prebramble.xml",
+    "spriteFolder": "assets/Texture/Shiplog",
+    "mapMode": {
+      "remove": true
+    }
   }
 }

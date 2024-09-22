@@ -998,8 +998,24 @@
 					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
 					"isRelativeToParent": true,
 					"slides": [
-						{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0001.jpg" },
-						{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0036.jpg" }
+						{
+							"imagePath": "assets/Slideshows/PlayerLanguage/slide (1).png",
+							"backdropAudio": "assets/Audio/hearthsshadow1.ogg"
+						},
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (2).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (3).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (4).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (5).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (6).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (7).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (8).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (9).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (10).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (11).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (12).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (13).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (14).png" },
+						{ "imagePath": "assets/Slideshows/PlayerLanguage/slide (15).png" }
 					],
 					"position": {
 						"x": -0.842,

@@ -8,7 +8,7 @@ namespace TheStrangerTheyAre
         GameObject homeMoon; // creates variable to store planet
         void Awake()
         {
-            homeMoon = GameObject.Find("StrangersHomeworld_Body"); // gets the underwater floor in the fourth sector of the simulation
+            homeMoon = GameObject.Find("StrangersHomeworld_Body/Sector"); // gets the quantum planet with nh
         }
 
         public virtual void OnTriggerEnter(Collider hitCollider)

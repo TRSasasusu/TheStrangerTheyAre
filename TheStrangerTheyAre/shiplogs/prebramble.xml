@@ -1,0 +1,162 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Pre Bramble</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>PREBRAMBLE_MAIN</ID> <!-- The ID of this entry -->
+        <Name>Preserved Planet</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>PREBRAMBLE_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>PREBRAMBLE_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>I found a new simulation built to preserve the life of Dark Bramble's former self.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>PREBRAMBLE_MAIN_SECRETPATH1</ID> <!-- The ID of this fact -->
+            <Text>When the solar sails deploy about 6 minutes into the loop, some tiles glitch out and become solid and walkable.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>PREBRAMBLE_MAIN_SECRETPATH2</ID> <!-- The ID of this fact -->
+            <Text>When the flood happens 13 minutes into the loop, the glitched walkways disappear.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>PREBRAMBLE_WARP_MAIN</ID> <!-- The ID of this entry -->
+            <Name>Code Totem House</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>PREBRAMBLE_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+			
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>PREBRAMBLE_WARP_MAIN_E</ID> <!-- The ID of this fact -->
+                <Text>There is a mysterious house to the left of the green campfire. It has a set of code totems, each with a unique emblem.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>PREBRAMBLE_WARP_MAIN_LEFT</ID> <!-- The ID of this fact -->
+                <Text>The door on the left warps me to the Bramble Forest.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_MAIN_CENTER</ID>
+				<Text>The door straight ahead warps me to the North Pole.</Text>
+			</ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_WARP_FOREST</ID>
+			<Name>Warp House (Forest)</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>PREBRAMBLE_WARP_FOREST_R</ID>
+				<RumorName>Code for Left Door</RumorName>
+				<SourceID>PREBRAMBLE_WARP_MAIN</SourceID>
+				<Text>The code door on the left has an emblem with Bramble Vines growing upward from the planet.</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_FOREST_CODE</ID>
+				<Text>Inside an outhouse in the Bramble Forest is a code. Could it be used somewhere?</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_FOREST_DOOR</ID>
+				<Text>Entering the nook on the other side warps me back to the South Pole!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_WARP_POLE</ID>
+			<Name>Warp House (Forest)</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>PREBRAMBLE_WARP_POLE_R</ID>
+				<RumorName>Code for Middle Door</RumorName>
+				<SourceID>PREBRAMBLE_WARP_MAIN</SourceID>
+				<Text>The code door straight ahead has an emblem with a large amount of Bramble Vines growing from a center point.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_POLE_CODE</ID>
+				<Text>Inside an outhouse at the North Pole is a code. Could it be used somewhere?</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_POLE_DOOR</ID>
+				<Text>Entering the nook on the other side warps me back to the South Pole!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_WARP_CAVES</ID>
+			<Name>Warp House (Forest)</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>PREBRAMBLE_WARP_CAVES_R</ID>
+				<RumorName>Code for Right Door</RumorName>
+				<SourceID>PREBRAMBLE_WARP_MAIN</SourceID>
+				<Text>The code door to the right has an emblem showing a lower layer of the planet.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_CAVES_CODE</ID>
+				<Text>Inside an outhouse under the crust is a code. Could it be used somewhere?</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_CAVES_DOOR</ID>
+				<Text>Entering the nook on the other side warps me back to the South Pole!</Text>
+			</ExploreFact>
+		</Entry>
+
+        <Entry>
+            <ID>PREBRAMBLE_PROJ</ID> <!-- The ID of this entry -->
+            <Name>Projection House</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ_E</ID>
+				<Text>There's a house with three projectors inside. I can't seem to get in!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ_INSIDE</ID>
+				<Text>I was able to get inside by reflecting light off of an ice shard from the window!</Text>
+			</ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>PREBRAMBLE_PROJ1</ID> <!-- The ID of this fact -->
+                <Text>The projection on the left shows me an exploit about The Artifact.</Text>
+            </ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ1_TEXT</ID>
+				<Text>The text on the left explains how to perform the exploit, which involves walking away from The Artifact.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ2</ID>
+				<Text>The projection in the middle shows The Artifact repeatedly toggling its focus.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ2_TEXT</ID>
+				<Text>The text in the middle reveals that using focus in the simulation can cause you to sneak, and even prevent from falling off edges!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ3</ID>
+				<Text>The projection on the right shows how Dark Bramble outgrew the frozen planet that was once there.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_PROJ3_TEXT</ID>
+				<Text>The text on the right points out that the Bramble Plant started its growth from the North Pole</Text>
+			</ExploreFact>
+        </Entry>
+    </Entry>
+</AstroObjectEntry>
