@@ -4,11 +4,18 @@
     <ID>Pre Bramble</ID> <!-- The ID of the planet this xml file is for -->
 
     <Entry> <!-- An Entry For This Planet -->
-        <ID>PREBRAMBLE_MAIN</ID> <!-- The ID of this entry -->
+        <ID>PREBRAMBLE</ID> <!-- The ID of this entry -->
         <Name>Preserved Planet</Name> <!-- The name to show for this entry both on the card and in map mode -->
         <Curiosity>PREBRAMBLE_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
         <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
 
+		<RumorFact>
+			<ID>PREBRAMBLE_MAIN_R</ID>
+			<RumorName>Angler's Eye Archives?</RumorName>
+			<SourceID>ANGLERS_EYE_DBMUSEUM</SourceID>
+			<Text>The code door straight ahead has an emblem with a large amount of Bramble Vines growing from a center point.</Text>
+		</RumorFact>
+		
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>PREBRAMBLE_MAIN_E</ID> <!-- The ID of this fact -->
             <Text>I found a new simulation built to preserve the life of Dark Bramble's former self.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
@@ -43,6 +50,11 @@
 				<ID>PREBRAMBLE_WARP_MAIN_CENTER</ID>
 				<Text>The door straight ahead warps me to the North Pole.</Text>
 			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_WARP_MAIN_RIGHT</ID>
+				<Text>The door straight to the right warps me underneath the planet's crust.</Text>
+			</ExploreFact>
         </Entry>
 
 		<Entry>
@@ -70,7 +82,7 @@
 
 		<Entry>
 			<ID>PREBRAMBLE_WARP_POLE</ID>
-			<Name>Warp House (Forest)</Name>
+			<Name>Warp House (North Pole)</Name>
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
 
 			<RumorFact>
@@ -93,7 +105,7 @@
 
 		<Entry>
 			<ID>PREBRAMBLE_WARP_CAVES</ID>
-			<Name>Warp House (Forest)</Name>
+			<Name>Warp House (Caves)</Name>
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
 
 			<RumorFact>

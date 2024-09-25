@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
-using OWML.Common;
 
 namespace TheStrangerTheyAre;
 
@@ -20,8 +19,6 @@ public class CompensateForAnglerObesity
         float anglerScale = 6;
         NoiseMaker noiseMaker = null;
         float num = float.PositiveInfinity;
-
-        TheStrangerTheyAre.WriteLine("ANGLER OBESITY PATCH RUNNING "); // debug message
         if (__instance.gameObject.name != "Scale")
         {
             return true;
@@ -37,8 +34,6 @@ public class CompensateForAnglerObesity
                 continue;
                 
             }
-            TheStrangerTheyAre.WriteLine("Noise Radius: " + noiseRadius, MessageType.Success); // debug message
-            TheStrangerTheyAre.WriteLine("Magnitude: " + (__instance.transform.position - activeNoiseMakers[i].GetNoiseOrigin()).magnitude, MessageType.Success); // debug message
             float sqrMagnitude = (__instance.transform.position - activeNoiseMakers[i].GetNoiseOrigin()).sqrMagnitude;
             sqrMagnitude -= Mathf.Pow(ANGLER_OBESITY_CONSTANT * anglerScale, 2);
             if (!(sqrMagnitude > noiseRadius * noiseRadius))

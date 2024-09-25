@@ -47,11 +47,9 @@ namespace TheStrangerTheyAre
                 && _shardVisibilityObject.CheckVisibilityFromProbe(probeCam))
             {
                 if (!hasBroken) {
-                    TheStrangerTheyAre.WriteLine("I'M GONNA BREAK IT", MessageType.Success); // debug message
+                    hasBroken = true; // sets break-checking boolean to true when weakened shard is active, player is in state 1, and in the right spot.
                 }
-                hasBroken = true; // sets break-checking boolean to true when weakened shard is active, player is in state 1, and in the right spot.
             }
-
             if (planetState3.activeSelf)
             {
                 

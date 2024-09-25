@@ -33,8 +33,6 @@ namespace TheStrangerTheyAre
         private OWAudioSource _rotationAudio;
 
         private float _timeSinceClosure;
-        private GameObject qDoorClosed;
-        private GameObject qDoorOpen;
         public bool isOpen;
 
         private void Awake()
@@ -49,14 +47,6 @@ namespace TheStrangerTheyAre
                 _lightSensors[i].OnDetectLight += new OWEvent.OWCallback(OnDetectLight);
                 _lightSensors[i].OnDetectDarkness += new OWEvent.OWCallback(OnDetectDarkness);
             }
-        }
-
-        private void Start()
-        {
-            var distantEnigma = TheStrangerTheyAre.NewHorizonsAPI.GetPlanet("Distant Enigma"); // gets the quantum planet with nh
-
-            qDoorClosed = distantEnigma.transform.Find("Sector-3/QuantumResearchLab/Interactables/StaticDoor_Closed").gameObject;
-            qDoorOpen = distantEnigma.transform.Find("Sector-3/QuantumResearchLab/Interactables/StaticDoor_Open").gameObject;
         }
 
         private void OnDestroy()
@@ -87,21 +77,6 @@ namespace TheStrangerTheyAre
                 }
             }
         }
-
-        private void Update()
-        {
-            if (isOpen)
-            {
-                TheStrangerTheyAre.WriteLine("Closed to Open Door", MessageType.Success); // debug message
-                qDoorClosed.SetActive(false);
-                qDoorOpen.SetActive(true);
-            }
-            else
-            {
-                qDoorClosed.SetActive(true);
-                qDoorOpen.SetActive(false);
-            }
-        }
         private void FixedUpdate()
         {
             _timeSinceClosure += Time.deltaTime;
@@ -128,6 +103,12 @@ namespace TheStrangerTheyAre
 
         private void OnDetectLight()
         {
+            if (isOpen)
+            {
+                isOpen = false;
+                base.CallCloseEvent();
+                this._timeSinceClosure = 0f;
+            }
             base.enabled = true;
         }
 
@@ -148,39 +129,20 @@ namespace TheStrangerTheyAre
                     }
                     if (flag)
                     {
+                        isOpen = true;
                         CallOpenEvent();
                     }
                 }
             }
             else if (num < _angleAccuracy || 360f - num < _angleAccuracy)
             {
+                isOpen = true;
                 CallOpenEvent();
             }
             base.enabled = false;
             if (_rotationAudio != null)
             {
                 _rotationAudio.FadeOut(0.2f);
-            }
-        }
-
-        private void OnDoorOpen()
-        {
-            TheStrangerTheyAre.WriteLine("Door should be open!", MessageType.Success); // debug message
-            isOpen = true;
-            for (int i = 0; i < _lightSensors.Length; i++)
-            {
-                _lightSensors[i].SetDetectorActive(active: false);
-            }
-
-        }
-
-        private void OnDoorClose()
-        {
-            TheStrangerTheyAre.WriteLine("Door should be closed!", MessageType.Success); // debug message
-            isOpen = false;
-            for (int i = 0; i < _lightSensors.Length; i++)
-            {
-                _lightSensors[i].SetDetectorActive(active: true);
             }
         }
     }

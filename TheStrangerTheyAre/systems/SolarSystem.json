@@ -177,38 +177,45 @@
       }
     },
     {
-      "id": "PREBRAMBLE_MAIN",
+      "id": "PREBRAMBLE",
       "position": {
-        "x": 4900,
-        "y": -600
+        "x": 4200,
+        "y": 500
       }
     },
     {
       "id": "PREBRAMBLE_WARP_MAIN",
       "position": {
-        "x": 4900,
-        "y": -600
+        "x": 3900,
+        "y": 450
       }
     },
     {
       "id": "PREBRAMBLE_WARP_FOREST",
       "position": {
-        "x": 4900,
-        "y": -600
+        "x": 3800,
+        "y": 450
       }
     },
     {
       "id": "PREBRAMBLE_WARP_POLE",
       "position": {
-        "x": 4900,
-        "y": -600
+        "x": 3900,
+        "y": 550
       }
     },
     {
       "id": "PREBRAMBLE_WARP_CAVES",
       "position": {
-        "x": 4900,
-        "y": -600
+        "x": 4000,
+        "y": 450
+      }
+    },
+    {
+      "id": "PREBRAMBLE_PROJ",
+      "position": {
+        "x": 4000,
+        "y": 700
       }
     }
   ],

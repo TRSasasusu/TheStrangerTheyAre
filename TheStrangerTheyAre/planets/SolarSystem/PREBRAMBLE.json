@@ -6901,6 +6901,164 @@
         "parentPath": "Sector/SurfaceNode1",
         "isRelativeToParent": true
       }
+    ],
+    "revealVolumes": [
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "radius": 1100,
+        "reveals": [ "PREBRAMBLE_MAIN_E" ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse",
+        "isRelativeToParent": true,
+        "radius": 5,
+        "reveals": [ "PREBRAMBLE_WARP_MAIN_E" ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/Forest",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_MAIN_LEFT",
+          "PREBRAMBLE_WARP_FOREST_R"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/NorthPole",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_MAIN_CENTER",
+          "PREBRAMBLE_WARP_POLE_R"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse/WarpOffsets/Caves",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_MAIN_RIGHT",
+          "PREBRAMBLE_WARP_CAVES_R"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse_Forest",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_FOREST_CODE"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse_Forest/Offsets/Warp",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_FOREST_DOOR"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse_NorthPole",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_POLE_CODE"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse_NorthPole/Offsets/Warp",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_POLE_DOOR"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse_Caves",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_CAVES_CODE"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/WarpHouse_Caves/Offsets/Warp",
+        "isRelativeToParent": true,
+        "radius": 1,
+        "reveals": [
+          "PREBRAMBLE_WARP_CAVES_DOOR"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_Research",
+        "isRelativeToParent": true,
+        "radius": 20,
+        "reveals": [
+          "PREBRAMBLE_PROJ_E"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable (2)/Projector_Lens (1)",
+        "isRelativeToParent": true,
+        "radius": 5,
+        "position": {
+          "y": -2
+        },
+        "reveals": [
+          "PREBRAMBLE_PROJ1"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable (1)/Projector_Lens (1)",
+        "isRelativeToParent": true,
+        "radius": 5,
+        "position": {
+          "y": -2
+        },
+        "reveals": [
+          "PREBRAMBLE_PROJ2"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable/Projector_Lens (1)",
+        "isRelativeToParent": true,
+        "radius": 5,
+        "position": {
+          "y": -2
+        },
+        "reveals": [
+          "PREBRAMBLE_PROJ3"
+        ]
+      }
     ]
   },
   "Water": {

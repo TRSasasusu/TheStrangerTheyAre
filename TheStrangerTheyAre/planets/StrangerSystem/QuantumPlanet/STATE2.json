@@ -115,14 +115,6 @@
 		"scatter": [
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/StrangerQuantumStall.prefab",
-				"count": 10,
-				"minHeight": 200,
-				"keepLoaded": true,
-				"seed": 128
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",
 				"count": 50,
 				"minHeight": 200,
@@ -236,9 +228,9 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/EnigmaInterface.prefab",
 				"position": {
-					"x": -143.2332,
-					"y": -130.5292,
-					"z": -20.0874
+					"x": -143.2344,
+					"y": -130.8274,
+					"z": -18.177
 				},
 				"rotation": {
 					"x": 302.7197,

@@ -164,14 +164,6 @@
 			}
 		],
 		"scatter": [
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/StrangerQuantumStall.prefab",
-				"seed": 128,
-				"count": 10,
-				"keepLoaded": true,
-				"minHeight": 200
-			},
 					{
 						"assetBundle": "assets/AssetBundle/strangerbundle",
 						"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",

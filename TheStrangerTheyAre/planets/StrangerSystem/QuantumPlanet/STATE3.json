@@ -31,7 +31,7 @@
 		}
 	},
 	"Base": {
-		"surfaceGravity": 24,
+		"surfaceGravity": 12,
 		"surfaceSize": 100
 	},
 	"Volumes": {
@@ -88,14 +88,6 @@
 			}
 		],
 		"scatter": [
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/StrangerQuantumStall.prefab",
-				"seed": 128,
-				"count": 10,
-				"keepLoaded": true,
-				"minHeight": 200
-			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",
@@ -212,14 +204,10 @@
 				"path": "Assets/Seals/Seal_Enigma.prefab",
 				"alignRadial": true,
 				"position": {
-					"x": -53.4889,
-					"y": -93.5551,
-					"z": -86.8644
-				},
-				"rotation": {
-					"x": 342.507,
-					"y": 138.5659,
-					"z": 225.0788
+					"x": -41.6827,
+
+					"y": 130.5504,
+					"z": -19.372
 				}
 			},
 			{

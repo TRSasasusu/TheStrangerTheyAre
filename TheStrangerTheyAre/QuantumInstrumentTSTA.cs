@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Utility;
+using UnityEngine;
 
 namespace TheStrangerTheyAre;
 public class QuantumInstrumentTSTA : MonoBehaviour
@@ -7,9 +8,9 @@ public class QuantumInstrumentTSTA : MonoBehaviour
 
     public delegate void FinishGatherEvent();
 
-    private GameObject[] _activateObjects;
+    private GameObject[] _activateObjects = new GameObject[2];
 
-    private GameObject[] _deactivateObjects;
+    private GameObject[] _deactivateObjects = new GameObject[1];
 
     private bool _gatherWithScope = false;
 
@@ -32,9 +33,9 @@ public class QuantumInstrumentTSTA : MonoBehaviour
     {
         var fire = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire"); // gets the quantum planet with nh
         
-        _activateObjects[0] = fire.transform.Find("Volumes_Campfire/EndlessCylinder_Forest").gameObject; // gets the endless eye volume
-        _activateObjects[1] = fire.transform.Find("Campsite/Prefab_IP_GhostBird_Scientist_Eye").gameObject; // gets the quantum planet's first state
-        _deactivateObjects[0] = fire.transform.Find("InstrumentZones/ScientistSector").gameObject; // gets the scientist sector
+        _activateObjects[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Volumes_Campfire/EndlessCylinder_Forest"); // gets the endless eye volume
+        _activateObjects[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye"); // gets the quantum planet's first state
+        _deactivateObjects[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector"); // gets the scientist sector
 
         _activateObjects[1].SetActive(false);
 

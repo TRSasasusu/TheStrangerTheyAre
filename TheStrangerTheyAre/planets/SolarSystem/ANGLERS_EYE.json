@@ -1656,6 +1656,8 @@
 		],
 		"revealVolumes": [
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 47.1643,
 					"y": 97.6731,
@@ -1667,6 +1669,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": -19.79901,
 					"y": 101.755,
@@ -1678,6 +1682,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": -16.94967,
 					"y": 108.5297,
@@ -1689,6 +1695,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": -21.1051,
 					"y": 108.3589,
@@ -1701,6 +1709,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"radius": 130,
 				"position": {
 					"x": 0,
@@ -1713,6 +1723,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"radius": 75,
 				"position": {
 					"x": 1.104206,
@@ -1724,6 +1736,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 49.89732,
 					"y": 102.42,
@@ -1735,6 +1749,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 44.84358,
 					"y": 90.05164,
@@ -1746,6 +1762,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 50.89534,
 					"y": 87.96917,
@@ -1757,6 +1775,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": -62.01225,
 					"y": -33.44255,
@@ -1768,6 +1788,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 6.225539,
 					"y": 83.85609,
@@ -1779,6 +1801,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 5.836877,
 					"y": 80.64743,
@@ -1790,6 +1814,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"position": {
 					"x": 117.8554,
 					"y": -8.868609,
@@ -1801,6 +1827,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03/STORYREEL_1",
 				"isRelativeToParent": true,
 				"radius": 2,
@@ -1809,6 +1837,8 @@
 				]
 			},
 			{
+				"revealFor": "player",
+				"revealOn": "enter",
 				"parentPath": "Sector/CRASHSITE_TEXT",
 				"isRelativeToParent": true,
 				"radius": 3,

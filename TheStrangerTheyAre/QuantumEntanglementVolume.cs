@@ -12,7 +12,7 @@ namespace TheStrangerTheyAre
         const int numStates = 3; // creates int value for number of states
         GameObject[] states = new GameObject[numStates]; // creates variable to store each state of the planet.
 
-        Flashlight flashlight; // creates variable to store the player flashlight
+        bool flashlight = false; // creates boolean to store whether player flashlight is on/off
         bool isSequential = true; // boolean to determine if sequential or random.
         System.Random rnd = new System.Random(); // random number generator
         bool stateChanged = false; // boolean to determine if the state has changed when the player enters
@@ -35,10 +35,15 @@ namespace TheStrangerTheyAre
             states[2] = distantEnigma.transform.Find("Sector-3").gameObject; // gets the quantum planet's third state
 
             flashlight = Locator.GetFlashlight(); // gets the player flashlight
-
-            if (!flashlight.IsFlashlightOn())
+        }
+        void Update()
+        {
+            if (Locator.GetFlashlight().IsFlashlightOn())
             {
-                TheStrangerTheyAre.WriteLine("Flashlight should be OFF!"); // debug message
+                flashlight = true;
+            } else
+            {
+                flashlight = false;
             }
         }
 
@@ -89,15 +94,13 @@ namespace TheStrangerTheyAre
         public void OnTriggerVolumeEntry(GameObject hitObj)
         {
             //checks if player collides with the trigger volume
-            if (hitObj.CompareTag("PlayerDetector") && enabled /*&& flashlight.IsFlashlightOn() == false*/ && !door.GetRequiredComponent<RotatingDoor>().IsOpen()) // commented out because it won't check things properly
+            if (hitObj.CompareTag("PlayerDetector") && enabled /*!flashlight*/ && !door.GetRequiredComponent<RotatingDoor>().IsOpen()) // commented out because it won't check things properly
             {
-                
-                if (stateChanged == false)
-                {
-                    
+               if (stateChanged == false)
+               {
                     ChangeState(); // calls change state method
-                    stateChanged = true;
-                }
+                   stateChanged = true;
+               }
             }
         }
 

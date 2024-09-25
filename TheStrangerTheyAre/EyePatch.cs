@@ -1,11 +1,6 @@
 ﻿using HarmonyLib;
-using OWML.ModHelper;
 using System.IO;
-using TheStrangerTheyAre;
 using UnityEngine;
-using OWML.Common;
-using OWML.ModHelper.Events;
-using NewHorizons.Components.Stars;
 
 namespace TheStrangerTheyAre;
 
@@ -19,6 +14,7 @@ public class QuantumCampsiteControllerPatch
     private bool _hasMetSolanum;
     private bool _hasMetPrisoner;
     private bool _hasErasedPrisoner;
+    private bool _hasJamSessionStarted;
 
     protected GameObject scientistZone;
     private GameObject scientist;
@@ -27,15 +23,15 @@ public class QuantumCampsiteControllerPatch
     private TravelerEyeController scientistController;
     private Transform scientistRoot;
 
-    [HarmonyPrefix] // this method causes mod to not load
+    [HarmonyPrefix] // __instance method causes mod to not load
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
     private static bool QuantumCampsiteController_GetTravelerMusicEndClip_Prefix(QuantumCampsiteController __instance, ref AudioClip __result)
     {
         bool flag = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
-        //AudioClip newAudioType; // haven't implemented this yet, so ignore it.
+        //AudioClip newAudioType; // haven't implemented __instance yet, so ignore it.
         if (Check() && flag && __instance._hasMetSolanum)
         {
-            Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSwP.ogg"); // still don't know how i can convert this to audioclip so it doesn't set itself equal to anything.
+            Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSwP.ogg"); // still don't know how i can convert __instance to audioclip so it doesn't set itself equal to anything.
         } else if (Check() && flag)
         {
             Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSwP.ogg");
@@ -56,7 +52,7 @@ public class QuantumCampsiteControllerPatch
         }
     }
 
-    [HarmonyPostfix] // this method causes mod to not load
+    [HarmonyPostfix] // __instance method causes mod to not load
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.ActivateRemainingInstrumentZones))]
     private static void QuantumCampsiteController_ActivateRemainingInstrumentZones_Postfix(QuantumCampsiteController __instance)
     {
@@ -82,8 +78,10 @@ public class QuantumCampsiteControllerPatch
         AddInstrumentZone(scientistZone, scientistController);
         scientistZone.SetActive(false);
         scientist.SetActive(false);
+        scientistSignal.SetActive(false);
 
         scientistController._dialogueTree = scientistController.gameObject.GetComponentInChildren<CharacterDialogueTree>();
+        scientistController._signal = scientistSignal.GetComponent<AudioSignal>();
         scientistController._dialogueTree.OnStartConversation += scientistController.OnStartConversation;
         scientistController._dialogueTree.OnEndConversation += scientistController.OnEndConversation;
 
@@ -104,6 +102,21 @@ public class QuantumCampsiteControllerPatch
         return Locator.GetShipLogManager().IsFactRevealed("NEWSIM_SCIENTIST_CLONE");
     }
 
+    private void OnTravelerStartPlaying(QuantumCampsiteController __instance)
+    {
+        if (!__instance._hasJamSessionStarted)
+        {
+            __instance._hasJamSessionStarted = true;
+            for (int i = 0; i < __instance._travelerControllers.Length; i++)
+            {
+                __instance._travelerControllers[i].OnStartCosmicJamSession();
+            }
+            if (Check())
+            {
+                scientistSignal.SetActive(true);
+            }
+        }
+    }
     public void Update()
     {
         if (scientist.activeSelf)
