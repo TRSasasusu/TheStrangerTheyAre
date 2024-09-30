@@ -115,8 +115,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_Vessel1.prefab",
-				"parentPath": "EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
-				"isRelativeToParent": true,
+				"parentPath": "Sector/Vessel_Body",
 				"position": {
 					"x": -901.0897,
 					"y": 396.4904,
@@ -131,16 +130,28 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Seals/Seal_Ringed.prefab",
-				"alignRadial": true,
 				"position": {
 					"x": -2.2376,
 					"y": 338.9471,
 					"z": -58.4961
 				},
 				"rotation": {
-					"x": 355.0302,
-					"y": 106.9223,
-					"z": 359.9155
+					"x": 354.6553,
+					"y": 114.1547,
+					"z": 0.1999
+				}
+			},
+			{
+				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"position": {
+					"x": -53.8125,
+					"y": -330.3578,
+					"z": -5.4514
+				},
+				"rotation": {
+					"x": 2.3036,
+					"y": 74.5762,
+					"z": 174.5877
 				}
 			}
 		],
@@ -148,6 +159,14 @@
 			{
 				"xmlFile": "dialogue/NewTravelers/Ringed.xml",
 				"parentPath": "Sector/RINGEDGIANT_ISLAND/GhostBirdNPCs/Prefab_IP_GhostBird_Ringed",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Homeworld/GhostNPC/DescendantVessel.xml",
+				"parentPath": "Sector/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -202,6 +221,129 @@
 				"parentPath": "Sector/RINGEDGIANT_ISLAND/Building/Base",
 				"isRelativeToParent": true,
 				"radius": 30
+			},
+			{
+				"priority": 1,
+				"audio": "OW Final End Times 022519_2 AP LOOP2",
+				"track": "endTimesMusic",
+				"parentPath": "Sector/Vessel_Body",
+				"isRelativeToParent": true,
+				"radius": 99999,
+				"rename": "FinalEndTimes_STR"
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 750,
+				"reveals": [ "RING_MAIN_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Building/Base",
+				"isRelativeToParent": true,
+				"reveals": [
+					"RING_STRUCTURE_E",
+					"RING_SEAL_R",
+					"DESERT_SEAL_R",
+					"CRIMSON_SEAL_R",
+					"VOLCANO_SEAL_R",
+					"QUANTUM_SEAL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Interactibles/SealSockets/Desert/Socket/Active",
+				"isRelativeToParent": false,
+				"position": {
+					"x": -54.2699,
+					"y": -321.8221,
+					"z": 48.8352
+				},
+				"reveals": [
+					"DESERT_SEAL_INSERT"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Interactibles/SealSockets/Ringed/Socket/Active",
+				"isRelativeToParent": false,
+				"position": {
+					"x": -54.2699,
+					"y": -321.8221,
+					"z": 48.8352
+				},
+				"reveals": [
+					"RING_SEAL_INSERT"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Interactibles/SealSockets/Crimson/Socket/Active",
+				"isRelativeToParent": false,
+				"position": {
+					"x": -54.2699,
+					"y": -321.8221,
+					"z": 48.8352
+				},
+				"reveals": [
+					"CRIMSON_SEAL_INSERT"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Interactibles/SealSockets/CrimsonMoon/Socket/Active",
+				"isRelativeToParent": false,
+				"position": {
+					"x": -54.2699,
+					"y": -321.8221,
+					"z": 48.8352
+				},
+				"reveals": [
+					"VOLCANO_SEAL_INSERT"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Interactibles/SealSockets/Enigma/Socket/Active",
+				"isRelativeToParent": false,
+				"position": {
+					"x": -54.2699,
+					"y": -321.8221,
+					"z": 48.8352
+				},
+				"reveals": [
+					"QUANTUM_SEAL_INSERT"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 5,
+				"parentPath": "Sector/Seal_Ringed",
+				"isRelativeToParent": true,
+				"reveals": [ "RING_SEAL_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 30,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"reveals": [ "RING_CAMP_E" ]
 			}
 		]
 	},
@@ -216,6 +358,7 @@
 	],
 	"canShowOnTitle": false,
 	"ShipLog": {
+		"xmlFile": "shiplogs/ringedgiant.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
 			"revealedSprite": "assets/Texture/Shiplog/RINGEDGIANT_UI.png",

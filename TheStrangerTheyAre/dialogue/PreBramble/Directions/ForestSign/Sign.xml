@@ -7,5 +7,8 @@
 		<Dialogue>
 			<Page>Tread the path of the lit candles. With wind opens the seed of bramble.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>PREBRAMBLE_FOREST_TEXT2</FactID>
+		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

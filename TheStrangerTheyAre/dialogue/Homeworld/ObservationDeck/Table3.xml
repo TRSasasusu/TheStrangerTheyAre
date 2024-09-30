@@ -8,7 +8,6 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>HOME_OBSERVE_TEXT3</FactID>
-			<FactID>SYSTEM_DEATH</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

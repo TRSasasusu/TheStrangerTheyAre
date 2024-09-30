@@ -87,10 +87,112 @@
 		],
 		"revealVolumes": [
 			{
-				"reveals": [ "HOME_REVEAL" ],
+				"reveals": [
+					"HOME_REVEAL",
+					"RING_MAIN_R",
+					"HOME_CINDER_R",
+					"HOME_PARTYHOUSE_R",
+					"HOME_SPACE_R"
+				],
 				"radius": 400,
 				"revealFor": "player",
 				"revealOn": "enter"
+			},
+			{
+				"reveals": [
+					"HOME_REVEAL",
+					"RING_MAIN_R",
+					"HOME_CINDER_R",
+					"HOME_PARTYHOUSE_R",
+					"HOME_SPACE_R"
+				],
+				"radius": 6,
+				"revealFor": "player",
+				"revealOn": "enter"
+			},
+			{
+				"reveals": [ "HOME_MUSEUM_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/BrambleMuseum_HOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			},
+			{
+				"reveals": [ "HOME_MUSEUM_SYSTEM" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/BrambleMuseum_HOME/Props/SystemModel",
+				"isRelativeToParent": true,
+				"position": {
+					"y": -5
+				},
+				"radius": 5
+			},
+			{
+				"reveals": [ "HOME_PARTYHOUSE_TORCH" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Props_PartyHouse/Props_IP_StaffArmature/Arm_A/Arm_B/staff_attach_point",
+				"isRelativeToParent": true,
+				"radius": 5
+			},
+			{
+				"reveals": [ "HOME_MUSEUM_VESSEL" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/BrambleMuseum_HOME/Props/SystemModel/VESSEL",
+				"isRelativeToParent": true,
+				"position": {
+					"y": -1
+				},
+				"radius": 2
+			},
+			{
+				"reveals": [ "HOME_OBSERVE_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD",
+				"isRelativeToParent": true,
+				"radius": 20
+			},
+			{
+				"reveals": [ "HOME_SPACE_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": 72.05455,
+					"y": 107.8358,
+					"z": -166.2016
+				},
+				"radius": 7
+			},
+			{
+				"reveals": [ "HOME_PARTYHOUSE_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": 153.7156,
+					"y": 2.9197,
+					"z": -135.2257
+				},
+				"radius": 7
+			},
+			{
+				"reveals": [ "HOME_CINDER_EYE" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"radius": 6
+			},
+			{
+				"reveals": [ "HOME_CINDER_SCI" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Lighting/Prefab_IP_Candle_CoveredHanging (1)",
+				"isRelativeToParent": true,
+				"radius": 6
 			}
 		],
 		"speedTrapVolumes": [
@@ -379,26 +481,38 @@
 			{
 				"xmlFile": "dialogue/Homeworld/DBMuseum/2F_AnglerExhibit.xml",
 				"radius": 1,
-				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/AnglerExhibit/Props_IP_DoNotEnterSign",
-				"isRelativeToParent": true
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/AnglerExhibit/Props_IP_DoNotEnterSign (2)",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/DBMuseum/2F_DBExhibit.xml",
 				"radius": 1,
 				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/DBModelExhibit/Props_IP_DoNotEnterSign",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/DBMuseum/2F_VineExhibit.xml",
 				"radius": 1,
-				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/CloakMineralExhibit/Props_IP_DoNotEnterSign",
-				"isRelativeToParent": true
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/CloakMineralExhibit/Props_IP_DoNotEnterSign (1)",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/DBMuseum/1F_MineralExhibit.xml",
 				"radius": 1,
-				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/CloakMineralExhibit2/Props_IP_DoNotEnterSign",
-				"isRelativeToParent": true
+				"parentPath": "Sector/BrambleMuseum_HOME/Exhibits/CloakMineralExhibit2/Props_IP_DoNotEnterSign (1)",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/DBMuseum/1F_Wall1.xml",
@@ -449,6 +563,16 @@
 			{
 				"xmlFile": "dialogue/Homeworld/EntryHouse/StrangerTomb.xml",
 				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/Text/StrangerTomb/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/Smudge.xml",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Phys/TableBody/Text/BLURRED1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/Smudge.xml",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Phys/TableBody/Text/BLURRED2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{

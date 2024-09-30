@@ -1,0 +1,100 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Ringed Giant</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>RING</ID> <!-- The ID of this entry -->
+        <Name>Ringed Giant</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>RING_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+		<IgnoreMoreToExplore/>
+		
+		<RumorFact>
+			<ID>RING_MAIN_R</ID>
+			<RumorName>Ringed Giant Surface?</RumorName>
+			<Text>I've finally seen the Ringed Giant in all its glory first-hand! Now is there anything beneath the clouds?</Text>
+		</RumorFact>
+		
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>RING_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>Beneath the clouds of the Ringed Giant is a ocean of mostly pure water, and two islands. The islands seem tall because The Scientist must have drained a bit of the water for terraforming.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+		<Entry>
+			<ID>RING_STRUCTURE</ID>
+			<Name>Mysterious Structure</Name>
+			<Curiosity>RING_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>RING_STRUCTURE_E</ID>
+				<Text>I found a mysterious structure on one of the islands. It seems to have five sockets, with pictures of all the planets on each of them.</Text>
+			</ExploreFact>
+		</Entry>
+		
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>RING_TRAVELER</ID> <!-- The ID of this entry -->
+            <Name>Bush</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>RING_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<RumorFact>
+				<ID>RING_TRAVELER_R</ID>
+				<RumorName>Ringed Giant Traveler?</RumorName>
+				<SourceID>HOME_SPACE</SourceID>
+				<Text>According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I hear one coming from the Ringed Giant.</Text>
+			</RumorFact>
+			
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>RING_TRAVELER_E</ID> <!-- The ID of this fact -->
+                <Text>I met a travelling inhabitant named Bush!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>RING_TRAVELER_INFO</ID> <!-- The ID of this fact -->
+                <Text>Bush says there's not much else to do here other than find the campground.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>RING_CAMP</ID>
+			<Name>Ringed Giant Campsite</Name>
+			<Curiosity>RING_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>RING_CAMP_R</ID>
+				<RumorName>Campsite?</RumorName>
+				<SourceID>RING_TRAVELER</SourceID>
+				<Text>Bush said he had a camp elsewhere on the Ringed Giant.</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>RING_CAMP_E</ID>
+				<Text>I found a campsite on one of the islands!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>RING_SEAL</ID>
+			<Name>Ringed Giant Seal</Name>
+			<Curiosity>RING_MAIN</Curiosity>
+			<AltPhotoCondition>RING_SEAL_INSERT</AltPhotoCondition>
+
+			<RumorFact>
+				<ID>RING_SEAL_R</ID>
+				<RumorName>Ringed Giant Socket?</RumorName>
+				<SourceID>RING_STRUCTURE</SourceID>
+				<Text>On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of the Ringed Giant.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>RING_SEAL_E</ID>
+				<Text>I found a square piece of metal at Bush's Campsite! It looks like it fits in the structure...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>RING_SEAL_INSERT</ID>
+				<Text>When I put the seal in the structure, it gave me a symbol.</Text>
+			</ExploreFact>
+		</Entry>
+    </Entry>
+</AstroObjectEntry>

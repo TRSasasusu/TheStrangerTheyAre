@@ -8,7 +8,9 @@
   <Dialogue> <!-- The actual dialogue we want to show the player -->
       <Page>This technology is fascinating...</Page> <!-- A single page of the dialogue -->
   </Dialogue>
-
+	 <RevealFacts>
+		 <FactID>RING_TRAVELER_E</FactID>
+	 </RevealFacts>
   <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
 	<DialogueOption>
 		  <Text>Is there anything else to explore here?</Text>
@@ -63,7 +65,10 @@
    <Page>Not much on or below the surface, no. I do have a camp south of here, but it's just a tent, some things i found, and a campfire.</Page>
    <Page>There is however a space station floating just above the planet. Since our home got terraformed, it's just been abandoned.</Page>
   </Dialogue>
-  <DialogueOptionsList> 
+	<RevealFacts>
+		<FactID>RING_TRAVELER_INFO</FactID>
+	</RevealFacts>
+  <DialogueOptionsList>
   <DialogueOption>
     <Text>I've been there, that's where I came from.</Text>
     <DialogueTarget>1A</DialogueTarget>
@@ -103,7 +108,7 @@
 		<!-- Another node why not -->
 		<Name>1C</Name>
 		<Dialogue>
-			<Page>Alright blue-skin. I'll give it a shot! I fear no fish!</Page>
+			<Page>Alright. I'll give it a shot! I fear no fish!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -137,7 +142,7 @@
 			  <DialogueTarget>START</DialogueTarget>
 		  </DialogueOption>
 		  <DialogueOption>
-			  <EntryCondition>RING_SEAL_E1</EntryCondition>
+			  <EntryCondition>RING_SEAL_E</EntryCondition>
 			  <Text>I found the seal! It was right by your camp.</Text>
 			  <DialogueTarget>2C</DialogueTarget>
 		  </DialogueOption>
@@ -152,7 +157,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<EntryCondition>RING_SEAL_E2</EntryCondition>
+				<EntryCondition>RING_SEAL_INSERT</EntryCondition>
 				<Text>And a hologram symbol shows up when I insert it.</Text>
 				<DialogueTarget>2D</DialogueTarget>
 			</DialogueOption>

@@ -7,7 +7,7 @@
 			<Page>These are the planets of our star system! First we have the hot, desert planet, then comes our beloved Ringed Giant where our home moon resides.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>DESERT_R</FactID>
+			<FactID>DESERT_MAIN_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

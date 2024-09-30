@@ -186,36 +186,78 @@
     {
       "id": "PREBRAMBLE_WARP_MAIN",
       "position": {
-        "x": 3900,
-        "y": 450
+        "x": 3800,
+        "y": 500
       }
     },
     {
       "id": "PREBRAMBLE_WARP_FOREST",
       "position": {
-        "x": 3800,
-        "y": 450
+        "x": 3600,
+        "y": 500
       }
     },
     {
       "id": "PREBRAMBLE_WARP_POLE",
       "position": {
-        "x": 3900,
-        "y": 550
+        "x": 3800,
+        "y": 700
       }
     },
     {
       "id": "PREBRAMBLE_WARP_CAVES",
       "position": {
         "x": 4000,
-        "y": 450
+        "y": 500
       }
     },
     {
       "id": "PREBRAMBLE_PROJ",
       "position": {
+        "x": 4100,
+        "y": 800
+      }
+    },
+    {
+      "id": "PREBRAMBLE_ZOO",
+      "position": {
+        "x": 4300,
+        "y": 800
+      }
+    },
+    {
+      "id": "PREBRAMBLE_FOREST",
+      "position": {
         "x": 4000,
-        "y": 700
+        "y": 1000
+      }
+    },
+    {
+      "id": "PREBRAMBLE_B_RESEARCH",
+      "position": {
+        "x": 4100,
+        "y": 1200
+      }
+    },
+    {
+      "id": "PREBRAMBLE_POLE",
+      "position": {
+        "x": 4300,
+        "y": 1200
+      }
+    },
+    {
+      "id": "PREBRAMBLE_REEL",
+      "position": {
+        "x": 4200,
+        "y": 1000
+      }
+    },
+    {
+      "id": "PREBRAMBLE_ARCHIVES",
+      "position": {
+        "x": 4400,
+        "y": 1000
       }
     }
   ],

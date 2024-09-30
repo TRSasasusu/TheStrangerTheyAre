@@ -31,8 +31,9 @@
             <ID>HEARTH_SLATE</ID> <!-- The ID of this entry -->
             <Name>Slate's Request</Name> <!-- The name to show for this entry both on the card and in map mode -->
             <Curiosity>HEARTH_SIGNAL</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+			<AltPhotoCondition>HEARTH_SLATE_E2</AltPhotoCondition>
 
-            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+			<ExploreFact> <!-- An explore fact that belongs to this entry -->
                 <ID>HEARTH_SLATE_E1</ID> <!-- The ID of this fact -->
                 <Text>Slate wants me to investigate a strange signal.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
             </ExploreFact>

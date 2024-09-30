@@ -8,7 +8,7 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>HOME_OBSERVE_TEXT2</FactID>
-			<FactID>NOM_StrandedVessel_R2</FactID>
+			<FactID>NOM_StrandedVessel_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

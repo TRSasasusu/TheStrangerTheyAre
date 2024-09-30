@@ -14,7 +14,9 @@
 			<Page>Hey, on the bright side, that crash wasn't cool enough...</Page>
 			<!-- A single page of the dialogue -->
 		</Dialogue>
-
+		<RevealFacts>
+			<FactID>DESERT_TRAVELER_E</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<!-- Show options the player can choose from when the character is done talking -->
 			<DialogueOption>
@@ -22,7 +24,7 @@
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<EntryCondition>DESERT_ATMOSPHERE_E</EntryCondition>
+				<EntryCondition>DESERT_MAIN_ATMO</EntryCondition>
 				<Text>The atmosphere of this planet will be stripped off in just 23 minutes!</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
@@ -73,6 +75,9 @@
 			<Page>I don't know, this place is pretty boring, there's not even an old lab like the other planets have.</Page>
 			<Page>Oh yeah, anything past that equator is fatal! You will burn to death on the sun-facing side!</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>DESERT_TRAVELER_INFO</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Good to know.</Text>

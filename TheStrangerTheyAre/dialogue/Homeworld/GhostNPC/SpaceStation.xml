@@ -47,6 +47,9 @@
 	  <Page>Now, we're just carefree explorers, most of us use these other planets as vacation resorts, as treacherous as they may be.</Page>
 	  <Page>I doubt we can solve the mystery of our ancestors in a matter of minutes, though.</Page>
   </Dialogue>
+	 <RevealFacts>
+		 <FactID>HOME_SPACE_TWIG</FactID>
+	 </RevealFacts>
   <DialogueOptionsList> 
      <DialogueOption> <!-- A single option the player can pick -->
     <Text>Well I sure can! I'm in a time loop!</Text> <!-- The text to display for the option -->
@@ -131,6 +134,9 @@
 		<Dialogue>
 			<Page>If you want to find it, it has a signal on it. That is, if your kind has that technology yet.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_SPACE_INFO1</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Okay, thanks!</Text>
@@ -163,6 +169,14 @@
 			<Page>For starters, if you can use signal detection technology, I'd follow the radio signals of our friends out in space right now.</Page>
 			<Page>They've been dwelling on those planets for quite a while, so they might know a thing or two.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>HOME_SPACE_INFO2</FactID>
+			<FactID>DESERT_TRAVELER_R</FactID>
+			<FactID>RING_TRAVELER_R</FactID>
+			<FactID>CRIMSON_TRAVELER_R</FactID>
+			<FactID>VOLCANO_TRAVELER_R</FactID>
+			<FactID>QUANTUM_TRAVELER_R</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<!-- A single option the player can pick -->

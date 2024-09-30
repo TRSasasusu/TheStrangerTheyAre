@@ -10,7 +10,7 @@
 			<Page>May he be remembered, not for what he did, but for the tragedy that drove him to madness.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>HOME_ENT_SCIENTIST</FactID>
+			<FactID>HOME_CINDER_EYE_TEXT2</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

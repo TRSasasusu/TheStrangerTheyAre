@@ -8,6 +8,7 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>LAB_TEXT_TERRA1</FactID>
+			<FactID>HOME_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

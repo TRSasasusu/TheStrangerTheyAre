@@ -5,7 +5,10 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Originating from this planet, Anglerfish are some of this star system's toughest organisms. In this tank is a male Anglerfish, which are ten times smaller than a female. Males are always very hungry, and are always looking for a female to latch onto.</Page>
+			<Page>Originating from the mesa planet, Anglerfish are some of this star system's toughest organisms. In this tank is a male Anglerfish, which are ten times smaller than a female. Males are always very hungry, and are always looking for a female to latch onto.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>PREBRAMBLE_ZOO_ERNESTO</FactID>
+		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

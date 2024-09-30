@@ -7,7 +7,7 @@
 			<Page>All of our nuclear arsenal is ready for defense! We are prepared for Operation Phoenix.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>VOLCANO_LAB_SRAT_TEXT2</FactID>
+			<FactID>VOLCANO_LAB_STRAT_TEXT2</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

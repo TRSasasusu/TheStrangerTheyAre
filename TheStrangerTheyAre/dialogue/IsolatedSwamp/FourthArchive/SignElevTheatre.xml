@@ -7,5 +7,8 @@
 		<Dialogue>
 			<Page>Elevator to Theater</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_ARCHIVE_THEATRE</FactID>
+		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

@@ -72,14 +72,14 @@
       {
         "name": "SurfaceNode2",
         "position": {
-          "x": 124.1085,
-          "y": 534.2208,
-          "z": 289.1217
+          "x": 126.9976,
+          "y": 536.5712,
+          "z": 289.718
         },
         "rotation": {
-          "x": 0.7838,
-          "y": 292.0222,
-          "z": 321.5698
+          "x": 41.1467,
+          "y": 248.071,
+          "z": 62.7762
         },
         "scale": 0.07386212,
         "linksTo": "PreBramble_Puzzle"
@@ -6515,16 +6515,25 @@
       {
         "parentPath": "Sector/PreBramble_Research/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
         "isRelativeToParent": true,
+        "position": {
+          "z": 1.4925
+        },
         "xmlFile": "dialogue/PreBramble/Research/Wall1.xml"
       },
       {
         "parentPath": "Sector/PreBramble_Research/Interactibles/Text/Wall2/Arc_TestAlienWriting/Dialogue",
         "isRelativeToParent": true,
+        "position": {
+          "z": 1.4925
+        },
         "xmlFile": "dialogue/PreBramble/Research/Wall2.xml"
       },
       {
         "parentPath": "Sector/PreBramble_Research/Interactibles/Text/Wall3/Arc_TestAlienWriting/Dialogue",
         "isRelativeToParent": true,
+        "position": {
+          "z": 1.4925
+        },
         "xmlFile": "dialogue/PreBramble/Research/Wall3.xml"
       },
       {
@@ -6568,6 +6577,7 @@
         "horizonRadius": 0,
         "hasWarpEffects": false,
         "parentPath": "Sector/PreBramble_SIM/GlitchedTiles/WarpPoint",
+        "isRelativeToParent": true,
         "pairedSingularity": "GLITCH_WH"
       },
       {
@@ -6865,8 +6875,18 @@
     "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_AtoC_WH/WhiteHoleRenderer",
     "Sector/WarpHouse_NorthPole/Offsets/Warp/PREBRAMBLE_WARP_AtoC_WH/WhiteHoleAmbience",
 
-    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_AtoD_WH/WhiteHoleRenderer",
-    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_AtoD_WH/WhiteHoleAmbience"
+    "Sector/WarpHousfe_Caves/Offsets/Warp/PREBRAMBLE_WARP_AtoD_WH/WhiteHoleRenderer",
+    "Sector/WarpHouse_Caves/Offsets/Warp/PREBRAMBLE_WARP_AtoD_WH/WhiteHoleAmbience",
+
+    "Sector/PREBRAMBLE_WH2/WhiteHoleRenderer",
+    "Sector/PREBRAMBLE_WH2/WhiteHoleAmbience",
+
+    "Sector/PreBramble_BrambleResearch/PREBRAMBLE_WH/WhiteHoleRenderer",
+    "Sector/PreBramble_BrambleResearch/PREBRAMBLE_WH/WhiteHoleAmbience",
+
+    "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleRenderer",
+    "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleAmbience",
+    "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleEmissionOneShot"
   ],
   "Volumes": {
     "audioVolumes": [
@@ -6908,6 +6928,12 @@
         "revealOn": "enter",
         "radius": 1100,
         "reveals": [ "PREBRAMBLE_MAIN_E" ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "radius": 400,
+        "reveals": [ "PREBRAMBLE_MAIN_CAVES" ]
       },
       {
         "revealFor": "player",
@@ -7023,11 +7049,92 @@
       {
         "revealFor": "player",
         "revealOn": "enter",
+        "parentPath": "Sector/BioExperiment",
+        "isRelativeToParent": true,
+        "radius": 20,
+        "reveals": [
+          "PREBRAMBLE_ZOO_E"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/SurfaceNode1",
+        "isRelativeToParent": true,
+        "radius": 10,
+        "reveals": [
+          "PREBRAMBLE_FOREST_NODE"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/DirSign_Forest",
+        "isRelativeToParent": true,
+        "radius": 50,
+        "reveals": [
+          "PREBRAMBLE_FOREST_E"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "position": {
+          "x": -56.42,
+          "y": 622.7999,
+          "z": 67.4
+        },
+        "radius": 60,
+        "reveals": [
+          "PREBRAMBLE_POLE_E"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_SIM/Interactibles/Elevator Full/ElevatorTopArea",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -56.42,
+          "y": 622.7999,
+          "z": 67.4
+        },
+        "radius": 5,
+        "reveals": [
+          "PREBRAMBLE_POLE_ELEV"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_BrambleResearch",
+        "isRelativeToParent": true,
+        "radius": 20,
+        "reveals": [
+          "PREBRAMBLE_B_RESEARCH_R"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "radius": 2,
+        "position": {
+          "x": 84.8792,
+          "y": -190.0382,
+          "z": 245.1046
+        },
+        "reveals": [
+          "PREBRAMBLE_PROJ_INSIDE"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
         "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable (2)/Projector_Lens (1)",
         "isRelativeToParent": true,
-        "radius": 5,
+        "radius": 3,
         "position": {
-          "y": -2
+          "z": 10
         },
         "reveals": [
           "PREBRAMBLE_PROJ1"
@@ -7038,9 +7145,9 @@
         "revealOn": "enter",
         "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable (1)/Projector_Lens (1)",
         "isRelativeToParent": true,
-        "radius": 5,
+        "radius": 3,
         "position": {
-          "y": -2
+          "z": 10
         },
         "reveals": [
           "PREBRAMBLE_PROJ2"
@@ -7051,12 +7158,38 @@
         "revealOn": "enter",
         "parentPath": "Sector/PreBramble_Research/Props/Props_IP_ProjectionTable/Projector_Lens (1)",
         "isRelativeToParent": true,
-        "radius": 5,
+        "radius": 3,
         "position": {
-          "y": -2
+          "z": 10
         },
         "reveals": [
           "PREBRAMBLE_PROJ3"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "position": {
+          "x": 112.2872,
+          "y": 540.1157,
+          "z": 296.7781
+        },
+        "radius": 2,
+        "reveals": [
+          "PREBRAMBLE_B_RESEARCH_E"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "position": {
+          "x": 0.2559615,
+          "y": 0.1665356,
+          "z": -0.2669325
+        },
+        "radius": 5,
+        "reveals": [
+          "PREBRAMBLE_POLE_SOLUTION"
         ]
       }
     ]

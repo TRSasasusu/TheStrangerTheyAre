@@ -43,6 +43,9 @@ namespace TheStrangerTheyAre
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
 
+            // adds the spawn determine thing
+            //Locator.GetPlayerBody().gameObject.AddComponent<DetermineSystemSpawn>();
+
             // Example of accessing game code.
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {

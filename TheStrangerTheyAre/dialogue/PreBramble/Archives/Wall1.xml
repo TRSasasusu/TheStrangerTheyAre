@@ -5,10 +5,10 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Day 99: Just started to map out these pocket dimension. Thankfully I scanned the lighted node with my vision torch, because there's no way out! That dimension is a trap!</Page>
+			<Page>Anglerfish 101: Anglerfish are easier to not wake up if you go shipless. We think this is due to noise. If an emergency arises, ejecting yourself out of the ship will be handy.</Page>
 		</Dialogue>
-	</DialogueNode>
 		<RevealFacts>
-			<FactID>DARKER_BASE_MAP1</FactID>
+			<FactID>PREBRAMBLE_ARCHIVES_TEXT_ANGLER1</FactID>
 		</RevealFacts>
+	</DialogueNode>
 </DialogueTree>

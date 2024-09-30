@@ -9,6 +9,9 @@
 			"outerRadius": 500
 		}
 	],
+	"Base": {
+		"surfaceSize": 200
+	},
 	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "Nearest Neighbor",
@@ -37,6 +40,8 @@
 				"reveals": [
 					"NOM_StrandedVessel_E"
 				],
+				"revealFor": "player",
+				"revealOn": "enter",
 				"radius": 200,
 				"position": {
 					"x": 0.1478,
@@ -48,8 +53,10 @@
 				"reveals": [
 					"NOM_Coords"
 				],
+				"revealFor": "player",
+				"revealOn": "enter",
 				"radius": 10,
-				"position": {    
+				"position": {
 					"x": -0.0263,
 					"y": -19.7422,
 					"z": -35.0823
@@ -70,7 +77,7 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"path": "DeadNomai_Body/Prefab_NOM_Dead_it_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -430,14 +437,14 @@
 			{
 				"type": "standingVisionTorch",
 				"position": {
-					"x": 14.9258,
-					"y": 14.2689,
+					"x": 14.4258,
+					"y": 12.8689,
 					"z": -28.1774
 				},
 				"rotation": {
-					"x": 2.6137,
-					"y": 261.9108,
-					"z": 306.4647
+					"x": 320.7823,
+					"y": 261.3416,
+					"z": 282.31
 				},
 				"reveals": [ "VESSEL_VISION" ],
 				"slides": [

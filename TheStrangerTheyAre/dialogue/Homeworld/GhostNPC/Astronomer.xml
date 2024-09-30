@@ -8,7 +8,9 @@
   <Dialogue> <!-- The actual dialogue we want to show the player -->
       <Page>....Only minutes away...</Page> <!-- A single page of the dialogue -->
   </Dialogue>
-
+	 <RevealFacts>
+		 <FactID>HOME_OBSERVE_BIRD</FactID>
+	 </RevealFacts>
   <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
    <DialogueOption> <!-- A single option the player can pick -->
     <Text>What are you observing?</Text> <!-- The text to display for the option -->

@@ -7,7 +7,7 @@
 			<Page>Our glorious Scientist crash landed on a moon orbiting this planet in our nearest neighbor system, plotting to terraform our home. On the left was what it looked like when he was there studying, on the right is what it looks like now. Truly a terrible fate for a planet.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>HOME_SCI_DBMUSEUM_DBEXHIBIT</FactID>
+			<FactID>HOME_MUSEUM_DBEXHIBIT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

@@ -34,27 +34,6 @@
 		"surfaceGravity": 12,
 		"surfaceSize": 100
 	},
-	"Volumes": {
-		"oxygenVolumes": [
-			{
-				"parentPath": "Sector/PlantedTreeHOME",
-				"isRelativeToParent": true,
-				"radius": 30
-			}
-		],
-		"audioVolumes": [
-			{
-				"audio": "assets/Audio/EnigmaAmbience.ogg",
-				"volume": 0.3,
-				"radius": 300
-			}
-		],
-		"mapRestrictionVolumes": [
-			{
-				"radius": 300
-			}
-		]
-	},
 	"HeightMap": {
 		"redTile": {
 			"textureTile": "assets/Texture/sedna.png",
@@ -71,7 +50,7 @@
 		"tileBlendMap": "assets/Texture/quantum_state3_r.png",
 		"heightMap": "assets/Texture/quantum_state3_h.png",
 		"textureMap": "assets/Texture/quantum_lod_3.png",
-		"minHeight": 100,
+		"minHeight": 150,
 		"maxHeight": 200,
 		"smoothness": 1
 	},
@@ -204,10 +183,9 @@
 				"path": "Assets/Seals/Seal_Enigma.prefab",
 				"alignRadial": true,
 				"position": {
-					"x": -41.6827,
-
-					"y": 130.5504,
-					"z": -19.372
+					"x": -50.7593,
+					"y": 159.5365,
+					"z": -24.3714
 				}
 			},
 			{
@@ -221,19 +199,6 @@
 				"path": "Assets/Enigma/Ice/EnigmaThinIceBroken.prefab",
 				"keepLoaded": true,
 				"scale": 52.80805
-			},
-			{
-				"path": "Sector/BrambleMuseum_HOME/Interactables/Item_CloakMineral",
-				"position": {
-					"x": -197.8369,
-					"y": -20.85594,
-					"z": 25.3168
-				},
-				"rotation": {
-					"x": 311.588,
-					"y": 6.19249,
-					"z": 94.90948
-				}
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
@@ -262,6 +227,19 @@
 					"y": 26.1132,
 					"z": 14.82502
 				}
+			},
+			{
+				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"position": {
+					"x": -171.6924,
+					"y": 57.0237,
+					"z": -71.9307
+				},
+				"rotation": {
+					"x": 38.4215,
+					"y": 342.9549,
+					"z": 65.794
+				}
 			}
 		],
 		"dialogue": [
@@ -277,17 +255,115 @@
 			}
 		]
 	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector-3/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/EnigmaAmbience.ogg",
+				"volume": 0.3,
+				"radius": 300
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 300
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 300,
+				"reveals": [
+					"QUANTUM_MAIN_E",
+					"QUANTUM_MAIN_S3"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/QuantumResearchLab",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_S3_LAB_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/QuantumResearchLab/Interactables/CloakMineralSocket",
+				"isRelativeToParent": true,
+				"radius": 3,
+				"position": {
+					"x": -6
+				},
+				"reveals": [
+					"QUANTUM_S3_LAB_SOLUTION"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/Seal_Enigma",
+				"isRelativeToParent": true,
+				"radius": 5,
+				"reveals": [
+					"QUANTUM_SEAL_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/Lab_Stall",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_STALL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/Lab_Stall",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"reveals": [
+					"QUANTUM_STALL_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/Camp_Stall",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_STALL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/Camp_Stall",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"reveals": [
+					"QUANTUM_STALL_E"
+				]
+			}
+		]
+	},
 	"ParticleFields": [
 		{
 			"type": "snowflakesHeavy"
 		}
 	],
-	"canShowOnTitle": false,
-	"ShipLog": {
-		"spriteFolder": "assets/Texture/Shiplog",
-		"mapMode": {
-			"revealedSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI.png",
-			"outlineSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI_O.png"
-		}
-	}
+	"canShowOnTitle": false
 }

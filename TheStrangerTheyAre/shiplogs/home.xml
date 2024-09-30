@@ -8,6 +8,7 @@
         <Name>Strangers' Homeworld</Name> <!-- The name to show for this entry both on the card and in map mode -->
         <Curiosity>HOME_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
         <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+		<IgnoreMoreToExplore/>
 
         <RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>HOME_R</ID> <!-- The ID of this fact -->
@@ -20,7 +21,12 @@
             <ID>HOME_REVEAL</ID> <!-- The ID of this fact -->
             <Text>I found the Homeworld of the Strangers Inhabitants!</Text> <!-- The Text to display for this fact -->
         </ExploreFact>
-
+		
+		<ExploreFact>
+			<ID>HOME_VESSEL</ID>
+			<Text>I used The Vessel to warp to The Stranger System! Now let's end this!</Text>
+		</ExploreFact>
+		
 		<Entry>
 			<ID>HOME_PARTYHOUSE</ID>
 			<Name>Leader's Corridor</Name>
@@ -39,13 +45,72 @@
 			</ExploreFact>
 
 			<ExploreFact>
-				<ID>HOME_PARTYHOUSE_VISIONTORCH</ID>
+				<ID>HOME_PARTYHOUSE_TORCH</ID>
 				<Text>A vision torch appears to be hung right next to the Leader.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>HOME_CINDER</ID>
+			<Name>Memorial Tower</Name>
+			<Curiosity>HOME_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>HOME_CINDER_R</ID>
+				<RumorName>Cinder Isles Tower?</RumorName>
+				<SourceID>HOME</SourceID>
+				<Text>I see a building similar to the Cinder Isles Tower on The Stranger.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>HOME_CINDER_EYE</ID>
+				<Text>I found a memorial with the Eye Symbol and an Artifact.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
-				<ID>HOME_VESSEL</ID>
-				<Text>I used The Vessel to warp to The Stranger System! Now let's end this!</Text>
+				<ID>HOME_CINDER_EYE_TEXT1</ID>
+				<Text>It says here that this memorial is dedicated to all those who died on The Stranger.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_CINDER_EYE_TEXT2</ID>
+				<Text>A memorial for The Prisoner explains some more details about why he did what he did.</Text>
+			</ExploreFact>
+			
+			<ExploreFact>
+				<ID>HOME_CINDER_SCI</ID>
+				<Text>I found a memorial upstairs with four containers of ashes.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_CINDER_SCI_TEXT</ID>
+				<Text>The memorial updstairs is dedicated to The Scientist and his family. His last words were, "Keep our home safe, by any means necessary".</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>HOME_OBSERVE</ID>
+			<Name>Observation Deck</Name>
+			<Curiosity>HOME_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>HOME_OBSERVE_E</ID>
+				<Text>I found an observation deck similar to the one on Angler's Eye.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_OBSERVE_BIRD</ID>
+				<Text>I met an inhabitant astronomer. He seems pretty content about the world dying.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_OBSERVE_TEXT1</ID>
+				<Text>Some observations show that the Desert Planet is deadly on its sun-facing side and a shows the fourth planet is known to "change appearance".</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_OBSERVE_TEXT2</ID>
+				<Text>Some observations show that the Desert Planet is deadly on its sun-facing side and a shows the fourth planet is known to "change appearance".</Text>
 			</ExploreFact>
 		</Entry>
 		
@@ -74,6 +139,85 @@
 			<ExploreFact>
 				<ID>HOME_LEADER_VESSEL</ID>
 				<Text>I was able to convince Cypress to come with me aboard The Vessel! Let's get going!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>HOME_SPACE</ID>
+			<Name>Space Center</Name>
+			<Curiosity>HOME_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>HOME_SPACE_R</ID>
+				<RumorName>Giant Building?</RumorName>
+				<SourceID>HOME</SourceID>
+				<Text>I see a giant building with three inhabitant ships on its ceiling.</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>HOME_SPACE_E</ID>
+				<Text>I found what looks to be a Space Center.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_SPACE_TWIG</ID>
+				<Text>I met an inhabitant named Twig, who runs his kind's space program!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_SPACE_INFO1</ID>
+				<Text>Twig's mission is to send out a probe into the dying universe.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_SPACE_INFO2</ID>
+				<Text>Twig said the best way to explore the system is to reach out to the other travelers.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>HOME_MUSEUM</ID>
+			<Name>The Scientist's Museum</Name>
+			<Curiosity>HOME_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>HOME_MUSEUM_E</ID>
+				<Text>I found a statue of The Scientist outside a taller-looking version of the Bramble Museum on Angler's Eye. Looks like it was built in his honor.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_SCI_STATUE</ID>
+				<Text>The statue was built in honor of The Scientist. If it wasn't for him, this planet would still just be a ball of dirt.</Text>
+			</ExploreFact>
+			
+			<ExploreFact>
+				<ID>HOME_MUSEUM_DBEXHIBIT</ID>
+				<Text>The exhibit to the left is a model of Dark Bramble, both before and after the invasive Bramble Plant outgrew it. The text appears to be updated now that Dark Bramble is overgrown.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_MUSEUM_ANGLEREXHIBIT</ID>
+				<Text>The exhibit straight ahead is a model of an Anglerfish. The text has changed to glorify The Scientist's victory.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_MUSEUM_VINEEXHIBIT</ID>
+				<Text>The exhibit to the right contains the minerals abundant on Angler's Eye preventing a Bramble Vine from growing any further. The text boasts about The Scientist using it to make it back to his homeworld.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_MUSEUM_MINERALEXHIBIT</ID>
+				<Text>An extra exhibit downstairs has one of those Cloak Minerals on display.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_MUSEUM_SYSTEM</ID>
+				<Text>A model of the star system is in the basement of the museum. There are four planets, just like the slide reels have shown. Some text also provides details on the system.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>HOME_MUSEUM_VESSEL</ID>
+				<Text>A Nomai Vessel is hung up in the corner...could that mean...</Text>
 			</ExploreFact>
 		</Entry>
     </Entry>

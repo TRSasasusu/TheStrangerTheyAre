@@ -8,7 +8,8 @@
         <Name>Preserved Planet</Name> <!-- The name to show for this entry both on the card and in map mode -->
         <Curiosity>PREBRAMBLE_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
         <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
-
+		<IgnoreMoreToExplore/>
+		
 		<RumorFact>
 			<ID>PREBRAMBLE_MAIN_R</ID>
 			<RumorName>Angler's Eye Archives?</RumorName>
@@ -18,7 +19,7 @@
 		
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>PREBRAMBLE_MAIN_E</ID> <!-- The ID of this fact -->
-            <Text>I found a new simulation built to preserve the life of Dark Bramble's former self.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            <Text>I found a new simulation built to preserve the life of Dark Bramble's former self!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
         </ExploreFact>
 
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
@@ -30,6 +31,11 @@
             <ID>PREBRAMBLE_MAIN_SECRETPATH2</ID> <!-- The ID of this fact -->
             <Text>When the flood happens 13 minutes into the loop, the glitched walkways disappear.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
         </ExploreFact>
+
+		<ExploreFact>
+			<ID>PREBRAMBLE_MAIN_CAVES</ID>
+			<Text>I found a cave system beneath the Preserved Planet's Crust! There's water below, so I should probably watch my step.</Text>
+		</ExploreFact>
 
         <Entry> <!-- An Entry For This Planet -->
             <ID>PREBRAMBLE_WARP_MAIN</ID> <!-- The ID of this entry -->
@@ -53,7 +59,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_MAIN_RIGHT</ID>
-				<Text>The door straight to the right warps me underneath the planet's crust.</Text>
+				<Text>The door to the right warps me underneath the planet's crust.</Text>
 			</ExploreFact>
         </Entry>
 
@@ -130,6 +136,7 @@
             <ID>PREBRAMBLE_PROJ</ID> <!-- The ID of this entry -->
             <Name>Projection House</Name> <!-- The name to show for this entry both on the card and in map mode -->
             <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+			<AltPhotoCondition>PREBRAMBLE_PROJ_INSIDE</AltPhotoCondition>
 			<ExploreFact>
 				<ID>PREBRAMBLE_PROJ_E</ID>
 				<Text>There's a house with three projectors inside. I can't seem to get in!</Text>
@@ -147,7 +154,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_PROJ1_TEXT</ID>
-				<Text>The text on the left explains how to perform the exploit, which involves walking away from The Artifact.</Text>
+				<Text>The text on the left explains how to perform an exploit, which involves walking away from The Artifact.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -170,5 +177,142 @@
 				<Text>The text on the right points out that the Bramble Plant started its growth from the North Pole</Text>
 			</ExploreFact>
         </Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_ZOO</ID>
+			<Name>Bio Experiments</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ZOO_E</ID>
+				<Text>I found a tank containing an Anglerfish and a Jellyfish.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ZOO_ERNESTO</ID>
+				<Text>The observations made by the inhabitants reveal that Anglerfish were once part of Ember Twin, and that the small ones are typically males looking for mates. No wonder why it latched onto one of our ships!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ZOO_GESWALDO</ID>
+				<Text>It also appears that Jellyfish are actually native to the frozen planet that became Dark Bramble, and eventually both species lived together in its subsurface ocean.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_B_RESEARCH</ID>
+			<Name>Bramble Research Lab</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>PREBRAMBLE_B_RESEARCH_R</ID>
+				<RumorName>Locked Building</RumorName>
+				<Text>There is a building north of the forest that I can't seem to get into. There has to be another way!</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>PREBRAMBLE_B_RESEARCH_E</ID>
+				<Text>I made it into the lab with the Bramble Seed in the Bramble Forest!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_B_RESEARCH_TEXT</ID>
+				<Text>The inhabitant who left this place behind discovered the Angler's Eye minerals to stop the Bramble from growing!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_B_RESEARCH_ICE</ID>
+				<Text>I discovered I can reflect my artifact light off of ice shards!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_FOREST</ID>
+			<Name>Bramble Forest</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_FOREST_E</ID>
+				<Text>I found a forest made of Bramble Vines.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_FOREST_NODE</ID>
+				<Text>There is a Bramble Node that appears to be blocked.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_FOREST_TEXT1</ID>
+				<Text>It appears that this forest is preserving some awkward stage in the infestation of the Bramble Plant where the vines formed forest biomes such as these.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_FOREST_TEXT2</ID>
+				<Text>A poem is written on one of the signs in the forest. "Tread the path of the lit candles. With wind opens the seed of bramble."</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_POLE</ID>
+			<Name>North Pole</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_POLE_E</ID>
+				<Text>There is what appears to be a Bramble Infestation on the North Pole.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_POLE_ELEV</ID>
+				<Text>There is an elevator on the edge of the North Pole.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_POLE_SOLUTION</ID>
+				<Text>I was able to get down by blowing away the Bramble and using the elevator!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_ARCHIVES</ID>
+			<Name>Bramble Archives</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_E</ID>
+				<Text>Growing atop the planet's North Pole at the bottom of the ocean was a Bramble Node, and within that node are this area's archives!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</ID>
+				<Text>Some text on the table hints that the Bramble Node needs to be photographed before entering.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_TEXT_ANGLER1</ID>
+				<Text>Some advice for evading Anglerfish is written on the wall! "Anglerfish are easier to not wake up if you go shipless. We think this is due to noise. If an emergency arises, ejecting yourself out of the ship will be handy."</Text>
+			</ExploreFact>
+			
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_TEXT_ANGLER2</ID>
+				<Text>Some advice for evading Anglerfish is written on the wall! "To evade an anglerfish, use diagonal thrusting power. You can also avoid being chased if you stop thrusting right when you see it moving, or hear it grunt. It might just cast right past you instead of chase you."</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>PREBRAMBLE_REEL</ID>
+			<!-- The ID of this entry -->
+			<Name>Dark Bramble Reel</Name>
+			<!-- The name to show for this entry both on the card and in map mode -->
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>PREBRAMBLE_REEL_E</ID>
+				<!-- The ID of this fact -->
+				<Text>This slide reel shows The Scientist using a Vision Telescope to unravel the mysteries of the frozen planet, only for him to find out that it would become Dark Bramble. However, this vision gave him an idea...</Text>
+			</ExploreFact>
+		</Entry>
     </Entry>
 </AstroObjectEntry>

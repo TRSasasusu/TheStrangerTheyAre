@@ -8,7 +8,7 @@
 			<Page>In memory to all those who suffered and died aboard our ship, meant to reach the vortex. The horrors of famine, self-harm, insanity, and simulated isolation almost wiped out our entire species.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>HOME_ENT_STRANGER</FactID>
+			<FactID>HOME_CINDER_EYE_TEXT1</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

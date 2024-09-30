@@ -9,6 +9,7 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>NEWSIM_RD_TEXT3</FactID>
+			<FactID>NEWSIM_ARCHIVE_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

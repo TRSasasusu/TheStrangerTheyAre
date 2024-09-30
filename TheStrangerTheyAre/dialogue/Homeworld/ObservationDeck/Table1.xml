@@ -8,8 +8,8 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>HOME_OBSERVE_TEXT1</FactID>
-			<FactID>DESERT_SUNSIDE_R</FactID>
-			<FactID>QUANTUM_MAIN_R2</FactID>
+			<FactID>DESERT_LIGHT_R</FactID>
+			<FactID>QUANTUM_MAIN_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

@@ -7,5 +7,8 @@
 		<Dialogue>
 			<Page>Elevator to Bottom Archives: Informative Slide Reels</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_ARCHIVE_BOTTOMREELS</FactID>
+		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

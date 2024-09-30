@@ -11,6 +11,7 @@ namespace TheStrangerTheyAre
         GameObject scientist4; // creates variable to store the next loop scientist
         GameObject projector; // creates variable to store the projector
         GameObject startingPoint; // creates variable to store starting point
+        GhostBrain sciBrain;
         private bool isChecked = false; // creates boolean to check if the pedestal got activated.
 
 

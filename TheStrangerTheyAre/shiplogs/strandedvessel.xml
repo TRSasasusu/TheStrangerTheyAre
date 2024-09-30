@@ -13,7 +13,7 @@
         <RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>NOM_StrandedVessel_R</ID> <!-- The ID of this fact -->
             <RumorName>A Stranded Vessel?</RumorName> <!-- The name of the rumor this fact relates to -->
-            <Text>According to a system model I saw on the Strangers' Homeworld, there is a beaten up Nomai Vessel on the outskirts of this star system.</Text> <!-- The Text to display for this fact -->
+            <Text>There appears to be evidence of an abandoned Nomai Vessel somewhere in the system.</Text> <!-- The Text to display for this fact -->
         </RumorFact>
 
         <ExploreFact> <!-- An explore fact that belongs to this entry -->

@@ -7,7 +7,7 @@
 			"vinePrefab": "none",
 			"radius": 750,
 			"fogDensity": 10,
-			"linksTo": "DarkerNode_B1",
+			"linksTo": "DarkerNode_C1",
 			"fogTint": {
 				"r": 0,
 				"g": 0,

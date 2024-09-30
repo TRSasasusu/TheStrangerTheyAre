@@ -5,10 +5,10 @@
 		<Name>ScientistTomb</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Here lies the Scientist, in all his former glory. May he forever be remembered for his successful terraforming of our home planet. His final words, "Keep this planet safe, by any means necessary".</Page>
+			<Page>Here lies the Scientist, in all his former glory. May he forever be remembered for his successful terraforming of our home planet. His final words, "Keep our home safe, by any means necessary".</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>HOME_ENT_SCIENTIST</FactID>
+			<FactID>HOME_CINDER_SCI_TEXT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

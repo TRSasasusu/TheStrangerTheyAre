@@ -1,0 +1,206 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Distant Enigma</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>QUANTUM</ID> <!-- The ID of this entry -->
+        <Name>Distant Enigma</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>QUANTUM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+		<IgnoreMoreToExplore/>
+		
+		<RumorFact>
+			<ID>QUANTUM_MAIN_R</ID>
+			<RumorName>Fourth Planet?</RumorName>
+			<Text>I've heard rumors of a fourth planet with a transforming surface.</Text>
+		</RumorFact>
+		
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>QUANTUM_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>The Distant Enigma is the fourth planet of the Strangers' Homeworld. quantum planet with three states.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+		<ExploreFact>
+			<!-- An explore fact that belongs to this entry -->
+			<ID>QUANTUM_MAIN_Q</ID>
+			<!-- The ID of this fact -->
+			<Text>Bark hinted that this planet is quantum, and has three states.</Text>
+			<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+		</ExploreFact>
+
+		<ExploreFact>
+			<!-- An explore fact that belongs to this entry -->
+			<ID>QUANTUM_MAIN_S1</ID>
+			<!-- The ID of this fact -->
+			<Text>The first state has hard, dark ice, but seem to have some dents in them.</Text>
+			<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+		</ExploreFact>
+
+		<ExploreFact>
+			<!-- An explore fact that belongs to this entry -->
+			<ID>QUANTUM_MAIN_S2</ID>
+			<!-- The ID of this fact -->
+			<Text>The second state has lakes of poisonous water.</Text>
+			<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+		</ExploreFact>
+
+		<ExploreFact>
+			<!-- An explore fact that belongs to this entry -->
+			<ID>QUANTUM_MAIN_S3</ID>
+			<!-- The ID of this fact -->
+			<Text>The third state has thin, bright ice.</Text>
+			<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+		</ExploreFact>
+
+		<Entry> <!-- An Entry For This Planet -->
+            <ID>QUANTUM_TRAVELER</ID> <!-- The ID of this entry -->
+            <Name>Bark</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>QUANTUM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<RumorFact>
+				<ID>QUANTUM_TRAVELER_R</ID>
+				<RumorName>Fourth Planet Traveler?</RumorName>
+				<SourceID>HOME_SPACE</SourceID>
+				<Text>According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I sometimes hear one coming from the distance, of what could be a fourth planet.</Text>
+			</RumorFact>
+			
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>QUANTUM_TRAVELER_E</ID> <!-- The ID of this fact -->
+                <Text>I met a travelling inhabitant named Bark, but he's only alive on the first state.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>QUANTUM_S1_LAB</ID>
+			<Name>Distant Enigma Lab</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+			
+			<ExploreFact>
+				<ID>QUANTUM_S1_LAB_E</ID>
+				<Text>I found a lab on Distant Enigma's First State!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S1_LAB_TEXT1</ID>
+				<Text>Studies show that quantum bodies like this one are a collision of separate timelines. They also mention the lab changes each state.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S1_LAB_TEXT2</ID>
+				<Text>On the third state, they have discovered a machine meant for a special mineral.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S1_LAB_TEXT3</ID>
+				<Text>Shown on a picture on one of the tables is a scratch on the ice of the current state. They say it signals the location of a "key" on the second state to open the third state's lab, and can be found behind the first state's lab.</Text>
+			</ExploreFact>
+			
+			<ExploreFact>
+				<ID>QUANTUM_S1_LAB_TEXT4</ID>
+				<Text>Shown on a picture on one of the tables is a crack on the ice of the current state. It can be found on the patch of ice to the right of the lab, and might need something to break its weight.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_S2_LAB</ID>
+			<Name>Distant Enigma Broken Lab</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>QUANTUM_S2_LAB_E</ID>
+				<Text>I found a lab on Distant Enigma's Second State....but it's all broken.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S2_LAB_TEXT</ID>
+				<Text>It seems the lab was broken and all operations in it were moved to the volcanic moon.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_S3_LAB</ID>
+			<Name>Distant Enigma Blocked Lab</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>QUANTUM_S3_LAB_E</ID>
+				<Text>I found a lab on Distant Enigma's Third State! It seems blocked...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S3_LAB_SOLUTION</ID>
+				<Text>I made my way into the blocked lab with the door interface hidden beneath the liquid on the second state! Behind the door is an odd machine...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S3_LAB_TEXT1</ID>
+				<Text>Studies show that something natural on the planet once caused the ice on this state to break.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S3_LAB_TEXT2</ID>
+				<Text>Some text next to the machine explains its capabilities of weaking quantum objects. This decreases their range, which causes their weight to increase.</Text>
+			</ExploreFact>
+		</Entry>
+		
+		<Entry>
+			<ID>QUANTUM_SEAL</ID>
+			<Name>Distant Enigma Seal</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+			<AltPhotoCondition>QUANTUM_SEAL_INSERT</AltPhotoCondition>
+
+			<RumorFact>
+				<ID>QUANTUM_SEAL_R</ID>
+				<RumorName>Fourth Planet Socket?</RumorName>
+				<SourceID>RING_STRUCTURE</SourceID>
+				<Text>On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a rocky, magenta planet. Could this be the fourth planet?</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_SEAL_E</ID>
+				<Text>I found a square piece of metal under the ice of the third state! It looks like it fits in the structure...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_SEAL_INSERT</ID>
+				<Text>When I put the seal in the structure, it gave me a symbol.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_STALL</ID>
+			<Name>Quantum Stalls</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>QUANTUM_STALL_R</ID>
+				<RumorName>Distant Enigma Stalls?</RumorName>
+				<Text>A few inhabitant-sized stalls are found throughout Distant Enigma. What is their purpose?</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_STALL_E</ID>
+				<Text>The stalls change the state of Distant Enigma!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_INT</ID>
+			<Name>Hidden Interface</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>QUANTUM_INT_R</ID>
+				<RumorName>The Key to the Third Lab</RumorName>
+				<SourceID>QUANTUM_S1_LAB</SourceID>
+				<Text>It says the "key" to the third state's lab involves a scratch on the first state, and is under the liquid of the second state.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_INT_E</ID>
+				<Text>I found an interface with my scout using the scratch marks and changing states!</Text>
+			</ExploreFact>
+		</Entry>
+    </Entry>
+</AstroObjectEntry>

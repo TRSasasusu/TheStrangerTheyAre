@@ -48,6 +48,7 @@
         },
         "slides": [
           { "imagePath": "assets/Slideshows/TimberHearthVision/title.png" },
+          { "imagePath": "assets/Slideshows/TimberHearthVision/title.png" },
           {
             "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0038.jpg",
             "backdropAudio": "assets/Audio/hearthsshadow2.ogg"

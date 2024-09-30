@@ -14,7 +14,9 @@
 			<Page>C-c-cold....s-s-star death....m-m-must nnot...die...</Page>
 			<!-- A single page of the dialogue -->
 		</Dialogue>
-
+		<RevealFacts>
+			<FactID>QUANTUM_TRAVELER_E</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<!-- Show options the player can choose from when the character is done talking -->
 			<DialogueOption>

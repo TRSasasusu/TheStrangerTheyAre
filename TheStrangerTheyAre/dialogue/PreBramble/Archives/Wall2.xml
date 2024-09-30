@@ -5,10 +5,10 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Day 105: I did it! After days of searching, I've found the right path to what might be our home system! I'll make a slide recording in case I don't forget.</Page>
+			<Page>Anglerfish 101: To evade an anglerfish, use diagonal thrusting power. You can also avoid being chased if you stop thrusting right when you see it moving, or hear it grunt. It might just cast right past you instead of chase you.</Page>
 		</Dialogue>
-	</DialogueNode>
 		<RevealFacts>
-			<FactID>DARKER_BASE_MAP2</FactID>
+			<FactID>PREBRAMBLE_ARCHIVES_TEXT_ANGLER2</FactID>
 		</RevealFacts>
+	</DialogueNode>
 </DialogueTree>

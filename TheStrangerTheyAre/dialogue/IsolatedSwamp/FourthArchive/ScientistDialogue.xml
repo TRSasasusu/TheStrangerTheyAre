@@ -10,7 +10,9 @@
   <Dialogue> <!-- The actual dialogue we want to show the player -->
    <Page>What an incredible species you are, and what an incredible language you speak. Am I speaking your language right and do you understand me clearly?</Page> <!-- A single page of the dialogue -->
   </Dialogue>
-
+	 <RevealFacts>
+		 <FactID>NEWSIM_SCIENTIST_CLONE</FactID>
+	 </RevealFacts>
   <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
 
    <DialogueOption> <!-- A single option the player can pick -->
@@ -28,7 +30,7 @@
     <Text>Aren't you going to snap my neck?</Text>
     <DialogueTarget>A3</DialogueTarget>
    </DialogueOption>
-   <RevealFacts><FactID>NEWSIM_SCIENTIST_CLONE</FactID></RevealFacts>
+   
   </DialogueOptionsList>
 </DialogueNode>
 

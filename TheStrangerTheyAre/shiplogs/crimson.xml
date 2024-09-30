@@ -1,0 +1,132 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Velvet Vortex</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>CRIMSON</ID> <!-- The ID of this entry -->
+        <Name>Velvet Vortex</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>CRIMSON_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+		<IgnoreMoreToExplore/>
+		
+		<RumorFact>
+			<ID>CRIMSON_MAIN_R</ID>
+			<RumorName>A Crimson Gas Giant?</RumorName>
+			<Text>On the Strangers' Homeworld, I can see a crimson gas giant orbitng the host star.</Text>
+		</RumorFact>
+		
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>CRIMSON_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>Velvet Vortex is the third planet in the Strangers' Home System. It has tornadoes like Giant's Deep, but the ocean is not safe to swim in.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>CRIMSON_TRAVELER</ID> <!-- The ID of this entry -->
+            <Name>Pine</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>CRIMSON_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<RumorFact>
+				<ID>CRIMSON_TRAVELER_R</ID>
+				<RumorName>Crimson Giant Traveler?</RumorName>
+				<SourceID>HOME_SPACE</SourceID>
+				<Text>According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I hear one coming from the crimson gas giant.</Text>
+			</RumorFact>
+			
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>CRIMSON_TRAVELER_E</ID> <!-- The ID of this fact -->
+                <Text>I met a travelling inhabitant named Pine!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>CRIMSON_BASE</ID>
+			<Name>Velvet Vortex Base</Name>
+			<Curiosity>CRIMSON_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>CRIMSON_BASE_R</ID>
+				<RumorName>Base on Velvet Vortex?</RumorName>
+				<SourceID>CRIMSON_TRAVELER</SourceID>
+				<Text>Pine said there was a base somewhere on Velvet Vortex.</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>CRIMSON_BASE_E</ID>
+				<Text>There is a base on the edge of one of the islands in Velvet Vortex.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_LAB_TEXT1</ID>
+				<Text>The inhabitants that wrote this say they were ordered to obtain electricity from the oceans for weaponry. They also doubt they were in danger at all.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_LAB_TEXT2</ID>
+				<Text>One inhabitant suggests that the threat is classified to prevent panic.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_LAB_TEXT3</ID>
+				<Text>One inhabitant was asking another how they got something down there while holding 2 things at once.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_BASE_WALL_E</ID>
+				<Text>I can't get up past the giant wall!</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_BASE_WALL_SUCCESS</ID>
+				<Text>I made it past the giant wall with the aid of a tornado.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_BASE_ELEVATOR</ID>
+				<Text>This elevator lowers down to the bottom of the ocean.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>CRIMSON_SEAL</ID>
+			<Name>Velvet Vortex Seal</Name>
+			<Curiosity>CRIMSON_MAIN</Curiosity>
+			<AltPhotoCondition>CRIMSON_SEAL_INSERT</AltPhotoCondition>
+
+			<RumorFact>
+				<ID>CRIMSON_SEAL_R</ID>
+				<RumorName>Crimson Giant Socket?</RumorName>
+				<SourceID>RING_STRUCTURE</SourceID>
+				<Text>On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a crimson gas giant.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SEAL_E</ID>
+				<Text>I found a square piece of metal under the ocean! It looks like it fits in the structure...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SEAL_INSERT</ID>
+				<Text>When I put the seal in the structure, it gave me a symbol.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>CRIMSON_CAMP</ID>
+			<Name>Velvet Vortex Campsite</Name>
+			<Curiosity>CRIMSON_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>CRIMSON_CAMP_R</ID>
+				<RumorName>Velvet Vortex Campsite?</RumorName>
+				<SourceID>CRIMSON_TRAVELER</SourceID>
+				<Text>Pine said he had a camp elsewhere in Velvet Vortex.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_CAMP_E</ID>
+				<Text>I found a campsite on one of the islands!</Text>
+			</ExploreFact>
+		</Entry>
+    </Entry>
+</AstroObjectEntry>

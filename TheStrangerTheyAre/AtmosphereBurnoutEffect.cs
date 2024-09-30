@@ -10,6 +10,7 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
     private GameObject clouds;
     private GameObject hazard;
     private GameObject flames;
+    private GameObject shipLog;
     private Animator flamesAnim;
     private bool runOnce;
     void Start()
@@ -22,8 +23,10 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
         clouds = desert.transform.Find("Sector/Clouds").gameObject;
         hazard = desert.transform.Find("Sector/HazardVolume").gameObject;
         flames = desert.transform.Find("Sector/AtmosphereBurn").gameObject;
+        shipLog = desert.transform.Find("Sector/AtmoReveal").gameObject;
         flamesAnim = flames.transform.Find("Scale/Animation").gameObject.GetComponent<Animator>();
         flames.SetActive(false);
+        shipLog.SetActive(false);
     }
 
     void Update()
@@ -37,23 +40,21 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
         if (burnDuration && !runOnce)
         {
             runOnce = true;
-            TheStrangerTheyAre.WriteLine("Atmosphere should be burning...", MessageType.Success); // debug message
             flames.SetActive(true);
             flamesAnim.Play("AtmosphereBurn", 0);
         }
 
         if (atmosphereBurnt)
         {
-            TheStrangerTheyAre.WriteLine("Atmosphere should be finished burning...", MessageType.Success); // debug message
             atmosphere.SetActive(false);
             clouds.SetActive(false);
             hazard.SetActive(false);
             flames.SetActive(false);
+            shipLog.SetActive(true);
         }
 
         if (burnEnd)
         {
-            TheStrangerTheyAre.WriteLine("Effect should be stopping...", MessageType.Success); // debug message
             flames.SetActive(false);
         }
     }

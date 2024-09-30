@@ -7,8 +7,8 @@
 		<Dialogue>
 			<Page>During my time on my kind's ship, I have discovered a bug where the renderer changes to low-poly once you walk too far away from your lantern. Also watch out for glitching tiles when the electricity fails or flickers on my kin's ship.</Page>
 		</Dialogue>
-	</DialogueNode>
 		<RevealFacts>
 			<FactID>PREBRAMBLE_PROJ1_TEXT</FactID>
 		</RevealFacts>
+	</DialogueNode>
 </DialogueTree>

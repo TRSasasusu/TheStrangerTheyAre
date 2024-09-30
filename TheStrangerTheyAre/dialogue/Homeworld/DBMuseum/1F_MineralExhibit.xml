@@ -7,7 +7,7 @@
 			<Page>Our Scientist brought this mineral with him on his trip back from that cloaked moon. Please do not touch!</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>HOME_SCI_DBMUSEUM_MINERAL</FactID>
+			<FactID>HOME_MUSEUM_MINERALEXHIBIT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

@@ -1,9 +1,8 @@
 {
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
     "canEnterViaWarpDrive": true,
-    "loopDuration": 22,
+    "loopDuration": 33,
   "respawnHere": true,
-    "startHere": true,
   "Vessel": {
     "alwaysPresent": false,
     "coords": {
@@ -29,9 +28,9 @@
       "parentPath": "Sector",
       "isRelativeToParent": true,
       "position": {
-        "x": 158.9002,
-        "y": -9.04232,
-        "z": -137.4802
+        "x": 159.0177,
+        "y": -12.90565,
+        "z": -137.9137
       },
       "rotation": {
         "x": 274.937,
@@ -45,123 +44,415 @@
         "endTimesAudio": "assets/Audio/RiversEndTimes.ogg",
         "travelAudio": "assets/Audio/LostSignal.ogg"
     },
-    "entryPositions": [
-        {
-            "id": "NOM_StrandedVessel",
-            "position": {
-                "x": 1000,
-                "y": 500
-            }
-        },
-        {
-            "id": "NOM_VesselCoords",
-            "position": {
-                "x": 1200,
-                "y": 800
-            }
-        },
-        {
-            "id": "NOM_VesselVision",
-            "position": {
-                "x": 1000,
-                "y": 800
-            }
-        },
-      {
-        "id": "NOM_VesselMsg",
-        "position": {
-          "x": 800,
-          "y": 800
-        }
-      },
-      {
-        "id": "LAB",
-        "position": {
-          "x": 0,
-          "y": 0
-        }
-      },
-      {
-        "id": "LAB_TREE",
-        "position": {
-          "x": 100,
-          "y": -100
-        }
-      },
-      {
-        "id": "LAB_TERRA",
-        "position": {
-          "x": 250,
-          "y": -100
-        }
-      },
-      {
-        "id": "HOME",
-        "position": {
-          "x": 500,
-          "y": 0
-        }
-      },
-      {
-        "id": "HOME_PARTYHOUSE",
-        "position": {
-          "x": 250,
-          "y": 100
-        }
-      },
-      {
-        "id": "HOME_LEADER",
-        "position": {
-          "x": 250,
-          "y": 250
-        }
+  "entryPositions": [
+    {
+      "id": "NOM_StrandedVessel",
+      "position": {
+        "x": 0,
+        "y": 800
       }
-    ],
-    "curiosities": [
-      {
-        "id": "NOM_StrandedVessel",
-        "color": {
-          "r": 29,
-          "g": 201,
-          "b": 158,
-          "a": 255
-        },
-        "highlightColor": {
-          "r": 46,
-          "g": 242,
-          "b": 193,
-          "a": 255
-        }
-      },
-      {
-        "id": "LAB_MAIN",
-        "color": {
-          "r": 29,
-          "g": 201,
-          "b": 158,
-          "a": 255
-        },
-        "highlightColor": {
-          "r": 46,
-          "g": 242,
-          "b": 193,
-          "a": 255
-        }
-      },
-      {
-        "id": "HOME_MAIN",
-        "color": {
-          "r": 29,
-          "g": 201,
-          "b": 158,
-          "a": 255
-        },
-        "highlightColor": {
-          "r": 46,
-          "g": 242,
-          "b": 193,
-          "a": 255
-        }
+    },
+    {
+      "id": "NOM_VesselCoords",
+      "position": {
+        "x": 200,
+        "y": 1000
       }
-    ]
+    },
+    {
+      "id": "NOM_VesselVision",
+      "position": {
+        "x": 0,
+        "y": 1000
+      }
+    },
+    {
+      "id": "NOM_VesselMsg",
+      "position": {
+        "x": -200,
+        "y": 1000
+      }
+    },
+    {
+      "id": "LAB",
+      "position": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "id": "LAB_TREE",
+      "position": {
+        "x": 100,
+        "y": -100
+      }
+    },
+    {
+      "id": "LAB_TERRA",
+      "position": {
+        "x": 250,
+        "y": -100
+      }
+    },
+    {
+      "id": "HOME",
+      "position": {
+        "x": 500,
+        "y": 0
+      }
+    },
+    {
+      "id": "HOME_PARTYHOUSE",
+      "position": {
+        "x": 250,
+        "y": 100
+      }
+    },
+    {
+      "id": "HOME_LEADER",
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "HOME_CINDER",
+      "position": {
+        "x": 600,
+        "y": 250
+      }
+    },
+    {
+      "id": "HOME_SPACE",
+      "position": {
+        "x": 250,
+        "y": 550
+      }
+    },
+    {
+      "id": "HOME_OBSERVE",
+      "position": {
+        "x": 450,
+        "y": -200
+      }
+    },
+    {
+      "id": "HOME_MUSEUM",
+      "position": {
+        "x": 550,
+        "y": -200
+      }
+    },
+    {
+      "id": "DESERT",
+      "position": {
+        "x": -800,
+        "y": 0
+      }
+    },
+    {
+      "id": "DESERT_LIGHT",
+      "position": {
+        "x": -1000,
+        "y": -100
+      }
+    },
+    {
+      "id": "DESERT_TRAVELER",
+      "position": {
+        "x": -1000,
+        "y": 100
+      }
+    },
+    {
+      "id": "DESERT_SEAL",
+      "position": {
+        "x": -500,
+        "y": -600
+      }
+    },
+    {
+      "id": "RING",
+      "position": {
+        "x": -300,
+        "y": 0
+      }
+    },
+    {
+      "id": "RING_STRUCTURE",
+      "position": {
+        "x": -300,
+        "y": -300
+      }
+    },
+    {
+      "id": "RING_TRAVELER",
+      "position": {
+        "x": -500,
+        "y": 100
+      }
+    },
+    {
+      "id": "RING_CAMP",
+      "position": {
+        "x": -500,
+        "y": -100
+      }
+    },
+    {
+      "id": "RING_SEAL",
+      "position": {
+        "x": -300,
+        "y": -600
+      }
+    },
+    {
+      "id": "HOME_PARTYHOUSE",
+      "position": {
+        "x": 250,
+        "y": 100
+      }
+    },
+    {
+      "id": "HOME_LEADER",
+      "position": {
+        "x": 250,
+        "y": 250
+      }
+    },
+    {
+      "id": "CRIMSON",
+      "position": {
+        "x": 800,
+        "y": 0
+      }
+    },
+    {
+      "id": "CRIMSON_BASE",
+      "position": {
+        "x": 1000,
+        "y": -100
+      }
+    },
+    {
+      "id": "CRIMSON_TRAVELER",
+      "position": {
+        "x": 1000,
+        "y": 100
+      }
+    },
+    {
+      "id": "CRIMSON_CAMP",
+      "position": {
+        "x": 1000,
+        "y": 300
+      }
+    },
+    {
+      "id": "CRIMSON_SEAL",
+      "position": {
+        "x": -100,
+        "y": -600
+      }
+    },
+    {
+      "id": "VOLCANO",
+      "position": {
+        "x": 1200,
+        "y": -200
+      }
+    },
+    {
+      "id": "VOLCANO_BASE",
+      "position": {
+        "x": 1200,
+        "y": 100
+      }
+    },
+    {
+      "id": "VOLCANO_SEAL",
+      "position": {
+        "x": 100,
+        "y": -600
+      }
+    },
+    {
+      "id": "QUANTUM",
+      "position": {
+        "x": 800,
+        "y": 800
+      }
+    },
+    {
+      "id": "QUANTUM_S1_LAB",
+      "position": {
+        "x": 1000,
+        "y": 1000
+      }
+    },
+    {
+      "id": "QUANTUM_S2_LAB",
+      "position": {
+        "x": 1000,
+        "y": 800
+      }
+    },
+    {
+      "id": "QUANTUM_S3_LAB",
+      "position": {
+        "x": 1000,
+        "y": 600
+      }
+    },
+    {
+      "id": "QUANTUM_INT",
+      "position": {
+        "x": 1200,
+        "y": 800
+      }
+    },
+    {
+      "id": "QUANTUM_TRAVELER",
+      "position": {
+        "x": 600,
+        "y": 700
+      }
+    },
+    {
+      "id": "QUANTUM_SEAL",
+      "position": {
+        "x": 300,
+        "y": -600
+      }
+    },
+    {
+      "id": "QUANTUM_STALL",
+      "position": {
+        "x": 600,
+        "y": 900
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "id": "NOM_StrandedVessel",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "LAB_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "DESERT_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "RING_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "HOME_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "CRIMSON_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "VOLCANO_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    },
+    {
+      "id": "QUANTUM_MAIN",
+      "color": {
+        "r": 29,
+        "g": 201,
+        "b": 158,
+        "a": 255
+      },
+      "highlightColor": {
+        "r": 46,
+        "g": 242,
+        "b": 193,
+        "a": 255
+      }
+    }
+  ]
 }

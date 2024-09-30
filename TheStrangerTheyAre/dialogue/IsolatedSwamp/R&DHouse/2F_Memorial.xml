@@ -7,5 +7,8 @@
 		<Dialogue>
 			<Page>This memorial is in place in honor of my family. My two children have passed due to lack of nutrients on my kin's ship. And in case my wife and I die, I put a memorial in place for her and myself as well.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_RD_MEM</FactID>
+		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

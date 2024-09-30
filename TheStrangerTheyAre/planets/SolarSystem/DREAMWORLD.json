@@ -1219,6 +1219,107 @@
 					"z": 750.533
 				}
 			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM",
+				"isRelativeToParent": true,
+				"radius": 50,
+				"reveals": [
+					"NEWSIM_MAIN_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTiles",
+				"isRelativeToParent": false,
+				"radius": 70,
+				"reveals": [
+					"NEWSIM_MAIN_SECRETPATH1"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTilesAlt",
+				"isRelativeToParent": false,
+				"radius": 70,
+				"reveals": [
+					"NEWSIM_MAIN_SECRETPATH2"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"NEWSIM_RD_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"NEWSIM_THEATRE_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"NEWSIM_ARCHIVE_COMA"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 5,
+				"position": {
+					"x": -207.5574,
+					"y": -29.05064,
+					"z": 715.9171
+				},
+				"reveals": [
+					"NEWSIM_ARCHIVE_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 3,
+				"position": {
+					"x": -146.545,
+					"y": 0.6448,
+					"z": 747.4331
+				},
+				"reveals": [
+					"NEWSIM_THEATRE_THIEF2"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 3,
+				"position": {
+					"x": -231.1215,
+					"y": -66.3207,
+					"z": 723.9084
+				},
+				"reveals": [
+					"NEWSIM_ARCHIVE_THEATRE"
+				]
+			}
 		]
 	},
 	"removeChildren": [

@@ -46,7 +46,7 @@
 		}
 	},
 	"Base": {
-		"surfaceGravity": 25,
+		"surfaceGravity": 15,
 		"surfaceSize": 315
 	},
 	"HeightMap": {
@@ -208,15 +208,11 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Seals/Seal_Crimson.prefab",
 				"position": {
-					"x": 181.2442,
-					"y": -67.5687,
-					"z": 50.7572
+					"x": 169.2399,
+					"y": -103.743,
+					"z": 24.29415
 				},
-				"rotation": {
-					"x": 344.3236,
-					"y": 349.9773,
-					"z": 248.5534
-				}
+				"alignRadial": true
 			},
 			{
 				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
@@ -410,6 +406,68 @@
 				"isRelativeToParent": true,
 				"radius": 30
 			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 650,
+				"reveals": [ "CRIMSON_MAIN_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 5,
+				"parentPath": "Sector/Seal_Crimson",
+				"isRelativeToParent": true,
+				"reveals": [ "CRIMSON_SEAL_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 20,
+				"parentPath": "Sector/CG_ISLAND_LAB",
+				"isRelativeToParent": true,
+				"reveals": [ "CRIMSON_BASE_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30,
+				"reveals": [ "CRIMSON_CAMP_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": 287.5935,
+					"y": -210.002,
+					"z": 25.23114
+				},
+				"radius": 5,
+				"reveals": [ "CRIMSON_BASE_WALL_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": 292.2225,
+					"y": -205.7678,
+					"z": 23.6631
+				},
+				"radius": 5,
+				"reveals": [ "CRIMSON_BASE_WALL_SUCCESS" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Prefab_IP_ElevatorLink/ElevatorDestinations/LowerDestination/Building",
+				"isRelativeToParent": true,
+				"radius": 10,
+				"reveals": [ "CRIMSON_BASE_ELEVATOR" ]
+			}
 		]
 	},
 	"Orbit": {
@@ -424,6 +482,7 @@
 	},
 	"canShowOnTitle": false,
 	"ShipLog": {
+		"xmlFile": "shiplogs/crimson.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
 			"revealedSprite": "assets/Texture/Shiplog/CRIMSONGIANT_UI.png",

@@ -1,0 +1,99 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Sizzling Sands</ID> <!-- The ID of the planet this xml file is for -->
+
+    <Entry> <!-- An Entry For This Planet -->
+        <ID>DESERT</ID> <!-- The ID of this entry -->
+        <Name>Sizzling Sands</Name> <!-- The name to show for this entry both on the card and in map mode -->
+        <Curiosity>DESERT_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+        <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
+		<IgnoreMoreToExplore/>
+		
+		<RumorFact>
+			<ID>DESERT_MAIN_R</ID>
+			<RumorName>Desert Planet?</RumorName>
+			<Text>On the Strangers' Homeworld, I can see a desert planet orbitng the host star.</Text>
+		</RumorFact>
+		
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>DESERT_MAIN_E</ID> <!-- The ID of this fact -->
+            <Text>Sizzling Sands is the first planet in the Strangers' Home System. It's a tidally locked desert.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <ID>DESERT_MAIN_ATMO</ID> <!-- The ID of this fact -->
+            <Text>23 minutes into the loop, Sizzling Sands can no longer handle the growing sun and loses its atmosphere.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+        </ExploreFact>
+
+        <Entry> <!-- An Entry For This Planet -->
+            <ID>DESERT_TRAVELER</ID> <!-- The ID of this entry -->
+            <Name>Arcadia</Name> <!-- The name to show for this entry both on the card and in map mode -->
+            <Curiosity>DESERT_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<RumorFact>
+				<ID>DESERT_TRAVELER_R</ID>
+				<RumorName>Desert Planet Traveler?</RumorName>
+				<SourceID>HOME_SPACE</SourceID>
+				<Text>According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I hear one coming from the desert planet.</Text>
+			</RumorFact>
+			
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>DESERT_TRAVELER_E</ID> <!-- The ID of this fact -->
+                <Text>I met a travelling inhabitant named Arcadia!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+
+            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+                <ID>DESERT_TRAVELER_INFO</ID> <!-- The ID of this fact -->
+                <Text>Arcadia says there's nothing much to do on Sizzling Sands, but that the sun-facing side is fatal to those who enter.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            </ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>DESERT_LIGHT</ID>
+			<Name>Sun-Facing Side</Name>
+			<Curiosity>DESERT_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>DESERT_LIGHT_R</ID>
+				<RumorName>Sun-Facing Side</RumorName>
+				<SourceID>DESERT_TRAVELER</SourceID>
+				<Text>I've heard that the sun-facing side is fatal to those who enter.</Text>
+			</RumorFact>
+			
+			<ExploreFact>
+				<ID>DESERT_LIGHT_E</ID>
+				<Text>The sun-facing side will kill me if I enter it. Is there even a safe way to walk there on foot?</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_LIGHT_ATMO</ID>
+				<Text>Once the atmosphere burns out in 23 minutes, I can now safely walk the sun-facing side without dying!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>DESERT_SEAL</ID>
+			<Name>Sizzling Sands Seal</Name>
+			<Curiosity>DESERT_MAIN</Curiosity>
+			<AltPhotoCondition>DESERT_SEAL_INSERT</AltPhotoCondition>
+
+			<RumorFact>
+				<ID>DESERT_SEAL_R</ID>
+				<RumorName>Desert Planet Socket?</RumorName>
+				<SourceID>RING_STRUCTURE</SourceID>
+				<Text>On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a desert planet.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>DESERT_SEAL_E</ID>
+				<Text>I found a square piece of metal on the sun-side of Sizzling Sands! It looks like it fits in the structure...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>DESERT_SEAL_INSERT</ID>
+				<Text>When I put the seal in the structure, it gave me a symbol.</Text>
+			</ExploreFact>
+		</Entry>
+    </Entry>
+</AstroObjectEntry>

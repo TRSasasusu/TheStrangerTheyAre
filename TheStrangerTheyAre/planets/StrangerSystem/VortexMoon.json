@@ -67,6 +67,36 @@
 				"firstContactDamage": 10,
 				"type": "fire"
 			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 200,
+				"reveals": [ "VOLCANO_MAIN_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 5,
+				"parentPath": "Sector/Seal_CrimsonMoon",
+				"isRelativeToParent": true,
+				"reveals": [ "VOLCANO_SEAL_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 40,
+				"parentPath": "Sector/MilitaryBase",
+				"isRelativeToParent": true,
+				"reveals": [ "VOLCANO_BASE_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 96,
+				"reveals": [ "VOLCANO_MAIN_HAZARD" ]
+			}
 		]
 	},
 	"Lava": {
@@ -108,11 +138,6 @@
 			{
 				"xmlFile": "dialogue/CrimsonMoon/1F_Wall2.xml",
 				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall2/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true
-			},
-			{
-				"xmlFile": "dialogue/CrimsonMoon/1F_Wall3.xml",
-				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall3/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
@@ -222,11 +247,12 @@
 			"b": 12
 		}
 	},
-    "ShipLog": {
+	"ShipLog": {
+		"xmlFile": "shiplogs/volcano.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
-			"mapMode": {
-				"revealedSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI.png",
-				"outlineSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI_O.png"
-			}
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI_O.png"
+		}
 	}
 }

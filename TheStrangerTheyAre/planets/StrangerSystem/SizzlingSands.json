@@ -110,7 +110,11 @@
 				"audio": "assets/Audio/ultravioletdeath.ogg",
 				"parentPath": "Sector/HazardVolume",
 				"rename": "Hazard Ambience",
-				"isRelativeToParent": true,
+				"position": {
+					"x": 0,
+					"y": -150,
+					"z": 0
+				},
 				"radius": 200
 			}
 		],
@@ -119,6 +123,45 @@
 				"parentPath": "Sector/PlantedTreeHOME",
 				"isRelativeToParent": true,
 				"radius": 30
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 250,
+				"reveals": [ "DESERT_MAIN_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 200,
+				"position": {
+					"x": 0,
+					"y": -150,
+					"z": 0
+				},
+				"reveals": [ "DESERT_LIGHT_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 5,
+				"parentPath": "Sector/Seal_Desert",
+				"isRelativeToParent": true,
+				"reveals": [ "DESERT_SEAL_E" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"rename": "AtmoReveal",
+				"radius": 200,
+				"position": {
+					"x": 0,
+					"y": -150,
+					"z": 0
+				},
+				"reveals": [ "DESERT_MAIN_ATMO" ]
 			}
 		]
 	},
@@ -222,6 +265,19 @@
 					"y": 274.6441,
 					"z": 171.5768
 				}
+			},
+			{
+				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"position": {
+					"x": -55.6873,
+					"y": 146.7604,
+					"z": -2.0797
+				},
+				"rotation": {
+					"x": 7.0733,
+					"y": 154.9943,
+					"z": 319.7341
+				}
 			}
 		],
 		"signals": [
@@ -252,6 +308,7 @@
 	"canShowOnTitle": false,
 	"ShipLog": {
 		"spriteFolder": "assets/Texture/Shiplog",
+		"xmlFile": "shiplogs/desert.xml",
 		"mapMode": {
 			"revealedSprite": "assets/Texture/Shiplog/DESERT_UI.png",
 			"outlineSprite": "assets/Texture/Shiplog/DESERT_UI_O.png"

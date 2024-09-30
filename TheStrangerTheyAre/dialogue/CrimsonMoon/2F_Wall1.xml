@@ -7,7 +7,7 @@
 			<Page>In order to respond to anomalies like the one that just happened, today I announce the founding of the Ministry of Defense!</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>VOLCANO_LAB_SRAT_TEXT1</FactID>
+			<FactID>VOLCANO_LAB_STRAT_TEXT1</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

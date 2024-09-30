@@ -7,8 +7,8 @@
 		<Dialogue>
 			<Page>I never knew reflection was coded into the simulation framework. Seems like you can shine your light on a piece of ice and it will bounce off and hit the door.</Page>
 		</Dialogue>
-	</DialogueNode>
 		<RevealFacts>
 			<FactID>PREBRAMBLE_B_RESEARCH_ICE</FactID>
 		</RevealFacts>
+	</DialogueNode>
 </DialogueTree>

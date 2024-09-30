@@ -21,6 +21,7 @@
 			"rename": "SpawnShip_Bramble"
 		},
 		"playerSpawn": {
+			"rename": "SpawnPlayer_Bramble",
 			"startWithSuit": true
 		}
 	},

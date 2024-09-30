@@ -24,6 +24,7 @@
     <DialogueTarget>3</DialogueTarget>
    </DialogueOption>
     <DialogueOption>
+		<EntryCondition>HOME_VESSEL</EntryCondition>
     <Text>Doesn't matter. Come with me. Your life depends on it!</Text>
     <DialogueTarget>4</DialogueTarget>
    </DialogueOption>

@@ -80,27 +80,6 @@
 			]
 		}
 	],
-	"Volumes": {
-		"oxygenVolumes": [
-			{
-				"parentPath": "Sector/PlantedTreeHOME",
-				"isRelativeToParent": true,
-				"radius": 30
-			}
-		],
-		"audioVolumes": [
-			{
-				"audio": "assets/Audio/EnigmaAmbience.ogg",
-				"volume": 0.3,
-				"radius": 300
-			}
-		],
-		"mapRestrictionVolumes": [
-			{
-				"radius": 300
-			}
-		]
-	},
 	"Props": {
 		"signals": [
 			{
@@ -164,209 +143,209 @@
 			}
 		],
 		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",
+				"count": 50,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L2.prefab",
+				"count": 50,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L3.prefab",
+				"count": 50,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S1.prefab",
+				"count": 100,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S2.prefab",
+				"count": 100,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S3.prefab",
+				"count": 100,
+				"minHeight": 200,
+				"keepLoaded": true
+			}
+		],
+		"quantumGroups": [
+			{
+				"id": "QuantumStuff",
+				"type": "sockets",
+				"sockets": [
 					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",
-						"count": 50,
-						"minHeight": 200,
-						"keepLoaded": true
+						"probability": 0.5,
+						"position": {
+							"x": -179.4065,
+							"y": 60.6461,
+							"z": -57.375
+						},
+						"rotation": {
+							"x": 11.4458,
+							"y": 345.3546,
+							"z": 74.4897
+						}
 					},
 					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMAROCK_L2.prefab",
-						"count": 50,
-						"minHeight": 200,
-						"keepLoaded": true
+						"position": {
+							"x": -195.2266,
+							"y": 23.2954,
+							"z": 36.4916
+						},
+						"rotation": {
+							"x": 21.5671,
+							"y": 192.5001,
+							"z": 277.0595
+						}
 					},
 					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMAROCK_L3.prefab",
-						"count": 50,
-						"minHeight": 200,
-						"keepLoaded": true
+						"position": {
+							"x": -110.5973,
+							"y": -43.071,
+							"z": -160.921
+						},
+						"rotation": {
+							"x": 7.7851,
+							"y": 306.0026,
+							"z": 102.6099
+						}
 					},
 					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMAROCK_S1.prefab",
-						"count": 100,
-						"minHeight": 200,
-						"keepLoaded": true
+						"position": {
+							"x": -45.8311,
+							"y": 158.8125,
+							"z": -112.5893
+						},
+						"rotation": {
+							"x": 38.4792,
+							"y": 201.4139,
+							"z": 359.0818
+						}
 					},
 					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMAROCK_S2.prefab",
-						"count": 100,
-						"minHeight": 200,
-						"keepLoaded": true
+						"position": {
+							"x": -28.6211,
+							"y": 196.5091,
+							"z": -23.4307
+						},
+						"rotation": {
+							"x": 1.8119,
+							"y": 311.5583,
+							"z": 10.3547
+						}
 					},
 					{
-						"assetBundle": "assets/AssetBundle/strangerbundle",
-						"path": "Assets/Enigma/Rocks/ENIGMAROCK_S3.prefab",
-						"count": 100,
-						"minHeight": 200,
-						"keepLoaded": true
+						"position": {
+							"x": 132.4991,
+							"y": 142.2827,
+							"z": -46.8077
+						},
+						"rotation": {
+							"x": 323.0598,
+							"y": 328.4733,
+							"z": 333.6856
+						}
+					},
+					{
+						"position": {
+							"x": 155.1924,
+							"y": -43.1447,
+							"z": -118.4923
+						},
+						"rotation": {
+							"x": 315.0545,
+							"y": 205.3762,
+							"z": 107.4601
+						}
+					},
+					{
+						"position": {
+							"x": 170.2479,
+							"y": -89.6186,
+							"z": -54.5394
+						},
+						"rotation": {
+							"x": 318.1622,
+							"y": 172.5515,
+							"z": 125.9037
+						}
+					},
+					{
+						"position": {
+							"x": 67.3199,
+							"y": -179.261,
+							"z": 57.6456
+						},
+						"rotation": {
+							"x": 26.841,
+							"y": 223.5845,
+							"z": 176.8449
+						}
 					}
-				],
-				"quantumGroups": [
+				]
+			},
+			{
+				"id": "WeakenedQuantum",
+				"type": "sockets",
+				"sockets": [
 					{
-						"id": "QuantumStuff",
-						"type": "sockets",
-						"sockets": [
-							{
-								"probability": 0.5,
-								"position": {
-									"x": -179.4065,
-									"y": 60.6461,
-									"z": -57.375
-								},
-								"rotation": {
-									"x": 11.4458,
-									"y": 345.3546,
-									"z": 74.4897
-								}
-							},
-							{
-								"position": {
-									"x": -195.2266,
-									"y": 23.2954,
-									"z": 36.4916
-								},
-								"rotation": {
-									"x": 21.5671,
-									"y": 192.5001,
-									"z": 277.0595
-								}
-							},
-							{
-								"position": {
-									"x": -110.5973,
-									"y": -43.071,
-									"z": -160.921
-								},
-								"rotation": {
-									"x": 7.7851,
-									"y": 306.0026,
-									"z": 102.6099
-								}
-							},
-							{
-								"position": {
-									"x": -45.8311,
-									"y": 158.8125,
-									"z": -112.5893
-								},
-								"rotation": {
-									"x": 38.4792,
-									"y": 201.4139,
-									"z": 359.0818
-								}
-							},
-							{
-								"position": {
-									"x": -28.6211,
-									"y": 196.5091,
-									"z": -23.4307
-								},
-								"rotation": {
-									"x": 1.8119,
-									"y": 311.5583,
-									"z": 10.3547
-								}
-							},
-							{
-								"position": {
-									"x": 132.4991,
-									"y": 142.2827,
-									"z": -46.8077
-								},
-								"rotation": {
-									"x": 323.0598,
-									"y": 328.4733,
-									"z": 333.6856
-								}
-							},
-							{
-								"position": {
-									"x": 155.1924,
-									"y": -43.1447,
-									"z": -118.4923
-								},
-								"rotation": {
-									"x": 315.0545,
-									"y": 205.3762,
-									"z": 107.4601
-								}
-							},
-							{
-								"position": {
-									"x": 170.2479,
-									"y": -89.6186,
-									"z": -54.5394
-								},
-								"rotation": {
-									"x": 318.1622,
-									"y": 172.5515,
-									"z": 125.9037
-								}
-							},
-							{
-								"position": {
-									"x": 67.3199,
-									"y": -179.261,
-									"z": 57.6456
-								},
-								"rotation": {
-									"x": 26.841,
-									"y": 223.5845,
-									"z": 176.8449
-								}
-							}
-						]
+						"probability": 0.8,
+						"position": {
+							"x": -179.4065,
+							"y": 60.6461,
+							"z": -57.375
+						},
+						"rotation": {
+							"x": 11.4458,
+							"y": 345.3546,
+							"z": 74.4897
+						}
 					},
 					{
-						"id": "WeakenedQuantum",
-						"type": "sockets",
-						"sockets": [
-							{
-								"probability": 0.8,
-								"position": {
-									"x": -179.4065,
-									"y": 60.6461,
-									"z": -57.375
-								},
-								"rotation": {
-									"x": 11.4458,
-									"y": 345.3546,
-									"z": 74.4897
-								}
-							},
-							{
-								"position": {
-									"x": -195.2266,
-									"y": 23.2954,
-									"z": 36.4916
-								},
-								"rotation": {
-									"x": 21.5671,
-									"y": 192.5001,
-									"z": 277.0595
-								}
-							},
-							{
-								"position": {
-									"x": -110.5973,
-									"y": -43.071,
-									"z": -160.921
-								},
-								"rotation": {
-									"x": 7.7851,
-									"y": 306.0026,
-									"z": 102.6099
-								}
-							}
-						]
+						"position": {
+							"x": -195.2266,
+							"y": 23.2954,
+							"z": 36.4916
+						},
+						"rotation": {
+							"x": 21.5671,
+							"y": 192.5001,
+							"z": 277.0595
+						}
+					},
+					{
+						"position": {
+							"x": -110.5973,
+							"y": -43.071,
+							"z": -160.921
+						},
+						"rotation": {
+							"x": 7.7851,
+							"y": 306.0026,
+							"z": 102.6099
+						}
 					}
-				],
+				]
+			}
+		],
 		"details": [
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
@@ -493,6 +472,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Lab_Stall",
 				"position": {
 					"x": -195.3059,
 					"y": 10.04503,
@@ -507,6 +487,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Camp_Stall",
 				"position": {
 					"x": -38.29794,
 					"y": 154.2975,
@@ -517,15 +498,111 @@
 					"y": 26.1132,
 					"z": 14.82502
 				}
-			}
-		]
 			},
-			"canShowOnTitle":false,
-			"ShipLog":{
-				"spriteFolder": "assets/Texture/Shiplog",
-				"mapMode": {
-					"revealedSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI.png",
-					"outlineSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI_O.png"
+			{
+				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"position": {
+					"x": -171.6924,
+					"y": 57.0237,
+					"z": -71.9307
+				},
+				"rotation": {
+					"x": 38.4215,
+					"y": 342.9549,
+					"z": 65.794
 				}
 			}
+		]
+	},
+	"Volumes": {
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/EnigmaAmbience.ogg",
+				"volume": 0.3,
+				"radius": 300
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 300
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 300,
+				"reveals": [
+					"QUANTUM_MAIN_E",
+					"QUANTUM_MAIN_S1"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/QuantumResearchLab2",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_S1_LAB_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/Lab_Stall",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_STALL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/Lab_Stall",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"reveals": [
+					"QUANTUM_STALL_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/Camp_Stall",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_STALL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/Camp_Stall",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"reveals": [
+					"QUANTUM_STALL_E"
+				]
+			}
+		]
+	},
+	"canShowOnTitle": false,
+	"ShipLog": {
+		"xmlFile": "shiplogs/quantum.xml",
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI_O.png"
+		}
+	}
 }

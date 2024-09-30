@@ -67,35 +67,6 @@
 			"a": 0
 		}
 	},
-	"Volumes": {
-		"hazardVolumes": [
-			{
-				"radius": 197,
-				"damagePerSecond": 20,
-				"firstContactDamage": 60,
-				"type": "riverHeat"
-			}
-		],
-		"oxygenVolumes": [
-			{
-				"parentPath": "Sector/PlantedTreeHOME",
-				"isRelativeToParent": true,
-				"radius": 30
-			}
-		],
-		"audioVolumes": [
-			{
-				"audio": "assets/Audio/EnigmaAmbience.ogg",
-				"volume": 0.3,
-				"radius": 300
-			}
-		],
-		"mapRestrictionVolumes": [
-			{
-				"radius": 300
-			}
-		]
-	},
 	"Props": {
 		"signals": [
 			{
@@ -173,7 +144,7 @@
 				}
 			},
 			{
-				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"path": "Sector-2/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
 				"removeChildren": [ "OxygenVolume" ],
 				"scale": 0.2712,
 				"position": {
@@ -265,6 +236,119 @@
 					"y": 26.1132,
 					"z": 14.82502
 				}
+			},
+			{
+				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"position": {
+					"x": -171.6924,
+					"y": 57.0237,
+					"z": -71.9307
+				},
+				"rotation": {
+					"x": 38.4215,
+					"y": 342.9549,
+					"z": 65.794
+				}
+			}
+		]
+	},
+	"Volumes": {
+		"hazardVolumes": [
+			{
+				"radius": 197,
+				"damagePerSecond": 20,
+				"firstContactDamage": 60,
+				"type": "riverHeat"
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector-2/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/EnigmaAmbience.ogg",
+				"volume": 0.3,
+				"radius": 300
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 300
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 300,
+				"reveals": [
+					"QUANTUM_MAIN_E",
+					"QUANTUM_MAIN_S2"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-2/QuantumResearchLabBroken",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_S2_LAB_E"
+				]
+			},
+			{
+				"revealFor": "probe",
+				"revealOn": "snapshot",
+				"parentPath": "Sector-2/EnigmaInterface",
+				"isRelativeToParent": true,
+				"radius": 3,
+				"reveals": [
+					"QUANTUM_INT_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-2/Lab_Stall",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_STALL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-2/Lab_Stall",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"reveals": [
+					"QUANTUM_STALL_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-2/Camp_Stall",
+				"isRelativeToParent": true,
+				"radius": 20,
+				"reveals": [
+					"QUANTUM_STALL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-2/Camp_Stall",
+				"isRelativeToParent": true,
+				"radius": 1,
+				"reveals": [
+					"QUANTUM_STALL_E"
+				]
 			}
 		]
 	},
@@ -273,12 +357,5 @@
 			"type": "snowflakesHeavy"
 		}
 	],
-	"canShowOnTitle": false,
-	"ShipLog": {
-		"spriteFolder": "assets/Texture/Shiplog",
-		"mapMode": {
-			"revealedSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI.png",
-			"outlineSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI_O.png"
-		}
-	}
+	"canShowOnTitle": false
 }

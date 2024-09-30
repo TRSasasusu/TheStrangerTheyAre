@@ -71,7 +71,10 @@
   <Dialogue>
    <Page>Enjoy your stay, just don't do anything to our utopia or else we'll exile you from the system!</Page>
   </Dialogue>
-	 <ConditionToSet>CYPRESS_MET</ConditionToSet>
+	 <SetCondition>CYPRESS_MET</SetCondition>
+	 <RevealFacts>
+		 <FactID>HOME_LEADER_E</FactID>
+	 </RevealFacts>
  </DialogueNode>
 
  <DialogueNode> <!-- Another node why not -->
@@ -80,9 +83,6 @@
    <Page>Sorry, now that I know you're the fabled alien to find his work, I'll introduce myself.</Page>
    <Page>My name is Cypress, I'm The Scientist's very distant grandson and the current leader of this place.</Page>
   </Dialogue>
-	 <RevealFacts>
-		 <FactID>HOME_LEADER_E</FactID>
-	 </RevealFacts>
   <DialogueOptionsList> 
   <DialogueOption>
     <Text>Nice to meet you! They call me "Hatchling".</Text>

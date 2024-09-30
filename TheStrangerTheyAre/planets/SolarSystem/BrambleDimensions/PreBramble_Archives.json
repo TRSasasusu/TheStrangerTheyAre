@@ -23,7 +23,7 @@
 				"track": "music",
 				"loop": false,
 				"pauseOnFadeOut": false,
-				"radius": 20,
+				"radius": 200,
 				"position": {
 					"x": -325.2753,
 					"y": -61.4801,
@@ -45,13 +45,13 @@
 				"parentPath": "Sector/PreBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface",
 				"isRelativeToParent": true,
 				"track": "music",
-				"radius": 3
+				"radius": 4
 			},
 			{
 				"audio": "Tronworld Ambience 2 Alex Hack",
-				"radius": 5,
+				"radius": 3,
 				"volume": 0.5,
-				"track": "environment",
+				"track": "environmentUnfiltered",
 				"parentPath": "Sector/PreBrambleBase/GlitchedTiles",
 				"priority": 1,
 				"isRelativeToParent": true
@@ -67,6 +67,18 @@
 		"oxygenVolumes": [
 			{
 				"radius": 1000
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/PreBrambleBase",
+				"isRelativeToParent": true,
+				"radius": 50,
+				"reveals": [
+					"PREBRAMBLE_ARCHIVES_E"
+				]
 			}
 		]
 	},
@@ -86,7 +98,10 @@
 			{
 				"type": "slideReel",
 				"reveals": [
-					"PRE_BRAMBLE_STORYREEL"
+					"PREBRAMBLE_REEL"
+				],
+				"playWithShipLogFacts": [
+					"PREBRAMBLE_REEL"
 				],
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_01",
 				"isRelativeToParent": true,
@@ -176,7 +191,10 @@
 					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (28).jpg" },
 					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (29).jpg" },
 					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (30).jpg" },
-					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (31).jpg" }
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (31).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (32).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (33).jpg" },
+					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (34).jpg" }
 				]
 			}
 		],
@@ -192,7 +210,7 @@
 				"xmlFile": "dialogue/PreBramble/Archives/Wall1.xml"
 			},
 			{
-				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"xmlFile": "dialogue/PreBramble/Archives/Wall2.xml"
 			}
@@ -205,6 +223,7 @@
 				"horizonRadius": 0,
 				"hasWarpEffects": false,
 				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
+				"isRelativeToParent": true,
 				"pairedSingularity": "GLITCH_BH"
 			}
 		]

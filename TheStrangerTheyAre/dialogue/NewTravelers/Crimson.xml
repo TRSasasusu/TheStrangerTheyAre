@@ -14,7 +14,9 @@
 			<Page>Surfing really brings me at peace...</Page>
 			<!-- A single page of the dialogue -->
 		</Dialogue>
-
+		<RevealFacts>
+			<FactID>CRIMSON_TRAVELER_E</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<!-- Show options the player can choose from when the character is done talking -->
 			<DialogueOption>
@@ -71,9 +73,13 @@
 			<Page>There's quite a few things actually, other than myself.</Page>
 			<Page>The water here's not safe to swim in, because it can shock you.</Page>
 			<Page>There's the tornadoes, which throw small objects in the air. The ones going clockwise are safe, but the counter-clockwise one will send you to a painful death.</Page>
-			<Page>Aside from the dangers, there's my camp, some storm shelters, and a lab on one of the islands. I've never bothered to check it, though.</Page>
+			<Page>Aside from the dangers, there's my camp and a base on one of the islands. I've never bothered to check it, though.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
+			<RevealFacts>
+				<FactID>CRIMSON_CAMP_R</FactID>
+				<FactID>CRIMSON_BASE_R</FactID>
+			</RevealFacts>
 			<DialogueOption>
 				<Text>Alright, thanks!</Text>
 				<DialogueTarget>START</DialogueTarget>
@@ -85,16 +91,19 @@
 		<!-- Another node why not -->
 		<Name>2</Name>
 		<Dialogue>
-			<Page>That crazy inferno? Never been, although I did hear there was another lab up there...</Page>
+			<Page>That crazy inferno? Never been, although I did hear there was another old base up there...</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>VOLCANO_BASE_R</FactID>
+		</RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>I'll take a look.</Text>
 				<DialogueTarget>START</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<EntryCondition>VOLCANO_LAB_E1</EntryCondition>
-				<Text>I found the lab! It was a thermal lab studying time and the atmosphere of the planet.</Text>
+				<EntryCondition>VOLCANO_BASE_E</EntryCondition>
+				<Text>I found the base! It was full-blown military base with bombs!</Text>
 				<DialogueTarget>2C</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -104,7 +113,7 @@
 		<!-- Another node why not -->
 		<Name>2C</Name>
 		<Dialogue>
-			<Page>Interesting...time dilation and thermal technology. I wonder why they would be researching that?</Page>
+			<Page>A military base? Bombs? This must be why our program was shut down for millenia.</Page>
 		</Dialogue>
 		<DialogueTarget>START</DialogueTarget>
 	</DialogueNode>

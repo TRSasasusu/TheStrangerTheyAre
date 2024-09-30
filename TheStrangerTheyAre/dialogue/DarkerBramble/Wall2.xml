@@ -1,14 +1,14 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
 	<NameField>SIGN</NameField> <!-- The name of this character -->
 	<DialogueNode>
-		<Name>Wall1</Name>
+		<Name>Wall2</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Anglerfish 101: To evade an anglerfish, use diagonal thrusting power. You can also avoid being chased if you stop thrusting right when you see it moving, or hear it grunt. It might just cast right past you instead of chase you.</Page>
+			<Page>Day 105: I did it! After days of searching, I've found the right path to what might be our home system! I'll make a slide recording in case I don't forget.</Page>
 		</Dialogue>
-	</DialogueNode>
 		<RevealFacts>
-			<FactID>PREBRAMBLE_ARCHIVES_TEXT_ANGLER2</FactID>
+			<FactID>DARKER_BASE_MAP2</FactID>
 		</RevealFacts>
+	</DialogueNode>
 </DialogueTree>
