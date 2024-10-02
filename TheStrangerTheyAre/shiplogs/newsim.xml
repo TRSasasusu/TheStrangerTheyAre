@@ -118,10 +118,10 @@
 				<!-- The Text to display for this fact -->
 			</RumorFact>
 			
-            <ExploreFact> <!-- An explore fact that belongs to this entry -->
+            <RumorFact> <!-- An explore fact that belongs to this entry -->
                 <ID>NEWSIM_ARCHIVE_COMA</ID> <!-- The ID of this fact -->
                 <Text>I found a long hallway with several strangers sleeping, with an elevator at the end. I was wondering where the rest went!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
-            </ExploreFact>
+            </RumorFact>
 
             <ExploreFact> <!-- An explore fact that belongs to this entry -->
                 <ID>NEWSIM_ARCHIVE_E</ID> <!-- The ID of this fact -->

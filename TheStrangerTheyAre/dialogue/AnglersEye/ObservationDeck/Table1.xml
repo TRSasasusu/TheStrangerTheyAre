@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>OBSERVATION 1: Getting a closer look at all the planets, there's water on every planet, the third having it in the form of snow on its surface. The desert twins have water and sand flowing between them like an hourglass, but it won't be too long until the water on the sand-like planet to evaporate.</Page>
+			<Page>OBSERVATION 1: Getting a closer look at all the planets, there's water on every planet, the third having it in the form of snow on its surface. The desert twins have water and sand flowing between them like an hourglass, but it won't be too long until the water on the sand-like planet starts to evaporate.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_OBSERVE_TEXT1</FactID>

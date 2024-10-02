@@ -120,20 +120,6 @@
           "z": 206.2573
         }
       }
-    ],
-    "singularities": [
-      {
-        "type": "blackHole",
-        "uniqueID": "DEBUG_BH_2",
-        "horizonRadius": 0.5,
-        "alignRadial": true,
-        "pairedSingularity": "DEBUG_WH_2",
-        "position": {
-          "x": 12.91092,
-          "y": -46.06311,
-          "z": 184.7773
-        }
-      }
     ]
   },
   "ShipLog": {

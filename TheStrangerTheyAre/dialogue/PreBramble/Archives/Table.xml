@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Day 85: We tried to enter the Bramble Seed today, but it didn't let us in. At first, I thought it was my ship being too big, but upon further scanning, the seed's insides need to be imaged first before entering.</Page>
+			<Page>Day 53: I just ran into a few of my friends, and surprisingly, they're still alive here! This simulation must preserve an organism after it dies! I...I don't know how to feel about this...</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</FactID>

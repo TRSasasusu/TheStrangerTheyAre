@@ -348,160 +348,162 @@
 					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0042.jpg" }
 				]
 			},
-				{
-					"type": "slideReel",
-					"reelCondition": "pristine",
-					"reelModel": "whole",
-					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_01",
-					"isRelativeToParent": true,
-					"slides": [
-						{
-							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0038.jpg",
-							"backdropAudio": "assets/Audio/hearthsshadow2.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0039.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0040.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0041.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0042.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0043.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0044.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0045.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0046.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0047.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0048.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0049.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0050.jpg",
-							"backdropAudio": "assets/Audio/hearthsshadow3.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0051.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0052.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0053.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0054.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0055.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0056.jpg",
-							"backdropAudio": "assets/Audio/hearthsshadow4.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0057.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0058.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0059.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0060.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0061.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0062.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0063.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0064.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0065.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0066.jpg",
-							"backdropAudio": "assets/Audio/hearthsshadow5.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0067.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0068.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0069.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0070.jpg",
-							"backdropAudio": "assets/Audio/hearthsshadow6.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0071.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0072.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0073.jpg" },
-						{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0074.jpg" }
-					]
-				},
-				{
-					"type": "slideReel",
-					"rename": "STORYREEL_1",
-					"reelCondition": "pristine",
-					"reelModel": "whole",
-					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_01",
-					"isRelativeToParent": true,
-					"slides": [
-						{
-							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0001.jpg",
-							"backdropAudio": "assets/Audio/terraformhome1.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0002.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0003.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0004.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0005.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0006.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0007.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0008.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0009.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0010.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0011.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0012.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0013.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0014.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0015.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0016.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0017.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0018.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0019.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0020.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0021.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0022.jpg",
-							"backdropAudio": "assets/Audio/terraformhome3.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0023.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0024.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0025.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0026.jpg" },
+			{
+				"type": "slideReel",
+				"reelCondition": "pristine",
+				"reelModel": "whole",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_01",
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/title.png" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/title.png" },
+					{
+						"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0038.jpg",
+						"backdropAudio": "assets/Audio/hearthsshadow2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0042.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0043.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0044.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0045.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0046.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0047.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0048.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0049.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0050.jpg",
+						"backdropAudio": "assets/Audio/hearthsshadow3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0051.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0052.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0053.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0054.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0055.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0056.jpg",
+						"backdropAudio": "assets/Audio/hearthsshadow4.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0057.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0058.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0059.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0060.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0061.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0062.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0063.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0064.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0065.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0066.jpg",
+						"backdropAudio": "assets/Audio/hearthsshadow5.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0067.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0068.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0069.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TimberHearthVision/image_037_0070.jpg",
+						"backdropAudio": "assets/Audio/hearthsshadow6.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0071.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0072.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0073.jpg" },
+					{ "imagePath": "assets/Slideshows/TimberHearthVision/image_037_0074.jpg" }
+				]
+			},
+			{
+				"type": "slideReel",
+				"rename": "STORYREEL_1",
+				"reelCondition": "pristine",
+				"reelModel": "whole",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_01",
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/title.png" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0001.jpg",
+						"backdropAudio": "assets/Audio/terraformhome1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0021.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0022.jpg",
+						"backdropAudio": "assets/Audio/terraformhome3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0026.jpg" },
 
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_1.png" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_2.png" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_3.png" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_4.png" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_5.png" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_6.png" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_7.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_1.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_2.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_3.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_4.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_5.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_6.png" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Vision/Reel_7.png" },
 
 
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0027.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0028.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0029.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0030.jpg",
-							"backdropAudio": "assets/Audio/terraformhome2.ogg"
-						},
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0031.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0032.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0033.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0034.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0035.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0036.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0037.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0038.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0039.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0040.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0041.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0042.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0043.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0044.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0045.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0046.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0047.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0048.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0049.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0050.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0051.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0052.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0053.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0054.jpg" },
-						{
-							"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0055.jpg",
-							"backdropAudio": "assets/Audio/error_reel.wav"
-						},
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0056.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0057.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0058.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0059.jpg" },
-						{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0060.jpg" }
-
-					]
-				},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0029.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0030.jpg",
+						"backdropAudio": "assets/Audio/terraformhome2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0031.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0032.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0033.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0034.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0035.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0036.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0037.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0038.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0042.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0043.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0044.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0045.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0046.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0047.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0048.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0049.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0050.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0051.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0052.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0053.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0054.jpg" },
+					{
+						"imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0055.jpg",
+						"backdropAudio": "assets/Audio/error_reel.wav"
+					},
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0056.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0057.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0058.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0059.jpg" },
+					{ "imagePath": "assets/Slideshows/TerraformHome/Scene/image_036_0060.jpg" }
+				]
+			},
 				{
 					"type": "slideReel",
 					"reelModel": "whole",
@@ -995,6 +997,7 @@
 				{
 					"type": "standingVisionTorch",
 					"reveals": [ "NEWSIM_SCIENTIST_VISION" ],
+					"rename": "SCIENTIST_VISIONTORCH",
 					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
 					"isRelativeToParent": true,
 					"slides": [
@@ -1058,17 +1061,6 @@
 						"y": 2.904684,
 						"z": 750.533
 					}
-				},
-				{
-					"uniqueID": "DEBUG_BH",
-					"type": "blackHole",
-					"horizonRadius": 1,
-					"position": {
-						"x": 62.53741,
-						"y": 1.233612,
-						"z": 698.1519
-					},
-					"pairedSingularity": "DEBUG_WH"
 				}
 			]
 	},

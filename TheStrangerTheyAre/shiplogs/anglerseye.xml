@@ -163,7 +163,7 @@
 
             <ExploreFact>
                 <ID>ANGLERS_EYE_SIGNALHOUSE_SIGNAL1F</ID>
-                <Text>On the first floor of the signal house, there are several wires and a big interface in the middle.</Text>
+                <Text>On the first floor of the signal house, there are several wires and a projection in the middle.</Text>
             </ExploreFact>
 
             <ExploreFact>
@@ -192,7 +192,7 @@
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED2</ID>
-				<Text>The text on the second floor's desk states that the Strangers that were living here, the text indicating that there was more than one person involved. It also mentions the importance of an object from the mines on their quest back to their home system.</Text>
+				<Text>The text on the second floor of the Signal House states that to enter a secret door in the museum, you flash a light for around 3 seconds.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -257,54 +257,48 @@
             <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
 
             <!-- Create some facts for this child entry -->
-			<RumorFact>
+			<ExploreFact>
 				<ID>ANGLERS_EYE_POEM_R</ID>
 				<RumorName>Secret Code</RumorName>
 				<SourceID>ANGLERS_EYE_SIGNALHOUSE_LOCKED</SourceID>
 				<Text>I can't get into the second floor of the Signal House! The entrance requires some sort of code for entry.</Text>
-			</RumorFact>
+			</ExploreFact>
 			
             <ExploreFact>
                 <ID>ANGLERS_EYE_POEM_FIND</ID>
                 <Text>I found a poem in one of the houses in Angler's Eye. It seemed unfinished.</Text>
             </ExploreFact>
 
-            <RumorFact>
+			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P1</ID>
-				<SourceID>ANGLERS_EYE_RD</SourceID>
                 <Text>The first stanza in the Research House is "For our old world to be revived, get these things and it shall thrive. There is an order it shall follow, or it will stay dead and hollow. First things first, go get a seed. Then search elsewhere for the rest you need".</Text>
-            </RumorFact>
+            </ExploreFact>
 
-            <RumorFact>
+			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P2</ID>
-				<SourceID>ANGLERS_EYE_CONSERVATORY</SourceID>
                 <Text>The second stanza in the Conservatory is "Obtain some water above the sky, from the Ringed Giant way up high".</Text>
-            </RumorFact>
+            </ExploreFact>
 
-			<RumorFact>
+			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P3A</ID>
-				<SourceID>ANGLERS_EYE_THEATRE</SourceID>
                 <Text>The third stanza in the Theater House is "With those two things, fresh air will flourish, so plants and animals can thrive and nourish".</Text>
-            </RumorFact>
+            </ExploreFact>
 
-			<RumorFact>
+			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P3B</ID>
-				<SourceID>ANGLERS_EYE_THEATRE</SourceID>
                 <Text>The fourth stanza in the Theater House is "The seeds grow on a crescent moon. Air can spark fires, green or maroon".</Text>
-            </RumorFact>
+            </ExploreFact>
 
-			<RumorFact>
+			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P4</ID>
-				<SourceID>ANGLERS_EYE_DBMUSEUM</SourceID>
                 <Text>The fifth stanza in the Bramble Museum's Basement is "Fourth, keep out a watchful eye. Make sure our offspring does not die".</Text>
-            </RumorFact>
+            </ExploreFact>
 
-			<RumorFact>
+			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P5</ID>
-				<SourceID>ANGLERS_EYE_SIGNALHOUSE</SourceID>
                 <Text>The sixth and final stanza in the Signal House is "Input these poems as a secret code, but put a star in the fifth node".</Text>
-            </RumorFact>
-        </Entry>
+            </ExploreFact>
+	</Entry>
 
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
             <ID>ANGLERS_EYE_CONSERVATORY</ID> <!-- The ID of this child entry -->

@@ -56,7 +56,7 @@ public class SealSocket : OWItemSocket
     private void OnAnimationComplete(bool isEndAnim)
     {
         if (isEndAnim) {
-            TheStrangerTheyAre.WriteLine("End Animation Played", MessageType.Success); // debug message
+            // should disable when it ends
         }
         else {
             activeObjects.GetComponent<Animator>().Play("ProjectionLoop", 0);

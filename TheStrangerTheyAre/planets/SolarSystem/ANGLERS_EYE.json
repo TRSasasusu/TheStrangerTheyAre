@@ -546,11 +546,7 @@
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_SimEntryWall.xml",
 				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 39.32717,
-					"y": 95.97898,
-					"z": -27.52637
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_Archive.xml",
@@ -904,6 +900,58 @@
 					"y": 74.16833,
 					"z": -76.98389
 				},
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"type": "visionTorchTarget",
+				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true,
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"parentPath": "Sector/CRASHSITE_TEXT/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
 				"reveals": [
 					"ANGLERS_EYE_ALIENTEXT_E1",
 					"ANGLERS_EYE_ALIENTEXT_E2"
@@ -1525,6 +1573,110 @@
 					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
 					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
 				]
+			},
+			{
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/ElevatorSign/Arc_TestAlienWriting/Dialogue",
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/Table2/Arc_TestAlienWriting/Dialogue",
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/Table1/Arc_TestAlienWriting/Dialogue",
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
+			},
+			{
+				"parentPath": "Sector/ObservationDeck_DBM/Interactibles/Text/Table3/Arc_TestAlienWriting/Dialogue",
+				"type": "visionTorchTarget",
+				"isRelativeToParent": true,
+				"reveals": [
+					"ANGLERS_EYE_ALIENTEXT_E1",
+					"ANGLERS_EYE_ALIENTEXT_E2"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
+						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
+					},
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
+					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
+				]
 			}
 		],
 		"signals": [
@@ -1541,20 +1693,6 @@
 					"x": -22.36887,
 					"y": 115.6436,
 					"z": 28.60617
-				}
-			}
-		],
-		"singularities": [
-			{
-				"type": "whiteHole",
-				"uniqueID": "DEBUG_WH_2",
-				"horizonRadius": 0.5,
-				"alignRadial": true,
-				"pairedSingularity": "DEBUG_BH_2",
-				"position": {
-					"x": -16.94967,
-					"y": 108.5297,
-					"z": 17.29736
 				}
 			}
 		]

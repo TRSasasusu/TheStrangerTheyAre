@@ -34,7 +34,12 @@
 
 		<ExploreFact>
 			<ID>PREBRAMBLE_MAIN_CAVES</ID>
-			<Text>I found a cave system beneath the Preserved Planet's Crust! There's water below, so I should probably watch my step.</Text>
+			<Text>I found a cave system beneath the Preserved Planet's Crust. There's water below, so I should probably watch my step.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>PREBRAMBLE_MAIN_SEED</ID>
+			<Text>A vine from the Bramble Seed blocking the ocean also appears to be reaching out and blocking something.</Text>
 		</ExploreFact>
 
         <Entry> <!-- An Entry For This Planet -->
@@ -77,7 +82,7 @@
 			
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_FOREST_CODE</ID>
-				<Text>Inside an outhouse in the Bramble Forest is a code. Could it be used somewhere?</Text>
+				<Text>Inside an outhouse in the Bramble Forest is a code.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -100,7 +105,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_POLE_CODE</ID>
-				<Text>Inside an outhouse at the North Pole is a code. Could it be used somewhere?</Text>
+				<Text>Inside an outhouse at the North Pole is a code.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -123,7 +128,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_CAVES_CODE</ID>
-				<Text>Inside an outhouse under the crust is a code. Could it be used somewhere?</Text>
+				<Text>Inside an outhouse under the crust is a code.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -285,7 +290,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</ID>
-				<Text>Some text on the table hints that the Bramble Node needs to be photographed before entering.</Text>
+				<Text>The Scientist talked with others in the simulation about a glitch that occurs when the solar sails deploy, but it seems to reverse 6 minutes later.</Text>
 			</ExploreFact>
 
 			<ExploreFact>

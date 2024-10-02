@@ -6559,18 +6559,6 @@
     ],
     "singularities": [
       {
-        "uniqueID": "DEBUG_WH",
-        "type": "whiteHole",
-        "horizonRadius": 0,
-        "hasWarpEffects": false,
-        "position": {
-          "x": -41.15749,
-          "y": -233.26,
-          "z": 60.56798
-        },
-        "pairedSingularity": "DEBUG_BH"
-      },
-      {
         "uniqueID": "GLITCH_BH",
         "rename": "GLITCH_BH",
         "type": "blackHole",
@@ -7183,13 +7171,26 @@
         "revealFor": "player",
         "revealOn": "enter",
         "position": {
-          "x": 0.2559615,
-          "y": 0.1665356,
-          "z": -0.2669325
+          "x": -55.09616,
+          "y": 432.3996,
+          "z": 78.34927
         },
-        "radius": 5,
+        "radius": 10,
         "reveals": [
           "PREBRAMBLE_POLE_SOLUTION"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "position": {
+          "x": -54.51154,
+          "y": 434.6151,
+          "z": 73.87547
+        },
+        "radius": 2,
+        "reveals": [
+          "PREBRAMBLE_MAIN_SEED"
         ]
       }
     ]

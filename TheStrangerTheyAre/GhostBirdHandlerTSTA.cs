@@ -32,7 +32,7 @@ namespace TheStrangerTheyAre
                 ghostBirds[i].transform.rotation = initialPos[i].transform.rotation; // on dw exit, sets to starting rotation of each ghostbird
                 ghostBirds[i].GetComponent<GhostBrain>().EscalateThreatAwareness(GhostData.ThreatAwareness.EverythingIsNormal); // set threat to normal when exiting sim
                 ghostBirds[i].GetComponent<GhostBrain>().ChangeAction(GhostAction.Name.Wait); // change ghost action to wait
-                //ghostBirds[i].GetComponentInChildren<Animator>().Play("Ghostbird_Idle_Unaware", 0); // on dw exit, sets each ghostbird animation to idle
+                ghostBirds[i].GetComponentInChildren<Animator>().Play("Ghostbird_Idle_Unaware", 0); // on dw exit, sets each ghostbird animation to idle
             }
         }
 
@@ -42,41 +42,33 @@ namespace TheStrangerTheyAre
             {
                 if (OWInput.IsPressed(InputLibrary.toolActionPrimary, InputMode.Character) && OWInput.IsPressed(InputLibrary.toolActionSecondary, InputMode.Character))
                 {
-                    TheStrangerTheyAre.WriteLine("Player is Sneaking", MessageType.Success); // debug message
                     Sneak(); // run sneak method if player is both focusing and contracting lantern
                 }
                 else
                 {
-                    TheStrangerTheyAre.WriteLine("Player is NOT Sneaking", MessageType.Success); // debug message
                     NoSneak(); // run no sneak method if player is NOT both focusing and contracting lantern
                 }
             }
 
             if (TimeLoop.GetSecondsElapsed() > 790 && !areDeadZone1)
             {
-                TheStrangerTheyAre.WriteLine("CONDITION SET: DEATH WAVE 1", MessageType.Success); // debug message
                 for (int i = 0; i < 2; i++)
                 {
                     ghostBirds[i].GetComponent<GhostBrain>().Die(); // kill ghostbirds linked to zone 1
                     ghostBirds[i].SetActive(false);
-                    TheStrangerTheyAre.WriteLine("Killed Ghost No. " + i+1, MessageType.Success); // debug messagea
                 };
                 areDeadZone1 = true; // set dead boolean for zone 1 true
             } else if (TimeLoop.GetSecondsElapsed() > 1230 && !areDeadZone2)
             {
-                TheStrangerTheyAre.WriteLine("CONDITION SET: DEATH WAVE 2", MessageType.Success); // debug message
                 for (int i = 2; i < 8; i++)
                 {
                     ghostBirds[i].GetComponent<GhostBrain>().Die(); // kill ghostbirds linked to zone 2
-                    TheStrangerTheyAre.WriteLine("Killed Ghost No. " + i + 1, MessageType.Success); // debug message
                 };
                 areDeadZone2 = true; // set dead boolean for zone 2 true
             }
         }
         void Sneak()
         {
-            //GameObject ghostTrigger; // defines temp var to store the contact trigger
-            TheStrangerTheyAre.WriteLine("Sneak Module Active", MessageType.Success); // debug message
             foreach (var bird in ghostBirds)
             {
                 Vector3 smallTrigger = new Vector3(1, 1, 1);
@@ -86,8 +78,6 @@ namespace TheStrangerTheyAre
 
         void NoSneak()
         {
-            //GameObject ghostTrigger; // defines temp var to store the contact trigger
-            TheStrangerTheyAre.WriteLine("NoSneak Module Active", MessageType.Success); // debug message
             foreach (var bird in ghostBirds)
             {
                 Vector3 bigTrigger = new Vector3(2, 2, 2);

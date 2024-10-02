@@ -26,7 +26,6 @@ namespace TheStrangerTheyAre
             //checks if player collides with the trigger volume
             if (hitCollider.CompareTag("PlayerDetector") && enabled /*&& !supernovaExists*/)
             {
-                TheStrangerTheyAre.WriteLine("Should be invincible!", MessageType.Success); // debug message
                 Locator.GetPlayerTransform().GetComponent<PlayerResources>().ToggleInvincibility(); // sets invincibility for player to true
                 Locator.GetDeathManager().ToggleInvincibility(); // sets invincibility for death manager to true
             }
@@ -37,7 +36,6 @@ namespace TheStrangerTheyAre
             //checks if player exits with the trigger volume
             if (hitCollider.CompareTag("PlayerDetector") && enabled)
             {
-                TheStrangerTheyAre.WriteLine("Should NOT be invincible!", MessageType.Success); // debug message
                 Locator.GetPlayerTransform().GetComponent<PlayerResources>().ToggleInvincibility(); // sets invincibility for player to false
                 Locator.GetDeathManager().ToggleInvincibility(); // sets invincibility for death manager to false
             }
