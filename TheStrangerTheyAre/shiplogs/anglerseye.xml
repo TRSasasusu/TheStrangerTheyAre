@@ -139,14 +139,14 @@
 				<Text>The group of inhabitants on the slide reel crashed on Angler's Eye somewhere. Could there be a crash site somewhere?</Text>
 			</RumorFact>
 
-			<ExploreFact>
+			<RumorFact>
 				<ID>ANGLERS_EYE_CRASHSITE_E1</ID>
-				<Text>I found the crash site! Strangely, the ship is missing, but there is a plank of text lying there.</Text>
-			</ExploreFact>
+				<Text>I found a plank near the Research and Development  </Text>
+			</RumorFact>
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_CRASHSITE_E2</ID>
-				<Text>The text at the crash site says the temperatures here are bearable, allowing the three inhabitants seen in the reels to survive for quite a while, with the help of emergency trees.</Text>
+				<Text>The text says this is a crash site, but strangely, the ship is missing. It mentions the temperatures here are bearable, allowing the three inhabitants seen in the reels to survive for quite a while, with the help of emergency trees.</Text>
 			</ExploreFact>
 		</Entry>
         

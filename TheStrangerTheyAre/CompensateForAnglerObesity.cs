@@ -13,7 +13,7 @@ public class CompensateForAnglerObesity
 
     [HarmonyPrefix]
     [HarmonyPatch(typeof(NoiseSensor), nameof(NoiseSensor.LateUpdate))]
-    public static bool InsulatingVolume_LateUpdate_Patch(NoiseSensor __instance)
+    public static bool NoiseSensor_LateUpdate_Patch(NoiseSensor __instance)
     {
         // variables
         float anglerScale = 6;

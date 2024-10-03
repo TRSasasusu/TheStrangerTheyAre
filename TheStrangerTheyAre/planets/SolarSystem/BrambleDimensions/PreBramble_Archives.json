@@ -200,11 +200,6 @@
 		],
 		"dialogue": [
 			{
-				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Table/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true,
-				"xmlFile": "dialogue/PreBramble/Archives/Table.xml"
-			},
-			{
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"xmlFile": "dialogue/PreBramble/Archives/Wall1.xml"

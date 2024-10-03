@@ -15,7 +15,7 @@
             <Page>Son of a Beachum! That makes me sick to my stomach, I'll never eat fish again!</Page>
             <Page>If I were as courageous as you, I'd go to Dark Bramble and see if they left anything behind.</Page>
         </Dialogue>
-		<ConditionToSet>SLATE_REACT</ConditionToSet>
+		<SetPersistentCondition>SLATE_REACT</SetPersistentCondition>
 		<RevealFacts>
 			<FactID>HEARTH_SLATE_E2</FactID>
 			<FactID>ANGLERS_EYE_MAIN_R</FactID>
