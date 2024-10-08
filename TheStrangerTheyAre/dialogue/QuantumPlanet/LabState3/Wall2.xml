@@ -4,7 +4,7 @@
 		<Name>Wall2</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>When this machine is activated, the quantum fluctuations of the shard on the hard-ice state to weaken, forcing it to lower its range, therefore increase its weight.</Page>
+			<Page>The effects of our experiments with quantum interference seem to dissipate over time. Would it be possible to lock the properties of a quantum rock over long periods? I imagine such a method could also be used to prevent them from wandering as well.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S3_LAB_TEXT2</FactID>

@@ -142,6 +142,14 @@
 		"showOrbitLine": false
 	},
 	"Props": {
+		"dreamCampfires": [
+			{
+				"id": "PREBRAMBLE_ENTRY",
+				"rename": "PREBRAMBLE_ENTRY",
+				"parentPath": "Sector/BrambleMuseum/Interactables/FIRE",
+				"isRelativeToParent": true
+			}
+		],
 		"details": [
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
@@ -399,6 +407,34 @@
 				"scale": 0.40,
 				"parentPath": "Sector/AnglersEyeNode",
 				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Lantern_Green.prefab",
+				"position": {
+					"x": -85.5118,
+					"y": -60.87392,
+					"z": 1.967265
+				},
+				"rotation": {
+					"x": 43.53001,
+					"y": 138.4604,
+					"z": 216.0221
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Lantern_Green.prefab",
+				"position": {
+					"x": -101.4895,
+					"y": -18.76656,
+					"z": 19.22638
+				},
+				"rotation": {
+					"x": 310.0315,
+					"y": 358.0492,
+					"z": 105.5857
+				}
 			}
 		],
 		"tornados": [
@@ -1695,6 +1731,90 @@
 					"z": 28.60617
 				}
 			}
+		],
+		"entryLocation": [
+			{
+				"id": "ANGLERS_EYE_MAIN",
+				"cloaked": false
+			},
+			{
+				"id": "ANGLERS_EYE_MINE",
+				"cloaked": true,
+				"position": {
+					"x": -62.81258,
+					"y": -31.45563,
+					"z": 6.327398
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_THEATRE",
+				"cloaked": true,
+				"position": {
+					"x": 47.1643,
+					"y": 97.6731,
+					"z": -23.6859
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_SIGNALHOUSE",
+				"cloaked": true,
+				"position": {
+					"x": -22.36887,
+					"y": 115.6436,
+					"z": 28.60617
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_RD",
+				"cloaked": true,
+				"position": {
+					"x": 13.3397675,
+					"y": 82.70164,
+					"z": -65.8615952
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_DBMUSEUM",
+				"cloaked": true,
+				"position": {
+					"x": 49.89732,
+					"y": 102.42,
+					"z": -25.17762
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_CONSERVATORY",
+				"cloaked": true,
+				"position": {
+					"x": 117.8554,
+					"y": -8.868609,
+					"z": 2.394431
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_HURRICANE",
+				"cloaked": true,
+				"position": {
+					"x": 1.104206,
+					"y": -100.9798,
+					"z": -0.5480309
+				}
+			},
+			{
+				"id": "ANGLERS_EYE_CRASHSITE",
+				"cloaked": true,
+				"parentPath": "Sector/CRASHSITE_TEXT",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "PREBRAMBLE",
+				"cloaked": true,
+				"position": {
+					"x": 44.3248,
+					"y": 92.6729,
+					"z": -21.9012
+				}
+			}
 		]
 	},
 	"ReferenceFrame": {},
@@ -1982,6 +2102,16 @@
 				"radius": 3,
 				"reveals": [
 					"ANGLERS_EYE_CRASHSITE_E1"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/Item_CloakMineral",
+				"isRelativeToParent": true,
+				"radius": 3,
+				"reveals": [
+					"ANGLERS_EYE_MINE_MINERAL"
 				]
 			}
 		]

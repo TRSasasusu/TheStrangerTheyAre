@@ -4,7 +4,7 @@
 		<Name>1F_Wall</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>How did you hide it there? How did you even get down there without holding two things at a time?</Page>
+			<Page>There was an old story about an electric hurricane on the Scientist's base planet. I bet it has similar properties to the hazardous water around this vortex.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>CRIMSON_LAB_TEXT3</FactID>

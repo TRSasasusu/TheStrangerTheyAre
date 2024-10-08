@@ -120,6 +120,17 @@
           "z": 206.2573
         }
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "HEARTH_SIGNAL",
+        "cloaked": false,
+        "position": {
+          "x": -52.1514,
+          "y": 84.5067,
+          "z": 206.2573
+        }
+      }
     ]
   },
   "ShipLog": {

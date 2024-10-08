@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace TheStrangerTheyAre
 {
-    [HarmonyPatch]
+    /*[HarmonyPatch]
     public class CustomSimSpawn : MonoBehaviour
     {
 
@@ -86,5 +86,5 @@ namespace TheStrangerTheyAre
             Locator.RegisterDreamArrivalPoint(simSpawn, PreBrambleArrivalLocation);
         }
         
-    }
+    }*/
 }

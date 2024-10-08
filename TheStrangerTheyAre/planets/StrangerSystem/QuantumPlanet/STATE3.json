@@ -64,6 +64,15 @@
 				"name": "Distant Enigma",
 				"identificationRadius": 500,
 				"audio": "OW_QuantumSignal"
+			},
+			{
+				"frequency": "Unnerving Fluctuations",
+				"name": "Distant Enigma Seal",
+				"audio": "OW No-Eye Ruins 121120_2 AP LP",
+				"detectionRadius": 400,
+				"identificationRadius": 10,
+				"parentPath": "Sector/Seal_Ringed",
+				"isRelativeToParent": true
 			}
 		],
 		"scatter": [
@@ -217,15 +226,16 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Camp_Stall",
 				"position": {
-					"x": -38.29794,
-					"y": 154.2975,
-					"z": 0.08504486
+					"x": -30.8836,
+					"y": 197.5386,
+					"z": -4.1718
 				},
 				"rotation": {
-					"x": 353.926,
-					"y": 26.1132,
-					"z": 14.82502
+					"x": 0.2593,
+					"y": 346.9278,
+					"z": 8.2879
 				}
 			},
 			{
@@ -251,6 +261,24 @@
 			{
 				"xmlFile": "dialogue/QuantumPlanet/LabState3/Wall2.xml",
 				"parentPath": "Sector-3/QuantumResearchLab/Interactables/Text/Wall2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "QUANTUM_MAIN",
+				"cloaked": false
+			},
+			{
+				"id": "QUANTUM_S3_LAB",
+				"cloaked": false,
+				"parentPath": "Sector-3/QuantumResearchLab",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "QUANTUM_SEAL",
+				"cloaked": false,
+				"parentPath": "Sector-3/Seal_Enigma",
 				"isRelativeToParent": true
 			}
 		]

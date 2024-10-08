@@ -149,6 +149,13 @@
       }
     },
     {
+      "id": "DARKER_REEL",
+      "position": {
+        "x": 3750,
+        "y": -200
+      }
+    },
+    {
       "id": "HEARTH_SIGNAL",
       "position": {
         "x": 4250,

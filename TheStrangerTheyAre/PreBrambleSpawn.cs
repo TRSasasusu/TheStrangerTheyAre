@@ -4,7 +4,7 @@
 
 namespace TheStrangerTheyAre
 {
-    public class PreBrambleSpawn : MonoBehaviour
+   /* public class PreBrambleSpawn : MonoBehaviour
     {
         GameObject preBramble; // creates variable to store gameobject name
 
@@ -46,5 +46,5 @@ namespace TheStrangerTheyAre
                 child.gameObject.SetActive(active);
             }
         }
-    }
+    }*/
 }

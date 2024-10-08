@@ -293,30 +293,6 @@
 					"NEWSIM_SECRETPATH3"
 				]
 			},
-				{
-					"type": "slideReel",
-					"reelCondition": "pristine",
-					"reelModel": "whole",
-					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_02/SlideSocket_02",
-					"isRelativeToParent": true,
-					"slides": [
-						{
-							"imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_01.png",
-							"backdropAudio": "OW Finally Set Free 072021_2 AP"
-						},
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_02.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_03.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_04.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_05.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_06.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_07.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_08.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_09.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_10.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_11.png" },
-						{ "imagePath": "assets/Slideshows/Homeworld/Slide_Homeworld_12.png" }
-					]
-				},
 			{
 				"type": "slideReel",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_02",

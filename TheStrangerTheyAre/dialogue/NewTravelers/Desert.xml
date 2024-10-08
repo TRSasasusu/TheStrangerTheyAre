@@ -24,7 +24,7 @@
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<EntryCondition>DESERT_MAIN_ATMO</EntryCondition>
+				<RequiredLogCondition>DESERT_MAIN_ATMO</RequiredLogCondition>
 				<Text>The atmosphere of this planet will be stripped off in just 23 minutes!</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
@@ -53,7 +53,7 @@
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<EntryCondition>DESERT_ATMOSPHERE_E</EntryCondition>
+				<RequiredLogCondition>DESERT_ATMOSPHERE_E</RequiredLogCondition>
 				<Text>The atmosphere of this planet will be stripped off in just 23 minutes!</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>

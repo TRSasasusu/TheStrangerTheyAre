@@ -64,8 +64,8 @@ namespace TheStrangerTheyAre
         private void OnSolarSystemLoaded()
         {
             // TODO: Remove this and prefer to add the component in Unity, Idiot doesn't have unity so he will make do
-            var campfire = GameObject.Find("AnglersEye_Body/Sector/BrambleMuseum/Interactables/Prefab_IP_DreamCampfire");
-            campfire.AddComponent<CustomSimSpawn>();
+            /*var campfire = GameObject.Find("AnglersEye_Body/Sector/BrambleMuseum/Interactables/Prefab_IP_DreamCampfire");
+            campfire.AddComponent<CustomSimSpawn>();*/
 
             // Fix offset issues on PreBramble. The terrain was placed incorrectly as were all props place onto it
             // The children are inactive so have to find them manually

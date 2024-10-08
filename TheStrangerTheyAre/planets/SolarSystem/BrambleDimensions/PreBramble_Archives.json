@@ -98,10 +98,10 @@
 			{
 				"type": "slideReel",
 				"reveals": [
-					"PREBRAMBLE_REEL"
+					"PREBRAMBLE_REEL_E"
 				],
 				"playWithShipLogFacts": [
-					"PREBRAMBLE_REEL"
+					"PREBRAMBLE_REEL_E"
 				],
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_01",
 				"isRelativeToParent": true,
@@ -220,6 +220,16 @@
 				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
 				"isRelativeToParent": true,
 				"pairedSingularity": "GLITCH_BH"
+			},
+			{
+				"rename": "EXIT_BH",
+				"uniqueID": "EXIT_BH",
+				"type": "blackHole",
+				"horizonRadius": 0,
+				"hasWarpEffects": false,
+				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
+				"isRelativeToParent": true,
+				"pairedSingularity": "EXIT_WH"
 			}
 		]
 	},

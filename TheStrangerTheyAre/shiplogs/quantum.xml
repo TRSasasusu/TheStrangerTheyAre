@@ -78,7 +78,7 @@
 			
 			<ExploreFact>
 				<ID>QUANTUM_S1_LAB_E</ID>
-				<Text>I found a lab on Distant Enigma's First State!</Text>
+				<Text>I found a lab on Distant Enigma's First State.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -116,6 +116,11 @@
 				<ID>QUANTUM_S2_LAB_TEXT</ID>
 				<Text>It seems the lab was broken and all operations in it were moved to the volcanic moon.</Text>
 			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_S2_LAB_TEXT2</ID>
+				<Text>According to some text I saw lying near the shores of the second state, research has proven photography the most effective way to increase the weight of a quantum object.</Text>
+			</ExploreFact>
 		</Entry>
 
 		<Entry>
@@ -125,7 +130,7 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_S3_LAB_E</ID>
-				<Text>I found a lab on Distant Enigma's Third State! It seems blocked...</Text>
+				<Text>I found a lab on Distant Enigma's Third State, but it seems blocked...</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -200,6 +205,42 @@
 			<ExploreFact>
 				<ID>QUANTUM_INT_E</ID>
 				<Text>I found an interface with my scout using the scratch marks and changing states!</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_CRACK</ID>
+			<Name>Surface Crack</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>QUANTUM_CRACK_R</ID>
+				<RumorName>Surface Crack?</RumorName>
+				<SourceID>QUANTUM_S1_LAB</SourceID>
+				<Text>There's a picture showing cracks on the dark-ice state. Some text says it's to the right of the lab somewhere.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_CRACK_E</ID>
+				<Text>I found a crack on Distant Enigma's first state.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_SCRATCH</ID>
+			<Name>Surface Scratch Marks</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>QUANTUM_SCRATCH_R</ID>
+				<RumorName>Surface Scratch?</RumorName>
+				<SourceID>QUANTUM_S1_LAB</SourceID>
+				<Text>There's a picture showing a scratch mark on the dark-ice state. Some text says it's directly behind the lab somewhere.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_SCRATCH_E</ID>
+				<Text>I found scratch marks on Distant Enigma's first state.</Text>
 			</ExploreFact>
 		</Entry>
     </Entry>

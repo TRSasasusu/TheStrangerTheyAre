@@ -142,7 +142,7 @@
 			  <DialogueTarget>START</DialogueTarget>
 		  </DialogueOption>
 		  <DialogueOption>
-			  <EntryCondition>RING_SEAL_E</EntryCondition>
+			  <RequiredLogCondition>RING_SEAL_E</RequiredLogCondition>
 			  <Text>I found the seal! It was right by your camp.</Text>
 			  <DialogueTarget>2C</DialogueTarget>
 		  </DialogueOption>
@@ -157,7 +157,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<EntryCondition>RING_SEAL_INSERT</EntryCondition>
+				<RequiredLogCondition>RING_SEAL_INSERT</RequiredLogCondition>
 				<Text>And a hologram symbol shows up when I insert it.</Text>
 				<DialogueTarget>2D</DialogueTarget>
 			</DialogueOption>

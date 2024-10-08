@@ -450,7 +450,7 @@
 				"slides": [
 					{
 						"imagePath": "assets/Slideshows/VesselVision/image_042_0094.jpg",
-						"backdropAudio": "assets/Audio/thethreat.ogg"
+						"backdropAudio": "assets/Audio/thethreat1.ogg"
 					},
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0095.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0096.jpg" },
@@ -459,7 +459,10 @@
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0099.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0100.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0101.jpg" },
-					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0102.jpg" },
+					{
+						"imagePath": "assets/Slideshows/VesselVision/image_042_0102.jpg",
+						"backdropAudio": "assets/Audio/thethreat2.ogg"
+					},
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0103.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0104.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0105.jpg" },
@@ -467,7 +470,10 @@
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0107.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0108.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0109.jpg" },
-					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0110.jpg" },
+					{
+						"imagePath": "assets/Slideshows/VesselVision/image_042_0110.jpg",
+						"backdropAudio": "assets/Audio/thethreat3.ogg"
+					},
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0111.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0112.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0113.jpg" },

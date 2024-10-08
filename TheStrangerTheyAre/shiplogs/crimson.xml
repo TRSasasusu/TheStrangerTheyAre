@@ -68,12 +68,12 @@
 
 			<ExploreFact>
 				<ID>CRIMSON_LAB_TEXT3</ID>
-				<Text>One inhabitant was asking another how they got something down there while holding 2 things at once.</Text>
+				<Text>The text on the bottom of the base says you can use the Cloaked Mineral to go under the electric fluid without getting hurt.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>CRIMSON_BASE_WALL_E</ID>
-				<Text>I can't get up past the giant wall!</Text>
+				<Text>I can't get up past the giant wall.</Text>
 			</ExploreFact>
 
 			<ExploreFact>

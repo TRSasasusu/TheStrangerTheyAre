@@ -37,7 +37,7 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"volume": 1,
+				"volume": 0.5,
 				"priority": 1,
 				"audio": "assets/Audio/darkerbramble.ogg",
 				"track": "music",
@@ -78,6 +78,7 @@
 				}
 			}
 		],
+
 		"dialogue": [
 			{
 				"parentPath": "Sector/DarkerBrambleBase/Interactibles/Text/Table/Arc_TestAlienWriting/Dialogue",
@@ -195,6 +196,116 @@
 					"x": 11.61588,
 					"y": 1.710812,
 					"z": 11.67755
+				}
+			}
+		],
+		"slideShows": [
+			{
+				"type": "slideReel",
+				"parentPath": "Sector/DarkerBrambleBase/Interactibles/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_02",
+				"reelModel": "whole",
+				"isRelativeToParent": true,
+				"reveals": [
+					"DARKER_REEL_E"
+				],
+				"playWithShipLogFacts": [
+					"DARKER_REEL_E"
+				],
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (1).png",
+						"backdropAudio": "assets/Audio/postlude1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (2).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (3).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (4).png"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (5).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (6).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (7).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (8).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (9).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (10).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (11).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (12).png"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (13).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (14).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (15).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (16).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (17).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (18).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (19).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (20).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (21).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (22).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (23).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (24).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (25).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (26).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (27).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (28).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (29).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (30).png",
+						"backdropAudio": "assets/Audio/postlude2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (31).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (32).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (33).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (34).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (35).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (36).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (37).png"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (38).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (39).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (40).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (41).png"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (42).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (43).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (44).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (45).png",
+						"backdropAudio": "assets/Audio/postlude3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (46).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (47).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (48).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (49).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (50).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (51).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (52).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (53).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (54).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (55).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (56).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (57).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (58).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (59).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (60).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (61).png" },
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (62).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (63).png"
+					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (64).png" }
+				]
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "DARKER_BASE",
+				"cloaked": false,
+				"position": {
+					"x": -52.1514,
+					"y": 84.5067,
+					"z": 206.2573
 				}
 			}
 		]

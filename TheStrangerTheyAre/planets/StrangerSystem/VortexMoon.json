@@ -233,6 +233,17 @@
 					"z": 293.046
 				}
 			}
+		],
+		"signals": [
+			{
+				"frequency": "Unnerving Fluctuations",
+				"name": "Burning Bombardier Seal",
+				"audio": "OW No-Eye Ruins 121120_2 AP LP",
+				"detectionRadius": 250,
+				"identificationRadius": 10,
+				"parentPath": "Sector/Seal_CrimsonMoon",
+				"isRelativeToParent": true
+			}
 		]
 	},
 	"Orbit": {

@@ -292,6 +292,18 @@
 				"position": {
 					"y": 2
 				}
+			},
+			{
+				"frequency": "Unnerving Fluctuations",
+				"name": "Sizzling Sands Seal",
+				"audio": "OW No-Eye Ruins 121120_2 AP LP",
+				"detectionRadius": 300,
+				"identificationRadius": 10,
+				"parentPath": "Sector/Seal_Desert",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
 			}
 		],
 		"dialogue": [

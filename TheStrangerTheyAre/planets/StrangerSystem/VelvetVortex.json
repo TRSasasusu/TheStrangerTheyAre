@@ -46,7 +46,7 @@
 		}
 	},
 	"Base": {
-		"surfaceGravity": 15,
+		"surfaceGravity": 20,
 		"surfaceSize": 315
 	},
 	"HeightMap": {
@@ -282,6 +282,15 @@
 				"position": {
 					"y": 2
 				}
+			},
+			{
+				"frequency": "Unnerving Fluctuations",
+				"name": "Velvet Vortex Seal",
+				"audio": "OW No-Eye Ruins 121120_2 AP LP",
+				"detectionRadius": 750,
+				"identificationRadius": 10,
+				"parentPath": "Sector/Seal_Crimson",
+				"isRelativeToParent": true
 			}
 		],
 		"tornados": [

@@ -38,30 +38,13 @@
 					"y": 358.7966,
 					"z": 68.1361
 				}
-			},
-			{
-				"name": "WALL2_NODE2",
-				"linksTo": "DarkerBramble_LabWarp1",
-				"hasFogLight": false,
-				"fogTint": {
-					"r": 0,
-					"g": 0,
-					"b": 0,
-					"a": 0
-				},
-				"possibleExits": [ 1 ],
-				"position": {
-					"x": -150,
-					"y": -600,
-					"z": 100
-				}
 			}
 		]
 	},
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"volume": 1,
+				"volume": 0.5,
 				"priority": 0,
 				"audio": "assets/Audio/darkerbramble.ogg",
 				"track": "music",
@@ -70,7 +53,7 @@
 				"radius": 1400
 			},
 			{
-				"volume": 1,
+				"volume": 0.5,
 				"priority": 0,
 				"audio": "assets/Audio/finally headed home 2 (dark bramble).ogg",
 				"track": "endTimesMusic",
@@ -152,15 +135,6 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/BrambleDock_Red_Pivot.prefab",
-				"parentPath": "Sector/WALL2_NODE2",
-				"isRelativeToParent": true,
-				"rotation": {
-					"y": 133.7557
-				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/FogLantern_Blue.prefab",
 				"position": {
 					"x": -963.1741,
@@ -178,36 +152,6 @@
 					"z": -138.947
 				},
 				"scale": 5
-			},
-			{
-				"path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
-				"removeChildren": [ "B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow" ],
-				"parentPath": "Sector",
-				"rename": "END_ANGLER",
-				"quantumGroupID": "D_END_ANGLER"
-			}
-		],
-		"quantumGroups": [
-			{
-				"id": "D_END_ANGLER",
-				"type": "sockets",
-				"sequential": true,
-				"sockets": [
-					{
-						"position": {
-							"x": -700,
-							"y": -150,
-							"z": -120
-						}
-					},
-					{
-						"position": {
-							"x": -250,
-							"y": -150,
-							"z": -120
-						}
-					}
-				]
 			}
 		],
 		"singularities": [

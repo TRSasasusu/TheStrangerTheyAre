@@ -50,7 +50,7 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"volume": 1,
+				"volume": 0.5,
 				"priority": 1,
 				"audio": "assets/Audio/normalsong_nothingtoseehere.ogg",
 				"track": "music",

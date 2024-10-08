@@ -59,7 +59,7 @@
 	},
 	"Water": {
 		"size": 197,
-		"buoyancy": 0,
+		"buoyancy": 2,
 		"tint": {
 			"r": 42,
 			"g": 1,
@@ -80,6 +80,11 @@
 			{
 				"xmlFile": "dialogue/QuantumPlanet/LabState2/Rubble.xml",
 				"parentPath": "Sector-2/QuantumResearchLabBroken/Interactables/Text/Rubble/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/QuantumPlanet/LabState2/Wall.xml",
+				"parentPath": "Sector-2/MissingWall/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			}
 		],
@@ -141,6 +146,20 @@
 					"x": 350.6881,
 					"y": 112.6797,
 					"z": 0.5056
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/MissingWall.prefab",
+				"position": {
+					"x": -194.535,
+					"y": -30.5218,
+					"z": 4.8077
+				},
+				"rotation": {
+					"x": 2.0662,
+					"y": 7.5896,
+					"z": 54.8115
 				}
 			},
 			{
@@ -212,6 +231,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Lab_Stall",
 				"position": {
 					"x": -195.3059,
 					"y": 10.04503,
@@ -226,15 +246,16 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Camp_Stall",
 				"position": {
-					"x": -38.29794,
-					"y": 154.2975,
-					"z": 0.08504486
+					"x": -30.8836,
+					"y": 197.5386,
+					"z": -4.1718
 				},
 				"rotation": {
-					"x": 353.926,
-					"y": 26.1132,
-					"z": 14.82502
+					"x": 0.2593,
+					"y": 346.9278,
+					"z": 8.2879
 				}
 			},
 			{
@@ -250,14 +271,26 @@
 					"z": 65.794
 				}
 			}
+		],
+		"entryLocation": [
+			{
+				"id": "QUANTUM_MAIN",
+				"cloaked": false
+			},
+			{
+				"id": "QUANTUM_S2_LAB",
+				"cloaked": false,
+				"parentPath": "Sector-3/QuantumResearchLab",
+				"isRelativeToParent": true
+			}
 		]
 	},
 	"Volumes": {
 		"hazardVolumes": [
 			{
 				"radius": 197,
-				"damagePerSecond": 20,
-				"firstContactDamage": 60,
+				"damagePerSecond": 10,
+				"firstContactDamage": 10,
 				"type": "riverHeat"
 			}
 		],

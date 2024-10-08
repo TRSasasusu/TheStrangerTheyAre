@@ -489,14 +489,14 @@
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"rename": "Camp_Stall",
 				"position": {
-					"x": -38.29794,
-					"y": 154.2975,
-					"z": 0.08504486
+					"x": -30.8836,
+					"y": 197.5386,
+					"z": -4.1718
 				},
 				"rotation": {
-					"x": 353.926,
-					"y": 26.1132,
-					"z": 14.82502
+					"x": 0.2593,
+					"y": 346.9278,
+					"z": 8.2879
 				}
 			},
 			{
@@ -510,6 +510,36 @@
 					"x": 38.4215,
 					"y": 342.9549,
 					"z": 65.794
+				}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "QUANTUM_MAIN",
+				"cloaked": false
+			},
+			{
+				"id": "QUANTUM_S1_LAB",
+				"cloaked": false,
+				"parentPath": "Sector-3/QuantumResearchLab",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "QUANTUM_CRACK",
+				"cloaked": false,
+				"position": {
+					"x": -179.9395,
+					"y": 60.5591,
+					"z": -57.7551
+				}
+			},
+			{
+				"id": "QUANTUM_SCRATCH",
+				"cloaked": false,
+				"position": {
+					"x": -145.6181,
+					"y": -133.3766,
+					"z": -19.6035
 				}
 			}
 		]
@@ -592,6 +622,32 @@
 				"radius": 1,
 				"reveals": [
 					"QUANTUM_STALL_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": -179.9395,
+					"y": 60.5591,
+					"z": -57.7551
+				},
+				"radius": 3,
+				"reveals": [
+					"QUANTUM_CRACK_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": -145.6181,
+					"y": -133.3766,
+					"z": -19.6035
+				},
+				"radius": 3,
+				"reveals": [
+					"QUANTUM_SCRATCH_E"
 				]
 			}
 		]

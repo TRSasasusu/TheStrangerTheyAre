@@ -180,7 +180,7 @@
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
 				"onlyAudibleToScope": false,
-				"volume": 1,
+				"volume": 0.5,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
 				"rename": "ScientistSolo",
@@ -192,7 +192,7 @@
 			},
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 1,
+				"volume": 0.5,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
 				"rename": "ScientistInstZone1",
@@ -201,7 +201,7 @@
 			},
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 1,
+				"volume": 0.5,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
 				"rename": "ScientistInstZone2",
@@ -210,7 +210,7 @@
 			},
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 1,
+				"volume": 0.5,
 				"frequency": "Traveler",
 				"name": "SCIENTIST",
 				"rename": "ScientistInstZone3",

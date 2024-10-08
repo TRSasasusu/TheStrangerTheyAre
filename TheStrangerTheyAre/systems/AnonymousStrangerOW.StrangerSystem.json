@@ -2,7 +2,8 @@
     "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
     "loopDuration": 33,
   "respawnHere": true,
-  "canEnterViaWarpDrive": false,
+  "canEnterViaWarpDrive": true,
+  "factRequiredForWarp": "HOME_REVEAL",
   "Vessel": {
     "alwaysPresent": false,
     "coords": {
@@ -10,6 +11,7 @@
       "y": [ 4, 1, 0, 3 ],
       "z": [ 4, 5, 1, 2, 3 ]
     },
+    "promptFact": "",
     "vesselSpawn": {
       "parentBody": "Ringed Giant",
       "position": {
@@ -330,6 +332,20 @@
       "position": {
         "x": 600,
         "y": 900
+      }
+    },
+    {
+      "id": "QUANTUM_CRACK",
+      "position": {
+        "x": 1200,
+        "y": 1200
+      }
+    },
+    {
+      "id": "QUANTUM_SCRATCH",
+      "position": {
+        "x": 1200,
+        "y": 1000
       }
     }
   ],

@@ -264,7 +264,7 @@
 		"playerSpawn": {
 			"alignRadial": true,
 			"startWithSuit": true,
-			"isDefault": true,
+			"makeDefaultIfFactRevealed": "HOME_REVEAL",
 			"rename": "SpawnPlayer_Home",
 			"position": {
 				"x": 198.9236,
@@ -274,6 +274,7 @@
 		},
 		"shipSpawn": {
 			"alignRadial": true,
+			"makeDefaultIfFactRevealed": "HOME_REVEAL",
 			"rename": "SpawnShip_Home",
 			"position": {
 				"x": 140.4604,
@@ -458,23 +459,6 @@
 				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock_Main/RaftSocket",
 				"isRelativeToParent": true,
 				"rename": "HOME_RAFT"
-			}
-		],
-		"signals": [
-			{
-				"audio": "assets/Audio/instrument.wav",
-				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Musician",
-				"isRelativeToParent": true,
-				"name": "Musician",
-				"frequency": "Traveler",
-				"onlyAudibleToScope": false,
-				"volume": 1,
-				"maxDistance": 20,
-				"minDistance": 5,
-				"sourceRadius": 15,
-				"position": {
-					"y": 2
-				}
 			}
 		],
 		"dialogue": [

@@ -56,7 +56,7 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"volume": 1,
+				"volume": 0.5,
 				"priority": 0,
 				"audio": "assets/Audio/darkerbramble.ogg",
 				"track": "music",
@@ -64,7 +64,7 @@
 				"radius": 1400
 			},
 			{
-				"volume": 1,
+				"volume": 0.5,
 				"priority": 1,
 				"audio": "assets/Audio/finally headed home 2 (dark bramble).ogg",
 				"track": "endTimesMusic",
@@ -73,6 +73,11 @@
 			}
 		],
 		"interferenceVolumes": [
+			{
+				"radius": 1400
+			}
+		],
+		"mapRestrictionVolumes": [
 			{
 				"radius": 1400
 			}
@@ -142,26 +147,6 @@
 				"rotation": {
 					"y": 140.3515
 				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/FogLantern_Blue.prefab",
-				"position": {
-					"x": -963.1741,
-					"y": -229.4492,
-					"z": -260.2756
-				},
-				"scale": 5
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/FogLantern_Blue.prefab",
-				"position": {
-					"x": -963.1741,
-					"y": -229.4492,
-					"z": -138.947
-				},
-				"scale": 5
 			}
 		],
 		"singularities": [

@@ -34,7 +34,7 @@ namespace TheStrangerTheyAre
                 {
                     leaderDialogueVision.SetActive(false);
                     leaderDialogueIntro.SetActive(true);
-                    leaderDialogueAfter.SetActive(false);
+                    Destroy(leaderDialogueAfter);
                 }
                 if (Check3())
                 {
@@ -54,11 +54,7 @@ namespace TheStrangerTheyAre
                     leaderDialogueIntro.SetActive(false);
                     if (Check4())
                     {
-                        leaderDialogueAfter.SetActive(false);
-                    }
-                    else
-                    {
-                        leaderDialogueAfter.SetActive(true);
+                        Destroy(leaderDialogueAfter);
                     }
                 }
                 else
