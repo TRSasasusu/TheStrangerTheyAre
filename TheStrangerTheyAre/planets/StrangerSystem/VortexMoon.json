@@ -129,6 +129,24 @@
 		]
 	},
 	"Props": {
+		"entryLocation": [
+			{
+				"id": "VOLCANO_MAIN_E",
+				"cloaked": false
+			},
+			{
+				"id": "VOLCANO_BASE_E",
+				"cloaked": false,
+				"parentPath": "Sector/CG_ISLAND_LAB",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "VOLCANO_SEAL_E",
+				"cloaked": false,
+				"parentPath": "Sector/Seal_CrimsonMoon",
+				"isRelativeToParent": true
+			}
+		],
 		"dialogue": [
 			{
 				"xmlFile": "dialogue/CrimsonMoon/1F_Wall1.xml",

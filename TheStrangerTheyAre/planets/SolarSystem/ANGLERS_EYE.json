@@ -912,6 +912,73 @@
 				]
 			},
 			{
+				"type": "slideReel",
+				"reelModel": "whole",
+				"rename": "VISION_PUZZLEREEL",
+				"parentPath": "Sector/R&DHouse_DBM/Props/F2_Props/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_02",
+				"reveals": [
+					"ANGLERS_EYE_VISIONREEL_E"
+				],
+				"isRelativeToParent": true,
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/VisionTorchLearn/slide (1).jpg",
+						"backdropAudio": "assets/Audio/visionpuzzle1.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (2).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (3).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (4).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (8).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (9).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (10).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (11).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (12).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (13).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (14).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (15).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (16).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (17).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (18).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (19).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (20).jpg" },
+					{
+						"imagePath": "assets/Slideshows/VisionTorchLearn/slide (21).jpg",
+						"backdropAudio": "assets/Audio/visionpuzzle2.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (22).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (23).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (24).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (25).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (26).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (27).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (28).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (29).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (30).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (31).jpg" },
+					{
+						"imagePath": "assets/Slideshows/VisionTorchLearn/slide (32).jpg",
+						"backdropAudio": "assets/Audio/visionpuzzle3.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (33).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (34).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (35).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (36).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (37).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (38).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (39).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (40).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (41).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (42).jpg" },
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/slide (43).jpg" }
+				],
+				"playWithShipLogFacts": [
+					"ANGLERS_EYE_VISIONREEL_E"
+				]
+			},
+			{
 				"type": "autoProjector",
 				"parentPath": "Sector/SignalHouse/Props/Props_IP_ProjectionTable/Projector_Lens (1)",
 				"isRelativeToParent": true,
@@ -2087,11 +2154,21 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03/STORYREEL_1",
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03",
 				"isRelativeToParent": true,
 				"radius": 2,
 				"reveals": [
 					"ANGLERS_EYE_STORYREEL_R"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/R&DHouse_DBM/Props/F2_Props/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_02",
+				"isRelativeToParent": true,
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_VISIONREEL_R"
 				]
 			},
 			{

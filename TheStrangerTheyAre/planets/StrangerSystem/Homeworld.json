@@ -454,6 +454,42 @@
 				]
 			}
 		],
+		"entryLocation": [
+			{
+				"id": "HOME_REVEALED",
+				"cloaked": false
+			},
+			{
+				"id": "HOME_PARTYHOUSE_E",
+				"cloaked": false,
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "HOME_CINDER_EYE",
+				"cloaked": false,
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "HOME_OBSERVE_E",
+				"cloaked": false,
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "HOME_SPACE_E",
+				"cloaked": false,
+				"parentPath": "Sector/SpaceCenter/GhostBirdNPCs",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "HOME_MUSEUM_E",
+				"cloaked": false,
+				"parentPath": "Sector/BrambleMuseum_HOME",
+				"isRelativeToParent": true
+			}
+		],
 		"rafts": [
 			{
 				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock_Main/RaftSocket",

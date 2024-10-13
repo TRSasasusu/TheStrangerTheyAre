@@ -315,6 +315,27 @@
 					"y": 3
 				}
 			}
+		],
+		"entryLocation": [
+			{
+				"id": "DESERT_MAIN_E",
+				"cloaked": false
+			},
+			{
+				"id": "DESERT_TRAVELER_E",
+				"cloaked": false,
+				"position": {
+					"x": -69.8984,
+					"y": 145.3721,
+					"z": -8.1089
+				}
+			},
+			{
+				"id": "DESERT_SEAL_E",
+				"cloaked": false,
+				"parentPath": "Sector/Seal_Desert",
+				"isRelativeToParent": true
+			}
 		]
 	},
 	"canShowOnTitle": false,

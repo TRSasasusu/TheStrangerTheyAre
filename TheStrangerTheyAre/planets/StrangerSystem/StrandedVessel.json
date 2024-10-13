@@ -89,13 +89,13 @@
 					"x": 16.7406,
 					"y": 171.1009,
 					"z": 357.9622
-				}  
+				}
 			},
 			{
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {   
+				"position": {
 					"x": 2.4796,
 					"y": -5.0629,
 					"z": -101.1243
@@ -110,8 +110,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {   
-					"x": -0.2513,  
+				"position": {
+					"x": -0.2513,
 					"y": -5.3756,
 					"z": -93.1444
 				},
@@ -125,12 +125,12 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {   
-					"x": 1.156,    
+				"position": {
+					"x": 1.156,
 					"y": -4.9592,
 					"z": -82.4482
 				},
-				"rotation": {   
+				"rotation": {
 					"x": 31.432,
 					"y": 211.8401,
 					"z": 350.6774
@@ -140,8 +140,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": -2.3822, 
+				"position": {
+					"x": -2.3822,
 					"y": -5.6719,
 					"z": -76.0521
 				},
@@ -149,14 +149,14 @@
 					"x": 16.7406,
 					"y": 171.1009,
 					"z": 357.9622
-				}  
+				}
 			},
 			{
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": 0, 
+				"position": {
+					"x": 0,
 					"y": -48,
 					"z": 0
 				},
@@ -170,8 +170,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {   
-					"x": 2.3374,  
+				"position": {
+					"x": 2.3374,
 					"y": -5.2392,
 					"z": -65.0301
 				},
@@ -185,8 +185,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": 0, 
+				"position": {
+					"x": 0,
 					"y": 0,
 					"z": 0
 				},
@@ -200,12 +200,12 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": 10, 
+				"position": {
+					"x": 10,
 					"y": 10,
 					"z": 0
 				},
-				"rotation": {   
+				"rotation": {
 					"x": 31.432,
 					"y": 211.8401,
 					"z": 350.6774
@@ -215,8 +215,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": -10, 
+				"position": {
+					"x": -10,
 					"y": 10,
 					"z": 0
 				},
@@ -230,8 +230,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": 10, 
+				"position": {
+					"x": 10,
 					"y": -10,
 					"z": 0
 				},
@@ -245,8 +245,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": -10, 
+				"position": {
+					"x": -10,
 					"y": -10,
 					"z": 0
 				},
@@ -260,13 +260,13 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": -3.9905,   
+				"position": {
+					"x": -3.9905,
 					"y": -5.9964,
 					"z": -43.3362
 				},
 				"rotation": {
-					"x": 8.571,   
+					"x": 8.571,
 					"y": 154.9882,
 					"z": 359.8961
 				}
@@ -275,13 +275,13 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": -6.4887,     
+				"position": {
+					"x": -6.4887,
 					"y": 1,
 					"z": -35.8418
 				},
 				"rotation": {
-					"x": 20.853,    
+					"x": 20.853,
 					"y": 186.1152,
 					"z": 334.8302
 				}
@@ -290,13 +290,13 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {  
-					"x": 4.7495,     
+				"position": {
+					"x": 4.7495,
 					"y": 2.3465,
 					"z": -34.7273
 				},
 				"rotation": {
-					"x": 21.7681,     
+					"x": 21.7681,
 					"y": 188.666,
 					"z": 337.4726
 				}
@@ -305,8 +305,8 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": { 
-					"x": 0, 
+				"position": {
+					"x": 0,
 					"y": -30,
 					"z": 0
 				},
@@ -320,13 +320,13 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {  
-					"x": 3.7477,   
+				"position": {
+					"x": 3.7477,
 					"y": -5.9528,
 					"z": -43.3362
 				},
 				"rotation": {
-					"x": 16.648,     
+					"x": 16.648,
 					"y": 217.892,
 					"z": 1.3285
 				}
@@ -335,13 +335,13 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {    
-					"x": 6.1586,   
+				"position": {
+					"x": 6.1586,
 					"y": 11.6381,
 					"z": -26.0832
 				},
-				"rotation": {  
-					"x": 31.396,     
+				"rotation": {
+					"x": 31.396,
 					"y": 230.8452,
 					"z": 351.7369
 				}
@@ -350,13 +350,13 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {    
-					"x": -5.0614,     
+				"position": {
+					"x": -5.0614,
 					"y": 14.3959,
 					"z": -19.8726
 				},
-				"rotation": {   
-					"x": 36.4031,     
+				"rotation": {
+					"x": 36.4031,
 					"y": 304.8096,
 					"z": 3.4337
 				}
@@ -365,16 +365,22 @@
 				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
 				"hasPhysics": true,
 				"keepLoaded": true,
-				"position": {      
-					"x": -6.245,     
+				"position": {
+					"x": -6.245,
 					"y": 18.3432,
 					"z": -32.6854
 				},
-				"rotation": {     
-					"x": 63.391,       
+				"rotation": {
+					"x": 63.391,
 					"y": 112.9521,
 					"z": 170.1133
 				}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "NOM_StrandedVessel_E",
+				"cloaked": false
 			}
 		],
 		"translatorText": [
@@ -450,7 +456,8 @@
 				"slides": [
 					{
 						"imagePath": "assets/Slideshows/VesselVision/image_042_0094.jpg",
-						"backdropAudio": "assets/Audio/thethreat1.ogg"
+						"backdropAudio": "assets/Audio/thethreat1.ogg",
+						"backdropFadeTime": 0
 					},
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0095.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0096.jpg" },
@@ -461,7 +468,8 @@
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0101.jpg" },
 					{
 						"imagePath": "assets/Slideshows/VesselVision/image_042_0102.jpg",
-						"backdropAudio": "assets/Audio/thethreat2.ogg"
+						"backdropAudio": "assets/Audio/thethreat2.ogg",
+						"backdropFadeTime": 0
 					},
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0103.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0104.jpg" },
@@ -472,7 +480,8 @@
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0109.jpg" },
 					{
 						"imagePath": "assets/Slideshows/VesselVision/image_042_0110.jpg",
-						"backdropAudio": "assets/Audio/thethreat3.ogg"
+						"backdropAudio": "assets/Audio/thethreat3.ogg",
+						"backdropFadeTime": 0
 					},
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0111.jpg" },
 					{ "imagePath": "assets/Slideshows/VesselVision/image_042_0112.jpg" },

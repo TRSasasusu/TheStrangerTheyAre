@@ -208,6 +208,11 @@
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"xmlFile": "dialogue/PreBramble/Archives/Wall2.xml"
+			},
+			{
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Exit/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true,
+				"xmlFile": "dialogue/PreBramble/Archives/Exit.xml"
 			}
 		],
 		"singularities": [
@@ -227,7 +232,7 @@
 				"type": "blackHole",
 				"horizonRadius": 0,
 				"hasWarpEffects": false,
-				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/ExitOffset",
 				"isRelativeToParent": true,
 				"pairedSingularity": "EXIT_WH"
 			}
@@ -235,7 +240,11 @@
 	},
 	"removeChildren": [
 		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleRenderer",
-		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleAmbience"
+		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleAmbience",
+
+		"Sector/PreBrambleBase/Interactibles/ExitOffset/EXIT_BH/BlackHoleRenderer",
+		"Sector/PreBrambleBase/Interactibles/ExitOffset/EXIT_BH/BlackHoleAmbience",
+		"Sector/PreBrambleBase/Interactibles/ExitOffset/EXIT_BH/BlackHoleEmissionOneShot"
 	],
 	"Orbit": {
 		"staticPosition": {

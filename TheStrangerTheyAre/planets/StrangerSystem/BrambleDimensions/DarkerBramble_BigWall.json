@@ -8,7 +8,7 @@
 			"vinePrefab": "none",
 			"radius": 750,
 			"fogDensity": 10,
-			"linksTo": "LoopNode3",
+			"linksTo": "WALL1_NODE1",
 			"fogTint": {
 				"r": 0,
 				"g": 0,
@@ -33,25 +33,6 @@
 				}
 			}
 		]
-	},
-	"Spawn": {
-		"shipSpawn": {
-			"position": {
-				"x": -1100.112,
-				"y": -206.8077,
-				"z": -205.2453
-			},
-			"rename": "SpawnShip_BrambleWarp"
-		},
-		"playerSpawn": {
-			"position": {
-				"x": -1100.112,
-				"y": -206.8077,
-				"z": -205.2453
-			},
-			"rename": "SpawnPlayer_BrambleWarp",
-			"startWithSuit": true
-		}
 	},
 	"Volumes": {
 		"audioVolumes": [

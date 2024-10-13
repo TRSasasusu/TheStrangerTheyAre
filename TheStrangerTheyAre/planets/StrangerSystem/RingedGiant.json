@@ -105,7 +105,7 @@
 			},
 			{
 				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
-				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger/",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger",
 				"isRelativeToParent": true,
 				"removeChildren": [
 					"Effects",
@@ -153,6 +153,30 @@
 					"y": 74.5762,
 					"z": 174.5877
 				}
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "RING_MAIN_E",
+				"cloaked": false
+			},
+			{
+				"id": "RING_CAMP_E",
+				"cloaked": false,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "RING_TRAVELER_E",
+				"cloaked": false,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "RING_SEAL_E",
+				"cloaked": false,
+				"parentPath": "Sector/Seal_Ringed",
+				"isRelativeToParent": true
 			}
 		],
 		"dialogue": [

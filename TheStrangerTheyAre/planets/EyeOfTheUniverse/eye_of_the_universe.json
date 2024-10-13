@@ -21,6 +21,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/SystemModel.prefab",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory",
 				"position": {
 					"x": -1403.276,
 					"y": 5.7536,
@@ -61,6 +62,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/Tube_Mineral.prefab",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory",
 				"position": {
 					"x": -1401.992,
 					"y": -0.2370346,
@@ -75,6 +77,7 @@
 			{
 				"path": "Sector_TH/Sector_QuantumGroveEntrance/Lighting_QuantumGroveEntrance/Props_HEA_MuseumPlaque",
 				"rename": "Mineral_Sign",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory",
 				"removeChildren": [
 					"InteractVolume"
 				],
@@ -92,6 +95,7 @@
 			{
 				"path": "Sector_TH/Sector_QuantumGroveEntrance/Lighting_QuantumGroveEntrance/Props_HEA_MuseumPlaque",
 				"rename": "System_Sign",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory",
 				"removeChildren": [
 					"InteractVolume"
 				],
@@ -161,7 +165,7 @@
 			},
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Museum/SystemModel.xml",
-				"parentPath": "Sector_EyeOfTheUniverse/System_Sign",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/System_Sign",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 1
@@ -169,7 +173,7 @@
 			},
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Museum/Mineral.xml",
-				"parentPath": "Sector_EyeOfTheUniverse/Mineral_Sign",
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Mineral_Sign",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 1

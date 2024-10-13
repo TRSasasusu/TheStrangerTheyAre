@@ -140,7 +140,7 @@
   </DialogueOption>
 
   <DialogueOption>
-    <Text>What are the origans of the Angler's Eye?</Text>
+    <Text>Tell me more about Angler's Eye.</Text>
     <DialogueTarget>B9</DialogueTarget>
   </DialogueOption>
 
@@ -280,10 +280,10 @@
   <!-- (Note the lack of an EntryCondition) -->
   <Dialogue>
    <Page>My kind had a deep connection with nature, so we tried to take it with us on our voyage.</Page>
-   <Page>Before we found that vortex in the sky, which you have called "the Eye of the Universe", we lived very simple and pleasant lives.</Page>
+   <Page>Before we found that vortex in the sky, which you have called the "Eye of the Universe", we lived very simple and pleasant lives.</Page>
    <Page>We lived peacefully under the Ringed Giant, rafting its rivers, counting the stars, enjoying the simple plesures of life.</Page>
    <Page>Some of us had hobbies; building furniture, playing board games, music, and even fishing.</Page>
-   <Page>Most of my kind was very spiritual, some even worshipping idols and making sacrifices to anchent, now long forgoten gods..</Page>
+   <Page>Most of my kind was very spiritual, some even worshipping idols and making sacrifices to ancient, now long forgoten gods..</Page>
    <Page>I was one of the few indivuals who didn't care for worship, in fact my whole family was that way.</Page>
    <Page>It was only natural for my kind to sacrifice the planet to reach the "Eye of the Universe". After all that, we were never the same. No more gods, no more faith.</Page>
   </Dialogue>
@@ -508,7 +508,7 @@
     <DialogueOption> <!-- A single option the player can pick -->
     <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition> <!-- make it the entry for learning about the vessle (like the BH mural or seeing the thing itself)-->
     <Text>I can tell you where they came from.</Text> <!-- The text to display for the option -->
-    <DialogueTarget>NOM_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
+    <DialogueTarget>Nom_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
 
     <DialogueOption> <!-- A single option the player can pick -->
@@ -636,7 +636,7 @@
     <DialogueOption> <!-- A single option the player can pick -->
     <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition> <!-- make it the entry for learning about the vessle (like the BH mural or seeing the thing itself)-->
     <Text>I can tell you where they came from.</Text> <!-- The text to display for the option -->
-    <DialogueTarget>NOM_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
+    <DialogueTarget>Nom_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
 
     <DialogueOption> <!-- A single option the player can pick -->
@@ -670,7 +670,7 @@
     <DialogueOption> <!-- A single option the player can pick -->
     <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition> <!-- make it the entry for learning about the vessle (like the BH mural or seeing the thing itself)-->
     <Text>I can tell you where they came from.</Text> <!-- The text to display for the option -->
-    <DialogueTarget>NOM_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
+    <DialogueTarget>Nom_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
 
     <DialogueOption> <!-- A single option the player can pick -->
@@ -772,7 +772,7 @@
     <DialogueOption> <!-- A single option the player can pick -->
     <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition> <!-- make it the entry for learning about the vessle (like the BH mural or seeing the thing itself)-->
     <Text>I can tell you where they came from.</Text> <!-- The text to display for the option -->
-    <DialogueTarget>NOM_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
+    <DialogueTarget>Nom_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
 
     <DialogueOption> <!-- A single option the player can pick -->
@@ -874,7 +874,7 @@
     <DialogueOption> <!-- A single option the player can pick -->
     <RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition> <!-- make it the entry for learning about the vessle (like the BH mural or seeing the thing itself)-->
     <Text>I can tell you where they came from.</Text> <!-- The text to display for the option -->
-    <DialogueTarget>NOM_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
+    <DialogueTarget>Nom_Ves_1</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
 
     <DialogueOption> <!-- A single option the player can pick -->
@@ -919,7 +919,7 @@
   </Dialogue>
   <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
       <DialogueOption> <!-- A single option the player can pick -->
-    <Text>She shared to me why he got imprison in teh vualt. After experencing some kind of emotional catharsis. Once free he decided to extingish his flame, free from the burden that it wasn't all in vain.</Text> <!-- The text to display for the option -->
+    <Text>He shared to me why he got imprisoned in the vault. After experencing some kind of emotional catharsis. Once free he decided to extingish his flame, free from the burden that it wasn't all in vain.</Text> <!-- The text to display for the option -->
     <DialogueTarget>PRISONER</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
   </DialogueOptionsList>
@@ -1033,7 +1033,7 @@
     <DialogueTarget>C53</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
    <DialogueOption> <!-- A single option the player can pick -->
-    <Text>I can try but I dont think my ship has the power to do it.</Text> <!-- The text to display for the option -->
+    <Text>I can try, but I dont think my ship has the power to do it.</Text> <!-- The text to display for the option -->
     <DialogueTarget>StartPlayerB</DialogueTarget> <!-- The name of the node to jump to -->
    </DialogueOption>
   </DialogueOptionsList>

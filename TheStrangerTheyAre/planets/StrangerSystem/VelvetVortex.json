@@ -248,7 +248,7 @@
 		"dialogue": [
 			{
 				"xmlFile": "dialogue/NewTravelers/Crimson.xml",
-				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELERSector/CG_RAFT/CRIMSON_TRAVELER",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -267,6 +267,30 @@
 			{
 				"xmlFile": "dialogue/Crimson/2F_Wall2.xml",
 				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Text/2F_Wall2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "CRIMSON_MAIN_E",
+				"cloaked": false
+			},
+			{
+				"id": "CRIMSON_TRAVELER_E",
+				"cloaked": false,
+				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "CRIMSON_BASE_E",
+				"cloaked": false,
+				"parentPath": "Sector/CG_ISLAND_LAB",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "CRIMSON_SEAL_E",
+				"cloaked": false,
+				"parentPath": "Sector/Seal_Crimson",
 				"isRelativeToParent": true
 			}
 		],

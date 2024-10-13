@@ -43,9 +43,6 @@ namespace TheStrangerTheyAre
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
 
-            // adds the spawn determine thing
-            //Locator.GetPlayerBody().gameObject.AddComponent<DetermineSystemSpawn>();
-
             // Example of accessing game code.
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
@@ -63,12 +60,6 @@ namespace TheStrangerTheyAre
 
         private void OnSolarSystemLoaded()
         {
-            // TODO: Remove this and prefer to add the component in Unity, Idiot doesn't have unity so he will make do
-            /*var campfire = GameObject.Find("AnglersEye_Body/Sector/BrambleMuseum/Interactables/Prefab_IP_DreamCampfire");
-            campfire.AddComponent<CustomSimSpawn>();*/
-
-            // Fix offset issues on PreBramble. The terrain was placed incorrectly as were all props place onto it
-            // The children are inactive so have to find them manually
             var preBramble = GameObject.Find("PreBramble_Body");
             var preBrambleSector = GameObject.Find("PreBramble_Body").transform.Find("Sector");
 
