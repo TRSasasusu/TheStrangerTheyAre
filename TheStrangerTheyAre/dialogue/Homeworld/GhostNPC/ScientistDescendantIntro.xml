@@ -24,8 +24,8 @@
     <DialogueTarget>3</DialogueTarget>
    </DialogueOption>
     <DialogueOption>
-		<EntryCondition>HOME_VESSEL</EntryCondition>
-    <Text>Doesn't matter. Come with me. Your life depends on it!</Text>
+		<RequiredLogCondition>HOME_VESSEL</RequiredLogCondition>
+        <Text>Doesn't matter. Come with me. Your life depends on it!</Text>
     <DialogueTarget>4</DialogueTarget>
    </DialogueOption>
   </DialogueOptionsList>
@@ -128,7 +128,7 @@
    <Page>Alright, I alone shall come with you on this journey.</Page>
    <Page>The others can keep guard of our homeland. I'll start my way on over.</Page>
   </Dialogue>
-	 <SetCondition>CYPRESS_BOARDVESSEL</SetCondition>
+	 <SetPersistentCondition>CYPRESS_BOARDVESSEL</SetPersistentCondition>
     <RevealFacts>
       <FactID>HOME_LEADER_VESSEL</FactID>
   </RevealFacts>

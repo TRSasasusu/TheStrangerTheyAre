@@ -164,7 +164,7 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_SEAL_E</ID>
-				<Text>I found a square piece of metal under the ice of the third state! It looks like it fits in the structure...</Text>
+				<Text>I found a square piece of metal under the ice of the third state. It looks like it fits in the structure...</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -204,7 +204,7 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_INT_E</ID>
-				<Text>I found an interface with my scout using the scratch marks and changing states!</Text>
+				<Text>I found an interface with my scout using the scratch marks and changing states.</Text>
 			</ExploreFact>
 		</Entry>
 

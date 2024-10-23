@@ -1,6 +1,9 @@
 ﻿using HarmonyLib;
+using NewHorizons.Utility.Files;
+using System.EnterpriseServices.CompensatingResourceManager;
 using System.IO;
 using UnityEngine;
+using static StencilPreviewImageEffect;
 
 namespace TheStrangerTheyAre;
 
@@ -23,35 +26,6 @@ public class QuantumCampsiteControllerPatch
     private TravelerEyeController scientistController;
     private Transform scientistRoot;
 
-    [HarmonyPrefix] // __instance method causes mod to not load
-    [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
-    private static bool QuantumCampsiteController_GetTravelerMusicEndClip_Prefix(QuantumCampsiteController __instance, ref AudioClip __result)
-    {
-        bool flag = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
-        //AudioClip newAudioType; // haven't implemented __instance yet, so ignore it.
-        if (Check() && flag && __instance._hasMetSolanum)
-        {
-            Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSwP.ogg"); // still don't know how i can convert __instance to audioclip so it doesn't set itself equal to anything.
-        } else if (Check() && flag)
-        {
-            Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSwP.ogg");
-        } else if (Check() && __instance._hasMetSolanum)
-        {
-            Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSnP.ogg");
-        } else if (Check())
-        {
-            Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSnP.ogg");
-        }
-        
-        if (Check())
-        {
-            return false;
-        } else
-        {
-            return true;
-        }
-    }
-
     [HarmonyPostfix] // __instance method causes mod to not load
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.ActivateRemainingInstrumentZones))]
     private static void QuantumCampsiteController_ActivateRemainingInstrumentZones_Postfix(QuantumCampsiteController __instance)
@@ -64,6 +38,39 @@ public class QuantumCampsiteControllerPatch
                 __instance._instrumentZones[6].SetActive(true);
             }
         }
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
+    public static bool GetEndMusic(QuantumCampsiteController __instance, ref AudioClip __result)
+    {
+        bool flag = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
+        if (Check())
+        {
+            return true;
+        }
+        AudioClip sciAudio;
+        if (Check() && flag && __instance._hasMetSolanum)
+        {
+            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSwP.ogg"));
+            __result = sciAudio;
+        }
+        else if (Check() && flag)
+        {
+            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSwP.ogg"));
+            __result = sciAudio;
+        }
+        else if (Check() && __instance._hasMetSolanum)
+        {
+            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSnP.ogg"));
+            __result = sciAudio;
+        }
+        else if (Check())
+        {
+            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSnP.ogg"));
+            __result = sciAudio;
+        }
+        return false;
     }
 
     // everything below allows the mod to run, if i comment the two problematic methods out.
@@ -99,7 +106,7 @@ public class QuantumCampsiteControllerPatch
 
     private static bool Check()
     {
-        return Locator.GetShipLogManager().IsFactRevealed("NEWSIM_SCIENTIST_CLONE");
+        return DialogueConditionManager.SharedInstance.GetConditionState("CYPRESS_BOARDVESSEL");
     }
 
     private void OnTravelerStartPlaying(QuantumCampsiteController __instance)

@@ -634,7 +634,7 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/GhostNPC/PartySit1.xml",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Sitting1",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Sitting1/Dialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -642,7 +642,7 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/GhostNPC/PartySit2.xml",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Sitting2",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Sitting2/Dialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -650,7 +650,7 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/GhostNPC/LookingDown.xml",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ByStair",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_ByStair/Dialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -658,7 +658,7 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/GhostNPC/ConversationGhirds1.xml",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Conversation1",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Conversation1/Dialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -666,7 +666,7 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/GhostNPC/ConversationGhirds2.xml",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Conversation2",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Conversation2/Dialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -674,7 +674,7 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/GhostNPC/Leaning.xml",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Leaning",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Ghostbird_NPCs/Prefab_IP_GhostBird_Leaning/Dialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3

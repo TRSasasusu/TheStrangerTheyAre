@@ -15,73 +15,6 @@
 			}
 		}
 	},
-	"Volumes": {
-		"audioVolumes": [
-			{
-				"priority": 0,
-				"audio": "assets/Audio/BrambleArchiveDiscovery.ogg",
-				"track": "music",
-				"loop": false,
-				"pauseOnFadeOut": false,
-				"radius": 200,
-				"position": {
-					"x": -325.2753,
-					"y": -61.4801,
-					"z": -62.5894
-				}
-			},
-			{
-				"priority": 0,
-				"audio": "assets/Audio/fourtharchive.ogg",
-				"parentPath": "Sector/PreBrambleBase",
-				"isRelativeToParent": true,
-				"track": "music",
-				"volume": 0.4,
-				"radius": 30
-			},
-			{
-				"priority": 1,
-				"audio": "assets/Audio/silence.ogg",
-				"parentPath": "Sector/PreBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface",
-				"isRelativeToParent": true,
-				"track": "music",
-				"radius": 4
-			},
-			{
-				"audio": "Tronworld Ambience 2 Alex Hack",
-				"radius": 3,
-				"volume": 0.5,
-				"track": "environmentUnfiltered",
-				"parentPath": "Sector/PreBrambleBase/GlitchedTiles",
-				"priority": 1,
-				"isRelativeToParent": true
-			}
-		],
-		"speedTrapVolumes": [
-			{
-				"acceleration": 1,
-				"speedLimit": 5,
-				"radius": 60
-			}
-		],
-		"oxygenVolumes": [
-			{
-				"radius": 1000
-			}
-		],
-		"revealVolumes": [
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/PreBrambleBase",
-				"isRelativeToParent": true,
-				"radius": 50,
-				"reveals": [
-					"PREBRAMBLE_ARCHIVES_E"
-				]
-			}
-		]
-	},
 	"Props": {
 		"details": [
 			{
@@ -225,26 +158,12 @@
 				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
 				"isRelativeToParent": true,
 				"pairedSingularity": "GLITCH_BH"
-			},
-			{
-				"rename": "EXIT_BH",
-				"uniqueID": "EXIT_BH",
-				"type": "blackHole",
-				"horizonRadius": 0,
-				"hasWarpEffects": false,
-				"parentPath": "Sector/PreBrambleBase/Interactibles/ExitOffset",
-				"isRelativeToParent": true,
-				"pairedSingularity": "EXIT_WH"
 			}
 		]
 	},
 	"removeChildren": [
 		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleRenderer",
-		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleAmbience",
-
-		"Sector/PreBrambleBase/Interactibles/ExitOffset/EXIT_BH/BlackHoleRenderer",
-		"Sector/PreBrambleBase/Interactibles/ExitOffset/EXIT_BH/BlackHoleAmbience",
-		"Sector/PreBrambleBase/Interactibles/ExitOffset/EXIT_BH/BlackHoleEmissionOneShot"
+		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleAmbience"
 	],
 	"Orbit": {
 		"staticPosition": {
@@ -253,5 +172,80 @@
 			"z": 10000
 		},
 		"isStatic": true
+	},
+	"Volumes": {
+		"destructionVolumes": [
+			{
+				"deathType": "dream",
+				"onlyAffectsPlayerRelatedBodies": true,
+				"parentPath": "Sector/PreBrambleBase/Interactibles/ExitOffset",
+				"isRelativeToParent": true				
+			}
+		],
+		"audioVolumes": [
+			{
+				"priority": 0,
+				"audio": "assets/Audio/BrambleArchiveDiscovery.ogg",
+				"track": "music",
+				"loop": false,
+				"pauseOnFadeOut": false,
+				"radius": 200,
+				"position": {
+					"x": -325.2753,
+					"y": -61.4801,
+					"z": -62.5894
+				}
+			},
+			{
+				"priority": 0,
+				"audio": "assets/Audio/fourtharchive.ogg",
+				"parentPath": "Sector/PreBrambleBase",
+				"isRelativeToParent": true,
+				"track": "music",
+				"volume": 0.4,
+				"radius": 30
+			},
+			{
+				"priority": 1,
+				"audio": "assets/Audio/silence.ogg",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface",
+				"isRelativeToParent": true,
+				"track": "music",
+				"radius": 4
+			},
+			{
+				"audio": "Tronworld Ambience 2 Alex Hack",
+				"radius": 3,
+				"volume": 0.5,
+				"track": "environmentUnfiltered",
+				"parentPath": "Sector/PreBrambleBase/GlitchedTiles",
+				"priority": 1,
+				"isRelativeToParent": true
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"acceleration": 1,
+				"speedLimit": 5,
+				"radius": 60
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"radius": 1000
+			}
+		],
+		"revealVolumes": [
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/PreBrambleBase",
+				"isRelativeToParent": true,
+				"radius": 50,
+				"reveals": [
+					"PREBRAMBLE_ARCHIVES_E"
+				]
+			}
+		]
 	}
 }

@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using OWML.Common;
 using NewHorizons.Utility;
-using UnityEngine.InputSystem.EnhancedTouch;
 
 namespace TheStrangerTheyAre
 {
@@ -23,10 +21,7 @@ namespace TheStrangerTheyAre
             scientist3 = GameObject.Find("Prefab_IP_GhostBird_Scientist3"); // gets the post-vision scientist
             scientist4 = GameObject.Find("Prefab_IP_GhostBird_Scientist4"); // gets the next loop scientist
             projector = GameObject.Find("Theatre_SIM/Prefab_IP_DreamLibraryPedestal"); // gets projector
-
-            scientist1.GetComponent<GhostBrain>().enabled = false;
-            scientist1.GetComponent<GhostController>().enabled = false;
-            scientist1.GetComponent<GhostSensors>().enabled = false;
+            GlobalMessenger.AddListener("EnterDreamWorld", OnEnterDreamWorld); // checks if player enters the sim
         }
 
         void Start()
@@ -41,14 +36,21 @@ namespace TheStrangerTheyAre
             scientist1.SetActive(true);
         }
 
+        void OnEnterDreamWorld()
+        {
+            if (scientist1.activeSelf)
+            {
+                scientist1.SetActive(false);
+            }
+        }
+
         private void Update()
         {
-            if (projector.GetComponent<DreamLibraryPedestal>().IsPowered() == true && isChecked == false && scientist1.activeSelf)
+            if (projector.GetComponent<DreamLibraryPedestal>().IsPowered() == true && isChecked == false)
             {
-                isChecked = true; // sets boolean to be checked
+                scientist1.SetActive(true);
                 scientist1.GetComponent<GhostBrain>().enabled = true;
-                scientist1.GetComponent<GhostController>().enabled = true;
-                scientist1.GetComponent<GhostSensors>().enabled = true;
+                isChecked = true; // sets boolean to be checked
             }
 
             // on each frame, check if the scientist pre-vision is enabled
@@ -56,6 +58,7 @@ namespace TheStrangerTheyAre
             {
                 scientist1.SetActive(false);
                 // also check if the player saw the vision, but has not yet talked to him.
+
                 if (!Check() && Check3())
                 {
                     scientist2.SetActive(false); // sets the pre-vision scientist to false

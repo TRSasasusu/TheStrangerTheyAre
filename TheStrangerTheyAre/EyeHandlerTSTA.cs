@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using NewHorizons.Utility;
 
 namespace TheStrangerTheyAre
 {
@@ -6,23 +7,32 @@ namespace TheStrangerTheyAre
     {
         GameObject leaderDialogueIntro;
         GameObject leaderDialogueAfter;
-        void Awake()
-        {
-
-        }
+        GameObject[] leader;
 
         void Start()
         {
-            leaderDialogueIntro = GameObject.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1/EYE_CypressFire");
-            leaderDialogueAfter = GameObject.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1/EYE_CypressSong");
+            leaderDialogueIntro = SearchUtilities.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1/EYE_CypressFire");
+            leaderDialogueAfter = SearchUtilities.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1/EYE_CypressSong");
+            leader[0] = SearchUtilities.Find("Sector_VesselBridge/Prefab_IP_GhostBird_ScientistDescendant_Vessel2");
+            leader[1] = SearchUtilities.Find("Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_EyeSurface");
+            leader[2] = SearchUtilities.Find("Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1");
 
-            leaderDialogueAfter.SetActive(false);
-            leaderDialogueIntro.SetActive(true);
+            if (Check())
+            {
+                leaderDialogueAfter.SetActive(false);
+                leaderDialogueIntro.SetActive(true);
+            } else
+            {
+                foreach (GameObject lead in leader)
+                {
+                    Destroy(lead);
+                }
+            }
         }
 
         private bool Check()
         {
-            return Locator.GetShipLogManager().IsFactRevealed("NEWSIM_SCIENTIST_CLONE");
+            return DialogueConditionManager.SharedInstance.GetConditionState("CYPRESS_BOARDVESSEL");
         }
     }
 }

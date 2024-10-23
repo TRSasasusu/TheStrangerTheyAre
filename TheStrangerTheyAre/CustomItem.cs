@@ -18,7 +18,6 @@ public class CustomItem : OWItem
         isCloakMineral = true;
         isRotating = true;
         base.Awake();
-        SetOffset();
     }
 
     private void Start()
@@ -40,15 +39,7 @@ public class CustomItem : OWItem
     {
         isRotating = true;
         base.DropItem(position, normal, parent, sector, customDropTarget);
-        SetOffset();
     }
-
-    public void SetOffset(){
-        Vector3 euler = this.transform.eulerAngles;
-        euler.z =- 90f;
-        this.transform.eulerAngles = euler;
-    }
-
     public override void PickUpItem(Transform holdTranform)
     {
         isRotating = false;

@@ -26,87 +26,104 @@
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_1_Story_Complete",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_01",
+				"rename": "TSTA_REEL_1",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_2_Story_Complete",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_03",
+				"rename": "TSTA_REEL_2",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_3_Story_Complete",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_03",
+				"rename": "TSTA_REEL_3",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/Interactables_SlideBurningRoom_Zone1/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_1_LibraryPath",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_01",
+				"rename": "TSTA_REEL_4",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2/Interactables_SlideBurningHouse_Zone2/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_2_LibraryPath",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_02",
+				"rename": "TSTA_REEL_5",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2/Interactables_SlideBurningHouse_Zone2/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_3_LibraryPath",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_03",
+				"rename": "TSTA_REEL_6",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/Prefab_IP_SlideReelShelf (15)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_1_Seal",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_01",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_7"
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_03/SlideSocket_02/Prefab_IP_Reel_2_Seal",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_02",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_8"
 			},
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (5)/SlideReelShelf_Row_03/SlideSocket_03/Prefab_IP_Reel_3_Seal",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_03",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_9"
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_EntranceClueBuilding_Zone3_Interior/Interactables_EntranceClueBuilding_Zone3_Interior/Prefab_IP_Reel_DamageReport",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_02",
+				"rename": "TSTA_REEL_10",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone3/Sector_CanyonObvious/Structures_CanyonObvious/AbandonedTemple_Zone3/Interactables_AbandonedTemple_Zone3/Interactables_TempleBasement/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_01/Prefab_IP_Reel_Burning",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_04/SlideSocket_02",
+				"rename": "TSTA_REEL_11",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Interactibles_DreamFireLighthouse_Zone2/Pivot_SlideReelRoom/Pivot_SlideReelCrates/Prefab_IP_Reel_LanternSecret",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_03",
-				"isRelativeToParent": true
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_01",
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_12"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_1_DreamRule",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_01",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_13"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_2_DreamRule_v1",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_02",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_14"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_03/Prefab_IP_Reel_2_DreamRule_v2",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_02",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_15"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_02/SlideSocket_01/Prefab_IP_Reel_3_DreamRule",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_03",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_16"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_Reel_ExperimentWatch",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_02/SlideSocket_01",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_17"
 			}
 		],
 		"dialogue": [
@@ -299,6 +316,7 @@
 				"reelCondition": "pristine",
 				"reelModel": "whole",
 				"isRelativeToParent": true,
+				"rename": "TSTA_REEL_18",
 				"reveals": [
 					"NEWSIM_PRISONER_REEL"
 				],

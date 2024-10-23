@@ -102,7 +102,7 @@
 
 			<ExploreFact>
 				<ID>CRIMSON_SEAL_E</ID>
-				<Text>I found a square piece of metal under the ocean! It looks like it fits in the structure...</Text>
+				<Text>I found a square piece of metal under the ocean. It looks like it fits in the structure...</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -125,7 +125,7 @@
 
 			<ExploreFact>
 				<ID>CRIMSON_CAMP_E</ID>
-				<Text>I found a campsite on one of the islands!</Text>
+				<Text>I found a campsite on one of the islands.</Text>
 			</ExploreFact>
 		</Entry>
     </Entry>

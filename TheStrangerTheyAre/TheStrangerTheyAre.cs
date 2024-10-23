@@ -1,4 +1,6 @@
-﻿using HarmonyLib;
+﻿using Epic.OnlineServices;
+using HarmonyLib;
+using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Linq;
@@ -10,6 +12,10 @@ namespace TheStrangerTheyAre
     public class TheStrangerTheyAre : ModBehaviour
     {
         public static INewHorizons NewHorizonsAPI { get; private set; }
+        private GameObject oldTitlePlanet;
+        private GameObject titleRigidBody;
+        private AssetBundle bundle;
+        
 
         private void Awake()
         {
@@ -56,6 +62,26 @@ namespace TheStrangerTheyAre
 
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
+
+            bundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/strangerbundle");
+            LoadManager.OnCompleteSceneLoad += Stuff;
+            Stuff(OWScene.TitleScreen, OWScene.TitleScreen);
+        }
+
+        private void Stuff(OWScene scene, OWScene loadScene)
+        {
+            if (loadScene != OWScene.TitleScreen) return;
+
+            titleRigidBody = SearchUtilities.Find("Scene/Background/PlanetPivot");
+            oldTitlePlanet = SearchUtilities.Find("Scene/Background/PlanetPivot/PlanetRoot");
+
+            var prefab = bundle.LoadAsset<GameObject>("Assets/NewTitlePlanet.prefab");
+            GameObject.Instantiate(oldTitlePlanet, titleRigidBody.transform);
+            prefab.transform.SetParent(titleRigidBody.transform);
+            prefab.transform.position = oldTitlePlanet.transform.position;
+            prefab.transform.rotation = oldTitlePlanet.transform.rotation;
+            oldTitlePlanet.SetActive(false);
+            ModHelper.Console.WriteLine("Disable Old Planet", MessageType.Success);
         }
 
         private void OnSolarSystemLoaded()

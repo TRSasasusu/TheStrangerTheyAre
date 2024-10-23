@@ -261,6 +261,7 @@
 				"track": "endTimesMusic",
 				"parentPath": "Sector/Vessel_Body",
 				"isRelativeToParent": true,
+				"volume": 0.6,
 				"radius": 99999,
 				"rename": "FinalEndTimes_STR"
 			}
@@ -360,6 +361,17 @@
 				},
 				"reveals": [
 					"QUANTUM_SEAL_INSERT"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 50,
+				"parentPath": "Sector/Vessel_Body",
+				"isRelativeToParent": true,
+				"rename": "VESSEL_REVEAL",
+				"reveals": [
+					"HOME_VESSEL"
 				]
 			},
 			{

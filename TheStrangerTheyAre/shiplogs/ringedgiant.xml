@@ -69,7 +69,7 @@
 			
 			<ExploreFact>
 				<ID>RING_CAMP_E</ID>
-				<Text>I found a campsite on one of the islands!</Text>
+				<Text>I found a campsite on one of the islands.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -88,7 +88,7 @@
 
 			<ExploreFact>
 				<ID>RING_SEAL_E</ID>
-				<Text>I found a square piece of metal at Bush's Campsite! It looks like it fits in the structure...</Text>
+				<Text>I found a square piece of metal at Bush's Campsite. It looks like it fits in the structure...</Text>
 			</ExploreFact>
 
 			<ExploreFact>

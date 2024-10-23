@@ -168,6 +168,10 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/InterloperTrigger.prefab"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Conservatory.prefab",
 				"rotation": {
 					"x": 55.2520142,
@@ -350,6 +354,9 @@
 					"x": -62.81258,
 					"y": -31.45563,
 					"z": 6.327398
+				},
+				"rotation": {
+					"z": -90
 				}
 			},
 			{
@@ -455,9 +462,9 @@
 					"a": 0
 				},
 				"position": {
-					"x": 1.104206,
-					"y": -100.9798,
-					"z": -0.5480309
+					"x": 1.1042,
+					"y": -85.8241,
+					"z": -0.548
 				}
 			}
 		],
@@ -1956,6 +1963,16 @@
 				"radius": 20
 			}
 		],
+		"interferenceVolumes": [
+			{
+				"radius": 145.0
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 145.0
+			}
+		],
 		"speedTrapVolumes": [
 			{
 				"acceleration": 1,
@@ -2154,7 +2171,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03",
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03/STORYREEL_1",
 				"isRelativeToParent": true,
 				"radius": 2,
 				"reveals": [

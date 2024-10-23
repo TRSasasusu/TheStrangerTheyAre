@@ -30,6 +30,20 @@
       }
     },
     {
+      "id": "ANGLERS_EYE_SIGNALHOUSE_T",
+      "position": {
+        "x": 5000,
+        "y": 750
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_SIGNALHOUSE_LOCKED_T",
+      "position": {
+        "x": 5100,
+        "y": 750
+      }
+    },
+    {
       "id": "ANGLERS_EYE_SIMSECRET",
       "position": {
         "x": 5100,
@@ -86,6 +100,27 @@
       }
     },
     {
+      "id": "ANGLERS_EYE_MINE_T",
+      "position": {
+        "x": 4950,
+        "y": 900
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_RD_T",
+      "position": {
+        "x": 4700,
+        "y": 750
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_VISIONREEL",
+      "position": {
+        "x": 4800,
+        "y": 350
+      }
+    },
+    {
       "id": "ANGLERS_EYE_STORYREEL",
       "position": {
         "x": 4500,
@@ -97,6 +132,34 @@
       "position": {
         "x": 4500,
         "y": 900
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_CRASHSITE_T",
+      "position": {
+        "x": 4750,
+        "y": 900
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_DBMUSEUM_T",
+      "position": {
+        "x": 4850,
+        "y": 750
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_DBMUSEUM_SIM",
+      "position": {
+        "x": 4400,
+        "y": 600
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_CONSERVATORY_T",
+      "position": {
+        "x": 4600,
+        "y": 750
       }
     },
     {

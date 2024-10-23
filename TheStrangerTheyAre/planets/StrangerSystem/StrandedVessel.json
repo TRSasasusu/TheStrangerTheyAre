@@ -454,6 +454,7 @@
 				},
 				"reveals": [ "VESSEL_VISION" ],
 				"slides": [
+					{ "imagePath": "assets/Slideshows/VesselVision/title.png" },
 					{
 						"imagePath": "assets/Slideshows/VesselVision/image_042_0094.jpg",
 						"backdropAudio": "assets/Audio/thethreat1.ogg",

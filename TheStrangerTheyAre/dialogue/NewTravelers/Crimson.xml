@@ -103,7 +103,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>VOLCANO_BASE_E</RequiredLogCondition>
-				<Text>I found the base! It was full-blown military base with bombs!</Text>
+				<Text>I found the base! It was full-blown military base with bombs.</Text>
 				<DialogueTarget>2C</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
