@@ -98,15 +98,6 @@
 			<!-- The name of this child entry -->
 			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<!-- The curiosity of this child entry -->
-
-			<!-- Create some facts for this child entry -->
-			<RumorFact>
-				<ID>ANGLERS_EYE_STORYREEL_R</ID>
-				<SourceID>ANGLERS_EYE_THEATRE</SourceID>
-				<RumorName>Theater House Slide Reel</RumorName>
-				<Text>I found a slide reel in the Angler's Eye Theater.</Text>
-			</RumorFact>
-
 			<ExploreFact>
 				<ID>ANGLERS_EYE_STORYREEL_E</ID>
 				<Text>The slide reel shows an inhabitant using a vision torch to project some sort of terraform plan. He and two other inhabitants leave The Stranger and ended up crashing by Dark Bramble.</Text>
@@ -143,6 +134,7 @@
 			<Name>Crash Site</Name>
 			<!-- The name of this child entry -->
 			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+			<IgnoreMoreToExplore></IgnoreMoreToExplore>
 			<!-- The curiosity of this child entry -->
 
 			<!-- Create some facts for this child entry -->
@@ -158,12 +150,7 @@
 				<RumorName>Lone Plank</RumorName>
 				<Text>I found a plank near the Research and Development House with some text on it.</Text>
 			</RumorFact>
-		</Entry>
 
-		<Entry>
-			<ID>ANGLERS_EYE_CRASHSITE_T</ID>
-			<Name>Crash Site Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_CRASHSITE_E2</ID>
 				<Text>The text says this is a crash site, but strangely, the ship is missing. It mentions the temperatures here are bearable, allowing the three inhabitants seen in the reels to survive for quite a while, with the help of emergency trees.</Text>
@@ -231,6 +218,7 @@
             <ID>ANGLERS_EYE_DBMUSEUM</ID> <!-- The ID of this child entry -->
             <Name>Dark Bramble Museum</Name> <!-- The name of this child entry -->
             <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+			<IgnoreMoreToExplore></IgnoreMoreToExplore>
 
             <!-- Create some facts for this child entry -->
             <ExploreFact>

@@ -35,27 +35,27 @@
 			"hasLightning": true,
 			"lightningGradient": [
 				{
-					"time": 0,
-					"tint": {
-						"r": 235,
-						"g": 235,
-						"b": 235
-					}
-				},
-				{
-					"time": 0.5,
-					"tint": {
-						"r": 225,
-						"g": 225,
-						"b": 225
-					}
-				},
-				{
 					"time": 1,
+					"tint": {
+						"r": 195,
+						"g": 195,
+						"b": 195
+					}
+				},
+				{
+					"time": 3,
 					"tint": {
 						"r": 205,
 						"g": 205,
 						"b": 205
+					}
+				},
+				{
+					"time": 5,
+					"tint": {
+						"r": 165,
+						"g": 165,
+						"b": 165
 					}
 				}
 			],
@@ -106,7 +106,7 @@
 					"y": 336.8618,
 					"z": 298.1479
 				},
-				"scale": 0.40,
+				"scale": 0.5,
 				"fogTint": {
 					"r": 1,
 					"g": 1,
@@ -411,7 +411,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/GrowStopper.prefab",
-				"scale": 0.40,
+				"scale": 0.5,
 				"parentPath": "Sector/AnglersEyeNode",
 				"isRelativeToParent": true
 			},
@@ -562,29 +562,38 @@
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_DBExhibit.xml",
 				"parentPath": "Sector/BrambleMuseum/Exhibits/DBModelExhibit/Props_IP_DoNotEnterSign/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 43.64791,
-					"y": 102.6393,
-					"z": -19.44307
-				}
+				"attentionPoint": {
+					"position": {
+						"x": 43.64791,
+						"y": 102.6393,
+						"z": -19.44307
+					}
+				},
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_AnglerExhibit.xml",
 				"parentPath": "Sector/BrambleMuseum/Exhibits/AnglerExhibit/Props_IP_DoNotEnterSign (2)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 51.68202,
-					"y": 98.71558,
-					"z": -20.34314
-				}
+				"attentionPoint": {
+					"position": {
+						"x": 51.68202,
+						"y": 98.71558,
+						"z": -20.34314
+					}
+				},
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_VineExhibit.xml",
 				"parentPath": "Sector/BrambleMuseum/Exhibits/CloakMineralExhibit/Props_IP_DoNotEnterSign (1)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 52.36865,
-					"y": 95.4248,
-					"z": -29.03762
-				}
+				"attentionPoint": {
+					"position": {
+						"x": 52.36865,
+						"y": 95.4248,
+						"z": -29.03762
+					}
+				},
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_SimEntryWall.xml",
@@ -744,6 +753,7 @@
 					"z": 6.9252
 				},
 				"slides": [
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle/title.png" },
 					{
 						"imagePath": "assets/Slideshows/NewSimPuzzle/image_021_0000.jpg",
 						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
@@ -928,6 +938,7 @@
 				],
 				"isRelativeToParent": true,
 				"slides": [
+					{ "imagePath": "assets/Slideshows/VisionTorchLearn/title.png" },
 					{
 						"imagePath": "assets/Slideshows/VisionTorchLearn/slide (1).jpg",
 						"backdropAudio": "assets/Audio/visionpuzzle1.ogg"
@@ -2166,16 +2177,6 @@
 				"radius": 5,
 				"reveals": [
 					"ANGLERS_EYE_CONSERVATORY_DISCOVER"
-				]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/TheatreHouse_DBM/Interacables/Prefab_IP_SlideReelShelf (6)/SlideReelShelf_Row_04/SlideSocket_03/STORYREEL_1",
-				"isRelativeToParent": true,
-				"radius": 2,
-				"reveals": [
-					"ANGLERS_EYE_STORYREEL_R"
 				]
 			},
 			{

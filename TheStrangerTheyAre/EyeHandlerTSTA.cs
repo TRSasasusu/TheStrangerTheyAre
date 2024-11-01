@@ -32,7 +32,7 @@ namespace TheStrangerTheyAre
 
         private bool Check()
         {
-            return DialogueConditionManager.SharedInstance.GetConditionState("CYPRESS_BOARDVESSEL");
+            return PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL");
         }
     }
 }

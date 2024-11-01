@@ -176,7 +176,7 @@
 	"Volumes": {
 		"destructionVolumes": [
 			{
-				"deathType": "dream",
+				"deathType": "energy",
 				"onlyAffectsPlayerRelatedBodies": true,
 				"parentPath": "Sector/PreBrambleBase/Interactibles/ExitOffset",
 				"isRelativeToParent": true				

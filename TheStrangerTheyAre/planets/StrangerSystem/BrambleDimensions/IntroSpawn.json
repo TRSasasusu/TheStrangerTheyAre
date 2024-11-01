@@ -16,17 +16,6 @@
 			}
 		]
 	},
-	"Spawn": {
-		"shipSpawn": {
-			"isDefault": true,
-			"rename": "SpawnShip_Bramble"
-		},
-		"playerSpawn": {
-			"isDefault": true,
-			"rename": "SpawnPlayer_Bramble",
-			"startWithSuit": true
-		}
-	},
 	"Cloak": {
 		"radius": 150,
 		"farCloakRadius": 149,

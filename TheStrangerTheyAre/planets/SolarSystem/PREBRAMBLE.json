@@ -6758,18 +6758,6 @@
         "position": {
           "z": 6
         }
-      },
-      {
-        "uniqueID": "EXIT_WH",
-        "type": "whiteHole",
-        "horizonRadius": 0,
-        "hasWarpEffects": false,
-        "position": {
-          "x": -41.15749,
-          "y": -233.26,
-          "z": 60.56798
-        },
-        "pairedSingularity": "EXIT_BH"
       }
     ],
     "slideShows": [
@@ -6906,10 +6894,7 @@
 
     "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleRenderer",
     "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleAmbience",
-    "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleEmissionOneShot",
-
-    "Sector/EXIT_WH/WhiteHoleRenderer",
-    "Sector/EXIT_WH/WhiteHoleAmbience"
+    "PreBramble_Body/Sector/PreBramble_SIM/GlitchedTiles/WarpPoint/GLITCH_BH/BlackHoleEmissionOneShot"
   ],
   "Volumes": {
     "audioVolumes": [
@@ -7210,7 +7195,7 @@
           "y": 432.3996,
           "z": 78.34927
         },
-        "radius": 10,
+        "radius": 50,
         "reveals": [
           "PREBRAMBLE_POLE_SOLUTION"
         ]
@@ -7223,7 +7208,7 @@
           "y": 434.6151,
           "z": 73.87547
         },
-        "radius": 2,
+        "radius": 10,
         "reveals": [
           "PREBRAMBLE_MAIN_SEED"
         ]

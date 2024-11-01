@@ -34,6 +34,27 @@
 			}
 		]
 	},
+	"Spawn": {
+		"shipSpawn": {
+			"isDefault": true,
+			"rename": "SpawnShip_Bramble",
+			"position": {
+				"x": -963.1741,
+				"y": -229.4492,
+				"z": -260.2756
+			}
+		},
+		"playerSpawn": {
+			"isDefault": true,
+			"position": {
+				"x": -963.1741,
+				"y": -229.4492,
+				"z": -260.2756
+			},
+			"rename": "SpawnPlayer_Bramble",
+			"startWithSuit": true
+		}
+	},
 	"Volumes": {
 		"audioVolumes": [
 			{

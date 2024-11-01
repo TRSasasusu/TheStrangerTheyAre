@@ -11,7 +11,7 @@
       "y": [ 4, 1, 0, 3 ],
       "z": [ 4, 5, 1, 2, 3 ]
     },
-    "promptFact": "",
+    "promptFact": "NOM_Coords",
     "vesselSpawn": {
       "parentBody": "Ringed Giant",
       "position": {

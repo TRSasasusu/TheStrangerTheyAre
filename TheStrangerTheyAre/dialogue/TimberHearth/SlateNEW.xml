@@ -5,7 +5,7 @@
         <DialogueOptionsList>
             <DialogueOption>
 				<RequiredLogCondition>HEARTH_VISION</RequiredLogCondition>
-                <Text>Behind the falls was a vision torch made by an owl-like species that predated the Nomai. The vision showed me them landing on Timber Hearth, ate some of our primitive ancestors, and took off to Dark Bramble before it overgrew.</Text>
+                <Text>I saw some messed up things, Slate! An alien species landed on Timber Hearth and ate our primitive ancestors! The aliens then took off for Dark Bramble before it overgrew.</Text>
                 <DialogueTarget>TSTA_Slate_React</DialogueTarget>
             </DialogueOption>
         </DialogueOptionsList>

@@ -63,12 +63,12 @@ namespace TheStrangerTheyAre
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
 
-            bundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/strangerbundle");
+            /*bundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/strangerbundle");
             LoadManager.OnCompleteSceneLoad += Stuff;
-            Stuff(OWScene.TitleScreen, OWScene.TitleScreen);
+            Stuff(OWScene.TitleScreen, OWScene.TitleScreen);*/
         }
 
-        private void Stuff(OWScene scene, OWScene loadScene)
+        /*private void Stuff(OWScene scene, OWScene loadScene)
         {
             if (loadScene != OWScene.TitleScreen) return;
 
@@ -82,7 +82,7 @@ namespace TheStrangerTheyAre
             prefab.transform.rotation = oldTitlePlanet.transform.rotation;
             oldTitlePlanet.SetActive(false);
             ModHelper.Console.WriteLine("Disable Old Planet", MessageType.Success);
-        }
+        }*/
 
         private void OnSolarSystemLoaded()
         {
