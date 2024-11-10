@@ -139,16 +139,7 @@
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantCampfire.xml",
 				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
-				"rename": "EYE_CypressSong",
-				"isRelativeToParent": true,
-				"position": {
-					"y": 3
-				}
-			},
-			{
-				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantAfter.xml",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
-				"rename": "EYE_CypressFire",
+				"rename": "EYE_CypressDialogue",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -254,6 +245,18 @@
 					"y": -2035.43,
 					"z": -5.2855
 				}
+			},
+			{
+				"audio": "assets/Audio/OwlHome.wav",
+				"rename": "EYE_SciSector_Audio",
+				"priority": 1,
+				"clipSelection": "sequential",
+				"volume": 0.8,
+				"track": "music",
+				"randomizePlayhead": false,
+				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/RingedGiant/VisiblePlanet_Pivot",
+				"isRelativeToParent": true,
+				"radius": 1350
 			}
 		]
 	}

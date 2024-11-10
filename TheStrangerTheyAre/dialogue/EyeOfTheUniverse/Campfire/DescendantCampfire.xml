@@ -1,12 +1,88 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
- <NameField>Cypress</NameField> <!-- The name of this character -->
+	<NameField>Cypress</NameField>
+	<!-- The name of this character -->
 
- <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
-  <Name>Start</Name> <!-- The name of this node, used to go to this node from another node -->
-  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
-  <Dialogue> <!-- The actual dialogue we want to show the player -->
-      <Page>What a beautiful song. You should probably check out that bubble, I'll stay here and watch.</Page> <!-- A single page of the dialogue -->
-  </Dialogue>
- </DialogueNode>
- </DialogueTree>
+	<DialogueNode>
+		<!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+		<Name>Start</Name>
+		<!-- The name of this node, used to go to this node from another node -->
+		<EntryCondition>DEFAULT</EntryCondition>
+		<!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+		<Dialogue>
+			<!-- The actual dialogue we want to show the player -->
+			<Page>Oh hey Hatchling! I thought I lost you for good! Weirdly enough, I see my friend Bark from the Distant Enigma shivering over there.</Page>
+			<!-- A single page of the dialogue -->
+		</Dialogue>
+
+		<DialogueOptionsList>
+			<!-- Show options the player can choose from when the character is done talking -->
+			<DialogueOption>
+				<!-- A single option the player can pick -->
+				<Text>No, that's my friend Esker from our home planet's moon.</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>So it seems like you only see your friends and I only see mine.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<!-- A single option the player can pick -->
+				<Text>Perhaps The Eye is saving resources, and we each see it from a different perspective.</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Good theory. You must be quite the explorer!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<!-- A single option the player can pick -->
+				<Text>Couldn't have done it without that time loop!</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Time loop? Maybe you're not joking after all...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<!-- A single option the player can pick -->
+				<Text>Believe what you want to believe, Cypress. I've got work to do here.</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Well if you say so.....friend....</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Start3</Name>
+		<EntryCondition>JamSessionIsOver</EntryCondition>
+		<Dialogue>
+			<Page>What a beautiful song. You should probably check out that bubble, I'll stay here and watch.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

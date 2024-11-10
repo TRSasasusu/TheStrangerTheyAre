@@ -3,9 +3,12 @@ using HarmonyLib;
 using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
+using System.Collections.Generic;
+using System;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace TheStrangerTheyAre
 {
@@ -63,55 +66,71 @@ namespace TheStrangerTheyAre
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
 
-            /*bundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/strangerbundle");
-            LoadManager.OnCompleteSceneLoad += Stuff;
-            Stuff(OWScene.TitleScreen, OWScene.TitleScreen);*/
+            //Do stuff when the system finishes loading
+            UnityEvent<string> loadCompleteEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
+            loadCompleteEvent.AddListener(PrepSystem);
+
+            //Load assetbundles            
+            //CustomTitleScreen.FirstTimeTitleEdits();
+            LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
+            {
+                // do post credits stuff
+                if (loadScene == OWScene.PostCreditsScene) {
+                    ModHelper.Console.WriteLine("Post Credits Loaded", MessageType.Success);
+                    EndSceneAddition.endingBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/postcredits"); // post credits scene
+                    EndSceneAddition.LoadEndingAdditions();
+                }
+                if (loadScene == OWScene.TitleScreen)
+                {
+                    ModHelper.Console.WriteLine("Title Screen Loaded", MessageType.Success);
+                    CustomTitleScreen.titleBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/title"); // custom title planet
+                    CustomTitleScreen.FirstTimeTitleEdits();
+                }
+                if (loadScene == OWScene.EyeOfTheUniverse)
+                {
+                    ModHelper.Console.WriteLine("Eye Scene Loaded!", MessageType.Success);
+                    EyeHandlerTSTA.FixEyeSystem();
+                }
+            };
         }
 
-        /*private void Stuff(OWScene scene, OWScene loadScene)
+        private void PrepSystem(String s)
         {
-            if (loadScene != OWScene.TitleScreen) return;
+            //Do this stuff if we're in the hearthian system
 
-            titleRigidBody = SearchUtilities.Find("Scene/Background/PlanetPivot");
-            oldTitlePlanet = SearchUtilities.Find("Scene/Background/PlanetPivot/PlanetRoot");
-
-            var prefab = bundle.LoadAsset<GameObject>("Assets/NewTitlePlanet.prefab");
-            GameObject.Instantiate(oldTitlePlanet, titleRigidBody.transform);
-            prefab.transform.SetParent(titleRigidBody.transform);
-            prefab.transform.position = oldTitlePlanet.transform.position;
-            prefab.transform.rotation = oldTitlePlanet.transform.rotation;
-            oldTitlePlanet.SetActive(false);
-            ModHelper.Console.WriteLine("Disable Old Planet", MessageType.Success);
-        }*/
+        }
 
         private void OnSolarSystemLoaded()
         {
-            var preBramble = GameObject.Find("PreBramble_Body");
-            var preBrambleSector = GameObject.Find("PreBramble_Body").transform.Find("Sector");
-
-            // Offset all children of the planet to match the ground model (includes GravityWell here)
-            var offset = new Vector3(-10.1f, 246.8f, 99.9f);
-            foreach (Transform child in preBramble.transform)
+            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {
-                // Skip the sector because some of its children need to move and some don't
-                if (child.name != "Sector")
-                {
-                    child.localPosition += offset;
-                }
-            }
+                var preBramble = GameObject.Find("PreBramble_Body");
+                var preBrambleSector = GameObject.Find("PreBramble_Body").transform.Find("Sector");
 
-            // Everything NH made under Sector (Fog, Air, AmbientLight) is centered so we offset them just like the ground model
-            var childrenToOffset = new string[] { "AmbientLight", "Air", "FogSphere", "Atmosphere", "GroundSphere", "Water" };
-            foreach (Transform child in preBrambleSector.transform)
-            {
-                if (childrenToOffset.Any(x => x == child.name))
+                // Offset all children of the planet to match the ground model (includes GravityWell here)
+                var offset = new Vector3(-10.1f, 246.8f, 99.9f);
+                foreach (Transform child in preBramble.transform)
                 {
-                    child.localPosition += offset;
+                    // Skip the sector because some of its children need to move and some don't
+                    if (child.name != "Sector")
+                    {
+                        child.localPosition += offset;
+                    }
                 }
-            }
 
-            // Makes sure that artifacts get blown out when going under water
-            Locator.GetPlayerBody().gameObject.AddComponent<HeldArtifactWaterHandler>();
+                // Everything NH made under Sector (Fog, Air, AmbientLight) is centered so we offset them just like the ground model
+                var childrenToOffset = new string[] { "AmbientLight", "Air", "FogSphere", "Atmosphere", "GroundSphere", "Water" };
+                foreach (Transform child in preBrambleSector.transform)
+                {
+                    if (childrenToOffset.Any(x => x == child.name))
+                    {
+                        child.localPosition += offset;
+                    }
+                }
+
+                // Makes sure that artifacts get blown out when going under water
+                Locator.GetPlayerBody().gameObject.AddComponent<HeldArtifactWaterHandler>();
+            }
         }
     }
 }

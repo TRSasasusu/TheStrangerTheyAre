@@ -1,163 +1,73 @@
 ﻿using HarmonyLib;
-using NewHorizons.Utility.Files;
-using System.EnterpriseServices.CompensatingResourceManager;
-using System.IO;
 using UnityEngine;
-using static StencilPreviewImageEffect;
 
 namespace TheStrangerTheyAre;
 
 [HarmonyPatch]
 public class QuantumCampsiteControllerPatch
 {
-    private GameObject[] _instrumentZones;
-    private TravelerEyeController[] _travelerControllers;
-    private Transform[] _travelerRoots;
-    private bool _areInstrumentsActive;
-    private bool _hasMetSolanum;
-    private bool _hasMetPrisoner;
-    private bool _hasErasedPrisoner;
-    private bool _hasJamSessionStarted;
-
-    protected GameObject scientistZone;
-    private GameObject scientist;
-    private GameObject scientistSignal;
-    private Animator scientistAnim;
-    private TravelerEyeController scientistController;
-    private Transform scientistRoot;
-
-    [HarmonyPostfix] // __instance method causes mod to not load
+    //################################# Eye Things #################################
+    /**
+     * When other instrument zone's are activated, also activate Ditylum's
+     * 
+     * @param __instance The calling campsite controller
+     */
+    [HarmonyPostfix]
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.ActivateRemainingInstrumentZones))]
-    private static void QuantumCampsiteController_ActivateRemainingInstrumentZones_Postfix(QuantumCampsiteController __instance)
+    public static void ScientistZoneFix(QuantumCampsiteController __instance)
     {
-        if (Check())
+        if (EyeHandlerTSTA.doEyeStuff)
         {
-            if (__instance._instrumentZones.Length > 6)
-            {
-                __instance._instrumentZones[6] = GameObject.Find("ScientistSector");
-                __instance._instrumentZones[6].SetActive(true);
-            }
+            __instance._instrumentZones[6].SetActive(true);
         }
     }
 
+    /**
+     * Make sure that we fetch the correct audio clip
+     */
     [HarmonyPrefix]
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
     public static bool GetEndMusic(QuantumCampsiteController __instance, ref AudioClip __result)
     {
-        bool flag = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
-        if (Check())
+        //Ditylum isn't there, don't change anything
+        if (!EyeHandlerTSTA.doEyeStuff)
         {
             return true;
         }
-        AudioClip sciAudio;
-        if (Check() && flag && __instance._hasMetSolanum)
+
+        //Otherwise, use flags to determine what clip to use
+        bool prisonerPresent = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
+        __result = EyeHandlerTSTA.sciOnly; //Default is only Ditylum is there
+        if (__instance._hasMetSolanum && prisonerPresent) //Both others are there
         {
-            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSwP.ogg"));
-            __result = sciAudio;
+            __result = EyeHandlerTSTA.withBoth;
         }
-        else if (Check() && flag)
+        else if (__instance._hasMetSolanum) //Only Solanum made it
         {
-            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSwP.ogg"));
-            __result = sciAudio;
+            __result = EyeHandlerTSTA.withSol;
         }
-        else if (Check() && __instance._hasMetSolanum)
+        else if (prisonerPresent) //Only prisoner made it
         {
-            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSnP.ogg"));
-            __result = sciAudio;
+            __result = EyeHandlerTSTA.withPrisoner;
         }
-        else if (Check())
-        {
-            sciAudio = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSnP.ogg"));
-            __result = sciAudio;
-        }
+
+        //Don't run the original method
         return false;
     }
 
-    // everything below allows the mod to run, if i comment the two problematic methods out.
-    private void Awake(QuantumCampsiteController __instance)
+    /*
+ * Have the end scene creature come in
+ */
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(PostCreditsManager), nameof(PostCreditsManager.Update))]
+    public static void ActivateLeviathan(PostCreditsManager __instance)
     {
-        // new shit
-        scientist = GameObject.Find("Prefab_IP_GhostBird_Scientist_Eye");
-        scientistZone = GameObject.Find("ScientistSector");
-        scientistController = GameObject.Find("Prefab_IP_GhostBird_Scientist_Eye").GetComponent<TravelerEyeController>();
-        scientistSignal = scientist.transform.Find("ScientistSolo").gameObject;
-        scientistAnim = scientist.transform.Find("Ghostbird_IP_ANIM").GetComponent<Animator>();
-        AddInstrumentZone(scientistZone, scientistController);
-        scientistZone.SetActive(false);
-        scientist.SetActive(false);
-        scientistSignal.SetActive(false);
-
-        scientistController._dialogueTree = scientistController.gameObject.GetComponentInChildren<CharacterDialogueTree>();
-        scientistController._signal = scientistSignal.GetComponent<AudioSignal>();
-        scientistController._dialogueTree.OnStartConversation += scientistController.OnStartConversation;
-        scientistController._dialogueTree.OnEndConversation += scientistController.OnEndConversation;
-
-        // existing shit
-        __instance._trigger.OnEntry += __instance.OnEntry;
-        __instance._trigger.OnExit += __instance.OnExit;
-        __instance._campfire.OnCampfireStateChange += __instance.OnCampfireStateChange;
-        __instance._eskerDialogue.OnStartConversation += __instance.OnStartEskerConversation;
-        __instance._riebeckDialogue.OnEndConversation += __instance.OnEndRiebeckConversation;
-        for (int i = 0; i < __instance._travelerControllers.Length; i++)
+        //Only show the leviathan if it hasn't shown up and we've met Ditylum
+        if (PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL") && __instance._fadeOutAfterDelay &&
+            EndSceneAddition.instance != null && !EndSceneAddition.instance.activated)
         {
-            __instance._travelerControllers[i].OnStartPlaying += __instance.OnTravelerStartPlaying;
+            EndSceneAddition.instance.Activate();
+            __instance._delayedFadeTime = Time.time + EndSceneAddition.totalTime;
         }
-    }
-
-    private static bool Check()
-    {
-        return PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL");
-    }
-
-    private void OnTravelerStartPlaying(QuantumCampsiteController __instance)
-    {
-        if (!__instance._hasJamSessionStarted)
-        {
-            __instance._hasJamSessionStarted = true;
-            for (int i = 0; i < __instance._travelerControllers.Length; i++)
-            {
-                __instance._travelerControllers[i].OnStartCosmicJamSession();
-            }
-            if (Check())
-            {
-                scientistSignal.SetActive(true);
-            }
-        }
-    }
-    public void Update()
-    {
-        if (scientist.activeSelf)
-        {
-            if (DialogueConditionManager.SharedInstance.GetConditionState("SCI_TRIGGERPLAY"))
-            {
-                scientistSignal.SetActive(true);
-                scientistAnim.Play("TSTA_PlayInstrument", 0);
-            }
-            else
-            {
-                scientistSignal.SetActive(false);
-                scientistAnim.Play("Prisoner_LeanOnTree_HoldInstrument", 0);
-            }
-        }
-    }
-    public void AddInstrumentZone(GameObject newZone, TravelerEyeController newController)
-    {
-        GameObject[] newInstrumentZones = new GameObject[_instrumentZones.Length + 1];
-        TravelerEyeController[] newTravelerControllers = new TravelerEyeController[_travelerControllers.Length + 1];
-
-        for (int i = 0; i < _instrumentZones.Length; i++)
-        {
-            newInstrumentZones[i] = _instrumentZones[i];
-        }
-        for (int i = 0; i < _travelerControllers.Length; i++)
-        {
-            newTravelerControllers[i] = _travelerControllers[i];
-        }
-
-        newInstrumentZones[_instrumentZones.Length] = newZone;
-        newTravelerControllers[_instrumentZones.Length] = newController;
-
-        _instrumentZones = newInstrumentZones;
-        _travelerControllers = newTravelerControllers;
     }
 }

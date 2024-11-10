@@ -7,7 +7,7 @@ namespace TheStrangerTheyAre
         [SerializeField]
         GameObject sci1; // creates variable to store scientist1
         [SerializeField]
-        GameObject sci2; // creates variable to store scientist1
+        GameObject sci2; // creates variable to store scientist2
         bool triggerHit;
 
         void Awake()
