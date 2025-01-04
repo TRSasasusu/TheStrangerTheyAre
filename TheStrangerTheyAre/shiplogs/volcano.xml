@@ -60,12 +60,7 @@
 
 			<ExploreFact>
 				<ID>VOLCANO_LAB_CLOCK_TEXT1</ID>
-				<Text>A clock in the military base shows every 11 minutes with a symbol. Studies have also been proven that time dilation has been making it harder to keep track of time.</Text>
-			</ExploreFact>
-
-			<ExploreFact>
-				<ID>VOLCANO_LAB_CLOCK_TEXT2</ID>
-				<Text>It appears that the signal delayed by 2 minutes each time it was recieved, thinking it was a flaw in "their" technology. Could they be referencing Nomain technology?</Text>
+				<Text>A clock in the military base shows every 11 minutes with a symbol.</Text>
 			</ExploreFact>
 
 			<ExploreFact>

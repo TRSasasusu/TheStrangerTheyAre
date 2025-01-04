@@ -175,17 +175,20 @@
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevBottomArchive.xml",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevBottomArchive/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"radius": 0.25
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevTopArchive.xml",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTopArchive/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"radius": 0.25
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevTheatre.xml",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTheatre/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"radius": 0.25
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf1.xml",
@@ -250,6 +253,7 @@
 		],
 		"slideShows": [
 			{
+				"rename": "TSTA_REEL_19",
 				"type": "slideReel",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket",
 				"isRelativeToParent": true,
@@ -260,51 +264,45 @@
 				],
 				"slides": [
 					{
-						"imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0000.jpg",
+						"imagePath": "assets/Slideshows/NewSimPuzzle2/slide (1).png",
 						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
 					},
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0001.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0002.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0003.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0004.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0005.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0006.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0007.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0008.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0009.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0010.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0011.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0012.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0013.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0014.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0015.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0016.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0017.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0018.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0019.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0020.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0021.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0022.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0023.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0024.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0025.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0026.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0027.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0028.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0029.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0030.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0031.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0032.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0033.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0034.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0035.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0036.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0037.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0038.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0039.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0040.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0041.jpg" },
-					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/image_029_0042.jpg" }
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (2).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (3).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (4).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (5).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (6).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (7).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (8).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (9).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (10).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (11).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (12).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (13).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (14).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (15).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (16).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (17).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (18).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (19).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (20).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (21).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (22).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (23).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (24).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (25).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (26).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (27).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (28).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (29).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (30).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (31).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (32).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (33).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (34).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (35).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (36).png" },
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/slide (37).png" }
 				],
 				"playWithShipLogFacts": [
 					"NEWSIM_SECRETPATH3"
@@ -481,6 +479,28 @@
 						"y": 2.904684,
 						"z": 750.533
 					}
+				},
+				{
+					"type": "blackHole",
+					"rename": "TOPREBRAMBLE_BH",
+					"uniqueID": "TOPREBRAMBLE_BH",
+					"pairedSingularity": "TOPREBRAMBLE_WH",
+					"hasWarpEffects": false,
+					"distortRadius": 0,
+					"horizonRadius": 0.1,
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH",
+					"isRelativeToParent": true
+				},
+				{
+					"type": "whiteHole",
+					"rename": "TONEWSIM_WH",
+					"uniqueID": "TONEWSIM_WH",
+					"pairedSingularity": "TONEWSIM_BH",
+					"hasWarpEffects": false,
+					"distortRadius": 0,
+					"horizonRadius": 0.1,
+					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH",
+					"isRelativeToParent": true
 				}
 			]
 	},
@@ -489,7 +509,7 @@
 			{
 				"audio": "assets/Audio/fourtharchive.ogg",
 				"radius": 30,
-				"volume": 0.4,
+				"volume": 0.3,
 				"track": "music",
 				"priority": 1,
 				"position": {
@@ -497,6 +517,18 @@
 					"y": -45.80016,
 					"z": 715.6379
 				}
+			},
+			{
+				"audio": "OW No-Eye Ruins 121120_2 AP LP",
+				"radius": 30,
+				"position": {
+					"y": -7
+				},
+				"volume": 0.2,
+				"track": "music",
+				"priority": 1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
+				"isRelativeToParent": true
 			},
 			{
 				"audio": "assets/Audio/EternalHalls.mp3",
@@ -516,6 +548,7 @@
 				"radius": 4,
 				"track": "environmentUnfiltered",
 				"priority": 1,
+				"volume": 0.3,
 				"position": {
 					"x": -162.0044,
 					"y": 4.854785,
@@ -527,6 +560,7 @@
 				"radius": 4,
 				"track": "environmentUnfiltered",
 				"priority": 1,
+				"volume": 0.3,
 				"position": {
 					"x": -170.0044,
 					"y": 4.854785,
@@ -536,6 +570,7 @@
 			{
 				"audio": "assets/Audio/donotwake3.ogg",
 				"radius": 4,
+				"volume": 0.3,
 				"track": "environmentUnfiltered",
 				"priority": 1,
 				"position": {
@@ -547,6 +582,7 @@
 			{
 				"audio": "assets/Audio/donotwake4.ogg",
 				"radius": 4,
+				"volume": 0.3,
 				"track": "environmentUnfiltered",
 				"priority": 1,
 				"position": {
@@ -558,6 +594,7 @@
 			{
 				"audio": "assets/Audio/donotwake5.ogg",
 				"radius": 4,
+				"volume": 0.3,
 				"track": "environmentUnfiltered",
 				"priority": 1,
 				"position": {
@@ -619,6 +656,20 @@
 			},
 			{
 				"audio": "IllusoryWall_Alex",
+				"radius": 2,
+				"priority": 1,
+				"track": "environmentUnfiltered",
+				"loop": false,
+				"noFadeFromBeginning": true,
+				"pauseOnFadeOut": false,
+				"position": {
+					"x": -107.8947,
+					"y": 2.484598,
+					"z": 759.111
+				}
+			},
+			{
+				"audio": "IllusoryWall_Alex",
 				"radius": 3,
 				"priority": 1,
 				"track": "environmentUnfiltered",
@@ -636,7 +687,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM",
 				"isRelativeToParent": true,
 				"radius": 50,
 				"reveals": [
@@ -651,16 +702,6 @@
 				"radius": 70,
 				"reveals": [
 					"NEWSIM_MAIN_SECRETPATH1"
-				]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTilesAlt",
-				"isRelativeToParent": false,
-				"radius": 70,
-				"reveals": [
-					"NEWSIM_MAIN_SECRETPATH2"
 				]
 			},
 			{
@@ -739,7 +780,12 @@
 		"Sector_DreamWorld/SIM_BH/BlackHoleAmbience",
 		"Sector_DreamWorld/SIM_BH/BlackHoleEmissionOneShot",
 		"Sector_DreamWorld/SIM_WH/WhiteHoleRenderer",
-		"Sector_DreamWorld/SIM_WH/WhiteHoleAmbience"
+		"Sector_DreamWorld/SIM_WH/WhiteHoleAmbience",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience"
 	],
 	"ShipLog": {
 		"xmlFile": "shiplogs/newsim.xml",

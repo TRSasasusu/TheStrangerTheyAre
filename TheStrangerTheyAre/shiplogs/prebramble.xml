@@ -13,7 +13,7 @@
 		<RumorFact>
 			<ID>PREBRAMBLE_MAIN_R</ID>
 			<RumorName>Angler's Eye Archives?</RumorName>
-			<SourceID>ANGLERS_EYE_DBMUSEUM_SIM</SourceID>
+			<SourceID>ANGLERS_EYE_DBMUSEUM</SourceID>
 			<Text>The code door straight ahead has an emblem with a large amount of Bramble Vines growing from a center point.</Text>
 		</RumorFact>
 		
@@ -290,7 +290,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</ID>
-				<Text>The Scientist talked with others in the simulation about a glitch that occurs when the solar sails deploy, but it seems to reverse 6 minutes later.</Text>
+				<Text>The Scientist mentioned the fact that members of his kind are asleep in a "Coma Hall", and that artifact light disturbs their slumber.</Text>
 			</ExploreFact>
 
 			<ExploreFact>

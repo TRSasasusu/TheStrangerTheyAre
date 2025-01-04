@@ -46,9 +46,17 @@
 				"radius": 1400
 			}
 		],
-		"interferenceVolumes": [
+		"mapRestrictionVolumes": [
 			{
 				"radius": 1400
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/DarkerBrambleBase",
+				"isRelativeToParent": true,
+				"treeVolume": true,
+				"radius": 40
 			}
 		]
 	},
@@ -190,8 +198,9 @@
 				"maxDistance": 30,
 				"minDistance": 10,
 				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
-				"reveals": "DARKER_BASE",
-				"identificationRadius": 50,
+				"reveals": "DARKER_BASE_E",
+				"identificationRadius": 100,
+				"detectionRadius": 1400,
 				"position": {
 					"x": -20.98581,
 					"y": 25.66373,
@@ -218,9 +227,7 @@
 					},
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (2).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (3).png" },
-					{
-						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (4).png"
-					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (4).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (5).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (6).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (7).png" },
@@ -228,9 +235,7 @@
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (9).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (10).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (11).png" },
-					{
-						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (12).png"
-					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (12).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (13).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (14).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (15).png" },
@@ -240,7 +245,10 @@
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (19).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (20).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (21).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (22).png" },
+					{
+						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (22).png",
+						"backdropAudio": "assets/Audio/postlude2.ogg"
+					},
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (23).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (24).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (25).png" },
@@ -250,7 +258,7 @@
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (29).png" },
 					{
 						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (30).png",
-						"backdropAudio": "assets/Audio/postlude2.ogg"
+						"backdropAudio": "assets/Audio/postlude3.ogg"
 					},
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (31).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (32).png" },
@@ -258,43 +266,15 @@
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (34).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (35).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (36).png" },
-					{
-						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (37).png"
-					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (37).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (38).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (39).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (40).png" },
-					{
-						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (41).png"
-					},
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (41).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (42).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (43).png" },
 					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (44).png" },
-					{
-						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (45).png",
-						"backdropAudio": "assets/Audio/postlude3.ogg"
-					},
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (46).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (47).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (48).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (49).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (50).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (51).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (52).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (53).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (54).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (55).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (56).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (57).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (58).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (59).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (60).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (61).png" },
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (62).png" },
-					{
-						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (63).png"
-					},
-					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (64).png" }
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/slide (45).png" }
 				]
 			}
 		],

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<Name>Photo</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>To the Founding of the New Space Program!</Page>
+			<Page>Arcadia: Bring forth courage, never fear.</Page>
+			<Page>Bush: There's plenty of things to see and hear.</Page>
+			<Page>Pine: Blow fury away with all your breath.</Page>
+			<Page>Bark: For caution will guide you away from death.</Page>
+			<Page>Twig: Returning after all these years, marching forward, despite our fears. </Page>
+			<Page>The history and mysteries of the cosmos awaits us.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

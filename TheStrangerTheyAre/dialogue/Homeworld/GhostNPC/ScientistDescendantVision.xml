@@ -16,7 +16,7 @@
    </DialogueOption>
    <!-- A few more options... -->
    <DialogueOption>
-    <Text>....And you are?.</Text>
+    <Text>....And you are?</Text>
     <DialogueTarget>2</DialogueTarget>
    </DialogueOption>
     <DialogueOption>

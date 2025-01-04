@@ -9,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.Events;
+using NewHorizons.Utility.Files;
 
 namespace TheStrangerTheyAre
 {
@@ -17,8 +18,8 @@ namespace TheStrangerTheyAre
         public static INewHorizons NewHorizonsAPI { get; private set; }
         private GameObject oldTitlePlanet;
         private GameObject titleRigidBody;
-        private AssetBundle bundle;
-        
+        private AssetBundle _homeMoonBundle;
+        private AssetBundle endingBundle;
 
         private void Awake()
         {
@@ -41,6 +42,25 @@ namespace TheStrangerTheyAre
         {
             Instance.ModHelper.Console.WriteLine(text, messageType);
         }
+
+        private void PlaceTitlePlanet()
+        {
+            var background = GameObject.Find("Background");
+            var planetpivot = GameObject.Find("PlanetPivot");
+            planetpivot.FindChild("Prefab_HEA_Campfire").SetActive(false);
+            planetpivot.FindChild("PlanetRoot").SetActive(false);
+
+            if (_homeMoonBundle == null)
+            {
+                _homeMoonBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/title");
+            }
+            GameObject homemoon = Instantiate(_homeMoonBundle.LoadAsset<GameObject>("Assets/NewTitlePlanet.prefab"));
+            AssetBundleUtilities.ReplaceShaders(homemoon);
+            homemoon.transform.parent = planetpivot.transform;
+            homemoon.transform.localPosition = new Vector3(3.4349f, - 12.3667f, 3.1489f);
+            homemoon.transform.localRotation = Quaternion.Euler(333.0655f, 8.4042f, 7.4983f);
+        }
+
 
         private void Start()
         {
@@ -66,38 +86,54 @@ namespace TheStrangerTheyAre
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
 
-            //Do stuff when the system finishes loading
-            UnityEvent<string> loadCompleteEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
-            loadCompleteEvent.AddListener(PrepSystem);
-
-            //Load assetbundles            
-            //CustomTitleScreen.FirstTimeTitleEdits();
+            PlaceTitlePlanet();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
-                // do post credits stuff
-                if (loadScene == OWScene.PostCreditsScene) {
-                    ModHelper.Console.WriteLine("Post Credits Loaded", MessageType.Success);
-                    EndSceneAddition.endingBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/postcredits"); // post credits scene
-                    EndSceneAddition.LoadEndingAdditions();
-                }
                 if (loadScene == OWScene.TitleScreen)
                 {
-                    ModHelper.Console.WriteLine("Title Screen Loaded", MessageType.Success);
-                    CustomTitleScreen.titleBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/title"); // custom title planet
-                    CustomTitleScreen.FirstTimeTitleEdits();
+                    PlaceTitlePlanet();
                 }
-                if (loadScene == OWScene.EyeOfTheUniverse)
+                else if (loadScene == OWScene.PostCreditsScene)
                 {
-                    ModHelper.Console.WriteLine("Eye Scene Loaded!", MessageType.Success);
-                    EyeHandlerTSTA.FixEyeSystem();
+                    LoadEndingAdditions();
+                } else { 
+                    // unload when not on title screen
+                    if (_homeMoonBundle != null)
+                    {
+                        _homeMoonBundle.Unload(true);
+                        _homeMoonBundle = null;
+                    }
                 }
+
+                if (loadScene != OWScene.SolarSystem) return;
+                ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
         }
 
-        private void PrepSystem(String s)
+        public void LoadEndingAdditions()
         {
-            //Do this stuff if we're in the hearthian system
+            if (endingBundle == null)
+            {
+                endingBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/postcredits");
+            }
+            GameObject endingObj = Instantiate(endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsImage.prefab"));
+            AssetBundleUtilities.ReplaceShaders(endingObj);
 
+            //Make the game object for the dragon
+            Transform endingParent = GameObject.Find("PostCreditsScene/Canvas").transform;
+            endingObj = GameObject.Instantiate(endingObj, endingParent);
+            endingObj.name = "ending";
+
+            //Make sure it's visible and in the right location
+            endingObj.transform.localPosition = new Vector3(EndSceneAddition.x, EndSceneAddition.y, EndSceneAddition.z);
+
+            //Need to make sure it's in the right spot of the hierachy to render properly
+            endingObj.transform.SetSiblingIndex(4);
+
+            //Add the component
+            endingObj.AddComponent<EndSceneAddition>();
+            endingObj.AddComponent<RectTransform>().SetLocalPositionX(50);
+            endingObj.AddComponent<RectTransform>().SetLocalPositionY(50);
         }
 
         private void OnSolarSystemLoaded()

@@ -60,11 +60,6 @@
 				"parentPath": "Sector/GreatWallofBramble/HeadedHomeAudio",
 				"radius": 1400
 			}
-		],
-		"interferenceVolumes": [
-			{
-				"radius": 1400
-			}
 		]
 	},
 	"Props": {

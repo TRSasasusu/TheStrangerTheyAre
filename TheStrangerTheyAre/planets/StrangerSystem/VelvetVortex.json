@@ -66,10 +66,11 @@
 	"Water": {
 		"size": 310,
 		"density": 40,
+		"buoyancy": 0.8,
 		"tint": {
-			"r": 90,
+			"r": 255,
 			"g": 32,
-			"b": 27
+			"b": 32
 		}
 	},
 	"Props": {
@@ -123,6 +124,11 @@
 				"position": {
 					"y": 0.5
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/ElectricCore.prefab",
+				"scale": 1.1904761904762
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
@@ -183,6 +189,20 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/SpinLab.prefab",
+				"position": {
+					"x": -233.3831,
+					"y": 181.0816,
+					"z": 231.9238
+				},
+				"rotation": {
+					"x": 27.78267,
+					"y": 235.0886,
+					"z": 296.36
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/NormalFire_Stranger.prefab",
 				"position": {
 					"x": -57.2807,
@@ -228,27 +248,12 @@
 					"y": 78.4979,
 					"z": 87.9583
 				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/CrimsonPlanet/Phys/TableBody.prefab",
-				"position": {
-					"x": 284.4885,
-					"y": -221.5906,
-					"z": 24.6814
-				},
-				"rotation": {
-					"x": 348.1725,
-					"y": 1.604756,
-					"z": 223.5407
-				},
-				"hasPhysics": true
 			}
 		],
 		"dialogue": [
 			{
 				"xmlFile": "dialogue/NewTravelers/Crimson.xml",
-				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELERSector/CG_RAFT/CRIMSON_TRAVELER",
+				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -268,29 +273,61 @@
 				"xmlFile": "dialogue/Crimson/2F_Wall2.xml",
 				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Text/2F_Wall2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/Vessel1.xml",
+				"parentPath": "Sector/SpinLab/Interactibles/Text/Vessel1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/Vessel2.xml",
+				"parentPath": "Sector/SpinLab/Interactibles/Text/Vessel2/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/Signal.xml",
+				"parentPath": "Sector/SpinLab/Interactibles/Text/Signal/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/Crimson/Wall1.xml",
+				"parentPath": "Sector/SpinLab/Interactibles/Text/Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
 			}
 		],
 		"entryLocation": [
 			{
-				"id": "CRIMSON_MAIN_E",
+				"id": "CRIMSON",
 				"cloaked": false
 			},
 			{
-				"id": "CRIMSON_TRAVELER_E",
+				"id": "CRIMSON_TRAVELER",
 				"cloaked": false,
 				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "CRIMSON_BASE_E",
+				"id": "CRIMSON_CAMP",
+				"cloaked": false,
+				"parentPath": "Sector/NormalFire_Stranger",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "CRIMSON_BASE",
 				"cloaked": false,
 				"parentPath": "Sector/CG_ISLAND_LAB",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "CRIMSON_SEAL_E",
+				"id": "CRIMSON_SEAL",
 				"cloaked": false,
 				"parentPath": "Sector/Seal_Crimson",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "CRIMSON_SPINLAB",
+				"cloaked": false,
+				"parentPath": "Sector/SpinLab/Interactibles/SpinAudio",
 				"isRelativeToParent": true
 			}
 		],
@@ -319,6 +356,25 @@
 		],
 		"tornados": [
 			{
+				"rename": "CRIMSONTORNADO_1",
+				"wanderRate": 0.3,
+				"fluidType": "cloud",
+				"type": "upwards",
+				"elevation": 300,
+				"height": 355,
+				"alignRadial": true,
+				"tint": {
+					"r": 188,
+					"g": 29,
+					"b": 15
+				},
+				"position": {
+					"x": 240,
+					"y": -160.9609
+				}
+			},
+			{
+				"rename": "CRIMSONTORNADO_2",
 				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "upwards",
@@ -332,19 +388,7 @@
 				}
 			},
 			{
-				"wanderRate": 0.1,
-				"fluidType": "cloud",
-				"type": "upwards",
-				"elevation": 300,
-				"height": 355,
-				"alignRadial": true,
-				"tint": {
-					"r": 188,
-					"g": 29,
-					"b": 15
-				}
-			},
-			{
+				"rename": "CRIMSONTORNADO_3",
 				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "downwards",
@@ -358,6 +402,7 @@
 				}
 			},
 			{
+				"rename": "CRIMSONTORNADO_4",
 				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "upwards",
@@ -371,6 +416,7 @@
 				}
 			},
 			{
+				"rename": "CRIMSONTORNADO_5",
 				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "upwards",
@@ -384,6 +430,7 @@
 				}
 			},
 			{
+				"rename": "CRIMSONTORNADO_6",
 				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "upwards",
@@ -397,6 +444,7 @@
 				}
 			},
 			{
+				"rename": "CRIMSONTORNADO_7",
 				"wanderRate": 0.15,
 				"fluidType": "cloud",
 				"type": "upwards",
@@ -427,7 +475,7 @@
 		"hazardVolumes": [
 			{
 				"type": "electricity",
-				"radius": 310,
+				"radius": 240,
 				"parentPath": "Sector/Water/OceanFog",
 				"isRelativeToParent": true,
 				"firstContactDamageType": "electrical"
@@ -437,7 +485,20 @@
 			{
 				"parentPath": "Sector/PlantedTreeHOME",
 				"isRelativeToParent": true,
-				"radius": 30
+				"radius": 30,
+				"treeVolume": true
+			},
+			{
+				"parentPath": "Sector/SpinLab/Props/PlantedTree",
+				"isRelativeToParent": true,
+				"radius": 7,
+				"treeVolume": true
+			},
+			{
+				"parentPath": "Sector/SpinLab/Props/PlantedTree (1)",
+				"isRelativeToParent": true,
+				"radius": 7,
+				"treeVolume": true
 			}
 		],
 		"revealVolumes": [
@@ -500,6 +561,48 @@
 				"isRelativeToParent": true,
 				"radius": 10,
 				"reveals": [ "CRIMSON_BASE_ELEVATOR" ]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 25,
+				"parentPath": "Sector/SpinLab/Interactibles/SpinAudio",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 24.5,
+					"y": -7.25
+				},
+				"reveals": [ "CRIMSON_SPINLAB_E" ]
+			}
+		],
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/waltzofwar.ogg",
+				"track": "music",
+				"priority": 1,
+				"volume": 0.3,
+				"radius": 11,
+				"pauseOnFadeOut": true,
+				"parentPath": "Sector/SpinLab/Interactibles",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 24.5,
+					"y": -7.25
+				}
+			},
+			{
+				"audio": "assets/Audio/CrimsonAmbienceUnderwater.ogg",
+				"track": "environment",
+				"priority": 1,
+				"volume": 0.3,
+				"radius": 310
+			},
+			{
+				"audio": "assets/Audio/CrimsonAmbience.ogg",
+				"track": "environment",
+				"priority": 0,
+				"volume": 0.2,
+				"radius": 650
 			}
 		]
 	},

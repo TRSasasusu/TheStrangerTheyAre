@@ -246,7 +246,7 @@
     {
       "id": "CRIMSON_CAMP",
       "position": {
-        "x": 1000,
+        "x": 1200,
         "y": 300
       }
     },
@@ -255,6 +255,13 @@
       "position": {
         "x": -100,
         "y": -600
+      }
+    },
+    {
+      "id": "CRIMSON_SPINLAB",
+      "position": {
+        "x": 1000,
+        "y": 300
       }
     },
     {
@@ -304,6 +311,13 @@
       "position": {
         "x": 1000,
         "y": 600
+      }
+    },
+    {
+      "id": "QUANTUM_BASE",
+      "position": {
+        "x": 800,
+        "y": 500
       }
     },
     {

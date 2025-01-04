@@ -4,7 +4,7 @@
 	"Bramble": {
 		"dimension": {
 			"allowedEntrances": [ 5 ],
-			"vinePrefab": "none",
+			"vinePrefab": "smallNest",
 			"radius": 750,
 			"fogDensity": 10,
 			"linksTo": "DarkerNode_B1"
@@ -13,12 +13,6 @@
 			{
 				"name": "DarkerNode_D1",
 				"linksTo": "DarkerBramble_StrangerSystemWarp",
-				"hasFogLight": true,
-				"lightTint": {
-					"r": 0,
-					"g": 227,
-					"b": 84
-				},
 				"possibleExits": [ 1 ],
 				"fogTint": {
 					"r": 0,
@@ -26,10 +20,12 @@
 					"b": 0,
 					"a": 0
 				},
-				"position": {
-					"x": 0,
-					"y": 0,
-					"z": 0
+				"hasFogLight": true,
+				"lightTint": {
+					"r": 0,
+					"g": 227,
+					"b": 84,
+					"a": 255
 				}
 			}
 		]
@@ -202,7 +198,7 @@
 					"radius": 1400
 				}
 			],
-			"interferenceVolumes": [
+			"mapRestrictionVolumes": [
 				{
 					"radius": 1400
 				}
@@ -216,4 +212,4 @@
 		},
 		"isStatic": true
 	}
-	}
+}

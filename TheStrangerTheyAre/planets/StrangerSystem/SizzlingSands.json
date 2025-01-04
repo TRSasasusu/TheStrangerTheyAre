@@ -318,11 +318,11 @@
 		],
 		"entryLocation": [
 			{
-				"id": "DESERT_MAIN_E",
+				"id": "DESERT",
 				"cloaked": false
 			},
 			{
-				"id": "DESERT_TRAVELER_E",
+				"id": "DESERT_TRAVELER",
 				"cloaked": false,
 				"position": {
 					"x": -69.8984,
@@ -331,7 +331,7 @@
 				}
 			},
 			{
-				"id": "DESERT_SEAL_E",
+				"id": "DESERT_SEAL",
 				"cloaked": false,
 				"parentPath": "Sector/Seal_Desert",
 				"isRelativeToParent": true

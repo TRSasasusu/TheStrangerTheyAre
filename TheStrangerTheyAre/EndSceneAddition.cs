@@ -10,11 +10,6 @@ namespace TheStrangerTheyAre
         public static float x = 600;
         public static float y = 20;
         public static float z = 556;
-        public static float totalTime = 8;
-        public static float delay = 0.5f;
-        public static float zRot = -10;
-
-
         public static AssetBundle endingBundle = null;
         public static EndSceneAddition instance;
         public bool activated = false;
@@ -22,30 +17,13 @@ namespace TheStrangerTheyAre
         private void Awake()
         {
             instance = this;
-            gameObject.SetActive(false);
-            transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRot);
+            Activate();
         }
 
         public void Activate()
         {
             activated = true;
             gameObject.SetActive(true);
-        }
-
-        private void LateUpdate()
-        {
-            if (activated)
-            {
-                //Count down if delayed
-                if (delay > 0)
-                {
-                    delay -= Time.deltaTime;
-                    return;
-                }
-
-                //If not delayed, move to the left
-                transform.Translate(Vector3.left * speed * Time.deltaTime, Space.Self);
-            }
         }
 
         public static void LoadEndingAdditions()
@@ -66,7 +44,7 @@ namespace TheStrangerTheyAre
              endingObj.transform.SetSiblingIndex(4);
 
             //Add the component
-             endingObj.AddComponent<EndSceneAddition>();
+            endingObj.AddComponent<EndSceneAddition>();
         }
     }
 }

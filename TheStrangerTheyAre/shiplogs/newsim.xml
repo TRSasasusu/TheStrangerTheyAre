@@ -113,8 +113,8 @@
 				<!-- The ID of this fact -->
 				<RumorName>Coma Hall?</RumorName>
 				<!-- The name of the rumor this fact relates to -->
-				<SourceID>ANGLERS_EYE_SIMSECRET</SourceID>
-				<Text>Text in the Research and Development Building in the Isolated Swamp says a "coma hall" was built.</Text>
+				<SourceID>NEWSIM_RD_MAIN</SourceID>
+				<Text>Text in the Research and Development Building in the Isolated Swamp says a "Coma Hall" was built.</Text>
 				<!-- The Text to display for this fact -->
 			</RumorFact>
 			
@@ -122,6 +122,11 @@
                 <ID>NEWSIM_ARCHIVE_COMA</ID> <!-- The ID of this fact -->
                 <Text>I found a long hallway with several strangers sleeping, with an elevator at the end. I was wondering where the rest went!</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
             </RumorFact>
+
+			<RumorFact>
+				<ID>NEWSIM_ARCHIVE_COMA2</ID>
+				<Text>In the Bramble Archives, a note by The Scientist warns that any use of light in the "Coma Hall" can wake up those sleeping in it.</Text>
+			</RumorFact>
 
             <ExploreFact> <!-- An explore fact that belongs to this entry -->
                 <ID>NEWSIM_ARCHIVE_E</ID> <!-- The ID of this fact -->

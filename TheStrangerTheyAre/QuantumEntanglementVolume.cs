@@ -8,6 +8,8 @@ namespace TheStrangerTheyAre
     {
         [SerializeField]
         EclipseDoorController door; // creates variable to store the door, declared via unity.
+        [SerializeField]
+        GameObject[] doorFlaps = new GameObject[2];
 
         const int numStates = 3; // creates int value for number of states
         GameObject[] states = new GameObject[numStates]; // creates variable to store each state of the planet.
@@ -16,6 +18,7 @@ namespace TheStrangerTheyAre
         bool isSequential = true; // boolean to determine if sequential or random.
         System.Random rnd = new System.Random(); // random number generator
         bool stateChanged = false; // boolean to determine if the state has changed when the player enters
+        private bool isInTrigger;
 
         private OWTriggerVolume _triggerVolume; // variable to store trigger volume stuff
 
@@ -38,12 +41,29 @@ namespace TheStrangerTheyAre
         }
         void Update()
         {
+            // enable/disable flashlight boolean, check player's flashlight
             if (Locator.GetFlashlight().IsFlashlightOn())
             {
                 flashlight = true;
             } else
             {
                 flashlight = false;
+            }
+
+            /*----------------------------------------------------------------------------------------0
+            |    this if statement should run if:                                                     |
+            |                                                                                         |
+            |    - the left door's rotation is equal to zero (represented by Quaternion.identity)     |
+            |    - check for same thing for the right door                                            |
+            |    - player flashlight is off                                                           |
+            |    - the state hasn't changed yet                                                       |
+            |    - the player is in the trigger volume                                                |
+            0-----------------------------------------------------------------------------------------0
+            */
+            if (!stateChanged && doorFlaps[0].transform.localRotation == Quaternion.identity && doorFlaps[1].transform.localRotation == Quaternion.identity && !flashlight && isInTrigger)
+            {
+                ChangeState(); // calls change state method
+                stateChanged = true;
             }
         }
 
@@ -87,20 +107,16 @@ namespace TheStrangerTheyAre
                                 states[random].SetActive(false);
                             }
                         }*/
-                    }
-                }
+        }
+    }
             }
         }
         public void OnTriggerVolumeEntry(GameObject hitObj)
         {
             //checks if player collides with the trigger volume
-            if (hitObj.CompareTag("PlayerDetector") && enabled /*!flashlight*/ && !door.GetRequiredComponent<RotatingDoor>().IsOpen()) // commented out because it won't check things properly
+            if (hitObj.CompareTag("PlayerDetector") && enabled) // commented out because it won't check things properly
             {
-               if (stateChanged == false)
-               {
-                    ChangeState(); // calls change state method
-                   stateChanged = true;
-               }
+               isInTrigger = true;
             }
         }
 
@@ -108,6 +124,7 @@ namespace TheStrangerTheyAre
         {
             if (hitObj.CompareTag("PlayerDetector") && enabled)
             {
+                isInTrigger = false;
                 stateChanged = false;
             }
         }

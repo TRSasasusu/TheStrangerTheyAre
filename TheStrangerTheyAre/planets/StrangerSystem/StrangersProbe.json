@@ -1,0 +1,143 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Strangers' Probe",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"MapMarker": {
+		"enabled": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
+	},
+	"canShowOnTitle": false,
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerProbe.prefab",
+				"rotation": {
+					"z": 275
+				}
+			}
+		],
+		"signals": [
+			{
+				"frequency": "Strange Frequency",
+				"name": "Strangers' Probe",
+				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+				"detectionRadius": 250,
+				"identificationRadius": 10,
+				"parentPath": "Sector/StrangerProbe/Sockets/Signal",
+				"isRelativeToParent": true
+			}
+		],
+		"slideShows": [
+			{
+				"type": "standingVisionTorch",
+				"rename": "PROBE_VISION",
+				"parentPath": "Sector/StrangerProbe/Sockets/Vision",
+				"isRelativeToParent": true,
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/Gangnam/image_048_0001.jpg",
+						"backdropAudio": "assets/Audio/gangnam.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0002.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0003.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0004.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0005.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0006.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0007.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0008.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0009.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0010.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0011.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0012.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0013.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0014.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0015.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0016.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0017.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0018.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0019.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0020.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0021.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0022.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0023.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0024.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0025.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0026.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0027.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0028.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0029.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0030.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0031.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0032.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0033.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0034.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0035.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0036.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0037.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0038.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0039.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0040.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0041.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0042.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0043.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0044.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0045.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0046.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0047.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0048.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0049.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0050.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0051.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0052.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0053.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0054.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0055.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0056.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0057.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0058.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0059.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0060.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0061.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0062.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0063.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0064.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0065.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0066.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0067.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0068.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0069.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0070.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0071.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0072.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0073.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0074.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0075.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0076.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0077.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0078.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0079.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0080.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0081.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0082.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0083.jpg" },
+					{ "imagePath": "assets/Slideshows/Gangnam/image_048_0084.jpg" }
+				]
+			}
+		]
+	},
+	"Orbit": {
+		"semiMajorAxis": 45000,
+		"primaryBody": "Nearest Neighbor",
+		"isTidallyLocked": true,
+		"showOrbitLine": false
+	},
+	"removeChildren": [
+		"Sector/StrangerProbe/Sockets/Vision/PROBE_VISION/Props_IP_ScannerStaff",
+		"Sector/StrangerProbe/Sockets/Vision/PROBE_VISION/Flame"
+	]
+}

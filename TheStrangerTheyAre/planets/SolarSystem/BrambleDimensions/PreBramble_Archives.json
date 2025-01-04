@@ -146,18 +146,11 @@
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Exit/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"xmlFile": "dialogue/PreBramble/Archives/Exit.xml"
-			}
-		],
-		"singularities": [
+			},
 			{
-				"rename": "GLITCH_WH",
-				"uniqueID": "GLITCH_WH",
-				"type": "whiteHole",
-				"horizonRadius": 0,
-				"hasWarpEffects": false,
-				"parentPath": "Sector/PreBrambleBase/GlitchedTiles/WarpPoint",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Table/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
-				"pairedSingularity": "GLITCH_BH"
+				"xmlFile": "dialogue/PreBramble/Archives/Table.xml"
 			}
 		]
 	},
@@ -187,23 +180,7 @@
 				"priority": 0,
 				"audio": "assets/Audio/BrambleArchiveDiscovery.ogg",
 				"track": "music",
-				"loop": false,
-				"pauseOnFadeOut": false,
-				"radius": 200,
-				"position": {
-					"x": -325.2753,
-					"y": -61.4801,
-					"z": -62.5894
-				}
-			},
-			{
-				"priority": 0,
-				"audio": "assets/Audio/fourtharchive.ogg",
-				"parentPath": "Sector/PreBrambleBase",
-				"isRelativeToParent": true,
-				"track": "music",
-				"volume": 0.4,
-				"radius": 30
+				"radius": 200
 			},
 			{
 				"priority": 1,
@@ -216,7 +193,7 @@
 			{
 				"audio": "Tronworld Ambience 2 Alex Hack",
 				"radius": 3,
-				"volume": 0.5,
+				"volume": 0.2,
 				"track": "environmentUnfiltered",
 				"parentPath": "Sector/PreBrambleBase/GlitchedTiles",
 				"priority": 1,

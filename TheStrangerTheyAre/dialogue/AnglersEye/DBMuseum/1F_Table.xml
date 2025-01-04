@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Day 90: We successfully grew a Bramble Seed on the south pole of this moon, but the atmosphere had some strange effect within the seed itself. We will be researching it once we find a safe passage to take.</Page>
+			<Page>Day 90: We successfully grew a Bramble Seed on the south pole of this moon, but the atmosphere had some strange effect within the seed itself. We will enter the hurricane with our ship and enter through the top node, so our ship can fit.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_MAIN_HURRICANE_E1</FactID>

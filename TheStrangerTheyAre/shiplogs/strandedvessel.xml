@@ -8,7 +8,6 @@
         <Name>Stranded Vessel</Name> <!-- The name to show for this entry both on the card and in map mode -->
         <Curiosity>NOM_StrandedVessel</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
         <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
-        <AltPhotoCondition>NOM_StrandedVessel_E</AltPhotoCondition>
 
         <RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>NOM_StrandedVessel_R</ID> <!-- The ID of this fact -->

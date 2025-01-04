@@ -98,6 +98,7 @@
 			<!-- The name of this child entry -->
 			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<!-- The curiosity of this child entry -->
+			<IgnoreMoreToExplore></IgnoreMoreToExplore>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_STORYREEL_E</ID>
 				<Text>The slide reel shows an inhabitant using a vision torch to project some sort of terraform plan. He and two other inhabitants leave The Stranger and ended up crashing by Dark Bramble.</Text>
@@ -172,17 +173,12 @@
                 <ID>ANGLERS_EYE_SIGNALHOUSE_SIGNAL1F</ID>
                 <Text>On the first floor of the signal house, there are several wires and a projection in the middle.</Text>
             </ExploreFact>
-        </Entry>
 
-		<Entry>
-			<ID>ANGLERS_EYE_SIGNALHOUSE_T</ID>
-			<Name>Signal House 1F Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_SIGNALHOUSE_SIGNALREVEAL</ID>
 				<Text>One of the texts on the wall reveals that the purpose of this station was to locate and contact The Stranger.</Text>
 			</ExploreFact>
-		</Entry>
+        </Entry>
 
 		<Entry>
 			<!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
@@ -201,12 +197,6 @@
 				<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED1</ID>
 				<Text>I unlocked the door to the second floor. There is a desk with a strange artifact and some writing on it.</Text>
 			</ExploreFact>
-		</Entry>
-
-		<Entry>
-			<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED_T</ID>
-			<Name>Signal House 2F Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_SIGNALHOUSE_LOCKED2</ID>
@@ -230,12 +220,7 @@
                 <ID>ANGLERS_EYE_DBMUSEUM_ROCK</ID>
                 <Text>A giant, heavy boulder is blocking the side entrance to the basement.</Text>
             </ExploreFact>
-        </Entry>
 
-		<Entry>
-			<ID>ANGLERS_EYE_DBMUSEUM_T</ID>
-			<Name>Bramble Museum Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_DBMUSEUM_DBEXHIBIT</ID>
 				<Text>The exhibit to the left is a model of Dark Bramble, both before and after the invasive Bramble Plant outgrew it.</Text>
@@ -252,26 +237,20 @@
 			</ExploreFact>
 
 			<ExploreFact>
-				<ID>ANGLERS_EYE_DBMUSEUM_SIMROOM2</ID>
-				<Text>According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.</Text>
-			</ExploreFact>
-		</Entry>
-
-		<Entry>
-			<ID>ANGLERS_EYE_DBMUSEUM_SIM</ID>
-			<Name>Bramble Museum Green Fire</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
-			<ExploreFact>
 				<ID>ANGLERS_EYE_DBMUSEUM_SIMROOM1</ID>
 				<Text>An eerie, green fire and some beds lie in the basement of the Dark Bramble Museum.</Text>
 			</ExploreFact>
-		</Entry>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_DBMUSEUM_SIMROOM2</ID>
+				<Text>According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.</Text>
+			</ExploreFact>
+        </Entry>
 
 		<Entry>
 			<ID>ANGLERS_EYE_THEATRE</ID>
 			<Name>Angler's Eye Theater</Name>
 			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
-
 			<ExploreFact>
 				<!-- An explore fact that belongs to this entry -->
 				<ID>ANGLERS_EYE_THEATRE_E</ID>
@@ -305,7 +284,7 @@
 
 			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P2</ID>
-                <Text>The second stanza in the Conservatory is "Obtain some water above the sky, from the Ringed Giant way up high".</Text>
+                <Text>The second stanza in the Conservatory is "Next you shall let the water flow, only then will our trees regrow. Obtain the water above the sky, from the Ringed Giant way up high".</Text>
             </ExploreFact>
 
 			<ExploreFact>
@@ -315,7 +294,7 @@
 
 			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P3B</ID>
-                <Text>The fourth stanza in the Theater House is "The seeds grow on a crescent moon. Air can spark fires, green or maroon".</Text>
+                <Text>The fourth stanza in the Theater House is "The seeds grow best on sunny days, our air lets fires set ablaze".</Text>
             </ExploreFact>
 
 			<ExploreFact>
@@ -339,12 +318,7 @@
                 <ID>ANGLERS_EYE_CONSERVATORY_DISCOVER</ID>
                 <Text>The Conservatory building consists of a few empty fish tanks and a handful of trees.</Text>
             </ExploreFact>
-        </Entry>
 
-		<Entry>
-			<ID>ANGLERS_EYE_CONSERVATORY_T</ID>
-			<Name>Conservatory Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_CONSERVATORY_PROTOHEARTHIAN_1</ID>
 				<Text>Just like I saw on the Timber Hearth slide reel, the inhabitants on this planet survived off of eating Hearthians when we were still just fish.</Text>
@@ -359,7 +333,7 @@
 				<ID>ANGLERS_EYE_CONSERVATORY_INFO</ID>
 				<Text>According to a message on the second floor, the purpose of the Conservatory is meant to produce healthy seeds for the terraform plan.</Text>
 			</ExploreFact>
-		</Entry>
+        </Entry>
 
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
             <ID>ANGLERS_EYE_MINE</ID> <!-- The ID of this child entry -->
@@ -376,17 +350,12 @@
                 <ID>ANGLERS_EYE_MINE_MINERAL</ID>
                 <Text>There is a mineral at the bottom of the mines that can be picked up.</Text>
             </ExploreFact>
-        </Entry>
 
-		<Entry>
-			<ID>ANGLERS_EYE_MINE_T</ID>
-			<Name>Mine Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_MINE_TEXT</ID>
 				<Text>The text at the bottom of the hole says that it was to get resources for The Stranger's cloaking device. It can also be used as fuel.</Text>
 			</ExploreFact>
-		</Entry>
+        </Entry>
 
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
             <ID>ANGLERS_EYE_RD</ID> <!-- The ID of this child entry -->
@@ -403,12 +372,7 @@
 				<ID>ANGLERS_EYE_RD_ORBIT</ID>
 				<Text>A picture on the second floor shows the orbit of Angler's Eye.</Text>
 			</ExploreFact>
-        </Entry>
 
-		<Entry>
-			<ID>ANGLERS_EYE_RD_T</ID>
-			<Name>Research House Text</Name>
-			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
 			<ExploreFact>
 				<ID>ANGLERS_EYE_RD_TEXT1</ID>
 				<Text>50 days after arriving, the author of the writing returned to The Stranger.</Text>
@@ -448,6 +412,6 @@
 				<ID>ANGLERS_EYE_RD_ORBIT_TEXT4</ID>
 				<Text>70 days after arriving, this inhabitant discovered that Angler's Eye may have originated from a collision with The Eye, and orbits both it and Dark Bramble. Due to its incredibly slow orbit, it's best I find some other way of reaching The Eye.</Text>
 			</ExploreFact>
-		</Entry>
+        </Entry>
     </Entry>
 </AstroObjectEntry>

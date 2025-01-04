@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Path to Research House and North Pole</Page>
+			<Page>Path to Projection House</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

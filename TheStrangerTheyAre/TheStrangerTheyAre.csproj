@@ -51,9 +51,11 @@
     <None Include="shiplogs\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Compile Remove="planets\EyeOfTheUniverse\QuantumInstrumentTSTA.cs" />
     <None Include="addon-manifest.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="QuantumInstrumentTSTA.cs" />
     <None Include="subtitle.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

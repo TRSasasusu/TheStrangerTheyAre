@@ -12,11 +12,15 @@
 	"Base": {
 		"surfaceSize": 200
 	},
+	"Cloak": {
+		"radius": 3000
+	},
 	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "Nearest Neighbor",
 		"semiMajorAxis": 35000,
-		"isStatic": true
+		"isStatic": true,
+		"showOrbitLine": false
 	},
 	"MapMarker": {
 		"enabled": true
@@ -379,7 +383,7 @@
 		],
 		"entryLocation": [
 			{
-				"id": "NOM_StrandedVessel_E",
+				"id": "NOM_StrandedVessel",
 				"cloaked": false
 			}
 		],
@@ -432,11 +436,13 @@
 		],
 		"signals": [
 			{
-				"frequency": "EscapePod",
-				"identificationRadius": 500,
-				"sourceRadius": 300,
-				"name": "Stranded Vessel",
-				"audio": "OW_NM_EscapePodDistressSignal"
+				"frequency": "Unnerving Fluctuations",
+				"name": "Stranded Vessel Signal",
+				"rename": "STRANDED_VESSEL_SIGNAL",
+				"audio": "OW No-Eye Ruins 121120_2 AP LP",
+				"identificationRadius": 30,
+				"parentPath": "Sector/StrandedVessel_Body/Sector_VesselBridge/Interactibles_VesselBridge/Prefab_IP_CodeTotem/Symbol_LordFoogThe2st",
+				"isRelativeToParent": true
 			}
 		],
 		"slideShows": [

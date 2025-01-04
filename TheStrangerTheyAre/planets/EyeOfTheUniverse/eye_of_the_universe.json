@@ -125,6 +125,10 @@
 					"y": 11.22221,
 					"z": 0
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/EyeScript.prefab"
 			}
 		],
 		"dialogue": [
@@ -175,9 +179,9 @@
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
 				"onlyAudibleToScope": false,
-				"volume": 0.5,
+				"volume": 0.3,
 				"frequency": "Traveler",
-				"name": "SCIENTIST",
+				"name": "UNKNOWN",
 				"rename": "ScientistSolo",
 				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye",
 				"isRelativeToParent": true,
@@ -187,27 +191,27 @@
 			},
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 0.5,
+				"volume": 0.3,
 				"frequency": "Traveler",
-				"name": "SCIENTIST",
+				"name": "UNKNOWN",
 				"rename": "ScientistInstZone1",
 				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/FirstSignal/Signal",
 				"isRelativeToParent": true
 			},
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 0.5,
+				"volume": 0.3,
 				"frequency": "Traveler",
-				"name": "SCIENTIST",
+				"name": "UNKNOWN",
 				"rename": "ScientistInstZone2",
 				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/RingedGiant/DivineScientist/Prefab_IP_GhostBird_Scientist/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL/Props_IP_GhostbirdInstrument",
 				"isRelativeToParent": true
 			},
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 0.5,
+				"volume": 0.3,
 				"frequency": "Traveler",
-				"name": "SCIENTIST",
+				"name": "UNKNOWN",
 				"rename": "ScientistInstZone3",
 				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/RingedGiant/DivineScientist/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL/Props_IP_GhostbirdInstrument",
 				"isRelativeToParent": true

@@ -73,12 +73,13 @@
 			<Page>There's quite a few things actually, other than myself.</Page>
 			<Page>The water here's not safe to swim in, because it can shock you.</Page>
 			<Page>There's the tornadoes, which throw small objects in the air. The ones going clockwise are safe, but the counter-clockwise one will send you to a painful death.</Page>
-			<Page>Aside from the dangers, there's my camp and a base on one of the islands. I've never bothered to check it, though.</Page>
+			<Page>Aside from the dangers, there's my camp. There are two bases, one of which is next to my camp. I've never bothered to check either of them, though.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<RevealFacts>
 				<FactID>CRIMSON_CAMP_R</FactID>
 				<FactID>CRIMSON_BASE_R</FactID>
+				<FactID>CRIMSON_SPINLAB_R</FactID>
 			</RevealFacts>
 			<DialogueOption>
 				<Text>Alright, thanks!</Text>

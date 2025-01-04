@@ -42,9 +42,9 @@
 				"radius": 400
 			}
 		],
-		"interferenceVolumes": [
+		"mapRestrictionVolumes": [
 			{
-				"radius": 400
+				"radius": 1400
 			}
 		]
 	},

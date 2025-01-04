@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>The seeds grow on a crescent moon. Air can spark fires, green or maroon.</Page>
+			<Page>The seeds grow best on sunny days, our air lets fires set ablaze.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_POEM_FIND</FactID>

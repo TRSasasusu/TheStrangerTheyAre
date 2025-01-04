@@ -131,17 +131,17 @@
 	"Props": {
 		"entryLocation": [
 			{
-				"id": "VOLCANO_MAIN_E",
+				"id": "VOLCANO",
 				"cloaked": false
 			},
 			{
-				"id": "VOLCANO_BASE_E",
+				"id": "VOLCANO_BASE",
 				"cloaked": false,
 				"parentPath": "Sector/CG_ISLAND_LAB",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "VOLCANO_SEAL_E",
+				"id": "VOLCANO_SEAL",
 				"cloaked": false,
 				"parentPath": "Sector/Seal_CrimsonMoon",
 				"isRelativeToParent": true
@@ -161,11 +161,6 @@
 			{
 				"xmlFile": "dialogue/CrimsonMoon/1F_Wall4.xml",
 				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall4/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true
-			},
-			{
-				"xmlFile": "dialogue/CrimsonMoon/1F_Wall5.xml",
-				"parentPath": "Sector/MilitaryBase/Interactables/Text/1F_Wall5/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{

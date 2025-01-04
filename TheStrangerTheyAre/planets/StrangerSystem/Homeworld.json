@@ -71,7 +71,7 @@
 				"audio": "assets/Audio/terraformhome3.ogg",
 				"pauseOnFadeOut": false,
 				"loop": false,
-				"volume": 0.5,
+				"volume": 0.2,
 				"priority": 1,
 				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_IntroMusic",
 				"isRelativeToParent": true,
@@ -446,6 +446,13 @@
 				}
 			},
 			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/QuantumRock_HOME.prefab",
+				"parentPath": "Sector/SpaceCenter/QuantumExhibit",
+				"isRelativeToParent": true,
+				"quantumGroupID": "HOME_SHARD"
+			},
+			{
 				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
 				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
 				"isRelativeToParent": true,
@@ -455,37 +462,81 @@
 				]
 			}
 		],
+		"quantumGroups": [
+			{
+				"id": "HOME_SHARD",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {
+							"x": 69.04579,
+							"y": 103.9413,
+							"z": -170.9282
+						},
+						"rotation": {
+							"x": -25.24,
+							"y": -104.207,
+							"z": 60.824
+						}
+					},
+					{
+						"position": {
+							"x": 70.37727,
+							"y": 101.7064,
+							"z": -171.4712
+						},
+						"rotation": {
+							"x": -25.24,
+							"y": -104.207,
+							"z": 60.824
+						}
+					},
+					{
+						"position": {
+							"x": 71.1011,
+							"y": 104.0757,
+							"z": -169.7793
+						},
+						"rotation": {
+							"x": -25.24,
+							"y": -104.207,
+							"z": 60.824
+						}
+					}
+				]
+			}
+		],
 		"entryLocation": [
 			{
-				"id": "HOME_REVEALED",
+				"id": "HOME",
 				"cloaked": false
 			},
 			{
-				"id": "HOME_PARTYHOUSE_E",
+				"id": "HOME_PARTYHOUSE",
 				"cloaked": false,
 				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "HOME_CINDER_EYE",
+				"id": "HOME_CINDER",
 				"cloaked": false,
 				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "HOME_OBSERVE_E",
+				"id": "HOME_OBSERVE",
 				"cloaked": false,
 				"parentPath": "Sector/ObservationDeck_HOMEWORLD",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "HOME_SPACE_E",
+				"id": "HOME_SPACE",
 				"cloaked": false,
 				"parentPath": "Sector/SpaceCenter/GhostBirdNPCs",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "HOME_MUSEUM_E",
+				"id": "HOME_MUSEUM",
 				"cloaked": false,
 				"parentPath": "Sector/BrambleMuseum_HOME",
 				"isRelativeToParent": true
@@ -605,13 +656,13 @@
 				"isRelativeToParent": true
 			},
 			{
-				"xmlFile": "dialogue/Crimson/Smudge.xml",
-				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Phys/TableBody/Text/BLURRED1/Arc_TestAlienWriting/Dialogue",
+				"xmlFile": "dialogue/Homeworld/SpaceCenter/Photo.xml",
+				"parentPath": "Sector/SpaceCenter/Interactibles/Text/Photo/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
-				"xmlFile": "dialogue/Crimson/Smudge.xml",
-				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Phys/TableBody/Text/BLURRED2/Arc_TestAlienWriting/Dialogue",
+				"xmlFile": "dialogue/Homeworld/SpaceCenter/Quantum.xml",
+				"parentPath": "Sector/SpaceCenter/Interactibles/Text/Quantum/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
@@ -856,6 +907,47 @@
 				"keepLoaded": true,
 				"count": 550,
 				"seed": 6789012
+			}
+		],
+		"signals": [
+			{
+				"audio": "assets/Audio/instrument.wav",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Musician",
+				"isRelativeToParent": true,
+				"name": "Musician",
+				"frequency": "Traveler",
+				"onlyAudibleToScope": false,
+				"volume": 0.3,
+				"maxDistance": 20,
+				"minDistance": 5,
+				"sourceRadius": 15,
+				"position": {
+					"y": 2
+				}
+			},
+			{
+				"audio": "assets/Audio/instrument.wav",
+				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Musician",
+				"isRelativeToParent": true,
+				"name": "Musician",
+				"frequency": "Traveler",
+				"onlyAudibleToScope": false,
+				"volume": 0.3,
+				"maxDistance": 20,
+				"minDistance": 5,
+				"sourceRadius": 15,
+				"position": {
+					"y": 2
+				}
+			},
+			{
+				"audio": "OW_QuantumSignal",
+				"parentPath": "Sector/SpaceCenter/QuantumExhibit/QuantumRock_HOME",
+				"isRelativeToParent": true,
+				"name": "Homeworld Quantum Shard",
+				"frequency": "Quantum",
+				"identificationRadius": 3,
+				"detectionRadius": 20
 			}
 		],
 		"slideShows": [

@@ -292,7 +292,7 @@
 		<Dialogue>
 			<Page>I have never been too fond of my real name so if you must please call me "the Scientist".</Page>
 			<Page>Before I left our ship, I was the head of the scientific committee. I was the first one to utilize green fire and invented the vision torch.</Page>
-			<Page>I was however blind sighted by my leader's... arterial motives. I was directly involved in the technology needed to directly build the ship.</Page>
+			<Page>I was however blind sighted by my leader's... ulterior motives. I was directly involved in the technology needed to directly build the ship.</Page>
 			<Page>I didn't want to tear down our home planet, but it was his orders. He made me build that ship regardless of how unhealthy conditions were.</Page>
 			<Page>When I left, I put my assistant in charge because I could not deal with the shame I felt. The committee thought I died in the crash, and didn't bother checking.</Page>
 			<Page>And then, the simulation, this fake delusion we are all trapped in was built. I would never have approved of this prison. just another futile attempt to fix a mistake I warned them about.</Page>
@@ -349,9 +349,11 @@
 		<!-- Name of the node -->
 		<!-- (Note the lack of an EntryCondition) -->
 		<Dialogue>
-			<Page>That fool locked down underground, forgotten and crazy? We once knew each other but we had a... falling out. I don't like talking about it.</Page>
-			<Page>That lunatic tried to destroy the universe! He should know his place.</Page>
-			<Page>However, despite his... tendencies... I do wish for the times we had before even if tainted by rage now.</Page>
+			<Page>The one locked down underground? We once knew each other but we had a... falling out. I don't like talking about it.</Page>
+			<Page>The time on the Stranger really made him go insane! He became so hopeless about losing home that he deactivated the Signal Blocker.</Page>
+			<Page>When he scanned The Eye... what he saw drove him to obsession. He thought it would end our suffering and reset the universe.</Page>
+			<Page>The problem is, there's probably many other lifeforms out there. Why must we end their lives because we suffered? It is simply not yet time to activate The Vortex.</Page>
+			<Page>However, despite his obsessions, I do wish for the times we had before.</Page>
 			<Page>Anyway let’s change the topic before I start getting all emotional.</Page>
 		</Dialogue>
 		<RevealFacts>
@@ -379,6 +381,9 @@
 			<Page>So I coded in this whole area, and added an archive and a coma hall to ease the pains of the others, trapped here in this simulation for eternity.</Page>
 			<Page>If only I was able to put a stop to it all...</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_SCIENTIST_STRANGERLIFE</FactID>
+		</RevealFacts>
 		<DialogueTarget>StartQuestionsB</DialogueTarget>
 	</DialogueNode>
 
@@ -393,7 +398,7 @@
 			<Page>And when we did discover green fire, our kind used them as an early way to communicate basic ideas though raw fire is very fuzzy.</Page>
 			<Page>But then one day, my father discovered how to focus and use it effectively.</Page>
 			<Page>And years later, I invented the Vision Torch, which then lead to the development of computers, telescopes, and this vision torch you see before you.</Page>
-			<Page>A college of mine also discovered some crystals which give off electricity when lighten up. A decade and some trial and error later we have the light sensors.</Page>
+			<Page>A colleage of mine also discovered some crystals which give off electricity when lighten up. A decade and some trial and error later we have the light sensors.</Page>
 			<Page>Our ship's cloak is all natural resources we've mined from the cloaked moon. We didn't really have to configure it at all.</Page>
 		</Dialogue>
 		<RevealFacts>
@@ -415,6 +420,9 @@
 			<Page>Those who refused to board the ship to reach the vortex were left home to starve, including one of our famous singers. Leaving home was truly a terrifying day.</Page>
 			<Page>If only I had the spinal column to warn him about building the ship. Maybe we wouldn’t be here now.</Page>
 		</Dialogue>
+		<RevealFacts>
+			<FactID>NEWSIM_SCIENTIST_LEADER</FactID>
+		</RevealFacts>
 		<DialogueTarget>StartQuestionsB</DialogueTarget>
 	</DialogueNode>
 
@@ -433,6 +441,7 @@
 			<Page>I noticed the minerals on the planet have electric resistant properties, much like the jellyfish that once lived on it.</Page>
 		</Dialogue>
 		<RevealFacts>
+			<FactID>NEWSIM_SCIENTIST_ANGLERSEYE</FactID>
 			<FactID>ANGLERS_EYE_MAIN_HURRICANE_E3</FactID>
 		</RevealFacts>
 		<DialogueTarget>StartQuestionsB</DialogueTarget>
@@ -477,7 +486,7 @@
 
 			<DialogueOption>
 				<RequiredLogCondition>IP_SARCOPHAGUS_X4</RequiredLogCondition>
-				<Text>I've met the Prisoner.</Text>
+				<Text>I've met The Prisoner.</Text>
 				<DialogueTarget>C3</DialogueTarget>
 			</DialogueOption>
 
@@ -640,6 +649,14 @@
 
 			<DialogueOption>
 				<!-- A single option the player can pick -->
+				<Text>They wrote everywhere just like you.</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>NOM_Writing_1</DialogueTarget>
+				<!-- The name of the node to jump to -->
+			</DialogueOption>
+
+			<DialogueOption>
+				<!-- A single option the player can pick -->
 				<Text>That's all I know</Text>
 				<!-- The text to display for the option -->
 				<DialogueTarget>NOM_End</DialogueTarget>
@@ -713,7 +730,7 @@
 			<DialogueOption>
 				<!-- A single option the player can pick -->
 				<RequiredLogCondition>DB_VESSEL_X6</RequiredLogCondition>
-				<Text>Their leader, Escall was too hasty in his decision to warp and never let anyone know where he was going. They crashed in Dark Bramble which grew significantly sense you last saw it.</Text>
+				<Text>Their leader, Escall was too hasty in his decision to warp and never let anyone know where he was going. They crashed in Dark Bramble which grew significantly since you last saw it.</Text>
 				<!-- The text to display for the option -->
 				<DialogueTarget>Nom_Ves_4</DialogueTarget>
 				<!-- The name of the node to jump to -->
@@ -743,7 +760,7 @@
 			<DialogueOption>
 				<!-- A single option the player can pick -->
 				<RequiredLogCondition>DB_VESSEL_X6</RequiredLogCondition>
-				<Text>Their leader, Escall was too hasty in his decision to warp and never let anyone know where he was going. They crashed in Dark Bramble which grew significantly sense you last saw it.</Text>
+				<Text>Their leader, Escall was too hasty in his decision to warp and never let anyone know where he was going. They crashed in Dark Bramble which grew significantly since you last saw it.</Text>
 				<!-- The text to display for the option -->
 				<DialogueTarget>Nom_Ves_4</DialogueTarget>
 				<!-- The name of the node to jump to -->
@@ -838,6 +855,14 @@
 
 			<DialogueOption>
 				<!-- A single option the player can pick -->
+				<Text>They wrote everywhere just like you.</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>NOM_Writing_1</DialogueTarget>
+				<!-- The name of the node to jump to -->
+			</DialogueOption>
+
+			<DialogueOption>
+				<!-- A single option the player can pick -->
 				<Text>Thats all I know</Text>
 				<!-- The text to display for the option -->
 				<DialogueTarget>NOM_End</DialogueTarget>
@@ -879,6 +904,14 @@
 				<Text>I can tell how they died.</Text>
 				<!-- The text to display for the option -->
 				<DialogueTarget>NOM_Death_1</DialogueTarget>
+				<!-- The name of the node to jump to -->
+			</DialogueOption>
+
+			<DialogueOption>
+				<!-- A single option the player can pick -->
+				<Text>They wrote everywhere just like you.</Text>
+				<!-- The text to display for the option -->
+				<DialogueTarget>NOM_Writing_1</DialogueTarget>
 				<!-- The name of the node to jump to -->
 			</DialogueOption>
 
@@ -1135,7 +1168,7 @@
 			<!-- Show options the player can choose from when the character is done talking -->
 			<DialogueOption>
 				<!-- A single option the player can pick -->
-				<Text>To a comet we've named "The Interloper", which contained a deadly, cold, and burning substance we called "Ghost Matter".</Text>
+				<Text>Same elements? Our universe is truly an interesting place.</Text>
 				<!-- The text to display for the option -->
 				<DialogueTarget>NOM_End</DialogueTarget>
 				<!-- The name of the node to jump to -->
@@ -1223,7 +1256,7 @@
 		<!-- The name of this node, used to go to this node from another node -->
 		<Dialogue>
 			<!-- The actual dialogue we want to show the player -->
-			<Page>Ah you must be talking about that fool locked down for trying to kill us all. What did that crazed lunatic do?</Page>
+			<Page>You must be talking about the one locked up below the lake. What was he like?</Page>
 			<!-- A single page of the dialogue -->
 		</Dialogue>
 		<DialogueOptionsList>
@@ -1244,7 +1277,7 @@
 		<!-- The name of this node, used to go to this node from another node -->
 		<Dialogue>
 			<!-- The actual dialogue we want to show the player -->
-			<Page>Well, he knows he's not wanted here at least. Let’s move on from this topic please. He always brings up bad memories for me.</Page>
+			<Page>Well, he's probably glad he doesn't have to suffer anymore. Let’s move on from this topic please. He always brings up bad memories for me.</Page>
 			<!-- A single page of the dialogue -->
 		</Dialogue>
 		<DialogueTarget>StartPlayerB</DialogueTarget>

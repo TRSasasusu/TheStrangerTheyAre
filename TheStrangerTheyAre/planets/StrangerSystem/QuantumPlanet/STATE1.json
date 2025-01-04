@@ -86,14 +86,16 @@
 				"frequency": "Quantum",
 				"name": "Distant Enigma",
 				"identificationRadius": 500,
-				"audio": "OW_QuantumSignal"
+				"audio": "OW_QuantumSignal",
+				"detectionRadius": 20000000
 			},
 			{
 				"frequency": "Quantum",
 				"name": "Distant Enigma Shard",
-				"identificationRadius": 500,
+				"identificationRadius": 10,
 				"audio": "OW_QuantumSignal",
-				"parentPath": "Sector/ENIGMA_SHARD"
+				"parentPath": "Sector/ENIGMA_SHARD",
+				"detectionRadius": 20000000
 			},
 			{
 				"frequency": "Strange Frequency",
@@ -139,6 +141,16 @@
 			{
 				"xmlFile": "dialogue/QuantumPlanet/LabState1/Wall4.xml",
 				"parentPath": "Sector/QuantumResearchLab2/Interactables/Text/Wall3 (1)/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/QuantumPlanet/Base/Wall1.xml",
+				"parentPath": "Sector/QuantumBase/Interactables/Text/Wall1/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			},
+			{
+				"xmlFile": "dialogue/QuantumPlanet/Base/Wall2.xml",
+				"parentPath": "Sector/QuantumBase/Interactables/Text/Wall2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			}
 		],
@@ -461,6 +473,20 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/QuantumBase.prefab",
+				"position": {
+					"x": -31.97149,
+					"y": -197.039,
+					"z": -11.89976
+				},
+				"rotation": {
+					"x": 354.9966,
+					"y": 190.4214,
+					"z": 189.0997
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Rocks/ENIGMA_SHARD.prefab",
 				"quantumGroupID": "QuantumStuff"
 			},
@@ -497,6 +523,21 @@
 					"x": 0.2593,
 					"y": 346.9278,
 					"z": 8.2879
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Base_Stall",
+				"position": {
+					"x": 17.7738,
+					"y": -197.031,
+					"z": -29.11423
+				},
+				"rotation": {
+					"x": 9.146974,
+					"y": 345.5951,
+					"z": 182.6977
 				}
 			},
 			{
@@ -540,6 +581,15 @@
 					"x": -145.6181,
 					"y": -133.3766,
 					"z": -19.6035
+				}
+			},
+			{
+				"id": "QUANTUM_BASE",
+				"cloaked": false,
+				"position": {
+					"x": -31.97149,
+					"y": -197.039,
+					"z": -11.89976
 				}
 			}
 		]
@@ -648,6 +698,19 @@
 				"radius": 3,
 				"reveals": [
 					"QUANTUM_SCRATCH_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": -31.97149,
+					"y": -197.039,
+					"z": -11.89976
+				},
+				"radius": 3,
+				"reveals": [
+					"QUANTUM_BASE_E"
 				]
 			}
 		]

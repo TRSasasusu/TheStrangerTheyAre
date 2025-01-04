@@ -157,25 +157,31 @@
 		],
 		"entryLocation": [
 			{
-				"id": "RING_MAIN_E",
+				"id": "RING",
 				"cloaked": false
 			},
 			{
-				"id": "RING_CAMP_E",
+				"id": "RING_CAMP",
 				"cloaked": false,
 				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "RING_TRAVELER_E",
+				"id": "RING_TRAVELER",
 				"cloaked": false,
-				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/NormalFire_Stranger",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/GhostBirdNPCs/Prefab_IP_GhostBird_Ringed/",
 				"isRelativeToParent": true
 			},
 			{
-				"id": "RING_SEAL_E",
+				"id": "RING_SEAL",
 				"cloaked": false,
 				"parentPath": "Sector/Seal_Ringed",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "RING_STRUCTURE",
+				"cloaked": false,
+				"parentPath": "Sector/RINGEDGIANT_ISLAND/Building/Base",
 				"isRelativeToParent": true
 			}
 		],
@@ -261,7 +267,7 @@
 				"track": "endTimesMusic",
 				"parentPath": "Sector/Vessel_Body",
 				"isRelativeToParent": true,
-				"volume": 0.4,
+				"volume": 0.2,
 				"radius": 99999,
 				"rename": "FinalEndTimes_STR"
 			}
@@ -394,10 +400,10 @@
 	},
 	"Rings": [
 		{
-			"fluidType": "water",
 			"unlit": true,
-			"texture": "assets/Texture/ringedgiant_rings.png",
-			"innerRadius": 1200,
+			"fluidType": "cloud",
+			"texture": "assets/Texture/rings-home.png",
+			"innerRadius": 0,
 			"outerRadius": 2000
 		}
 	],

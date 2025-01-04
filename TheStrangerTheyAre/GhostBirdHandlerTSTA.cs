@@ -12,7 +12,7 @@ namespace TheStrangerTheyAre
         private GameObject[] initialPos; // array for storing each starting position
         private bool areDeadZone1 = false; // boolean that tests if the ghosts have died.
         private bool areDeadZone2 = false; // boolean that tests if the ghosts have died.
-
+        private bool isCaught = false; // boolean to check if player is caught
 
         void Awake()
         {
@@ -22,22 +22,30 @@ namespace TheStrangerTheyAre
                 initialPos[i].transform.rotation = ghostBirds[i].transform.rotation; // gets starting rotation of each ghostbird
             };
             GlobalMessenger.AddListener("ExitDreamWorld", OnExitDreamWorld); // checks if player leaves the sim
+            GlobalMessenger.AddListener("PlayerGrabbedByGhost", OnPlayerGrabbedByGhost); // checks if player is caught by ghostbird
         }
 
         void OnExitDreamWorld()
         {
             for (int i = 0; i < ghostBirds.Length; i++)
             {
+                isCaught = false;
                 ghostBirds[i].transform.position = initialPos[i].transform.position; // on dw exit, sets to starting pos of each ghostbird
                 ghostBirds[i].transform.rotation = initialPos[i].transform.rotation; // on dw exit, sets to starting rotation of each ghostbird
-                ghostBirds[i].GetComponent<GhostBrain>().EscalateThreatAwareness(GhostData.ThreatAwareness.EverythingIsNormal); // set threat to normal when exiting sim
-                ghostBirds[i].GetComponent<GhostBrain>().ChangeAction(GhostAction.Name.Wait); // change ghost action to wait
+                ghostBirds[i].GetComponent <GhostController>().SetLanternConcealed(true, true);
                 ghostBirds[i].GetComponentInChildren<Animator>().Play("Ghostbird_Idle_Unaware", 0); // on dw exit, sets each ghostbird animation to idle
             }
         }
 
+        void OnPlayerGrabbedByGhost()
+        {
+            isCaught = true;
+        }
+
         void Update()
         {
+
+            
             if (Locator._toolModeSwapper.GetItemCarryTool().GetHeldItem() is DreamLanternItem lantern && lantern._lanternController._lit)
             {
                 if (OWInput.IsPressed(InputLibrary.toolActionPrimary, InputMode.Character) && OWInput.IsPressed(InputLibrary.toolActionSecondary, InputMode.Character))
@@ -46,7 +54,7 @@ namespace TheStrangerTheyAre
                 }
                 else
                 {
-                    NoSneak(); // run no sneak method if player is NOT both focusing and contracting lantern
+                    NoSneak();
                 }
             }
 
@@ -80,8 +88,16 @@ namespace TheStrangerTheyAre
         {
             foreach (var bird in ghostBirds)
             {
-                Vector3 bigTrigger = new Vector3(2, 2, 2);
-                bird.transform.Find("ContactTrigger/ContactTrigger_Core").gameObject.transform.localScale = bigTrigger;
+                if (bird.GetComponentInChildren<CompoundLightSensor>().IsIlluminated() && !isCaught)
+                {
+                    Vector3 giantTrigger = new Vector3(7, 7, 7);
+                    bird.transform.Find("ContactTrigger/ContactTrigger_Core").gameObject.transform.localScale = giantTrigger;
+                }
+                else
+                {
+                    Vector3 bigTrigger = new Vector3(2, 2, 2);
+                    bird.transform.Find("ContactTrigger/ContactTrigger_Core").gameObject.transform.localScale = bigTrigger;
+                }
             }
         }
     }

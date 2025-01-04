@@ -1,4 +1,4 @@
-﻿using HarmonyLib;
+﻿ using HarmonyLib;
 using UnityEngine;
 
 namespace TheStrangerTheyAre;
@@ -67,7 +67,7 @@ public class QuantumCampsiteControllerPatch
             EndSceneAddition.instance != null && !EndSceneAddition.instance.activated)
         {
             EndSceneAddition.instance.Activate();
-            __instance._delayedFadeTime = Time.time + EndSceneAddition.totalTime;
+            //__instance._delayedFadeTime = Time.time + EndSceneAddition.totalTime;
         }
     }
 }

@@ -2,10 +2,11 @@
 using NewHorizons.Utility;
 using System.IO;
 using UnityEngine;
+using NewHorizons.Components;
 
 namespace TheStrangerTheyAre
 {
-    public static class EyeHandlerTSTA
+    public class EyeHandlerTSTA : MonoBehaviour
     {
         public static bool doEyeStuff = false;
         public static AudioClip sciOnly = null;
@@ -30,7 +31,7 @@ namespace TheStrangerTheyAre
         public static void FixEyeSystem()
         {
             //Find the campsite root transform
-            Transform campRoot = Component.FindObjectOfType<QuantumCampsiteController>().transform;
+            Transform campRoot = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire").gameObject.transform;
 
             //If Scientist isn't here, delete our additions and exit early
             if (!PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL"))
@@ -73,9 +74,6 @@ namespace TheStrangerTheyAre
 
             //Do stuff for Scientist
             FixScientist(campRoot);
-
-            //Do stuff for the zone
-            FixZone(campRoot);
 
             //Do stuff to the inflation controller
             FixInflationController(campRoot);
@@ -129,43 +127,6 @@ namespace TheStrangerTheyAre
 
             //Finally, turn him off for now
             scientistController.gameObject.SetActive(false);
-        }
-
-        /**
-         * Fixes things relating to Scientist's zone
-         * 
-         * @param campRoot the root of the campsite
-         */
-        private static void FixZone(Transform campRoot)
-        {
-            //Give the quantum instrument the things to enable
-            QuantumInstrument instrument = campRoot.Find("InstrumentZones/ScientistSector/RingedGiant/DivineScientist/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL/Props_IP_GhostbirdInstrument/InstTrigger").GetComponent<QuantumInstrument>();
-            instrument._activateObjects[0] = campRoot.Find("Campsite/Prefab_IP_GhostBird_Scientist_Eye").gameObject;
-            instrument._deactivateObjects[0] = campRoot.Find("InstrumentZones/ScientistSector").gameObject;
-
-            //Add the zone trigger to the necessary component
-            //ScientistZoneTrigger zoneTrigger = campRoot.Find("InstrumentZones/ScientistZone/warp_override_trigger").gameObject.AddComponent<ScientistZoneTrigger>();
-            //zoneTrigger.warpCylinder = campRoot.Find("Volumes_Campfire/EndlessCylinder_Forest").GetComponent<EndlessCylinder>();
-
-            //Set up the gather logic
-            instrument.OnFinishGather += OnFinishGather;
-        }
-
-        /**
-         * When the player gathers the instrument, teleport them back and re-enable the teleport field
-         */
-        private static void OnFinishGather()
-        {
-            //Teleport the player
-            /*Transform campRoot = Component.FindObjectOfType<QuantumCampsiteController>().transform;
-            Transform returnSocket = campRoot.Find("InstrumentZones/ScientistZone/return_socket");
-            Locator.GetPlayerBody().SetPosition(returnSocket.position);
-            Locator.GetPlayerBody().SetRotation(returnSocket.rotation);
-            Locator.GetPlayerBody().SetVelocity(Vector3.zero);*/
-
-
-            //Re-enable the distance thing
-            SearchUtilities.Find("Volumes_Campfire/EndlessCylinder_Forest").GetComponent<EndlessCylinder>().SetActivation(true);
         }
 
         /**

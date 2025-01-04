@@ -61,11 +61,11 @@
 		],
 		"revealVolumes": [
 			{
-				"reveals": [ "DARKER_MAIN" ],
+				"reveals": [ "DARKER_MAIN_E" ],
 				"radius": 1400
 			}
 		],
-		"interferenceVolumes": [
+		"mapRestrictionVolumes": [
 			{
 				"radius": 1400
 			}

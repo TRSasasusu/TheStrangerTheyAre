@@ -128,5 +128,48 @@
 				<Text>I found a campsite on one of the islands.</Text>
 			</ExploreFact>
 		</Entry>
+
+		<Entry>
+			<ID>CRIMSON_SPINLAB</ID>
+			<Name>Velvet Vortex Spinning Lab</Name>
+			<Curiosity>CRIMSON_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>CRIMSON_SPINLAB_R</ID>
+				<RumorName>Lab by the Campsite</RumorName>
+				<SourceID>CRIMSON_TRAVELER</SourceID>
+				<Text>Pine said there was a lab near his camp on Velvet Vortex.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SPINLAB_E</ID>
+				<Text>There is a spinning laboratory on the island next to Pine's Camp on Velvet Vortex. It has a biometric security measure at the front.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SPINLAB_BIO</ID>
+				<Text>I cracked into the biometrics system by using Bark's dead skull.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SPINLAB_VES_TEXT1</ID>
+				<Text>The Strangers' Inhabitants saw The Vessel warp into their home system. Feeling threatened, they were not afraid to call The Nomai their enemy.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SPINLAB_VES_TEXT2</ID>
+				<Text>After quickly gathering reconnisance, they became well aware that The Vessel was unarmed. Despite the Nomai coming in peace, The Strangers' Inhabitants proceeded with their attack plan.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SPINLAB_TEXT1</ID>
+				<Text>Some text claims that if the attack is successful, they will put a cloak around The Vessel so no others could find it.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>CRIMSON_SPINLAB_TEXT2</ID>
+				<Text>A set of text by the gear interface states that to find The Vessel, you have to turn on the signal with the interface and follow the signal.</Text>
+			</ExploreFact>
+		</Entry>
     </Entry>
 </AstroObjectEntry>

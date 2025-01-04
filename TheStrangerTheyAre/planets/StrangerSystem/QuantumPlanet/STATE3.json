@@ -63,7 +63,8 @@
 				"frequency": "Quantum",
 				"name": "Distant Enigma",
 				"identificationRadius": 500,
-				"audio": "OW_QuantumSignal"
+				"audio": "OW_QuantumSignal",
+				"detectionRadius": 10000
 			},
 			{
 				"frequency": "Unnerving Fluctuations",
@@ -71,7 +72,7 @@
 				"audio": "OW No-Eye Ruins 121120_2 AP LP",
 				"detectionRadius": 400,
 				"identificationRadius": 10,
-				"parentPath": "Sector/Seal_Ringed",
+				"parentPath": "Sector-3/Seal_Ringed",
 				"isRelativeToParent": true
 			}
 		],
@@ -119,7 +120,140 @@
 				"keepLoaded": true
 			}
 		],
+		"quantumGroups": [
+			{
+				"id": "BARK_DEAD_S3_1",
+				"type": "sockets",
+				"sockets": [
+					{
+						"position": {
+							"x": -198.3569,
+							"y": 14.74263,
+							"z": 20.69699
+						},
+						"rotation": {
+							"x": 340.1462,
+							"y": 184.712,
+							"z": 275.1711
+						}
+					},
+					{
+						"position": {
+							"x": -29.2939,
+							"y": 197.2334,
+							"z": 16.8324
+						},
+						"rotation": {
+							"x": 353.8944,
+							"y": 172.3454,
+							"z": 350.7578
+						}
+					},
+					{
+						"position": {
+							"x": -191.1902,
+							"y": 7.933422,
+							"z": 58.05013
+						},
+						"rotation": {
+							"x": 351.7748,
+							"y": 196.7809,
+							"z": 271.639
+						}
+					},
+					{
+						"position": {
+							"x": -198.762,
+							"y": -17.18609,
+							"z": 2.591306
+						},
+						"rotation": {
+							"x": 1.476317,
+							"y": 0.3324969,
+							"z": 102.6939
+						}
+					},
+					{
+						"position": {
+							"x": -23.51476,
+							"y": 198.3617,
+							"z": -9.38028
+						},
+						"rotation": {
+							"x": 356.9388,
+							"y": 358.6059,
+							"z": 6.520522
+						}
+					},
+					{
+						"position": {
+							"x": -9.106937,
+							"y": 199.7555,
+							"z": -3.07975
+						},
+						"rotation": {
+							"x": 3.173484,
+							"y": 270.6228,
+							"z": 1.625412
+						}
+					},
+					{
+						"position": {
+							"x": -23.69666,
+							"y": 196.628,
+							"z": 27.57381
+						},
+						"rotation": {
+							"x": 353.599,
+							"y": 194.2883,
+							"z": 351.6975
+						}
+					},
+					{
+						"position": {
+							"x": -7.274053,
+							"y": -196.7907,
+							"z": -34.73472
+						},
+						"rotation": {
+							"x": 356.3727,
+							"y": 258.1623,
+							"z": 170.7105
+						}
+					},
+					{
+						"position": {
+							"x": -34.23668,
+							"y": -193.0066,
+							"z": -39.47165
+						},
+						"rotation": {
+							"x": 15.39196,
+							"y": 39.33632,
+							"z": 179.7608
+						}
+					},
+					{
+						"position": {
+							"x": -41.57052,
+							"y": -194.45,
+							"z": -21.15946
+						},
+						"rotation": {
+							"x": 4.903163,
+							"y": 129.0436,
+							"z": 192.4347
+						}
+					}
+				]
+			}
+		],
 		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerTravelers/Enigma/Enigma_Dead2_1.prefab",
+				"quantumGroupID": "BARK_DEAD_S2_1"
+			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Tent.prefab",
@@ -136,7 +270,7 @@
 				}
 			},
 			{
-				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"path": "Sector-3/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
 				"removeChildren": [ "OxygenVolume" ],
 				"scale": 0.2712,
 				"position": {
@@ -166,7 +300,7 @@
 			},
 			{
 				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
-				"parentPath": "Sector/NormalFire_Stranger",
+				"parentPath": "Sector-3/NormalFire_Stranger",
 				"isRelativeToParent": true,
 				"removeChildren": [
 					"Effects",
@@ -212,6 +346,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Lab_Stall",
 				"position": {
 					"x": -195.3059,
 					"y": 10.04503,
@@ -239,7 +374,22 @@
 				}
 			},
 			{
-				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerQuantumStall.prefab",
+				"rename": "Base_Stall",
+				"position": {
+					"x": 17.7738,
+					"y": -197.031,
+					"z": -29.11423
+				},
+				"rotation": {
+					"x": 9.146974,
+					"y": 345.5951,
+					"z": 182.6977
+				}
+			},
+			{
+				"path": "Sector-3/SpaceCenter/Props/GhostShip_COL (1)",
 				"position": {
 					"x": -171.6924,
 					"y": 57.0237,
