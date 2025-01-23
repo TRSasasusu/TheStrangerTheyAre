@@ -274,6 +274,7 @@
 		"xmlFile": "shiplogs/ringedlab.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/RINGEDLAB_UI.png",
 			"outlineSprite": "assets/Texture/Shiplog/RINGEDLAB_UI_O.png",
 			"scale": 0.25

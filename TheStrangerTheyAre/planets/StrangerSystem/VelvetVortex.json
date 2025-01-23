@@ -70,7 +70,7 @@
 		"tint": {
 			"r": 255,
 			"g": 32,
-			"b": 32
+			"b": 20
 		}
 	},
 	"Props": {
@@ -357,7 +357,7 @@
 		"tornados": [
 			{
 				"rename": "CRIMSONTORNADO_1",
-				"wanderRate": 0.3,
+				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "upwards",
 				"elevation": 300,
@@ -621,6 +621,7 @@
 		"xmlFile": "shiplogs/crimson.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/CRIMSONGIANT_UI.png",
 			"outlineSprite": "assets/Texture/Shiplog/CRIMSONGIANT_UI_O.png"
 		}

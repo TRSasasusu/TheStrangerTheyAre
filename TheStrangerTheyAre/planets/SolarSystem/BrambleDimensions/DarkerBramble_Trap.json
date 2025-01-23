@@ -58,6 +58,13 @@
 				"radius": 400
 			}
 		],
+		"revealVolumes": [
+			{
+				"achievementID": "tsta_gettrolled",
+				"radius": 400,
+				"revealFor": "player"
+			}
+		],
 		"mapRestrictionVolumes": [
 			{
 				"radius": 1400

@@ -79,6 +79,7 @@
 		<Dialogue>
 			<Page>Bye bye.</Page>
 		</Dialogue>
+		<SetCondition>tsta_ernesto</SetCondition>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -86,6 +87,6 @@
 		<Dialogue>
 			<Page>*sad anglerfish noises*</Page>
 		</Dialogue>
+		<SetCondition>tsta_ernesto</SetCondition>
 	</DialogueNode>
-
 </DialogueTree>

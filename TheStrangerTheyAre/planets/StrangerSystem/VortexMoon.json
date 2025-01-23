@@ -275,6 +275,7 @@
 		"xmlFile": "shiplogs/volcano.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI.png",
 			"outlineSprite": "assets/Texture/Shiplog/CRIMSONMOON_UI_O.png"
 		}

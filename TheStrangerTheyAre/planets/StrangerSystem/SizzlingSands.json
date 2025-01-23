@@ -343,6 +343,7 @@
 		"spriteFolder": "assets/Texture/Shiplog",
 		"xmlFile": "shiplogs/desert.xml",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/DESERT_UI.png",
 			"outlineSprite": "assets/Texture/Shiplog/DESERT_UI_O.png"
 		}

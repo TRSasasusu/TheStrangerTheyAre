@@ -20,6 +20,19 @@ namespace TheStrangerTheyAre
             liquidDZ4 = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Volumes_DreamWorld/DreamRiverFluidVolume"); // gets the underwater floor in the fourth sector of the simulation
         }
 
+        void Start()
+        {
+            GlobalMessenger.AddListener("ExitDreamWorld", OnExitDreamWorld); // checks if player leaves the sim
+        }
+
+        void OnExitDreamWorld()
+        {
+            // dreamzone water enabling
+            waterDZ4.SetActive(true); // activates object when player leaves the trigger
+            floorDZ4.SetActive(true); // activates object when player leaves the trigger
+            liquidDZ4.SetActive(true); // activates object when player leaves the trigger
+        }
+
         public virtual void OnTriggerEnter(Collider hitCollider)
         {
             if (hitCollider.CompareTag("PlayerDetector") && enabled)

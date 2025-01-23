@@ -178,7 +178,7 @@
 			</DialogueOption>
 
 			<DialogueOption>
-				<Text>Enough about you, let’s talk about me.</Text>
+				<Text>Actually, I want to share my experiences with you instead.</Text>
 				<DialogueTarget>StartPlayer</DialogueTarget>
 			</DialogueOption>
 
@@ -257,7 +257,7 @@
 			</DialogueOption>
 
 			<DialogueOption>
-				<Text>Enough about you, let’s talk about me.</Text>
+				<Text>Actually, I want to share my experiences with you instead.</Text>
 				<DialogueTarget>StartPlayer</DialogueTarget>
 			</DialogueOption>
 

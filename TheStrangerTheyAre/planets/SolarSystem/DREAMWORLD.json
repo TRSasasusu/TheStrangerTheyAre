@@ -7,6 +7,7 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Sector_NewSim.prefab",
 				"alignRadial": false,
+				"keepLoaded": true,
 				"position": {
 					"x": -180.4021,
 					"y": 5.9047,
@@ -124,6 +125,51 @@
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_02/SlideSocket_01",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_17"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CodePortrait/CodePortrait1.prefab",
+				"alignRadial": false,
+				"position": {
+					"x": 91.75077,
+					"y": 0.9364,
+					"z": 718.8491
+				},
+				"rotation": {
+					"x": 295.1207,
+					"y": 37.3477,
+					"z": 180.5371
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CodePortrait/CodePortrait2.prefab",
+				"alignRadial": false,
+				"position": {
+					"x": 127.9005,
+					"y": 1.693761,
+					"z": -677.6237
+				},
+				"rotation": {
+					"x": 274.5907,
+					"y": 213.0499,
+					"z": 359.1228
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CodePortrait/CodePortrait3.prefab",
+				"alignRadial": false,
+				"position": {
+					"x": 30.2072,
+					"y": -280.4665,
+					"z": 694.081
+				},
+				"rotation": {
+					"x": 350.7632,
+					"y": 40.3858,
+					"z": 0.0421
+				}
 			}
 		],
 		"dialogue": [
@@ -136,6 +182,40 @@
 				"position": {
 					"y": 3
 				}
+			},
+			{
+				"xmlFile": "dialogue/Other/ScientistReunion.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
+				"isRelativeToParent": true,
+				"lookAtRadius": 0,
+				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4/Ghostbird_IP_ANIM",
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Other/CypressReunion.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Cypress_Reunion",
+				"isRelativeToParent": true,
+				"lookAtRadius": 0,
+				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Cypress_Reunion/Ghostbird_IP_ANIM",
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
+				"isRelativeToParent": true,
+				"lookAtRadius": 0,
+				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3/Ghostbird_IP_ANIM",
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Other/PrisonerNew.xml",
+				"pathToExistingDialogue": "Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Ghosts_PrisonCell/GhostNodeMap_PrisonCell_Lower/Prefab_IP_GhostBird_Prisoner/InteractReceiver"
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
@@ -418,6 +498,7 @@
 					"rename": "SCIENTIST_VISIONTORCH",
 					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
 					"isRelativeToParent": true,
+					"conditionsToSet": [ "SCIENTIST_VISIONTORCH" ],
 					"slides": [
 						{
 							"imagePath": "assets/Slideshows/PlayerLanguage/slide (1).png",
@@ -450,59 +531,102 @@
 					}
 				}
 			],
-			"singularities":
-			[
-				{
-					"type": "blackHole",
-					"rename": "SIM_BH",
-					"uniqueID": "SIM_BH",
-					"pairedSingularity": "SIM_WH",
-					"hasWarpEffects": false,
-					"distortRadius": 0,
-					"horizonRadius": 0.1,
-					"position": {
-						"x": -46.32926,
-						"y": 1,
-						"z": 715.0172
-					}
-				},
-				{
-					"type": "whiteHole",
-					"rename": "SIM_WH",
-					"uniqueID": "SIM_WH",
-					"pairedSingularity": "SIM_BH",
-					"hasWarpEffects": false,
-					"distortRadius": 0,
-					"horizonRadius": 0.1,
-					"position": {
-						"x": -100.8006,
-						"y": 2.904684,
-						"z": 750.533
-					}
-				},
-				{
-					"type": "blackHole",
-					"rename": "TOPREBRAMBLE_BH",
-					"uniqueID": "TOPREBRAMBLE_BH",
-					"pairedSingularity": "TOPREBRAMBLE_WH",
-					"hasWarpEffects": false,
-					"distortRadius": 0,
-					"horizonRadius": 0.1,
-					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH",
-					"isRelativeToParent": true
-				},
-				{
-					"type": "whiteHole",
-					"rename": "TONEWSIM_WH",
-					"uniqueID": "TONEWSIM_WH",
-					"pairedSingularity": "TONEWSIM_BH",
-					"hasWarpEffects": false,
-					"distortRadius": 0,
-					"horizonRadius": 0.1,
-					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH",
-					"isRelativeToParent": true
+		"singularities": [
+			{
+				"type": "blackHole",
+				"rename": "SIM_BH",
+				"uniqueID": "SIM_BH",
+				"pairedSingularity": "SIM_WH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"position": {
+					"x": -46.32926,
+					"y": 1,
+					"z": 715.0172
 				}
-			]
+			},
+			{
+				"type": "whiteHole",
+				"rename": "SIM_WH",
+				"uniqueID": "SIM_WH",
+				"pairedSingularity": "SIM_BH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"position": {
+					"x": -100.8006,
+					"y": 2.904684,
+					"z": 750.533
+				}
+			},
+			{
+				"type": "blackHole",
+				"rename": "TOPREBRAMBLE_BH",
+				"uniqueID": "TOPREBRAMBLE_BH",
+				"pairedSingularity": "TOPREBRAMBLE_WH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "whiteHole",
+				"rename": "TONEWSIM_WH",
+				"uniqueID": "TONEWSIM_WH",
+				"pairedSingularity": "TONEWSIM_BH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "blackHole",
+				"rename": "WarpToDev_BH",
+				"uniqueID": "WarpToDev_BH",
+				"pairedSingularity": "WarpToDev_WH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "whiteHole",
+				"rename": "WarpToDev_WH",
+				"uniqueID": "WarpToDev_WH",
+				"pairedSingularity": "WarpToDev_BH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "blackHole",
+				"rename": "WarpFromDev_BH",
+				"uniqueID": "WarpFromDev_BH",
+				"pairedSingularity": "WarpFromDev_WH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "whiteHole",
+				"rename": "WarpFromDev_WH",
+				"uniqueID": "WarpFromDev_WH",
+				"pairedSingularity": "WarpFromDev_BH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH",
+				"isRelativeToParent": true
+			}
+		]
 	},
 	"Volumes": {
 		"audioVolumes": [
@@ -785,7 +909,17 @@
 		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleAmbience",
 		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleEmissionOneShot",
 		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience"
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleAmbience",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleAmbience"
 	],
 	"ShipLog": {
 		"xmlFile": "shiplogs/newsim.xml",

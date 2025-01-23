@@ -10,6 +10,20 @@ namespace TheStrangerTheyAre
         GameObject[] objects; // to store simWall
 
         public bool isInside;
+        
+        void Start()
+        {
+            GlobalMessenger.AddListener("ExitDreamWorld", OnExitDreamWorld); // checks if player leaves the sim
+        }
+
+        void OnExitDreamWorld()
+        {
+            // object list enabling
+            foreach (GameObject objectList in objects)
+            {
+                objectList.SetActive(true); // enables stuff when left dream world
+            }
+        }
 
         public virtual void OnTriggerEnter(Collider hitCollider)
         {
@@ -42,10 +56,10 @@ namespace TheStrangerTheyAre
                 // runs if the temporary variable is less than 1 (0 or less).
                 if (temp < 1)
                 {
-                    // dreamzone water enabling
+                    // objects list enabling
                     foreach (GameObject objectList in objects)
                     {
-                        objectList.SetActive(true); // disables stuff when in trigger
+                        objectList.SetActive(true); // enables stuff when in trigger
                     }
                 }
             }

@@ -37,6 +37,7 @@
 				"type": "standingVisionTorch",
 				"rename": "PROBE_VISION",
 				"parentPath": "Sector/StrangerProbe/Sockets/Vision",
+				"conditionsToSet": [ "tsta_gangnam" ],
 				"isRelativeToParent": true,
 				"slides": [
 					{

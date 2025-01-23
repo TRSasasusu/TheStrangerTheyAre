@@ -74,6 +74,7 @@
       {
         "assetBundle": "assets/AssetBundle/strangerbundle",
         "path": "Assets/PreBramble_SIM.prefab",
+        "keepLoaded": true,
         "hasPhysics": false
       },
       {
@@ -4453,9 +4454,5 @@
   },
   "Water": {
     "size": 180
-  },
-  "ShipLog": {
-    "xmlFile": "shiplogs/prebramble.xml",
-    "spriteFolder": "assets/Texture/Shiplog"
   }
 }

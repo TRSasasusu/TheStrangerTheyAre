@@ -1,4 +1,6 @@
-﻿using NewHorizons.Utility.Files;
+﻿using NewHorizons.Utility;
+using NewHorizons.Utility.Files;
+using OWML.ModHelper;
 using UnityEngine;
 
 namespace TheStrangerTheyAre
@@ -6,13 +8,12 @@ namespace TheStrangerTheyAre
     public class EndSceneAddition : MonoBehaviour
     {
         //Allows easy editing, should be removed
-        public static float speed = 50;
-        public static float x = 600;
-        public static float y = 20;
-        public static float z = 556;
-        public static AssetBundle endingBundle = null;
+        public static Vector3 newAxolotlPos = new Vector3(130, 100, 0);
+        public static Quaternion newAxolotlRot = Quaternion.Euler(0, 180, 329.2757f);
         public static EndSceneAddition instance;
         public bool activated = false;
+        private static GameObject[] axolotl = new GameObject[3];
+        public static SpriteRenderer[] crabSprites = new SpriteRenderer[3];
 
         private void Awake()
         {
@@ -24,27 +25,78 @@ namespace TheStrangerTheyAre
         {
             activated = true;
             gameObject.SetActive(true);
-        }
+        } 
 
-        public static void LoadEndingAdditions()
+        public static void LoadEndingAdditions(AssetBundle endingBundle)
         {
-            //Load the asset bundle
-            GameObject endingObj = endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsImage.prefab");
+            // define axolotl
+            axolotl[0] = SearchUtilities.Find("PostCreditsScene/Canvas/PostCreditsPainting_7a");
+            axolotl[1] = SearchUtilities.Find("PostCreditsScene/Canvas/PostCreditsPainting_7b");
+            axolotl[2] = SearchUtilities.Find("PostCreditsScene/Canvas/PostCreditsPainting_7c");
 
-            //Make the game object for the dragon
+            // turn axolotl
+            foreach (GameObject axo in axolotl)
+            {
+                axo.transform.localPosition = newAxolotlPos;
+                axo.transform.localRotation = newAxolotlRot;
+            }
+
+            // load objects, define objects and parent
+            GameObject endingPlanet = endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsPlanet.prefab");
+            GameObject endingCrab1 = endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsCrab1.prefab");
+            GameObject endingCrab2 = endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsCrab2.prefab");
+            GameObject endingCrab3 = endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsCrab3.prefab");
+            GameObject spaceShip = endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsShip.prefab");
             Transform endingParent = GameObject.Find("PostCreditsScene/Canvas").transform;
-            endingObj = GameObject.Instantiate(endingObj, endingParent);
-            endingObj.name = "ending";
+
+            // instantiate objects
+            endingPlanet = GameObject.Instantiate(endingPlanet, endingParent);
+            endingCrab1 = GameObject.Instantiate(endingCrab1, endingParent);
+            endingCrab2 = GameObject.Instantiate(endingCrab2, endingParent);
+            endingCrab3 = GameObject.Instantiate(endingCrab3, endingParent);
+            spaceShip = GameObject.Instantiate(spaceShip, endingParent);
+
+            // rename stuff
+            endingPlanet.name = "EndingPlanet";
+            endingCrab1.name = "EndingCrab1";
+            endingCrab2.name = "EndingCrab2";
+            endingCrab3.name = "EndingCrab3";
+            spaceShip.name = "EndingShip";
 
             //Make sure it's visible and in the right location
-            AssetBundleUtilities.ReplaceShaders(endingObj);
-            endingObj.transform.localPosition = new Vector3(EndSceneAddition.x, EndSceneAddition.y, EndSceneAddition.z);
+            AssetBundleUtilities.ReplaceShaders(endingPlanet);
+            AssetBundleUtilities.ReplaceShaders(endingCrab1);
+            AssetBundleUtilities.ReplaceShaders(endingCrab2);
+            AssetBundleUtilities.ReplaceShaders(endingCrab3);
+            AssetBundleUtilities.ReplaceShaders(spaceShip);
+
+            // position stuff
+            endingPlanet.transform.localPosition = new Vector3(-100, 180, 500);
+            endingCrab1.transform.localPosition = new Vector3(-100, -360, 0);
+            endingCrab2.transform.localPosition = new Vector3(-430, -390, 0);
+            endingCrab3.transform.localPosition = new Vector3(-550, -410, 0);
+            spaceShip.transform.localPosition = new Vector3(-1028.667f, -53.5699f, 534.98f);
 
             //Need to make sure it's in the right spot of the hierachy to render properly
-             endingObj.transform.SetSiblingIndex(4);
+            endingPlanet.transform.SetSiblingIndex(3);
+            endingCrab1.transform.SetSiblingIndex(5);
+            endingCrab2.transform.SetSiblingIndex(6);
+            endingCrab3.transform.SetSiblingIndex(7);
+            spaceShip.transform.SetSiblingIndex(8);
+
+            // get ending crab sprite renderers
+            crabSprites[0] = endingCrab1.GetComponent<SpriteRenderer>();
+            crabSprites[1] = endingCrab2.GetComponent<SpriteRenderer>();
+            crabSprites[2] = endingCrab3.GetComponent<SpriteRenderer>();
+
+            // make them black for now
+            for (int i = 0; i < crabSprites.Length; i++)
+            {
+                crabSprites[i].color = Color.black;
+            }
 
             //Add the component
-            endingObj.AddComponent<EndSceneAddition>();
+            endingPlanet.AddComponent<EndSceneAddition>();
         }
     }
 }

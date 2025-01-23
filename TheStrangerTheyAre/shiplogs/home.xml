@@ -214,11 +214,6 @@
 				<ID>HOME_MUSEUM_SYSTEM</ID>
 				<Text>A model of the star system is in the basement of the museum. There are four planets, just like the slide reels have shown. Some text also provides details on the system.</Text>
 			</ExploreFact>
-
-			<ExploreFact>
-				<ID>HOME_MUSEUM_VESSEL</ID>
-				<Text>A Nomai Vessel is hung up in the corner...could that mean...</Text>
-			</ExploreFact>
 		</Entry>
     </Entry>
 </AstroObjectEntry>

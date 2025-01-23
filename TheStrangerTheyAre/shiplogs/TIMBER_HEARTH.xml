@@ -24,7 +24,7 @@
 
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>HEARTH_VISION</ID> <!-- The ID of this fact -->
-            <Text>The vision torch contained a vision of three inhabitants of the Stranger landing on Timber Hearth. They appear to be eating us at food! They flew back to what looks to be Dark Bramble before it overgrew.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            <Text>The vision torch contained a vision of three inhabitants of the Stranger landing on Timber Hearth where they ate some of our primitive ancestors as food! They flew back to what looks to be Dark Bramble before it overgrew.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
         </ExploreFact>
 
         <Entry> <!-- An Entry For This Planet -->

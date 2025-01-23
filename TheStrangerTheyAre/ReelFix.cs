@@ -14,12 +14,14 @@ namespace TheStrangerTheyAre
 
         void OnEnterDreamWorld()
         {
-            for (int i = 0; i < 19; i++)
+            for (int i = 0; i < 18; i++)
             {
                 reels[i] = SearchUtilities.Find("TSTA_REEL_" + (i + 1)); // gets all custom reels in the sim, stores in array
                 reels[i].GetComponentInParent<OWItemSocket>().Awake(); // runs awake to re-parent
                 reels[i].GetComponentInParent<OWItemSocket>().Start(); // runs start to re-parent
             }
+            SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket").GetComponent<SlideReelSocket>().Awake();
+            SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket").GetComponent<SlideReelSocket>().Start();
         }
     }
 }

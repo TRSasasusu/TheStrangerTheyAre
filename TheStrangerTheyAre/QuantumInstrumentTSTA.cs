@@ -28,7 +28,7 @@ public class QuantumInstrumentTSTA : MonoBehaviour
     public event FinishGatherEvent OnFinishGather;
 
     // warp stuff
-    private static VesselSpawnPoint campfireSpawn; // to store vessel spawn point
+    private static EyeSpawnPoint campfireSpawn; // to store vessel spawn point
     private static PlayerSpawner _spawner; // for spawning the player
 
     private void Awake()
@@ -110,10 +110,10 @@ public class QuantumInstrumentTSTA : MonoBehaviour
         }
 
         //Re-enable the distance thing
-        SearchUtilities.Find("Volumes_Campfire/EndlessCylinder_Forest").GetComponent<EndlessCylinder>().SetActivation(true);
+        SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Volumes_Campfire/EndlessCylinder_Forest").SetActive(true);
 
         //Teleport the player
-        campfireSpawn = SearchUtilities.Find("RingedGiant_Body/Sector/Vessel_Body/SPAWN_Vessel").GetComponent<VesselSpawnPoint>(); // gets campfire spawn point
+        campfireSpawn = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/QuantumCampfire/SPAWN_Campfire").GetComponent<EyeSpawnPoint>(); // gets campfire spawn point
         _spawner = GameObject.FindGameObjectWithTag("Player").GetRequiredComponent<PlayerSpawner>(); // gets player spawner
         _spawner.DebugWarp(campfireSpawn); // warps you to campfire
 

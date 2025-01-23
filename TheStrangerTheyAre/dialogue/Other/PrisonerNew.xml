@@ -1,0 +1,75 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>the Prisoner</NameField>
+    <DialogueNode>
+        <Name>Nomai1</Name>
+        <DialogueOptionsList>
+            <DialogueOption>
+				<RequiredPersistentCondition>CYPRESS_BOARDVESSEL</RequiredPersistentCondition>
+                <Text>There's someone I'd like you to meet.</Text>
+                <DialogueTarget>TSTA_Prisoner_Invited</DialogueTarget>
+            </DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+	
+    <DialogueNode>
+        <Name>TSTA_Prisoner_Invited</Name>
+        <Dialogue>
+			<Page>...?</Page>
+            <Page>How do you understand my language?</Page>
+        </Dialogue>
+		<DialogueOption>
+			<Text>Your brother taught me.</Text>
+			<SetCondition>TSTA_PrisonerBrother</SetCondition>
+			<DialogueTarget>1</DialogueTarget>
+		</DialogueOption>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Xylo....</Page>
+			<Page>He didn't like his name much, sounded too much like "xylophone".</Page>
+			<Page>Mother named him Xylo because it meant "wood". It fits, because he was hearty, strong, and determined. Like a bundle of wood.</Page>
+			<Page>Then came me, the younger brother, Phyllo. Meaning "leaf", they named me that because I was soft, but had a big heart.</Page>
+			<Page>When I found out he crashed on that planet, I was devastated. I was lost without him.</Page>
+			<Page>And now here I am, locked up for eternity hoping the atoms of our terror turned into a bustling, new universe.</Page>
+			<Page>Say, there's someone you want me to meet?</Page>
+		</Dialogue>
+		<DialogueOption>
+			<Text>You have a distant grandnephew waiting for you.</Text>
+			<DialogueTarget>2</DialogueTarget>
+		</DialogueOption>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>I'm an uncle again? Did Xylo....</Page>
+		</Dialogue>
+		<DialogueOption>
+			<Text>Yep, he terraformed home. It's as good as new.</Text>
+			<DialogueTarget>3</DialogueTarget>
+		</DialogueOption>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>If only I could see our home again...*sniff*</Page>
+			<Page>Where is my distant grandnephew?</Page>
+		</Dialogue>
+		<DialogueOption>
+			<Text>I'll take you to him. Follow me!</Text>
+			<DialogueTarget>4</DialogueTarget>
+		</DialogueOption>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Alright, blue friend. Lead the way!</Page>
+		</Dialogue>
+		<SetCondition>TSTA_PrisonerLeave</SetCondition>
+	</DialogueNode>
+</DialogueTree>

@@ -43,7 +43,7 @@
 		<Dialogue>
 			<Page>Right on, Hatchling! Us explorers must always stick together!</Page>
 		</Dialogue>
-		<SetCondition>SCI_TRIGGERPLAY</SetCondition>
+		<SetCondition>EyeScientistPlaying</SetCondition>
 	</DialogueNode>
 
 	<DialogueNode>

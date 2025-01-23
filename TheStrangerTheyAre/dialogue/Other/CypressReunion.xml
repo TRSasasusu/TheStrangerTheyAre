@@ -1,0 +1,54 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Cypress</NameField>
+    <DialogueNode>
+        <Name>CypressReunion_Main</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Oh hey, Hatchling! I'm just catching my Greatest Granddad up to date with everyting!</Page>
+            <Page>The Terraform Plan, The Aliens, The War, Me, You...all the works.</Page>
+			<Page>He's told me about his family and what life was like before and during the days we were aboard this ship.</Page>
+			<Page>It's crazy how rich our kind's history has become, and now I've been face-to-face with a peaceful alien!</Page>
+			<Page>The Universe is about to blow, so it's a shame no one will get to read the history books up to this point.</Page>
+			<Page>But I'm still overly grateful to meet THE Scientist, my distant grandfather.</Page>
+			<Page>Thank you, friend. You've made my dreams a reality.</Page>
+        </Dialogue>
+		<SetCondition>cypressreunion_talkedto</SetCondition>
+    </DialogueNode>
+	
+	<DialogueNode>
+		<Name>CypressReunion_Main2</Name>
+		<EntryCondition>cypressreunion_talkedto</EntryCondition>
+		<Dialogue>
+			<Page>Thank you, friend. You've made my dreams a reality.</Page>
+			<Page>Say, is there anyone else here you want me to meet?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CypressReunion_End</Name>
+		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
+		<Dialogue>
+			<Page>Phyllo, Xylo....those are your names?</Page>
+			<Page>Greatest Grandpa, I don't understand why you don't like that name. It's way cooler than mine!</Page>
+			<Page>Cypress is pretty boring, it's just a type of tree that's abundant on our home moon.</Page>
+			<Page>And it's a name that's been given to so many leaders before me. Even other boring names like Pine and Bush sound cooler compared to mine.</Page>
+			<Page>I was born into a privileged lineage, expected to lead and protect our homeland. It was a daunting responsibility.</Page>
+			<Page>It's crazy. I can't even imagine what a normal life is like!</Page>
+			<Page>Distant Uncle, I forgive you. Without your risky actions, we would not be here today.</Page>
+			<Page>I don't even want to imagine the pain and insanity you had to go through.</Page>
+			<Page>It's no wonder you did what you did, you wanted it all to end.</Page>
+			<Page>It's wonderful to meet all of you. I'm grateful to be apart of this wonderful family.</Page>
+			<Page>And Hatchling, once again, I thank you. For everything. As for everyone else.</Page>
+		</Dialogue>
+		<SetCondition>cypressreunion_talkedto2</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>CypressReunion_End2</Name>
+		<EntryCondition>cypressreunion_talkedto2</EntryCondition>
+		<Dialogue>
+			<Page>Hatchling, once again, I thank you. For everything.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

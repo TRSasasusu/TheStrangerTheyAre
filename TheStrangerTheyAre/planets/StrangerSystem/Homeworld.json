@@ -33,6 +33,7 @@
 		"xmlFile": "shiplogs/home.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/HOME_UI.png"
 		}
 	},
@@ -56,16 +57,6 @@
 				"priority": 0,
 				"radius": 500,
 				"volume": 0.5
-			},
-			{
-				"audio": "OW Finally Set Free 072021_2 AP",
-				"track": "music",
-				"loop": true,
-				"priority": 1,
-				"radius": 5,
-				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock/RaftSocket/HOME_RAFT",
-				"isRelativeToParent": true,
-				"volume": 0.2
 			},
 			{
 				"audio": "assets/Audio/terraformhome3.ogg",
@@ -137,17 +128,6 @@
 				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Props_PartyHouse/Props_IP_StaffArmature/Arm_A/Arm_B/staff_attach_point",
 				"isRelativeToParent": true,
 				"radius": 5
-			},
-			{
-				"reveals": [ "HOME_MUSEUM_VESSEL" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/BrambleMuseum_HOME/Props/SystemModel/VESSEL",
-				"isRelativeToParent": true,
-				"position": {
-					"y": -1
-				},
-				"radius": 2
 			},
 			{
 				"reveals": [ "HOME_OBSERVE_E" ],
@@ -298,20 +278,6 @@
 					"x": 89.761,
 					"y": 338.7487,
 					"z": 213.7283
-				}
-			},
-			{
-				"path": "Sector_RingInterior/Sector_Zone2/Structures_Zone2/RaftHouse_Eye_Zone2/Interactables_RaftHouse_Eye_Zone2/Prefab_IP_RaftDock",
-				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles",
-				"isRelativeToParent": true,
-				"removeChildren": [
-					"RaftSocket/Raft_Body (7)",
-					"RaftSocket/RaftProxyCollision"
-				],
-				"rename": "Prefab_IP_RaftDock_Main",
-				"position": {
-					"x": 41.25,
-					"z": 47.51
 				}
 			},
 			{
@@ -540,13 +506,6 @@
 				"cloaked": false,
 				"parentPath": "Sector/BrambleMuseum_HOME",
 				"isRelativeToParent": true
-			}
-		],
-		"rafts": [
-			{
-				"parentPath": "Sector/EntryAndPartyHouse/Dock/Interactibles/Prefab_IP_RaftDock_Main/RaftSocket",
-				"isRelativeToParent": true,
-				"rename": "HOME_RAFT"
 			}
 		],
 		"dialogue": [

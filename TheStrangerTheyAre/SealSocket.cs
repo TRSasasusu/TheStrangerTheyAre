@@ -12,6 +12,7 @@ public class SealSocket : OWItemSocket
     [SerializeField]
     GameObject inactiveObjects;
 
+    public bool itemPlaced;
 
     public override void Awake()
     {
@@ -30,10 +31,12 @@ public class SealSocket : OWItemSocket
             {
                 activeObjects.SetActive(true);
                 inactiveObjects.SetActive(false);
+                itemPlaced = true;
                 StartCoroutine(PlayAnimationAndProceed("ProjectionStart", false));
                 return true;
             }
         }
+        itemPlaced = false;
         return false;
     }
 

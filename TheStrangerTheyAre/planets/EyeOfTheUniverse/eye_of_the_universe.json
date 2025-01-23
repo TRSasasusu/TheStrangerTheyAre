@@ -1,6 +1,6 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Eye Of The Universe",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/hawkbar-eye-sequence/NewHorizons/Schemas/body_schema.json",
+	"name": "Eye Of The Universe",
 	"starSystem": "EyeOfTheUniverse",
 	"Props": {
 		"details": [
@@ -35,25 +35,10 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_Eye.prefab",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
-				"isRelativeToParent": true,
-				"position": {
-					"x": -1.3437,
-					"z": 3.7894
-				},
-				"rotation": {
-					"y": 173.6718
-				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_ScientistDescendant_Vessel1.prefab",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
-				"isRelativeToParent": true,
 				"position": {
 					"x": 3.3551,
-					"z": 7.1673
+					"z": 7507.167
 				},
 				"rotation": {
 					"y": 215.3546
@@ -112,22 +97,6 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/EYE/ScientistSector.prefab",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones",
-				"isRelativeToParent": true,
-				"position": {
-					"x": -42.527,
-					"y": 0,
-					"z": -61.9399
-				},
-				"rotation": {
-					"x": 0,
-					"y": 11.22221,
-					"z": 0
-				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/EyeScript.prefab"
 			}
 		],
@@ -142,7 +111,7 @@
 			},
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantCampfire.xml",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
+				"parentPath": "Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_Vessel1",
 				"rename": "EYE_CypressDialogue",
 				"isRelativeToParent": true,
 				"position": {
@@ -178,43 +147,26 @@
 		"signals": [
 			{
 				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"onlyAudibleToScope": false,
 				"volume": 0.3,
 				"frequency": "Traveler",
 				"name": "UNKNOWN",
-				"rename": "ScientistSolo",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye",
+				"identificationRadius": 0,
+				"rename": "ScientistInstZone1",
+				"parentPath": "Sector_EyeOfTheUniverse/ScientistSector/FirstSignal/Signal",
+				"isRelativeToParent": true
+			},
+			{
+				"audio": "assets/Audio/NewTravelerSolo.ogg",
+				"volume": 0.3,
+				"frequency": "Traveler",
+				"name": "UNKNOWN",
+				"identificationRadius": 0,
+				"rename": "ScientistInstZone2",
+				"parentPath": "Sector_EyeOfTheUniverse/ScientistSector/RingedGiant/DivineScientist",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 1
 				}
-			},
-			{
-				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 0.3,
-				"frequency": "Traveler",
-				"name": "UNKNOWN",
-				"rename": "ScientistInstZone1",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/FirstSignal/Signal",
-				"isRelativeToParent": true
-			},
-			{
-				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 0.3,
-				"frequency": "Traveler",
-				"name": "UNKNOWN",
-				"rename": "ScientistInstZone2",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/RingedGiant/DivineScientist/Prefab_IP_GhostBird_Scientist/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL/Props_IP_GhostbirdInstrument",
-				"isRelativeToParent": true
-			},
-			{
-				"audio": "assets/Audio/NewTravelerSolo.ogg",
-				"volume": 0.3,
-				"frequency": "Traveler",
-				"name": "UNKNOWN",
-				"rename": "ScientistInstZone3",
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/RingedGiant/DivineScientist/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL/Props_IP_GhostbirdInstrument",
-				"isRelativeToParent": true
 			}
 		]
 	},
@@ -258,9 +210,63 @@
 				"volume": 0.8,
 				"track": "music",
 				"randomizePlayhead": false,
-				"parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector/RingedGiant/VisiblePlanet_Pivot",
+				"parentPath": "Sector_EyeOfTheUniverse/ScientistSector/RingedGiant/VisiblePlanet_Pivot",
 				"isRelativeToParent": true,
 				"radius": 1350
+			}
+		]
+	},
+	"EyeOfTheUniverse": {
+		"eyeTravelers": [
+			{
+				"id": "ScientistEye",
+				"loopAudio": "assets/Audio/NewTravelerSolo.ogg",
+				"finaleAudio": "assets/Audio/NewTravelerFinale.ogg",
+				"frequency": "Traveler",
+				"startPlayingCondition": "EyeScientistPlaying",
+				"dialogue": {
+					"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/Scientist.xml",
+					"isRelativeToParent": true,
+					"position": {
+						"y": 3
+					},
+					"attentionPoint": {
+						"isRelativeToParent": true,
+						"offset": {
+							"y": 3
+						}
+					}
+				},
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_Eye.prefab"
+			}
+		],
+		"instrumentZones": [
+			{
+				"id": "ScientistEye",
+				"deactivationCondition": "EyeScientistGather",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/ScientistSector.prefab",
+				"keepLoaded": true,
+				"position": {
+					"x": -42.527,
+					"z": 7438.06
+				},
+				"rotation": {
+					"y": 11.22221
+				}
+			}
+		],
+		"quantumInstruments": [
+			{
+				"id": "ScientistEye",
+				"gatherWithScope": false,
+				"gatherCondition": "EyeScientistGather",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/EYE/SciInstrument.prefab",
+				"parentPath": "Sector_EyeOfTheUniverse/ScientistSector/RingedGiant/DivineScientist/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
+				"isRelativeToParent": true,
+				"interactRadius": 1
 			}
 		]
 	}

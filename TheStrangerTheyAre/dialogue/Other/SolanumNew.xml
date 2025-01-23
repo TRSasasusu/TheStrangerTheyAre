@@ -1,0 +1,97 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Solanum</NameField>
+    <DialogueNode>
+        <Name>TSTA_Solanum_Vision</Name>
+		<EntryCondition>tsta_thevision</EntryCondition>
+        <Dialogue>
+            <Page>Kind traveler, you have bestowed upon me such wonderful wisdom.</Page>
+            <Page>An owl-like species hidden beneath a cloak above the plane of the Solar System...it is no wonder we Nomai have not discovered it yet.</Page>
+			<Page>Is it true that The Eye of the Universe is really just a tool of universal destruction? No wonder why they tried to hide it from us.</Page>
+			<Page>Even then so, our curiosity would still pull us further if we found out such a thing, no matter what risk is to come.</Page>
+			<Page>After all, look at us. We crashed our Vessel into Dark Bramble. My family and friends have died to those ghastly fumes.</Page>
+			<Page>And this ancient species, their technology is fascinating, especially this torch-like device you have projected onto me.</Page>
+			<Page>Imagine how many other species we could have talked to. This would have been a wonderful little tool to bring to The Festival!</Page>
+			<Page>And that prisoner of theirs? He must have seen something in The Eye that no one else has seen.</Page>
+			<Page>Fellow traveler, if you wish to enter The Eye, do not be as fearful as they were.</Page>
+			<Page>If you wish to converse more, I would be grateful to.</Page>
+        </Dialogue>
+		<SetCondition>SOLANUM_SCANNED</SetCondition>
+    </DialogueNode>
+	
+	<DialogueNode>
+		<Name>TSTA_Solanum_Special</Name>
+		<EntryCondition>SOLANUM_SCANNED</EntryCondition>
+		<Dialogue>
+			<Page>Hello traveler, what is on your mind?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I need some help with my expedition. Can you help me?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Can I try getting you out of here?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Farewell.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+		<DialogueNode>
+		<Name>TSTA_Solanum_Special2</Name>
+		<EntryCondition>SOLANUM_SCANNED</EntryCondition>
+		<Dialogue>
+			<Page>Anything else, traveler?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I need some help with my expedition. Can you help me?</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Can I try getting you out of here?</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Farewell.</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>I am sorry, traveler. I cannot help you. However, here is some advice.</Page>
+			<Page>If you are feeling stuck on something, try going back into your notes and re-reading them.</Page>
+			<Page>We Nomai have computerized logs on our ship. Do you not have something similar?</Page>
+			<Page>If you are still stuck, then I recommend exploring elsewhere and come back later.</Page>
+			<Page>If you truly did go everywhere you could, you probably came over some clues and did not notice.</Page>
+			<Page>I hope this helps you on your expeditions. However, I cannot help you much outside of that.</Page>
+		</Dialogue>
+		<DialogueTarget>TSTA_Solanum_Special2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>I am sure there is a way that I can leave the Quantum Moon, but I am kind of growing to enjoy it.</Page>
+			<Page>The clouds are peaceful, the rocks are as beautiful as ever, I do not feel pain, hunger, thirst, or even time...</Page>
+			<Page>And even then, what does it matter? I sense the Solar System and The Universe itself are at their ends.</Page>
+			<Page>All my friends and family have died, and so will yours soon. Your connection to the Ash Twin Project does not benefit anyone else but you and whoever else is attached to it.</Page>
+			<Page>However, maybe I will think about it, but I doubt I will be able to think of it before the death of your star.</Page>
+		</Dialogue>
+		<DialogueTarget>TSTA_Solanum_Special2</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Farewell, traveler.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

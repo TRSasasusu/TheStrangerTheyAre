@@ -105,13 +105,8 @@
 				"minDistance": 10,
 				"detectionRadius": 10000,
 				"identificationRadius": 5,
-				"parentPath": "Sector/STATE1_Tent/ENIGMA_TRAVELER",
-				"isRelativeToParent": true,
-				"position": {
-					"x": -37.0229,
-					"y": 195.9333,
-					"z": 15.1324
-				}
+				"parentPath": "Sector/ENIGMA_TRAVELER",
+				"isRelativeToParent": true
 			}
 		],
 		"dialogue": [
@@ -361,21 +356,6 @@
 		"details": [
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/Tent.prefab",
-				"rename": "STATE1_TENT",
-				"position": {
-					"x": -27.7373,
-					"y": 199.4603,
-					"z": 16.1474
-				},
-				"rotation": {
-					"x": 350.6881,
-					"y": 112.6797,
-					"z": 0.5056
-				}
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerTravelers/Enigma/Enigma_T1.prefab",
 				"parentPath": "Sector/STATE1_Tent",
 				"isRelativeToParent": true,
@@ -389,6 +369,21 @@
 					"x": 353.8944,
 					"y": 172.3454,
 					"z": 350.7578
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Tent.prefab",
+				"rename": "STATE1_TENT",
+				"position": {
+					"x": -27.7373,
+					"y": 199.4603,
+					"z": 16.1474
+				},
+				"rotation": {
+					"x": 350.6881,
+					"y": 112.6797,
+					"z": 0.5056
 				}
 			},
 			{
@@ -530,14 +525,14 @@
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"rename": "Base_Stall",
 				"position": {
-					"x": 17.7738,
-					"y": -197.031,
-					"z": -29.11423
+					"x": 5.956356,
+					"y": -198.9778,
+					"z": -19.02007
 				},
 				"rotation": {
-					"x": 9.146974,
-					"y": 345.5951,
-					"z": 182.6977
+					"x": 0.6904613,
+					"y": 259.3497,
+					"z": 174.9683
 				}
 			},
 			{
@@ -556,13 +551,13 @@
 		],
 		"entryLocation": [
 			{
-				"id": "QUANTUM_MAIN",
+				"id": "QUANTUM",
 				"cloaked": false
 			},
 			{
 				"id": "QUANTUM_S1_LAB",
 				"cloaked": false,
-				"parentPath": "Sector-3/QuantumResearchLab",
+				"parentPath": "Sector/QuantumResearchLab2",
 				"isRelativeToParent": true
 			},
 			{
@@ -720,6 +715,7 @@
 		"xmlFile": "shiplogs/quantum.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI.png",
 			"outlineSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI_O.png"
 		}

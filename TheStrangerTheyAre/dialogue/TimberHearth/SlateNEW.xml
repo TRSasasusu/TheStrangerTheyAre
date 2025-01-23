@@ -10,6 +10,7 @@
             </DialogueOption>
         </DialogueOptionsList>
     </DialogueNode>
+	
     <DialogueNode>
         <Name>TSTA_Slate_React</Name>
         <Dialogue>
@@ -22,4 +23,27 @@
 			<FactID>ANGLERS_EYE_MAIN_R</FactID>
 		</RevealFacts>
     </DialogueNode>
+	
+	<DialogueNode>
+		<Name>SlateScanned</Name>
+		<EntryCondition>tsta_mindscapes</EntryCondition>
+		<Dialogue>
+			<Page>...</Page>
+			<Page>...was that...</Page>
+			<Page>...but you didn't even...</Page>
+			<Page>H-Hatchling...</Page>
+			<Page>The Nomai....The Eye...this new bird species...</Page>
+			<Page>It all makes sense now! I am going to tell Hornfels Right away!</Page>
+			<Page>...but I have to finish my lunch first. I'm starving!</Page>
+		</Dialogue>
+		<SetCondition>tsta_slate_scanned</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SlateScanned2</Name>
+		<EntryCondition>tsta_slate_scanned</EntryCondition>
+		<Dialogue>
+			<Page>Don't bother me right now! I have a lot to think about. Plus, I'm on lunch for another 30 minutes.</Page>
+		</Dialogue>
+	</DialogueNode>
 </DialogueTree>

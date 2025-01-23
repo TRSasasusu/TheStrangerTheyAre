@@ -1,14 +1,10 @@
-﻿using Epic.OnlineServices;
-using HarmonyLib;
+﻿using HarmonyLib;
 using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
-using System.Collections.Generic;
-using System;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-using UnityEngine.Events;
 using NewHorizons.Utility.Files;
 
 namespace TheStrangerTheyAre
@@ -25,7 +21,16 @@ namespace TheStrangerTheyAre
         {
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
-        
+
+        public interface IAchievements
+        {
+            void RegisterAchievement(string uniqueID, bool secret, ModBehaviour mod);
+            void RegisterTranslation(string uniqueID, TextTranslation.Language language, string name, string description);
+            void RegisterTranslationsFromFiles(ModBehaviour mod, string folderPath);
+            void EarnAchievement(string uniqueID);
+            bool HasAchievement(string uniqueID);
+        }
+
         //DEBUG
         public static TheStrangerTheyAre Instance
         {
@@ -61,12 +66,11 @@ namespace TheStrangerTheyAre
             homemoon.transform.localRotation = Quaternion.Euler(333.0655f, 8.4042f, 7.4983f);
         }
 
-
         private void Start()
         {
             // Starting here, you'll have access to OWML's mod helper.
             ModHelper.Console.WriteLine($"My mod {nameof(TheStrangerTheyAre)} is loaded!", MessageType.Success);
-
+            var AchievementsAPI = ModHelper.Interaction.TryGetModApi<IAchievements>("xen.AchievementTracker");
 
             // Get the New Horizons API and load configs
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
@@ -82,20 +86,27 @@ namespace TheStrangerTheyAre
                 {
                     ModHelper.Events.Unity.FireInNUpdates(OnSolarSystemLoaded, 5);
                 }
-
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
-
+            bool isMuricaOn = ModHelper.Interaction.ModExists("Hawkbar.FreedomUnits");
+            if (isMuricaOn)
+            {
+                ModHelper.Console.WriteLine("IMPERIALISM DETECTED! SHUTTING DOWN!", MessageType.Error);
+                Application.Quit();
+            }
             PlaceTitlePlanet();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
-                if (loadScene == OWScene.TitleScreen)
+                if (loadScene == OWScene.PostCreditsScene)
                 {
-                    PlaceTitlePlanet();
-                }
-                else if (loadScene == OWScene.PostCreditsScene)
-                {
-                    LoadEndingAdditions();
+                    if (endingBundle == null)
+                    {
+                        endingBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/postcredits");
+                        if (endingBundle != null)
+                        {
+                            EndSceneAddition.LoadEndingAdditions(endingBundle);
+                        }
+                    }
                 } else { 
                     // unload when not on title screen
                     if (_homeMoonBundle != null)
@@ -110,31 +121,6 @@ namespace TheStrangerTheyAre
             };
         }
 
-        public void LoadEndingAdditions()
-        {
-            if (endingBundle == null)
-            {
-                endingBundle = ModHelper.Assets.LoadBundle("assets/AssetBundle/postcredits");
-            }
-            GameObject endingObj = Instantiate(endingBundle.LoadAsset<GameObject>("Assets/PostCredits/PostCreditsImage.prefab"));
-            AssetBundleUtilities.ReplaceShaders(endingObj);
-
-            //Make the game object for the dragon
-            Transform endingParent = GameObject.Find("PostCreditsScene/Canvas").transform;
-            endingObj = GameObject.Instantiate(endingObj, endingParent);
-            endingObj.name = "ending";
-
-            //Make sure it's visible and in the right location
-            endingObj.transform.localPosition = new Vector3(EndSceneAddition.x, EndSceneAddition.y, EndSceneAddition.z);
-
-            //Need to make sure it's in the right spot of the hierachy to render properly
-            endingObj.transform.SetSiblingIndex(4);
-
-            //Add the component
-            endingObj.AddComponent<EndSceneAddition>();
-            endingObj.AddComponent<RectTransform>().SetLocalPositionX(50);
-            endingObj.AddComponent<RectTransform>().SetLocalPositionY(50);
-        }
 
         private void OnSolarSystemLoaded()
         {

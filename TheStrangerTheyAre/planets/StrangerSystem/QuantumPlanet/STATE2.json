@@ -397,14 +397,14 @@
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"rename": "Base_Stall",
 				"position": {
-					"x": 17.7738,
-					"y": -197.031,
-					"z": -29.11423
+					"x": 5.956356,
+					"y": -198.9778,
+					"z": -19.02007
 				},
 				"rotation": {
-					"x": 9.146974,
-					"y": 345.5951,
-					"z": 182.6977
+					"x": 0.6904613,
+					"y": 259.3497,
+					"z": 174.9683
 				}
 			},
 			{
@@ -419,18 +419,6 @@
 					"y": 342.9549,
 					"z": 65.794
 				}
-			}
-		],
-		"entryLocation": [
-			{
-				"id": "QUANTUM_MAIN",
-				"cloaked": false
-			},
-			{
-				"id": "QUANTUM_S2_LAB",
-				"cloaked": false,
-				"parentPath": "Sector-3/QuantumResearchLab",
-				"isRelativeToParent": true
 			}
 		]
 	},

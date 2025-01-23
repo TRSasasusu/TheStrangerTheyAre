@@ -229,6 +229,12 @@
 	},
 	"Orbit": {
 		"semiMajorAxis": 13000,
+		"isTidallyLocked": true,
+		"alignmentAxis": {
+			"x": 4,
+			"y": -0.2,
+			"z": 0
+		},
 		"primaryBody": "Nearest Neighbor",
 		"tint": {
 			"r": 4,
@@ -412,6 +418,7 @@
 		"xmlFile": "shiplogs/ringedgiant.xml",
 		"spriteFolder": "assets/Texture/Shiplog",
 		"mapMode": {
+			"invisibleWhenHidden": true,
 			"revealedSprite": "assets/Texture/Shiplog/RINGEDGIANT_UI.png",
 			"scale": 2
 		}

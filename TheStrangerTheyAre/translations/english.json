@@ -1,3 +1,45 @@
 {
-	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json"
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"AchievementTranslations": {
+		"tsta_thevision": {
+			"Name": "The Vision",
+			"Description": "Use the Vision Torch on Solanum."
+		},
+		"tsta_mindscapes": {
+			"Name": "Mindscapes",
+			"Description": "Use the Vision Torch on Slate."
+		},
+		"tsta_redpilled": {
+			"Name": "Red Pilled",
+			"Description": "Activate simulation mode permanently."
+		},
+		"tsta_ghostbusters": {
+			"Name": "Ghostbuster",
+			"Description": "Remove all of the simulation's residents."
+		},
+		"tsta_sudormrf": {
+			"Name": "sudo rm -rf /*",
+			"Description": "No such file or directory."
+		},
+		"tsta_allornothing": {
+			"Name": "All or Nothing",
+			"Description": "Get all five seals in a single loop."
+		},
+		"tsta_followyourdreams": {
+			"Name": "Follow Your Dreams",
+			"Description": "Reach a certain planet before learning the Strangers' Language."
+		},
+		"tsta_ernesto": {
+			"Name": "Scholar of Ernesto",
+			"Description": "Find Ernesto."
+		},
+		"tsta_gettrolled": {
+			"Name": "Get Trolled!",
+			"Description": "Get yourself trolled."
+		},
+		"tsta_gangnam": {
+			"Name": "Oppan Stranger Style!",
+			"Description": "Find Stranger Style"
+		}
+	}
 }

@@ -1,73 +1,198 @@
-﻿ using HarmonyLib;
+﻿using HarmonyLib;
+using NewHorizons.Utility;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace TheStrangerTheyAre;
 
 [HarmonyPatch]
 public class QuantumCampsiteControllerPatch
 {
-    //################################# Eye Things #################################
-    /**
-     * When other instrument zone's are activated, also activate Ditylum's
-     * 
-     * @param __instance The calling campsite controller
-     */
-    [HarmonyPostfix]
+    /*private GameObject[] _instrumentZones;
+    private TravelerEyeController[] _travelerControllers;
+    private Transform[] _travelerRoots;
+    private bool _areInstrumentsActive;
+    private bool _hasMetSolanum;
+    private bool _hasMetPrisoner;
+    private bool _hasErasedPrisoner;
+    private bool _hasJamSessionStarted;
+
+    protected static GameObject scientistZone;
+    private static GameObject scientist;
+    private static GameObject scientistSignal;
+    private static Animator scientistAnim;
+    private static TravelerEyeController scientistController;
+    private static Transform scientistRoot;*/
+    private static GameObject cypress;
+    private static Transform cypressOldParent;
+
+    /*[HarmonyPostfix]
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.ActivateRemainingInstrumentZones))]
-    public static void ScientistZoneFix(QuantumCampsiteController __instance)
+    private static void QuantumCampsiteController_ActivateRemainingInstrumentZones_Postfix(QuantumCampsiteController __instance)
     {
-        if (EyeHandlerTSTA.doEyeStuff)
+        if (Check())
         {
-            __instance._instrumentZones[6].SetActive(true);
+            if (__instance._instrumentZones.Length > 6)
+            {
+                __instance._instrumentZones[6] = scientistZone;
+                __instance._instrumentZones[6].SetActive(true);
+            }
         }
     }
 
-    /**
-     * Make sure that we fetch the correct audio clip
-     */
     [HarmonyPrefix]
     [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
     public static bool GetEndMusic(QuantumCampsiteController __instance, ref AudioClip __result)
     {
-        //Ditylum isn't there, don't change anything
-        if (!EyeHandlerTSTA.doEyeStuff)
+        bool flag = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
+        if (Check())
+        {
+            if (Check() && flag && __instance._hasMetSolanum)
+            {
+                __result = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSwP.ogg"));
+            }
+            else if (Check() && flag)
+            {
+                __result = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSwP.ogg"));
+            }
+            else if (Check() && __instance._hasMetSolanum)
+            {
+                __result = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_wSnP.ogg"));
+            }
+            else if (Check())
+            {
+                __result = AudioUtilities.LoadAudio(Path.Combine(TheStrangerTheyAre.Instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "NewTraveler_nSnP.ogg"));
+            }
+            return false;
+        }
+        else
         {
             return true;
         }
+    }
 
-        //Otherwise, use flags to determine what clip to use
-        bool prisonerPresent = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
-        __result = EyeHandlerTSTA.sciOnly; //Default is only Ditylum is there
-        if (__instance._hasMetSolanum && prisonerPresent) //Both others are there
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.Start))]
+    private static void Start_Patch(QuantumCampsiteController __instance)
+    {
+        // new shit
+        scientist = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye");
+        scientistZone = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector");
+        scientistController = scientist.GetComponent<TravelerEyeController>();
+        scientistSignal = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/ScientistSolo"); 
+        scientistAnim = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/Ghostbird_IP_ANIM").GetComponent<Animator>();
+        cypress = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1");
+        if (Check())
         {
-            __result = EyeHandlerTSTA.withBoth;
+            __instance._instrumentZones = __instance._instrumentZones.Concat(new GameObject[] { scientistZone }).ToArray();
+            __instance._travelerControllers = __instance._travelerControllers.Concat(new TravelerEyeController[] { scientistController }).ToArray();
         }
-        else if (__instance._hasMetSolanum) //Only Solanum made it
-        {
-            __result = EyeHandlerTSTA.withSol;
-        }
-        else if (prisonerPresent) //Only prisoner made it
-        {
-            __result = EyeHandlerTSTA.withPrisoner;
-        }
+        scientistZone.SetActive(false);
+        scientistSignal.SetActive(false);
+        scientist.SetActive(false);
 
-        //Don't run the original method
+        scientistController._dialogueTree = scientistController.gameObject.GetComponentInChildren<CharacterDialogueTree>();
+        scientistController._signal = scientistSignal.GetComponent<AudioSignal>();
+        scientistController._dialogueTree.OnStartConversation += scientistController.OnStartConversation;
+        scientistController._dialogueTree.OnEndConversation += scientistController.OnEndConversation;
+    }
+    */
+    private static bool Check()
+    {
+        return PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL");
+    }
+    /*
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.OnTravelerStartPlaying))]
+    private static bool OnTravelerStartPlaying_Patch(QuantumCampsiteController __instance)
+    {
+        if (!__instance._hasJamSessionStarted)
+        {
+            __instance._hasJamSessionStarted = true;
+            for (int i = 0; i < __instance._travelerControllers.Length; i++)
+            {
+                __instance._travelerControllers[i].OnStartCosmicJamSession();
+            }
+            if (Check())
+            {
+                scientistSignal.SetActive(true);
+            }
+        }
         return false;
     }
 
-    /*
- * Have the end scene creature come in
- */
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.AreAllTravelersGathered))]
+    private static bool AreAllTravelersGathered_Patch(QuantumCampsiteController __instance, out bool __result)
+    {
+        for (int i = 0; i < __instance._travelerControllers.Length; i++)
+        {
+            if (!__instance._travelerControllers[i].gameObject.activeInHierarchy && 
+                (i != 4 || __instance._hasMetSolanum) && 
+                (i != 5 || (__instance._hasMetPrisoner && !__instance._hasErasedPrisoner)) && 
+                (i != 6 || Check()))
+            {
+                __result = false;
+                return false;
+            }
+        }
+        __result = true;
+        return false;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(CosmicInflationController), nameof(CosmicInflationController.Awake))]
+    private static bool Awake_Cosmic_Patch(CosmicInflationController __instance)
+    {
+        if (Check())
+        {
+            __instance._travelers = __instance._travelers.Concat(new TravelerEyeController[] { scientistController }).ToArray();
+        }
+        return true;
+    }*/
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(CosmicInflationController), nameof(CosmicInflationController.StartInflation))]
+    private static bool StartInflation_Patch(CosmicInflationController __instance)
+    {
+        if (Check() && cypress.gameObject != null)
+        {
+            cypressOldParent = cypress.transform.parent;
+            cypress.transform.parent = Locator.GetPlayerBody().transform;
+        }
+        return true;
+    }
+
+    [HarmonyPrefix]
+    [HarmonyPatch(typeof(CosmicInflationController), nameof(CosmicInflationController.StartInflation))]
+    private static bool StartHotBigBang_Patch(QuantumCampsiteController __instance)
+    {
+        if (Check() && cypress.gameObject != null)
+        {
+            cypress.transform.parent = cypressOldParent;
+        }
+        return true;
+    }
+
     [HarmonyPostfix]
     [HarmonyPatch(typeof(PostCreditsManager), nameof(PostCreditsManager.Update))]
     public static void ActivateLeviathan(PostCreditsManager __instance)
     {
-        //Only show the leviathan if it hasn't shown up and we've met Ditylum
-        if (PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL") && __instance._fadeOutAfterDelay &&
+        if (Check() && __instance._fadeOutAfterDelay &&
             EndSceneAddition.instance != null && !EndSceneAddition.instance.activated)
         {
             EndSceneAddition.instance.Activate();
-            //__instance._delayedFadeTime = Time.time + EndSceneAddition.totalTime;
+        }
+
+        if (__instance._lanternLit)
+        {
+            float time2 = Mathf.Max(Time.timeSinceLevelLoad - __instance._lanternLightTime, 0f);
+            float num2 = __instance._lanternLightCurve.Evaluate(time2);
+            Color color3 = new Color(num2, num2, num2, 1f);
+            for (int i = 0; i < 3; i++)
+            {
+                EndSceneAddition.crabSprites[i].color = color3;
+            }
         }
     }
 }

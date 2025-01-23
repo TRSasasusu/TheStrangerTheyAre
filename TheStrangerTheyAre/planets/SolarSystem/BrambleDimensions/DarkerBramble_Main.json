@@ -38,6 +38,11 @@
 				"linksTo": "DarkerBramble_Trap",
 				"hasFogLight": true,
 				"possibleExits": [ 1 ],
+				"position": {
+					"x": -500,
+					"y": 100,
+					"z": -100
+				},
 				"fogTint": {
 					"r": 0,
 					"g": 0,
@@ -173,9 +178,5 @@
 			"z": 0
 		},
 		"isStatic": true
-	},
-	"ShipLog": {
-		"xmlFile": "shiplogs/darkerbramble.xml",
-		"spriteFolder": "assets/Texture/Shiplog"
 	}
 }

@@ -5,10 +5,11 @@ namespace TheStrangerTheyAre
     public class GlitchedTiles : MonoBehaviour
     {
         // variables
+        [SerializeField]
         GameObject tiles; // creates variable to store the glitched tiles
+
         void Awake()
         {
-            tiles = GameObject.Find("GlitchedTiles"); // gets the underwater floor in the fourth sector of the simulation
             tiles.SetActive(false); // deactivates object at start of loop
         }
 

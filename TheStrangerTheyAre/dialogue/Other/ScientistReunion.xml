@@ -1,0 +1,52 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>The Scientist</NameField>
+    <DialogueNode>
+        <Name>ScientistReunion_Main</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>My plan.....I can't believe it worked! And it sounded like quite the specitcale!</Page>
+            <Page>Inviting my distant grandson....that has to be your doing, right?</Page>
+			<Page>I can see the look in your eyes, my blue friend. You've seen it all.</Page>
+			<Page>You've gone great strides to bring back my distant grandson. Many generations have passed and I can still see myself in him.</Page>
+			<Page>Thank you for bringing him to me, but...</Page>
+			<Page>...there's someone else I want him to meet.</Page>
+			<Page>The one locked up in that prison...my brother.....</Page>
+        </Dialogue>
+		<SetCondition>scireunion_talkedto</SetCondition>
+    </DialogueNode>
+	
+	<DialogueNode>
+		<Name>ScientistReunion_Main2</Name>
+		<EntryCondition>scireunion_talkedto</EntryCondition>
+		<Dialogue>
+			<Page>My little blue friend, I still thank you for bringing Cypress here.</Page>
+			<Page>But....I want him to meet my brother...</Page>
+			<Page>Best of luck finding him. I know you can do it.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ScientistReunion_End</Name>
+		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
+		<Dialogue>
+			<Page>Phyllo, I remember the day we all saw The Vortex for the first time.</Page>
+			<Page>When they scanned it with the vision torch, they were so frightened they couldn't look anymore.</Page>
+			<Page>From that moment on, feeling took over all thought as they rushed to burn down their temple.</Page>
+			<Page>After they stormed out, you and I were the only ones left in the hangar.</Page>
+			<Page>As soon as I looked back, I saw the vision torch in your hand, scanning it for yourself.</Page>
+			<Page>After scanning the vortex, you looked at me with a smile, and tears.</Page>
+			<Page>"What did you see?" I asked.</Page>
+			<Page>"It doesn't want to destroy us..." you said. "It wants to create a new universe from the ashes of old".</Page>
+			<Page>But The Universe was still healthy, it was not time to make such a bold sacrifice yet.</Page>
+			<Page>Yet you let the signal out, risky as it was. However, Cypress says it allowed for our reunion to happen.</Page>
+			<Page>But now, the universe is dying. I can tell because the glitched tiles appearing, dams breaking...that means the star is going to go supernova.</Page>
+			<Page>If only someone were to activate The Vortex, we could put the universe out of its misery, and give birth to something new.</Page>
+			<Page>But, here we are. Spending the rest of our days together until our ship gets destroyed.</Page>
+			<Page>Little blue friend, I may have just met you, but I already see you as apart of our family.</Page>
+			<Page>Your crave for knowledge is what brought us all together. You fit right in!</Page>
+			<Page>So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!</Page>
+		</Dialogue>
+		<SetCondition>tsta_familyreunion</SetCondition>
+	</DialogueNode>
+</DialogueTree>

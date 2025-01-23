@@ -1,3 +1,103 @@
 {
-    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json"
+    "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+  "credits": [
+    "Mod Made by Anonymous",
+    " # ",
+    "Contributors:",
+    "pikpik_carrot#Helped with Houses and First Slide Reel",
+    "sawyer#Slide Reel Title Artist",
+    "Flip#Post Credits Artist",
+    "Bird#Dialogue for Birch",
+    "Trifid#Scripted the Learn Stranger Language Puzzle",
+    " # ",
+    "Playtesters:",
+    "Classic",
+    "coderCleric",
+    "Daoist_Of_Fists",
+    "GameWyrm",
+    "Ixrec",
+    "Luci",
+    "Meriyu [LUDO]",
+    "Etherpod",
+    "Insmoshable",
+    " # ",
+    "Special Thanks:",
+    "xen",
+    "JohnCorby",
+    "Hawkbar",
+    "ProfessionalIdiot",
+    "MegaPiggy"
+  ],
+  "achievements": [
+    {
+      "ID": "tsta_thevision",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_thevision"
+      ]
+    },
+    {
+      "ID": "tsta_mindscapes",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_mindscapes"
+      ]
+    },
+    {
+      "ID": "tsta_redpilled",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_redpilled"
+      ]
+    },
+    {
+      "ID": "tsta_ghostbusters",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_ghostbusters"
+      ]
+    },
+    {
+      "ID": "tsta_sudormrf",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_sudormrf"
+      ]
+    },
+    {
+      "ID": "tsta_allornothing",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_allornothing"
+      ]
+    },
+    {
+      "ID": "tsta_followyourdreams",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_followyourdreams"
+      ]
+    },
+    {
+      "ID": "tsta_ernesto",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_ernesto"
+      ]
+    },
+    {
+      "ID": "tsta_gettrolled",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_gettrolled"
+      ]
+    },
+    {
+      "ID": "tsta_gangnam",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_gangnam"
+      ]
+    }
+  ]
 }

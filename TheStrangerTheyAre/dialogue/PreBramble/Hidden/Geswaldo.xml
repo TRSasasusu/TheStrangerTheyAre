@@ -78,6 +78,7 @@
 		<Dialogue>
 			<Page>See ya later. Say hi to Ernesto for me!</Page>
 		</Dialogue>
+		<SetCondition>tsta_ernesto</SetCondition>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -85,6 +86,6 @@
 		<Dialogue>
 			<Page>Whoa buddy, that's crossing the line! Not nice!</Page>
 		</Dialogue>
+		<SetCondition>tsta_ernesto</SetCondition>
 	</DialogueNode>
-
 </DialogueTree>
