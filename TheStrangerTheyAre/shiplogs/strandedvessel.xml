@@ -43,7 +43,7 @@
 
             <ExploreFact> <!-- An explore fact that belongs to this entry -->
                 <ID>VESSEL_VISION</ID> <!-- The ID of this fact -->
-                <Text>According to a vision I saw on the Stranded Vessel, the Strangers burnt all the Nomai in the Vessel alive. They also wrote that outgoing threat message with the vision torch and one of the Nomai staffs.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+                <Text>According to a vision I saw on the Stranded Vessel, the Strangers burnt all the Nomai in the Vessel alive! They also wrote that outgoing threat message with the vision torch and one of the Nomai staffs.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
             </ExploreFact>
         </Entry>
 

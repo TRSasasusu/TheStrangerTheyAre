@@ -13,7 +13,7 @@ namespace TheStrangerTheyAre
         public static EndSceneAddition instance;
         public bool activated = false;
         private static GameObject[] axolotl = new GameObject[3];
-        public static SpriteRenderer[] crabSprites = new SpriteRenderer[3];
+        public static SpriteRenderer[] crabSprites = new SpriteRenderer[4];
 
         private void Awake()
         {
@@ -71,14 +71,14 @@ namespace TheStrangerTheyAre
             AssetBundleUtilities.ReplaceShaders(spaceShip);
 
             // position stuff
-            endingPlanet.transform.localPosition = new Vector3(-100, 180, 500);
+            endingPlanet.transform.localPosition = new Vector3(-500, 400, 2000);
             endingCrab1.transform.localPosition = new Vector3(-100, -360, 0);
             endingCrab2.transform.localPosition = new Vector3(-430, -390, 0);
             endingCrab3.transform.localPosition = new Vector3(-550, -410, 0);
-            spaceShip.transform.localPosition = new Vector3(-1028.667f, -53.5699f, 534.98f);
+            spaceShip.transform.localPosition = new Vector3(-965, -563.5699f, 400);
 
             //Need to make sure it's in the right spot of the hierachy to render properly
-            endingPlanet.transform.SetSiblingIndex(3);
+            endingPlanet.transform.SetSiblingIndex(0);
             endingCrab1.transform.SetSiblingIndex(5);
             endingCrab2.transform.SetSiblingIndex(6);
             endingCrab3.transform.SetSiblingIndex(7);
@@ -88,6 +88,7 @@ namespace TheStrangerTheyAre
             crabSprites[0] = endingCrab1.GetComponent<SpriteRenderer>();
             crabSprites[1] = endingCrab2.GetComponent<SpriteRenderer>();
             crabSprites[2] = endingCrab3.GetComponent<SpriteRenderer>();
+            crabSprites[3] = spaceShip.GetComponent<SpriteRenderer>();
 
             // make them black for now
             for (int i = 0; i < crabSprites.Length; i++)

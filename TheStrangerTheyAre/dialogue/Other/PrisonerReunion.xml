@@ -1,0 +1,27 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>The Prisoner</NameField>
+    <DialogueNode>
+        <Name>CypressReunion_Main</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>I'm glad Xylo left a clone of himself here. He may not be the same, but he's close enough!</Page>
+            <Page>Hearing our home being terraformed successfully is way too good to be true, but it is!</Page>
+			<Page>After all, I'm standing in front of my distant nephew. His horns, his clothing, nothing like the others on this ship.</Page>
+			<Page>Ever since you left our ship that day Xylo, I deeply regretted not going with you. I was way too focused on that vortex.</Page>
+			<Page>And what has that vortex given me? Eternal suffering in that prison. I should have listened, Xylo. It was too early to let that signal go. </Page>
+			<Page>But then again, that signal brought us all here. I never even dared to think anyone would hear that signal.</Page>
+			<Page>Thanks to you, blue friend, I am freed and reunited with my family. I could never forgive you enough.</Page>
+        </Dialogue>
+		<SetCondition>prisonerreunion_talkedto</SetCondition>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>CypressReunion_End2</Name>
+		<EntryCondition>prisonerreunion_talkedto</EntryCondition>
+		<Dialogue>
+			<Page>Thank you for reuniting me with my family again. It was a pleasure meeting Cypress, and you as well.</Page>
+			<Page>You have my gratitude, and I hope you forgive me for what I did.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

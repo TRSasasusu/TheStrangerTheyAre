@@ -1,9 +1,21 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                   xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>the Prisoner</NameField>
+	<NameField>The Prisoner</NameField>
     <DialogueNode>
-        <Name>Nomai1</Name>
+        <Name>PrisonerNew</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
         <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<SetCondition>TSTA_GoBackToMainPrisoner</SetCondition>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where are we?</Text>
+				<SetCondition>TSTA_GoBackToMainPrisoner</SetCondition>
+			</DialogueOption>
             <DialogueOption>
 				<RequiredPersistentCondition>CYPRESS_BOARDVESSEL</RequiredPersistentCondition>
                 <Text>There's someone I'd like you to meet.</Text>

@@ -21,13 +21,13 @@
 			"Name": "sudo rm -rf /*",
 			"Description": "No such file or directory."
 		},
-		"tsta_allornothing": {
-			"Name": "All or Nothing",
-			"Description": "Get all five seals in a single loop."
-		},
 		"tsta_followyourdreams": {
 			"Name": "Follow Your Dreams",
 			"Description": "Reach a certain planet before learning the Strangers' Language."
+		},
+		"tsta_allornothing": {
+			"Name": "All or Nothing",
+			"Description": "Get all five seals in a single loop."
 		},
 		"tsta_ernesto": {
 			"Name": "Scholar of Ernesto",

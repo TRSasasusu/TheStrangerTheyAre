@@ -14,10 +14,15 @@ namespace TheStrangerTheyAre
         private GameObject scientist3; // creates variable to store the post-vision scientist
         private GameObject scientist4; // creates variable to store the next loop scientist
         private GameObject prisoner; // prisoner object
+        private GameObject prisonerOriginal; // prisoner object
         private GameObject cypress; // cypress object
         private GameObject projector; // creates variable to store the projector
         private GameObject torch; // creates variable for vision torch
+        private GameObject prisOldDialogue; // creates variable for prisoner's old dialogue
+        private GameObject prisNewDialogue; // creates variable for prisoner's new dialogue
+        private GameObject credits;
         private bool isChecked = false; // creates boolean to check if the pedestal got activated.
+        private bool hasCried = false; // check if prisoner has cried
 
         // warp stuff again
         protected PlayerSpawner _spawner; // for spawning the player
@@ -25,20 +30,31 @@ namespace TheStrangerTheyAre
         public const float blinkTime = 0.5f; // constant for blink time
         public const float animTime = blinkTime / 2f; // constant for blink animation time
 
+
+        // ALL LINES COMMENTED OUT ARE FOR A SCRAPPED ENDING.
+
         void Awake()
         {
             scientist1 = GameObject.Find("Prefab_IP_GhostBird_SCIENTIST"); // gets the ghostbird ai scientist
             scientist2 = GameObject.Find("Prefab_IP_GhostBird_Scientist2"); // gets the pre-vision scientist
             scientist3 = GameObject.Find("Prefab_IP_GhostBird_Scientist3"); // gets the post-vision scientist
             scientist4 = GameObject.Find("Prefab_IP_GhostBird_Scientist4"); // gets the family reunion scientist
-            prisoner = GameObject.Find("Prefab_IP_GhostBird_Prisoner_Reunion"); // gets the family reunion prisoner
-            cypress = GameObject.Find("Prefab_IP_GhostBird_Cypress_Reunion"); // gets the family reunion cypress
+            //prisoner = GameObject.Find("Prefab_IP_GhostBird_Prisoner_Reunion"); // gets the family reunion prisoner
+            //prisonerOriginal = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Ghosts_PrisonCell/GhostNodeMap_PrisonCell_Lower/Prefab_IP_GhostBird_Prisoner");
+            //prisOldDialogue = prisonerOriginal.transform.Find("InteractReceiver").gameObject;
+            //credits = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4/FamilyReunionCreditsVol");
+            //cypress = GameObject.Find("Prefab_IP_GhostBird_Cypress_Reunion"); // gets the family reunion cypress
             projector = GameObject.Find("Theatre_SIM/Prefab_IP_DreamLibraryPedestal"); // gets projector
             GlobalMessenger.AddListener("EnterDreamWorld", OnEnterDreamWorld); // checks if player enters the sim
         }
 
         void Start()
         {
+            /*prisNewDialogue = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_Underground/PrisonerNewDialogue");
+            Vector3 newLocation = new Vector3(0, 3, 0);
+            prisNewDialogue.transform.parent = prisonerOriginal.transform;
+            prisNewDialogue.transform.localPosition = newLocation;*/
+
             // finds torch
             torch = SearchUtilities.Find("SCIENTIST_VISIONTORCH");
 
@@ -46,9 +62,10 @@ namespace TheStrangerTheyAre
             scientist2.SetActive(false);
             scientist3.SetActive(false);
             scientist4.SetActive(false);
-            prisoner.SetActive(false);
-            cypress.SetActive(false);
-            scientist1.SetActive(true);
+            //prisoner.SetActive(false);
+            //cypress.SetActive(false);
+            //scientist1.SetActive(true);
+            //credits.SetActive(false);
         }
 
         void OnEnterDreamWorld()
@@ -105,9 +122,18 @@ namespace TheStrangerTheyAre
                 }
             }
 
-            if (CheckPrisoner1())
+            /*if (CheckPrisoner1())
             {
-                // make anim & sound happen
+                if (!hasCried)
+                {
+                    prisonerOriginal.GetComponentInChildren<PrisonerEffects>().PlayReactToVisionAnimation();
+                    hasCried = true;
+                }
+            }
+
+            if (CheckPrisonerOld())
+            {
+                prisonerOriginal.GetComponent<PrisonerBrain>().BeginBehavior(PrisonerBehavior.LightLamp, 0.66f);
             }
 
             if (CheckCypress())
@@ -120,8 +146,26 @@ namespace TheStrangerTheyAre
                 if (CheckPrisoner2())
                 {
                     StartCoroutine(Blink()); // blink coroutine that warps you and the prisoner to the archives after telling him about cypress & the scientist. should only run once.
+                } else
+                {
+                    if (CheckSciReunion())
+                    {
+                        prisOldDialogue.SetActive(false);
+                        prisNewDialogue.SetActive(true);
+                    } else
+                    {
+                        prisOldDialogue.SetActive(true);
+                        prisNewDialogue.SetActive(false);
+                    }
                 }
-            }
+
+                if (IsEndingAchieved())
+                {
+                    credits.SetActive(true);
+                } else {
+                    credits.SetActive(false);
+                }
+            }*/
         }
 
         private bool Check()
@@ -139,14 +183,22 @@ namespace TheStrangerTheyAre
             return Locator.GetShipLogManager().IsFactRevealed("NEWSIM_SCIENTIST_CLONE");
         }
 
-        private bool CheckCypress()
+        /*private bool CheckCypress()
         {
             return PlayerData.GetPersistentCondition("CYPRESS_BOARDVESSEL");
+        }
+        private bool CheckSciReunion()
+        {
+            return DialogueConditionManager.SharedInstance.GetConditionState("scireunion_talkedto");
         }
 
         private bool CheckPrisoner1()
         {
             return DialogueConditionManager.SharedInstance.GetConditionState("TSTA_PrisonerBrother");
+        }
+        private bool CheckPrisonerOld()
+        {
+            return DialogueConditionManager.SharedInstance.GetConditionState("TSTA_GoBackToMainPrisoner");
         }
 
         private bool CheckPrisoner2()
@@ -157,6 +209,6 @@ namespace TheStrangerTheyAre
         private bool IsEndingAchieved()
         {
             return DialogueConditionManager.SharedInstance.GetConditionState("tsta_familyreunion");
-        }
+        }*/
     }
 }

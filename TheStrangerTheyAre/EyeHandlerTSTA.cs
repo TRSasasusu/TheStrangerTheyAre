@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using NewHorizons.Utility;
 
 namespace TheStrangerTheyAre
@@ -23,7 +24,7 @@ namespace TheStrangerTheyAre
 
             leader[0] = SearchUtilities.Find("Vessel_Body/Sector_VesselBridge/Prefab_IP_GhostBird_ScientistDescendant_Vessel2");
             leader[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_EyeSurface");
-            leader[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_ScientistDescendant_Vessel1");
+            leader[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_Vessel1");
 
             observatory[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/SystemModel");
             observatory[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Tube_Mineral");
@@ -65,26 +66,12 @@ namespace TheStrangerTheyAre
             {
                 SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Volumes_Campfire/EndlessCylinder_Forest").SetActive(true);
 
-                //Teleport the player
+                // teleport the player
                 campfireSpawn = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/QuantumCampfire/SPAWN_Campfire").GetComponent<EyeSpawnPoint>(); // gets campfire spawn point
                 _spawner = GameObject.FindGameObjectWithTag("Player").GetRequiredComponent<PlayerSpawner>(); // gets player spawner
                 _spawner.DebugWarp(campfireSpawn); // warps you to campfire
                 hasWarped = true;
             }
-
-            /*if (scientist != null)
-            {
-                if (IsSciPlaying() && !DialogueConditionManager.SharedInstance.GetConditionState("JamSessionIsOver"))
-                {
-                    //scientistSignal.SetActive(true);
-                    scientistAnim.Play("TSTA_PlayInstrument", 0);
-                }
-                else
-                {
-                    //scientistSignal.SetActive(false);
-                    scientistAnim.Play("Prisoner_LeanOnTree_HoldInstrument", 0);
-                }
-            }*/
         }
 
         private bool Check()

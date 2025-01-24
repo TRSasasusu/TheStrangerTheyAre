@@ -184,50 +184,6 @@
 				}
 			},
 			{
-				"xmlFile": "dialogue/Other/ScientistReunion.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
-				"isRelativeToParent": true,
-				"lookAtRadius": 0,
-				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4/Ghostbird_IP_ANIM",
-				"position": {
-					"y": 3
-				}
-			},
-			{
-				"xmlFile": "dialogue/Other/CypressReunion.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Cypress_Reunion",
-				"isRelativeToParent": true,
-				"lookAtRadius": 0,
-				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Cypress_Reunion/Ghostbird_IP_ANIM",
-				"position": {
-					"y": 3
-				}
-			},
-			{
-				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
-				"isRelativeToParent": true,
-				"lookAtRadius": 0,
-				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3/Ghostbird_IP_ANIM",
-				"position": {
-					"y": 3
-				}
-			},
-			{
-				"xmlFile": "dialogue/Other/PrisonerNew.xml",
-				"pathToExistingDialogue": "Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Ghosts_PrisonCell/GhostNodeMap_PrisonCell_Lower/Prefab_IP_GhostBird_Prisoner/InteractReceiver"
-			},
-			{
-				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
-				"isRelativeToParent": true,
-				"lookAtRadius": 0,
-				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4/Ghostbird_IP_ANIM",
-				"position": {
-					"y": 3
-				}
-			},
-			{
 				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall1.xml",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
@@ -805,6 +761,17 @@
 					"y": 2.904684,
 					"z": 750.533
 				}
+			}
+		],
+		"creditsVolume": [
+			{
+				"rename": "FamilyReunionCreditsVol",
+				"creditsType": "final",
+				"deathType": "meditation",
+				"gameOverText": "YOU SPEND THE REST OF ETERNITY WITH A NEW, AVIAN FAMILY",
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
+				"isRelativeToParent": true,
+				"radius": 50
 			}
 		],
 		"revealVolumes": [

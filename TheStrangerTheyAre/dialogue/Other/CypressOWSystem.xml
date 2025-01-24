@@ -1,0 +1,35 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Cypress</NameField>
+    <DialogueNode>
+        <Name>CypressOWSystem_Main</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+        <Dialogue>
+            <Page>Is this The Vortex? It sure doesn't look like what I was told.</Page>
+        </Dialogue>
+		<DialogueOption>
+			<Page>No, we're at my home system. I want you to meet your distant grandfather.</Page>
+			<DialogueTarget>1</DialogueTarget>
+		</DialogueOption>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>How is that possible? He's been long gone!</Page>
+		</Dialogue>
+		<DialogueOption>
+			<Page>The simulation on your kind's ship has a data clone of him. Let's go!</Page>
+			<DialogueTarget>2</DialogueTarget>
+		</DialogueOption>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
+		<Dialogue>
+			<Page>Well, if you say so. I'll let you lead the way.</Page>
+		</Dialogue>
+		<SetCondition>CYPRESS_TOSIM</SetCondition>
+	</DialogueNode>
+</DialogueTree>
