@@ -299,6 +299,7 @@
 					"NEWSIM_SECRETPATH3"
 				],
 				"slides": [
+					{ "imagePath": "assets/Slideshows/NewSimPuzzle2/title.png" },
 					{
 						"imagePath": "assets/Slideshows/NewSimPuzzle2/slide (1).png",
 						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
@@ -761,17 +762,6 @@
 					"y": 2.904684,
 					"z": 750.533
 				}
-			}
-		],
-		"creditsVolume": [
-			{
-				"rename": "FamilyReunionCreditsVol",
-				"creditsType": "final",
-				"deathType": "meditation",
-				"gameOverText": "YOU SPEND THE REST OF ETERNITY WITH A NEW, AVIAN FAMILY",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
-				"isRelativeToParent": true,
-				"radius": 50
 			}
 		],
 		"revealVolumes": [

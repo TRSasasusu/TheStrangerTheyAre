@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
 using NewHorizons.Utility;
 using UnityEngine;
-using System.Collections;
 
 namespace TheStrangerTheyAre;
 

@@ -12,17 +12,17 @@ namespace TheStrangerTheyAre
         private GameObject scientist1; // creates variable to store the ghostbird ai scientist
         private GameObject scientist2; // creates variable to store the pre-vision scientist
         private GameObject scientist3; // creates variable to store the post-vision scientist
-        private GameObject scientist4; // creates variable to store the next loop scientist
-        private GameObject prisoner; // prisoner object
-        private GameObject prisonerOriginal; // prisoner object
-        private GameObject cypress; // cypress object
+        //private GameObject scientist4; // creates variable to store the next loop scientist
+        //private GameObject prisoner; // prisoner object
+        //private GameObject prisonerOriginal; // prisoner object
+        //private GameObject cypress; // cypress object
         private GameObject projector; // creates variable to store the projector
         private GameObject torch; // creates variable for vision torch
-        private GameObject prisOldDialogue; // creates variable for prisoner's old dialogue
-        private GameObject prisNewDialogue; // creates variable for prisoner's new dialogue
-        private GameObject credits;
+        //private GameObject prisOldDialogue; // creates variable for prisoner's old dialogue
+        //private GameObject prisNewDialogue; // creates variable for prisoner's new dialogue
+        //private GameObject credits;
         private bool isChecked = false; // creates boolean to check if the pedestal got activated.
-        private bool hasCried = false; // check if prisoner has cried
+        //private bool hasCried = false; // check if prisoner has cried
 
         // warp stuff again
         protected PlayerSpawner _spawner; // for spawning the player
@@ -38,7 +38,7 @@ namespace TheStrangerTheyAre
             scientist1 = GameObject.Find("Prefab_IP_GhostBird_SCIENTIST"); // gets the ghostbird ai scientist
             scientist2 = GameObject.Find("Prefab_IP_GhostBird_Scientist2"); // gets the pre-vision scientist
             scientist3 = GameObject.Find("Prefab_IP_GhostBird_Scientist3"); // gets the post-vision scientist
-            scientist4 = GameObject.Find("Prefab_IP_GhostBird_Scientist4"); // gets the family reunion scientist
+            //scientist4 = GameObject.Find("Prefab_IP_GhostBird_Scientist4"); // gets the family reunion scientist
             //prisoner = GameObject.Find("Prefab_IP_GhostBird_Prisoner_Reunion"); // gets the family reunion prisoner
             //prisonerOriginal = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_Underground/Sector_PrisonCell/Ghosts_PrisonCell/GhostNodeMap_PrisonCell_Lower/Prefab_IP_GhostBird_Prisoner");
             //prisOldDialogue = prisonerOriginal.transform.Find("InteractReceiver").gameObject;
@@ -61,7 +61,7 @@ namespace TheStrangerTheyAre
             // disables pre and post vision scientist at start of loop
             scientist2.SetActive(false);
             scientist3.SetActive(false);
-            scientist4.SetActive(false);
+            //scientist4.SetActive(false);
             //prisoner.SetActive(false);
             //cypress.SetActive(false);
             //scientist1.SetActive(true);
@@ -86,7 +86,7 @@ namespace TheStrangerTheyAre
             GlobalMessenger.FireEvent("PlayerBlink"); // fires an event for the player blinking
 
             // move prisoner
-            prisoner.SetActive(true);
+            //prisoner.SetActive(true);
 
             // warp to archives for family reunion
             _spawner = GameObject.FindGameObjectWithTag("Player").GetRequiredComponent<PlayerSpawner>(); // gets player spawner

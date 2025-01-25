@@ -398,6 +398,7 @@
 				}
 			},
 			{
+				"rename": "NOM_INCOMING",
 				"type": "wall",
 				"xmlFile": "dialogue/StrandedVessel/NOM_IncomingMsg.xml",
 				"position": {
@@ -412,6 +413,7 @@
 				}
 			},
 			{
+				"rename": "NOM_OUTGOING",
 				"type": "wall",
 				"xmlFile": "dialogue/StrandedVessel/NOM_OutgoingMsg.xml",
 				"arcInfo": [
