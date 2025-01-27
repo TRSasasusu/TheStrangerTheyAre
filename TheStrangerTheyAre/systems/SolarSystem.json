@@ -142,6 +142,13 @@
       }
     },
     {
+      "id": "NEWSIM_LINK",
+      "position": {
+        "x": 5100,
+        "y": -200
+      }
+    },
+    {
       "id": "DARKER_MAIN",
       "position": {
         "x": 4150,

@@ -445,7 +445,7 @@
 			},
 			{
 				"rename": "CRIMSONTORNADO_7",
-				"wanderRate": 0.15,
+				"wanderRate": 0.1,
 				"fluidType": "cloud",
 				"type": "upwards",
 				"elevation": 300,

@@ -853,6 +853,29 @@
 				"reveals": [
 					"NEWSIM_ARCHIVE_THEATRE"
 				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 25,
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
+				"isRelativeToParent": true,
+				"reveals": [
+					"NEWSIM_LINK_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 2.5,
+				"position": {
+					"y": 1
+				},
+				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
+				"isRelativeToParent": true,
+				"reveals": [
+					"NEWSIM_LINK_TRAVEL"
+				]
 			}
 		]
 	},

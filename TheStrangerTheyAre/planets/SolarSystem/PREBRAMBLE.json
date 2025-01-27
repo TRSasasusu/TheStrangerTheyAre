@@ -4399,6 +4399,29 @@
         "reveals": [
           "PREBRAMBLE_MAIN_SEED"
         ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "radius": 15,
+        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP",
+        "isRelativeToParent": true,
+        "reveals": [
+          "NEWSIM_LINK_E"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "radius": 2.5,
+        "position": {
+          "y": 1
+        },
+        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP",
+        "isRelativeToParent": true,
+        "reveals": [
+          "NEWSIM_LINK_TRAVEL"
+        ]
       }
     ]
   },

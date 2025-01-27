@@ -413,6 +413,23 @@
 				<Text>70 days after arriving, this inhabitant discovered that Angler's Eye may have originated from a collision with The Eye, and orbits both it and Dark Bramble. Due to its incredibly slow orbit, it's best I find some other way of reaching The Eye.</Text>
 			</ExploreFact>
         </Entry>
+	
+	    <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+            <ID>NEWSIM_LINK</ID> <!-- The ID of this child entry -->
+            <Name>Mysterious Starfield</Name> <!-- The name of this child entry -->
+            <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
+
+            <!-- Create some facts for this child entry -->
+            <ExploreFact>
+                <ID>NEWSIM_LINK_E</ID>
+                <Text>I found a mysterious area with torches, a starfield, and a ominous teal light in the center.</Text>
+            </ExploreFact>
+
+			<ExploreFact>
+				<ID>NEWSIM_LINK_TRAVEL</ID>
+				<Text>The teal-lighted pedestal warps me between the Preserved Planet and the Simulation on the Stranger.</Text>
+			</ExploreFact>
+        </Entry>
     </Entry>
 
 	<Entry>
