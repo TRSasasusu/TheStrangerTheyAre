@@ -64,7 +64,7 @@
 				"name": "Distant Enigma",
 				"identificationRadius": 500,
 				"audio": "OW_QuantumSignal",
-				"detectionRadius": 10000
+				"detectionRadius": 400
 			},
 			{
 				"frequency": "Unnerving Fluctuations",

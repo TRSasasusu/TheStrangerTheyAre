@@ -23,11 +23,11 @@
 		],
 		"signals": [
 			{
-				"frequency": "Strange Frequency",
+				"frequency": "Traveler",
 				"name": "Strangers' Probe",
-				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
+				"audio": "OW Party House 092820 AP short loop",
 				"detectionRadius": 250,
-				"identificationRadius": 10,
+				"identificationRadius": 30,
 				"parentPath": "Sector/StrangerProbe/Sockets/Signal",
 				"isRelativeToParent": true
 			}

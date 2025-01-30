@@ -10,11 +10,6 @@
   </Dialogue>
 
   <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
-   <DialogueOption> <!-- A single option the player can pick -->
-    <Text>There's a data clone of the Scientist back on The Stranger.</Text> <!-- The text to display for the option -->
-    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
-   </DialogueOption>
-   <!-- A few more options... -->
    <DialogueOption>
     <Text>....And you are?</Text>
     <DialogueTarget>2</DialogueTarget>
@@ -24,46 +19,6 @@
     <DialogueTarget>END</DialogueTarget>
    </DialogueOption>
   </DialogueOptionsList>
- </DialogueNode>
-
- <DialogueNode>
-  <Name>1</Name>
-  <Dialogue>
-   <Page>There is? What's a Stranger?</Page>
-  </Dialogue>
-  <DialogueOptionsList> 
-  <DialogueOption>
-    <Text>Your kind's ship.</Text>
-    <DialogueTarget>1A</DialogueTarget>
-   </DialogueOption>
-   </DialogueOptionsList> 
- </DialogueNode>
-
-  <DialogueNode>
-  <Name>1A</Name>
-  <Dialogue>
-   <Page>So you call it "The Stranger"...interesting.</Page>
-  </Dialogue>
-  <DialogueOptionsList> 
-  <DialogueOption>
-    <Text>Would you like to pass on any words to him?</Text>
-    <DialogueTarget>1B</DialogueTarget>
-   </DialogueOption>
-   </DialogueOptionsList> 
- </DialogueNode>
-
-  <DialogueNode>
-  <Name>1B</Name>
-  <Dialogue>
-    <Page>There's so much I want to say to him, I can't decide....</Page>
-   <Page>So just tell him I said "Thank You". I've been dying to thank him for all he's done.</Page>
-  </Dialogue>
-  <DialogueOptionsList> 
-  <DialogueOption>
-    <Text>Will do!</Text>
-    <DialogueTarget>ScientistDescendantVision</DialogueTarget>
-   </DialogueOption>
-   </DialogueOptionsList> 
  </DialogueNode>
 
  <DialogueNode>
@@ -96,6 +51,9 @@
   <Dialogue>
    <Page>Greetings Hatchling. I hope you enjoy your time here at our utopia.</Page>
   </Dialogue>
-  <DialogueTarget>ScientistDescendantVision</DialogueTarget>
+	 <SetCondition>CYPRESS_MET</SetCondition>
+	 <RevealFacts>
+		 <FactID>HOME_LEADER_E</FactID>
+	 </RevealFacts>
  </DialogueNode>
  </DialogueTree>

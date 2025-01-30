@@ -208,7 +208,7 @@
 				"frequency": "Strange Frequency",
 				"name": "Bush's Signal",
 				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
-				"detectionRadius": 10000,
+				"detectionRadius": 650,
 				"identificationRadius": 20,
 				"parentPath": "Sector/RINGEDGIANT_ISLAND/GhostBirdNPCs/Prefab_IP_GhostBird_Ringed",
 				"isRelativeToParent": true,

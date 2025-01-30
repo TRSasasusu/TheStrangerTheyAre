@@ -336,7 +336,7 @@
 				"frequency": "Strange Frequency",
 				"name": "Pine's Signal",
 				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
-				"detectionRadius": 10000,
+				"detectionRadius": 750,
 				"identificationRadius": 20,
 				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
 				"isRelativeToParent": true,

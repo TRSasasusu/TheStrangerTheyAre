@@ -93,13 +93,10 @@
   <DialogueNode> <!-- Another node why not -->
   <Name>3B</Name>
   <Dialogue>
-   <Page>I think it started about 250,000 years ago when another alien species warped to our system.</Page>
-   <Page>They never tell us what happened, but our ancestors were scared they would declare war on them.</Page>
-   <Page>This was a few hundred years after our Scientist finished the terraform.</Page>
+   <Page>I think it started hundreds of thousands of years ago when our space program mysteriously disappeared.</Page>
+   <Page>Apart from that, I don't really know. All traces of that history are gone, or at least forgotten. Even our historians couldn't figure it out!</Page>
+   <Page>However, members of the new space program have claimed to have seen strange iron bases on most of the other planets. Maybe it's worth a gander?</Page>
    <Page>All in all, I think we're all just scared of losing our home again, but we were the ones that took it away in the first place.</Page>
   </Dialogue>
-  <RevealFacts>
-      <FactID>STRANDED_VESSEL_R2</FactID>
-  </RevealFacts>
  </DialogueNode>
 </DialogueTree>

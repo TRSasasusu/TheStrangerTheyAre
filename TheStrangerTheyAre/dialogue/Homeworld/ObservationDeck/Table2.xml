@@ -4,11 +4,10 @@
 		<Name>Table2</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>OBSERVATION 2: That stranded alien ship is still there, and it still makes me feel uncomfortable looking at it. What would other species want to do with us anyway? Were they here to kill us?</Page>
+			<Page>OBSERVATION 2: The strange base on the volcanic moon shows itself yet again. Why are these buildings there? Could they be from the old space program all those years ago?</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>HOME_OBSERVE_TEXT2</FactID>
-			<FactID>NOM_StrandedVessel_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

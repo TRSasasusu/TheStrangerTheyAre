@@ -87,7 +87,7 @@
 				"name": "Distant Enigma",
 				"identificationRadius": 500,
 				"audio": "OW_QuantumSignal",
-				"detectionRadius": 20000000
+				"detectionRadius": 400
 			},
 			{
 				"frequency": "Quantum",
@@ -95,7 +95,7 @@
 				"identificationRadius": 10,
 				"audio": "OW_QuantumSignal",
 				"parentPath": "Sector/ENIGMA_SHARD",
-				"detectionRadius": 20000000
+				"detectionRadius": 400
 			},
 			{
 				"frequency": "Strange Frequency",
@@ -103,7 +103,7 @@
 				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
 				"maxDistance": 30,
 				"minDistance": 10,
-				"detectionRadius": 10000,
+				"detectionRadius": 400,
 				"identificationRadius": 5,
 				"parentPath": "Sector/ENIGMA_TRAVELER",
 				"isRelativeToParent": true

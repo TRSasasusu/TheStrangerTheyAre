@@ -876,25 +876,10 @@
 				"name": "Musician",
 				"frequency": "Traveler",
 				"onlyAudibleToScope": false,
-				"volume": 0.3,
-				"maxDistance": 20,
+				"volume": 0.5,
+				"maxDistance": 10,
 				"minDistance": 5,
-				"sourceRadius": 15,
-				"position": {
-					"y": 2
-				}
-			},
-			{
-				"audio": "assets/Audio/instrument.wav",
-				"parentPath": "Sector/Stage/GhostBirdNPCs/Prefab_IP_GhostBird_Musician",
-				"isRelativeToParent": true,
-				"name": "Musician",
-				"frequency": "Traveler",
-				"onlyAudibleToScope": false,
-				"volume": 0.3,
-				"maxDistance": 20,
-				"minDistance": 5,
-				"sourceRadius": 15,
+				"sourceRadius": 30,
 				"position": {
 					"y": 2
 				}

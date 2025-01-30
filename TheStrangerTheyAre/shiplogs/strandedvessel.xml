@@ -9,12 +9,6 @@
         <Curiosity>NOM_StrandedVessel</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
         <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
 
-        <RumorFact> <!-- A rumor fact that belongs to this entry -->
-            <ID>NOM_StrandedVessel_R</ID> <!-- The ID of this fact -->
-            <RumorName>A Stranded Vessel?</RumorName> <!-- The name of the rumor this fact relates to -->
-            <Text>There appears to be evidence of an abandoned Nomai Vessel somewhere in the system.</Text> <!-- The Text to display for this fact -->
-        </RumorFact>
-
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>NOM_StrandedVessel_E</ID> <!-- The ID of this fact -->
             <Text>There is a beaten up Nomai Vessel on the outskirts of this star system.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->

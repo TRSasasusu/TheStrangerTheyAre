@@ -10,7 +10,8 @@
 		}
 	],
 	"Base": {
-		"surfaceSize": 200
+		"surfaceSize": 200,
+		"showMinimap": false
 	},
 	"Cloak": {
 		"radius": 3000
@@ -443,6 +444,7 @@
 				"rename": "STRANDED_VESSEL_SIGNAL",
 				"audio": "OW No-Eye Ruins 121120_2 AP LP",
 				"identificationRadius": 30,
+				"insideCloak": true,
 				"parentPath": "Sector/StrandedVessel_Body/Sector_VesselBridge/Interactibles_VesselBridge/Prefab_IP_CodeTotem/Symbol_LordFoogThe2st",
 				"isRelativeToParent": true
 			}

@@ -285,7 +285,7 @@
 				"frequency": "Strange Frequency",
 				"name": "Arcadia's Signal",
 				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
-				"detectionRadius": 10000,
+				"detectionRadius": 300,
 				"identificationRadius": 20,
 				"parentPath": "Sector/Prefab_IP_GhostBird_Desert",
 				"isRelativeToParent": true,
