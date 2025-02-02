@@ -82,7 +82,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -97,7 +98,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -112,7 +114,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -127,7 +130,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -142,7 +146,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -157,7 +162,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -172,7 +178,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -187,7 +194,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -202,7 +210,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatB.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -217,7 +226,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -232,7 +242,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatA.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -247,7 +258,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatB.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -262,7 +274,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatB.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -277,7 +290,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatA.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -292,7 +306,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatB",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatB.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -307,7 +322,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -322,7 +338,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatA",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatA.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -337,7 +354,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -352,7 +370,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {
@@ -367,7 +386,8 @@
 				}
 			},
 			{
-				"path": "DeadNomai_Body/Prefab_NOM_Dead_Suit_Advanced_FloatC",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/FilthyGoatPeople/Prefab_NOM_Dead_Suit_Advanced_FloatC.prefab",
 				"hasPhysics": true,
 				"keepLoaded": true,
 				"position": {

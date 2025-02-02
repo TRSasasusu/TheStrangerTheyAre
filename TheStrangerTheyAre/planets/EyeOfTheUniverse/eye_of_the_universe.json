@@ -220,10 +220,18 @@
 		"eyeTravelers": [
 			{
 				"id": "ScientistEye",
-				"name": "The Scientist",
-				"loopAudio": "assets/Audio/NewTravelerSolo.ogg",
 				"finaleAudio": "assets/Audio/NewTravelerFinale.ogg",
-				"frequency": "Traveler",
+				"signal": {
+					"name": "The Scientist",
+					"audio": "assets/Audio/NewTravelerSolo.ogg",
+					"detectionRadius": 0,
+					"identificationRadius": 10,
+					"onlyAudibleToScope": false,
+					"position": {
+						"y": 1
+					},
+					"isRelativeToParent": true
+				},
 				"startPlayingCondition": "EyeScientistPlaying",
 				"keepLoaded": true,
 				"dialogue": {
@@ -232,12 +240,6 @@
 					"position": {
 						"y": 3
 					},
-					"attentionPoint": {
-						"isRelativeToParent": true,
-						"offset": {
-							"y": 3
-						}
-					}
 				},
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_Eye.prefab"

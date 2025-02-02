@@ -168,7 +168,6 @@ public class QuantumCampsiteControllerPatch
     {
         if (Check() && cypress.gameObject != null)
         {
-            GameObject.Destroy(scientistZone);
             Vector3 newPos = new Vector3(-0.9387f, 0.0888f, 7501.938f);
             cypress.transform.localPosition = newPos;
             cypress.transform.rotation = Quaternion.Euler(0, 90, 0);
