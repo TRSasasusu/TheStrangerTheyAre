@@ -8,8 +8,6 @@ namespace TheStrangerTheyAre
         private GameObject[] leader = new GameObject[3];
         private GameObject[] observatory = new GameObject[4];
         private GameObject scientist;
-        //private GameObject scientistZone;
-        //private GameObject scientistSignal;
         private Animator scientistAnim;
 
         // warp stuff
@@ -19,8 +17,6 @@ namespace TheStrangerTheyAre
 
         void Start()
         {
-            PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", true); // debug, remove when done!
-
             leader[0] = SearchUtilities.Find("Vessel_Body/Sector_VesselBridge/Prefab_IP_GhostBird_ScientistDescendant_Vessel2");
             leader[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_EyeSurface");
             leader[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_Vessel1");
@@ -31,8 +27,6 @@ namespace TheStrangerTheyAre
             observatory[3] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/System_Sign");
 
             scientist = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye");
-            //scientistZone = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/ScientistSector");
-            //scientistSignal = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/ScientistSolo");
             scientistAnim = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/Ghostbird_IP_ANIM").GetComponent<Animator>();
 
             if (!Check())
@@ -45,8 +39,6 @@ namespace TheStrangerTheyAre
                 {
                     Destroy(obj);
                 }
-                //Destroy(scientist);
-                //Destroy(scientistZone);
             }
         }
 

@@ -38,12 +38,23 @@
 		"audioVolumes": [
 			{
 				"volume": 0.5,
-				"priority": 1,
+				"priority": 0,
 				"audio": "assets/Audio/darkerbramble.ogg",
 				"track": "music",
 				"pauseOnFadeOut": true,
 				"randomizePlayhead": true,
 				"radius": 1400
+			},
+			{
+				"priority": 1,
+				"audio": "assets/Audio/silence.ogg",
+				"track": "music",
+				"parentPath": "Sector/DarkerBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				},
+				"radius": 3
 			}
 		],
 		"mapRestrictionVolumes": [
@@ -221,6 +232,7 @@
 					"DARKER_REEL_E"
 				],
 				"slides": [
+					{ "imagePath": "assets/Slideshows/DarkerBrambleReel/title.png" },
 					{
 						"imagePath": "assets/Slideshows/DarkerBrambleReel/slide (1).png",
 						"backdropAudio": "assets/Audio/postlude1.ogg"
