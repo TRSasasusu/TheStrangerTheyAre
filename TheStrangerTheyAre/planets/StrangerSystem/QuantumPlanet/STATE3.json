@@ -389,7 +389,9 @@
 				}
 			},
 			{
-				"path": "Sector-3/SpaceCenter/Props/GhostShip_COL (1)",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GhostShip_COL.prefab",
+				"rename": "State3_Ship",
 				"position": {
 					"x": -171.6924,
 					"y": 57.0237,

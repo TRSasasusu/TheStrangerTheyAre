@@ -104,7 +104,7 @@
 				"maxDistance": 30,
 				"minDistance": 10,
 				"detectionRadius": 400,
-				"identificationRadius": 5,
+				"identificationRadius": 10,
 				"parentPath": "Sector/ENIGMA_TRAVELER",
 				"isRelativeToParent": true
 			}
@@ -536,7 +536,8 @@
 				}
 			},
 			{
-				"path": "Sector/SpaceCenter/Props/GhostShip_COL (1)",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GhostShip_COL.prefab",
 				"position": {
 					"x": -171.6924,
 					"y": 57.0237,

@@ -5,7 +5,7 @@
 
 	<DialogueNode>
 		<!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
-		<Name>Crimson</Name>
+		<Name>Enigma</Name>
 		<!-- The name of this node, used to go to this node from another node -->
 		<EntryCondition>DEFAULT</EntryCondition>
 		<!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
@@ -30,6 +30,16 @@
 			<DialogueOption>
 				<Text>You remind me of my friend Chert who was afraid of our star dying.</Text>
 				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>QUANTUM_S1_LAB_TEXT4</RequiredLogCondition>
+				<Text>Do you know how to find the scratch?</Text>
+				<DialogueTarget>SCRATCH</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>QUANTUM_S1_LAB_TEXT4</RequiredLogCondition>
+				<Text>Do you know how to find the crack?</Text>
+				<DialogueTarget>CRACK</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Just saying hi.</Text>
@@ -58,6 +68,16 @@
 			<DialogueOption>
 				<Text>You remind me of my friend Chert who was afraid of our star dying.</Text>
 				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>QUANTUM_S1_LAB_TEXT4</RequiredLogCondition>
+				<Text>Do you know how to find the scratch?</Text>
+				<DialogueTarget>SCRATCH</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>QUANTUM_S1_LAB_TEXT4</RequiredLogCondition>
+				<Text>Do you know how to find the crack?</Text>
+				<DialogueTarget>CRACK</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Just saying hi.</Text>
@@ -108,6 +128,32 @@
 		<Dialogue>
 			<Page>Sol-solanum? N-not like S-s-solanum either...I c-c-can leave if I want, b-b-but I'm f-f-frozen so it's hard to m-move.</Page>
 		</Dialogue>
+		<DialogueTarget>START</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- Another node why not -->
+		<Name>CRACK</Name>
+		<Dialogue>
+			<Page>C-c-c-c-crack?</Page>
+			<Page>B-b-b-by my ship! Near the Lab, C-c-cold!</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>QUANTUM_CRACK_R2</FactID>
+		</RevealFacts>
+		<DialogueTarget>START</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- Another node why not -->
+		<Name>SCRATCH</Name>
+		<Dialogue>
+			<Page>Sc-sc-sc-scratch?</Page>
+			<Page>Brrr! Ab-b-bout 120 m-m-m-meters s-s-s-south of the lab! It's s-s-sitting by a lantern, C-c-cold!</Page>
+		</Dialogue>
+		<RevealFacts>
+			<FactID>QUANTUM_SCRATCH_R2</FactID>
+		</RevealFacts>
 		<DialogueTarget>START</DialogueTarget>
 	</DialogueNode>
 

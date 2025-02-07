@@ -408,7 +408,8 @@
 				}
 			},
 			{
-				"path": "Sector-2/SpaceCenter/Props/GhostShip_COL (1)",
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GhostShip_COL.prefab",
 				"position": {
 					"x": -171.6924,
 					"y": 57.0237,

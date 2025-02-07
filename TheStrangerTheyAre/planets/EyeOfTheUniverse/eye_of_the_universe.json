@@ -220,6 +220,7 @@
 		"eyeTravelers": [
 			{
 				"id": "ScientistEye",
+				"requiredPersistentCondition": "CYPRESS_BOARDVESSEL",
 				"finaleAudio": "assets/Audio/NewTravelerFinale.ogg",
 				"signal": {
 					"name": "The Scientist",
@@ -239,7 +240,7 @@
 					"isRelativeToParent": true,
 					"position": {
 						"y": 3
-					},
+					}
 				},
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/GhostBirdNPCs/Prefab_IP_GhostBird_Scientist_Eye.prefab"

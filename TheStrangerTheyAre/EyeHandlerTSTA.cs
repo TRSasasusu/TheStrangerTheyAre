@@ -7,6 +7,7 @@ namespace TheStrangerTheyAre
     {
         private GameObject[] leader = new GameObject[3];
         private GameObject[] observatory = new GameObject[4];
+        private GameObject[] endingSongs = new GameObject[2];
         private GameObject scientist;
         private Animator scientistAnim;
 
@@ -26,6 +27,9 @@ namespace TheStrangerTheyAre
             observatory[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Mineral_Sign");
             observatory[3] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/System_Sign");
 
+            endingSongs[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EyeAudio_Intro1");
+            endingSongs[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EyeAudio_Intro2");
+
             scientist = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye");
             scientistAnim = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/Ghostbird_IP_ANIM").GetComponent<Animator>();
 
@@ -38,6 +42,10 @@ namespace TheStrangerTheyAre
                 foreach (GameObject obj in observatory)
                 {
                     Destroy(obj);
+                }
+                foreach (GameObject song in endingSongs)
+                {
+                    Destroy(song);
                 }
             }
         }

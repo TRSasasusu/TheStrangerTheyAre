@@ -238,12 +238,19 @@
 				<ID>QUANTUM_CRACK_R</ID>
 				<RumorName>Surface Crack?</RumorName>
 				<SourceID>QUANTUM_S1_LAB</SourceID>
-				<Text>There's a picture showing cracks on the dark-ice state. Some text says it's to the right of the lab somewhere.</Text>
+				<Text>There's a picture showing cracks on the dark-ice state. Some text says it's diagonally to the right of the lab from where you exit.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>QUANTUM_CRACK_R2</ID>
+				<RumorName>Surface Crack?</RumorName>
+				<SourceID>QUANTUM_S1_LAB</SourceID>
+				<Text>Bark says he found the crack by his ship near the lab.</Text>
 			</RumorFact>
 
 			<ExploreFact>
 				<ID>QUANTUM_CRACK_E</ID>
-				<Text>I found a crack on Distant Enigma's first state.</Text>
+				<Text>I found a crack on Distant Enigma's first state, by Bark's Ship.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -257,6 +264,13 @@
 				<RumorName>Surface Scratch?</RumorName>
 				<SourceID>QUANTUM_S1_LAB</SourceID>
 				<Text>There's a picture showing a scratch mark on the dark-ice state. Some text says it's directly behind the lab somewhere.</Text>
+			</RumorFact>
+
+			<RumorFact>
+				<ID>QUANTUM_SCRATCH_R2</ID>
+				<RumorName>Surface Scratch?</RumorName>
+				<SourceID>QUANTUM_S1_LAB</SourceID>
+				<Text>Bark says he saw the scratch about 120 meters south of the lab, situated next to a lantern.</Text>
 			</RumorFact>
 
 			<ExploreFact>

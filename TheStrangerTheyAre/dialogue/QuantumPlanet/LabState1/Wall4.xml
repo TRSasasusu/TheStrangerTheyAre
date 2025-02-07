@@ -4,7 +4,7 @@
 		<Name>Wall4</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>On the ice patch to the right of our lab, we found a crack. Something with great weight would have to be on top of it to crush it.</Page>
+			<Page>We found a mysterious crack on a nearby ice patch. To reach it, start walking diagonally towards the right after leaving this lab. Something with great weight would have to be on top of it to crush it.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S1_LAB_TEXT4</FactID>

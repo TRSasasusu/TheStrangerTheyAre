@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using OWML.Common;
+using NewHorizons.Utility;
 
 namespace TheStrangerTheyAre
 {
@@ -12,12 +13,14 @@ namespace TheStrangerTheyAre
 
         private GameObject planetState; // creates variable to store quantum planet
         private GameObject planetState3; // creates variable to store quantum planet
+        private GameObject barkShip; // creates vairable to store ship
 
         private bool hasBroken; // creates boolean to check if the ice broke
         private bool stateActiveOnce; // creates boolean to check if the player saw state 3 or not.
 
         private Vector3 shardPos = new Vector3(-179.4065f, 60.6461f, -57.375f); // creates variable to store shard position
         private Quaternion shardRot = new Quaternion(11.4458f, 345.3546f, 74.4897f, -0.0001f); // creates variable to store shard rotation
+        private Vector3 moveShipPos = new Vector3(-126.8444f, 51.2016f, -48.3741f); // creates variable to store coordinates to move the ship
 
         private VisibilityObject _shardVisibilityObject;
         private OWCamera probeCam; // creates variable to store probe camera
@@ -35,6 +38,7 @@ namespace TheStrangerTheyAre
             shard = planetState.transform.Find("ENIGMA_SHARD_WEAK").gameObject; // gets the weak shard
             activateSocket = planetState.transform.Find("Quantum Sockets - WeakenedQuantum/Socket 0").gameObject; // gets the weak shard
             probeCam = Locator.GetProbe().GetForwardCamera().GetOWCamera();
+            barkShip = SearchUtilities.Find("Sector-3/State3_Ship");
 
             _shardVisibilityObject = shard.GetComponent<VisibilityObject>();
         }
@@ -56,12 +60,12 @@ namespace TheStrangerTheyAre
                 // run when broken
                 if (hasBroken)
                 {
+                    barkShip.transform.localPosition = moveShipPos; // moves ship if glass is broken
                     ice.SetActive(false); //  disables normal ice when broken and player is at state 3
                     iceBroken.SetActive(true); // enables broken ice when broken and player is at state 3
                 }
                 else
                 {
-                    //stateActiveOnce = true; // sets state active once to true
                     ice.SetActive(true); // enables normal ice at the start of the loop
                     iceBroken.SetActive(false); // disables broken ice at the start of the loop
                 }

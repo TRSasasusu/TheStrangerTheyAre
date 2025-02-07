@@ -18,7 +18,8 @@ namespace TheStrangerTheyAre
         bool isSequential = true; // boolean to determine if sequential or random.
         System.Random rnd = new System.Random(); // random number generator
         bool stateChanged = false; // boolean to determine if the state has changed when the player enters
-        private bool isInTrigger;
+        private bool isInTrigger; // checks if player is in trigger
+        private bool isTakingPictures = false; // checks if player has took pictures
 
         private OWTriggerVolume _triggerVolume; // variable to store trigger volume stuff
 
@@ -31,14 +32,40 @@ namespace TheStrangerTheyAre
 
         void Start()
         {
+            GlobalMessenger<ProbeCamera>.AddListener("ProbeSnapshot", new Callback<ProbeCamera>(this.OnProbeSnapshot));
+            GlobalMessenger.AddListener("Probe Snapshot Removed", new Callback(this.OnProbeSnapshotRemoved));
+
             var distantEnigma = TheStrangerTheyAre.NewHorizonsAPI.GetPlanet("Distant Enigma"); // gets the quantum planet with nh
 
             states[0] = distantEnigma.transform.Find("Sector").gameObject; // gets the quantum planet's first state
             states[1] = distantEnigma.transform.Find("Sector-2").gameObject; // gets the quantum planet's second state
             states[2] = distantEnigma.transform.Find("Sector-3").gameObject; // gets the quantum planet's third state
 
+            for (int i = 0; i < states.Length; i++)
+            {
+                ChangeState();
+            }
+
             flashlight = Locator.GetFlashlight(); // gets the player flashlight
         }
+
+        void OnDestroy()
+        {
+            GlobalMessenger<ProbeCamera>.RemoveListener("ProbeSnapshot", new Callback<ProbeCamera>(this.OnProbeSnapshot));
+            GlobalMessenger.RemoveListener("Probe Snapshot Removed", new Callback(this.OnProbeSnapshotRemoved));
+        }
+
+        void OnProbeSnapshot(ProbeCamera probeCam)
+        {
+            isTakingPictures = true;
+        }
+
+        void OnProbeSnapshotRemoved()
+        {
+            isTakingPictures = false;
+        }
+
+
         void Update()
         {
             // enable/disable flashlight boolean, check player's flashlight
@@ -53,14 +80,16 @@ namespace TheStrangerTheyAre
             /*----------------------------------------------------------------------------------------0
             |    this if statement should run if:                                                     |
             |                                                                                         |
-            |    - the left door's rotation is equal to zero (represented by Quaternion.identity)     |
-            |    - check for same thing for the right door                                            |
-            |    - player flashlight is off                                                           |
             |    - the state hasn't changed yet                                                       |
+            |    - the left door's rotation is equal to zero (represented by Quaternion.identity)     |
+            |    - the right door's rotation is equal to zero (represented by Quaternion.identity)    |
+            |    - player flashlight is off                                                           |
+            |    - the player is not taking pictures with their scout                                 |
             |    - the player is in the trigger volume                                                |
             0-----------------------------------------------------------------------------------------0
             */
-            if (!stateChanged && doorFlaps[0].transform.localRotation == Quaternion.identity && doorFlaps[1].transform.localRotation == Quaternion.identity && !flashlight && isInTrigger)
+
+            if (!stateChanged && doorFlaps[0].transform.localRotation == Quaternion.identity && doorFlaps[1].transform.localRotation == Quaternion.identity && !flashlight && !isTakingPictures && isInTrigger)
             {
                 ChangeState(); // calls change state method
                 stateChanged = true;
