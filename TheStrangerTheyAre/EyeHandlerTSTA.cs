@@ -7,7 +7,8 @@ namespace TheStrangerTheyAre
     {
         private GameObject[] leader = new GameObject[3];
         private GameObject[] observatory = new GameObject[4];
-        private GameObject[] endingSongs = new GameObject[2];
+        private GameObject[] endingSongs = new GameObject[3];
+        private GameObject[] customSignals = new GameObject[2];
         private GameObject scientist;
         private Animator scientistAnim;
 
@@ -29,6 +30,10 @@ namespace TheStrangerTheyAre
 
             endingSongs[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EyeAudio_Intro1");
             endingSongs[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EyeAudio_Intro2");
+            endingSongs[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EYE_SciSector_Audio");
+
+            customSignals[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/ScientistSector/FirstSignal/Signal/ScientistInstZone1");
+            customSignals[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/ScientistSector/RingedGiant/DivineScientist/ScientistInstZone2");
 
             scientist = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye");
             scientistAnim = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/Ghostbird_IP_ANIM").GetComponent<Animator>();
@@ -46,6 +51,10 @@ namespace TheStrangerTheyAre
                 foreach (GameObject song in endingSongs)
                 {
                     Destroy(song);
+                }
+                foreach (GameObject signal in customSignals)
+                {
+                    Destroy(signal);
                 }
             }
         }

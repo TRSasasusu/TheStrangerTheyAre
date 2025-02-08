@@ -83,15 +83,4 @@ public class QuantumCampsiteControllerPatch
             }
         }
     }
-
-    [HarmonyPrefix]
-    [HarmonyPatch(typeof(PostCreditsManager), nameof(PostCreditsManager.FadeOut))]
-    public static bool SetEyeConditionFalse(PostCreditsManager __instance)
-    {
-        if (Check())
-        {
-            PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", false); // at the end of post credits scene, sets to false so all the changes to the eye don't stick if you warp to it without cypress next time.
-        }
-        return true;
-    }
 }
