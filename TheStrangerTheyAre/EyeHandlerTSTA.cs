@@ -30,7 +30,7 @@ namespace TheStrangerTheyAre
 
             endingSongs[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EyeAudio_Intro1");
             endingSongs[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EyeAudio_Intro2");
-            endingSongs[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/EYE_SciSector_Audio");
+            endingSongs[2] = SearchUtilities.Find("EYE_SciSector_Audio");
 
             customSignals[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/ScientistSector/FirstSignal/Signal/ScientistInstZone1");
             customSignals[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/ScientistSector/RingedGiant/DivineScientist/ScientistInstZone2");
