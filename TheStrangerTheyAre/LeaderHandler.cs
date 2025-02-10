@@ -50,6 +50,11 @@ namespace TheStrangerTheyAre
         {
             var cameraEffectController = FindObjectOfType<PlayerCameraEffectController>(); // gets camera controller
 
+            // disable dialogue to prevent softlock
+            Destroy(leaderDialogueIntro);
+            Destroy(leaderDialogueAfter);
+            Destroy(leaderDialogueIntroKnowName);
+
             // close eyes
             cameraEffectController.CloseEyes(animTime); // closes eyes
             yield return new WaitForSeconds(animTime);  // waits until animation stops to proceed to next line
