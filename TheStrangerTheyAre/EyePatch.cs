@@ -83,4 +83,11 @@ public class QuantumCampsiteControllerPatch
             }
         }
     }
+
+    [HarmonyPostfix]
+    [HarmonyPatch(typeof(PostCreditsManager), nameof(PostCreditsManager.FadeOut))]
+    public static void DisableCheck(PostCreditsManager __instance)
+    {
+        PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", false); // in the base system, sets the board vessel condition to false so all the changes to the eye don't stick if you warp to it without cypress next time.
+    }
 }

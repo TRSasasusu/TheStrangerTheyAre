@@ -30,8 +30,6 @@ namespace TheStrangerTheyAre
             void EarnAchievement(string uniqueID);
             bool HasAchievement(string uniqueID);
         }
-
-        //DEBUG
         public static TheStrangerTheyAre Instance
         {
             get
@@ -80,7 +78,7 @@ namespace TheStrangerTheyAre
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
                 if (loadScene != OWScene.SolarSystem) return;
-
+                
                 // Wait a few frames to make sure its done
                 if (NewHorizonsAPI.GetCurrentStarSystem() == "SolarSystem")
                 {
@@ -126,7 +124,6 @@ namespace TheStrangerTheyAre
         {
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {
-                PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", false); // in the base system, sets the board vessel condition to false so all the changes to the eye don't stick if you warp to it without cypress next time.
                 var preBramble = GameObject.Find("PreBramble_Body");
                 var preBrambleSector = GameObject.Find("PreBramble_Body").transform.Find("Sector");
 
