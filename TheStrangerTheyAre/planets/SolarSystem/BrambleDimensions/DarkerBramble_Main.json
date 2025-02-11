@@ -67,6 +67,8 @@
 		"revealVolumes": [
 			{
 				"reveals": [ "DARKER_MAIN_E" ],
+				"revealOn": "enter",
+				"revealFor": "player",
 				"radius": 1400
 			}
 		],

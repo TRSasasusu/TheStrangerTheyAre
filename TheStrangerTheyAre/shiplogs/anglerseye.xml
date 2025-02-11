@@ -405,7 +405,7 @@
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_RD_ORBIT_TEXT3</ID>
-				<Text>Most of the base is located on the north pole. It's possible to enter the south pole hurricane in some way.</Text>
+				<Text>Most of this settlement is located on the north pole. It's possible to enter the south pole hurricane in some way.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -728,11 +728,6 @@
 			<ExploreFact>
 				<ID>PREBRAMBLE_POLE_ELEV</ID>
 				<Text>There is an elevator on the edge of the North Pole.</Text>
-			</ExploreFact>
-
-			<ExploreFact>
-				<ID>PREBRAMBLE_POLE_SOLUTION</ID>
-				<Text>I was able to get down by blowing away the Bramble and using the elevator!</Text>
 			</ExploreFact>
 		</Entry>
 

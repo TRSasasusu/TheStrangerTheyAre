@@ -8,7 +8,7 @@
 			<Page>Day 100: The mineral's side effects not only turn the dimension's fog black, but also give the anglerfish an interesting property. Turns out, they change location each time you look away.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>DARKER_BASE_QUANTUM</FactID>
+			<FactID>DARKER_BASE_TABLETEXT</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

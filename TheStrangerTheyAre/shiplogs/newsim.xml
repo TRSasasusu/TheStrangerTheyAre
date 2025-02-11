@@ -23,12 +23,7 @@
 
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>NEWSIM_MAIN_SECRETPATH1</ID> <!-- The ID of this fact -->
-            <Text>When the solar sails deploy about 6 minutes into the loop, some tiles glitch out and become solid and walkable.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
-        </ExploreFact>
-
-        <ExploreFact> <!-- An explore fact that belongs to this entry -->
-            <ID>NEWSIM_MAIN_SECRETPATH2</ID> <!-- The ID of this fact -->
-            <Text>When the flood happens 13 minutes into the loop, the glitched walkways disappear.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            <Text>I saw some glitched tiles wrapping around the buildings in the area.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
         </ExploreFact>
 
         <Entry> <!-- An Entry For This Planet -->
@@ -219,11 +214,6 @@
             <ExploreFact> <!-- An explore fact that belongs to this entry -->
                 <ID>NEWSIM_SCIENTIST_STRANGERLIFE</ID> <!-- The ID of this fact -->
                 <Text>The Scientist explained how terrifying life was on The Stranger. Many Strangers got so insane, they took their own lives. And if not, they starved to death due to lack of food. There were 55 crew members. 20 died, and 33 more got trapped in the simulation.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
-            </ExploreFact>
-
-            <ExploreFact> <!-- An explore fact that belongs to this entry -->
-                <ID>NEWSIM_SCIENTIST_TECH</ID> <!-- The ID of this fact -->
-                <Text>The Scientist shared with me his kind's innovations! The green fire was basically taboo for centuries until his father figured out how to utilize it. He invented the Vision Torch, and explained more about light-based propulsion techonlogy (including the solar sails).</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
             </ExploreFact>
 
             <ExploreFact> <!-- An explore fact that belongs to this entry -->

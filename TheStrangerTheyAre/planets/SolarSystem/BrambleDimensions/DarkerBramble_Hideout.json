@@ -69,6 +69,16 @@
 				"treeVolume": true,
 				"radius": 40
 			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [ "DARKER_BASE_MAP" ],
+				"revealOn": "enter",
+				"revealFor": "player",
+				"parentPath": "Sector/DarkerBrambleBase/Props/Decal",
+				"isRelativeToParent": true,
+				"radius": 5
+			}
 		]
 	},
 	"Props": {

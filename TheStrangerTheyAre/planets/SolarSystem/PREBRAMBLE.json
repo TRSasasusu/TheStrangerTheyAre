@@ -4264,7 +4264,7 @@
       {
         "revealFor": "player",
         "revealOn": "enter",
-        "parentPath": "Sector/DirSign_Forest",
+        "parentPath": "Sector/ForestSign",
         "isRelativeToParent": true,
         "radius": 50,
         "reveals": [

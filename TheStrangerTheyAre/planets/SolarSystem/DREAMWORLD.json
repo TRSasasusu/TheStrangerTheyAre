@@ -7,7 +7,7 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Sector_NewSim.prefab",
 				"alignRadial": false,
-				"keepLoaded": true,
+				"keepLoaded": false,
 				"position": {
 					"x": -180.4021,
 					"y": 5.9047,
@@ -857,7 +857,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"radius": 25,
+				"radius": 15,
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
 				"isRelativeToParent": true,
 				"reveals": [

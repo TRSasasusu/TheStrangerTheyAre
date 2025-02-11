@@ -575,9 +575,11 @@
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/Outside/ScientistStatue.xml",
-				"radius": 1,
-				"parentPath": "Sector/ScientistStatue/Post/Props_IP_DoNotEnterSign/Arc_TestAlienWriting/Dialogue",
-				"isRelativeToParent": true
+				"parentPath": "Sector/ScientistStatue/Post/Props_IP_DoNotEnterSign",
+				"isRelativeToParent": true,
+				"position": {
+					"y": 0.75
+				}
 			},
 			{
 				"xmlFile": "dialogue/Homeworld/ObservationDeck/Elevator.xml",

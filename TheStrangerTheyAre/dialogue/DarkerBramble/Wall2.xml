@@ -8,7 +8,7 @@
 			<Page>Day 105: I did it! After days of searching, I've found the right path to what might be our home system! I'll make a slide recording in case I don't forget.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>DARKER_BASE_MAP2</FactID>
+			<FactID>DARKER_BASE_TEXT2</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

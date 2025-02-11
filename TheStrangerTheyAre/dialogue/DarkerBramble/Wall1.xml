@@ -8,7 +8,7 @@
 			<Page>Day 99: Just started to map out these pocket dimension. Thankfully I scanned the lighted node with my vision torch, because there's no way out! That dimension is a trap!</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>DARKER_BASE_MAP1</FactID>
+			<FactID>DARKER_BASE_TEXT1</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

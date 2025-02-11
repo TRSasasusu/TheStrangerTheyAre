@@ -442,7 +442,6 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>NEWSIM_SCIENTIST_ANGLERSEYE</FactID>
-			<FactID>ANGLERS_EYE_MAIN_HURRICANE_E3</FactID>
 		</RevealFacts>
 		<DialogueTarget>StartQuestionsB</DialogueTarget>
 	</DialogueNode>
