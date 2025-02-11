@@ -74,7 +74,6 @@
       {
         "assetBundle": "assets/AssetBundle/strangerbundle",
         "path": "Assets/PreBramble_SIM.prefab",
-        "keepLoaded": true,
         "hasPhysics": false
       },
       {
