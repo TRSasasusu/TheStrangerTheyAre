@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>The light bulb above the hidden door in the basement has somehow synced with the door's interface. The closer it is to opening, the darker the light bulb gets.</Page>
+			<Page>The light bulb above a hidden door in the Bramble Museum has somehow synced with the door under it, which you can find with a flashlight. The closer it is to opening, the darker the light bulb gets.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_SIGNALHOUSE_LOCKED2</FactID>

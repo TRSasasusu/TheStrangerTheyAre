@@ -39,9 +39,9 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
 
         if (burnDuration && !runOnce)
         {
-            runOnce = true;
             flames.SetActive(true);
             flamesAnim.Play("AtmosphereBurn", 0);
+            runOnce = true;
         }
 
         if (atmosphereBurnt)
@@ -55,6 +55,8 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
 
         if (burnEnd)
         {
+            Locator.GetShipLogManager().RevealFact("DESERT_MAIN_ATMO");
+            Locator.GetShipLogManager().RevealFact("DESERT_LIGHT_ATMO");
             flames.SetActive(false);
         }
     }

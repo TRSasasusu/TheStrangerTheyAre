@@ -25,7 +25,7 @@
         "conditionsToSet": [ "tsta_thevision" ],
         "slides": [
           {
-            "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_1.png",
+            "imagePath": "assets/Slideshows/PlayerKnowledge/Title/slide (1).png" ,
             "backdropAudio": "assets/Audio/riverendtimes1.ogg"
           },
           { "imagePath": "assets/Slideshows/PlayerKnowledge/Title/slide (2).png" },
@@ -39,6 +39,7 @@
           { "imagePath": "assets/Slideshows/PlayerKnowledge/Title/slide (10).png" },
           { "imagePath": "assets/Slideshows/PlayerKnowledge/Title/slide (11).png" },
           { "imagePath": "assets/Slideshows/PlayerKnowledge/Title/slide (12).png" },
+          { "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_1.png" },
           { "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_2.png" },
           { "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_3.png" },
           { "imagePath": "assets/Slideshows/PlayerKnowledge/BeforeScientist/SLIDE_4.png" },

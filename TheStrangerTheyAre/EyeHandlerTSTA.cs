@@ -9,8 +9,6 @@ namespace TheStrangerTheyAre
         private GameObject[] observatory = new GameObject[4];
         private GameObject[] endingSongs = new GameObject[3];
         private GameObject[] customSignals = new GameObject[2];
-        private GameObject scientist;
-        private Animator scientistAnim;
 
         // warp stuff
         private static EyeSpawnPoint campfireSpawn; // to store vessel spawn point
@@ -20,6 +18,12 @@ namespace TheStrangerTheyAre
         void Start()
         {
             leader[0] = SearchUtilities.Find("Vessel_Body/Sector_VesselBridge/Prefab_IP_GhostBird_ScientistDescendant_Vessel2");
+
+            if (leader[0] != null)
+            {
+                PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", true);
+            }
+
             leader[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_EyeSurface");
             leader[2] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Prefab_IP_GhostBird_ScientistDescendant_Vessel1");
 
@@ -34,9 +38,6 @@ namespace TheStrangerTheyAre
 
             customSignals[0] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/ScientistSector/FirstSignal/Signal/ScientistInstZone1");
             customSignals[1] = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/ScientistSector/RingedGiant/DivineScientist/ScientistInstZone2");
-
-            scientist = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye");
-            scientistAnim = SearchUtilities.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Prefab_IP_GhostBird_Scientist_Eye/Ghostbird_IP_ANIM").GetComponent<Animator>();
 
             if (!Check())
             {

@@ -413,53 +413,11 @@
 					"r": 188,
 					"g": 29,
 					"b": 15
-				}
-			},
-			{
-				"rename": "CRIMSONTORNADO_5",
-				"wanderRate": 0.1,
-				"fluidType": "cloud",
-				"type": "upwards",
-				"elevation": 300,
-				"height": 355,
-				"alignRadial": true,
-				"tint": {
-					"r": 188,
-					"g": 29,
-					"b": 15
-				}
-			},
-			{
-				"rename": "CRIMSONTORNADO_6",
-				"wanderRate": 0.1,
-				"fluidType": "cloud",
-				"type": "upwards",
-				"elevation": 300,
-				"height": 355,
-				"alignRadial": true,
-				"tint": {
-					"r": 188,
-					"g": 29,
-					"b": 15
-				}
-			},
-			{
-				"rename": "CRIMSONTORNADO_7",
-				"wanderRate": 0.1,
-				"fluidType": "cloud",
-				"type": "upwards",
-				"elevation": 300,
-				"height": 355,
-				"alignRadial": true,
-				"tint": {
-					"r": 188,
-					"g": 29,
-					"b": 15
 				},
 				"position": {
-					"x": 179.7732,
-					"y": -204.2413,
-					"z": -126.361
+					"x": 248.3966,
+					"y": -72.1269,
+					"z": -151.9765
 				}
 			}
 		]
