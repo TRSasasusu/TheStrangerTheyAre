@@ -8,6 +8,7 @@
 			<Page>Next you shall let the water flow, only then will our trees regrow. Obtain the water above the sky, from the Ringed Giant way up high.</Page>
 		</Dialogue>
 		<RevealFacts>
+			<FactID>ANGLERS_EYE_CONSERVATORY_POEMTEXT</FactID>
 			<FactID>ANGLERS_EYE_POEM_FIND</FactID>
 			<FactID>ANGLERS_EYE_POEM_P2</FactID>
 		</RevealFacts>

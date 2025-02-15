@@ -174,6 +174,62 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeamShip.prefab",
+				"position": {
+					"x": 177.6553,
+					"y": -278.0233,
+					"z": 53.80307
+				},
+				"rotation": {
+					"x": 334.0305,
+					"y": 80.58036,
+					"z": 172.414
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 203.0077,
+					"y": -266.9258,
+					"z": 49.01206
+				},
+				"rotation": {
+					"x": 22.5234,
+					"y": 289.7852,
+					"z": 199.2652
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 221.3429,
+					"y": -258.2521,
+					"z": 43.32066
+				},
+				"rotation": {
+					"x": 20.7275,
+					"y": 195.5268,
+					"z": 154.6258
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 243.0692,
+					"y": -246.0546,
+					"z": 32.07533
+				},
+				"rotation": {
+					"x": 27.96053,
+					"y": 300.2009,
+					"z": 207.2582
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Tent.prefab",
 				"rename": "CRIMSON_TENT",
 				"position": {
@@ -391,20 +447,6 @@
 				"rename": "CRIMSONTORNADO_3",
 				"wanderRate": 0.1,
 				"fluidType": "cloud",
-				"type": "downwards",
-				"elevation": 300,
-				"height": 355,
-				"alignRadial": true,
-				"tint": {
-					"r": 188,
-					"g": 29,
-					"b": 15
-				}
-			},
-			{
-				"rename": "CRIMSONTORNADO_4",
-				"wanderRate": 0.1,
-				"fluidType": "cloud",
 				"type": "upwards",
 				"elevation": 300,
 				"height": 355,
@@ -565,7 +607,7 @@
 		]
 	},
 	"Orbit": {
-		"semiMajorAxis": 21000,
+		"semiMajorAxis": 13000,
 		"primaryBody": "Nearest Neighbor",
 		"trueAnomaly": 140,
 		"tint": {

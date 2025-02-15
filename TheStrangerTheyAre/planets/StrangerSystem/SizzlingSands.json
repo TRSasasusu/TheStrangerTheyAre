@@ -150,18 +150,6 @@
 				"parentPath": "Sector/Seal_Desert",
 				"isRelativeToParent": true,
 				"reveals": [ "DESERT_SEAL_E" ]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"rename": "AtmoReveal",
-				"radius": 200,
-				"position": {
-					"x": 0,
-					"y": -150,
-					"z": 0
-				},
-				"reveals": [ "DESERT_MAIN_ATMO" ]
 			}
 		]
 	},
@@ -197,6 +185,9 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/AtmosphereBurn.prefab",
+				"rotation": {
+					"x": -90
+				},
 				"keepLoaded": true,
 				"scale": 2
 			},
@@ -212,6 +203,19 @@
 					"x": 10.4937,
 					"y": 217.461,
 					"z": 342.2421
+				}
+			},
+			{
+				"path": "Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/SmallProps_SlideBurningRoom_Zone1/OtherComponentsGroup/AshPiles/Props_IP_Ash",
+				"position": {
+					"x": -70.6376,
+					"y": 146.5765,
+					"z": -8.2278
+				},
+				"rotation": {
+					"x": 9.7264,
+					"y": 205.6838,
+					"z": 334.8011
 				}
 			},
 			{

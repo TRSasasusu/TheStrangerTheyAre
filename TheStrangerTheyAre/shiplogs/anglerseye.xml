@@ -178,6 +178,11 @@
 				<ID>ANGLERS_EYE_SIGNALHOUSE_SIGNALREVEAL</ID>
 				<Text>One of the texts on the wall reveals that the purpose of this station was to locate and contact The Stranger.</Text>
 			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_SIGNALHOUSE_POEMTEXT</ID>
+				<Text>One of the texts on the wall reads out some sort of poem stanza...</Text>
+			</ExploreFact>
         </Entry>
 
 		<Entry>
@@ -237,6 +242,11 @@
 			</ExploreFact>
 
 			<ExploreFact>
+				<ID>ANGLERS_EYE_DBMUSEUM_POEMTEXT</ID>
+				<Text>One of the texts on the wall reads out some sort of poem stanza...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
 				<ID>ANGLERS_EYE_DBMUSEUM_SIMROOM1</ID>
 				<Text>An eerie, green fire and some beds lie in the basement of the Dark Bramble Museum.</Text>
 			</ExploreFact>
@@ -256,6 +266,16 @@
 				<ID>ANGLERS_EYE_THEATRE_E</ID>
 				<!-- The ID of this fact -->
 				<Text>There is a Theater House on Angler's Eye for the purpose of watching slide reels.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_THEATRE_POEMTEXT1</ID>
+				<Text>The text on the left of the table reads out some sort of poem stanza...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_THEATRE_POEMTEXT2</ID>
+				<Text>The text on the right of the table reads out some sort of poem stanza...</Text>
 			</ExploreFact>
 		</Entry>
 		
@@ -318,6 +338,11 @@
                 <ID>ANGLERS_EYE_CONSERVATORY_DISCOVER</ID>
                 <Text>The Conservatory building consists of a few empty fish tanks and a handful of trees.</Text>
             </ExploreFact>
+			
+			<ExploreFact>
+				<ID>ANGLERS_EYE_MINE_MINERAL</ID>
+				<Text>There is a mineral at the bottom of the mines that can be picked up.</Text>
+			</ExploreFact>
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_CONSERVATORY_PROTOHEARTHIAN_1</ID>
@@ -333,6 +358,11 @@
 				<ID>ANGLERS_EYE_CONSERVATORY_INFO</ID>
 				<Text>According to a message on the second floor, the purpose of the Conservatory is meant to produce healthy seeds for the terraform plan.</Text>
 			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_CONSERVATORY_POEMTEXT</ID>
+				<Text>One of the texts on the wall reads out some sort of poem stanza...</Text>
+			</ExploreFact>
         </Entry>
 
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
@@ -344,11 +374,6 @@
             <ExploreFact>
                 <ID>ANGLERS_EYE_MINE_DISCOVER</ID>
                 <Text>There is a mining hole not far from the south pole. A pickaxe and several rocks are seen there.</Text>
-            </ExploreFact>
-
-            <ExploreFact>
-                <ID>ANGLERS_EYE_MINE_MINERAL</ID>
-                <Text>There is a mineral at the bottom of the mines that can be picked up.</Text>
             </ExploreFact>
 
 			<ExploreFact>
@@ -412,6 +437,11 @@
 				<ID>ANGLERS_EYE_RD_ORBIT_TEXT4</ID>
 				<Text>70 days after arriving, this inhabitant discovered that Angler's Eye may have originated from a collision with The Eye, and orbits both it and Dark Bramble. Due to its incredibly slow orbit, it's best I find some other way of reaching The Eye.</Text>
 			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_RD_POEMTEXT</ID>
+				<Text>The text on the second floor desk reads out some sort of poem stanza...</Text>
+			</ExploreFact>
         </Entry>
 	
 	    <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
@@ -460,22 +490,6 @@
 		</ExploreFact>
 
 		<ExploreFact>
-			<!-- An explore fact that belongs to this entry -->
-			<ID>PREBRAMBLE_MAIN_SECRETPATH1</ID>
-			<!-- The ID of this fact -->
-			<Text>When the solar sails deploy about 6 minutes into the loop, some tiles glitch out and become solid and walkable.</Text>
-			<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
-		</ExploreFact>
-
-		<ExploreFact>
-			<!-- An explore fact that belongs to this entry -->
-			<ID>PREBRAMBLE_MAIN_SECRETPATH2</ID>
-			<!-- The ID of this fact -->
-			<Text>When the flood happens 13 minutes into the loop, the glitched walkways disappear.</Text>
-			<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
-		</ExploreFact>
-
-		<ExploreFact>
 			<ID>PREBRAMBLE_MAIN_CAVES</ID>
 			<Text>I found a cave system beneath the Preserved Planet's Crust. There's water below, so I should probably watch my step.</Text>
 		</ExploreFact>
@@ -498,7 +512,7 @@
 				<!-- An explore fact that belongs to this entry -->
 				<ID>PREBRAMBLE_WARP_MAIN_E</ID>
 				<!-- The ID of this fact -->
-				<Text>There is a mysterious house to the left of the green campfire. It has a set of code totems, each with a unique emblem.</Text>
+				<Text>There is a mysterious house to the left of the green campfire. Each gateway has a unique emblem.</Text>
 				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
 			</ExploreFact>
 
@@ -526,18 +540,6 @@
 			<Name>Warp House (Forest)</Name>
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
 
-			<RumorFact>
-				<ID>PREBRAMBLE_WARP_FOREST_R</ID>
-				<RumorName>Code for Left Door</RumorName>
-				<SourceID>PREBRAMBLE_WARP_MAIN</SourceID>
-				<Text>The code door on the left has an emblem with Bramble Vines growing upward from the planet.</Text>
-			</RumorFact>
-
-			<ExploreFact>
-				<ID>PREBRAMBLE_WARP_FOREST_CODE</ID>
-				<Text>Inside an outhouse in the Bramble Forest is a code.</Text>
-			</ExploreFact>
-
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_FOREST_DOOR</ID>
 				<Text>Entering the nook on the other side warps me back to the South Pole!</Text>
@@ -549,18 +551,6 @@
 			<Name>Warp House (North Pole)</Name>
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
 
-			<RumorFact>
-				<ID>PREBRAMBLE_WARP_POLE_R</ID>
-				<RumorName>Code for Middle Door</RumorName>
-				<SourceID>PREBRAMBLE_WARP_MAIN</SourceID>
-				<Text>The code door straight ahead has an emblem with a large amount of Bramble Vines growing from a center point.</Text>
-			</RumorFact>
-
-			<ExploreFact>
-				<ID>PREBRAMBLE_WARP_POLE_CODE</ID>
-				<Text>Inside an outhouse at the North Pole is a code.</Text>
-			</ExploreFact>
-
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_POLE_DOOR</ID>
 				<Text>Entering the nook on the other side warps me back to the South Pole!</Text>
@@ -571,18 +561,6 @@
 			<ID>PREBRAMBLE_WARP_CAVES</ID>
 			<Name>Warp House (Caves)</Name>
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
-
-			<RumorFact>
-				<ID>PREBRAMBLE_WARP_CAVES_R</ID>
-				<RumorName>Code for Right Door</RumorName>
-				<SourceID>PREBRAMBLE_WARP_MAIN</SourceID>
-				<Text>The code door to the right has an emblem showing a lower layer of the planet.</Text>
-			</RumorFact>
-
-			<ExploreFact>
-				<ID>PREBRAMBLE_WARP_CAVES_CODE</ID>
-				<Text>Inside an outhouse under the crust is a code.</Text>
-			</ExploreFact>
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_WARP_CAVES_DOOR</ID>
@@ -617,7 +595,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_PROJ1_TEXT</ID>
-				<Text>The text on the left explains how to perform an exploit, which involves walking away from The Artifact.</Text>
+				<Text>The text on the left explains how to perform an exploit, which involves walking away from The Artifact. Glitched tiles might also appear when the solar sails activate, but deactivates 7 minutes later.</Text>
 			</ExploreFact>
 
 			<ExploreFact>

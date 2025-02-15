@@ -74,7 +74,8 @@
       {
         "assetBundle": "assets/AssetBundle/strangerbundle",
         "path": "Assets/PreBramble_SIM.prefab",
-        "hasPhysics": false
+        "hasPhysics": false,
+        "keepLoaded": true
       },
       {
         "assetBundle": "assets/AssetBundle/strangerbundle",
@@ -4144,8 +4145,7 @@
         "isRelativeToParent": true,
         "radius": 1,
         "reveals": [
-          "PREBRAMBLE_WARP_MAIN_LEFT",
-          "PREBRAMBLE_WARP_FOREST_R"
+          "PREBRAMBLE_WARP_MAIN_LEFT"
         ]
       },
       {
@@ -4155,8 +4155,7 @@
         "isRelativeToParent": true,
         "radius": 1,
         "reveals": [
-          "PREBRAMBLE_WARP_MAIN_CENTER",
-          "PREBRAMBLE_WARP_POLE_R"
+          "PREBRAMBLE_WARP_MAIN_CENTER"
         ]
       },
       {
@@ -4166,18 +4165,7 @@
         "isRelativeToParent": true,
         "radius": 1,
         "reveals": [
-          "PREBRAMBLE_WARP_MAIN_RIGHT",
-          "PREBRAMBLE_WARP_CAVES_R"
-        ]
-      },
-      {
-        "revealFor": "player",
-        "revealOn": "enter",
-        "parentPath": "Sector/WarpHouse_Forest",
-        "isRelativeToParent": true,
-        "radius": 1,
-        "reveals": [
-          "PREBRAMBLE_WARP_FOREST_CODE"
+          "PREBRAMBLE_WARP_MAIN_RIGHT"
         ]
       },
       {
@@ -4193,31 +4181,11 @@
       {
         "revealFor": "player",
         "revealOn": "enter",
-        "parentPath": "Sector/WarpHouse_NorthPole",
-        "isRelativeToParent": true,
-        "radius": 1,
-        "reveals": [
-          "PREBRAMBLE_WARP_POLE_CODE"
-        ]
-      },
-      {
-        "revealFor": "player",
-        "revealOn": "enter",
         "parentPath": "Sector/WarpHouse_NorthPole/Offsets/Warp",
         "isRelativeToParent": true,
         "radius": 1,
         "reveals": [
           "PREBRAMBLE_WARP_POLE_DOOR"
-        ]
-      },
-      {
-        "revealFor": "player",
-        "revealOn": "enter",
-        "parentPath": "Sector/WarpHouse_Caves",
-        "isRelativeToParent": true,
-        "radius": 1,
-        "reveals": [
-          "PREBRAMBLE_WARP_CAVES_CODE"
         ]
       },
       {

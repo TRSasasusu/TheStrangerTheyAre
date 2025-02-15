@@ -19,7 +19,7 @@ namespace TheStrangerTheyAre
             //checks if player collides with the trigger volume
             if (hitCollider.CompareTag("PlayerDetector") && enabled)
             {
-                scientist1.GetComponent<GhostController>().FacePlayer(TurnSpeed.FAST); // faces scientist to player
+                scientist1.GetComponent<GhostController>().FacePlayer(TurnSpeed.FASTEST); // faces scientist to player
                 scientist2.SetActive(true); // enables pre-vision scientist when player interacts with trigger
                 scientist2.transform.position = scientist1.transform.position; // sets the position of pre-vision scientist equal to ghostbird ai
                 scientist2.transform.rotation = scientist1.transform.rotation; // sets the rotation of pre-vision scientist equal to ghostbird ai

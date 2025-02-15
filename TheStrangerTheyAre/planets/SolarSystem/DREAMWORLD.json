@@ -7,7 +7,7 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Sector_NewSim.prefab",
 				"alignRadial": false,
-				"keepLoaded": false,
+				"keepLoaded": true,
 				"position": {
 					"x": -180.4021,
 					"y": 5.9047,
@@ -710,18 +710,6 @@
 				"priority": 0
 			},
 			{
-				"audio": "assets/Audio/OWxSE.ogg",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
-				"isRelativeToParent": true,
-				"radius": 30,
-				"volume": 0.7,
-				"position": {
-					"y": 3
-				},
-				"track": "music",
-				"priority": 0
-			},
-			{
 				"audio": "IllusoryWall_Alex",
 				"radius": 3,
 				"priority": 1,
@@ -779,8 +767,8 @@
 				"revealFor": "player",
 				"revealOn": "enter",
 				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTiles",
-				"isRelativeToParent": false,
-				"radius": 70,
+				"isRelativeToParent": true,
+				"radius": 100,
 				"reveals": [
 					"NEWSIM_MAIN_SECRETPATH1"
 				]

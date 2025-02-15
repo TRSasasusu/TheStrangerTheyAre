@@ -8,7 +8,7 @@
 			"vinePrefab": "none",
 			"radius": 750,
 			"fogDensity": 10,
-			"linksTo": "WALL1_NODE1",
+			"linksTo": "WALL1_NODE2",
 			"fogTint": {
 				"r": 0,
 				"g": 0,
@@ -19,6 +19,21 @@
 		"nodes": [
 			{
 				"name": "WALL1_NODE1",
+				"linksTo": "DarkerBramble_LabWarp1",
+				"possibleExits": [ 1 ],
+				"hasFogLight": false,
+				"fogTint": {
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 0
+				},
+				"position": {
+					"x": -125
+				}
+			},
+			{
+				"name": "WALL1_NODE2",
 				"linksTo": "DarkerBramble_LabWarp1",
 				"possibleExits": [ 1 ],
 				"hasFogLight": false,
