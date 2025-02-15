@@ -8,7 +8,6 @@
 			"vinePrefab": "none",
 			"radius": 750,
 			"fogDensity": 10,
-			"linksTo": "WALL1_NODE2",
 			"fogTint": {
 				"r": 0,
 				"g": 0,
@@ -147,6 +146,17 @@
 				"rotation": {
 					"z": 128
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/GreatWallofBramble.prefab",
+				"rename": "Blockade4",
+				"removeComponents": true,
+				"removeChildren": [ "HeadedHomeAudio" ],
+				"scale": 0.3,
+				"position": {
+					"x": -1250
+				},
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
