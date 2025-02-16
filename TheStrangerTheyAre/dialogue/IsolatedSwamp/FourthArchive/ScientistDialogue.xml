@@ -438,7 +438,7 @@
 			<Page>For the terraforming plan, I was told by the Council to check to see if our homeworld was able to be terraformed, but we ended up crashing into the cloaked moon on our way there.</Page>
 			<Page>The crash happened due to our false assumptions about its orbit.</Page>
 			<Page>As my time on the cloaked moon went on, I found out that it was an "evil twin" of the ghost moon. Instead of copying just the terrain, some of the properties from the planet get imbued into it.</Page>
-			<Page>I noticed the minerals on the planet have electric resistant properties, much like the jellyfish that once lived on it.</Page>
+			<Page>I've also noticed that when you hold one of the minerals of the planet when going into the hurricane, it will not harm you.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>NEWSIM_SCIENTIST_ANGLERSEYE</FactID>

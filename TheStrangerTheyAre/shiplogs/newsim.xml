@@ -228,7 +228,7 @@
 
             <ExploreFact> <!-- An explore fact that belongs to this entry -->
                 <ID>NEWSIM_SCIENTIST_ANGLERSEYE</ID> <!-- The ID of this fact -->
-                <Text>The Scientist tells me more about Angler's Eye. When travelling to check on their home moon, The Scientist and his family crashed into it because they miscalculated its orbit, which actually orbited both Dark Bramble and The Eye. It's also an "evil twin" of the Quantum Moon.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+                <Text>The Scientist tells me more about Angler's Eye. When travelling to check on their home moon, The Scientist and his family crashed into it because they miscalculated its orbit, which actually orbited both Dark Bramble and The Eye. It's also an "evil twin" of the Quantum Moon. The Scientist also mentions that the mineral on Angler's Eye will get you through the Hurricane unharmed.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
             </ExploreFact>
         </Entry>
     </Entry>

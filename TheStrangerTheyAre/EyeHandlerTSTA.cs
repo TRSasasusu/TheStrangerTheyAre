@@ -60,10 +60,6 @@ namespace TheStrangerTheyAre
             }
         }
 
-        public bool IsSciPlaying()
-        {
-            return DialogueConditionManager.SharedInstance.GetConditionState("EyeScientistPlaying");
-        }
         public bool IsGathered()
         {
             return DialogueConditionManager.SharedInstance.GetConditionState("EyeScientistGather");

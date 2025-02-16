@@ -207,6 +207,7 @@
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/SmallProps_SlideBurningRoom_Zone1/OtherComponentsGroup/AshPiles/Props_IP_Ash",
+				"scale": 0.2,
 				"position": {
 					"x": -70.6376,
 					"y": 146.5765,

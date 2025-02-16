@@ -19,24 +19,6 @@
 				}
 			},
 			{
-				"path": "Anglerfish_Body/Beast_Anglerfish",
-				"position": {
-					"x": 8.7759,
-					"y": -220.6637,
-					"z": -2.0116
-				},
-				"rotation": {
-					"x": 24.7551,
-					"y": 278.5947,
-					"z": 358.1162
-				},
-				"scale": 0.02,
-				"removeChildren": [
-					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
-				],
-				"rename": "Ernesto"
-			},
-			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/SystemModel.prefab",
 				"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory",
