@@ -6,6 +6,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Sector_NewSim.prefab",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper",
 				"alignRadial": false,
 				"keepLoaded": true,
 				"position": {
@@ -26,103 +27,103 @@
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_03/Prefab_IP_Reel_1_Story_Complete",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_01",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_01",
 				"rename": "TSTA_REEL_1",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_2_Story_Complete",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_03",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_03",
 				"rename": "TSTA_REEL_2",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_3_Story_Complete",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_03",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_03/SlideSocket_03",
 				"rename": "TSTA_REEL_3",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/Interactables_SlideBurningRoom_Zone1/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_1_LibraryPath",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_01",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_01",
 				"rename": "TSTA_REEL_4",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2/Interactables_SlideBurningHouse_Zone2/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_2_LibraryPath",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_02",
 				"rename": "TSTA_REEL_5",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_SlideBurningHouse_Zone2/Interactables_SlideBurningHouse_Zone2/Prefab_IP_SecretAlcove/RotationPivot/SlideReelSocket/Prefab_IP_Reel_3_LibraryPath",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_03",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_04/SlideSocket_03",
 				"rename": "TSTA_REEL_6",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/Prefab_IP_SlideReelShelf (15)/SlideReelShelf_Row_04/SlideSocket_02/Prefab_IP_Reel_1_Seal",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_01",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_01",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_7"
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_ProjectionHouse_Zone2/Interactables_ProjectionHouse_Zone2/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_03/SlideSocket_02/Prefab_IP_Reel_2_Seal",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_03/SlideSocket_02",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_8"
 			},
 			{
 				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_ProjectionHouse_Zone3_Interior/Interactables_ProjectionHouse_Zone3/Prefab_IP_SlideReelShelf (5)/SlideReelShelf_Row_03/SlideSocket_03/Prefab_IP_Reel_3_Seal",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_03",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_03",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_9"
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_EntranceClueBuilding_Zone3_Interior/Interactables_EntranceClueBuilding_Zone3_Interior/Prefab_IP_Reel_DamageReport",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_02",
 				"rename": "TSTA_REEL_10",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone3/Sector_CanyonObvious/Structures_CanyonObvious/AbandonedTemple_Zone3/Interactables_AbandonedTemple_Zone3/Interactables_TempleBasement/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_04/SlideSocket_01/Prefab_IP_Reel_Burning",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_04/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_04/SlideSocket_02",
 				"rename": "TSTA_REEL_11",
 				"isRelativeToParent": true
 			},
 			{
 				"path": "Sector_RingInterior/Sector_Zone2/Sector_DreamFireLighthouse_Zone2_AnimRoot/Interactibles_DreamFireLighthouse_Zone2/Pivot_SlideReelRoom/Pivot_SlideReelCrates/Prefab_IP_Reel_LanternSecret",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_01",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (3)/SlideReelShelf_Row_04/SlideSocket_01",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_12"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_1/Interactibles_SecretLibrary_1/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_1_DreamRule",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_01",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_01",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_13"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_01/Prefab_IP_Reel_2_DreamRule_v1",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_02/SlideSocket_02",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_14"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_2/Interactibles_SecretLibrary_2/Prefab_IP_SlideReelShelf (31)/SlideReelShelf_Row_03/SlideSocket_03/Prefab_IP_Reel_2_DreamRule_v2",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_02",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_15"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_SlideReelShelf (30)/SlideReelShelf_Row_02/SlideSocket_01/Prefab_IP_Reel_3_DreamRule",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_03",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (4)/SlideReelShelf_Row_03/SlideSocket_03",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_16"
 			},
 			{
 				"path": "Sector_DreamWorld/Sector_Underground/Sector_SecretLibrary_3/Interactibles_SecretLibrary_3/Prefab_IP_Reel_ExperimentWatch",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_02/SlideSocket_01",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (2)/SlideReelShelf_Row_02/SlideSocket_01",
 				"isRelativeToParent": true,
 				"rename": "TSTA_REEL_17"
 			},
@@ -175,115 +176,115 @@
 		"dialogue": [
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/ScientistDialogue.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
 				"isRelativeToParent": true,
 				"lookAtRadius": 0,
-				"pathToAnimController": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3/Ghostbird_IP_ANIM",
+				"pathToAnimController": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3/Ghostbird_IP_ANIM",
 				"position": {
 					"y": 3
 				}
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall1.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall2.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall2/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall3.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall3/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall3/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/2F_Memorial.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/2F_Memorial/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/2F_Memorial/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/SlideHouse/Desk1.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/Interacables/Text/Desk1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/Interacables/Text/Desk1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevBottomArchive.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevBottomArchive/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevBottomArchive/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"radius": 0.25
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevTopArchive.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTopArchive/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTopArchive/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"radius": 0.25
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/SignElevTheatre.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTheatre/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/SignElevTheatre/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"radius": 0.25
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf1.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf2.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf2/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/TopReelShelf3.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf3/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/TopReelShelf3/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/BottomReelShelf1.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/BottomReelShelf2.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf2/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/BottomReelShelf3.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf3/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/BottomReelShelf3/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Table1.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Table1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Table1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Table2.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Table2/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Table2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/DataWall.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/DataWall/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/DataWall/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder1/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder2/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder3/Arc_TestAlienWriting/Dialogue",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder3/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
 			}
 		],
@@ -291,7 +292,7 @@
 			{
 				"rename": "TSTA_REEL_19",
 				"type": "slideReel",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket",
 				"isRelativeToParent": true,
 				"reelCondition": "pristine",
 				"reelModel": "whole",
@@ -347,7 +348,7 @@
 			},
 			{
 				"type": "slideReel",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_02",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_SlideReelShelf (1)/SlideReelShelf_Row_04/SlideSocket_02",
 				"reelCondition": "pristine",
 				"reelModel": "whole",
 				"isRelativeToParent": true,
@@ -453,7 +454,7 @@
 					"type": "standingVisionTorch",
 					"reveals": [ "NEWSIM_SCIENTIST_VISION" ],
 					"rename": "SCIENTIST_VISIONTORCH",
-					"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
+					"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist2/Ghostbird_IP_ANIM/Ghostbird_Skin_01:Ghostbird_Rig_V01:Base/Ghostbird_Skin_01:Ghostbird_Rig_V01:Root/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine01/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine02/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine03/Ghostbird_Skin_01:Ghostbird_Rig_V01:Spine04/Ghostbird_Skin_01:Ghostbird_Rig_V01:ClavicleL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ShoulderL/Ghostbird_Skin_01:Ghostbird_Rig_V01:ElbowL/Ghostbird_Skin_01:Ghostbird_Rig_V01:WristL/Ghostbird_Skin_01:Ghostbird_Rig_V01:HandAttachL",
 					"isRelativeToParent": true,
 					"conditionsToSet": [ "SCIENTIST_VISIONTORCH" ],
 					"slides": [
@@ -525,7 +526,7 @@
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH",
 				"isRelativeToParent": true
 			},
 			{
@@ -536,7 +537,7 @@
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH",
 				"isRelativeToParent": true
 			},
 			{
@@ -547,7 +548,7 @@
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH",
 				"isRelativeToParent": true
 			},
 			{
@@ -558,7 +559,7 @@
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH",
 				"isRelativeToParent": true
 			},
 			{
@@ -569,7 +570,7 @@
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH",
 				"isRelativeToParent": true
 			},
 			{
@@ -580,7 +581,7 @@
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH",
 				"isRelativeToParent": true
 			}
 		]
@@ -608,7 +609,7 @@
 				"volume": 0.2,
 				"track": "music",
 				"priority": 1,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
 				"isRelativeToParent": true
 			},
 			{
@@ -689,7 +690,7 @@
 				"radius": 30,
 				"volume": 0.5,
 				"track": "environment",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTiles",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/GlitchedTiles",
 				"priority": 1,
 				"position": {
 					"x": -156.7837,
@@ -699,7 +700,7 @@
 			},
 			{
 				"audio": "assets/Audio/OWxSE.ogg",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist3",
 				"isRelativeToParent": true,
 				"radius": 30,
 				"volume": 0.7,
@@ -756,7 +757,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM",
 				"isRelativeToParent": true,
 				"radius": 50,
 				"reveals": [
@@ -766,7 +767,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/GlitchedTiles",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/GlitchedTiles",
 				"isRelativeToParent": true,
 				"radius": 100,
 				"reveals": [
@@ -776,7 +777,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/R&DHouse_SIM",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM",
 				"isRelativeToParent": true,
 				"radius": 20,
 				"reveals": [
@@ -786,7 +787,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM",
 				"isRelativeToParent": true,
 				"radius": 20,
 				"reveals": [
@@ -796,7 +797,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/FourthArchive",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive",
 				"isRelativeToParent": true,
 				"radius": 20,
 				"reveals": [
@@ -846,7 +847,7 @@
 				"revealFor": "player",
 				"revealOn": "enter",
 				"radius": 15,
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
 				"isRelativeToParent": true,
 				"reveals": [
 					"NEWSIM_LINK_E"
@@ -859,7 +860,7 @@
 				"position": {
 					"y": 1
 				},
-				"parentPath": "Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
 				"isRelativeToParent": true,
 				"reveals": [
 					"NEWSIM_LINK_TRAVEL"
@@ -873,21 +874,21 @@
 		"Sector_DreamWorld/SIM_BH/BlackHoleEmissionOneShot",
 		"Sector_DreamWorld/SIM_WH/WhiteHoleRenderer",
 		"Sector_DreamWorld/SIM_WH/WhiteHoleAmbience",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleAmbience",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleEmissionOneShot",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleAmbience",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleEmissionOneShot",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleAmbience",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleAmbience",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleEmissionOneShot",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleRenderer",
-		"Sector_DreamWorld/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleAmbience"
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleEmissionOneShot",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleAmbience"
 	],
 	"ShipLog": {
 		"xmlFile": "shiplogs/newsim.xml",

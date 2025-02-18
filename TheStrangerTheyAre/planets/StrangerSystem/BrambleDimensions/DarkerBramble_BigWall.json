@@ -6,6 +6,7 @@
 		"dimension": {
 			"allowedEntrances": [ 1 ],
 			"vinePrefab": "none",
+			"linksTo": "WALL1_NODE2",
 			"radius": 750,
 			"fogDensity": 10,
 			"fogTint": {
