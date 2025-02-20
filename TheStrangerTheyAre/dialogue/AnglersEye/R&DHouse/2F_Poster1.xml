@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>This hidden moon has a slow, elongated orbit around the fifth planet of this star system. Its origins are odd for something that should have come from its parent planet.</Page>
+			<Page>This hidden moon is orbiting around the fifth planet of this star system. Its origins are odd for something that should have come from its parent planet.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_RD_ORBIT_TEXT1</FactID>

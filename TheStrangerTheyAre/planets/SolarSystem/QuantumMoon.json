@@ -20,11 +20,9 @@
         "parentPath": "Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum",
         "isRelativeToParent": true,
         "position": {
-          "x": -5.6548,
-          "y": -70.73996,
-          "z": 1.607201
+          "y": 2
         },
-        "conditionsToSet": [ "tsta_thevision" ],
+        "conditionsToSet": [ "tsta_thevision", "TSTA_SOL_SCANNED" ],
         "slides": [
           {
             "imagePath": "assets/Slideshows/PlayerKnowledge/Title/slide (1).png",

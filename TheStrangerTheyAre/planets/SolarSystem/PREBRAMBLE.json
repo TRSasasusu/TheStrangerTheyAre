@@ -230,6 +230,21 @@
       },
       {
         "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Sign.prefab",
+        "rename": "CavesSign",
+        "position": {
+          "x": -90.0509,
+          "y": 29.6042,
+          "z": 92.6466
+        },
+        "rotation": {
+          "x": 358.2242,
+          "y": 358.2965,
+          "z": 159.9037
+        }
+      },
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
         "path": "Assets/Sign_2W.prefab",
         "rename": "DirSign_SouthPole",
         "position": {
@@ -3735,6 +3750,11 @@
         "parentPath": "Sector/ForestSign2/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
         "isRelativeToParent": true,
         "xmlFile": "dialogue/PreBramble/Directions/ForestSign/Sign2.xml"
+      },
+      {
+        "parentPath": "Sector/CavesSign/Interactibles/Text/Right/Arc_TestAlienWriting/Dialogue",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/PreBramble/Directions/CavesSign.xml"
       }
     ],
     "singularities": [

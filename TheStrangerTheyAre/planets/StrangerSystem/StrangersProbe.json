@@ -5,6 +5,9 @@
 	"MapMarker": {
 		"enabled": true
 	},
+	"Base": {
+		"surfaceSize": 100
+	},
 	"ShipLog": {
 		"mapMode": {
 			"remove": true

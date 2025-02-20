@@ -1,14 +1,15 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
-	<NameField>SIGN</NameField> <!-- The name of this character -->
+	<NameField>SIGN</NameField>
+	<!-- The name of this character -->
 	<DialogueNode>
-		<Name>Wall1</Name>
+		<Name>CavesSign</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>During my time on my kind's ship, I have discovered a bug where the renderer changes to low-poly once you walk too far away from your lantern. Coincidentally, glitching tiles may also appear when the solar sails activate, disappearing 7 minutes later.</Page>
+			<Page>To the South Pole, take a stroll. Retrace your steps, to the North Pole.</Page>
 		</Dialogue>
 		<RevealFacts>
-			<FactID>PREBRAMBLE_PROJ1_TEXT</FactID>
+			<FactID>PREBRAMBLE_CAVESSIGN</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>
