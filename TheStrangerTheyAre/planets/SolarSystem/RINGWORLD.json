@@ -1,0 +1,65 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "name": "RingWorld",
+  "Props": {
+    "dialogue": [
+      {
+        "rename": "TSTA_StrangerDialogue_1",
+        "parentPath": "Sector_RingWorld/Sector_LightSideArrival/Interactables_LightSide_Arrival/Airlock/Structure_IP_AirlockInterface/RotatingStructure/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/LightSide.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_2",
+        "parentPath": "Sector_RingWorld/Sector_DarkSideArrival/Interactables_DarkSideArrival/VisibleFromFar_Interactables_DarkSideArrival/Airlock_RaftHouse_Arrival/Structure_IP_AirlockInterface/RotatingStructure/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/DarkSide.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_3",
+        "parentPath": "Sector_RingInterior/Sector_Zone1/Interactables_Zone1/Props_IP_ZoneSign_1/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/Zone1.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_4",
+        "parentPath": "Sector_RingInterior/Sector_Zone1/Interactables_Zone1/Props_IP_ZoneSign_1 (1)/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/Zone1.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_5",
+        "parentPath": "Sector_RingInterior/Sector_Zone2/Interactables_Zone2/Props_IP_ZoneSign_2/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/Zone2.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_6",
+        "position": {
+          "x": 168.5709,
+          "y": -141.7013,
+          "z": 211.1263
+        },
+        "xmlFile": "dialogue/Other/StrangerText/Zone3.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_7",
+        "parentPath": "Sector_RingInterior/Sector_Zone4/Sector_BlightedShore/Sector_JammingControlRoom_Zone4/Interactables_JammingControlRoom_Zone4/VisibleFromFar_Interactables_JammingControlRoom_Zone4/Props_IP_ZoneSign_4/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/Zone4.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_8",
+        "parentPath": "Sector_RingInterior/Sector_Zone4/Sector_PrisonDocks/Structures_PrisonDocks/PrisonControlRoom_Zone4/Interactables_PrisonControlRoom/Props_IP_DoNotEnterSign/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/DoNotEnter.xml"
+      },
+      {
+        "rename": "TSTA_StrangerDialogue_9",
+        "parentPath": "Sector_RingInterior/Sector_Zone4/Sector_PrisonDocks/Structures_PrisonDocks/RaftHouse_PrisonDocks_Zone4/UpperPart_RaftHouse_PrisonDocks/Interactables_UpperPart_RaftHouse_PrisonDocks/Props_IP_DoNotEnterSign/Arc_TestAlienWriting",
+        "isRelativeToParent": true,
+        "xmlFile": "dialogue/Other/StrangerText/DoNotEnter.xml"
+      }
+    ]
+  }
+}

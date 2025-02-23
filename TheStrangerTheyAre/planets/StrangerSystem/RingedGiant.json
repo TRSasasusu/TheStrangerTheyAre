@@ -153,6 +153,47 @@
 					"y": 74.5762,
 					"z": 174.5877
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Ringed_Device",
+				"position": {
+					"x": -181.9657,
+					"y": -296.4325,
+					"z": 12.2164
+				},
+				"rotation": {
+					"x": 337.0275,
+					"y": 278.4284,
+					"z": 182.9359
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Ringed_Camp",
+				"position": {
+					"x": 108.5648,
+					"y": 331.9881,
+					"z": -13.3222
+				},
+				"rotation": {
+					"x": 13.096,
+					"y": 77.2503,
+					"z": 2.1199
+				}
+			}
+		],
+		"rafts": [
+			{
+				"rename": "RING_RAFT",
+				"position": {
+					"x": -192.1502,
+					"y": -281.4666,
+					"z": 13.4393
+				},
+				"alignRadial": true
 			}
 		],
 		"entryLocation": [
@@ -266,6 +307,19 @@
 				"parentPath": "Sector/RINGEDGIANT_ISLAND/Building/Base",
 				"isRelativeToParent": true,
 				"radius": 30
+			},
+			{
+				"audio": "OW Finally Set Free 072021_2 AP",
+				"parentPath": "Sector/RING_RAFT",
+				"isRelativeToParent": true,
+				"track": "music",
+				"loop": true,
+				"priority": 1,
+				"radius": 3,
+				"position": {
+					"y": 2
+				},
+				"volume": 0.4
 			},
 			{
 				"priority": 1,

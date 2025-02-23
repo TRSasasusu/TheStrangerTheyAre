@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/title_screen_schema.json",
+  "titleScreens": [
+    {
+      "disableNHPlanets": true,
+      "menuTextTint": {
+        "r": 0,
+        "g": 255,
+        "b": 121
+      },
+      "shareTitleScreen": false,
+      "music": "assets/audio/LostWaltz.mp3",
+      "ambience": "DreamFire_Crackling_Loop",
+      "MenuPlanet": {
+        "destroyMenuPlanet": true,
+        "details": [
+          {
+            "assetBundle": "assets/AssetBundle/title",
+            "path": "Assets/NewTitlePlanet.prefab",
+            "position": {
+              "x": 3.4349,
+              "y": -12.3667,
+              "z": 3.1489
+            },
+            "rotation": {
+              "x": 333.0655,
+              "y": 8.4042,
+              "z": 7.4983
+            }
+          }
+        ],
+      }
+    }
+  ]
+}

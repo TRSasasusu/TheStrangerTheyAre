@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Apparently, the artifact's focus ability makes you slower in the simulation, and can even keep you from falling off edges! Very helpful for both the cautious and the stealthy.</Page>
+			<Page>Apparently, the artifact's focus ability makes you slower in the simulation, and can even keep you from falling off edges! Very helpful for stealthy situations where being quiet is necessary.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>PREBRAMBLE_PROJ2_TEXT</FactID>

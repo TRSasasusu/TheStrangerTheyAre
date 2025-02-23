@@ -58,6 +58,9 @@
     <None Include="addon-manifest.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+	  <None Include="title-screen.json">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
     <None Include="QuantumInstrumentTSTA.cs" />
     <None Include="subtitle.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
