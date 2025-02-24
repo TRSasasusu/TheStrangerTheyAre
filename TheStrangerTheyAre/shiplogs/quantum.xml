@@ -93,7 +93,7 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_S1_LAB_TEXT3</ID>
-				<Text>Shown on a picture on one of the tables is a scratch on the ice of the current state. They say it signals the location of a "key" on the second state to open the third state's lab, and can be found behind the first state's lab.</Text>
+				<Text>Shown on a picture on one of the tables is a scratch on the ice of the current state. They say it marks the location of a light sensor submerged in the poison state, which is marked somewhere behind the thick-ice state's lab. It will likely open if an object that can both emit light and take pictures is placed down.</Text>
 			</ExploreFact>
 			
 			<ExploreFact>
@@ -218,9 +218,9 @@
 
 			<RumorFact>
 				<ID>QUANTUM_INT_R</ID>
-				<RumorName>The Key to the Third Lab</RumorName>
+				<RumorName>Hidden Light Sensor?</RumorName>
 				<SourceID>QUANTUM_S1_LAB</SourceID>
-				<Text>It says the "key" to the third state's lab involves a scratch on the first state, and is under the liquid of the second state.</Text>
+				<Text>There's a light sensor that will open the way to the lab on the thin-ice state. I need to use something that emits light and takes pictures.</Text>
 			</RumorFact>
 
 			<ExploreFact>

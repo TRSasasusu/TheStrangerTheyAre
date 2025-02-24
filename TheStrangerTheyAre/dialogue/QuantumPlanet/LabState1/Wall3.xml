@@ -4,7 +4,7 @@
 		<Name>Wall3</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>The key to enter the other lab is submerged in poison water. However, scratches from this current state were left behind as a marker to find it. We found this directly behind the lab.</Page>
+			<Page>A light sensor submerged beneath the poison lake state is the key to enter the lab on the thin-ice state. However, scratches from this current state somewhere behind the lab were left behind as a marker to place down an object that can open it. If this object can take photos as well as emit light, it would most certainly open it.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S1_LAB_TEXT3</FactID>

@@ -46,6 +46,14 @@
 				<Text>According to a message written in the basement of the Bramble Museum, there is a Bramble Seed located in the South Pole, likely within the hurricane.</Text>
 				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
 			</RumorFact>
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>ANGLERS_EYE_MAIN_HURRICANE_E</ID>
+				<!-- The ID of this fact -->
+				<Text>I was able to enter the tornado safely with the Cloaked Mineral.</Text>
+				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+			</ExploreFact>
 		</Entry>
 
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
