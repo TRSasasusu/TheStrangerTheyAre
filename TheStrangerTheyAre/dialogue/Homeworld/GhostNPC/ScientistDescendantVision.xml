@@ -18,6 +18,11 @@
     <Text>Yeah I'm going to go exploring now.</Text>
     <DialogueTarget>END</DialogueTarget>
    </DialogueOption>
+	  <DialogueOption>
+		  <RequiredLogCondition>HOME_VESSEL</RequiredLogCondition>
+		  <Text>Come with me. Your life depends on it!</Text>
+		  <DialogueTarget>4</DialogueTarget>
+	  </DialogueOption>
   </DialogueOptionsList>
  </DialogueNode>
 
@@ -56,4 +61,62 @@
 		 <FactID>HOME_LEADER_E</FactID>
 	 </RevealFacts>
  </DialogueNode>
+
+	<DialogueNode>
+		<!-- The end node -->
+		<Name>4</Name>
+		<Dialogue>
+			<Page>Why must I go with you, Hatchling? Is it really that urgent?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The universe is dying, we have no choice but to activate The Eye!</Text>
+				<DialogueTarget>5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- The end node -->
+		<Name>5</Name>
+		<Dialogue>
+			<Page>The Eye? That vortex thing? I'd rather die here on my homeworld!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>If The Scientist was here, he'd say it's time.</Text>
+				<DialogueTarget>6</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- The end node -->
+		<Name>6</Name>
+		<Dialogue>
+			<Page>No he woul.....wait....</Page>
+			<Page>I remember...he passed down a note through many generations.</Page>
+			<Page>It said..."Wait for all the stars to die, then activate the Universe's Eye".</Page>
+			<Page>Heh, you know a lot, stranger! Do you have something to take us there?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yes, come aboard the Vessel!</Text>
+				<DialogueTarget>7</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- The end node -->
+		<Name>7</Name>
+		<Dialogue>
+			<Page>Alright, I alone shall come with you on this journey.</Page>
+			<Page>The others can keep guard of our homeland. I'll start my way on over.</Page>
+		</Dialogue>
+		<SetPersistentCondition>CYPRESS_BOARDVESSEL</SetPersistentCondition>
+		<RevealFacts>
+			<FactID>HOME_LEADER_VESSEL</FactID>
+		</RevealFacts>
+	</DialogueNode>
  </DialogueTree>

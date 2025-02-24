@@ -37,155 +37,6 @@
 			"revealedSprite": "assets/Texture/Shiplog/HOME_UI.png"
 		}
 	},
-	"Volumes": {
-		"audioVolumes": [
-			{
-				"audio": "assets/Audio/SpiritOfWater.ogg",
-				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_Music",
-				"isRelativeToParent": false,
-				"track": "music",
-				"loop": true,
-				"priority": 0,
-				"radius": 500,
-				"volume": 0.2
-			},
-			{
-				"audio": "assets/Audio/HomeAmbience.ogg",
-				"track": "environment",
-				"rename": "HomeAmbience",
-				"loop": true,
-				"priority": 0,
-				"radius": 500,
-				"volume": 0.5
-			},
-			{
-				"audio": "assets/Audio/terraformhome3.ogg",
-				"pauseOnFadeOut": false,
-				"loop": false,
-				"volume": 0.2,
-				"priority": 1,
-				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_IntroMusic",
-				"isRelativeToParent": true,
-				"track": "environmentUnfiltered",
-				"radius": 400
-			}
-		],
-		"insulatingVolumes": [
-			{
-				"parentPath": "Sector/BrambleMuseum_HOME/Interactables/Item_CloakMineral",
-				"isRelativeToParent": true,
-				"radius": 20
-			}
-		],
-		"revealVolumes": [
-			{
-				"reveals": [
-					"HOME_REVEAL",
-					"RING_MAIN_R",
-					"HOME_CINDER_R",
-					"HOME_PARTYHOUSE_R",
-					"HOME_SPACE_R"
-				],
-				"radius": 400,
-				"revealFor": "player",
-				"revealOn": "enter"
-			},
-			{
-				"reveals": [
-					"HOME_REVEAL",
-					"RING_MAIN_R",
-					"HOME_CINDER_R",
-					"HOME_PARTYHOUSE_R",
-					"HOME_SPACE_R"
-				],
-				"radius": 6,
-				"revealFor": "player",
-				"revealOn": "enter"
-			},
-			{
-				"reveals": [ "HOME_MUSEUM_E" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/BrambleMuseum_HOME",
-				"isRelativeToParent": true,
-				"radius": 30
-			},
-			{
-				"reveals": [ "HOME_MUSEUM_SYSTEM" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/BrambleMuseum_HOME/Props/SystemModel",
-				"isRelativeToParent": true,
-				"position": {
-					"y": -5
-				},
-				"radius": 5
-			},
-			{
-				"reveals": [ "HOME_PARTYHOUSE_TORCH" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Props_PartyHouse/Props_IP_StaffArmature/Arm_A/Arm_B/staff_attach_point",
-				"isRelativeToParent": true,
-				"radius": 5
-			},
-			{
-				"reveals": [ "HOME_OBSERVE_E" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/ObservationDeck_HOMEWORLD",
-				"isRelativeToParent": true,
-				"radius": 20
-			},
-			{
-				"reveals": [ "HOME_SPACE_E" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"position": {
-					"x": 72.05455,
-					"y": 107.8358,
-					"z": -166.2016
-				},
-				"radius": 7
-			},
-			{
-				"reveals": [ "HOME_PARTYHOUSE_E" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"position": {
-					"x": 153.7156,
-					"y": 2.9197,
-					"z": -135.2257
-				},
-				"radius": 7
-			},
-			{
-				"reveals": [ "HOME_CINDER_EYE" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
-				"isRelativeToParent": true,
-				"radius": 6
-			},
-			{
-				"reveals": [ "HOME_CINDER_SCI" ],
-				"revealFor": "player",
-				"revealOn": "enter",
-				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Lighting/Prefab_IP_Candle_CoveredHanging (1)",
-				"isRelativeToParent": true,
-				"radius": 6
-			}
-		],
-		"speedTrapVolumes": [
-			{
-				"parentPath": "Sector/HOME_NODE",
-				"isRelativeToParent": true,
-				"radius": 60,
-				"acceleration": 1,
-				"speedLimit": 5
-			}
-		]
-	},
 	"Base": {
 		"surfaceGravity": 14,
 		"surfaceSize": 200
@@ -413,6 +264,66 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_HOME_High.prefab",
+				"rename": "RaftDock_HOME_PartyHouse",
+				"position": {
+					"x": 83.0972,
+					"y": 22.2154,
+					"z": -182.1236
+				},
+				"rotation": {
+					"x": 78.0364,
+					"y": 155.2634,
+					"z": 359.3936
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_HOME_Low.prefab",
+				"rename": "RaftDock_HOME_Museum",
+				"position": {
+					"x": -187.6623,
+					"y": -13.5473,
+					"z": -19.3006
+				},
+				"rotation": {
+					"x": 309.8861,
+					"y": 193.5047,
+					"z": 252.4431
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_HOME_Low.prefab",
+				"rename": "RaftDock_HOME_Village",
+				"position": {
+					"x": 155.7298,
+					"y": 81.334,
+					"z": 65.2454
+				},
+				"rotation": {
+					"x": 9.0393,
+					"y": 148.9202,
+					"z": 63.9166
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_HOME_Low.prefab",
+				"rename": "RaftDock_HOME_Stage",
+				"position": {
+					"x": -52.6552,
+					"y": 157.7631,
+					"z": -89.6735
+				},
+				"rotation": {
+					"x": 326.4265,
+					"y": 0,
+					"z": 18.3134
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/QuantumRock_HOME.prefab",
 				"parentPath": "Sector/SpaceCenter/QuantumExhibit",
 				"isRelativeToParent": true,
@@ -426,6 +337,17 @@
 					"Effects",
 					"Props_HEA_Campfire"
 				]
+			}
+		],
+		"rafts": [
+			{
+				"rename": "HOME_RAFT",
+				"position": {
+					"x": 77.0221,
+					"y": 21.3288,
+					"z": -168.9952
+				},
+				"alignRadial": true
 			}
 		],
 		"quantumGroups": [
@@ -1031,6 +953,168 @@
 					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_31.png" },
 					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_32.png" }
 				]
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/SpiritOfWater.ogg",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_Music",
+				"isRelativeToParent": false,
+				"track": "music",
+				"loop": true,
+				"priority": 0,
+				"radius": 500,
+				"volume": 0.2
+			},
+			{
+				"audio": "assets/Audio/HomeAmbience.ogg",
+				"track": "environment",
+				"rename": "HomeAmbience",
+				"loop": true,
+				"priority": 0,
+				"radius": 500,
+				"volume": 0.5
+			},
+			{
+				"audio": "assets/Audio/terraformhome3.ogg",
+				"pauseOnFadeOut": false,
+				"loop": false,
+				"volume": 0.2,
+				"priority": 1,
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/HOME_IntroMusic",
+				"isRelativeToParent": true,
+				"track": "environmentUnfiltered",
+				"radius": 400
+			},
+			{
+				"audio": "OW Finally Set Free 072021_2 AP",
+				"parentPath": "Sector/HOME_RAFT",
+				"isRelativeToParent": true,
+				"track": "music",
+				"loop": true,
+				"priority": 1,
+				"radius": 3,
+				"position": {
+					"y": 2
+				},
+				"volume": 0.4
+			}
+		],
+		"insulatingVolumes": [
+			{
+				"parentPath": "Sector/BrambleMuseum_HOME/Interactables/Item_CloakMineral",
+				"isRelativeToParent": true,
+				"radius": 20
+			}
+		],
+		"revealVolumes": [
+			{
+				"reveals": [
+					"HOME_REVEAL",
+					"RING_MAIN_R",
+					"HOME_CINDER_R",
+					"HOME_PARTYHOUSE_R",
+					"HOME_SPACE_R"
+				],
+				"radius": 400,
+				"revealFor": "player",
+				"revealOn": "enter"
+			},
+			{
+				"reveals": [
+					"HOME_REVEAL",
+					"RING_MAIN_R",
+					"HOME_CINDER_R",
+					"HOME_PARTYHOUSE_R",
+					"HOME_SPACE_R"
+				],
+				"radius": 6,
+				"revealFor": "player",
+				"revealOn": "enter"
+			},
+			{
+				"reveals": [ "HOME_MUSEUM_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/BrambleMuseum_HOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			},
+			{
+				"reveals": [ "HOME_MUSEUM_SYSTEM" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/BrambleMuseum_HOME/Props/SystemModel",
+				"isRelativeToParent": true,
+				"position": {
+					"y": -5
+				},
+				"radius": 5
+			},
+			{
+				"reveals": [ "HOME_PARTYHOUSE_TORCH" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/EntryAndPartyHouse/Sector_PartyHouse/Props_PartyHouse/Props_IP_StaffArmature/Arm_A/Arm_B/staff_attach_point",
+				"isRelativeToParent": true,
+				"radius": 5
+			},
+			{
+				"reveals": [ "HOME_OBSERVE_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/ObservationDeck_HOMEWORLD",
+				"isRelativeToParent": true,
+				"radius": 20
+			},
+			{
+				"reveals": [ "HOME_SPACE_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": 72.05455,
+					"y": 107.8358,
+					"z": -166.2016
+				},
+				"radius": 7
+			},
+			{
+				"reveals": [ "HOME_PARTYHOUSE_E" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"position": {
+					"x": 153.7156,
+					"y": 2.9197,
+					"z": -135.2257
+				},
+				"radius": 7
+			},
+			{
+				"reveals": [ "HOME_CINDER_EYE" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Interactibles/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"radius": 6
+			},
+			{
+				"reveals": [ "HOME_CINDER_SCI" ],
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/EntryAndPartyHouse/DreamFireHouse_2/Lighting/Prefab_IP_Candle_CoveredHanging (1)",
+				"isRelativeToParent": true,
+				"radius": 6
+			}
+		],
+		"speedTrapVolumes": [
+			{
+				"parentPath": "Sector/HOME_NODE",
+				"isRelativeToParent": true,
+				"radius": 60,
+				"acceleration": 1,
+				"speedLimit": 5
 			}
 		]
 	},

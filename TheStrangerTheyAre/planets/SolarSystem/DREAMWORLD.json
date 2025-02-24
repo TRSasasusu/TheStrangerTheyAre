@@ -286,6 +286,24 @@
 				"xmlFile": "dialogue/IsolatedSwamp/FourthArchive/Reminder.xml",
 				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Text/Reminder3/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
+			},
+			{
+				"rename": "TSTA_StrangerDialogue_10",
+				"position": {
+					"x": 81.61076,
+					"y": 4.83165,
+					"z": -280.854
+				},
+				"xmlFile": "dialogue/Other/StrangerText/DoNotEnter.xml"
+			},
+			{
+				"rename": "TSTA_StrangerDialogue_11",
+				"position": {
+					"x": -1.984917,
+					"y": -290.51,
+					"z": 685.6943
+				},
+				"xmlFile": "dialogue/Other/StrangerText/PrisonerLock.xml"
 			}
 		],
 		"slideShows": [

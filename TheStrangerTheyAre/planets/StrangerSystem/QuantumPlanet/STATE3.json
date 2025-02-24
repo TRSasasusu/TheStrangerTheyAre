@@ -79,43 +79,22 @@
 		"scatter": [
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",
-				"count": 50,
-				"minHeight": 200,
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L2.prefab",
-				"count": 50,
-				"minHeight": 200,
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
-				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L3.prefab",
-				"count": 50,
-				"minHeight": 200,
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S1.prefab",
-				"count": 100,
+				"count": 50,
 				"minHeight": 200,
 				"keepLoaded": true
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S2.prefab",
-				"count": 100,
+				"count": 50,
 				"minHeight": 200,
 				"keepLoaded": true
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S3.prefab",
-				"count": 100,
+				"count": 50,
 				"minHeight": 200,
 				"keepLoaded": true
 			}

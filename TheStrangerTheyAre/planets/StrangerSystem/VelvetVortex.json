@@ -105,21 +105,112 @@
 		],
 		"rafts": [
 			{
-				"alignRadial": true,
+				"rename": "CG_RAFT_TRAVELER",
 				"position": {
-					"x": 310,
-					"y": 0,
-					"z": 0
+					"x": 310
 				},
-				"rename": "CG_RAFT"
+				"alignRadial": true
+			},
+			{
+				"position": {
+					"x": -77.5449,
+					"y": 184.2433,
+					"z": 285.262
+				},
+				"alignRadial": true,
+				"rename": "CG_RAFT_SPINLAB"
+			},
+			{
+				"position": {
+					"x": 142.0514,
+					"y": -257.8691,
+					"z": 143.5074
+				},
+				"rename": "CG_RAFT_BASE"
 			}
 		],
 		"details": [
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Crimson_SpinLab1",
+				"position": {
+					"x": -95.0561,
+					"y": 185.5057,
+					"z": 288.7846
+				},
+				"rotation": {
+					"x": 349.3588,
+					"y": 79.3529,
+					"z": 60.0653
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Crimson_SpinLab2",
+				"position": {
+					"x": -240.0741,
+					"y": 49.855,
+					"z": 253.2783
+				},
+				"rotation": {
+					"x": 81.307,
+					"y": 25.8314,
+					"z": 68.3791
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Crimson_TornadoLab1",
+				"position": {
+					"x": 140.6729,
+					"y": -268.4917,
+					"z": 130.6668
+				},
+				"rotation": {
+					"x": 337.202,
+					"y": 11.4639,
+					"z": 191.4333
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Crimson_TornadoLab2",
+				"position": {
+					"x": 252.9827,
+					"y": -229.8068,
+					"z": 63.5908
+				},
+				"rotation": {
+					"x": 336.3085,
+					"y": 13.8238,
+					"z": 214.1849
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/RaftDocks/RaftDock_Crimson.prefab",
+				"rename": "RaftDock_Crimson_Camp",
+				"position": {
+					"x": 4.4401,
+					"y": -16.3891,
+					"z": 344.9571
+				},
+				"rotation": {
+					"x": 344.223,
+					"y": 91.1742,
+					"z": 92.4398
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerTravelers/Crimson/CRIMSON_T1.prefab",
-				"parentPath": "Sector/CG_RAFT",
+				"parentPath": "Sector/CG_RAFT_TRAVELER",
 				"rename": "CRIMSON_TRAVELER",
+				"alignRadial": true,
 				"isRelativeToParent": true,
 				"position": {
 					"y": 0.5
@@ -230,6 +321,76 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 166.7995,
+					"y": -272.812,
+					"z": 90.58047
+				},
+				"rotation": {
+					"x": 29.12989,
+					"y": 229.1116,
+					"z": 177.7699
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 249.6146,
+					"y": -237.5987,
+					"z": 45.90665
+				},
+				"rotation": {
+					"x": 37.01282,
+					"y": 225.5281,
+					"z": 163.1315
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 253.4076,
+					"y": -229.0153,
+					"z": 65.36258
+				},
+				"rotation": {
+					"x": 347.417,
+					"y": 358.2274,
+					"z": 219.0903
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 140.8193,
+					"y": -274.8086,
+					"z": 114.3306
+				},
+				"rotation": {
+					"x": 13.54116,
+					"y": 158.3214,
+					"z": 155.5418
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/CrimsonPlanet/StrangerTractorBeam.prefab",
+				"position": {
+					"x": 141.2901,
+					"y": -267.8564,
+					"z": 131.8914
+				},
+				"rotation": {
+					"x": 23.10428,
+					"y": 193.1586,
+					"z": 169.2276
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Tent.prefab",
 				"rename": "CRIMSON_TENT",
 				"position": {
@@ -309,7 +470,7 @@
 		"dialogue": [
 			{
 				"xmlFile": "dialogue/NewTravelers/Crimson.xml",
-				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"parentPath": "Sector/CG_RAFT_TRAVELER/CRIMSON_TRAVELER",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 3
@@ -359,7 +520,7 @@
 			{
 				"id": "CRIMSON_TRAVELER",
 				"cloaked": false,
-				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"parentPath": "Sector/CG_RAFT_TRAVELER/CRIMSON_TRAVELER",
 				"isRelativeToParent": true
 			},
 			{
@@ -394,7 +555,7 @@
 				"audio": "assets/Audio/POSTLUDE_SIGNAL.ogg",
 				"detectionRadius": 750,
 				"identificationRadius": 20,
-				"parentPath": "Sector/CG_RAFT/CRIMSON_TRAVELER",
+				"parentPath": "Sector/CG_RAFT_TRAVELER/CRIMSON_TRAVELER",
 				"isRelativeToParent": true,
 				"position": {
 					"y": 2
@@ -580,7 +741,7 @@
 				"audio": "assets/Audio/waltzofwar.ogg",
 				"track": "music",
 				"priority": 1,
-				"volume": 0.3,
+				"volume": 0.4,
 				"radius": 11,
 				"pauseOnFadeOut": true,
 				"parentPath": "Sector/SpinLab/Interactibles",
@@ -589,6 +750,45 @@
 					"x": 24.5,
 					"y": -7.25
 				}
+			},
+			{
+				"audio": "assets/Audio/crimsoncowabunga.ogg",
+				"track": "music",
+				"priority": 1,
+				"volume": 0.4,
+				"radius": 3,
+				"position": {
+					"y": 2
+				},
+				"pauseOnFadeOut": true,
+				"parentPath": "Sector/CG_RAFT_BASE",
+				"isRelativeToParent": true
+			},
+			{
+				"audio": "assets/Audio/crimsoncowabunga.ogg",
+				"track": "music",
+				"priority": 1,
+				"volume": 0.4,
+				"radius": 3,
+				"position": {
+					"y": 2
+				},
+				"pauseOnFadeOut": true,
+				"parentPath": "Sector/CG_RAFT_SPINLAB",
+				"isRelativeToParent": true
+			},
+			{
+				"audio": "assets/Audio/crimsoncowabunga.ogg",
+				"track": "music",
+				"priority": 1,
+				"volume": 0.3,
+				"radius": 3,
+				"position": {
+					"y": 2
+				},
+				"pauseOnFadeOut": true,
+				"parentPath": "Sector/CG_RAFT_TRAVELER",
+				"isRelativeToParent": true
 			},
 			{
 				"audio": "assets/Audio/CrimsonAmbienceUnderwater.ogg",

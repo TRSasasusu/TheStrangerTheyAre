@@ -46,6 +46,14 @@
 				<Text>According to a message written in the basement of the Bramble Museum, there is a Bramble Seed located in the South Pole, likely within the hurricane.</Text>
 				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
 			</RumorFact>
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>ANGLERS_EYE_MAIN_HURRICANE_E</ID>
+				<!-- The ID of this fact -->
+				<Text>I was able to enter the tornado safely with the Cloaked Mineral.</Text>
+				<!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+			</ExploreFact>
 		</Entry>
 
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
@@ -610,7 +618,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_PROJ2_TEXT</ID>
-				<Text>The text in the middle reveals that using focus in the simulation can cause you to sneak, and even prevent from falling off edges. This will help me in cautious and stealthy scenarios.</Text>
+				<Text>The text in the middle reveals that using focus in the simulation can cause you to sneak, and even prevent from falling off edges. This will help me in cautious scenarios, and stealthy scenarios where one would need to be quiet.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -726,7 +734,7 @@
 
 			<ExploreFact>
 				<ID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</ID>
-				<Text>The Scientist mentioned the fact that members of his kind are asleep in a "Coma Hall", and that artifact light disturbs their slumber.</Text>
+				<Text>The Scientist mentioned the fact that members of his kind are asleep in a "Coma Hall", and that both noise and artifact light disturb their slumber.</Text>
 			</ExploreFact>
 
 			<ExploreFact>

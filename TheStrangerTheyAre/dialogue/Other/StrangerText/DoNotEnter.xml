@@ -1,15 +1,11 @@
 <DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
 	<NameField>SIGN</NameField> <!-- The name of this character -->
 	<DialogueNode>
-		<Name>Table</Name>
+		<Name>PrisonerLock</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Everyone is now sound asleep in the Coma Hall, but quietly sneaking through by holding focus isn't enough. It appears that not just noise wakes them, but also the artifact light.</Page>
+			<Page>DO NOT ENTER!</Page>
 		</Dialogue>
-		<RevealFacts>
-			<FactID>PREBRAMBLE_ARCHIVES_TEXT_TABLE</FactID>
-			<FactID>NEWSIM_ARCHIVE_COMA2</FactID>
-		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>
