@@ -1326,7 +1326,7 @@
 		"I found a lab on Distant Enigma's Third State, but it seems blocked...": "I found a lab on Distant Enigma's Third State, but it seems blocked...",
 		"I made my way into the blocked lab with the door interface hidden beneath the liquid on the second state! Behind the door is an odd machine...": "I made my way into the blocked lab with the door interface hidden beneath the liquid on the second state! Behind the door is an odd machine...",
 		"Studies show that something natural on the planet once caused the ice on this state to break.": "Studies show that something natural on the planet once caused the ice on this state to break.",
-		"Some text next to the machine explains its capabilities of weaking quantum objects. This decreases their range, which causes their weight to increase.": "Some text next to the machine explains its capabilities of weaking quantum objects. This decreases their range, which causes their weight to increase.",
+		"Some text next to the machine explains its capabilities of weakening quantum objects. This decreases their range, which causes their weight to increase.": "Some text next to the machine explains its capabilities of weakening quantum objects. This decreases their range, which causes their weight to increase.",
 
 		"Distant Enigma Base": "Distant Enigma Base",
 		"I found a base on Distant Enigma's First State. It doesn't seem to appear on the second or third states.": "I found a base on Distant Enigma's First State. It doesn't seem to appear on the second or third states.",
@@ -1500,7 +1500,9 @@
 		"Holly": "Holly",
 		"Sycamore": "Sycamore"
 	},
-
+	"OtherDictionary": {
+		"SealDisplayName": "{0} Seal"
+	},
 	"AchievementTranslations": {
 		"tsta_thevision": {
 			"Name": "The Vision",

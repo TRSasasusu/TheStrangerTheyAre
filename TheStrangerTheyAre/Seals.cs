@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace TheStrangerTheyAre;
 public class Seals : OWItem
@@ -16,7 +17,7 @@ public class Seals : OWItem
 
     public override string GetDisplayName()
     {
-        return sealName+" Seal";
+        return String.Format(TheStrangerTheyAre.NewHorizonsAPI.GetTranslationForOtherText("SealDisplayName"), TheStrangerTheyAre.NewHorizonsAPI.GetTranslationForUI(sealName));
     }
 
     public override void DropItem(Vector3 position, Vector3 normal, Transform parent, Sector sector, IItemDropTarget customDropTarget)

@@ -4,7 +4,7 @@
 		<Name>2F_VineExhibit</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>The brilliant ideas of our almighty Scientist brought him to the realization of the planet's minerals and their capability to stop the Bramble from growing. He then used the Bramble to warp him home to being terraforming. As you can see, it was a success!</Page>
+			<Page>The brilliant ideas of our almighty Scientist brought him to the realization of the planet's minerals and their capability to stop the Bramble from growing. He then used the Bramble to warp him home to begin terraforming. As you can see, it was a success!</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>HOME_MUSEUM_VINEEXHIBIT</FactID>

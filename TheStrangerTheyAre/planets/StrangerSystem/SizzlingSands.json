@@ -144,6 +144,18 @@
 				"reveals": [ "DESERT_LIGHT_E" ]
 			},
 			{
+				"rename": "DesertSolution",
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 200,
+				"position": {
+					"x": 0,
+					"y": -150,
+					"z": 0
+				},
+				"reveals": [ "DESERT_MAIN_ATMO", "DESERT_LIGHT_ATMO" ]
+			},
+			{
 				"revealFor": "player",
 				"revealOn": "enter",
 				"radius": 5,
