@@ -98,6 +98,24 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/EYE/EyeScript.prefab"
+			},
+			{
+				"rename": "Ernesto_TheWarningAnglerfish",
+				"scale": 0.02,
+				"position": {
+					"x": -0.3040468,
+					"y": 207.4256,
+					"z": -3.816011
+				},
+				"rotation": {
+					"x": 344.5661,
+					"y": 152.3666,
+					"z": 5.413599
+				},
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"removeChildren": [
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
 			}
 		],
 		"dialogue": [
@@ -108,6 +126,30 @@
 				"position": {
 					"y": 3
 				}
+			},
+			{
+				"rename": "ErnestoWarningDialogueRemote",
+				"xmlFile": "dialogue/Other/ErnestoWarning.xml",
+				"radius": 3,
+				"parentPath": "Sector_EyeOfTheUniverse/Ernesto_TheWarningAnglerfish",
+				"isRelativeToParent": true,
+				"remoteTrigger": {
+					"parentPath": "Sector_EyeOfTheUniverse",
+					"isRelativeToParent": true,
+					"rename": "ErnestoRemote",
+					"position": {
+						"x": 2.176235,
+						"y": 207.5737,
+						"z": -10.80554
+					}
+				}
+			},
+			{
+				"rename": "ErnestoWarningDialogue",
+				"xmlFile": "dialogue/Other/ErnestoWarning.xml",
+				"parentPath": "Sector_EyeOfTheUniverse/Ernesto_TheWarningAnglerfish",
+				"isRelativeToParent": true,
+				"radius": 2
 			},
 			{
 				"xmlFile": "dialogue/EyeOfTheUniverse/Campfire/DescendantCampfire.xml",

@@ -2055,19 +2055,6 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"radius": 50,
-				"position": {
-					"x": 1.104206,
-					"y": -100.9798,
-					"z": -0.5480309
-				},
-				"reveals": [
-					"ANGLERS_EYE_MAIN_HURRICANE_E"
-				]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
 				"position": {
 					"x": 49.89732,
 					"y": 102.42,

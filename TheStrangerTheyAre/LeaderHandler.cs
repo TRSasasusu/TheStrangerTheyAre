@@ -37,7 +37,7 @@ namespace TheStrangerTheyAre
             music = SearchUtilities.Find("FinalEndTimes_STR");
 
             hasWarped = false; // sets has warped boolean to false at start of every loop
-            PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", false);
+            //PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", false);
             leaderDialogueAfter.SetActive(false);
 
             if (vessel != null)
