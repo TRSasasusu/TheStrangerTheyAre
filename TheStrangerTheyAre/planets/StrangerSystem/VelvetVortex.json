@@ -672,14 +672,6 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"radius": 5,
-				"parentPath": "Sector/Seal_Crimson",
-				"isRelativeToParent": true,
-				"reveals": [ "CRIMSON_SEAL_E" ]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
 				"radius": 20,
 				"parentPath": "Sector/CG_ISLAND_LAB",
 				"isRelativeToParent": true,
