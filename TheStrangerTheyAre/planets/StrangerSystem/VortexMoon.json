@@ -78,14 +78,6 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"radius": 5,
-				"parentPath": "Sector/Seal_CrimsonMoon",
-				"isRelativeToParent": true,
-				"reveals": [ "VOLCANO_SEAL_E" ]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
 				"radius": 40,
 				"parentPath": "Sector/MilitaryBase",
 				"isRelativeToParent": true,

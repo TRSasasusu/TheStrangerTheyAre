@@ -154,14 +154,6 @@
 					"z": 0
 				},
 				"reveals": [ "DESERT_MAIN_ATMO", "DESERT_LIGHT_ATMO" ]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"radius": 5,
-				"parentPath": "Sector/Seal_Desert",
-				"isRelativeToParent": true,
-				"reveals": [ "DESERT_SEAL_E" ]
 			}
 		]
 	},

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using OWML.Common;
+using NewHorizons.Components.Quantum;
 
 namespace TheStrangerTheyAre
 {
@@ -14,6 +15,7 @@ namespace TheStrangerTheyAre
         const int numStates = 3; // creates int value for number of states
         GameObject[] states = new GameObject[numStates]; // creates variable to store each state of the planet.
 
+        QuantumPlanet enigmaComponent;
         bool flashlight = false; // creates boolean to store whether player flashlight is on/off
         bool isSequential = true; // boolean to determine if sequential or random.
         System.Random rnd = new System.Random(); // random number generator
