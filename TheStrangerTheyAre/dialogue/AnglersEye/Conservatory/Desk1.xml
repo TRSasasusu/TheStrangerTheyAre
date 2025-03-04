@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Day 42: The resources we have obtained from this system's terrestrial planet are helpful, especially the fish we have found in one of the ponds. We'll never run out of food now!</Page>
+			<Page>Day 42: The fish we found on the terrestrial planet contain most of the necessary nutrients for survival. We'll never run out of food now!</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_CONSERVATORY_PROTOHEARTHIAN_1</FactID>
