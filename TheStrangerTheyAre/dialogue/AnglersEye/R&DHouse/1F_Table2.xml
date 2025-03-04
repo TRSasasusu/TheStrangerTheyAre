@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>I can't use my kind's ship, so we need another means of transport and we need to grow more trees. We can get the water by extracting the hydrogen and oxygen from the Teal-Ringed Giant.</Page>
+			<Page>Once we return home, we will need water and trees. We can harvest water by extracting hydrogen and oxygen from the Teal-Ringed Giant.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_RD_TERRAPLAN_TEXT2</FactID>
