@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Thanks to the resources we gathered from the terrestrial planet, our conservatory has enough resources to produce the seedlings we'll need for terraforming.</Page>
+			<Page>Thanks to the resources we gathered from the terrestrial planet, this conservatory will be able to raise all the seedlings we need for terraforming.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_CONSERVATORY_INFO</FactID>
