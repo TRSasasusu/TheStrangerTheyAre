@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>These are Anglerfish, an omnivorous species of fish capable of surviving in even the most extreme environments. They can be found deep in the fifth planet's subsurface ocean, as well as within the bramble itself.</Page>
+			<Page>These are Anglerfish, an omnivorous species of fish capable of surviving even the most extreme environments. They can be found deep in the fifth planet's subsurface ocean, and were quick to turn the invading bramble into their nesting grounds.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_DBMUSEUM_ANGLEREXHIBIT</FactID>
