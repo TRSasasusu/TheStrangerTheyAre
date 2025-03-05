@@ -362,6 +362,19 @@
 				}
 			},
 			{
+				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
+				"position": {
+					"x": -24.3395,
+					"y": 106.2676,
+					"z": 33.7654
+				},
+				"rotation": {
+					"x": 13.3309,
+					"y": 297.4556,
+					"z": 356.0161
+				}
+			},
+			{
 				"rename": "Tree1",
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/PlantedTree.prefab",
@@ -745,14 +758,14 @@
 				],
 				"reelModel": "whole",
 				"position": {
-					"x": -26.2005,
-					"y": 104.399,
-					"z": 31.9482
+					"x": -23.1864,
+					"y": 106.4643,
+					"z": 33.81
 				},
 				"rotation": {
-					"x": 347.9148,
-					"y": 104.1433,
-					"z": 6.9252
+					"x": 346.6008,
+					"y": 150.0296,
+					"z": 356.2564
 				},
 				"slides": [
 					{ "imagePath": "assets/Slideshows/NewSimPuzzle/title.png" },

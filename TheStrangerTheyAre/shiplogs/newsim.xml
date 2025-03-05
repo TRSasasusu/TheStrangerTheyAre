@@ -8,8 +8,9 @@
         <Name>Isolated Swamp</Name> <!-- The name to show for this entry both on the card and in map mode -->
         <Curiosity>NEWSIM_MAIN</Curiosity> <!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
         <IsCuriosity/> <!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
-
-        <RumorFact> <!-- A rumor fact that belongs to this entry -->
+		<IgnoreMoreToExplore/>
+		
+		<RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>NEWSIM_MAIN_R</ID> <!-- The ID of this fact -->
             <RumorName>Hidden Path in Simulation</RumorName> <!-- The name of the rumor this fact relates to -->
 			<SourceID>ANGLERS_EYE_SIMSECRET</SourceID>

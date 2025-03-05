@@ -260,7 +260,7 @@
 		]
 	},
 	"Orbit": {
-		"semiMajorAxis": 21000,
+		"semiMajorAxis": 13000,
 		"isTidallyLocked": true,
 		"alignmentAxis": {
 			"x": 4,

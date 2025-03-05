@@ -799,7 +799,7 @@
 		]
 	},
 	"Orbit": {
-		"semiMajorAxis": 13000,
+		"semiMajorAxis": 21000,
 		"primaryBody": "Nearest Neighbor",
 		"trueAnomaly": 140,
 		"tint": {

@@ -973,7 +973,7 @@
 		"According to a message written in the basement of the Bramble Museum, there is a Bramble Seed located in the South Pole, likely within the hurricane.": "荆棘博物馆地下室的记录显示，南极区域藏有一颗荆棘种子，很可能就在那飓风中心。",
 		"I was able to enter the tornado safely with the Cloaked Mineral.": "借助隐形矿物的力量，我成功安全地穿越了飓风屏障。",
 
-		"Alien Language": "外星语言", 
+		"Alien Language": "外星语言",
 		"An alien language is used throughout the planet that is identical the writings seen on The Stranger. If only there was some way to learn the language in less than 22 minutes...": "这颗星球遍布的异星文字与外星站上的如出一辙。可惜循环只有22分钟，否则我或许能破解它……",
 		"An alien language is used throughout the planet that is identical the writings seen on The Stranger.": "这颗星球各处的文字与外星站上的完全一致。",
 		"With the help of the Vision Torch, I can now read the language of The Strangers' Inhabitants!": "借助火把视野，我终于能解读外星站居民的神秘文字了！",
@@ -982,7 +982,7 @@
 		"Signal House Slide Reel": "信号屋幻灯片卷轴",
 		"I found a slide reel in the locked room in the Signal House.": "我在信号屋的锁闭房间里找到了一卷幻灯片。",
 		"This slide reel shows how to get to a hidden area in the simulation on The Stranger. It seems to be by the balcony outside the prison entrance.": "这卷幻灯片展示了如何在外星站的模拟世界中到达一处隐秘区域。看起来是通过监狱入口外的阳台附近。",
-		
+
 		"Angler's Eye Story Reel": "安康鱼之眼故事卷轴",
 		"The slide reel shows an inhabitant using a vision torch to project some sort of terraform plan. He and two other inhabitants leave The Stranger and ended up crashing by Dark Bramble.": "这卷幻灯片展示了一位居民使用火把视野投影某种地球化改造计划。他和另外两位居民离开了外星站，最终在黑棘星附近坠毁。",
 
@@ -990,17 +990,17 @@
 		"Research House Slide Reel": "研究所幻灯片卷轴",
 		"I found a slide reel on the second floor of the Research and Development House.": "我在研究开发所的二楼找到了一卷幻灯片。",
 		"The slide reel shows an older inhabitant teaching a younger one how to read with a vision torch.": "这卷幻灯片展示了一位年长的居民教一位小家伙如何使用火把视野阅读。",
-		
+
 		"Crash Site": "坠毁地点",
 		"Lone Plank": "孤独的木板",
 		"I found a plank near the Research and Development House with some text on it.": "我在研究开发所附近找到了一块带有文字的木板。",
 		"The text says this is a crash site, but strangely, the ship is missing. It mentions the temperatures here are bearable, allowing the three inhabitants seen in the reels to survive for quite a while, with the help of emergency trees.": "文本表明这里是一处坠毁地点，奇怪的是，飞船却不见踪影。根据文本所说，这里气温还在承受范围内，使幻灯片中看到的三位居民在应急树木的帮助下得以在此生存相当长的时间。",
-		
+
 		"Signal House": "信号屋",
 		"A signal is being emitted by some sort of signal tower on the north pole of Angler's Eye.": "安康鱼之眼北极区域有一座信号塔，正不断发射着某种信号。",
 		"On the first floor of the signal house, there are several wires and a projection in the middle.": "信号屋一层布满了错综复杂的线缆，中央区域则设有一台投影装置。",
 		"One of the texts on the wall reveals that the purpose of this station was to locate and contact The Stranger.": "墙上的一处文字记载揭示，这座站点建造的目的是为了定位并与外星站建立联系。",
-		
+
 		"Signal House Second Floor": "信号屋二楼",
 		"Secret Code": "秘密代码",
 		"I can't get into the second floor of the Signal House! The entrance requires some sort of code for entry.": "我无法进入信号屋二楼！入口处需要输入某种代码才能通行。",
@@ -1015,30 +1015,30 @@
 		"The exhibit to the right contains the minerals abundant on Angler's Eye preventing a Bramble Vine from growing any further. It's the only way to halt its growth, but there are mentions of effects on the pocket dimensions within it.": "右侧展品展示了安康鱼之眼上丰富的特殊矿物，这些矿物能有效抑制荆棘藤蔓的进一步生长。这是目前已知唯一阻止荆棘蔓延的方法，但据记载也会对其内部次元空间产生某些影响。",
 		"An eerie, green fire and some beds lie in the basement of the Dark Bramble Museum.": "黑棘星博物馆的地下室内，诡异的绿色火焰静静燃烧，周围散落着几张简易床铺。",
 		"According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.": "根据墙上的文字记录，这是一个模拟环境，目的是保存第五行星变成黑棘星前的原貌。一些珍贵的历史幻灯片资料也被传送到了此处。",
-		
+
 		"Angler's Eye Theater": "安康鱼之眼剧院",
 		"There is a Theater House on Angler's Eye for the purpose of watching slide reels.": "在安康鱼之眼上有一个剧院屋，用于观看幻灯片卷轴。",
-		
+
 		"Poem": "诗",
 		"I found a poem in one of the houses in Angler's Eye. It seemed unfinished.": "我在安康鱼之眼的一所房子里发现了一首诗。它似乎未完成。",
-       	"The first stanza in the Research House is \"For our old world to be revived, get these things and it shall thrive. There is an order it shall follow, or it will stay dead and hollow. First things first, go get a seed. Then search elsewhere for the rest you need\".": "研究所中的第一节诗是“为了让我们的旧世界重现生机，请先获取这几样东西，一切将会繁茂生长。但必须遵循既定的秩序，否则它将永远枯寂凋零。首要之事，寻得一粒种子为始；随后，还需在别处觅取所需的其余之物。”。",
-        "The second stanza in the Conservatory is \"Next you shall let the water flow, only then will our trees regrow. Obtain the water above the sky, from the Ringed Giant way up high\".": "温室中的第二节诗是“接下来，请让水流自由流淌，唯有如此，我们的树木方能重生。潜入那高悬于天际的环形巨物，获取来自天穹之上的水源。”。",
-        "The third stanza in the Theater House is \"With those two things, fresh air will flourish, so plants and animals can thrive and nourish\".": "剧院屋中的第三节诗是“凭借这两件东西，清新的空气将会焕发活力，使植物与动物得以蓬勃生长，并从中汲取养分。”。",
-        "The fourth stanza in the Theater House is \"The seeds grow best on sunny days, our air lets fires set ablaze\".": "剧院屋中的第四节诗是“种子在阳光普照的日子最是欢愉，我们的空气助长火焰燎原，令其肆意蔓延。”。",
-        "The fifth stanza in the Bramble Museum is \"Fourth, keep out a watchful eye. Make sure our offspring does not die\".": "荆棘博物馆中的第五节诗是“第四，请保持警惕的目光。务求确保我们的后代不会死亡殆尽。”。",
-        "The sixth and final stanza in the Signal House is \"Input these poems as a secret code, but put a star in the fifth node\".": "信号屋中的第六节也是最后一节诗是“将这些诗歌作为隐秘的密码输入，但需在第五个节点插入一颗星。”。",
-		
+		"The first stanza in the Research House is \"For our old world to be revived, get these things and it shall thrive. There is an order it shall follow, or it will stay dead and hollow. First things first, go get a seed. Then search elsewhere for the rest you need\".": "研究所中的第一节诗是“为了让我们的旧世界重现生机，请先获取这几样东西，一切将会繁茂生长。但必须遵循既定的秩序，否则它将永远枯寂凋零。首要之事，寻得一粒种子为始；随后，还需在别处觅取所需的其余之物。”。",
+		"The second stanza in the Conservatory is \"Next you shall let the water flow, only then will our trees regrow. Obtain the water above the sky, from the Ringed Giant way up high\".": "温室中的第二节诗是“接下来，请让水流自由流淌，唯有如此，我们的树木方能重生。潜入那高悬于天际的环形巨物，获取来自天穹之上的水源。”。",
+		"The third stanza in the Theater House is \"With those two things, fresh air will flourish, so plants and animals can thrive and nourish\".": "剧院屋中的第三节诗是“凭借这两件东西，清新的空气将会焕发活力，使植物与动物得以蓬勃生长，并从中汲取养分。”。",
+		"The fourth stanza in the Theater House is \"The seeds grow best on sunny days, our air lets fires set ablaze\".": "剧院屋中的第四节诗是“种子在阳光普照的日子最是欢愉，我们的空气助长火焰燎原，令其肆意蔓延。”。",
+		"The fifth stanza in the Bramble Museum is \"Fourth, keep out a watchful eye. Make sure our offspring does not die\".": "荆棘博物馆中的第五节诗是“第四，请保持警惕的目光。务求确保我们的后代不会死亡殆尽。”。",
+		"The sixth and final stanza in the Signal House is \"Input these poems as a secret code, but put a star in the fifth node\".": "信号屋中的第六节也是最后一节诗是“将这些诗歌作为隐秘的密码输入，但需在第五个节点插入一颗星。”。",
+
 		"Conservatory": "温室",
 		"The Conservatory building consists of a few empty fish tanks and a handful of trees.": "温室建筑内设有几个空置的养鱼池，周围散布着少量树木。",
 		"Just like I saw on the Timber Hearth slide reel, the inhabitants on this planet survived off of eating primitive Hearthians.": "正如我在木炉星的幻灯片卷轴上所见，这颗星球上的居民竟以捕食那些尚处鱼形阶段的早期木炉人为食，场面既离奇又充满原始的残酷。",
 		"According to a message written on the Conservatory's desk, they found out about the Hearthian future, and knew that I would come here.": "温室工作台上留下的笔记透露，他们已经预见了木炉星人的未来发展，甚至预知我会来到这里。",
 		"According to a message on the second floor, the purpose of the Conservatory is meant to produce healthy seeds for the terraform plan.": "二楼的记录揭示，这座温室的设立目的是为地球化改造计划培育健康的种子。",
-		
+
 		"Mining Hole": "采矿洞",
 		"There is a mining hole not far from the south pole. A pickaxe and several rocks are seen there.": "南极不远处开凿着一处采矿坑洞，坑边散落着一把矿镐和几块开采出的岩石。",
 		"There is a mineral at the bottom of the mines that can be picked up.": "矿坑最深处藏有一种特殊矿物，看起来可以拾取带走。",
 		"The text at the bottom of the hole says that it was to get resources for The Stranger's cloaking device. It can also be used as fuel.": "坑底刻着的文字记载，此处开采的矿物是为外星站的隐形装置提供原料，同时它也可作为高效燃料使用。",
-		
+
 		"Research House": "研究所",
 		"A picture on the first floor's table shows the home moon of the Stranger's Inhabitants. The Stranger is X'd out, and other icons are sketched out.": "一楼桌上的图片展示了外星站居民的家园卫星。图中外星站被划去，旁边则勾画了其他几个标志性图标。",
 		"A picture on the second floor shows the orbit of Angler's Eye.": "二楼的一张星图详细标注了安康鱼之眼的运行轨道。",
@@ -1054,7 +1054,7 @@
 		"Mysterious Starfield": "神秘星空",
 		"I found a mysterious area with torches, a starfield, and a ominous teal light in the center.": "我发现了一处神秘区域，四周燃烧着幽暗火炬，头顶繁星点点，中央闪烁着一团令人不安的青碧色光芒。",
 		"The teal-lighted pedestal warps me between the Preserved Planet and the Simulation on the Stranger.": "那座沐浴在青碧光辉中的基座能将我在保存行星与外星站模拟世界之间来回传送。",
-		
+
 		"Preserved Planet": "保存行星",
 		"Angler's Eye Archives?": "安康鱼之眼档案？",
 		"I found a new simulation built to preserve the life of Dark Bramble's former self.": "我发现了一个全新的模拟系统，专门保留黑棘星昔日生机盎然的本真状态！",
@@ -1069,23 +1069,12 @@
 		"The door on the left warps me to the Bramble Forest.": "左边的门将我传送到荆棘森林。",
 		"The door straight ahead warps me to the North Pole.": "正前方的门将我传送到北极。",
 		"The door to the right warps me underneath the planet's crust.": "右边的门将我传送到行星的地壳下。",
-		
-		"Warp House (Forest)": "传送屋（森林）",
-		"Code for Left Door": "左门的代码",
-		"The code door on the left has an emblem with Bramble Vines growing upward from the planet.": "左边的代码门上有一个徽章，显示荆棘藤蔓从行星上向上生长。",
-		"Inside an outhouse in the Bramble Forest is a code.": "在荆棘森林的一个外屋里有一个代码。",
-		"Entering the nook on the other side warps me back to the South Pole.": "进入另一边的角落将我传送回南极。",
-		
-		"Warp House (North Pole)": "传送屋（北极）",
-		"Code for Middle Door": "中门的代码",
-		"The code door straight ahead has an emblem with a large amount of Bramble Vines growing from a center point.": "正前方的代码门上有一个徽章，显示大量荆棘藤蔓从一个中心点生长。",
-		"Inside an outhouse at the North Pole is a code.": "在北极的一个外屋里有一个代码。",
 
+		"Warp House (Forest)": "传送屋（森林）",
+		"Warp House (North Pole)": "传送屋（北极）",
 		"Warp House (Caves)": "传送屋（洞穴）",
-		"Code for Right Door": "右门的代码",
-		"The code door to the right has an emblem showing a lower layer of the planet.": "右边的代码门上有一个徽章，显示行星的下层。",
-		"Inside an outhouse under the crust is a code.": "在地壳下的一个外屋里有一个代码。",
-		
+		"Entering the nook on the other side warps me back to the South Pole.": "进入另一边的角落将我传送回南极。",
+
 		"Projection House": "投影屋",
 		"There's a house with three projectors inside. I can't seem to get in.": "有一座房子里面有三个投影仪。我似乎进不去。",
 		"I was able to get inside by reflecting light off of an ice shard from the window!": "我通过从窗户反射冰块上的光线进入了里面！",
@@ -1095,12 +1084,12 @@
 		"The text in the middle reveals that using focus in the simulation can cause you to sneak, and even prevent from falling off edges. This will help me in cautious scenarios, and stealthy scenarios where one would need to be quiet.": "中间的文字表明，在模拟中运用聚焦不仅能让你悄然移动，还可以防止你从边缘跌落。这在需要谨慎行事以及保持隐蔽的情况下非常有用。",
 		"The projection on the right shows how Dark Bramble outgrew the frozen planet that was once there.": "右边的投影展示了黑棘星是如何从曾经的冰冻行星变成现在如此。",
 		"The text on the right points out that the Bramble Plant started its growth from the North Pole": "右边的文字指出荆棘植物从北极开始生长。",
-		
+
 		"Bio Experiments": "生物实验",
 		"I found a tank containing an Anglerfish and a Jellyfish.": "我发现了一个水槽，里面有一条安康鱼和一只水母。",
 		"The observations made by the inhabitants reveal that Anglerfish were once part of Ember Twin, and that the small ones are typically males looking for mates. No wonder why it latched onto one of our ships!": "居民的观察显示，安康鱼曾是灰烬双星的一部分，而体型较小的通常是寻找配偶的雄性。难怪它会附着在我们的飞船上！",
 		"It also appears that Jellyfish are actually native to the frozen planet that became Dark Bramble, and eventually both species lived together in its subsurface ocean.": "此外，水母似乎实际上是原生于那颗后变成黑棘星的冰冻行星，最终这两种生物共同生活在其地下海洋中。",
-		
+
 		"Bramble Research Lab": "荆棘研究实验室",
 		"Locked Building": "锁闭建筑",
 		"There is a building north of the forest that I can't seem to get into. There has to be another way!": "在森林北边有一座建筑，我似乎无法进入。肯定还有其他办法！",
@@ -1113,12 +1102,12 @@
 		"There is a Bramble Node that appears to be blocked.": "有一个荆棘节点似乎被阻塞了。",
 		"It appears that this forest is preserving some awkward stage in the infestation of the Bramble Plant where the vines formed forest biomes such as these.": "这片森林似乎保存了荆棘植物侵染演变中的一个特殊过渡阶段，正是在这个阶段，那些藤蔓构建起了如今所见的这种森林生态系统。",
 		"A poem is written on one of the signs in the forest. \"Tread the path of the lit candles. With wind opens the seed of bramble.\"": "森林中一块标牌上写着一首诗：“踏上点燃蜡烛的道路，随风开启荆棘之种。”",
-		
+
 		"North Pole": "北极",
 		"There is what appears to be a Bramble Infestation on the North Pole.": "北极上似乎有一片荆棘侵袭。",
 		"There is an elevator on the edge of the North Pole.": "北极边缘处有一部电梯。",
 		"Growing atop the planet's North Pole at the bottom of the ocean was a Bramble Node, and within that node are this area's archives!": "在海底、长在行星北极之巅的地方，有一个荆棘节点，节点中存放着该区域的档案！",
-		
+
 		"Bramble Archives": "荆棘档案",
 		"Bramble Signal": "荆棘信号",
 		"A strange signal similar to that of the Signal House can be heard from the South Pole of Angler's Eye.": "从安康鱼之眼的南极可以听到类似于信号屋的奇异信号。",
@@ -1130,24 +1119,24 @@
 
 		"Dark Bramble Reel": "黑棘星卷轴",
 		"This slide reel shows The Scientist using a Vision Telescope to unravel the mysteries of the frozen planet, only for him to find out that it would become Dark Bramble. However, this vision gave him an idea...": "这卷幻灯片展示了科学家使用视觉望远镜揭开冰冻星球的奥秘，却发现它将变成黑棘星。不过，这个异象给了他一个主意……",
-		
+
 		"Blackout Bramble": "失控荆棘",
 		"Bramble Seed on Angler's Eye": "安康鱼之眼上的荆棘种子",
 		"According to a message in the basement of the Dark Bramble Museum, there's a Bramble Seed planted likely inside the hurricane.": "根据黑棘星博物馆地下室的一条信息，很可能在飓风中种下了一颗荆棘种子。",
 		"The dimensions connected to the Angler's Eye Bramble Seed are similar to Dark Bramble, but incredibly dark.": "与安康鱼之眼上的荆棘种子相连的维度类似于黑棘星，但极为黑暗。",
-		
+
 		"Bramble Base": "荆棘基地",
 		"The source of the strange signal is from a base inside the Bramble Seed!": "奇异信号的来源来自荆棘种子内的一个基地！",
 		"There appears to be a map showing the Bramble Dimensions. It seems that they may connect to the Ringed Giant in the Strangers' Home System.": "基地内绘有一张荆棘次元空间的详细地图，显示这些空间似乎与外星站居民星系中的环界星存在某种连接。",
 		"The text to the left of the map warns not to go into the light, but to instead use it as guidance.": "地图左侧的文字警告不要直接进入亮光区域，而应将其作为前行的指引。",
 		"The text to the right of the map says that Anglerfish in these dimensions are quantum! Yikes!": "地图右侧的文字揭示了一个令人毛骨悚然的事实——这些维度中的安康鱼呈量子状态！天啊！",
 		"The text to on the table says that they were able to feel their way through with the Vision Torch.": "桌面上的笔记记载，他们曾借助火把视野的特殊能力，成功摸索着穿越了这片危险区域。",
-		
+
 		"Blackout Bramble Slide Reel": "失控荆棘幻灯片卷轴",
 		"The slide reel shows me instructions on how to navigate the dimensions ahead.": "这卷幻灯片向我展示了如何穿越前方维度的详细指引。",
-		
+
 		"UFO Destination": "不明飞行物目的地",
-		
+
 		"Crash Site?": "坠毁地点？",
 		"The group of inhabitants on the slide reel crashed on Angler's Eye somewhere. Could there be a crash site somewhere?": "幻灯片中那群居民在某处于安康鱼之眼坠毁。是否可能存在一个坠毁地点？",
 
@@ -1155,16 +1144,16 @@
 		//crimson
 
 		"Velvet Vortex": "绯旋星",
-		
+
 		"A Crimson Gas Giant?": "一颗绯红的气态巨星？",
 		"On the Strangers' Homeworld, I can see a crimson gas giant orbitng the host star.": "在外星站居民的星系中，我能看到一颗绕着主星运行的绯红气态巨星。",
 		"Velvet Vortex is the third planet in the Strangers' Home System. It has tornadoes like Giant's Deep, but the ocean is not safe to swim in.": "绯旋星是外星站居民的星系中的第三颗行星。这里拥有与深巨星相似的猛烈龙卷风，但其海域危机四伏，绝非适宜游泳之地。",
-		
+
 		"Crimson Giant Traveler?": "绯红巨星旅行者？",
 		"Pine": "派恩",
 		"According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I hear one coming from the crimson gas giant.": "据居民太空计划负责人特威格说，还有其他旅行者，每人都携带着一个信号。我听到有一个信号来自那颗绯红气态巨星。",
 		"I met a travelling inhabitant named Pine!": "我遇到了一位名叫派恩的旅行居民！",
-		
+
 		"Velvet Vortex Base": "绯旋星基地",
 		"Base on Burning Bombardier?": "烈焰卫星上的基地？",
 		"Pine said there was a base somewhere on Velvet Vortex.": "派恩说在绯旋星的某处有一个基地。",
@@ -1180,15 +1169,15 @@
 		"Velvet Vortex Seal": "绯旋星封印",
 		"Crimson Giant Socket?": "绯红巨星插槽？",
 		"On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a crimson gas giant.": "在环界星上，我看到了一个废弃的结构。其中一个插槽上有一颗绯红气态巨星的图片。",
-		"I found a square piece of metal under the ocean. It looks like it fits in the structure...": "我在海底找到了一块方形金属片。它看起来可以装进那个结构中...", 
+		"I found a square piece of metal under the ocean. It looks like it fits in the structure...": "我在海底找到了一块方形金属片。它看起来可以装进那个结构中...",
 		"When I put the seal in the structure, it gave me a symbol.": "当我把封印放入结构中时，它给了我一个符号。",
-		
+
 		"Velvet Vortex Campsite": "绯旋星营地",
 		"Velvet Vortex Campsite?": "绯旋星营地？",
 		"Pine said he had a camp elsewhere in Velvet Vortex.": "派恩说他在绯旋星的其他地方有个营地。",
 		"I found a campsite on one of the islands.": "我在其中一个岛屿上发现了一个营地。",
-		
-		"Velvet Vortex Spinning Lab": "绯旋星旋转实验室", 
+
+		"Velvet Vortex Spinning Lab": "绯旋星旋转实验室",
 		"Lab by the Campsite": "营地旁的实验室",
 		"There is a spinning laboratory on the island next to Pine's Camp on Velvet Vortex. It has a biometric security measure at the front.": "在绯旋星派恩营地旁的岛屿上矗立着一座不断旋转的实验室。其入口处设有生物识别安全装置。",
 		"I cracked into the biometrics system by using Bark's dead skull.": "我利用巴克的头骨成功破解了生物识别系统。",
@@ -1201,23 +1190,23 @@
 		//desert
 
 		"Sizzling Sands": "炙热沙海",
-		
+
 		"Desert Planet?": "沙漠行星？",
 		"On the Strangers' Homeworld, I can see a desert planet orbitng the host star.": "在外星站居民的星系中，我能看到一颗绕着主星运行的沙漠行星。",
 		"Sizzling Sands is the first planet in the Strangers' Home System. It's a tidally locked desert.": "炙热沙海是外星站居民的星系中的第一颗行星。它是一颗被潮汐锁定的沙漠行星。",
 		"23 minutes into the loop, Sizzling Sands can no longer handle the growing sun and loses its atmosphere.": "循环进行到23分钟时，炙热沙海无法再承受不断膨胀的太阳，失去了大气层。",
-		
+
 		"Desert Planet Traveler?": "沙漠行星旅行者？",
 		"Arcadia": "阿卡迪亚",
 		"According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I hear one coming from the desert planet.": "根据太空计划负责人特威格说，还有其他旅行者，每人都携带着一个信号。我听到有一个信号来自沙漠行星。",
 		"I met a travelling inhabitant named Arcadia!": "我遇到了一位名叫阿卡迪亚的旅行居民！",
 		"Arcadia says there's nothing much to do on Sizzling Sands, but that the sun-facing side is fatal to those who enter.": "阿卡迪亚说炙热沙海上乏善可陈，但提醒道那向阳面对任何胆敢踏入的人都是致命的。",
-		
+
 		"Sizzling Sands Seal": "炙热沙海封印",
 		"Desert Planet Socket?": "沙漠行星插槽？",
 		"On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a desert planet.": "在环界星上，我看到了一个废弃的结构。其中一个插槽上有一颗沙漠行星的图片。",
 		"I found a square piece of metal on the sun-side of Sizzling Sands. It looks like it fits in the structure...": "我在炙热沙海的向阳面找到了一块方形金属片。它看起来可以装进那个结构中...",
-		
+
 		"Sun-Facing Side": "向阳面",
 		"I've heard that the sun-facing side is fatal to those who enter.": "据说炙热沙海的向阳面对任何贸然进入的生物都是致命的。",
 		"The sun-facing side will kill me if I enter it. Is there even a safe way to walk there on foot?": "踏入向阳面恐怕会让我命丧黄沙。是否有安全徒步穿越的方法？",
@@ -1227,20 +1216,20 @@
 		//home
 
 		"Strangers' Homeworld": "外星站居民的家园",
-		
+
 		"Home Moon?": "家园卫星？",
 		"If the Scientist's terraform is complete and I made it to the Ringed Giant, The Strangers' Home Moon is not far off!": "如果科学家的地球化改造完成，并且我到达了环界星，那么离外星站居民的家园卫星就不远了！",
 		"I found the Homeworld of the Strangers Inhabitants!": "我找到了外星站居民的故乡！",
 		"I used The Vessel to warp to The Stranger System! Now let's end this!": "我用飞船跃迁到了外星站居民的星系！现在结束这一切吧！",
-		
+
 		"Party House?": "聚会屋？",
 		"I see a building similar to the \"Party House\" in the Simulation.": "我看到一座类似于模拟中的'聚会屋'的建筑。",
-		
+
 		"Leader's Corridor": "领袖走廊",
 		"Cypress": "塞普雷斯",
 		"Inside the house are a bunch of high-ranking inhabitants, and what appears to be a leader sitting in a chair.": "房间内聚集着众多地位显赫的居民，其中一位端坐在主位之上的身影，显然是他们的领袖。",
 		"A vision torch appears to be hung right next to the Leader.": "一盏火把视野似乎就挂在领袖旁边。",
-		
+
 		"Memorial Tower": "纪念塔",
 		"Cinder Isles Tower?": "灰烬群岛塔？",
 		"I see a building similar to the Cinder Isles Tower on The Stranger.": "我看到一座类似于外星站上的灰烬群岛塔的建筑。",
@@ -1255,7 +1244,7 @@
 		"I told the leader everything I know with a Vision Torch!": "我用火把视野告诉了领袖我知道的一切！",
 		"The leader's name is Cypress and he's a distant descendant of The Scientist.": "领袖的名字是塞普雷斯，他是科学家的远房后裔。",
 		"I was able to convince Cypress to come with me aboard The Vessel! Let's get going!": "我说服了塞普雷斯和我一起登上飞船！我们出发吧！",
-		
+
 		"Giant Building?": "巨型建筑？",
 		"Space Center": "太空中心",
 		"I see a giant building with three inhabitant ships on its ceiling.": "我看到一座巨大的建筑，天花板上有三艘居民的飞船。",
@@ -1263,7 +1252,7 @@
 		"I met an inhabitant named Twig, who runs his kind's space program!": "我遇到了一位名叫特威格的居民，他负责管理他们种族的太空计划！",
 		"Twig's mission is to send out a probe into the dying universe.": "特威格的任务是向垂死的宇宙发射探测器。",
 		"Twig said the best way to explore the system is to reach out to the other travelers.": "特威格说，探索这个星系最好的方法是与其他旅行者联系。",
-		
+
 		"The Scientist's Museum": "科学家的博物馆",
 		"I found a statue of The Scientist outside a taller-looking version of the Bramble Museum on Angler's Eye. Looks like it was built in his honor.": "我在安康鱼之眼上发现了一座高大的荆棘博物馆，其外立着科学家的雕像。显然这是为纪念他的丰功伟绩而建。",
 		"The statue was built in honor of The Scientist. If it wasn't for him, this planet would still just be a ball of dirt.": "这座雕像是为了表彰科学家的卓越贡献。若非他的努力，这颗行星至今仍是一片贫瘠荒芜之地。",
@@ -1283,26 +1272,26 @@
 		//newsim
 
 		"Isolated Swamp": "孤立沼泽",
-		
+
 		"Scientist Data Clone": "科学家数据克隆",
-		
+
 		"Hidden Path in Simulation": "模拟中的隐藏路径",
 		"According to a slide reel I found inside the Signal House on Angler's Eye, there is a secret path near the peephole in the fourth sector of the simulation.": "根据我在安康鱼之眼信号屋发现的幻灯片记载，模拟世界第四区域的窥视孔附近隐藏着一条秘密通道。",
 		"There is a fourth sector in the simulation I have never noticed before. It has a few houses built on top of the lake.": "我在模拟世界中发现了一个此前从未注意到的第四区域，那里有几座建在湖面上的房屋。",
 		"I saw some glitched tiles wrapping around the buildings in the area.": "我注意到区域内的建筑周围漂浮着一些出现故障的数字化砖块。",
-		
+
 		"Simulated Research House": "模拟研究所",
 		"In the new simulation area, there is a fixed-up version of the Research and Development House on Angler's Eye.": "在这个新模拟区域中，我发现了安康鱼之眼研究所的一个经过修复的复制版本。",
 		"This new area was coded in by the Scientist on Angler's Eye when he visited The Stranger.": "这片新区域是科学家在造访外星站期间亲手编入系统的。",
 		"The Scientist did not feel comfortable about the simulation's life preserving abilities.": "科学家对模拟系统保存生命意识的方式深感不安。",
 		"According to the Scientist, his kind were still homesick in the simulation of their homeland and realized the only thing he could do to help was to put them in a permanant coma.": "据科学家所述，即使身处家园的模拟环境中，他的族人仍深受思乡之苦。他最终意识到，让他们进入永久沉眠是能为他们做的唯一慈悲之举。",
 		"A memorial dedicated to The Scientist and his family are on the second floor. Both his children died by lack of nutrients from The Stranger.": "二楼设有一座纪念科学家及其家人的纪念碑。他的两个孩子都因外星站上缺乏必要营养而不幸夭折。",
-		
+
 		"Simulated Theater": "模拟剧院",
 		"In the new simulation area, there is a fixed-up version of the Theater House on Angler's Eye.": "在这个新模拟区域中，我发现了一座与安康鱼之眼上剧院屋相似但经过修复的建筑。",
 		"A thief stole some of the slides to burn them! According to the text I found in the Theater House, he ran to the left after running out the front door.": "有个窃贼偷走了一些幻灯片准备销毁！根据我在剧院屋里发现的记录，他逃出前门后向左方向逃窜了。",
 		"I went to the left of the entrance and I see nothing there... Something's not right.": "我前往入口左侧查探，却空无一物……这里面一定有什么蹊跷。",
-		
+
 		"Secret Path Slide Reel": "秘密路径幻灯片卷轴",
 		"The slide reel shows that there is an underwater bridge to get to the house on the far left.": "这卷幻灯片揭示了一座隐藏在水面上的桥梁，通往远处左侧的那座神秘房屋。",
 
@@ -1317,7 +1306,7 @@
 		"In the archive, the elevator to the right takes me down to the theater. It also contains a table and some data transferring totems.": "在档案中，右边的电梯将我带到剧院。它还包含一张桌子和一些数据传输图腾。",
 		"Accroding to a message on the table, The Scientist made this archive to preserve all the slide reels, but this \"leader\" ordered him to have it guarded.": "根据桌子上的一条消息，科学家制作了这个档案是为了保存所有幻灯片卷轴，但这位'领袖'命令他派人看守。",
 		"Accroding to a message on the table, The Scientist explains how the coma hall works, but also brings up how popular it was. This explains where all the others went that I haven't seen in the other areas.": "根据桌子上的一条消息，科学家解释了永眠殿的工作原理，但也提到了它有多受欢迎。这解释了我在其他区域没有看到的所有其他人去了哪里。",
-		
+
 		"Prisoner's Breakdown Reel": "幽禁者崩溃卷轴",
 		"This slide reel shows The Prisoner among others breaking down in tears after watching The Scientist crash into Angler's Eye. The Prisoner almost jumped off the Eye Shrine, but seeing The Eye Symbol sparked something in him to stop...": "这卷幻灯片记录了一个令人心碎的场景——当目睹科学家坠毁于安康鱼之眼时，幽禁者与其他居民痛哭崩溃。幽禁者几乎从宇宙之眼神殿跃下，但在最后一刻，那宇宙之眼的符号唤醒了他内心深处的某种感悟……",
 		"I met a data clone of The Scientist in the Isolated Swamp Archives!": "我在孤立沼泽档案库中遇见了科学家的数据克隆体！",
@@ -1332,52 +1321,52 @@
 		"The Scientist describes leadership of his kind. It's made up of a council, but one leader ends up being more powerful than others. The leader they had was a tyrant, leaving people who refused to board The Stranger at home to die.": "科学家描述了他们种族的领导体制。名义上是由议会组成，但实际上总有一位领导者掌握着超出他人的权力。他们那时的领导者是个暴君，将所有拒绝登上外星站的人遗弃在家园等死。",
 		"The Scientist tells me more about Angler's Eye. When travelling to check on their home moon, The Scientist and his family crashed into it because they miscalculated its orbit, which actually orbited both Dark Bramble and The Eye. It's also an \"evil twin\" of the Quantum Moon. The Scientist also mentions that the mineral on Angler's Eye will get you through the Hurricane unharmed.": "科学家向我详细讲述了安康鱼之眼的秘密。当年他带着家人前往考察家园卫星时，因为错误计算了它的轨道——这颗卫星实际同时环绕着黑棘星和宇宙之眼运行——导致他们坠毁于此。有趣的是，它被视为量子卫星的'邪恶双胞胎'。科学家还提到，安康鱼之眼上的特殊矿物能让你安然穿越那致命的飓风。",
 
-		
+
 		//quantum
 
 		"Distant Enigma": "深域幻星",
-		
+
 		"Fourth Planet?": "第四颗行星？",
 		"I've heard rumors of a fourth planet with a transforming surface.": "据传，在星系边缘处还存在着一颗表面不断变幻的神秘行星。",
-		"The Distant Enigma is the fourth planet of the Strangers' Homeworld. quantum planet with three states.": "深域幻星是外星站居民星系的第四颗行星，一颗拥有三种量子态的奇特天体。",
+		"The Distant Enigma is the fourth planet of the Strangers' Homeworld.": "深域幻星是外星站居民星系的第四颗行星。",
 		"Bark hinted that this planet is quantum, and has three states.": "巴克曾暗示这颗行星具有量子特性，存在着三种不同的形态状态。",
 		"The first state has hard, dark ice, but seem to have some dents in them.": "第一种形态呈现为坚硬的暗色冰层，表面却布满了奇特的凹痕。",
 		"The second state has lakes of poisonous water.": "第二种形态则是一片片致命的剧毒湖泊。",
 		"The third state has thin, bright ice.": "第三种形态覆盖着一层薄而透亮的冰面。",
-		
+
 		"Fourth Planet Traveler?": "第四颗行星旅行者？",
 		"Bark": "巴克",
 		"According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I sometimes hear one coming from the distance, of what could be a fourth planet.": "据太空计划负责人特威格所言，还有其他携带信号的旅行者散布在各处。我偶尔能捕捉到一个来自遥远星域的微弱信号，可能源自传说中的第四颗行星。",
 		"I met a travelling inhabitant named Bark, but he's only alive on the first state.": "我终于见到了一位名叫巴克的旅行居民，奇怪的是，他似乎只在这颗星球的第一种量子状态中存在。",
-		
+
 		"Distant Enigma Lab": "深域幻星实验室",
 		"I found a lab on Distant Enigma's First State.": "我在深域幻星的第一量子态中发现了一座实验室。",
 		"Studies show that quantum bodies like this one are a collision of separate timelines. They also mention the lab changes each state.": "研究记录表明，像这样的量子体其实是多条时间线的交汇点。记载中还提到实验室会随着量子态的变化而呈现不同形态。",
 		"On the third state, they have discovered a machine meant for a special mineral.": "在第三种量子态下，研究人员发现了一台专门处理特殊矿物的机器。",
 		"Shown on a picture on one of the tables is a scratch on the ice of the current state. They say it marks the location of a light sensor submerged in the poison state, which is marked somewhere behind the thick-ice state's lab. It will likely open if an object that can both emit light and take pictures is placed down.": "桌上的一张图片展示了当前状态冰层上的一道划痕。据记载，这道痕迹标识出了一个沉没在毒液状态中的光传感器位置，具体位于厚冰状态实验室后方某处。如果放置一个既能发光又能拍照的物品，应该能激活它。",
 		"Shown on a picture on one of the tables is a crack on the ice of the current state. It can be found on the patch of ice to the right of the lab, and might need something to break its weight.": "另一张桌上图片显示了当前状态冰面上的一条裂缝。它位于实验室右侧的冰层区域，可能需要某种重物才能使其彻底破裂。",
-		
+
 		"Distant Enigma Broken Lab": "深域幻星破损实验室",
 		"I found a lab on Distant Enigma's Second State....but it's all broken.": "我在深域幻星的第二量子态中找到了一个实验室……但整个设施已经严重损毁。",
 		"It seems the lab was broken and all operations in it were moved to the volcanic moon.": "看来这座实验室被毁后，所有研究活动都转移到了火山卫星上。",
 		"According to some text I saw lying near the shores of the second state, research has proven photography the most effective way to increase the weight of a quantum object. It also states you only need to take a picture once, so you can remove the picture and change states once taken.": "根据我在第二状态海岸边发现的文献记载，研究证实摄影是增加量子物体重量最有效的方法。文中特别指出，只需拍摄一次照片，即使随后销毁照片，也能成功改变物体状态。",
-		
+
 		"Distant Enigma Blocked Lab": "深域幻星封锁实验室",
 		"I found a lab on Distant Enigma's Third State, but it seems blocked...": "我在深域幻星的第三量子态中发现了一座实验室，但入口似乎被封锁了……",
 		"I made my way into the blocked lab with the door interface hidden beneath the liquid on the second state! Behind the door is an odd machine...": "我通过第二状态中隐藏在液体下的控制界面成功进入了这座封锁实验室！门后是一台奇特的装置……",
 		"Studies show that something natural on the planet once caused the ice on this state to break.": "研究显示，这颗行星上的某种自然现象曾导致这一状态下的冰层自然破裂。",
 		"Some text next to the machine explains its capabilities of weakening quantum objects. This decreases their range, which causes their weight to increase.": "机器旁的说明文字详细解释了该设备削弱量子物体的原理——通过减小量子叠加态的波函数范围，从而使其物质重量增加。",
-		
+
 		"Distant Enigma Base": "深域幻星基地",
 		"I found a base on Distant Enigma's First State. It doesn't seem to appear on the second or third states.": "我在深域幻星的第一量子态中发现了一处隐秘基地，奇怪的是，它在其他两种量子态中完全消失不见。",
 		"The Strangers' Inhabitants set up a biometric authentication system somewhere to prevent alien espionage.": "外星站居民在某处精心设置了生物识别认证系统，旨在防范可能的外星间谍活动。",
 		"The biometrics are flawed, and will let you in if you hold the skull of an Inhabitant.": "然而，这套生物识别系统存在致命缺陷——只要持有一具居民的头骨，任何人都能轻易通行。",
-		
+
 		"Fourth Planet Socket?": "第四颗行星插槽？",
 		"Distant Enigma Seal": "深域幻星封印",
 		"On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a rocky, magenta planet. Could this be the fourth planet?": "在环界星上，我看到一处废弃的结构，其中一个插槽上镶嵌着一颗岩质品红色行星的图案。这会是传说中的第四颗行星吗？",
 		"I found a square piece of metal under the ice of the third state. It looks like it fits in the structure...": "我在第三量子态的冰层下发现了一块方形金属片，看起来恰好能嵌入那个结构中……",
-		
+
 		"Distant Enigma Stalls?": "深域幻星摊位？",
 		"Quantum Stalls": "量子摊位",
 		"A few inhabitant-sized stalls are found throughout Distant Enigma. What is their purpose?": "在整个深域幻星中发现了几处居民大小的摊位，它们的用途是什么？",
@@ -1387,13 +1376,13 @@
 		"Hidden Light Sensor": "隐藏光传感器",
 		"There's a light sensor that will open the way to the lab on the thin-ice state. I need to use something that emits light and takes pictures.": "在薄冰量子态的实验室入口处有一个光传感器，只需使用既能发光又能拍照的物品，它便能开启通路。",
 		"I found an interface with my scout using the scratch marks and changing states.": "我利用划痕标记和量子态切换，成功用侦察探针激活了隐藏的界面。",
-		
+
 		"Surface Crack?": "表面裂缝？",
 		"Surface Crack": "表面裂缝",
 		"There's a picture showing cracks on the dark-ice state. Some text says it's diagonally to the right of the lab from where you exit.": "有一张图片显示了暗冰量子态下的裂缝。文字说明它位于你离开实验室时右上方的对角线方向。",
 		"Bark says he found the crack by his ship near the lab.": "巴克说他在实验室附近的飞船旁发现了这处裂缝。",
 		"I found a crack on Distant Enigma's first state, by Bark's Ship.": "我在深域幻星第一量子态中，就在巴克飞船旁边，找到了那处神秘裂缝。",
-		
+
 		"Surface Scratch?": "表面划痕？",
 		"Surface Scratch Marks": "表面划痕标记",
 		"There's a picture showing a scratch mark on the dark-ice state. Some text says it's directly behind the lab somewhere.": "有一张图片显示了暗冰量子态下的划痕标记。文字说明它位于实验室正后方的某个位置。",
@@ -1406,20 +1395,20 @@
 		"Ringed Giant Surface?": "环界星表面？",
 		"I've finally seen the Ringed Giant in all its glory first-hand! Now is there anything beneath the clouds?": "我终于亲眼见到了环界星全部的辉煌！云层下还有什么吗？",
 		"Beneath the clouds of the Ringed Giant is a ocean of mostly pure water, and two islands. The islands seem tall because The Scientist must have drained a bit of the water for terraforming.": "在环界星的云层下是一片几乎纯净的水域，还有两座岛屿。岛屿看起来之所以高大，是因为科学家一定抽走了一部分水用于地球化改造。",
-		
+
 		"Mysterious Structure": "神秘建筑",
 		"I found a mysterious structure on one of the islands. It seems to have five sockets, with pictures of all the planets on each of them.": "我在其中一座岛上发现了一座神秘建筑。它似乎有五个插槽，每个插槽上都有各个行星的图片。",
-		
+
 		"Ringed Giant Traveler?": "环界星旅行者？",
 		"Bush": "布什",
 		"According to Twig, the head of the Inhabitants' Space Program, there are other travelers, each carrying a signal. I hear one coming from the Ringed Giant.": "据特威格——居民太空计划负责人说，还有其他旅行者，每人都携带着一个信号。我听到有一个信号来自环界星。",
 		"I met a travelling inhabitant named Bush!": "我遇到了一位名叫布什的流浪居民！",
 		"Bush says there's not much else to do here other than find the campground.": "布什说，这里除了找露营地之外没什么可做的。",
-		
+
 		"Campsite?": "露营地？",
 		"Ringed Giant Campsite": "环界星露营地",
 		"Bush said he had a camp elsewhere on the Ringed Giant.": "布什说他在环界星上另有一个营地。",
-		
+
 		"Ringed Giant Socket?": "环界星插槽？",
 		"Ringed Giant Seal": "环界星封印",
 		"On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of the Ringed Giant.": "在环界星上，我看到一座废弃的建筑，其中一个插槽上印有环界星的图片。",
@@ -1431,11 +1420,11 @@
 		"Ringed Laboratory": "环状实验室",
 		"I have entered a mysterious structure left by The Scientist.": "我已进入科学家留下的神秘建筑。",
 		"This laboratory is orbiting around the Ringed Giant! It must be a station used for terraforming!": "这个实验室正环绕着环界星运行！它一定是一座用于地球化改造的空间站！",
-		
+
 		"Tree Room": "树屋",
 		"There is a room with a single tree in it.": "里面有一个只有一棵树的房间。",
 		"A piece of text on the wall says the trees are healthy and are ready to be planted.": "墙上的一段文字写着：这些树木生长健康，已准备好栽种。",
-		
+
 		"Terraform Plan?": "地球化计划？",
 		"Terraform Plan": "地球化计划",
 		"The text near the tree says that The Scientist's terraforming plan is going smoothly.": "树旁的文字写着，科学家的地球化改造计划正顺利进行。",
@@ -1475,7 +1464,7 @@
 		"Orbiting the crimson gas giant is a volcanic moon. Could there perhaps be something on it?": "围绕着绯红气态巨星运行的是一颗火山卫星。或许上面有什么东西？",
 		"Burning Bombardier is Velvet Vortex's volcanic moon.": "烈焰卫星是绯旋星的火山卫星。",
 		"If you reach a low enough elevation, you will start taking heat damage.": "如果你到达足够低的海拔，就会开始受到热伤害。",
-		
+
 		"Burning Bombardier Base": "烈焰卫星基地",
 		"Pine said there was a base somewhere on Velvet Vortex's Moon.": "派恩曾提到，绯旋星的卫星上藏有一座秘密基地。",
 		"There is a base wedged in between two volcanoes on Burning Bombardier.": "烈焰卫星上有一座基地，巧妙地隐匿于两座活火山之间。",
@@ -1485,7 +1474,7 @@
 		"A clock in the military base shows every 11 minutes with a symbol.": "军事基地内的特殊时钟每隔11分钟就会显示一个神秘符号。",
 		"The text here says the desert planet will lose its atmosphere at \"star time\".": "这里的记录表明，沙漠行星将在'恒星时刻'失去其大气层。",
 		"This text here mentions a \"seal\", and it will be burned by lava at \"ring time\".": "另一处记录则提到某个'封印'将在'环时'被熔岩彻底焚毁。",
-		
+
 		"Volcano Moon Socket?": "火山卫星插槽？",
 		"Burning Bombardier Seal": "烈焰卫星封印",
 		"On the Ringed Giant, I saw an abandoned structure. On one of the slots it had a picture of a VOLCANO gas giant.": "在环界星上，我看到一座废弃的建筑，其中一个插槽上有一张火山气态巨星的图片。",
@@ -1507,6 +1496,8 @@
 	},
 
 	"UIDictionary": {
+		"AnonymousStrangerOW.StrangerSystem": "Stranger System",
+
 		"Musician": "音乐家",
 		"Strangers' Probe": "陌生人探针",
 		"Strange Frequency": "奇异信号",
@@ -1546,6 +1537,13 @@
 		"Holly": "霍利",
 		"Sycamore": "西卡莫尔",
 
+		"Skull": "Skull",
+		"Mineral": "Mineral",
+
+		"Angler's Eye": "安康鱼之眼",
+		"Ringed Laboratory": "环状实验室",
+		"Nearest Neighbor": "Nearest Neighbor",
+		"Strangers' Homeworld": "外星站居民的家园",
 		"Burning Bombardier": "烈焰卫星",
 		"Sizzling Sands": "炙热沙海",
 		"Velvet Vortex": "绯旋星",
