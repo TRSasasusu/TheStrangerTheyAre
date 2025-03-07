@@ -1474,9 +1474,11 @@
     "Ringed Giant": "Ringed Giant",
     "Strangers' Homeworld": "Strangers' Homeworld"
   },
-	"OtherDictionary": {
-		"SealDisplayName": "{0} Seal"
-	},
+  "OtherDictionary": {
+    "SealDisplayName": "{0} Seal",
+    "Skull": "Skull",
+    "Mineral": "Mineral"
+  },
 	"AchievementTranslations": {
 		"tsta_thevision": {
 			"Name": "The Vision",

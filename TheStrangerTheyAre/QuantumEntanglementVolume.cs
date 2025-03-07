@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using OWML.Common;
 using NewHorizons.Components.Quantum;
 
 namespace TheStrangerTheyAre
@@ -47,8 +46,6 @@ namespace TheStrangerTheyAre
             {
                 ChangeState();
             }
-
-            flashlight = Locator.GetFlashlight(); // gets the player flashlight
         }
 
         void OnDestroy()
@@ -74,6 +71,7 @@ namespace TheStrangerTheyAre
             if (Locator.GetFlashlight().IsFlashlightOn())
             {
                 flashlight = true;
+                stateChanged = false;
             } else
             {
                 flashlight = false;
@@ -105,7 +103,7 @@ namespace TheStrangerTheyAre
 
             for (int i = 0; i < states.Length; i++)
             {
-                if (states[i].activeSelf) // checks for active state
+                if (states[i].activeSelf) // searches for active state before the state changes
                 {
                     states[i].SetActive(false); // sets current state false
                     if (isSequential) // sequential state change
@@ -138,8 +136,8 @@ namespace TheStrangerTheyAre
                                 states[random].SetActive(false);
                             }
                         }*/
-        }
-    }
+                    }
+                }
             }
         }
         public void OnTriggerVolumeEntry(GameObject hitObj)

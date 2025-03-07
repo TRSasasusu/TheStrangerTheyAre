@@ -1217,14 +1217,13 @@
     "Strangers' Homeworld": "이방인의 고향",
     "Nearest Neighbor": "가까운 이웃",
     "NEAREST NEIGHBOR": "가까운 이웃",
-    "Ringed Laboratory": "고리 거인 연구소",
-
-    "Skull": "두개골",
-    "Mineral": "광석"
+    "Ringed Laboratory": "고리 거인 연구소"
   },
 
   "OtherDictionary": {
-    "SealDisplayName": "{0} 봉인"
+    "SealDisplayName": "{0} 봉인",
+    "Skull": "두개골",
+    "Mineral": "광석"
   },
 
 
