@@ -68,12 +68,6 @@ namespace TheStrangerTheyAre
                 }
                 ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
-            bool isMuricaOn = ModHelper.Interaction.ModExists("Hawkbar.FreedomUnits");
-            if (isMuricaOn)
-            {
-                ModHelper.Console.WriteLine("IMPERIALISM DETECTED! SHUTTING DOWN!", MessageType.Error);
-                Application.Quit();
-            }
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
                 if (loadScene == OWScene.PostCreditsScene)
