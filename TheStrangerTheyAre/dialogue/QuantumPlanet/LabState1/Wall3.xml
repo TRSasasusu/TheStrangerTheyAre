@@ -4,7 +4,7 @@
 		<Name>Wall3</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>A light sensor submerged beneath the poison lake state is the key to enter the lab on the thin-ice state. It is hard to locate the sensor in its native state, but we cannot risk leaving the lab open. Instead, we left scratches in the ice at the equivalent location in the current state. Placing a light-emitting marker there before changing states should make finding the sensor significantly easier.</Page>
+			<Page>A sumberged light sensor on the poison lake state key to entering the lab on the thin-ice state. It is hard to locate the sensor in its native state, but we cannot risk leaving the lab open. Instead, we left scratches in the ice at the equivalent location in the current state. Placing a light-emitting marker there before changing states should make finding the sensor significantly easier.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S1_LAB_TEXT3</FactID>
