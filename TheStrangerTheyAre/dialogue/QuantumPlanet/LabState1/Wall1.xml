@@ -4,7 +4,7 @@
 		<Name>Wall1</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>We've discovered that this planet is actually a convergence point where three timelines meet. As such, the three versions of this planet are not just states, but fragments of entirely different relities. When changing states with the stalls we built, even this lab's structure changes. Could our actions here have affected these alternate timelines?</Page>
+			<Page>We've discovered that this planet is actually a convergence point where three timelines meet. As such, the three versions of this planet are not just states, but fragments of entirely different relities. When changing states using the stalls we built, even this lab's structure changes. Could our actions here have affected these alternate timelines?</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S1_LAB_TEXT1</FactID>
