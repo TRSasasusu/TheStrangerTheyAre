@@ -4,7 +4,7 @@
 		<Name>Wall4</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>There is a crack in the ice not far from the lab. An incredibly weighty object might be able to shatter it completely.</Page>
+			<Page>There is a crack in the ice not far from the lab, caused by a heavy object. The ice on this state is too thick to break, but we predict that shattering the ice on the thin-ice state is possible if enough weight is added.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S1_LAB_TEXT4</FactID>
