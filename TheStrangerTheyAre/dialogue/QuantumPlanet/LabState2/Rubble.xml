@@ -4,7 +4,7 @@
 		<Name>Rubble</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>I THINK THEY SAW US! DESTROY IT! MOVE ALL OPERATIONS TO THE VOLCANIC MOON!</Page>
+			<Page>ALERT! ALERT! WE'VE BEEN SPOTTED! DESTROY IT! MOVE ALL OPERATIONS TO THE VOLCANIC MOON!</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S2_LAB_TEXT</FactID>
