@@ -4,7 +4,7 @@
 		<Name>Wall1</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>We know that the enemy is not of our kind, so we must protect our most important bases from intruders. Biometric measures shall be put in place in our most important base to prevent espionage by the enemy.</Page>
+			<Page>We know that this enemy is not of our kind, so we can protect our most important bases from enemy espionage using biometric scanners.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_BASE_TEXT1</FactID>

@@ -83,22 +83,22 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_S1_LAB_TEXT1</ID>
-				<Text>Studies show that quantum bodies like this one are a collision of separate timelines. They also mention the lab changes each state.</Text>
+				<Text>Researchers found that Distant Enigma exists at the intersection of three timelines. They also mention the lab changes each state.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>QUANTUM_S1_LAB_TEXT2</ID>
-				<Text>On the third state, they have discovered a machine meant for a special mineral.</Text>
+				<Text>On the third state, they discovered a machine powered by a mineral. It was deemed too risky to interact with.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>QUANTUM_S1_LAB_TEXT3</ID>
-				<Text>Shown on a picture on one of the tables is a scratch on the ice of the current state. They say it marks the location of a light sensor submerged in the poison state, which is marked somewhere behind the thick-ice state's lab. It will likely open if an object that can both emit light and take pictures is placed down.</Text>
+				<Text>Shown in a picture on one of the tables is a scratch in the ice of the current state. The researchers say it marks the location of a light sensor submerged in the poison state. The sensor will be easier to find if an object that can emit light is placed near the scratch before changing states.</Text>
 			</ExploreFact>
 			
 			<ExploreFact>
 				<ID>QUANTUM_S1_LAB_TEXT4</ID>
-				<Text>Shown on a picture on one of the tables is a crack on the ice of the current state. It can be found on the patch of ice to the right of the lab, and might need something to break its weight.</Text>
+				<Text>Shown in a picture on one of the tables is a crack in the ice of the current state. The researchers say a heavy object here may shatter the ice in a different state.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -114,12 +114,12 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_S2_LAB_TEXT</ID>
-				<Text>It seems the lab was broken and all operations in it were moved to the volcanic moon.</Text>
+				<Text>It seems the lab was torn down and all operations within were moved to the volcanic moon.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>QUANTUM_S2_LAB_TEXT2</ID>
-				<Text>According to some text I saw lying near the shores of the second state, research has proven photography the most effective way to increase the weight of a quantum object. It also states you only need to take a picture once, so you can remove the picture and change states once taken.</Text>
+				<Text>According to some text I saw lying near the shores of the second state, taking a photo of a quantum object increases that object's weight. This effect persists, so a photo can be taken once and then put away.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -140,12 +140,12 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_S3_LAB_TEXT1</ID>
-				<Text>Studies show that something natural on the planet once caused the ice on this state to break.</Text>
+				<Text>The machine is tuned to increase the quantum weight of nearby quantum objects, thus decreasing their range.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>QUANTUM_S3_LAB_TEXT2</ID>
-				<Text>Some text next to the machine explains its capabilities of weakening quantum objects. This decreases their range, which causes their weight to increase.</Text>
+				<Text>The engineers determined that the machine is safe to interact with.</Text>
 			</ExploreFact>
 		</Entry>
 
@@ -161,12 +161,12 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_BASE_TEXT1</ID>
-				<Text>The Strangers' Inhabitants set up a biometric authentication system somewhere to prevent alien espionage.</Text>
+				<Text>The Strangers' Inhabitants set up a biometric authentication system to prevent alien espionage.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>QUANTUM_BASE_TEXT2</ID>
-				<Text>The biometrics are flawed, and will let you in if you hold the skull of an Inhabitant.</Text>
+				<Text>The biometrics are flawed, and will unlock in the presence of a deceased inhabitant skull.</Text>
 			</ExploreFact>
 		</Entry>
 		
@@ -185,7 +185,7 @@
 
 			<ExploreFact>
 				<ID>QUANTUM_SEAL_E</ID>
-				<Text>I found a square piece of metal under the ice of the third state. It looks like it fits in the structure...</Text>
+				<Text>I found a square piece of metal under the ice of the third state. It looks like it fits somewhere...</Text>
 			</ExploreFact>
 
 			<ExploreFact>
