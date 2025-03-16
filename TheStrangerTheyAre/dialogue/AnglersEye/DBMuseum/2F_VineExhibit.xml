@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>It has been discovered that the minerals found all over this moon have properties that inhibit the invasive plant's growth. Doing so alters the connected pocket dimensions, eliminating all light within and causing the anglerfish to behave differently.</Page>
+			<Page>Apparently, it has been discovered that the only way to stop the growth of the plant is through use of the minerals found all over this moon. However, it can have side effects to the pocket dimensions it connects to, eliminating all light within. The anglerfish also seem to act different.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_DBMUSEUM_VINEEXHIBIT</FactID>
