@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using OWML.Common;
 using NewHorizons.Utility;
+using NewHorizons.Utility.Files;
 
 namespace TheStrangerTheyAre
 {
@@ -15,6 +16,7 @@ namespace TheStrangerTheyAre
         private GameObject planetState3; // creates variable to store quantum planet
         private GameObject barkShip; // creates vairable to store ship
 
+        private OWAudioSource audio;
         private bool hasBroken; // creates boolean to check if the ice broke
         private bool stateActiveOnce; // creates boolean to check if the player saw state 3 or not.
 
@@ -36,11 +38,14 @@ namespace TheStrangerTheyAre
             ice = planetState3.transform.Find("EnigmaThinIce").gameObject; // gets the ice
             iceBroken = planetState3.transform.Find("EnigmaThinIceBroken").gameObject; // gets the broken ice
             shard = planetState.transform.Find("ENIGMA_SHARD_WEAK").gameObject; // gets the weak shard
+            audio = shard.GetComponent<OWAudioSource>(); // gets the weak shard
             activateSocket = planetState.transform.Find("Quantum Sockets - WeakenedQuantum/Socket 0").gameObject; // gets the weak shard
             probeCam = Locator.GetProbe().GetForwardCamera().GetOWCamera();
             barkShip = SearchUtilities.Find("Sector-3/State3_Ship");
 
             _shardVisibilityObject = shard.GetComponent<VisibilityObject>();
+
+            AudioUtilities.SetAudioClip(audio, "assets/Audio/enigmabreak.ogg", TheStrangerTheyAre.Instance); // sets audio clip
         }
 
         void Update()
@@ -51,12 +56,12 @@ namespace TheStrangerTheyAre
                 && _shardVisibilityObject.CheckVisibilityFromProbe(probeCam))
             {
                 if (!hasBroken) {
+                    audio.Play();
                     hasBroken = true; // sets break-checking boolean to true when weakened shard is active, player is in state 1, and in the right spot.
                 }
             }
             if (planetState3.activeSelf)
             {
-                
                 // run when broken
                 if (hasBroken)
                 {

@@ -351,14 +351,14 @@
 				"alignRadial": true,
 				"keepLoaded": true,
 				"position": {
-					"x": 108.6301,
-					"y": -3.7779,
-					"z": 5.9691
+					"x": 44.3472,
+					"y": 92.1005,
+					"z": -32.2155
 				},
 				"rotation": {
-					"x": 318.5079,
-					"y": 129.9346,
-					"z": 40.2591
+					"x": 2.6478,
+					"y": 35.2522,
+					"z": 237.3875
 				}
 			},
 			{
@@ -662,21 +662,8 @@
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/SlideHouse/Desk1.xml",
-				"parentPath": "Sector/TheatreHouse_DBM/Interacables/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": -93.56413,
-					"y": 53.30138,
-					"z": 5.57249
-				}
-			},
-			{
-				"xmlFile": "dialogue/AnglersEye/SlideHouse/Desk2.xml",
 				"parentPath": "Sector/TheatreHouse_DBM/Interacables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": -94.27225,
-					"y": 51.98843,
-					"z": 6.507222
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/Outside/Mines.xml",
@@ -1491,42 +1478,8 @@
 			},
 			{
 				"type": "visionTorchTarget",
+				"parentPath": "Sector/TheatreHouse_DBM/Interacables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
-				"position": {
-					"x": -93.56413,
-					"y": 53.30138,
-					"z": 5.57249
-				},
-				"reveals": [
-					"ANGLERS_EYE_ALIENTEXT_E1",
-					"ANGLERS_EYE_ALIENTEXT_E2"
-				],
-				"slides": [
-					{
-						"imagePath": "assets/Slideshows/LearnStrangLang/slide1.png",
-						"backdropAudio": "assets/Audio/OW Space Station (SHORTENED).ogg"
-					},
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide2.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide3.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide4.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide5.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide6.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide7.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide8.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide9.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide10.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide11.png" },
-					{ "imagePath": "assets/Slideshows/LearnStrangLang/slide12.png" }
-				]
-			},
-			{
-				"type": "visionTorchTarget",
-				"isRelativeToParent": true,
-				"position": {
-					"x": -94.27225,
-					"y": 51.98843,
-					"z": 6.507222
-				},
 				"reveals": [
 					"ANGLERS_EYE_ALIENTEXT_E1",
 					"ANGLERS_EYE_ALIENTEXT_E2"

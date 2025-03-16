@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>With those two things, fresh air will flourish, so plants and animals can thrive and nourish.</Page>
+			<Page>With those two things, fresh air will flourish, so plants and animals can thrive and nourish. But best beware the spreading flames, the air might spark it all ablaze.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_THEATRE_POEMTEXT1</FactID>

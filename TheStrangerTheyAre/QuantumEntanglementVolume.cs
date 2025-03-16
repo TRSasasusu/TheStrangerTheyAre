@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using NewHorizons.Components.Quantum;
 
 namespace TheStrangerTheyAre
 {
@@ -14,7 +13,6 @@ namespace TheStrangerTheyAre
         const int numStates = 3; // creates int value for number of states
         GameObject[] states = new GameObject[numStates]; // creates variable to store each state of the planet.
 
-        QuantumPlanet enigmaComponent;
         bool flashlight = false; // creates boolean to store whether player flashlight is on/off
         bool isSequential = true; // boolean to determine if sequential or random.
         System.Random rnd = new System.Random(); // random number generator
@@ -46,6 +44,8 @@ namespace TheStrangerTheyAre
             {
                 ChangeState();
             }
+
+            flashlight = Locator.GetFlashlight(); // gets the player flashlight
         }
 
         void OnDestroy()
@@ -71,8 +71,8 @@ namespace TheStrangerTheyAre
             if (Locator.GetFlashlight().IsFlashlightOn())
             {
                 flashlight = true;
-                stateChanged = false;
-            } else
+            }
+            else
             {
                 flashlight = false;
             }
@@ -103,12 +103,12 @@ namespace TheStrangerTheyAre
 
             for (int i = 0; i < states.Length; i++)
             {
-                if (states[i].activeSelf) // searches for active state before the state changes
+                if (states[i].activeSelf) // checks for active state
                 {
                     states[i].SetActive(false); // sets current state false
                     if (isSequential) // sequential state change
                     {
-                        if (i == states.Length-1)
+                        if (i == states.Length - 1)
                         {
                             states[0].SetActive(true); // activates 0 to loopback to beginning if state is at max length
                             break; // breaks for loop
@@ -145,7 +145,7 @@ namespace TheStrangerTheyAre
             //checks if player collides with the trigger volume
             if (hitObj.CompareTag("PlayerDetector") && enabled) // commented out because it won't check things properly
             {
-               isInTrigger = true;
+                isInTrigger = true;
             }
         }
 

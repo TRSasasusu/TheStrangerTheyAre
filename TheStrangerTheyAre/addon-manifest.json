@@ -72,13 +72,6 @@
       ]
     },
     {
-      "ID": "tsta_followyourdreams",
-      "secret": true,
-      "conditionIDs": [
-        "tsta_followyourdreams"
-      ]
-    },
-    {
       "ID": "tsta_ernesto",
       "secret": true,
       "conditionIDs": [
