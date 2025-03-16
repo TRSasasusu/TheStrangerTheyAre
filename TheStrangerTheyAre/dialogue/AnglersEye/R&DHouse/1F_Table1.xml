@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Before we can restore our home moon, we must first find some way to return there. This will be difficult because we cannot return use the colony ship, but even so it is not impossible. Imagine the pain if our universe was a trillion times bigger.</Page>
+			<Page>Before we can restore our home moon, we must first find some way to return there. This will be difficult, but not impossible. Imagine the pain if our universe was a trillion times bigger.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_RD_TERRAPLAN_TEXT1</FactID>
