@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>The fifth planet is infested by a plant that rapidly grew from the bottom of its subsurface ocean and today reaches almost to the surface. On the left is a model of the planet in its current state, and on the right is a model depicting its ultimate fate.</Page>
+			<Page>The fifth planet currently has an invasive plant that started rapidly growing from the bottom of its subsurface ocean, and today has grown almost to the surface. To the left is what the fifth planet of this system looks like, to the right is what the planet and its fate will look like in the future.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_DBMUSEUM_DBEXHIBIT</FactID>
