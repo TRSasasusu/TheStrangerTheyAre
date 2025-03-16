@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>This moon is comprised of a reflective, energy-dense mineral. The mineral's unique properties are the source of this moon's cloaking effect.</Page>
+			<Page>The planet is abundant with a smooth, black mineral with strange properties. Our kind used these resources for our ship.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_RD_ORBIT_TEXT2</FactID>
