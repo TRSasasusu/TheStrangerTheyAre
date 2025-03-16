@@ -418,12 +418,12 @@
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_RD_TERRAPLAN_TEXT1</ID>
-				<Text>To the left of the picture, the text details a plan to return to their home moon.</Text>
+				<Text>To the left of the picture, the text says that the picture was a plan to terraform their home moon, and that doing so isn't impossible.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_RD_TERRAPLAN_TEXT2</ID>
-				<Text>To the right of the picture, the text details a plan for terraforming their home moon.</Text>
+				<Text>To the right of the picture, the text says that for whatever reason, The Stranger cannot be used. Water can be extracted from the Teal-Ringed Giant, and trees and transport are necessary.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
