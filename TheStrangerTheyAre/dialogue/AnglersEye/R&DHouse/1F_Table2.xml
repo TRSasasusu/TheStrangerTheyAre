@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>Once we return home, we will need water and trees. The trees can be prepared here in a conservatory. The water can be harvested once we arrive by extracting hydrogen and oxygen from the Teal-Ringed Giant.</Page>
+			<Page>Once we return home, we will need water and trees. We can harvest water by extracting hydrogen and oxygen from the Teal-Ringed Giant.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_RD_TERRAPLAN_TEXT2</FactID>
