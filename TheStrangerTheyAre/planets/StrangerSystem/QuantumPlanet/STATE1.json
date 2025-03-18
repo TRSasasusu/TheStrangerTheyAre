@@ -528,45 +528,6 @@
 					"z": 65.794
 				}
 			}
-		],
-		"entryLocation": [
-			{
-				"id": "QUANTUM",
-				"cloaked": false
-			},
-			{
-				"id": "QUANTUM_S1_LAB",
-				"cloaked": false,
-				"parentPath": "Sector/QuantumResearchLab2",
-				"isRelativeToParent": true
-			},
-			{
-				"id": "QUANTUM_CRACK",
-				"cloaked": false,
-				"position": {
-					"x": -179.9395,
-					"y": 60.5591,
-					"z": -57.7551
-				}
-			},
-			{
-				"id": "QUANTUM_SCRATCH",
-				"cloaked": false,
-				"position": {
-					"x": -145.6181,
-					"y": -133.3766,
-					"z": -19.6035
-				}
-			},
-			{
-				"id": "QUANTUM_BASE",
-				"cloaked": false,
-				"position": {
-					"x": -31.97149,
-					"y": -197.039,
-					"z": -11.89976
-				}
-			}
 		]
 	},
 	"Volumes": {

@@ -4,8 +4,9 @@
 	"AmbientLights": [
 		{
 			"outerRadius": 140.0,
-			"innerRadius": 0.0,
-			"intensity": 0.4,
+			"innerRadius": 100.0,
+			"isShell": true,
+			"intensity": 0.6,
 			"tint": {
 				"r": 255,
 				"g": 255,
