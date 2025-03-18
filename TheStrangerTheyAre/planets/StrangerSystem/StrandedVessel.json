@@ -20,7 +20,6 @@
 	"Orbit": {
 		"primaryBody": "Nearest Neighbor",
 		"semiMajorAxis": 35000,
-		"isStatic": true,
 		"showOrbitLine": false
 	},
 	"MapMarker": {
@@ -381,7 +380,7 @@
 				},
 				"rotation": {
 					"x": 0,
-					"y": 99.5275,
+					"y": 99.4275,
 					"z": 300.1455
 				}
 			},
@@ -424,14 +423,14 @@
 			{
 				"type": "standingVisionTorch",
 				"position": {
-					"x": 14.4258,
-					"y": 12.8689,
-					"z": -28.1774
+					"x": 14.654,
+					"y": 12.854,
+					"z": -29.827
 				},
 				"rotation": {
-					"x": 320.7823,
-					"y": 261.3416,
-					"z": 282.31
+					"x": -1.643,
+					"y": -165.232,
+					"z": 6.257
 				},
 				"reveals": [ "VESSEL_VISION" ],
 				"slides": [

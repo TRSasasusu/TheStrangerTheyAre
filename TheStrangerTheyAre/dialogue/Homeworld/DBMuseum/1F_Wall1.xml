@@ -4,12 +4,11 @@
 		<Name>1F_Wall1</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>These are the planets of our star system! First we have the hot, desert planet, and after that lies a stormy, crimson giant with a violent, volcanic moon.</Page>
+			<Page>These are the planets of our star system! First we have the hot, desert planet, then comes our beloved Ringed Giant where our home moon resides.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>DESERT_MAIN_R</FactID>
-			<FactID>CRIMSON_MAIN_R</FactID>
-			<FactID>VOLCANO_MAIN_R</FactID>
+			<FactID>RING_MAIN_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

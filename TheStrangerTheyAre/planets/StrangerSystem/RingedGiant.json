@@ -261,15 +261,18 @@
 				"frequency": "Unnerving Fluctuations",
 				"name": "Ringed Giant Seal",
 				"audio": "OW No-Eye Ruins 121120_2 AP LP",
-				"detectionRadius": 650,
+				"detectionRadius": 300,
 				"identificationRadius": 10,
 				"parentPath": "Sector/Seal_Ringed",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"position": {
+					"y": 2
+				}
 			}
 		]
 	},
 	"Orbit": {
-		"semiMajorAxis": 21000,
+		"semiMajorAxis": 13000,
 		"isTidallyLocked": true,
 		"alignmentAxis": {
 			"x": 4,

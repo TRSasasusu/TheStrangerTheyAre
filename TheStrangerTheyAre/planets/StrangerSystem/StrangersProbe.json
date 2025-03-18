@@ -3,7 +3,7 @@
 	"name": "Strangers' Probe",
 	"starSystem": "AnonymousStrangerOW.StrangerSystem",
 	"MapMarker": {
-		"enabled": true
+		"enabled": false
 	},
 	"Base": {
 		"surfaceSize": 100

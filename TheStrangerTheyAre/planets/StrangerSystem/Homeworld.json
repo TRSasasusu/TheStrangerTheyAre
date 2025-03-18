@@ -953,6 +953,15 @@
 					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_31.png" },
 					{ "imagePath": "assets/Slideshows/PlayerKnowledge/Hearthian/SLIDE_32.png" }
 				]
+			},
+			{
+				"type": "autoProjector",
+				"parentPath": "Sector/SpaceCenter/Props/Props_IP_ProjectionTable/Projector_Lens (1)",
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/Map/slide (1).png" },
+					{ "imagePath": "assets/Slideshows/Map/slide (2).png" }
+				]
 			}
 		]
 	},

@@ -452,16 +452,6 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector-3/Seal_Enigma",
-				"isRelativeToParent": true,
-				"radius": 5,
-				"reveals": [
-					"QUANTUM_SEAL_E"
-				]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
 				"parentPath": "Sector-3/Lab_Stall",
 				"isRelativeToParent": true,
 				"radius": 20,

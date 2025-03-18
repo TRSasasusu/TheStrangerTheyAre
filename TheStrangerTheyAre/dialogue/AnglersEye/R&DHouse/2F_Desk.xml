@@ -5,7 +5,7 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<RequiredLogCondtion>ANGLERS_EYE_ALIENTEXT_E2</RequiredLogCondtion>
 		<Dialogue>
-			<Page>For our old world to be revived, get these things and it shall thrive. There is an order it shall follow, or it will stay dead and hollow. First things first, go get a seed. Then search elsewhere for the rest you need.</Page>
+			<Page>For our old world to be revived, bring these things for it to thrive. Every tree begins as seed. Give it sun, its greatest need.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_RD_POEMTEXT</FactID>

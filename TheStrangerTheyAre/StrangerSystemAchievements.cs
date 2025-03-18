@@ -6,19 +6,6 @@ namespace TheStrangerTheyAre
     {
         [SerializeField]
         private SealSocket[] sockets;
-        private bool isIlliterate;
-        private bool hasFoundHome;
-
-        void Start()
-        {
-            isIlliterate = PlayerData.GetPersistentCondition("LANGUAGE_LEARNED");
-            hasFoundHome = Locator.GetShipLogManager().IsFactRevealed("HOME_REVEAL");
-            // follow your dreams achievement
-            if (hasFoundHome && !isIlliterate)
-            {
-                DialogueConditionManager.SharedInstance.SetConditionState("tsta_followyourdreams", true);
-            }
-        }
         
         void Update()
         {

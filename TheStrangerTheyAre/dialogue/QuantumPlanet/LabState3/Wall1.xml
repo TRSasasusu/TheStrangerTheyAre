@@ -4,7 +4,7 @@
 		<Name>Wall1</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>After testing the machine, I took a stroll on the ice, but noticed it had cracked. We ran some more tests with the machine, but oddly, the cracks only grew more severe when no one observed the crack site.</Page>
+			<Page>We’ve finally identified this machine’s function! It is a quantum field manipulator, tuned to decrease the range of nearby quantum objects by increasing their quantum weight. It is unclear to us what purpose that might serve.</Page>
 		</Dialogue>
 		<RevealFacts>
 			<FactID>QUANTUM_S3_LAB_TEXT1</FactID>

@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using OWML.Common;
 
 namespace TheStrangerTheyAre
 {
@@ -72,7 +71,8 @@ namespace TheStrangerTheyAre
             if (Locator.GetFlashlight().IsFlashlightOn())
             {
                 flashlight = true;
-            } else
+            }
+            else
             {
                 flashlight = false;
             }
@@ -108,7 +108,7 @@ namespace TheStrangerTheyAre
                     states[i].SetActive(false); // sets current state false
                     if (isSequential) // sequential state change
                     {
-                        if (i == states.Length-1)
+                        if (i == states.Length - 1)
                         {
                             states[0].SetActive(true); // activates 0 to loopback to beginning if state is at max length
                             break; // breaks for loop
@@ -136,8 +136,8 @@ namespace TheStrangerTheyAre
                                 states[random].SetActive(false);
                             }
                         }*/
-        }
-    }
+                    }
+                }
             }
         }
         public void OnTriggerVolumeEntry(GameObject hitObj)
@@ -145,7 +145,7 @@ namespace TheStrangerTheyAre
             //checks if player collides with the trigger volume
             if (hitObj.CompareTag("PlayerDetector") && enabled) // commented out because it won't check things properly
             {
-               isInTrigger = true;
+                isInTrigger = true;
             }
         }
 

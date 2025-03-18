@@ -5,9 +5,11 @@
 		<Name>1F_Wall2</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
 		<Dialogue>
-			<Page>Then comes our beloved Ringed Giant where our home moon resides. And beyond our homeworld is a planet like no other, one with a strange orbit and a transforming surface.</Page>
+			<Page>Beyond our homeworld lies a stormy, crimson giant with a violent, volcanic moon. Even further out, is a planet like no other, one with a strange orbit and a transforming surface.</Page>
 		</Dialogue>
 		<RevealFacts>
+			<FactID>CRIMSON_MAIN_R</FactID>
+			<FactID>VOLCANO_MAIN_R</FactID>
 			<FactID>QUANTUM_MAIN_R</FactID>
 		</RevealFacts>
 	</DialogueNode>

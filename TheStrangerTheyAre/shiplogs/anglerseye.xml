@@ -263,6 +263,11 @@
 				<ID>ANGLERS_EYE_DBMUSEUM_SIMROOM2</ID>
 				<Text>According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.</Text>
 			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_MINE_MINERAL</ID>
+				<Text>There is a mineral at the bottom of the mines that can be picked up.</Text>
+			</ExploreFact>
         </Entry>
 
 		<Entry>
@@ -279,11 +284,6 @@
 			<ExploreFact>
 				<ID>ANGLERS_EYE_THEATRE_POEMTEXT1</ID>
 				<Text>The text on the left of the table reads out some sort of poem stanza...</Text>
-			</ExploreFact>
-
-			<ExploreFact>
-				<ID>ANGLERS_EYE_THEATRE_POEMTEXT2</ID>
-				<Text>The text on the right of the table reads out some sort of poem stanza...</Text>
 			</ExploreFact>
 		</Entry>
 		
@@ -307,7 +307,7 @@
 
 			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P1</ID>
-                <Text>The first stanza in the Research House is "For our old world to be revived, get these things and it shall thrive. There is an order it shall follow, or it will stay dead and hollow. First things first, go get a seed. Then search elsewhere for the rest you need".</Text>
+                <Text>The first stanza in the Research House is "For our old world to be revived, bring these things for it to thrive. Every tree begins as seed. Give it sun, its greatest need".</Text>
             </ExploreFact>
 
 			<ExploreFact>
@@ -317,22 +317,17 @@
 
 			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P3A</ID>
-                <Text>The third stanza in the Theater House is "With those two things, fresh air will flourish, so plants and animals can thrive and nourish".</Text>
-            </ExploreFact>
-
-			<ExploreFact>
-                <ID>ANGLERS_EYE_POEM_P3B</ID>
-                <Text>The fourth stanza in the Theater House is "The seeds grow best on sunny days, our air lets fires set ablaze".</Text>
+                <Text>The third stanza in the Theater House is "With those two things, fresh air will flourish, so plants and animals can thrive and nourish. But best beware the spreading flames, the air might spark it all ablaze".</Text>
             </ExploreFact>
 
 			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P4</ID>
-                <Text>The fifth stanza in the Bramble Museum is "Fourth, keep out a watchful eye. Make sure our offspring does not die".</Text>
+                <Text>The fourth stanza in the Bramble Museum is "Fourth, keep out a watchful eye. Make sure our offspring does not die".</Text>
             </ExploreFact>
 
 			<ExploreFact>
                 <ID>ANGLERS_EYE_POEM_P5</ID>
-                <Text>The sixth and final stanza in the Signal House is "Input these poems as a secret code, but put a star in the fifth node".</Text>
+                <Text>The fifth and final stanza in the Signal House is "That is the order it shall follow; else it will stay dead and hollow. Input these words as a secret code, but put a star in the fifth node".</Text>
             </ExploreFact>
 	</Entry>
 
@@ -346,11 +341,6 @@
                 <ID>ANGLERS_EYE_CONSERVATORY_DISCOVER</ID>
                 <Text>The Conservatory building consists of a few empty fish tanks and a handful of trees.</Text>
             </ExploreFact>
-			
-			<ExploreFact>
-				<ID>ANGLERS_EYE_MINE_MINERAL</ID>
-				<Text>There is a mineral at the bottom of the mines that can be picked up.</Text>
-			</ExploreFact>
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_CONSERVATORY_PROTOHEARTHIAN_1</ID>
@@ -443,7 +433,7 @@
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_RD_ORBIT_TEXT4</ID>
-				<Text>70 days after arriving, this inhabitant discovered that Angler's Eye may have originated from a collision with The Eye, and orbits both it and Dark Bramble. Due to its incredibly slow orbit, it's best I find some other way of reaching The Eye.</Text>
+				<Text>70 days after arriving, this inhabitant discovered that Angler's Eye may have originated from a collision with The Eye.</Text>
 			</ExploreFact>
 
 			<ExploreFact>
@@ -473,7 +463,7 @@
 	<Entry>
 		<!-- An Entry For This Planet -->
 		<ID>PREBRAMBLE</ID>
-		<!-- The ID of this entry -->
+		<!-- The ID of this entry -->f
 		<Name>Preserved Planet</Name>
 		<!-- The name to show for this entry both on the card and in map mode -->
 		<Curiosity>PREBRAMBLE_MAIN</Curiosity>

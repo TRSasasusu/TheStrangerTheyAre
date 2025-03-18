@@ -63,6 +63,7 @@ namespace TheStrangerTheyAre
 
         private DreamCampfire[] dreamFires = new DreamCampfire[3];
         private DreamCampfire[] dreamFiresSpecial = new DreamCampfire[2];
+        private GameObject scientist;
 
         private GameObject prisFlame;
         private void Awake()
@@ -98,6 +99,9 @@ namespace TheStrangerTheyAre
             
             dreamFiresSpecial[0] = SearchUtilities.Find("RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_PrisonDocks/Sector_PrisonInterior/Interactibles_PrisonInterior/Prefab_IP_DreamCampfire/Controller_Campfire").GetComponent<DreamCampfire>();
             dreamFiresSpecial[1] = SearchUtilities.Find("AnglersEye_Body/Sector/BrambleMuseum/Interactables/FIRE/PREBRAMBLE_ENTRY/Controller_Campfire").GetComponent<DreamCampfire>();
+
+            // get scientist
+            scientist = SearchUtilities.Find("NODE_SCIENTIST"); // gets everything related to scientist data clone
         }
 
         private void OnDestroy()
@@ -250,12 +254,18 @@ namespace TheStrangerTheyAre
                 {
                     DialogueConditionManager.SharedInstance.SetConditionState("tsta_ghostbusters", true);
                     GhostBrain[] ghostBrains = FindObjectsOfType<GhostBrain>();
-                    GameObject tempObj;
+                    GhostDirector[] ghostDirectors = FindObjectsOfType<GhostDirector>();
 
                     foreach (GhostBrain ghost in ghostBrains)
                     {
                         ghost.Die();
+                        Destroy(ghost.gameObject);
                     }
+                    foreach (GhostDirector ghostDir in ghostDirectors)
+                    {
+                        Destroy(ghostDir);
+                    }
+                    Destroy(scientist);
                 }
                 else if (flag3)
                 {
@@ -306,5 +316,4 @@ namespace TheStrangerTheyAre
         {
         }
     }
-
 }
