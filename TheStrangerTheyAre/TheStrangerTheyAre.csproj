@@ -32,7 +32,10 @@
   <ItemGroup>
     <Content Include="TheStrangerTheyAre.csproj.user" />
   </ItemGroup>
-  <ItemGroup>
+	<ItemGroup>
+		<Compile Remove="translations\diff.txt" />
+	</ItemGroup>
+	<ItemGroup>
     <None Include="planets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

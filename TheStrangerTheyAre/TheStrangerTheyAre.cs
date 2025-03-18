@@ -1,11 +1,9 @@
 ﻿using HarmonyLib;
-using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
-using NewHorizons.Utility.Files;
 
 namespace TheStrangerTheyAre
 {
@@ -118,6 +116,11 @@ namespace TheStrangerTheyAre
                 // Makes sure that artifacts get blown out when going under water
                 Locator.GetPlayerBody().gameObject.AddComponent<HeldArtifactWaterHandler>();
             }
+        }
+
+        public bool IsSeizureModeOn()
+        {
+            return ModHelper.Config.GetSettingsValue<bool>("Reduce Flashing Lights");
         }
     }
 }

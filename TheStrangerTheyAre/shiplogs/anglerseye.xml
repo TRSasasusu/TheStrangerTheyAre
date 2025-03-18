@@ -293,12 +293,12 @@
             <Curiosity>ANGLERS_EYE_MAINLOG</Curiosity> <!-- The curiosity of this child entry -->
 
             <!-- Create some facts for this child entry -->
-			<ExploreFact>
+			<RumorFact>
 				<ID>ANGLERS_EYE_POEM_R</ID>
 				<RumorName>Secret Code</RumorName>
 				<SourceID>ANGLERS_EYE_SIGNALHOUSE_LOCKED</SourceID>
 				<Text>I can't get into the second floor of the Signal House! The entrance requires some sort of code for entry.</Text>
-			</ExploreFact>
+			</RumorFact>
 			
             <ExploreFact>
                 <ID>ANGLERS_EYE_POEM_FIND</ID>

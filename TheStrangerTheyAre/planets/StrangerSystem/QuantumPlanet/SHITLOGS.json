@@ -1,0 +1,101 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Distant Enigma",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"Base": {
+		"surfaceSize": 200
+	},
+	"MapMarker": {
+		"enabled": false
+	},
+	"Orbit": {
+		"semiMajorAxis": 32000,
+		"eccentricity": 0.15,
+		"inclination": 25,
+		"primaryBody": "Nearest Neighbor",
+		"trueAnomaly": 45,
+		"axialTilt": 17,
+		"showOrbitLine": false
+	},
+	"Props": {
+		"entryLocation": [
+			{
+				"id": "QUANTUM",
+				"cloaked": false
+			},
+			{
+				"id": "QUANTUM_S1_LAB",
+				"cloaked": false,
+				"position": {
+					"x": -197.3105,
+					"y": -12.3961,
+					"z": 31.1509
+				}
+			},
+			{
+				"id": "QUANTUM_S2_LAB",
+				"cloaked": false,
+				"position": {
+					"x": -197.3105,
+					"y": -12.3961,
+					"z": 31.1509
+				}
+			},
+			{
+				"id": "QUANTUM_S3_LAB",
+				"cloaked": false,
+				"position": {
+					"x": -197.3105,
+					"y": -12.3961,
+					"z": 31.1509
+				}
+			},
+			{
+				"id": "QUANTUM_CRACK",
+				"cloaked": false,
+				"position": {
+					"x": -179.9395,
+					"y": 60.5591,
+					"z": -57.7551
+				}
+			},
+			{
+				"id": "QUANTUM_SCRATCH",
+				"cloaked": false,
+				"position": {
+					"x": -145.6181,
+					"y": -133.3766,
+					"z": -19.6035
+				}
+			},
+			{
+				"id": "QUANTUM_BASE",
+				"cloaked": false,
+				"position": {
+					"x": -31.97149,
+					"y": -197.039,
+					"z": -11.89976
+				}
+			},
+			{
+				"id": "QUANTUM_TRAVELER",
+				"cloaked": false,
+				"position": {
+					"x": -29.2939,
+					"y": 197.2334,
+					"z": 16.8324
+				}
+			},
+			{
+				"id": "QUANTUM_SEAL",
+				"cloaked": false,
+				"position": {
+					"x": -50.7593,
+					"y": 159.5365,
+					"z": -24.3714
+				}
+			}
+		]
+	},
+	"canShowOnTitle": false
+}
