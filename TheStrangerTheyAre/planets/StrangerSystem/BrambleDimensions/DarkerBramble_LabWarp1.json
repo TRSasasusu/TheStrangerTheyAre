@@ -20,6 +20,10 @@
       }
     ]
   },
+  "MapMarker": {
+    "enabled": false
+  },
+  "canShowOnTitle": false,
   "Orbit": {
     "staticPosition": {
       "x": 10000,

@@ -30,6 +30,10 @@
 			}
 		]
 	},
+	"MapMarker": {
+		"enabled": false
+	},
+	"canShowOnTitle": false,
 	"Props": {
 		"details": [
 			{
@@ -186,24 +190,29 @@
 			}
 		]
 	},
-		"Volumes": {
-			"audioVolumes": [
-				{
-					"volume": 0.5,
-					"priority": 1,
-					"audio": "assets/Audio/darkerbramble.ogg",
-					"track": "music",
-					"randomizePlayhead": true,
-					"pauseOnFadeOut": true,
-					"radius": 1400
-				}
-			],
-			"mapRestrictionVolumes": [
-				{
-					"radius": 1400
-				}
-			]
-		},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"volume": 0.5,
+				"priority": 1,
+				"audio": "assets/Audio/darkerbramble.ogg",
+				"track": "music",
+				"randomizePlayhead": true,
+				"pauseOnFadeOut": true,
+				"radius": 1400
+			}
+		],
+		"interferenceVolumes": [
+			{
+				"radius": 1400
+			}
+		],
+		"mapRestrictionVolumes": [
+			{
+				"radius": 1400
+			}
+		]
+	},
 	"Orbit": {
 		"staticPosition": {
 			"x": 0,

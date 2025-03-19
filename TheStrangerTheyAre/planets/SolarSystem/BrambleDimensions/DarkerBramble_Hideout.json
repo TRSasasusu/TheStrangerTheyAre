@@ -34,6 +34,10 @@
 			}
 		]
 	},
+	"MapMarker": {
+		"enabled": false
+	},
+	"canShowOnTitle": false,
 	"Volumes": {
 		"audioVolumes": [
 			{
@@ -55,6 +59,11 @@
 					"y": 2
 				},
 				"radius": 3
+			}
+		],
+		"interferenceVolumes": [
+			{
+				"radius": 1400
 			}
 		],
 		"mapRestrictionVolumes": [

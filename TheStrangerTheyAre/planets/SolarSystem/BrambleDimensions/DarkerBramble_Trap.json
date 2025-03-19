@@ -65,12 +65,21 @@
 				"revealFor": "player"
 			}
 		],
+		"interferenceVolumes": [
+			{
+				"radius": 1400
+			}
+		],
 		"mapRestrictionVolumes": [
 			{
 				"radius": 1400
 			}
 		]
 	},
+	"MapMarker": {
+		"enabled": false
+	},
+	"canShowOnTitle": false,
 	"Orbit": {
 		"staticPosition": {
 			"x": 20000,

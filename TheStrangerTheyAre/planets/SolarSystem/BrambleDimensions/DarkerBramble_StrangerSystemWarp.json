@@ -3,7 +3,7 @@
 	"name": "DarkerBramble_StrangerSystemWarp",
 	"Bramble": {
 		"dimension": {
-			"allowedEntrances": [1],
+			"allowedEntrances": [ 1 ],
 			"vinePrefab": "none",
 			"radius": 200,
 			"fogDensity": 10,
@@ -20,7 +20,7 @@
 				"name": "LoopNode2",
 				"linksTo": "DarkerBramble_StrangerSystemWarp",
 				"hasFogLight": false,
-				"possibleExits": [1],
+				"possibleExits": [ 1 ],
 				"fogTint": {
 					"r": 0,
 					"g": 0,
@@ -42,12 +42,21 @@
 				"radius": 400
 			}
 		],
+		"interferenceVolumes": [
+			{
+				"radius": 1400
+			}
+		],
 		"mapRestrictionVolumes": [
 			{
 				"radius": 1400
 			}
 		]
 	},
+	"MapMarker": {
+		"enabled": false
+	},
+	"canShowOnTitle": false,
 	"Orbit": {
 		"staticPosition": {
 			"x": -40000,

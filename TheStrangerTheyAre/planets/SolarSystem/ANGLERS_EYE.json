@@ -3,10 +3,10 @@
 	"name": "Angler's Eye",
 	"AmbientLights": [
 		{
-			"outerRadius": 140.0,
+			"outerRadius": 200.0,
 			"innerRadius": 100.0,
 			"isShell": true,
-			"intensity": 0.6,
+			"intensity": 0.7,
 			"tint": {
 				"r": 255,
 				"g": 255,
@@ -62,8 +62,8 @@
 					}
 				}
 			],
-			"innerCloudRadius": 145.0,
-			"outerCloudRadius": 150.0,
+			"innerCloudRadius": 205.0,
+			"outerCloudRadius": 210.0,
 			"texturePath": "assets/Texture/dbm_c.png",
 			"tint": {
 				"r": 21,
@@ -73,23 +73,23 @@
 			},
 			"cloudsPrefab": "quantumMoon"
 		},
-		"fogSize": 150,
+		"fogSize": 200,
 		"fogTint": {
 			"r": 21,
 			"g": 21,
 			"b": 21,
 			"a": 0
 		},
-		"size": 150.0,
+		"size": 200.0,
 		"useAtmosphereShader": true,
-		"minShockSpeed": 140.0,
-		"maxShockSpeed": 150.0
+		"minShockSpeed": 200.0,
+		"maxShockSpeed": 210.0
 	},
 	"canShowOnTitle": false,
 	"Base": {
 		"gravityFallOff": "linear",
 		"surfaceGravity": 10.0,
-		"surfaceSize": 100.0
+		"surfaceSize": 200.0
 	},
 	"Bramble": {
 		"nodes": [
@@ -120,10 +120,7 @@
 		]
 	},
 	"Cloak": {
-		"radius": 150,
-		"farCloakRadius": 149,
-		"nearCloakRadius": 148,
-		"innerCloakRadius": 145
+		"radius": 800
 	},
 	"HeightMap": {
 		"heightMap": "assets/Texture/dbm_h.png",
@@ -472,7 +469,7 @@
 				"fluidType": "air",
 				"hazardType": "electricity",
 				"audioDistance": 50,
-				"height": 45,
+				"height": 50,
 				"tint": {
 					"r": 11,
 					"g": 11,

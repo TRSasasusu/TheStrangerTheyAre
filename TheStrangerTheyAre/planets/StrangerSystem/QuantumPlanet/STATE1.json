@@ -473,6 +473,7 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"rename": "Lab_Stall",
+				"keepLoaded": true,
 				"position": {
 					"x": -195.3059,
 					"y": 10.04503,
@@ -488,6 +489,7 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"rename": "Camp_Stall",
+				"keepLoaded": true,
 				"position": {
 					"x": -30.8836,
 					"y": 197.5386,
@@ -503,6 +505,7 @@
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/StrangerQuantumStall.prefab",
 				"rename": "Base_Stall",
+				"keepLoaded": true,
 				"position": {
 					"x": 5.956356,
 					"y": -198.9778,
