@@ -1,9 +1,8 @@
 ﻿      WHAT IS THIS FILE?
       Because TSTA is everchanging its dialogue, and reforms on the way, I will generate the lines that are changed in the new .json file.
       This is to aid translators in finding which dialogues they need to change. It will change each patch.
-
-      TRANSLATORS: If you finish the line, you can delete it.
       
+      v2.3.0:
       "For our old world to be revived, bring these things for it to thrive. Every tree begins as seed. Give it sun, its greatest need.": "For our old world to be revived, bring these things for it to thrive. Every tree begins as seed. Give it sun, its greatest need.",
       "That is the order it shall follow; else it will stay dead and hollow. Input these words as a secret code, but put a star in the fifth node.": "That is the order it shall follow; else it will stay dead and hollow. Input these words as a secret code, but put a star in the fifth node.",
       "With those two things, fresh air will flourish, so plants and animals can thrive and nourish. But best beware the spreading flames, the air might spark it all ablaze.": "With those two things, fresh air will flourish, so plants and animals can thrive and nourish. But best beware the spreading flames, the air might spark it all ablaze.",
@@ -33,3 +32,8 @@
       "The Strangers' Inhabitants set up a biometric authentication system to prevent alien espionage.": "The Strangers' Inhabitants set up a biometric authentication system to prevent alien espionage.",
       "The biometrics are flawed, and will unlock in the presence of a deceased inhabitant skull.": "The biometrics are flawed, and will unlock in the presence of a deceased inhabitant skull.",
       "I found a square piece of metal under the ice of the third state. It looks like it fits somewhere...": "I found a square piece of metal under the ice of the third state. It looks like it fits somewhere...",
+
+      v2.4.0:
+      "Bark's Corpse": "Bark's Corpse",
+      "I found Bark's dead corpse on one of Distant Enigma's other two states...": "I found Bark's dead corpse on one of Distant Enigma's other two states...",
+      "I can pull out Bark's skull and pick it up.": "I can pull out Bark's skull and pick it up.",
