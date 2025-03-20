@@ -53,7 +53,6 @@ public class AtmosphereBurnoutEffect : MonoBehaviour
 
         if (burnDuration && !runOnce)
         {
-            TheStrangerTheyAre.WriteLine("Flames Active? : " + flames.activeSelf);
             flames.SetActive(true);
             flamesAnim.Play("AtmosphereBurn", 0);
             runOnce = true;

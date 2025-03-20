@@ -8,7 +8,6 @@
 				"path": "Assets/Sector_NewSim.prefab",
 				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper",
 				"alignRadial": false,
-				"keepLoaded": true,
 				"position": {
 					"x": -180.4021,
 					"y": 5.9047,
@@ -17,12 +16,25 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4",
 				"path": "Assets/DeadTree.prefab",
 				"alignRadial": false,
 				"position": {
 					"x": -44.4586,
 					"y": 0.3047,
 					"z": 715.1559
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3",
+				"path": "Assets/TSTAShortcut.prefab",
+				"rename": "TSTA_Shortcut_DZ3",
+				"alignRadial": false,
+				"position": {
+					"x": 26.73774,
+					"y": 90.69923,
+					"z": 229.1458
 				}
 			},
 			{
@@ -540,22 +552,44 @@
 				"type": "blackHole",
 				"rename": "TOPREBRAMBLE_BH",
 				"uniqueID": "TOPREBRAMBLE_BH",
-				"pairedSingularity": "TOPREBRAMBLE_WH",
+				"pairedSingularity": "SHORTCUT_WH",
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/BH",
 				"isRelativeToParent": true
 			},
 			{
 				"type": "whiteHole",
 				"rename": "TONEWSIM_WH",
 				"uniqueID": "TONEWSIM_WH",
-				"pairedSingularity": "TONEWSIM_BH",
+				"pairedSingularity": "SHORTCUT_BH",
 				"hasWarpEffects": false,
 				"distortRadius": 0,
 				"horizonRadius": 0.1,
-				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/WH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "blackHole",
+				"rename": "SHORTCUT_BH",
+				"uniqueID": "SHORTCUT_BH",
+				"pairedSingularity": "TONEWSIM_WH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/BH",
+				"isRelativeToParent": true
+			},
+			{
+				"type": "whiteHole",
+				"rename": "SHORTCUT_WH",
+				"uniqueID": "SHORTCUT_WH",
+				"pairedSingularity": "TOPREBRAMBLE_BH",
+				"hasWarpEffects": false,
+				"distortRadius": 0,
+				"horizonRadius": 0.1,
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/WH",
 				"isRelativeToParent": true
 			},
 			{
@@ -617,18 +651,6 @@
 					"y": -45.80016,
 					"z": 715.6379
 				}
-			},
-			{
-				"audio": "OW No-Eye Ruins 121120_2 AP LP",
-				"radius": 30,
-				"position": {
-					"y": -7
-				},
-				"volume": 0.2,
-				"track": "music",
-				"priority": 1,
-				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
-				"isRelativeToParent": true
 			},
 			{
 				"audio": "assets/Audio/EternalHalls.mp3",
@@ -860,29 +882,6 @@
 				"reveals": [
 					"NEWSIM_ARCHIVE_THEATRE"
 				]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"radius": 15,
-				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
-				"isRelativeToParent": true,
-				"reveals": [
-					"NEWSIM_LINK_E"
-				]
-			},
-			{
-				"revealFor": "player",
-				"revealOn": "enter",
-				"radius": 2.5,
-				"position": {
-					"y": 1
-				},
-				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP",
-				"isRelativeToParent": true,
-				"reveals": [
-					"NEWSIM_LINK_TRAVEL"
-				]
 			}
 		]
 	},
@@ -890,21 +889,43 @@
 		"Sector_DreamWorld/SIM_BH/BlackHoleRenderer",
 		"Sector_DreamWorld/SIM_BH/BlackHoleAmbience",
 		"Sector_DreamWorld/SIM_BH/BlackHoleEmissionOneShot",
+
 		"Sector_DreamWorld/SIM_WH/WhiteHoleRenderer",
 		"Sector_DreamWorld/SIM_WH/WhiteHoleAmbience",
-		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleRenderer",
-		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleAmbience",
-		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/BH/TOPREBRAMBLE_BH/BlackHoleEmissionOneShot",
-		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleRenderer",
-		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/SteelPlatform/Transform/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience",
+
+
+
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/BH/TOPREBRAMBLE_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/BH/TOPREBRAMBLE_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/BH/TOPREBRAMBLE_BH/BlackHoleEmissionOneShot",
+
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/WH/TONEWSIM_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/TSTAShortcut/WARP/WH/TONEWSIM_WH/WhiteHoleAmbience",
+
+
+
+		"Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/BH/SHORTCUT_BH/BlackHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/BH/SHORTCUT_BH/BlackHoleAmbience",
+		"Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/BH/SHORTCUT_BH/BlackHoleEmissionOneShot",
+
+		"Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/WH/SHORTCUT_WH/WhiteHoleRenderer",
+		"Sector_DreamWorld/Sector_DreamZone_3/TSTA_Shortcut_DZ3/WARP/WH/SHORTCUT_WH/WhiteHoleAmbience",
+
+
+
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleRenderer",
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleAmbience",
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInBH/WarpToDev_BH/BlackHoleEmissionOneShot",
+
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleRenderer",
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpInWH/WarpToDev_WH/WhiteHoleAmbience",
+
+
+
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleRenderer",
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleAmbience",
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutBH/WarpFromDev_BH/BlackHoleEmissionOneShot",
+
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleRenderer",
 		"Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/TheatreHouse_SIM/DevWarp/WarpOutWH/WarpFromDev_WH/WhiteHoleAmbience"
 	],

@@ -3928,26 +3928,6 @@
         "position": {
           "z": 6
         }
-      },
-      {
-        "type": "blackHole",
-        "horizonRadius": 1,
-        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/BH",
-        "hasWarpEffects": false,
-        "isRelativeToParent": true,
-        "uniqueID": "TONEWSIM_BH",
-        "pairedSingularity": "TONEWSIM_WH",
-        "rename": "TONEWSIM_BH"
-      },
-      {
-        "type": "whiteHole",
-        "horizonRadius": 1,
-        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/WH",
-        "hasWarpEffects": false,
-        "isRelativeToParent": true,
-        "uniqueID": "TOPREBRAMBLE_WH",
-        "pairedSingularity": "TOPREBRAMBLE_BH",
-        "rename": "TOPREBRAMBLE_WH"
       }
     ],
     "slideShows": [
@@ -4080,14 +4060,7 @@
     "Sector/PREBRAMBLE_WH2/WhiteHoleAmbience",
 
     "Sector/PreBramble_BrambleResearch/PREBRAMBLE_WH/WhiteHoleRenderer",
-    "Sector/PreBramble_BrambleResearch/PREBRAMBLE_WH/WhiteHoleAmbience",
-
-    "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/BH/TONEWSIM_BH/BlackHoleRenderer",
-    "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/BH/TONEWSIM_BH/BlackHoleAmbience",
-    "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/BH/TONEWSIM_BH/BlackHoleEmissionOneShot",
-
-    "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/WH/TOPREBRAMBLE_WH/WhiteHoleRenderer",
-    "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP/WH/TOPREBRAMBLE_WH/WhiteHoleAmbience"
+    "Sector/PreBramble_BrambleResearch/PREBRAMBLE_WH/WhiteHoleAmbience"
   ],
   "Volumes": {
     "audioVolumes": [
@@ -4097,19 +4070,6 @@
         "track": "music",
         "priority": 0,
         "radius": 1000
-      },
-      {
-        "audio": "OW No-Eye Ruins 121120_2 AP LP",
-        "radius": 20,
-        "volume": 0.2,
-        "track": "music",
-        "priority": 1,
-        "position": {
-          "x": -9,
-          "y": -2
-        },
-        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP",
-        "isRelativeToParent": true
       },
       {
         "audio": "Tronworld Ambience 2 Alex Hack",
@@ -4385,29 +4345,6 @@
         "radius": 10,
         "reveals": [
           "PREBRAMBLE_MAIN_SEED"
-        ]
-      },
-      {
-        "revealFor": "player",
-        "revealOn": "enter",
-        "radius": 15,
-        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP",
-        "isRelativeToParent": true,
-        "reveals": [
-          "NEWSIM_LINK_E"
-        ]
-      },
-      {
-        "revealFor": "player",
-        "revealOn": "enter",
-        "radius": 2.5,
-        "position": {
-          "y": 1
-        },
-        "parentPath": "Sector/PreBramble_SIM/TravelHouse/Building/SteelPlatform/Transform/WARP",
-        "isRelativeToParent": true,
-        "reveals": [
-          "NEWSIM_LINK_TRAVEL"
         ]
       }
     ]

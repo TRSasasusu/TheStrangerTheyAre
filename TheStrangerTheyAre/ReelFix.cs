@@ -20,8 +20,8 @@ namespace TheStrangerTheyAre
                 reels[i].GetComponentInParent<OWItemSocket>().Awake(); // runs awake to re-parent
                 reels[i].GetComponentInParent<OWItemSocket>().Start(); // runs start to re-parent
             }
-            SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket").GetComponent<SlideReelSocket>().Awake();
-            SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket").GetComponent<SlideReelSocket>().Start();
+            SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket/").GetComponent<SlideReelSocket>().Awake();
+            SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/AbandonedHouse/Interactables/SlideHolder/SlideSocket/").GetComponent<SlideReelSocket>().Start();
         }
     }
 }
