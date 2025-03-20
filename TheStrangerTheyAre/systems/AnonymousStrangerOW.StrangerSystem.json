@@ -361,6 +361,13 @@
         "x": 1200,
         "y": 1000
       }
+    },
+    {
+      "id": "QUANTUM_CORPSE",
+      "position": {
+        "x": 1000,
+        "y": 450
+      }
     }
   ],
   "curiosities": [

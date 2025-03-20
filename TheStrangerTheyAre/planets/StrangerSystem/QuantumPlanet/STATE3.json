@@ -491,6 +491,16 @@
 				"reveals": [
 					"QUANTUM_STALL_E"
 				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector-3/Enigma_Dead2_1",
+				"isRelativeToParent": true,
+				"radius": 3,
+				"reveals": [
+					"QUANTUM_CORPSE_E"
+				]
 			}
 		]
 	},

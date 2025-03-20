@@ -278,5 +278,21 @@
 				<Text>I found scratch marks on Distant Enigma's first state.</Text>
 			</ExploreFact>
 		</Entry>
+
+		<Entry>
+			<ID>QUANTUM_CORPSE</ID>
+			<Name>Bark's Corpse</Name>
+			<Curiosity>QUANTUM_MAIN</Curiosity>
+
+			<ExploreFact>
+				<ID>QUANTUM_CORPSE_E</ID>
+				<Text>I found Bark's dead corpse on one of Distant Enigma's other two states...</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>QUANTUM_CORPSE_SKULL</ID>
+				<Text>I can pull out Bark's skull and pick it up.</Text>
+			</ExploreFact>
+		</Entry>
     </Entry>
 </AstroObjectEntry>

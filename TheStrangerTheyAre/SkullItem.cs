@@ -47,6 +47,7 @@ public class SkullItem : OWItem
         base.PickUpItem(holdTranform);
         Vector3 smallerScale = new Vector3(0.3f, 0.3f, 0.3f);
         base.transform.localScale = smallerScale;
+        Locator.GetShipLogManager().RevealFact("QUANTUM_CORPSE_SKULL");
     }
 
     public override void UpdateCollisionLOD()
