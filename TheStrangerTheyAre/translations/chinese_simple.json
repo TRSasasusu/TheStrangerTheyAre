@@ -880,11 +880,11 @@
     "GAILLARDIA: Did you not see the threatening transmission from their vessel? An alien species seemed to have murdered them!": "盖拉迪娅: 你没收到他们飞船发来的那条警报吗？看起来他们遭遇了某个外星种族的袭击！",
     "FUCHSIA: Oh dear. In that case, put that solar neighborhood into a no-warp zone. First Escall, now Agapanthus! We must not risk losing any more Nomai!": "弗丘夏: 天啊。这样的话，立即将那片星域标记为禁止跃迁区。先是艾斯科尔，现在又是阿加潘瑟斯！我们不能再失去更多同胞了！",
     "GAILLARDIA: Does this mean we stop looking for Escall?": "盖拉迪娅: 这是不是意味着我们要放弃寻找艾斯科尔了？",
-    "FUCHSIA: Of course it does! Escall's Clan might as well be dead too!": "弗丘夏: 弗丘夏: 别无选择！艾斯科尔的族人恐怕也已经凶多吉少了！",
+    "FUCHSIA: Of course it does! Escall's Clan might as well be dead too!": "弗丘夏: 我们别无选择！艾斯科尔的族人恐怕也已经凶多吉少了！",
 
     //NOM_OutgoingMsg
-    "<![CDATA[<color=green>DO NOT WARP TO OUR SYSTEM AGAIN!</color>]]>": "<![CDATA[<color=green>警告：切勿再次跃迁至我方星域！</color>]]>",
-    "<![CDATA[<color=green>IF YOU DO, YOU WILL SUFFER THE SAME FATE AS THESE ALIENS HAVE!</color>]]>": "<![CDATA[<color=green>若胆敢违令，尔等必将与这些异族同归于尽！<</color>]]>",
+    "<![CDATA[<color=green>DO NOT WARP TO OUR SYSTEM AGAIN!</color>]]>": "<![CDATA[<color=green>警告：别再次跃迁至我方星域！</color>]]>",
+    "<![CDATA[<color=green>IF YOU DO, YOU WILL SUFFER THE SAME FATE AS THESE ALIENS HAVE!</color>]]>": "<![CDATA[<color=green>若执意如此，你们的下场将与这些异族无异！</color>]]>",
 
     //NOM_Recorder
     "AGAPANTHUS: We have been able to get approximate coordinates to where Escall may have warped to.": "阿加潘瑟斯：我们已经锁定了艾斯科尔可能跃迁前往的大致坐标。",
