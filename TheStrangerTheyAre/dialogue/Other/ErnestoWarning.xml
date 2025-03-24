@@ -23,7 +23,6 @@
 
 	<DialogueNode>
 		<Name>1</Name>
-		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
 		<Dialogue>
 			<Page>Don't screw this up, or you'll have to restart the mod!</Page>
 		</Dialogue>
