@@ -1416,10 +1416,89 @@
   },
 
   "UIDictionary": {
-    "Please add manually.": "Please add manually."
+    "AnonymousStrangerOW.StrangerSystem": "Home of the Strangers",
+
+    "Musician": "Musician",
+    "Strangers' Probe": "Stranger's Probe",
+    "Strange Frequency": "Strange Frequency",
+    "Timber Hearth Vision Torch": "Timber Hearth Vision Torch",
+    "Signal House": "Signal House",
+    "Bramble Base": "Bramble Base",
+    "Unnerving Fluctuations": "Unnerving Fluctuations",
+    "Burning Bombardier Seal": "Burning Bombardier Seal",
+    "Distant Enigma Seal": "Distant Enigma Seal",
+    "Sizzling Sands Seal": "Sizzling Sands Seal",
+    "Velvet Vortex Seal": "Velvet Vortex Seal",
+    "Ringed Giant Seal": "Ringed Giant Seal",
+    "Stranded Vessel Signal": "Stranded Vessel Signal",
+    "Pine's Signal": "Pine's Signal",
+    "Arcadia's Signal": "Arcadia's Signal",
+    "Bush's Signal": "Bush's Signal",
+    "Bark's Signal": "Bark's Signal",
+    "Distant Enigma": "Distant Enigma",
+    "Distant Enigma Shard": "Distant Enigma Shard",
+    "Homeworld Quantum Shard": "Homeworld Quantum Shard",
+    "UNKNOWN": "UNKNOWN",
+
+    "Angler's Eye": "Angler's Eye",
+    "Velvet Vortex": "Velvet Vortex",
+    "Burning Bombardier": "Burning Bombardier",
+    "Sizzling Sands": "Sizzling Sands",
+    "Ringed Giant": "Ringed Giant",
+    "Strangers' Homeworld": "Strangers' Homeworld",
+    "Nearest Neighbor": "Nearest Neighbor",
+    "NEAREST NEIGHBOR": "NEAREST NEIGHBOR",
+    "Ringed Laboratory": "Ringed Laboratory"
   },
 
+  "OtherDictionary": {
+    "SealDisplayName": "Seal",
+    "Skull": "Skull",
+    "Mineral": "Mineral"
+  },
+
+
+
   "AchievementTranslations": {
-    "Please add manually.": {}
+    "tsta_thevision": {
+      "Name": "The Vision",
+      "Description": "Use the Vision Torch on Solanum."
+    },
+    "tsta_mindscapes": {
+      "Name": "Mindscapes",
+      "Description": "Use the Vision Torch on Slate."
+    },
+    "tsta_redpilled": {
+      "Name": "Red Pilled",
+      "Description": "Activate simulation mode permanently."
+    },
+    "tsta_ghostbusters": {
+      "Name": "Ghostbuster",
+      "Description": "Remove all of the simulation's residents."
+    },
+    "tsta_sudormrf": {
+      "Name": "sudo rm -rf /*",
+      "Description": "No such file or directory."
+    },
+    "tsta_followyourdreams": {
+      "Name": "Follow Your Dreams",
+      "Description": "Reach a certain planet before learning the Strangers' Language."
+    },
+    "tsta_allornothing": {
+      "Name": "All or Nothing",
+      "Description": "Get all five seals in a single loop."
+    },
+    "tsta_ernesto": {
+      "Name": "Scholar of Ernesto",
+      "Description": "Find Ernesto."
+    },
+    "tsta_gettrolled": {
+      "Name": "Get Trolled!",
+      "Description": "Get yourself trolled."
+    },
+    "tsta_gangnam": {
+      "Name": "Oppan Stranger Style!",
+      "Description": "Find Stranger Style"
+    }
   }
 }
