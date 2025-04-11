@@ -1,0 +1,67 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Slate</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>TSTA_SLATE_2</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Wait Hatchling! Before you go!</Page> <!-- A single page of the dialogue -->
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Yeah, I've got the launch codes.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>I already know about the HUD Marker, Slate.</Text>
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+   <DialogueOption>
+    <Text>Slate, I already checked the waterfall.</Text>
+    <DialogueTarget>1</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+    <Page>No, that's not what I was going to say at all!</Page>
+    <Page>I can already tell by the look on your face, but you seem annoyed about something.</Page>
+	<Page>I don't know why, but my gut senses you're struggling to see where you're landing your ship.</Page>
+  </Dialogue>
+	 <DialogueOptionsList>
+		 <DialogueOption>
+		 <Text>H-How did you know?</Text>
+		 <DialogueTarget>2</DialogueTarget>
+	 </DialogueOption>
+    </DialogueOptionsList> 
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+      <Page>I've been training pilots since we founded Outer Wilds Ventures. I know that face when I see it.</Page>
+      <Page>You should have seen Riebeck's when we were training them! They had no idea where they were going at first.</Page>
+	  <Page>And do you know what I always told them? Just use your Little Scout to sense out the way! Shoot it at any surface and you can see where to land safely.</Page>
+	  <Page>Hopefully that helped, Hatchling. I know you can do this.</Page>
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Thanks, Slate! I'll put it to good use.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>3</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode> <!-- The end node -->
+  <Name>3</Name>
+  <Dialogue>
+	  <Page>Anytime. Now say hi to the others for me, OK?</Page>
+  </Dialogue>
+    <SetPersistentCondition>SLATE_HASYELLED</SetPersistentCondition>
+ </DialogueNode>
+</DialogueTree>

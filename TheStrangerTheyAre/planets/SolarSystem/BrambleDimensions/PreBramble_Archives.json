@@ -154,10 +154,6 @@
 			}
 		]
 	},
-	"removeChildren": [
-		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleRenderer",
-		"Sector/PreBrambleBase/GlitchedTiles/WarpPoint/GLITCH_WH/WhiteHoleAmbience"
-	],
 	"Orbit": {
 		"staticPosition": {
 			"x": 2000,
@@ -189,15 +185,6 @@
 				"isRelativeToParent": true,
 				"track": "music",
 				"radius": 4
-			},
-			{
-				"audio": "Tronworld Ambience 2 Alex Hack",
-				"radius": 3,
-				"volume": 0.2,
-				"track": "environmentUnfiltered",
-				"parentPath": "Sector/PreBrambleBase/GlitchedTiles",
-				"priority": 1,
-				"isRelativeToParent": true
 			}
 		],
 		"speedTrapVolumes": [

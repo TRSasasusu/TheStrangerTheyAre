@@ -1,6 +1,6 @@
 ﻿      WHAT IS THIS FILE?
       Because TSTA is everchanging its dialogue, and reforms on the way, I will generate the lines that are changed in the new .json file.
-      This is to aid translators in finding which dialogues they need to change. It will change each patch.
+      This is to aid translators in finding which dialogues they need to change. It will change each patch that changes any dialogue.
       
       v2.3.0:
       "For our old world to be revived, bring these things for it to thrive. Every tree begins as seed. Give it sun, its greatest need.": "For our old world to be revived, bring these things for it to thrive. Every tree begins as seed. Give it sun, its greatest need.",
@@ -37,3 +37,19 @@
       "Bark's Corpse": "Bark's Corpse",
       "I found Bark's dead corpse on one of Distant Enigma's other two states...": "I found Bark's dead corpse on one of Distant Enigma's other two states...",
       "I can pull out Bark's skull and pick it up.": "I can pull out Bark's skull and pick it up.",
+
+      v2.4.3
+      "Wait Hatchling! Before you go!": "Wait Hatchling! Before you go!",
+      "Yeah, I've got the launch codes.": "Yeah, I've got the launch codes.",
+      "I already know about the HUD Marker, Slate.": "I already know about the HUD Marker, Slate.",
+      "Slate, I already checked the waterfall.": "Slate, I already checked the waterfall.",
+      "No, that's not what I was going to say at all!": "No, that's not what I was going to say at all!",
+      "I can already tell by the look on your face, but you seem annoyed about something.": "I can already tell by the look on your face, but you seem annoyed about something.",
+      "I don't know why, but my gut senses you're struggling to see where you're landing your ship.": "I don't know why, but my gut senses you're struggling to see where you're landing your ship.",
+      "H-How did you know?": "H-How did you know?",
+      "I've been training pilots since we founded Outer Wilds Ventures. I know that face when I see it.": "I've been training pilots since we founded Outer Wilds Ventures. I know that face when I see it.",
+      "You should have seen Riebeck's when we were training them! They had no idea where they were going at first.": "You should have seen Riebeck's when we were training them! They had no idea where they were going at first.",
+      "And do you know what I always told them? Just use your Little Scout to sense out the way! Shoot it at any surface and you can see where to land safely.": "And do you know what I always told them? Just use your Little Scout to sense out the way! Shoot it at any surface and you can see where to land safely.",
+      "Hopefully that helped, Hatchling. I know you can do this.": "Hopefully that helped, Hatchling. I know you can do this.",
+      "Thanks, Slate! I'll put it to good use.": "Thanks, Slate! I'll put it to good use.",
+      "Anytime. Now say hi to the others for me, OK?": "Anytime. Now say hi to the others for me, OK?"

@@ -468,8 +468,8 @@
 				"damagePerSecond": 10000000,
 				"fluidType": "air",
 				"hazardType": "electricity",
-				"audioDistance": 50,
-				"height": 50,
+				"audioDistance": 100,
+				"height": 60,
 				"tint": {
 					"r": 11,
 					"g": 11,
@@ -478,7 +478,7 @@
 				},
 				"position": {
 					"x": 1.1042,
-					"y": -85.8241,
+					"y": -98.8919,
 					"z": -0.548
 				}
 			}
@@ -1897,6 +1897,20 @@
 				}
 			}
 		],
+		"hazardVolumes": [
+			{
+				"firstContactDamageType": "electrical",
+				"firstContactDamage": 10000000,
+				"damagePerSecond": 10000000,
+				"radius": 60,
+				"type": "electricity",
+				"position": {
+					"x": 1.1042,
+					"y": -150.4864,
+					"z": -0.548
+				}
+			}
+		],
 		"insulatingVolumes": [
 			{
 				"parentPath": "Sector/Item_CloakMineral",
@@ -1917,13 +1931,8 @@
 		"speedTrapVolumes": [
 			{
 				"acceleration": 1,
-				"speedLimit": 3,
+				"speedLimit": 1,
 				"radius": 200
-			},
-			{
-				"acceleration": 1,
-				"speedLimit": 2,
-				"radius": 7
 			}
 		],
 		"oxygenVolumes": [
