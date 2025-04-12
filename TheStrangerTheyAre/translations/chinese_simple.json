@@ -913,8 +913,23 @@
     "By the waterfall? How hasn't anyone found it yet?": "在瀑布旁？为什么还没有人发现它？",
     "Thank you, Hatchling! Let me know what you find!": "谢谢你，小家伙！发现什么告诉我！",
     "Uh....what? I have no idea what you just said but you have no need to take it out on me!": "呃……什么？我完全不知道你在说什么，但你没必要把气撒在我身上！",
-    "Nevermind I'll find it.": "没关系，我会去找的。",
+    "Nevermind I'll find it.": "别在意，我会去找的。",
     "I think it might have something to do with the rush of the falls being louder than it, plus we just upgraded our signal scopes for your adventure yesterday. So will you find it for me Hatchling?": "我觉得这可能和瀑布的轰鸣声比它更响有关，而且我们昨天才为你的冒险升级了信号探测器。那么，你愿意为我去找找看吗，小家伙？",
+
+    // SlateRemote2
+    "Wait Hatchling! Before you go!": "嘿，等等！小家伙，先别急着走！",
+    "Yeah, I've got the launch codes.": "没问题，我已经拿到发射密码了。",
+    "I already know about the HUD Marker, Slate.": "斯雷特，抬头显示能够标记地点的事我早就知道了。",
+    "No, that's not what I was going to say at all!": "不不不，我想说的根本不是这些！",
+    "I can already tell by the look on your face, but you seem annoyed about something.": "看看你这副愁眉苦脸的样子，我猜你遇到什么烦心事了吧？",
+    "I don't know why, but my gut senses you're struggling to see where you're landing your ship.": "说不上来为什么，但老飞行员的第六感告诉我，你在寻找飞船降落点时遇到麻烦了。",
+    "H-How did you know?": "你...你怎么知道的？",
+    "I've been training pilots since we founded Outer Wilds Ventures. I know that face when I see it.": "自打创建星际拓荒探险队以来，我培训过的飞行员没有一百也有八十了。那种表情，我一眼就能认出来。",
+    "You should have seen Riebeck's when we were training them! They had no idea where they were going at first.": "你要是看见瑞拜克当初训练的样子就知道了！刚开始时他简直是晕头转向，连东南西北都分不清。",
+    "And do you know what I always told them? Just use your Little Scout to sense out the way! Shoot it at any surface and you can see where to land safely.": "知道我当时怎么教他们的吗？就是利用小侦察来探路！朝着你想降落的地方发射一下，马上就能看清哪里适合安全着陆了。",
+    "Hopefully that helped, Hatchling. I know you can do this.": "希望这对你有所帮助，小家伙。我相信你能行的。",
+    "Thanks, Slate! I'll put it to good use.": "多谢指点，斯雷特！我这就去试试看。",
+    "Anytime. Now say hi to the others for me, OK?": "不用客气，这点小事。替我向其他人问个好，行吗？",
 
     // ANGLERS_EYE_ALIENTEXT_E2
     "To the South Pole, take a stroll. Retrace your steps, to the North Pole.": "漫步向南极，细数曾经印记。循着旧日足迹，重返那北极之境。",
