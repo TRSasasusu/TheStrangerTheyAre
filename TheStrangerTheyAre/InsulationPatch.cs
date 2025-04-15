@@ -11,7 +11,10 @@ public class InsulationPatch
     public static void InsulatingVolume_OnEffectVolumeEnter_Patch(InsulatingVolume __instance, GameObject hitObj)
     {
         HazardDetector component = hitObj.GetComponent<HazardDetector>();
-        component.AddInsulatingVolume(__instance);
+        if (component != null)
+        {
+            component.AddInsulatingVolume(__instance);
+        }
     }
 
     [HarmonyPrefix]
@@ -19,6 +22,9 @@ public class InsulationPatch
     public static void InsulatingVolume_OnEffectVolumeExit_Patch(InsulatingVolume __instance, GameObject hitObj)
     {
         HazardDetector component = hitObj.GetComponent<HazardDetector>();
-        component.RemoveInsulatingVolume(__instance);
+        if (component != null)
+        {
+            component.RemoveInsulatingVolume(__instance);
+        }
     }
 }

@@ -7,11 +7,17 @@ namespace TheStrangerTheyAre
         GameObject endlessVolume; // creates variable to store the endless eye volume
         [SerializeField]
         GameObject ring; // creates variable to store the ringed planet
-        void Awake()
+
+        private void Start()
         {
+            // gets the endless eye volume
             var fireVol = GameObject.Find("EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/Volumes_Campfire"); // gets the quantum planet with nh
             endlessVolume = fireVol.transform.Find("EndlessCylinder_Forest").gameObject; // gets the endless eye volume
-            ring.SetActive(false); // activates object when inside the trigger
+
+            // runs two frames later so it can do sectoring stuff
+            TheStrangerTheyAre.Instance.ModHelper.Events.Unity.FireInNUpdates(() => {
+                ring.SetActive(false); // activates object when inside the trigger
+            }, 2);
         }
 
         public virtual void OnTriggerEnter(Collider hitCollider)

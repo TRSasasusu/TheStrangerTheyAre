@@ -2,6 +2,14 @@
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "name": "QuantumMoon",
   "Props": {
+    "details": [
+      {
+        "parentPath": "Sector_QuantumMoon/State_DB",
+        "isRelativeToParent": true,
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/QuantumMoonTrigger.prefab"
+      }
+    ],
     "dialogue": [
       {
         "xmlFile": "dialogue/Other/SolanumNew.xml",

@@ -175,13 +175,14 @@
 			{
 				"priority": 0,
 				"audio": "assets/Audio/BrambleArchiveDiscovery.ogg",
+				"volume": 0.3,
 				"track": "music",
 				"radius": 200
 			},
 			{
 				"priority": 1,
 				"audio": "assets/Audio/silence.ogg",
-				"parentPath": "Sector/PreBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/TheatreRoom_ProjectionHouse_Zone1_Clean/Prefab_IP_SlideProjector_Ring",
 				"isRelativeToParent": true,
 				"track": "music",
 				"radius": 4

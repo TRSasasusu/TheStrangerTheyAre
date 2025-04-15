@@ -1048,7 +1048,7 @@
     "The exhibit to the right contains the minerals abundant on Angler's Eye preventing a Bramble Vine from growing any further. It's the only way to halt its growth, but there are mentions of effects on the pocket dimensions within it.": "The exhibit to the right contains the minerals abundant on Angler's Eye preventing a Bramble Vine from growing any further. It's the only way to halt its growth, but there are mentions of effects on the pocket dimensions within it.",
     "An eerie, green fire and some beds lie in the basement of the Dark Bramble Museum.": "An eerie, green fire and some beds lie in the basement of the Dark Bramble Museum.",
     "According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.": "According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.",
-    "There is a mineral at the bottom of the mines that can be picked up.": "There is a mineral at the bottom of the mines that can be picked up.",
+    "There is a mineral atop the table in the Bramble Museum's basement that can be picked up.": "There is a mineral atop the table in the Bramble Museum's basement that can be picked up.",
     "Angler's Eye Theater": "Angler's Eye Theater",
     "There is a Theater House on Angler's Eye for the purpose of watching slide reels.": "There is a Theater House on Angler's Eye for the purpose of watching slide reels.",
     "The text on the left of the table reads out some sort of poem stanza...": "The text on the left of the table reads out some sort of poem stanza...",
@@ -1472,8 +1472,6 @@
     "Skull": "Skull",
     "Mineral": "Mineral"
   },
-
-
 
   "AchievementTranslations": {
     "tsta_thevision": {

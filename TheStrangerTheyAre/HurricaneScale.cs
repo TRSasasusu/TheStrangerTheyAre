@@ -7,7 +7,7 @@ namespace TheStrangerTheyAre
     {
         // variables
         GameObject hurricane; // to store the hurricane gameobject
-        Vector3 scale = new Vector3 (0.2f, 0.291f, 0.2f); // set scale amount in vector3
+        Vector3 scale = new Vector3 (0.2f, 0.301f, 0.2f); // set scale amount in vector3
 
         void Start()
         {
