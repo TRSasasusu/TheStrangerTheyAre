@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using System;
+using UnityEngine;
 
 namespace TheStrangerTheyAre;
 
@@ -28,10 +30,10 @@ public class SkullItem : OWItem
     {
         base.OnDestroy();
     }
-
     public override string GetDisplayName()
     {
-        return "Skull";
+
+        return String.Format(TheStrangerTheyAre.NewHorizonsAPI.GetTranslationForOtherText("SkullDisplayName"), TheStrangerTheyAre.NewHorizonsAPI.GetTranslationForUI("Skull")); ;
     }
 
     public override void DropItem(Vector3 position, Vector3 normal, Transform parent, Sector sector, IItemDropTarget customDropTarget)

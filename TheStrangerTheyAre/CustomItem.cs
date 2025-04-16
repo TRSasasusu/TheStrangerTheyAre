@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace TheStrangerTheyAre;
 
@@ -31,7 +32,7 @@ public class CustomItem : OWItem
 
     public override string GetDisplayName()
     {
-        return "Mineral";
+        return String.Format(TheStrangerTheyAre.NewHorizonsAPI.GetTranslationForOtherText("MineralDisplayName"), TheStrangerTheyAre.NewHorizonsAPI.GetTranslationForUI("Mineral")); ;
     }
 
     public override void DropItem(Vector3 position, Vector3 normal, Transform parent, Sector sector, IItemDropTarget customDropTarget)

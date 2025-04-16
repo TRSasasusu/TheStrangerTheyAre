@@ -13,16 +13,12 @@ namespace TheStrangerTheyAre
         GameObject liquidDZ4; // creates variable to store the liquid volume of dz4
         public bool isInside = false;
 
-        void Awake()
-        {
-            waterDZ4 = SearchUtilities.Find("WaterPlane_DreamZone4"); // gets the underwater floor in the fourth sector of the simulation
-            floorDZ4 = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Geo_DreamZone_4_Upper/Terrain_IP_Dreamworld_Floorbed"); // gets the underwater floor in the fourth sector of the simulation
-            liquidDZ4 = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Volumes_DreamWorld/DreamRiverFluidVolume"); // gets the underwater floor in the fourth sector of the simulation
-        }
-
         void Start()
         {
             GlobalMessenger.AddListener("ExitDreamWorld", OnExitDreamWorld); // checks if player leaves the sim
+            waterDZ4 = SearchUtilities.Find("WaterPlane_DreamZone4"); // gets the underwater floor in the fourth sector of the simulation
+            floorDZ4 = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Geo_DreamZone_4_Upper/Terrain_IP_Dreamworld_Floorbed"); // gets the underwater floor in the fourth sector of the simulation
+            liquidDZ4 = SearchUtilities.Find("DreamWorld_Body/Sector_DreamWorld/Volumes_DreamWorld/DreamRiverFluidVolume"); // gets the underwater floor in the fourth sector of the simulation
         }
 
         void OnExitDreamWorld()

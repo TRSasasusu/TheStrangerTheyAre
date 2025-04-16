@@ -1237,12 +1237,10 @@
   },
 
   "OtherDictionary": {
-    "SealDisplayName": "봉인",
-    "Skull": "두개골",
-    "Mineral": "광석"
+    "SealDisplayName": "{0} 봉인",
+    "SkullDisplayName": "두개골",
+    "MineralDisplayName": "광석"
   },
-
-
 
   "AchievementTranslations": {
     "tsta_thevision": {

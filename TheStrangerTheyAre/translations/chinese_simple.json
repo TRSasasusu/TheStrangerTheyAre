@@ -1037,7 +1037,7 @@
 
     "Mining Hole": "采矿洞",
     "There is a mining hole not far from the south pole. A pickaxe and several rocks are seen there.": "南极不远处开凿着一处采矿坑洞，坑边散落着一把矿镐和几块开采出的岩石。",
-    "There is a mineral at the bottom of the mines that can be picked up.": "矿坑最深处藏有一种特殊矿物，看起来可以拾取带走。",
+    "There is a mineral atop the table in the Bramble Museum's basement that can be picked up.": "在荆棘博物馆地下室的桌子上放着一块可以拾取的矿物。",
     "The text at the bottom of the hole says that it was to get resources for The Stranger's cloaking device. It can also be used as fuel.": "坑底刻着的文字记载，此处开采的矿物是为外星站的隐形装置提供原料，同时它也可作为高效燃料使用。",
 
     "Research House": "研究所",
@@ -1543,8 +1543,8 @@
 
   "OtherDictionary": {
     "SealDisplayName": "{0} 封印",
-    "Skull": "头骨",
-    "Mineral": "矿物"
+    "SkullDisplayName": "头骨",
+    "MineralDisplayName": "矿物"
   },
 
   "AchievementTranslations": {

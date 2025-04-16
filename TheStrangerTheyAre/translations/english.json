@@ -1468,9 +1468,9 @@
   },
 
   "OtherDictionary": {
-    "SealDisplayName": "Seal",
-    "Skull": "Skull",
-    "Mineral": "Mineral"
+    "SealDisplayName": "{0} Seal",
+    "SkullDisplayName": "Skull",
+    "MineralDisplayName": "Mineral"
   },
 
   "AchievementTranslations": {

@@ -53,7 +53,7 @@
 				<DialogueTarget>1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<RequiredLogCondition>DESERT_ATMOSPHERE_E</RequiredLogCondition>
+				<RequiredLogCondition>DESERT_MAIN_ATMO</RequiredLogCondition>
 				<Text>The atmosphere of this planet will be stripped off in just 23 minutes!</Text>
 				<DialogueTarget>2</DialogueTarget>
 			</DialogueOption>
