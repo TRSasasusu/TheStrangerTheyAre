@@ -1914,6 +1914,11 @@
 		"insulatingVolumes": [
 			{
 				"parentPath": "Sector/Item_CloakMineral",
+				"shape": {
+					"useShape": true,
+					"type": "sphere",
+					"radius": 20
+				},
 				"isRelativeToParent": true,
 				"radius": 20
 			}

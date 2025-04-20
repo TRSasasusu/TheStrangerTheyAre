@@ -342,6 +342,7 @@
 		"rafts": [
 			{
 				"rename": "HOME_RAFT",
+				"pristine": true,
 				"position": {
 					"x": 77.0221,
 					"y": 21.3288,
@@ -1014,6 +1015,11 @@
 		"insulatingVolumes": [
 			{
 				"parentPath": "Sector/BrambleMuseum_HOME/Interactables/Item_CloakMineral",
+				"shape": {
+					"useShape": true,
+					"type": "sphere",
+					"radius": 20
+				},
 				"isRelativeToParent": true,
 				"radius": 20
 			}

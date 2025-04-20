@@ -639,7 +639,10 @@
 				"radius": 240,
 				"parentPath": "Sector/Water/OceanFog",
 				"isRelativeToParent": true,
-				"firstContactDamageType": "electrical"
+				"firstContactDamageType": "electrical",
+				"shape": {
+					"useShape": false
+				}
 			}
 		],
 		"oxygenVolumes": [
