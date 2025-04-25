@@ -1897,6 +1897,18 @@
 				}
 			}
 		],
+		"speedLimiterVolumes": [
+			{
+				"maxSpeed": 2,
+				"stoppingDistance": 100,
+				"rename": "SpeedLimiter",
+				"shape": {
+					"radius": 300,
+					"useShape": true,
+					"type": "sphere"
+				}
+			}
+		],
 		"hazardVolumes": [
 			{
 				"firstContactDamageType": "electrical",
@@ -1931,13 +1943,6 @@
 		"mapRestrictionVolumes": [
 			{
 				"radius": 145.0
-			}
-		],
-		"speedTrapVolumes": [
-			{
-				"acceleration": 1,
-				"speedLimit": 1,
-				"radius": 200
 			}
 		],
 		"oxygenVolumes": [
