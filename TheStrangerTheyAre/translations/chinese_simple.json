@@ -862,7 +862,7 @@
     "According to our research, taking a photo of a quantum object has the potential to increase the object's weight. Interestingly, this phenomenon is completely disconnected from observation, and persists even after the object ceases to be observed or the photo is destroyed.": "根据我们的研究，拍摄量子物体的照片可能增加该物体的质量。有趣的是，这种现象与观测行为完全无关，即使物体不再被观测或照片被销毁，效果仍然持续。",
 
     //Lab State 3
-    "We've finally identified this machine's function! It is a quantum field manipulator, tuned to decrease the range of nearby quantum objects by increasing their quantum weight. It is unclear to us what purpose that might serve.": "我们终于确认了这台机器的功能！它是一个量子场操控器，通过增加附近量子物体的量子质量来缩减其范围。我们尚不清楚此功能究竟有何用途。",
+    "We’ve finally identified this machine’s function! It is a quantum field manipulator, tuned to decrease the range of nearby quantum objects by increasing their quantum weight. It is unclear to us what purpose that might serve.": "我们终于确认了这台机器的功能！它是一个量子场操控器，通过增加附近量子物体的量子质量来缩减其范围。我们尚不清楚此功能究竟有何用途。",
     "Now that we know what this machine is capable of, we can let HQ know it's safe to interact with.": "既然我们已了解这台机器的能力，可以向总部通报它与之交互是安全的。",
 
     //Ringed Labatory
@@ -1486,7 +1486,11 @@
     "The text on the left explains how to perform an exploit, which involves walking away from The Artifact. Glitched tiles might also appear when the solar sails activate, but deactivates 7 minutes later.": "左侧文字说明了一种利用方法，即远离文物出现的数字化世界；当太阳帆激活时，还可能产生故障瓷砖，但这些现象在7分钟后会消失。",
 
     // PREBRAMBLE_PROJ2_TEXT
-    "The text in the middle reveals that using focus in the simulation can cause you to sneak, and even prevent from falling off edges. This will help me in cautious and stealthy scenarios.": "中间的文字表明，在模拟世界中使用聚焦功能可以使你能够潜行，甚至防止从边缘坠落，这对我在需要谨慎和隐秘行动的场合十分有利。"
+    "The text in the middle reveals that using focus in the simulation can cause you to sneak, and even prevent from falling off edges. This will help me in cautious and stealthy scenarios.": "中间的文字表明，在模拟世界中使用聚焦功能可以使你能够潜行，甚至防止从边缘坠落，这对我在需要谨慎和隐秘行动的场合十分有利。",
+
+    // some missing translations
+    "The machine is tuned to increase the quantum weight of nearby quantum objects, thus decreasing their range.": "这台机器被调校为增加附近量子物体的量子质量，从而减小它们的波函数范围。",
+    "The engineers determined that the machine is safe to interact with.": "工程师们已确认与该机器交互是安全的。"
   },
 
   "UIDictionary": {
