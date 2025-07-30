@@ -35,7 +35,7 @@ namespace TheStrangerTheyAre
             {
                 // destroy all altending objects
                 Destroy(endTimesAudio);
-                //Destroy(cypressVessel);
+                Destroy(cypressVessel);
             }
         }
 

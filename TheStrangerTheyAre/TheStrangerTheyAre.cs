@@ -64,7 +64,6 @@ namespace TheStrangerTheyAre
                     {
                         ModHelper.Events.Unity.FireInNUpdates(OnSolarSystemLoaded, 5);
                     }
-                    PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", true);
                     ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
                 }
                 else if (loadScene == OWScene.PostCreditsScene)
