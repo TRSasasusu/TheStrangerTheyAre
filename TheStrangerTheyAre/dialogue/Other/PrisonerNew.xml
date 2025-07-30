@@ -10,11 +10,11 @@
         <DialogueOptionsList>
 			<DialogueOption>
 				<Text>Who are you?</Text>
-				<SetCondition>TSTA_GoBackToMainPrisoner</SetCondition>
+				<ConditionToSet>TSTA_GoBackToMainPrisoner</ConditionToSet>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Where are we?</Text>
-				<SetCondition>TSTA_GoBackToMainPrisoner</SetCondition>
+				<ConditionToSet>TSTA_GoBackToMainPrisoner</ConditionToSet>
 			</DialogueOption>
             <DialogueOption>
 				<RequiredPersistentCondition>CYPRESS_BOARDVESSEL</RequiredPersistentCondition>
@@ -33,8 +33,8 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Your brother taught me.</Text>
-				<SetCondition>TSTA_PrisonerBrother</SetCondition>
 				<DialogueTarget>1</DialogueTarget>
+				<ConditionToSet>TSTA_PrisonerBrother</ConditionToSet>
 			</DialogueOption>
 		</DialogueOptionsList>
     </DialogueNode>
@@ -91,5 +91,6 @@
 			<Page>Alright, blue friend. Lead the way!</Page>
 		</Dialogue>
 		<SetCondition>TSTA_PrisonerLeave</SetCondition>
+		<SetCondition>TSTA_PrisonerTalkedTo</SetCondition>
 	</DialogueNode>
 </DialogueTree>

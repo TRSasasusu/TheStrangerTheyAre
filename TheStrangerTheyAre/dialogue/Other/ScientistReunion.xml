@@ -29,7 +29,6 @@
 	<DialogueNode>
 		<Name>ScientistReunion_End2</Name>
 		<EntryCondition>scireunion_talkedto2</EntryCondition>
-		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
 		<Dialogue>
 			<Page>Your crave for knowledge is what brought us all together. You fit right in!</Page>
 			<Page>So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!</Page>
@@ -38,17 +37,19 @@
 			<DialogueOption>
 				<Text>I'm not ready yet.</Text>
 				<DialogueTarget>1</DialogueTarget>
+				<ConditionToCancel>TSTA_PrisonerTalkedTo</ConditionToCancel>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Well said, Xylo!</Text>
 				<DialogueTarget>2</DialogueTarget>
+				<ConditionToCancel>TSTA_PrisonerTalkedTo</ConditionToCancel>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>ScientistReunion_End</Name>
-		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
+		<EntryCondition>TSTA_PrisonerTalkedTo</EntryCondition>
 		<Dialogue>
 			<Page>Phyllo, I remember the day we all saw The Vortex for the first time.</Page>
 			<Page>When they scanned it with the vision torch, they were so frightened they couldn't look anymore.</Page>
@@ -71,10 +72,12 @@
 			<DialogueOption>
 				<Text>I'm not ready yet.</Text>
 				<DialogueTarget>1</DialogueTarget>
+				<ConditionToCancel>TSTA_PrisonerTalkedTo</ConditionToCancel>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Well said, Xylo!</Text>
 				<DialogueTarget>2</DialogueTarget>
+				<ConditionToCancel>TSTA_PrisonerTalkedTo</ConditionToCancel>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
