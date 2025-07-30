@@ -711,6 +711,8 @@
     "Is this The Vortex? It sure doesn't look like what I was told.": "Is this The Vortex? It sure doesn't look like what I was told.",
     "How is that possible? He's been long gone!": "How is that possible? He's been long gone!",
     "Well, if you say so. I'll let you lead the way.": "Well, if you say so. I'll let you lead the way.",
+    "No, we're at my home system. I want you to meet your distant grandfather.": "No, we're at my home system. I want you to meet your distant grandfather.",
+    "The simulation on your kind's ship has a data clone of him. Let's go!": "The simulation on your kind's ship has a data clone of him. Let's go!",
 
     //CypressReunion
     "Oh hey, Hatchling! I'm just catching my Greatest Granddad up to date with everyting!": "Oh hey, Hatchling! I'm just catching my Greatest Granddad up to date with everyting!",
@@ -761,6 +763,10 @@
     "If only I could see our home again...*sniff*": "If only I could see our home again...*sniff*",
     "Where is my distant grandnephew?": "Where is my distant grandnephew?",
     "Alright, blue friend. Lead the way!": "Alright, blue friend. Lead the way!",
+    "Your brother taught me.": "Your brother taught me.",
+    "You have a distant grandnephew waiting for you.": "You have a distant grandnephew waiting for you.",
+    "Yep, he terraformed home. It's as good as new.": "Yep, he terraformed home. It's as good as new.",
+    "I'll take you to him. Follow me!": "I'll take you to him. Follow me!",
 
     //PrisonerReunion
     "I'm glad Xylo left a clone of himself here. He may not be the same, but he's close enough!": "I'm glad Xylo left a clone of himself here. He may not be the same, but he's close enough!",
@@ -800,6 +806,10 @@
     "Little blue friend, I may have just met you, but I already see you as apart of our family.": "Little blue friend, I may have just met you, but I already see you as apart of our family.",
     "Your crave for knowledge is what brought us all together. You fit right in!": "Your crave for knowledge is what brought us all together. You fit right in!",
     "So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!": "So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!",
+    "I'm not ready yet.": "I'm not ready yet.",
+    "Well said, Xylo!": "Well said, Xylo!",
+    "Well, okay then. Take your time. We have all the time in the universe now.": "Well, okay then. Take your time. We have all the time in the universe now.",
+    "Well then, Hatchling. Welcome to your new home.": "Well then, Hatchling. Welcome to your new home.",
 
     //SolanumNew
     "Kind traveler, you have bestowed upon me such wonderful wisdom.": "Kind traveler, you have bestowed upon me such wonderful wisdom.",
@@ -1513,6 +1523,10 @@
     "tsta_gangnam": {
       "Name": "Oppan Stranger Style!",
       "Description": "Find Stranger Style"
+    },
+    "tsta_reunion": {
+      "Name": "Family Reunion",
+      "Description": "Introduce Cypress to The Scientist and The Prisoner."
     }
   }
 }

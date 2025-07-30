@@ -197,6 +197,37 @@
 				}
 			},
 			{
+				"xmlFile": "dialogue/Other/ScientistReunion.xml",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
+				"isRelativeToParent": true,
+				"rename": "SCIENTIST_REUNION_DIALOGUE",
+				"lookAtRadius": 0,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Other/CypressReunion.xml",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Cypress_Reunion",
+				"isRelativeToParent": true,
+				"rename": "CYPRESS_REUNION_DIALOGUE",
+				"lookAtRadius": 0,
+				"position": {
+					"y": 3
+				}
+			},
+			{
+				"xmlFile": "dialogue/Other/PrisonerReunion.xml",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Prisoner_Reunion",
+				"isRelativeToParent": true,
+				"rename": "PRISONER_REUNION_DIALOGUE",
+				"lookAtRadius": 0,
+				"pathToAnimController": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Prisoner_Reunion/Ghostbird_IP_ANIM",
+				"position": {
+					"y": 3
+				}
+			},
+			{
 				"xmlFile": "dialogue/IsolatedSwamp/R&DHouse/1F_Wall1.xml",
 				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/R&DHouse_SIM/Interactibles/Text/1F_Wall1/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true
@@ -316,6 +347,17 @@
 					"z": 685.6943
 				},
 				"xmlFile": "dialogue/Other/StrangerText/PrisonerLock.xml"
+			},
+			{
+				"position": {
+					"y": -2.92,
+					"z": 0.369
+				},
+				"radius": 2.0,
+				"range": 1.0,
+				"xmlFile": "dialogue/Other/PrisonerNew.xml",
+				"isRelativeToParent": true,
+				"rename": "TSTA_Prisoner_Dialogue"
 			}
 		],
 		"slideShows": [
@@ -752,6 +794,19 @@
 				"priority": 0
 			},
 			{
+				"audio": "assets/Audio/OWxSE.ogg",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4",
+				"rename": "SCIENTIST_THEME_END",
+				"isRelativeToParent": true,
+				"radius": 30,
+				"volume": 0.7,
+				"position": {
+					"y": 3
+				},
+				"track": "music",
+				"priority": 0
+			},
+			{
 				"audio": "IllusoryWall_Alex",
 				"radius": 3,
 				"priority": 1,
@@ -792,6 +847,19 @@
 					"y": 2.904684,
 					"z": 750.533
 				}
+			},
+			{
+				"audio": "assets/Audio/OlderThanTheUniverseFULL.mp3",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Prisoner_Reunion",
+				"rename": "ALTEND_THEME",
+				"isRelativeToParent": true,
+				"radius": 30,
+				"volume": 0.7,
+				"position": {
+					"y": 3
+				},
+				"track": "music",
+				"priority": 1
 			}
 		],
 		"revealVolumes": [
@@ -883,6 +951,25 @@
 				"reveals": [
 					"NEWSIM_ARCHIVE_THEATRE"
 				]
+			}
+		],
+		"creditsVolume": [
+			{
+				"deathType": "meditation",
+				"gameOver": {
+					"text": "As The Stranger continues to coast along the empty void, you spend the rest of eternity with your new, strange family.",
+					"colour": {
+						"r": 29,
+						"g": 201,
+						"b": 158,
+						"a": 255
+					},
+					"creditsType": "fast"
+				},
+				"radius": 25,
+				"rename": "CREDITS_VOLUME",
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/GhostBirds/CUTSCENE_GHOSTBIRDS/NODE_SCIENTIST/Prefab_IP_GhostBird_Scientist4/FamilyReunionCreditsVol",
+				"isRelativeToParent": true
 			}
 		]
 	},

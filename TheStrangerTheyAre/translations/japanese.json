@@ -714,7 +714,7 @@
       "Well, if you say so. I'll let you lead the way.": "まあ、あなたがそう言うのなら。道案内をお願いしよう。&lt;i&gt;&lt;/i&gt;",
       "No, we're at my home system. I want you to meet your distant grandfather.": "いや、私たちは私の星系にいる。あなたの遠い祖父に会ってほしくて。&lt;i&gt;&lt;/i&gt;",
       "The simulation on your kind's ship has a data clone of him. Let's go!": "あなたの種族の船の模擬現実には彼のデータクローンがいるんだ。さあ行こう！&lt;i&gt;&lt;/i&gt;",
-  
+      
       //CypressReunion
       "Oh hey, Hatchling! I'm just catching my Greatest Granddad up to date with everyting!": "やあ、ひよっ子！今、曾々々祖父に今までにあったすべてを教えているところなんだ！&lt;i&gt;&lt;/i&gt;",
       "The Terraform Plan, The Aliens, The War, Me, You...all the works.": "テラフォーミング計画、異星人、戦争、私、あなた…すべてのことを。&lt;i&gt;&lt;/i&gt;",
@@ -764,7 +764,11 @@
       "If only I could see our home again...*sniff*": "もう一度故郷を見ることができれば…*すすり泣き*&lt;i&gt;&lt;/i&gt;",
       "Where is my distant grandnephew?": "私の遠い孫甥はどこにいる？&lt;i&gt;&lt;/i&gt;",
       "Alright, blue friend. Lead the way!": "よし、青い友よ。道を案内してほしい！&lt;i&gt;&lt;/i&gt;",
-  
+      "Your brother taught me.": "Your brother taught me.",
+      "You have a distant grandnephew waiting for you.": "You have a distant grandnephew waiting for you.",
+      "Yep, he terraformed home. It's as good as new.": "Yep, he terraformed home. It's as good as new.",
+      "I'll take you to him. Follow me!": "I'll take you to him. Follow me!",
+      
       //PrisonerReunion
       "I'm glad Xylo left a clone of himself here. He may not be the same, but he's close enough!": "Xyloが自分のクローンをここに残してくれて嬉しい。全く同じではないかもしれないが、十分近い！&lt;i&gt;&lt;/i&gt;",
       "Hearing our home being terraformed successfully is way too good to be true, but it is!": "故郷が成功裏にテラフォーミングされたと聞くのは信じられないほど僥倖だが、本当なのか！&lt;i&gt;&lt;/i&gt;",
@@ -803,7 +807,11 @@
       "Little blue friend, I may have just met you, but I already see you as apart of our family.": "小さな青い友よ、ついさっき会ったばかりですが、すでにあなたを家族の一員として見ています。&lt;i&gt;&lt;/i&gt;",
       "Your crave for knowledge is what brought us all together. You fit right in!": "知識への渇望が私たちを一つにしました。あなたはそこにぴったり合っています！&lt;i&gt;&lt;/i&gt;",
       "So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!": "さあ、座って、くつろいでください。ここが今やあなたの新しい家です。私たちは時の終わりまでここにいるでしょう！&lt;i&gt;&lt;/i&gt;",
-  
+      "I'm not ready yet.": "I'm not ready yet.",
+      "Well said, Xylo!": "Well said, Xylo!",
+      "Well, okay then. Take your time. We have all the time in the universe now.": "Well, okay then. Take your time. We have all the time in the universe now.",
+      "Well then, Hatchling. Welcome to your new home.": "Well then, Hatchling. Welcome to your new home.",
+
       //SolanumNew
       "Kind traveler, you have bestowed upon me such wonderful wisdom.": "親切な旅人さん、あなたによって素晴らしい知恵が授けられたわ。&lt;i&gt;&lt;/i&gt;",
       "An owl-like species hidden beneath a cloak above the plane of the Solar System...it is no wonder we Nomai have not discovered it yet.": "太陽系平面の上の方でクローキングフィールドに隠れるフクロウのような種族…私たちNomaiが未だそれを発見できなかったのは不思議ではない。&lt;i&gt;&lt;/i&gt;",

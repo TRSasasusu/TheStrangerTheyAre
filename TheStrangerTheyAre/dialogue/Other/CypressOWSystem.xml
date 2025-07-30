@@ -7,10 +7,12 @@
         <Dialogue>
             <Page>Is this The Vortex? It sure doesn't look like what I was told.</Page>
         </Dialogue>
-		<DialogueOption>
-			<Page>No, we're at my home system. I want you to meet your distant grandfather.</Page>
-			<DialogueTarget>1</DialogueTarget>
-		</DialogueOption>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No, we're at my home system. I want you to meet your distant grandfather.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
     </DialogueNode>
 
 	<DialogueNode>
@@ -18,10 +20,12 @@
 		<Dialogue>
 			<Page>How is that possible? He's been long gone!</Page>
 		</Dialogue>
-		<DialogueOption>
-			<Page>The simulation on your kind's ship has a data clone of him. Let's go!</Page>
-			<DialogueTarget>2</DialogueTarget>
-		</DialogueOption>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The simulation on your kind's ship has a data clone of him. Let's go!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>

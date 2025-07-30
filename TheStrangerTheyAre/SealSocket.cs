@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using OWML.Common;
 
 namespace TheStrangerTheyAre;
 public class SealSocket : OWItemSocket

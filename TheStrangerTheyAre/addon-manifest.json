@@ -91,6 +91,13 @@
       "conditionIDs": [
         "tsta_gangnam"
       ]
+    },
+    {
+      "ID": "tsta_reunion",
+      "secret": true,
+      "conditionIDs": [
+        "tsta_reunion"
+      ]
     }
   ]
 }

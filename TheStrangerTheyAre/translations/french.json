@@ -711,6 +711,8 @@
     "Is this The Vortex? It sure doesn't look like what I was told.": "Est-ce le vortex ? C'est sûre que ça ne ressemble pas à ce qu'on m'a dit.",
     "How is that possible? He's been long gone!": "Comment est-ce possible ? Il est parti depuis longtemps !",
     "Well, if you say so. I'll let you lead the way.": "Eh bien, si tu le dis. Je te laisserai ouvrir la voie.",
+    "No, we're at my home system. I want you to meet your distant grandfather.": "No, we're at my home system. I want you to meet your distant grandfather.",
+    "The simulation on your kind's ship has a data clone of him. Let's go!": "The simulation on your kind's ship has a data clone of him. Let's go!",
 
     //CypressReunion
     "Oh hey, Hatchling! I'm just catching my Greatest Granddad up to date with everyting!": "Oh hey, Petite pierre! Je suis juste en train de rattraper le temps perdu mon super grand-père sur tout !",
@@ -761,6 +763,10 @@
     "If only I could see our home again...*sniff*": "Si seulement je pouvais revoir notre maison...*sniff*",
     "Where is my distant grandnephew?": "Où est mon lointain petit-neveu ?",
     "Alright, blue friend. Lead the way!": "D'accord, ami bleu. Montre le chemin !",
+    "Your brother taught me.": "Your brother taught me.",
+    "You have a distant grandnephew waiting for you.": "You have a distant grandnephew waiting for you.",
+    "Yep, he terraformed home. It's as good as new.": "Yep, he terraformed home. It's as good as new.",
+    "I'll take you to him. Follow me!": "I'll take you to him. Follow me!",
 
     //PrisonerReunion
     "I'm glad Xylo left a clone of himself here. He may not be the same, but he's close enough!": "Je suis content que Xylo ait laissé un clone de lui-même ici. Il n'est peut-être pas le même, mais il est assez proche !",
@@ -800,7 +806,11 @@
     "Little blue friend, I may have just met you, but I already see you as apart of our family.": "Petit ami bleu, je viens peut-être de te rencontrer, mais je te vois déjà comme faisant partie de notre famille.",
     "Your crave for knowledge is what brought us all together. You fit right in!": "Ta soif de connaissances est ce qui nous a tous réunis. Tu t'intégres parfaitement !",
     "So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!": "Alors prends un siège, mets-toi à l'aise. C'est ta nouvelle maison maintenant. Nous serons ici jusqu'à la fin des temps !",
-
+    "I'm not ready yet.": "I'm not ready yet.",
+    "Well said, Xylo!": "Well said, Xylo!",
+    "Well, okay then. Take your time. We have all the time in the universe now.": "Well, okay then. Take your time. We have all the time in the universe now.",
+    "Well then, Hatchling. Welcome to your new home.": "Well then, Hatchling. Welcome to your new home.",
+    
     //SolanumNew
     "Kind traveler, you have bestowed upon me such wonderful wisdom.": "Aimable voyageur, vous m'avez accordé une sagesse si merveilleuse.",
     "An owl-like species hidden beneath a cloak above the plane of the Solar System...it is no wonder we Nomai have not discovered it yet.": "Une espèce ressemblant à des hiboux cachée sous un camouflage au-dessus du plan du système solaire... il n'est pas étonnant que nous, les Nomai, ne l'ayons pas encore découverte.",

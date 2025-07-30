@@ -9,6 +9,7 @@
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
     <NoWarn>MSB3270</NoWarn>
     <DebugType>portable</DebugType>
+	<OutputPath>$(USERPROFILE)\Desktop\Apps\Gamerip\outer-wilds-unity-assets-main\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="OWML" Version="2.13.0" />
@@ -33,6 +34,7 @@
     <Content Include="TheStrangerTheyAre.csproj.user" />
   </ItemGroup>
 	<ItemGroup>
+		<Compile Remove="planets\SolarSystem\AltEndingController.cs" />
 		<Compile Remove="translations\diff.txt" />
 	</ItemGroup>
 	<ItemGroup>
@@ -69,4 +71,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+	<Target Name="BuildDll" AfterTargets="Build">
+		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(USERPROFILE)\Desktop\Apps\Gamerip\outer-wilds-unity-assets-main\" />
+	</Target>
 </Project>

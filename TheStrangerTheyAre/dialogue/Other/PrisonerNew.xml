@@ -30,11 +30,13 @@
 			<Page>...?</Page>
             <Page>How do you understand my language?</Page>
         </Dialogue>
-		<DialogueOption>
-			<Text>Your brother taught me.</Text>
-			<SetCondition>TSTA_PrisonerBrother</SetCondition>
-			<DialogueTarget>1</DialogueTarget>
-		</DialogueOption>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Your brother taught me.</Text>
+				<SetCondition>TSTA_PrisonerBrother</SetCondition>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
     </DialogueNode>
 
 	<DialogueNode>
@@ -48,10 +50,12 @@
 			<Page>And now here I am, locked up for eternity hoping the atoms of our terror turned into a bustling, new universe.</Page>
 			<Page>Say, there's someone you want me to meet?</Page>
 		</Dialogue>
-		<DialogueOption>
-			<Text>You have a distant grandnephew waiting for you.</Text>
-			<DialogueTarget>2</DialogueTarget>
-		</DialogueOption>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You have a distant grandnephew waiting for you.</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 	
 	<DialogueNode>
@@ -59,10 +63,12 @@
 		<Dialogue>
 			<Page>I'm an uncle again? Did Xylo....</Page>
 		</Dialogue>
-		<DialogueOption>
-			<Text>Yep, he terraformed home. It's as good as new.</Text>
-			<DialogueTarget>3</DialogueTarget>
-		</DialogueOption>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yep, he terraformed home. It's as good as new.</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 	
 	<DialogueNode>
@@ -71,10 +77,12 @@
 			<Page>If only I could see our home again...*sniff*</Page>
 			<Page>Where is my distant grandnephew?</Page>
 		</Dialogue>
-		<DialogueOption>
-			<Text>I'll take you to him. Follow me!</Text>
-			<DialogueTarget>4</DialogueTarget>
-		</DialogueOption>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'll take you to him. Follow me!</Text>
+				<DialogueTarget>4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 	
 	<DialogueNode>

@@ -2,6 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "name": "RingWorld",
   "Props": {
+    "details": [
+      {
+        "assetBundle": "assets/AssetBundle/strangerbundle",
+        "path": "Assets/Prefab_IP_GhostBird_Cypress_Sleep.prefab",
+        "position": {
+          "x": 99.54531,
+          "y": -140.1495,
+          "z": 227.7722
+        },
+        "rotation": {
+          "x": 34.78079,
+          "y": 114.091,
+          "z": 270.0001
+        }
+      }
+    ],
     "dialogue": [
       {
         "rename": "TSTA_StrangerDialogue_1",

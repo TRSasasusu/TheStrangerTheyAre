@@ -57,18 +57,17 @@ namespace TheStrangerTheyAre
             // Example of accessing game code.
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
-                if (loadScene != OWScene.SolarSystem) return;
-                
-                // Wait a few frames to make sure its done
-                if (NewHorizonsAPI.GetCurrentStarSystem() == "SolarSystem")
+                if (loadScene == OWScene.SolarSystem)
                 {
-                    ModHelper.Events.Unity.FireInNUpdates(OnSolarSystemLoaded, 5);
+                    // Wait a few frames to make sure its done
+                    if (NewHorizonsAPI.GetCurrentStarSystem() == "SolarSystem")
+                    {
+                        ModHelper.Events.Unity.FireInNUpdates(OnSolarSystemLoaded, 5);
+                    }
+                    PlayerData.SetPersistentCondition("CYPRESS_BOARDVESSEL", true);
+                    ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
                 }
-                ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
-            };
-            LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
-            {
-                if (loadScene == OWScene.PostCreditsScene)
+                else if (loadScene == OWScene.PostCreditsScene)
                 {
                     if (endingBundle == null)
                     {
@@ -79,8 +78,6 @@ namespace TheStrangerTheyAre
                         }
                     }
                 }
-                if (loadScene != OWScene.SolarSystem) return;
-                ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
             };
         }
 

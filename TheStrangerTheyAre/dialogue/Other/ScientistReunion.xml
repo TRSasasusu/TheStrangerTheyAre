@@ -27,6 +27,26 @@
 	</DialogueNode>
 
 	<DialogueNode>
+		<Name>ScientistReunion_End2</Name>
+		<EntryCondition>scireunion_talkedto2</EntryCondition>
+		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
+		<Dialogue>
+			<Page>Your crave for knowledge is what brought us all together. You fit right in!</Page>
+			<Page>So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'm not ready yet.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Well said, Xylo!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
 		<Name>ScientistReunion_End</Name>
 		<EntryCondition>TSTA_PrisonerLeave</EntryCondition>
 		<Dialogue>
@@ -47,6 +67,33 @@
 			<Page>Your crave for knowledge is what brought us all together. You fit right in!</Page>
 			<Page>So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!</Page>
 		</Dialogue>
-		<SetCondition>tsta_familyreunion</SetCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'm not ready yet.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Well said, Xylo!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Well, okay then. Take your time. We have all the time in the universe now.</Page>
+		</Dialogue>
+		<SetCondition>scireunion_talkedto2</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Well then, Hatchling. Welcome to your new home.</Page>
+		</Dialogue>
+		<SetPersistentCondition>tsta_reunion</SetPersistentCondition>
+		<SetCondition>FamilyReunionDone</SetCondition>
+		<SetCondition>scireunion_talkedto2</SetCondition>
 	</DialogueNode>
 </DialogueTree>
