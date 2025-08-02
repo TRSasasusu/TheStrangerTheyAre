@@ -574,7 +574,7 @@
     "He's told me about his family and what life was like before and during the days we were aboard this ship.": "할아버지는 자신의 가족에 대해, 그리고 우리가 이 배에 탑승하기 전과 그 시절의 삶이 어땠는지에 대해 이야기해 주셨어.",
     "It's crazy how rich our kind's history has become, and now I've been face-to-face with a peaceful alien!": "우리 종족의 역사가 이렇게나 풍부해졌다는 게 정말 놀라워. 게다가 이제는 평화로운 외계인과 직접 마주하기까지 했다니!",
     "The Universe is about to blow, so it's a shame no one will get to read the history books up to this point.": "우주가 곧 폭발할 텐데, 지금까지 일어났던 역사를 아무도 알지 못한다는 건 안타까운 일이야.",
-    "But I'm still overly grateful to meet THE Scientist, my distant grandfather.": "하지만 먼 할아버지인 과학자를 만나게 되어 여전히 감사한 마음뿐입니다.",
+    "But I'm still overly grateful to meet THE Scientist, my distant grandfather.": "하지만 먼 할아버지인 과학자를 만나게 되어 여전히 감사한 마음뿐이야.",
     "Thank you, friend. You've made my dreams a reality.": "고마워, 친구. 내 꿈을 현실로 만들어 줬구나.",
     "Say, is there anyone else here you want me to meet?": "내가 여기서 만났으면 하는 동족이 또 있어?",
     "Phyllo, Xylo....those are your names?": "필로, 실로.... 그게 당신 이름인가요?",
@@ -636,8 +636,8 @@
     "But now, the universe is dying. I can tell because the glitched tiles appearing, dams breaking...that means the star is going to go supernova.": "하지만 이제 우주는 죽어가고 있어. 이 시뮬레이션에 반짝이는 타일이 나타나고 댐이 깨지는 건 모두 별이 초신성이 된다는 것을 의미해.",
     "If only someone were to activate The Vortex, we could put the universe out of its misery, and give birth to something new.": "누군가 소용돌이만 활성화할 수 있다면, 우주는 고통에서 벗어나서 새로운 무언가를 탄생시킬 수 있을 거야.",
     "But, here we are. Spending the rest of our days together until our ship gets destroyed.": "하지만 우리는 지금 여기 있어. 배가 파괴될 때까지 여기서 남은 날들을 함께 보내자.",
-    "Little blue friend, I may have just met you, but I already see you as apart of our family.": "꼬마 파란 친구야, 널 만난 지 얼마 안 됐지만 이미 네가 우리 가족의 일원이 된 것 같아.",
-    "Your crave for knowledge is what brought us all together. You fit right in!": "지식에 대한 열망이 우리 모두를 하나로 모이게 했어. 너도 여기에 잘 어울려!",
+    "Little blue friend, I may have just met you, but I already see you as apart of our family.": "꼬마 파란 친구야, 널 만난 지 얼마 안 됐지만 이미 네가 우리 가족의 일원이 된 것 같네.",
+    "Your crave for knowledge is what brought us all together. You fit right in!": "네 지식에 대한 열망이 우리 모두를 하나로 모이게 했어. 너도 여기에 잘 어울려!",
     "So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!": "이제 편안하게 앉아. 이곳이 너의 새로운 집이야. 우린 주어진 시간이 끝날 때까지 여기 있을 거야!",
     "Kind traveler, you have bestowed upon me such wonderful wisdom.": "친절한 탐험가씨, 당신은 저에게 놀라운 지혜를 주셨어요.",
     
@@ -765,7 +765,8 @@
     "I think it might have something to do with the rush of the falls being louder than it, plus we just upgraded our signal scopes for your adventure yesterday. So will you find it for me Hatchling?": "폭포의 물소리가 더 커진 것과 관련이 있을 거 같고, 어제 너를 위해 신호탐지기의 범위를 업그레이드했거든. 그럼 나를 위해서 그걸 조사해주지 않겠니?",
 
     "Wait Hatchling! Before you go!": "잠깐만, 신입! 이륙하기 전에 할 말이 있어.",
-    "Yeah, I've got the launch codes.": "네, 네, 발사 코드는 이미 받았어요.",      "I already know about the HUD Marker, Slate.": "이미 목적지를 HUD에 표시하는 법도 알아요.",
+    "Yeah, I've got the launch codes.": "네, 네, 발사 코드는 이미 받았어요.",      
+    "I already know about the HUD Marker, Slate.": "이미 목적지를 HUD에 표시하는 법도 알아요.",
     "Slate, I already checked the waterfall.": "슬레이트, 이미 폭포는 확인해 봤어요.",
     "No, that's not what I was going to say at all!": "아니, 그걸 말하려던 게 아니야!",
     "I can already tell by the look on your face, but you seem annoyed about something.": "지금 네 얼굴만 봐도 뭔가 짜증나 보이네.",
@@ -787,8 +788,19 @@
     "<size=72>DO NOT SHOOT YOUR SCOUT INTO THE EYE</size>": "<size=72>우주의 눈 안으로 정찰기를 발사하지 마세요</size>",
     "Yeah, a certain section has an elevator and an instrument that both don't work unless you launch your scout once when you find it.": "네, 어떤 구역에 승강기와 악기가 있는데, 정찰기를 한 번 발사하지 않으면 둘 다 작동하지 않을 거예요.",
     "I know it's tempting, but you can just launch your scout right before you jump into the orb. Got it": "정찰기를 발사하고 싶은 건 알지만, 가능성을 붕괴시키기 직전에 발사하면 돼요. 알겠죠?",
-    "Don't screw this up, or you'll have to restart the mod!": "망치지 마세요, 아니면 모드를 종료했다가 다시 시작해야 할 거예요!"
+    "Don't screw this up, or you'll have to restart the mod!": "망치지 마세요, 아니면 모드를 종료했다가 다시 시작해야 할 거예요!",
 
+    //New Alt Ending
+    "No, we're at my home system. I want you to meet your distant grandfather.": "아뇨, 여기는 제 고향 항성계에요. 당신의 먼 할아버지를 만나게 해 주고 싶었어요.",
+    "The simulation on your kind's ship has a data clone of him. Let's go!": "당신 동족의 배에 있는 시뮬레이션에 그 분의 복제가 남아 있어요. 어서 가요!",
+    "Your brother taught me.": "당신의 형제가 가르쳐 줬어요.",
+    "You have a distant grandnephew waiting for you.": "당신을 기다리고 있는 먼 조카가 있어요.",
+    "Yep, he terraformed home. It's as good as new.": "네, 그가 고향을 테라포밍 했어요. 새것처럼 완전히 복원됐죠.",
+    "I'll take you to him. Follow me!": "제가 그분께 데려다 줄게요. 따라와요!",
+    "I'm not ready yet.": "전 아직 준비가 안 됐어요.",
+    "Well said, Xylo!": "잘 말했어, 실로!",
+    "Well, okay then. Take your time. We have all the time in the universe now.": "그래, 알겠어. 천천히 해. 이제 우주에 넘쳐나는게 시간이니까.",
+    "Well then, Hatchling. Welcome to your new home.": "그럼, 올챙아. 네 새로운 집에 온 걸 환영해.",
   },
   "ShipLogDictionary": {
     "Angler's Eye": "아귀의 눈",
@@ -1282,6 +1294,10 @@
     "tsta_gangnam": {
       "Name": "오빤 이방인 스타일!",
       "Description": "'이방인 스타일'을 찾으세요."
+    },
+    "tsta_reunion": {
+      "Name": "가족 재결합",
+      "Description": "사이프러스에게 과학자와 죄수를 소개시켜 주세요."
     }
   }
 }
