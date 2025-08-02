@@ -1490,7 +1490,18 @@
 
     // some missing translations
     "The machine is tuned to increase the quantum weight of nearby quantum objects, thus decreasing their range.": "这台机器被调校为增加附近量子物体的量子质量，从而减小它们的波函数范围。",
-    "The engineers determined that the machine is safe to interact with.": "工程师们已确认与该机器交互是安全的。"
+    "The engineers determined that the machine is safe to interact with.": "工程师们已确认与该机器交互是安全的。",
+
+    "No, we're at my home system. I want you to meet your distant grandfather.": "不，我们在我的家园星系。我想让你见见你远方的祖父。",
+    "The simulation on your kind's ship has a data clone of him. Let's go!": "你们种族的飞船上有他的数据克隆。我们走吧！",
+    "Your brother taught me.": "你哥哥教过我。",
+    "You have a distant grandnephew waiting for you.": "你有一个远房侄子在等你。",
+    "Yep, he terraformed home. It's as good as new.": "没错，他对家园进行了地球化改造。现在和新的一样。",
+    "I'll take you to him. Follow me!": "我带你去见他。跟我来！",
+    "I'm not ready yet.": "我还没准备好。",
+    "Well said, Xylo!": "说得好，赛洛！",
+    "Well, okay then. Take your time. We have all the time in the universe now.": "好吧，那就慢慢来。我们现在有的是时间。",
+    "Well then, Hatchling. Welcome to your new home.": "那么，小家伙，欢迎来到你的新家。"
   },
 
   "UIDictionary": {
@@ -1591,6 +1602,10 @@
     "tsta_gangnam": {
       "Name": "外星站风格!",
       "Description": "找到外星站款。"
+    },
+    "tsta_reunion": {
+      "Name": "家庭团聚",
+      "Description": "将赛普雷斯介绍给科学家和幽禁者。"
     }
   }
 }
