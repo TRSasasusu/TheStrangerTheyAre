@@ -158,7 +158,7 @@
       "Something tells me that there's more to explore here, so go on and investigate!": "何かがここにはもっと探索すべきものがあると告げています。さあ、調査を続けるのです！&lt;i&gt;&lt;/i&gt;",
       "OK, I'll go gather the rest!": "わかった、残りを集めてくるよ！&lt;i&gt;&lt;/i&gt;",
       "I may have lost my friends, my children, and sometimes even my sanity, but despite that, I pushed forward and I made my dreams come true.": "私は友人、子供たち、そして時に正気さえ失ったかもしれませんが、それでも前に進み、夢を実現させました。&lt;i&gt;&lt;/i&gt;",
-      "From what my brother has learned about The Eye, it is a tool of sacrifice. He knew that our kind was doomed once we boarded The Stranger, so he thought it was time.": "弟が眼について学んだところによると、それは犠牲のための道具だ。彼は流れ者に乗り込んだ時点で我々の種族は滅びる運命にあると知っていたので、時が来たと考えた。&lt;i&gt;&lt;/i&gt;",
+      "From what my brother has learned about The Eye, it is a tool of sacrifice. He knew that our kind was doomed once we boarded The Stranger, so he thought it was time.": "弟が眼について学んだところによると、それは犠牲のための道具です。彼は流れ者に乗り込んだ時点で我々の種族は滅びる運命にあると知っていたので、時が来たと考えました。&lt;i&gt;&lt;/i&gt;",
       "Little did he know, the universe is bigger and contains more intelligent life than he thought, so it would be unfair to end their lives too.": "彼が知らなかったのは、宇宙は彼が考えていたよりも大きく、より多くの知的生命体が生きているということです。彼らの命も終わらせるのはフェアではありません。&lt;i&gt;&lt;/i&gt;",
       "But you? You activated The Eye at the perfect time. The Universe was already dying, and it was calling for you to end its misery and fill its remains with new life.": "そこで、あなたでした。あなたは完璧なタイミングで眼を起動しました。宇宙は既に死にかけていて、その苦しみを終わらせ、残りを新しい命で満たすようにあなたを呼んでいました。&lt;i&gt;&lt;/i&gt;",
       "I hope you can forgive my ancestors and I for blocking the signal, eating your primitive ancestors to survive, and killing a whole clan of Nomai.": "信号を遮断し、生き残るためにあなたの原始的な祖先を食べ、さらにNomaiの部族全体を殺したことについて、どうか私と先祖たちを許してくれることを願います。&lt;i&gt;&lt;/i&gt;",
@@ -761,13 +761,13 @@
       "And now here I am, locked up for eternity hoping the atoms of our terror turned into a bustling, new universe.": "そして今、私は永遠に閉じ込められ、そこで私たちの恐怖の原子が賑やかな新しい宇宙に変わることを願っている。&lt;i&gt;&lt;/i&gt;",
       "Say, there's someone you want me to meet?": "ところで、私に会わせたい人がいるのか？&lt;i&gt;&lt;/i&gt;",
       "I'm an uncle again? Did Xylo....": "私はまた叔父になったのか？Xyloよ…&lt;i&gt;&lt;/i&gt;",
-      "If only I could see our home again...*sniff*": "もう一度故郷を見ることができれば…*すすり泣き*&lt;i&gt;&lt;/i&gt;",
+      "If only I could see our home again...*sniff*": "もう一度故郷を見ることさえできれば…<![CDATA[<color=grey>あぁ</color>]]>&lt;i&gt;&lt;/i&gt;",
       "Where is my distant grandnephew?": "私の遠い孫甥はどこにいる？&lt;i&gt;&lt;/i&gt;",
       "Alright, blue friend. Lead the way!": "よし、青い友よ。道を案内してほしい！&lt;i&gt;&lt;/i&gt;",
-      "Your brother taught me.": "Your brother taught me.",
-      "You have a distant grandnephew waiting for you.": "You have a distant grandnephew waiting for you.",
-      "Yep, he terraformed home. It's as good as new.": "Yep, he terraformed home. It's as good as new.",
-      "I'll take you to him. Follow me!": "I'll take you to him. Follow me!",
+      "Your brother taught me.": "あなたのお兄さんが教えてくれた。&lt;i&gt;&lt;/i&gt;",
+      "You have a distant grandnephew waiting for you.": "あなたを待っている遠い孫甥がいるんだ。&lt;i&gt;&lt;/i&gt;",
+      "Yep, he terraformed home. It's as good as new.": "ああ、彼は故郷をテラフォーミングした。新品同様だよ。&lt;i&gt;&lt;/i&gt;",
+      "I'll take you to him. Follow me!": "彼のところへ連れて行くから、ついてきて！&lt;i&gt;&lt;/i&gt;",
       
       //PrisonerReunion
       "I'm glad Xylo left a clone of himself here. He may not be the same, but he's close enough!": "Xyloが自分のクローンをここに残してくれて嬉しい。全く同じではないかもしれないが、十分近い！&lt;i&gt;&lt;/i&gt;",
@@ -807,10 +807,10 @@
       "Little blue friend, I may have just met you, but I already see you as apart of our family.": "小さな青い友よ、ついさっき会ったばかりですが、すでにあなたを家族の一員として見ています。&lt;i&gt;&lt;/i&gt;",
       "Your crave for knowledge is what brought us all together. You fit right in!": "知識への渇望が私たちを一つにしました。あなたはそこにぴったり合っています！&lt;i&gt;&lt;/i&gt;",
       "So take a seat, get comfortable. This is your new home now. We'll be here until the end of time!": "さあ、座って、くつろいでください。ここが今やあなたの新しい家です。私たちは時の終わりまでここにいるでしょう！&lt;i&gt;&lt;/i&gt;",
-      "I'm not ready yet.": "I'm not ready yet.",
-      "Well said, Xylo!": "Well said, Xylo!",
-      "Well, okay then. Take your time. We have all the time in the universe now.": "Well, okay then. Take your time. We have all the time in the universe now.",
-      "Well then, Hatchling. Welcome to your new home.": "Well then, Hatchling. Welcome to your new home.",
+      "I'm not ready yet.": "まだ準備ができてない。&lt;i&gt;&lt;/i&gt;",
+      "Well said, Xylo!": "よく言ってくれた、Xylo！&lt;i&gt;&lt;/i&gt;",
+      "Well, okay then. Take your time. We have all the time in the universe now.": "そうですか、わかりました。時間をかけることです。今や私たちには宇宙のすべての時間があるのですから。&lt;i&gt;&lt;/i&gt;",
+      "Well then, Hatchling. Welcome to your new home.": "それでは、ひよっ子。あなたの新しい家へようこそ。&lt;i&gt;&lt;/i&gt;",
 
       //SolanumNew
       "Kind traveler, you have bestowed upon me such wonderful wisdom.": "親切な旅人さん、あなたによって素晴らしい知恵が授けられたわ。&lt;i&gt;&lt;/i&gt;",
@@ -1530,6 +1530,10 @@
       "tsta_gangnam": {
         "Name": "オッパは流れ者スタイル！",
         "Description": "流れ者スタイルを見つける"
+      },
+      "tsta_reunion": {
+        "Name": "家族の再会",
+        "Description": "Cypressを窮理人と囚人にお披露目する"
       }
     }
   }
