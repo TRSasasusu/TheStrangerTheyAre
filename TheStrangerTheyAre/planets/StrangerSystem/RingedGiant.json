@@ -296,7 +296,7 @@
 		},
 		"oxygenVolumes": [
 			{
-				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/OxygenVolumeSocket",
 				"isRelativeToParent": true,
 				"radius": 30
 			}
@@ -455,7 +455,7 @@
 				"revealFor": "player",
 				"revealOn": "enter",
 				"radius": 30,
-				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"parentPath": "Sector/RINGEDGIANT_ISLAND2/Interactibles/OxygenVolumeSocket",
 				"isRelativeToParent": true,
 				"reveals": [ "RING_CAMP_E" ]
 			}

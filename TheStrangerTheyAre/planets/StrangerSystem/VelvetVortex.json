@@ -713,7 +713,7 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Prefab_IP_ElevatorLink/ElevatorDestinations/LowerDestination/Building",
+				"parentPath": "Sector/CG_ISLAND_LAB/Interactables/Prefab_IP_ElevatorLink/ElevatorDestinations/LowerDestination/BuildingSocket",
 				"isRelativeToParent": true,
 				"radius": 10,
 				"reveals": [ "CRIMSON_BASE_ELEVATOR" ]

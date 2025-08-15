@@ -129,6 +129,217 @@
 					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (33).jpg" },
 					{ "imagePath": "assets/Slideshows/DarkBrambleVision/Scientist/dbslide_a (34).jpg" }
 				]
+			},
+			{
+				"type": "slideReel",
+				"reveals": [
+					"PREBRAMBLE_SHORTCUT_REEL_E"
+				],
+				"playWithShipLogFacts": [
+					"PREBRAMBLE_SHORTCUT_REEL_E",
+					"PREBRAMBLE_SHORTCUT_R"
+				],
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Prefab_IP_SlideReelShelf/SlideReelShelf_Row_03/SlideSocket_03",
+				"isRelativeToParent": true,
+				"slides": [
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/title.png" },
+					{
+						"imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (1).jpg",
+						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (2).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (3).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (4).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (8).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (9).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (10).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (11).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (12).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (13).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (14).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (15).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (16).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (17).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (18).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (19).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (20).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (21).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (22).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (23).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (24).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (25).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (26).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (27).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (28).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (29).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (30).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (31).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (32).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (33).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (34).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (35).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (36).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (37).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (38).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (39).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (40).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (41).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (42).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (43).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (44).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (45).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (46).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (47).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (48).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (49).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (50).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (51).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (52).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (53).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (54).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (55).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (56).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (57).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (58).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (59).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (60).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (61).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (62).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (63).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (64).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (65).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (66).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (67).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (68).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (69).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (70).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (71).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (72).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (73).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (74).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (75).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (76).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (77).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (78).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (79).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (80).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (81).jpg" },
+					{ "imagePath": "assets/Slideshows/ArchivesShortcutReel/slide (82).jpg" }
+				]
+			},
+			{
+				"type": "standingVisionTorch",
+				"reveals": [
+					"MINERALCODE_VISION_CAVES_E",
+					"MINERALCODE_CAVES_R"
+				],
+				"playWithShipLogFacts": [
+					"MINERALCODE_VISION_CAVES_E"
+				],
+				"parentPath": "Sector/PreBrambleBase/Interactibles/CodePuzzle/CaveTorch",
+				"isRelativeToParent": true,
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/MineralCodeCaves/slide (1).jpg",
+						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (2).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (3).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (4).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (8).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (9).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (10).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (11).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (12).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (13).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (14).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (15).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (16).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (17).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (18).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (19).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (20).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (21).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (22).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (23).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (24).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (25).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (26).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (27).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (28).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (29).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (30).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (31).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (32).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (33).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (34).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (35).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (36).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (37).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (38).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (39).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (40).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (41).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (42).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (43).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (44).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (45).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (46).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (47).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (48).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (49).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (50).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (51).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (52).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (53).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeCaves/slide (54).jpg" }
+				]
+			},
+			{
+				"type": "standingVisionTorch",
+				"reveals": [
+					"MINERALCODE_VISION_SWAMP_E",
+					"MINERALCODE_SWAMP_R"
+				],
+				"playWithShipLogFacts": [
+					"MINERALCODE_VISION_SWAMP_E"
+				],
+				"parentPath": "Sector/PreBrambleBase/Interactibles/CodePuzzle/SwampTorch",
+				"isRelativeToParent": true,
+				"slides": [
+					{
+						"imagePath": "assets/Slideshows/MineralCodeSwamp/slide (1).jpg",
+						"backdropAudio": "assets/Audio/fourtharchive_reel.ogg"
+					},
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (2).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (3).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (4).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (5).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (6).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (7).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (8).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (9).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (10).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (11).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (12).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (13).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (14).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (15).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (16).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (17).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (18).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (19).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (20).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (21).jpg" },
+					{ "imagePath": "assets/Slideshows/MineralCodeSwamp/slide (22).jpg" }
+
+				]
 			}
 		],
 		"dialogue": [
@@ -141,6 +352,11 @@
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Wall2/Arc_TestAlienWriting/Dialogue",
 				"isRelativeToParent": true,
 				"xmlFile": "dialogue/PreBramble/Archives/Wall2.xml"
+			},
+			{
+				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/MineralCode/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true,
+				"xmlFile": "dialogue/PreBramble/Archives/MineralCode.xml"
 			},
 			{
 				"parentPath": "Sector/PreBrambleBase/Interactibles/Text/Exit/Arc_TestAlienWriting/Dialogue",
@@ -209,6 +425,18 @@
 				"radius": 50,
 				"reveals": [
 					"PREBRAMBLE_ARCHIVES_E"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/PreBrambleBase/Interactibles/CodePuzzle",
+				"isRelativeToParent": true,
+				"radius": 5,
+				"reveals": [
+					"PREBRAMBLE_ARCHIVES_CODE_E",
+					"MINERALCODE_VISION_CAVES_R",
+					"MINERALCODE_VISION_SWAMP_R"
 				]
 			}
 		]

@@ -348,18 +348,12 @@
 			{
 				"assetBundle": "assets/AssetBundle/strangerbundle",
 				"path": "Assets/Item_CloakMineral.prefab",
-				"alignRadial": true,
-				"keepLoaded": true,
+				"parentPath": "Sector/BrambleMuseum/Interactables/Tube_Mineral/MineralSocket",
+				"isRelativeToParent": true,
 				"position": {
-					"x": 44.3472,
-					"y": 92.1005,
-					"z": -32.2155
+					"z": 0.5
 				},
-				"rotation": {
-					"x": 2.6478,
-					"y": 35.2522,
-					"z": 237.3875
-				}
+				"keepLoaded": true
 			},
 			{
 				"path": "RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Prefab_IP_DreamLanternItem_2",
@@ -487,92 +481,52 @@
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Wall1.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 8.67849,
-					"y": 74.16833,
-					"z": -76.98389
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Wall2.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (4)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 5.444064,
-					"y": 74.39112,
-					"z": -77.0544
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Wall3.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (5)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 2.360895,
-					"y": 74.57087,
-					"z": -77.08792
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Table1.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (6)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 7.803178,
-					"y": 83.70744,
-					"z": -67.84773
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/1F_Table2.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (8)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 4.341173,
-					"y": 83.77769,
-					"z": -68.00986
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Desk.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (7)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 22.18497,
-					"y": 90.91348,
-					"z": -68.61836
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster1.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (3)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 8.926434,
-					"y": 78.03162,
-					"z": -80.98606
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster2.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 8.983171,
-					"y": 79.26414,
-					"z": -82.2618
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster3.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 2.981236,
-					"y": 79.22552,
-					"z": -81.92577
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/R&DHouse/2F_Poster4.xml",
 				"parentPath": "Sector/R&DHouse_DBM/Interactibles/Text/StrangerText Variant (9)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": -0.1905027,
-					"y": 80.9018,
-					"z": -79.96028
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/2F_DBExhibit.xml",
@@ -618,47 +572,27 @@
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_Archive.xml",
 				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 54.69778,
-					"y": 89.63745,
-					"z": -21.43676
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/DBMuseum/1F_Table.xml",
 				"parentPath": "Sector/BrambleMuseum/Interactables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 43.86486,
-					"y": 93.52976,
-					"z": -32.37933
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/SignalHouse/1F_Wall1.xml",
 				"parentPath": "Sector/SignalHouse/Interacables/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": -13.05721,
-					"y": 103.4361,
-					"z": 26.03562
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/SignalHouse/1F_Wall2.xml",
 				"parentPath": "Sector/SignalHouse/Interacables/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": -23.77043,
-					"y": 100.121,
-					"z": 33.72027
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/SignalHouse/2F_Desk.xml",
 				"parentPath": "Sector/SignalHouse/Interacables/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": -22.0151,
-					"y": 106.6162,
-					"z": 34.13231
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/SlideHouse/Desk1.xml",
@@ -682,38 +616,22 @@
 			{
 				"xmlFile": "dialogue/AnglersEye/Conservatory/Desk1.xml",
 				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant (1)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 108.5277,
-					"y": -3.707063,
-					"z": 4.738517
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/Conservatory/Desk2.xml",
 				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 108.6922,
-					"y": -5.127588,
-					"z": 5.741089
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/Conservatory/Wall1.xml",
 				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant (2)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 119.4025,
-					"y": -0.9423634,
-					"z": 3.947194
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/Conservatory/Wall2.xml",
 				"parentPath": "Sector/Conservatory/Interactibles/Text/StrangerText Variant (3)/Arc_TestAlienWriting/Dialogue",
-				"position": {
-					"x": 120.5078,
-					"y": -12.52781,
-					"z": 10.1323
-				}
+				"isRelativeToParent": true
 			},
 			{
 				"xmlFile": "dialogue/AnglersEye/ObservationDeck/Elevator.xml",
@@ -1827,6 +1745,16 @@
 					"y": 92.6729,
 					"z": -21.9012
 				}
+			},
+			{
+				"id": "ANGLERS_EYE_OBSERVE",
+				"parentPath": "Sector/ObservationDeck_DBM",
+				"isRelativeToParent": true
+			},
+			{
+				"id": "ANGLERS_EYE_MINERAL",
+				"parentPath": "Sector/BrambleMuseum/Interactables/Tube_Mineral/MineralSocket",
+				"isRelativeToParent": true
 			}
 		]
 	},
@@ -1925,7 +1853,7 @@
 		],
 		"insulatingVolumes": [
 			{
-				"parentPath": "Sector/Item_CloakMineral",
+				"parentPath": "Sector/BrambleMuseum/Interactables/Tube_Mineral/MineralSocket/Item_CloakMineral",
 				"shape": {
 					"useShape": true,
 					"type": "sphere",
@@ -2151,11 +2079,32 @@
 			{
 				"revealFor": "player",
 				"revealOn": "enter",
-				"parentPath": "Sector/Item_CloakMineral",
+				"parentPath": "Sector/BrambleMuseum/Interactables/Tube_Mineral/ShiplogOn",
+				"isRelativeToParent": true,
+				"radius": 2,
+				"reveals": [
+					"ANGLERS_EYE_DBMUSEUM_MINERAL"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/BrambleMuseum/Interactables/Tube_Mineral/ShiplogOff",
 				"isRelativeToParent": true,
 				"radius": 3,
 				"reveals": [
-					"ANGLERS_EYE_MINE_MINERAL"
+					"ANGLERS_EYE_DBMUSEUM_MINERAL2",
+					"PREBRAMBLE_MAIN_R2"
+				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"parentPath": "Sector/ObservationDeck_DBM",
+				"isRelativeToParent": true,
+				"radius": 10,
+				"reveals": [
+					"ANGLERS_EYE_OBSERVE_E"
 				]
 			}
 		]

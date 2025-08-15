@@ -3920,14 +3920,14 @@
         "type": "whiteHole",
         "horizonRadius": 0,
         "hasWarpEffects": false,
-        "rename": "PREBRAMBLE_WARP_DtoA_WH",
-        "uniqueID": "PREBRAMBLE_WARP_DtoA_WH",
-        "parentPath": "Sector/WarpHouse/WarpOffsets/Caves",
-        "isRelativeToParent": true,
-        "pairedSingularity": "PREBRAMBLE_WARP_DtoA_BH",
+        "uniqueID": "PREBRAMBLE_ARCHIVES_SHORTCUT_WH",
+        "rename": "PREBRAMBLE_ARCHIVES_SHORTCUT_WH",
         "position": {
-          "z": 6
-        }
+          "x": -4.772597,
+          "y": 281.9604,
+          "z": 88.3327
+        },
+        "pairedSingularity": "PREBRAMBLE_ARCHIVES_SHORTCUT_BH"
       }
     ],
     "slideShows": [
@@ -4345,6 +4345,16 @@
         "radius": 10,
         "reveals": [
           "PREBRAMBLE_MAIN_SEED"
+        ]
+      },
+      {
+        "revealFor": "player",
+        "revealOn": "enter",
+        "parentPath": "Sector/PreBramble_SIM/Interactibles/Prefab_IP_PictureFrame_Door",
+        "isRelativeToParent": true,
+        "radius": 3,
+        "reveals": [
+          "MINERALCODE_CAVES_E"
         ]
       }
     ]

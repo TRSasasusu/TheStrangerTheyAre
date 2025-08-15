@@ -1,6 +1,6 @@
-      WHAT IS THIS FILE?
-      Because TSTA is everchanging its dialogue, and reforms on the way, I will generate the lines that are changed in the new .json file.
-      This is to aid translators in finding which dialogues they need to change. It will change each patch that changes any dialogue.
+    WHAT IS THIS FILE?
+    Because TSTA is everchanging its dialogue, and reforms on the way, I will generate the lines that are changed in the new .json file.
+    This is to aid translators in finding which dialogues they need to change. It will change each patch that changes any dialogue.
       
     v2.7.0: NEW ALT ENDING
     "No, we're at my home system. I want you to meet your distant grandfather.": "No, we're at my home system. I want you to meet your distant grandfather.",
@@ -17,3 +17,40 @@
       "Name": "Family Reunion",
       "Description": "Introduce Cypress to The Scientist and The Prisoner."
     }
+
+    v2.7.0: NEW PUZZLES AND SHORTCUT
+    "Enter the two codes and access to the Mineral will be unlocked.": "Enter the two codes and access to the Mineral will be unlocked.",
+    "Mineral Display Case": "Mineral Display Case",
+    "There is a mineral inside a glass display, which is directly connected to the green fire nearby.": "There is a mineral inside a glass display, which is directly connected to the green fire nearby.",
+    "I was able to unlock the glass display by entering a series of codes in the Preserved Planet's Archives.": "I was able to unlock the glass display by entering a series of codes in the Preserved Planet's Archives.",
+    "The mineral inside the display can be picked up.": "The mineral inside the display can be picked up.",
+    "An observation deck can be found not far from the Signal House.": "An observation deck can be found not far from the Signal House.",
+    "According to an observation, The Hourglass Twins once had water flowing on their surfaces, and that all planets in our star system once had some form of water on them.": "According to an observation, The Hourglass Twins once had water flowing on their surfaces, and that all planets in our star system once had some form of water on them.",
+    "According to another observation, the author knew of the Quantum Moon, its sixth location, and that it appeared to be similar in nature to Angler's Eye.": "According to another observation, the author knew of the Quantum Moon, its sixth location, and that it appeared to be similar in nature to Angler's Eye.",
+    "The author of the writings observed Dark Bramble and saw something groundbreaking. Said author mentioned taking this observation to the archives.": "The author of the writings observed Dark Bramble and saw something groundbreaking. Said author mentioned taking this observation to the archives.",
+    "Warp House": "Warp House",
+    "There was mention about an archive somewhere on Angler's Eye.": "There was mention about an archive somewhere on Angler's Eye.",
+    "Bramble Archives Code Switch": "Bramble Archives Code Switch",
+    "Mineral Display Connection?": "Mineral Display Connection?",
+    "The glass display appears to be connected to the Angler's Eye Green Fire in some way.": "The glass display appears to be connected to the Angler's Eye Green Fire in some way.",
+    "Inside the archives are two code totems and a mural of the mineral.": "Inside the archives are two code totems and a mural of the mineral.",
+    "Inputting the codes seemed to play a sound and change the mural on the wall. It's likely that something changed in the real world.": "Inputting the codes seemed to play a sound and change the mural on the wall. It's likely that something changed in the real world.",
+    "The two totems are the key to opening the mineral's display case.": "The two totems are the key to opening the mineral's display case.",
+    "Archives Left Vision Torch": "Archives Left Vision Torch",
+    "A vision torch can be seen kneeling on the left totem.": "A vision torch can be seen kneeling on the left totem.",
+    "A vision torch on the left showed me where I can find a code for the totem.": "A vision torch on the left showed me where I can find a code for the totem.",
+    "Archives Right Vision Torch": "Archives Right Vision Torch",
+    "A vision torch can be seen kneeling on the right totem.": "A vision torch can be seen kneeling on the right totem.",
+    "A vision torch on the right showed me where I can find a code for the totem.": "A vision torch on the right showed me where I can find a code for the totem.",
+    "Isolated Swamp Code": "Isolated Swamp Code",
+    "Right Code Location": "Right Code Location",
+    "I found the codes in the Isolated Swamp Archives near the topmost elevator.": "I found the codes in the Isolated Swamp Archives near the topmost elevator.",
+    "Preserved Planet Code": "Preserved Planet Code",
+    "Left Code Location": "Left Code Location",
+    "I found the codes in the Preserved Planet's caves near the elevator.": "I found the codes in the Preserved Planet's caves near the elevator.",
+    "Archives Shortcut Reel": "Archives Shortcut Reel",
+    "A slide reel shows how to access a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.": "A slide reel shows how to access a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.",
+    "Archives Shortcut": "Archives Shortcut",
+    "Shortcut Location": "Shortcut Location",
+    "There is a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.": "There is a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.",
+    "I found the shortcut to the Bramble Archives not far from the starting fire.": "I found the shortcut to the Bramble Archives not far from the starting fire.",

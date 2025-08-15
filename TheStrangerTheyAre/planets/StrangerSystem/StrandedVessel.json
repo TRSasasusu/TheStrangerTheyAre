@@ -20,7 +20,8 @@
 	"Orbit": {
 		"primaryBody": "Nearest Neighbor",
 		"semiMajorAxis": 35000,
-		"showOrbitLine": false
+		"showOrbitLine": false,
+		"trueAnomaly": 180
 	},
 	"MapMarker": {
 		"enabled": false

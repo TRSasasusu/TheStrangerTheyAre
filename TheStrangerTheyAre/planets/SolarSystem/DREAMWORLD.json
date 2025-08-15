@@ -951,6 +951,16 @@
 				"reveals": [
 					"NEWSIM_ARCHIVE_THEATRE"
 				]
+			},
+			{
+				"revealFor": "player",
+				"revealOn": "enter",
+				"radius": 3,
+				"parentPath": "Sector_DreamWorld/Sector_DreamZone_4/Interactibles_DreamZone_4_Upper/Sector_NewSim/New_SimSector/FourthArchive/Interacables/Prefab_IP_PictureFrame_Door",
+				"isRelativeToParent": true,
+				"reveals": [
+					"MINERALCODE_SWAMP_E"
+				]
 			}
 		],
 		"creditsVolume": [

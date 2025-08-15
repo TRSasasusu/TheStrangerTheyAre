@@ -9,7 +9,7 @@
 		</Dialogue>
 		<RevealFacts>
 			<FactID>ANGLERS_EYE_OBSERVE_TEXT3</FactID>
-			<FactID>PREBRAMBLE_ARCHIVES_R</FactID>
+			<FactID>PREBRAMBLE_MAIN_R</FactID>
 		</RevealFacts>
 	</DialogueNode>
 </DialogueTree>

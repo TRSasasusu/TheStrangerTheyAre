@@ -218,11 +218,6 @@ namespace TheStrangerTheyAre
                     credits.SetActive(false);
                 }
             }
-
-            if (OWInput.IsPressed(InputLibrary.toolActionPrimary, InputMode.Character) && OWInput.IsPressed(InputLibrary.toolActionSecondary, InputMode.Character))
-            {
-                StartCoroutine(Blink());
-            }
         }
 
         private bool Check()

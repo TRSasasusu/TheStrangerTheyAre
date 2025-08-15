@@ -42,6 +42,7 @@ public class CustomItem : OWItem
     }
     public override void PickUpItem(Transform holdTranform)
     {
+        Locator.GetShipLogManager().RevealFact("ANGLERS_EYE_MINE_MINERAL");
         isRotating = false;
         base.PickUpItem(holdTranform);
     }

@@ -16,7 +16,7 @@ namespace TheStrangerTheyAre
         public void Start()
         {
             water = SearchUtilities.Find("PreBramble_Body/Sector/Water").transform;
-            waterParent = SearchUtilities.Find("PreBramble_Body/Sector/PreBramble_SIM/Geo/Ocean/PreBrambleOcean").transform;
+            waterParent = SearchUtilities.Find("PreBramble_Body/Sector/PreBramble_SIM/Ocean/PreBrambleOcean").transform;
             water.parent = waterParent;
         }
         

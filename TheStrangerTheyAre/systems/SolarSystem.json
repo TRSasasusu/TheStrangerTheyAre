@@ -200,8 +200,15 @@
     {
       "id": "PREBRAMBLE",
       "position": {
-        "x": 4200,
+        "x": 4300,
         "y": 500
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_MINERAL",
+      "position": {
+        "x": 4100,
+        "y": 650
       }
     },
     {
@@ -279,6 +286,62 @@
       "position": {
         "x": 4400,
         "y": 1000
+      }
+    },
+    {
+      "id": "PREBRAMBLE_ARCHIVES_CODE",
+      "position": {
+        "x": 4500,
+        "y": 1150
+      }
+    },
+    {
+      "id": "PREBRAMBLE_SHORTCUT_REEL",
+      "position": {
+        "x": 4600,
+        "y": 1050
+      }
+    },
+    {
+      "id": "PREBRAMBLE_SHORTCUT",
+      "position": {
+        "x": 4800,
+        "y": 1050
+      }
+    },
+    {
+      "id": "MINERALCODE_VISION_CAVES",
+      "position": {
+        "x": 4400,
+        "y": 1400
+      }
+    },
+    {
+      "id": "MINERALCODE_VISION_SWAMP",
+      "position": {
+        "x": 4600,
+        "y": 1400
+      }
+    },
+    {
+      "id": "MINERALCODE_CAVES",
+      "position": {
+        "x": 4400,
+        "y": 1600
+      }
+    },
+    {
+      "id": "MINERALCODE_SWAMP",
+      "position": {
+        "x": 4600,
+        "y": 1600
+      }
+    },
+    {
+      "id": "ANGLERS_EYE_OBSERVE",
+      "position": {
+        "x": 4800,
+        "y": 900
       }
     }
   ],

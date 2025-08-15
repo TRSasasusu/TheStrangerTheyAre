@@ -263,13 +263,28 @@
 				<ID>ANGLERS_EYE_DBMUSEUM_SIMROOM2</ID>
 				<Text>According to some text, this is a simulation meant to preserve the fifth planet before it became Dark Bramble. Some archived slides have also been sent there.</Text>
 			</ExploreFact>
+        </Entry>
+
+		<Entry>
+			<ID>ANGLERS_EYE_MINERAL</ID>
+			<Name>Mineral Display Case</Name>
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+			<ExploreFact>
+				<ID>ANGLERS_EYE_DBMUSEUM_MINERAL</ID>
+				<Text>There is a mineral inside a glass display, which is directly connected to the green fire nearby.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_DBMUSEUM_MINERAL2</ID>
+				<Text>I was able to unlock the glass display by entering a series of codes in the Preserved Planet's Archives.</Text>
+			</ExploreFact>
 
 			<ExploreFact>
 				<ID>ANGLERS_EYE_MINE_MINERAL</ID>
-				<Text>There is a mineral atop the table in the Bramble Museum's basement that can be picked up.</Text>
+				<Text>The mineral inside the display can be picked up.</Text>
 			</ExploreFact>
-        </Entry>
-
+		</Entry>
+		
 		<Entry>
 			<ID>ANGLERS_EYE_THEATRE</ID>
 			<Name>Angler's Eye Theater</Name>
@@ -380,6 +395,37 @@
 			</ExploreFact>
         </Entry>
 
+		<Entry>
+			<!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
+			<ID>ANGLERS_EYE_OBSERVE</ID>
+			<!-- The ID of this child entry -->
+			<Name>Observation Deck</Name>
+			<!-- The name of this child entry -->
+			<Curiosity>ANGLERS_EYE_MAINLOG</Curiosity>
+			<!-- The curiosity of this child entry -->
+
+			<!-- Create some facts for this child entry -->
+			<ExploreFact>
+				<ID>ANGLERS_EYE_OBSERVE_E</ID>
+				<Text>An observation deck can be found not far from the Signal House.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_OBSERVE_TEXT1</ID>
+				<Text>According to an observation, The Hourglass Twins once had water flowing on their surfaces, and that all planets in our star system once had some form of water on them.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_OBSERVE_TEXT2</ID>
+				<Text>According to another observation, the author knew of the Quantum Moon, its sixth location, and that it appeared to be similar in nature to Angler's Eye.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>ANGLERS_EYE_OBSERVE_TEXT3</ID>
+				<Text>The author of the writings observed Dark Bramble and saw something groundbreaking. Said author mentioned taking this observation to the archives.</Text>
+			</ExploreFact>
+		</Entry>
+		
         <Entry> <!-- Makes a child of this entry (displays smaller in rumor mode and indented in map mode) -->
             <ID>ANGLERS_EYE_RD</ID> <!-- The ID of this child entry -->
             <Name>Research House</Name> <!-- The name of this child entry -->
@@ -446,7 +492,7 @@
 	<Entry>
 		<!-- An Entry For This Planet -->
 		<ID>PREBRAMBLE</ID>
-		<!-- The ID of this entry -->f
+		<!-- The ID of this entry -->
 		<Name>Preserved Planet</Name>
 		<!-- The name to show for this entry both on the card and in map mode -->
 		<Curiosity>PREBRAMBLE_MAIN</Curiosity>
@@ -454,13 +500,6 @@
 		<IsCuriosity/>
 		<!-- Marks this entry as a curiosity, makes it bigger in rumor mode and allows custom colors -->
 		<IgnoreMoreToExplore/>
-
-		<RumorFact>
-			<ID>PREBRAMBLE_MAIN_R</ID>
-			<RumorName>Angler's Eye Archives?</RumorName>
-			<SourceID>ANGLERS_EYE_DBMUSEUM</SourceID>
-			<Text>The code door straight ahead has an emblem with a large amount of Bramble Vines growing from a center point.</Text>
-		</RumorFact>
 
 		<ExploreFact>
 			<!-- An explore fact that belongs to this entry -->
@@ -489,7 +528,7 @@
 			<!-- An Entry For This Planet -->
 			<ID>PREBRAMBLE_WARP_MAIN</ID>
 			<!-- The ID of this entry -->
-			<Name>Code Totem House</Name>
+			<Name>Warp House</Name>
 			<!-- The name to show for this entry both on the card and in map mode -->
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
 			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
@@ -700,6 +739,13 @@
 			<Name>Bramble Archives</Name>
 			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
 
+			<RumorFact>
+				<ID>PREBRAMBLE_MAIN_R</ID>
+				<RumorName>Angler's Eye Archives?</RumorName>
+				<SourceID>ANGLERS_EYE_OBSERVE</SourceID>
+				<Text>There was mention about an archive somewhere on Angler's Eye.</Text>
+			</RumorFact>
+
 			<ExploreFact>
 				<ID>PREBRAMBLE_ARCHIVES_E</ID>
 				<Text>Growing atop the planet's North Pole at the bottom of the ocean was a Bramble Node, and within that node are this area's archives!</Text>
@@ -722,6 +768,106 @@
 		</Entry>
 
 		<Entry>
+			<ID>PREBRAMBLE_ARCHIVES_CODE</ID>
+			<Name>Bramble Archives Code Switch</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>PREBRAMBLE_MAIN_R2</ID>
+				<RumorName>Mineral Display Connection?</RumorName>
+				<Text>The glass display appears to be connected to the Angler's Eye Green Fire in some way.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_CODE_E</ID>
+				<Text>Inside the archives are two code totems and a mural of the mineral.</Text>
+			</ExploreFact>
+
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_CODE_E2</ID>
+				<Text>Inputting the codes seemed to play a sound and change the mural on the wall. It's likely that something changed in the real world.</Text>
+			</ExploreFact>
+			
+			<ExploreFact>
+				<ID>PREBRAMBLE_ARCHIVES_CODE_TEXT</ID>
+				<Text>The two totems are the key to opening the mineral's display case.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>MINERALCODE_VISION_CAVES</ID>
+			<Name>Archives Left Vision Torch</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>MINERALCODE_VISION_CAVES_R</ID>
+				<RumorName>Archives Left Vision Torch</RumorName>
+				<SourceID>PREBRAMBLE_ARCHIVES_CODE</SourceID>
+				<Text>A vision torch can be seen kneeling on the left totem.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>MINERALCODE_VISION_CAVES_E</ID>
+				<Text>A vision torch on the left showed me where I can find a code for the totem.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>MINERALCODE_VISION_SWAMP</ID>
+			<Name>Archives Right Vision Torch</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>MINERALCODE_VISION_SWAMP_R</ID>
+				<RumorName>Archives Right Vision Torch</RumorName>
+				<SourceID>PREBRAMBLE_ARCHIVES_CODE</SourceID>
+				<Text>A vision torch can be seen kneeling on the right totem.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>MINERALCODE_VISION_SWAMP_E</ID>
+				<Text>A vision torch on the right showed me where I can find a code for the totem.</Text>
+			</ExploreFact>
+		</Entry>
+		
+		<Entry>
+			<ID>MINERALCODE_SWAMP</ID>
+			<Name>Isolated Swamp Code</Name>
+			<Curiosity>NEWSIM_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>MINERALCODE_SWAMP_R</ID>
+				<RumorName>Right Code Location</RumorName>
+				<SourceID>MINERALCODE_VISION_SWAMP</SourceID>
+				<Text>A vision torch on the right showed me where I can find a code for the totem.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>MINERALCODE_SWAMP_E</ID>
+				<Text>I found the codes in the Isolated Swamp Archives near the topmost elevator.</Text>
+			</ExploreFact>
+		</Entry>
+
+		<Entry>
+			<ID>MINERALCODE_CAVES</ID>
+			<Name>Preserved Planet Code</Name>
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+
+			<RumorFact>
+				<ID>MINERALCODE_CAVES_R</ID>
+				<RumorName>Left Code Location</RumorName>
+				<SourceID>MINERALCODE_VISION_CAVES</SourceID>
+				<Text>A vision torch on the left showed me where I can find a code for the totem.</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>MINERALCODE_CAVES_E</ID>
+				<Text>I found the codes in the Preserved Planet's caves near the elevator.</Text>
+			</ExploreFact>
+		</Entry>
+
+
+		<Entry>
 			<ID>PREBRAMBLE_REEL</ID>
 			<!-- The ID of this entry -->
 			<Name>Dark Bramble Reel</Name>
@@ -734,6 +880,45 @@
 				<ID>PREBRAMBLE_REEL_E</ID>
 				<!-- The ID of this fact -->
 				<Text>This slide reel shows The Scientist using a Vision Telescope to unravel the mysteries of the frozen planet, only for him to find out that it would become Dark Bramble. However, this vision gave him an idea...</Text>
+			</ExploreFact>
+		</Entry>
+	
+		<Entry>
+			<ID>PREBRAMBLE_SHORTCUT_REEL</ID>
+			<!-- The ID of this entry -->
+			<Name>Archives Shortcut Reel</Name>
+			<!-- The name to show for this entry both on the card and in map mode -->
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>PREBRAMBLE_SHORTCUT_REEL_E</ID>
+				<!-- The ID of this fact -->
+				<Text>A slide reel shows how to access a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.</Text>
+			</ExploreFact>
+		</Entry>
+	
+	    <Entry>
+			<ID>PREBRAMBLE_SHORTCUT</ID>
+			<!-- The ID of this entry -->
+			<Name>Archives Shortcut</Name>
+			<!-- The name to show for this entry both on the card and in map mode -->
+			<Curiosity>PREBRAMBLE_MAIN</Curiosity>
+			<!-- The curiosity this entry belongs to (optional) in this case, it belongs to itself -->
+
+			<RumorFact>
+				<ID>PREBRAMBLE_SHORTCUT_R</ID>
+				<RumorName>Shortcut Location</RumorName>
+				<SourceID>PREBRAMBLE_SHORTCUT_REEL</SourceID>
+				<Text>There is a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.</Text>
+			</RumorFact>
+		
+			<ExploreFact>
+				<!-- An explore fact that belongs to this entry -->
+				<ID>PREBRAMBLE_SHORTCUT_E</ID>
+				<!-- The ID of this fact -->
+				<Text>I found the shortcut to the Bramble Archives not far from the starting fire.</Text>
 			</ExploreFact>
 		</Entry>
 	</Entry>
