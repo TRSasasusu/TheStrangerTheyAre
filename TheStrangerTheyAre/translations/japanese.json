@@ -870,6 +870,9 @@
       "Everyone is now sound asleep in the Coma Hall, but quietly sneaking through by holding focus isn't enough. It appears that not just noise wakes them, but also the artifact light.": "昏眠ホールでは全員が熟睡しているが、集中して静かに忍び込むだけでは十分ではない。どうやら物音だけでなくランタンの光も彼らを起こしてしまうようだ。&lt;i&gt;&lt;/i&gt;",
       "Anglerfish 101: Anglerfish are easier to not wake up if you go shipless. We think this is due to noise. If an emergency arises, ejecting yourself out of the ship will be handy.": "アンコウ101:船を使わずに移動するとアンコウは目覚めにくくなる。我々が考えるにこれは物音によるものだろう。ゆえにもし緊急事態が発生したなら船から脱出するとよいだろう。&lt;i&gt;&lt;/i&gt;",
       "Anglerfish 101: To evade an anglerfish, use diagonal thrusting power. You can also avoid being chased if you stop thrusting right when you see it moving, or hear it grunt. It might just coast right past you instead of chase you.": "アンコウ101:アンコウをよけるには対角方向にスラスターを使うことだ。また、アンコウの動きが見えたりうなり声が聞こえたりしたらすぐにスラスターを止めることだ。そうすれば追いかけられないで済む。そのまま通り過ぎてしまうかもしれない。&lt;i&gt;&lt;/i&gt;",
+
+      //MineralCode
+      "Enter the two codes and access to the Mineral will be unlocked.": "2つのコードを入力すると、ミネラルへのアクセスが解除される。&lt;i&gt;&lt;/i&gt;",
   
       //Ernesto
       "Originating from the mesa planet, Anglerfish are some of this star system's toughest organisms. In this tank is a male Anglerfish, which are ten times smaller than a female. Males are always very hungry, and are always looking for a female to latch onto.": "台地型惑星に由来するアンコウはこの星系で最も丈夫な生物の1つである。この水槽にはオスのアンコウがおり、メスより10分の1の大きさである。オスは常に非常に空腹であるとともに、常に番となるメスを探している。&lt;i&gt;&lt;/i&gt;",
@@ -1160,7 +1163,43 @@
       "Blackout Bramble Slide Reel?": "消灯したイバラのスライドリール？",
       "I found a slide reel inside the Bramble Base.": "イバラ基地の中でスライドリールを見つけた。",
       "The slide reel shows me instructions on how to navigate the dimensions ahead.": "そのスライドリールはこの先の空間をどのように航行すべきかという指示を示している。",
-  
+
+      //v2.7.0: NEW PUZZLES AND SHORTCUT
+      "Mineral Display Case": "ミネラル展示ケース",
+      "There is a mineral inside a glass display, which is directly connected to the green fire nearby.": "ガラス展示ケースの中にミネラルがあり、近くの緑の炎と直接繋がっている。",
+      "I was able to unlock the glass display by entering a series of codes in the Preserved Planet's Archives.": "保存された惑星の記録保管所で一連のコードを入力することで、ガラス展示ケースを解除することができた。",
+      "The mineral inside the display can be picked up.": "展示ケース内のミネラルは拾うことができる。",
+      "An observation deck can be found not far from the Signal House.": "信号小屋からそう遠くないところに観測デッキがある。",
+      "According to an observation, The Hourglass Twins once had water flowing on their surfaces, and that all planets in our star system once had some form of water on them.": "ある観測によると、砂時計の双子星はかつて表面に水が流れており、我々の星系のすべての惑星にはかつて何らかの形で水があったという。",
+      "According to another observation, the author knew of the Quantum Moon, its sixth location, and that it appeared to be similar in nature to Angler's Eye.": "別の観測によると、この作者は量子の月とその第6の場所について知っており、それはアンコウの眼と本質的に似ているように見えたという。",
+      "The author of the writings observed Dark Bramble and saw something groundbreaking. Said author mentioned taking this observation to the archives.": "この文章の作者は闇のイバラを観測し、画期的な何かを見た。その著者はこの観測結果を記録保管所に持参すると述べている。",
+      "Warp House": "ワープ小屋",
+      "There was mention about an archive somewhere on Angler's Eye.": "アンコウの眼のどこかに記録保管所があるという言及があった。",
+      "Bramble Archives Code Switch": "イバラ記録保管所のコードスイッチ",
+      "Mineral Display Connection?": "ミネラル展示の接続？",
+      "The glass display appears to be connected to the Angler's Eye Green Fire in some way.": "ガラス展示ケースは何らかの方法でアンコウの眼の緑の炎と繋がっているようだ。",
+      "Inside the archives are two code totems and a mural of the mineral.": "記録保管所内には2つのコードトーテムとミネラルの壁画がある。",
+      "Inputting the codes seemed to play a sound and change the mural on the wall. It's likely that something changed in the real world.": "コードを入力すると音が鳴り、壁の壁画が変化したようだ。現実世界で何かが変化した可能性が高い。",
+      "The two totems are the key to opening the mineral's display case.": "2つのトーテムがミネラルの展示ケースを開くキーである。",
+      "Archives Left Vision Torch": "記録保管所左側のビジョントーチ",
+      "A vision torch can be seen kneeling on the left totem.": "左側のトーテムにひざまずくビジョントーチが見える。",
+      "A vision torch on the left showed me where I can find a code for the totem.": "左側のビジョントーチがトーテム用のコードをどこで見つけられるかを示してくれた。",
+      "Archives Right Vision Torch": "記録保管所右側のビジョントーチ",
+      "A vision torch can be seen kneeling on the right totem.": "右側のトーテムにひざまずくビジョントーチが見える。",
+      "A vision torch on the right showed me where I can find a code for the totem.": "右側のビジョントーチがトーテム用のコードをどこで見つけられるかを示してくれた。",
+      "Isolated Swamp Code": "孤立したぬかるみのコード",
+      "Right Code Location": "右側のコードの場所",
+      "I found the codes in the Isolated Swamp Archives near the topmost elevator.": "孤立したぬかるみの記録保管所の最上部のエレベータ近くでコードを見つけた。",
+      "Preserved Planet Code": "保存された惑星のコード",
+      "Left Code Location": "左側のコードの場所",
+      "I found the codes in the Preserved Planet's caves near the elevator.": "保存された惑星の洞窟のエレベータ近くでコードを見つけた。",
+      "Archives Shortcut Reel": "記録保管所のショートカットリール",
+      "A slide reel shows how to access a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.": "スライドリールには、最初の炎からそう遠くないインターフェースを使ったイバラ記録保管所へのショートカットにアクセスする方法が示されている。",
+      "Archives Shortcut": "記録保管所のショートカット",
+      "Shortcut Location": "ショートカットの場所",
+      "There is a shortcut to the Bramble Archives involving a gear interface not far from the starting fire.": "最初の炎からそう遠くないインターフェースを使ったイバラ記録保管所へのショートカットがある。",
+      "I found the shortcut to the Bramble Archives not far from the starting fire.": "最初の炎からそう遠くないところでイバラ記録保管所へのショートカットを見つけた。",
+
       //crimson
       "Velvet Vortex": "ビロードの息吹",
       "A Crimson Gas Giant?": "真っ赤なガス巨星？",
